@@ -11,8 +11,8 @@ cast: []
 filmarks_url: null
 filmarks_id: null
 review_date: '2017-06-28 00:00:29'
-rating: 5.0
-rating_display: 5点
+rating: 4.0
+rating_display: 4点
 rating_original: POINT：★★
 short_review: これは見事なZ級。
 source: FC2

@@ -20,7 +20,6 @@ HEADLINE_OVERRIDES_PATH = OVERRIDES_PATH.with_name('approved-headline-overrides.
 APPROVED_HEADLINES = {int(k):v for k,v in json.loads(HEADLINE_OVERRIDES_PATH.read_text(encoding='utf-8')).items()}
 APPROVED_RATINGS = {738: 2.0, 1166: 2.9}
 APPROVED_TYPO_PREFIXES = {2252: '強'}
-PENDING_RATING_RULE = {2252: '「強」は誤字と確認済み。★・☆の新換算ルールの適用を確認'}
 APPROVED_TRAILING_TEXT_REMOVALS = {3189: '0'}
 DATE_OVERRIDES = {3097: '2008-12-14 05:45:52'}
 PREFIX = re.compile(r'^(?:POINT|ＰＯＩＮＴ|POIMT|PONT|POINR|POIONT|POIT)\s*[:：]?\s*', re.I)
@@ -118,8 +117,9 @@ def parse_headline(headline,record):
         end=m.end()
         note=re.match(r'^[（(][^()（）]*[)）]',rest[end:])
         if note:end+=note.end()
-        value=3+symbols.count('★')+0.5*symbols.count('☆')-symbols.count('×')-0.5*symbols.count('△')
-        return min(5.0,float(value)),original[:prefix_len+end],rest[end:].lstrip() or None,None
+        # Tenths keep the approved 0.3 increment exact while calculating.
+        value_tenths=30+5*symbols.count('★')+3*symbols.count('☆')-10*symbols.count('×')-5*symbols.count('△')
+        return min(50,value_tenths)/10,original[:prefix_len+end],rest[end:].lstrip() or None,None
     if re.search(r'\d(?:\.\d+)?\s*(?:点|or)',rest):return None,None,None,'冒頭評価が通常形式でない'
     return None,original[:prefix_len] or None,rest.strip() or None,None
 
@@ -206,8 +206,6 @@ def migrate(source,output,audit_dir):
             holds.append(dict(record=number,title=src_title,date=src_date,reason='上映会・映画祭・舞台等：記事ごとに確認',source_body=body));continue
         if number in ARTICLE_CHECKS and number not in APPROVED_HEADLINES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason=ARTICLE_CHECKS[number],source_body=body));continue
-        if number in PENDING_RATING_RULE:
-            holds.append(dict(record=number,title=src_title,date=src_date,reason=PENDING_RATING_RULE[number],source_body=body));continue
         try:
             headline,fragment,span,boundary=extract_source(body,number)
             converted=visible(fragment,True)
@@ -270,7 +268,7 @@ def migrate(source,output,audit_dir):
     stats['生成Markdown']=len(items);stats['ユーザー指定除外']=len(excluded);stats['個別確認待ち']=len(holds)
     result=dict(source_sha256=hashlib.sha256(raw).hexdigest(),counts=dict(stats),excluded=excluded,holds=holds,verification=verifications)
     (audit_dir/'fc2-import-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES),approved_headline_overrides_file='migration/approved-headline-overrides.json',approved_headline_override_records=sorted(APPROVED_HEADLINES),approved_typo_prefix_removals=APPROVED_TYPO_PREFIXES,approved_trailing_text_removals=APPROVED_TRAILING_TEXT_REMOVALS,pending_rating_rule_records=sorted(PENDING_RATING_RULE)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES),approved_headline_overrides_file='migration/approved-headline-overrides.json',approved_headline_override_records=sorted(APPROVED_HEADLINES),approved_typo_prefix_removals=APPROVED_TYPO_PREFIXES,approved_trailing_text_removals=APPROVED_TRAILING_TEXT_REMOVALS,pending_rating_rule_records=[],symbol_rating_rule=dict(approved_date='2026-10-08',baseline=3,star_increment=0.5,half_star_increment=0.3,cross_increment=-1,triangle_increment=-0.5,parenthetical_bonus_included=True,maximum=5,unrated_symbol_value=3)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (audit_dir/'fc2-holds.csv').open('w',encoding='utf-8-sig',newline='') as fh:
         writer=csv.writer(fh);writer.writerow(['レコード番号','旧記事タイトル','元投稿日','確認理由'])
         for item in holds:writer.writerow([item['record'],item['title'],item['date'],item['reason']])

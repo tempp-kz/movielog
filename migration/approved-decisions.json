@@ -37,7 +37,16 @@
   "approved_trailing_text_removals": {
     "3189": "0"
   },
-  "pending_rating_rule_records": [
-    2252
-  ]
+  "pending_rating_rule_records": [],
+  "symbol_rating_rule": {
+    "approved_date": "2026-10-08",
+    "baseline": 3,
+    "star_increment": 0.5,
+    "half_star_increment": 0.3,
+    "cross_increment": -1,
+    "triangle_increment": -0.5,
+    "parenthetical_bonus_included": true,
+    "maximum": 5,
+    "unrated_symbol_value": 3
+  }
 }

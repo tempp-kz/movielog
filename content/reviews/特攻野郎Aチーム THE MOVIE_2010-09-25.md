@@ -11,8 +11,8 @@ cast: []
 filmarks_url: null
 filmarks_id: null
 review_date: '2010-09-25 00:08:54'
-rating: 5.0
-rating_display: 5点
+rating: 4.0
+rating_display: 4点
 rating_original: POINR：★★
 short_review: ばかっぽくていい。
 source: FC2

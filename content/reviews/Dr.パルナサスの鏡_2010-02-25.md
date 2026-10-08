@@ -11,8 +11,8 @@ cast: []
 filmarks_url: null
 filmarks_id: null
 review_date: '2010-02-25 01:18:40'
-rating: 4.0
-rating_display: 4点
+rating: 3.5
+rating_display: 3.5点
 rating_original: POINT：★
 short_review: 思ったよりデップの出番はない。
 source: FC2

@@ -11,8 +11,8 @@ cast: []
 filmarks_url: null
 filmarks_id: null
 review_date: '2012-01-26 00:00:38'
-rating: 5.0
-rating_display: 5点
+rating: 4.0
+rating_display: 4点
 rating_original: POINT：★★
 short_review: おばあちゃんがいっていたァ！
 source: FC2

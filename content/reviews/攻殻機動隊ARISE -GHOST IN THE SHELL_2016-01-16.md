@@ -11,8 +11,8 @@ cast: []
 filmarks_url: null
 filmarks_id: null
 review_date: '2016-01-16 00:00:56'
-rating: 3.5
-rating_display: 3.5点
+rating: 3.3
+rating_display: 3.3点
 rating_original: POINT：☆
 short_review: 音楽の方向性がかわった気がする。
 source: FC2
