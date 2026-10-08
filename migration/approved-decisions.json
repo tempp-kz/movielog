@@ -24,5 +24,20 @@
   "approved_body_override_records": [
     1049,
     1087
+  ],
+  "approved_headline_overrides_file": "migration/approved-headline-overrides.json",
+  "approved_headline_override_records": [
+    116,
+    747,
+    1109
+  ],
+  "approved_typo_prefix_removals": {
+    "2252": "強"
+  },
+  "approved_trailing_text_removals": {
+    "3189": "0"
+  },
+  "pending_rating_rule_records": [
+    2252
   ]
 }

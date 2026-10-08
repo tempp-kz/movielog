@@ -16,7 +16,12 @@ EXPECTED_SOURCE_SHA256 = 'f7827e377e57abf5707f033bd653965368fc72a500fe7c945807f1
 EXCLUDED = {484, 830, 894, 1004, 1007, 1784}
 OVERRIDES_PATH = Path(__file__).resolve().parent.parent/'migration/approved-article-overrides.json'
 APPROVED_ARTICLES = {int(k):v for k,v in json.loads(OVERRIDES_PATH.read_text(encoding='utf-8')).items()}
+HEADLINE_OVERRIDES_PATH = OVERRIDES_PATH.with_name('approved-headline-overrides.json')
+APPROVED_HEADLINES = {int(k):v for k,v in json.loads(HEADLINE_OVERRIDES_PATH.read_text(encoding='utf-8')).items()}
 APPROVED_RATINGS = {738: 2.0, 1166: 2.9}
+APPROVED_TYPO_PREFIXES = {2252: '強'}
+PENDING_RATING_RULE = {2252: '「強」は誤字と確認済み。★・☆の新換算ルールの適用を確認'}
+APPROVED_TRAILING_TEXT_REMOVALS = {3189: '0'}
 DATE_OVERRIDES = {3097: '2008-12-14 05:45:52'}
 PREFIX = re.compile(r'^(?:POINT|ＰＯＩＮＴ|POIMT|PONT|POINR|POIONT|POIT)\s*[:：]?\s*', re.I)
 MEDIA = {'映画','DVD','BS','試写会','gyao','民放','TV','レンタル','WOWOW','ビデオ','CATV','KML飛行機','ヤフ動','ﾔﾌ動','DVD試写','DVD試写会','DVDコンペ','ヤフ動画','ヤフー動画','公開','民放吹替','英語','映画館','テレ朝','字幕','吹替','VHS','nwa','NW','FC','試写会:自主制作'}
@@ -77,7 +82,17 @@ def clean_title(title, record=None):
 
 def parse_headline(headline,record):
     original=headline
+    if record in APPROVED_HEADLINES:
+        approved=APPROVED_HEADLINES[record]
+        if headline!=approved['source_headline']:
+            raise ValueError('Approved headline source differs')
+        return approved['rating'],approved['rating_original'],approved['short_review'],None
     rest=headline
+    if record in APPROVED_TYPO_PREFIXES:
+        typo=APPROVED_TYPO_PREFIXES[record]
+        if not rest.startswith(typo+'POINT：'):
+            raise ValueError('Approved typo prefix source differs')
+        rest=rest[len(typo):]
     while True:
         match=PREFIX.match(rest)
         if not match:break
@@ -124,7 +139,7 @@ def outer_table_end(body,position):
         if level==0:return t.end()
     raise ValueError('Table is not closed')
 
-def extract_source(body):
+def extract_source(body,record=None):
     hrs=list(re.finditer(r'<hr\b[^>]*>',body,re.I))
     if len(hrs)==1:
         table=re.search(r'<table\b',body,re.I)
@@ -156,9 +171,16 @@ def extract_source(body):
     if not visible(cell_fragment) and visible(body[table_end:]):
         begin=table_end
         return headline,body[begin:],(begin,len(body)),'横線後の空セルを通過・テーブル後の本人本文'
-    if visible(body[table_end:]):raise ValueError('本人本文の左セルとは別にテーブル後にも文字がある：末尾を個別確認')
+    tail=visible(body[table_end:])
+    if record in APPROVED_TRAILING_TEXT_REMOVALS:
+        if tail!=APPROVED_TRAILING_TEXT_REMOVALS[record]:
+            raise ValueError('Approved trailing text source differs')
+    elif tail:raise ValueError('本人本文の左セルとは別にテーブル後にも文字がある：末尾を個別確認')
     if re.search(r'amazon\.co\.jp|rakuten\.co\.jp|<img\b|<iframe\b|<script\b',cell_fragment,re.I):raise ValueError('External image/ad exists in candidate review cell')
-    return headline,cell_fragment,(begin,end),'左セルの本人本文・右セルの商品広告を除外'
+    boundary='左セルの本人本文・右セルの商品広告を除外'
+    if record in APPROVED_TRAILING_TEXT_REMOVALS:
+        boundary+='・テーブル後の単独「0」はユーザー指定で除外'
+    return headline,cell_fragment,(begin,end),boundary
 
 def make_metadata(title,date,rating,rating_original,short):
     return dict(type='review',title=title,reading=None,reading_status='未調査',release_date=None,release_year=None,genres=[],directors=[],cast=[],filmarks_url=None,filmarks_id=None,review_date=date,rating=rating,rating_display=format(rating,'g')+'点' if rating is not None else None,rating_original=rating_original,short_review=short,source='FC2',source_url=None,image=None)
@@ -182,10 +204,12 @@ def migrate(source,output,audit_dir):
         body=re.search(r'(?ms)^BODY:\r?\n(.*?)(?=^-----\r?$|\Z)',block).group(1)
         if EVENT.search(src_title) and number not in APPROVED_ARTICLES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason='上映会・映画祭・舞台等：記事ごとに確認',source_body=body));continue
-        if number in ARTICLE_CHECKS:
+        if number in ARTICLE_CHECKS and number not in APPROVED_HEADLINES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason=ARTICLE_CHECKS[number],source_body=body));continue
+        if number in PENDING_RATING_RULE:
+            holds.append(dict(record=number,title=src_title,date=src_date,reason=PENDING_RATING_RULE[number],source_body=body));continue
         try:
-            headline,fragment,span,boundary=extract_source(body)
+            headline,fragment,span,boundary=extract_source(body,number)
             converted=visible(fragment,True)
             if signature(converted)!=signature(visible(fragment)):raise ValueError('Visible characters changed')
             if not converted:raise ValueError('Empty review body')
@@ -246,7 +270,7 @@ def migrate(source,output,audit_dir):
     stats['生成Markdown']=len(items);stats['ユーザー指定除外']=len(excluded);stats['個別確認待ち']=len(holds)
     result=dict(source_sha256=hashlib.sha256(raw).hexdigest(),counts=dict(stats),excluded=excluded,holds=holds,verification=verifications)
     (audit_dir/'fc2-import-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES),approved_headline_overrides_file='migration/approved-headline-overrides.json',approved_headline_override_records=sorted(APPROVED_HEADLINES),approved_typo_prefix_removals=APPROVED_TYPO_PREFIXES,approved_trailing_text_removals=APPROVED_TRAILING_TEXT_REMOVALS,pending_rating_rule_records=sorted(PENDING_RATING_RULE)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (audit_dir/'fc2-holds.csv').open('w',encoding='utf-8-sig',newline='') as fh:
         writer=csv.writer(fh);writer.writerow(['レコード番号','旧記事タイトル','元投稿日','確認理由'])
         for item in holds:writer.writerow([item['record'],item['title'],item['date'],item['reason']])
