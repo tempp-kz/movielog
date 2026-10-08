@@ -1,0 +1,23 @@
+---
+type: review
+title: チレラマ CHILLERAMA
+reading: null
+reading_status: 未調査
+release_date: null
+release_year: null
+genres: []
+directors: []
+cast: []
+filmarks_url: null
+filmarks_id: null
+review_date: '2017-06-28 00:00:29'
+rating: 5.0
+rating_display: 5点
+rating_original: POINT：★★
+short_review: これは見事なZ級。
+source: FC2
+source_url: null
+image: null
+---
+
+なんかもう作品タイトルからアレよね。このタイトルだけで好きな人は好きだろうけど、ダメな人はだめだろうというのが一発でわかる作品です。冒頭からゴシックホラーを装いながらゾンビにチン○食いちぎられてるとかゆるくてたまらん。清々しいまでの馬鹿馬鹿しさです。ワジラは尻怪獣アスラ的な感じだし、クマ男はイケメンが黒歴史的に恥ずかしい歌と踊りを披露するとか。まばらな人数で揃った動きなのもわざととするとなんと計算高いんだろうか。クマ男に引いてるのかヲッサンのの格好に引いてるのか判断がつかない。３作目のアンネ・フランケンシュタインもますますひどく、ちぎった腕で殴られるとかなんというドリフ。４作目はまじめな顔でうん○を連呼する話で、これは、、、実にひどい。どれもタイトル落ち感がひどいですが、Z級好き以外には間違っても勧めません。
