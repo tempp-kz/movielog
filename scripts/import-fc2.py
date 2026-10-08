@@ -13,7 +13,7 @@ import unicodedata
 import yaml
 
 EXPECTED_SOURCE_SHA256 = 'f7827e377e57abf5707f033bd653965368fc72a500fe7c945807f15b177abef4'
-EXCLUDED = {484, 830, 894, 1004, 1007, 1784}
+EXCLUDED = {484, 830, 894, 1004, 1007, 1342, 1784, 2587, 2814}
 OVERRIDES_PATH = Path(__file__).resolve().parent.parent/'migration/approved-article-overrides.json'
 APPROVED_ARTICLES = {int(k):v for k,v in json.loads(OVERRIDES_PATH.read_text(encoding='utf-8')).items()}
 HEADLINE_OVERRIDES_PATH = OVERRIDES_PATH.with_name('approved-headline-overrides.json')
