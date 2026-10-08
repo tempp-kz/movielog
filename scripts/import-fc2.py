@@ -63,8 +63,9 @@ def clean_title(title, record=None):
         return m.group(0)
     title=re.sub(r'[（(]([^()（）]*)[)）]',parenthetical,title)
     title=re.sub(r'[\s　]*[\[［][12]\d{3}年[\]］]','',title)
-    title=re.sub(r'[\s　]*(?:[0-9０-９]{1,2}[/／-][0-9０-９]{1,2}日?|[0-9０-９]+年)?[0-9０-９]{1,2}月(?:[0-9０-９]{1,2}日|上旬|中旬|下旬)?公開\s*$','',title)
-    title=re.sub(r'[\s　]*(?:[0-9０-９]{1,2}[/／-][0-9０-９]{1,2}日?|正月|初冬|今秋|秋|GW)公開\s*$','',title,flags=re.I)
+    title=re.sub(r'[\s　]*(?:[0-9０-９]{1,2}[/／-][0-9０-９]{1,2}日?|[0-9０-９]+年)?[0-9０-９]{1,2}月(?:[0-9０-９]{1,2}日|上旬|中旬|下旬)?(?:公開|公式)\s*$','',title)
+    title=re.sub(r'[\s　]*(?:[0-9０-９]{1,2}[/／-][0-9０-９]{1,2}日?|正月|初冬|今秋|秋|GW)(?:公開|公式)\s*$','',title,flags=re.I)
+    title=re.sub(r'[\s　]+[0-9０-９]{1,2}月(?:上旬|中旬|下旬)\s*$','',title)
     title=re.sub(r'[・\s　]+(?:字幕版|吹替版|字幕|吹替)\s*$','',title)
     title=re.sub(r'(?:[\s　]+(?:[12]\d{3}年|DVD|ＤＶＤ|BS|ＢＳ|TV|ＴＶ|吹替|字幕|[1-9１-９]回目))+\s*$','',title,flags=re.I)
     # Removing a viewing parenthesis can leave an adjacent release year without whitespace.
