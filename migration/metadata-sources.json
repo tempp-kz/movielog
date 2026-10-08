@@ -1,0 +1,89 @@
+{
+  "purpose": "確認した出典と文字保全の記録。映画情報の正本は各Markdownのfrontmatter。",
+  "articles": [
+    {
+      "file": "content/reviews/コンスタンティン_2005-04-14.md",
+      "checked_at": "2026-10-08",
+      "filmarks_url": "https://filmarks.com/movies/16983",
+      "filmarks_html_sha256": "cd9b1b428a376a0b8256d083b0bf18482014a2f9eea45ef5a07d26cc8d5f7863",
+      "all_directors_match_dom": true,
+      "all_cast_match_dom": true,
+      "cast_count": 12,
+      "reading_source_url": "https://ja.wikipedia.org/wiki/コンスタンティン_(映画)",
+      "reading_evidence": "カタカナの作品名をひらがなへ転記",
+      "reading_lookup_order": [
+        {
+          "source": "JFDB",
+          "result": "当該作品の該当ページなし"
+        },
+        {
+          "source": "Wikipedia",
+          "result": "カタカナの作品名を確認"
+        }
+      ],
+      "body_sha256_before": "3fd07ef6eb9d23ef10681748cc552df8e6b63f8d2dbb243d3b039a731b60cf72",
+      "body_sha256_after": "3fd07ef6eb9d23ef10681748cc552df8e6b63f8d2dbb243d3b039a731b60cf72",
+      "protected_fields_unchanged": true
+    },
+    {
+      "file": "content/reviews/感染_2004-10-13.md",
+      "checked_at": "2026-10-08",
+      "filmarks_url": "https://filmarks.com/movies/19511",
+      "filmarks_html_sha256": "458693e231ac73af70e5051fe882c990206caaae3fcfa5745070395bc32926db",
+      "all_directors_match_dom": true,
+      "all_cast_match_dom": true,
+      "cast_count": 11,
+      "reading_source_url": "https://www.nikkatsu.com/movie/26958.html",
+      "reading_evidence": "日活の作品名読み",
+      "reading_lookup_order": [
+        {
+          "source": "JFDB",
+          "result": "当該作品の該当ページなし（感染列島は別作品として除外）"
+        },
+        {
+          "source": "Wikipedia",
+          "result": "映画情報はあるが明示的な読みなし"
+        },
+        {
+          "source": "公式サイト等",
+          "result": "日活で明示的な読みを確認"
+        }
+      ],
+      "body_sha256_before": "52a6b0c5c5aeb6952980ff3eefbc2fa06b6f45e8d5a4ff851e2f5aee9c105e39",
+      "body_sha256_after": "52a6b0c5c5aeb6952980ff3eefbc2fa06b6f45e8d5a4ff851e2f5aee9c105e39",
+      "protected_fields_unchanged": true
+    },
+    {
+      "file": "content/reviews/予言_2004-10-13.md",
+      "checked_at": "2026-10-08",
+      "filmarks_url": "https://filmarks.com/movies/10927",
+      "filmarks_html_sha256": "fd8ecae4122dfbb5f990e3da3e29072fcc9557c106dccd4d5a1ff3062e634e6a",
+      "all_directors_match_dom": true,
+      "all_cast_match_dom": true,
+      "cast_count": 11,
+      "reading_source_url": "https://sp.kinenote.com/main/public/cinema/detail.aspx?cinema_id=35978",
+      "reading_evidence": "KINENOTEの検索取得結果に「予言(2004)」「よげん」、公開日2004/10/2、監督鶴田法男を確認。直接ページ取得はリダイレクトエラー。",
+      "reading_lookup_order": [
+        {
+          "source": "JFDB",
+          "result": "当該作品の該当ページなし"
+        },
+        {
+          "source": "Wikipedia",
+          "result": "映画情報はあるが明示的な読みなし"
+        },
+        {
+          "source": "公式サイト等",
+          "result": "鶴田法男公式フィルモグラフィーで作品を確認、明示的な読みなし"
+        },
+        {
+          "source": "一般検索",
+          "result": "KINENOTEで作品と明示的な読みを確認"
+        }
+      ],
+      "body_sha256_before": "6713c6903922e8ee5041c8eec9f6cf4972f7aa03e647a29bd4f3589e51140412",
+      "body_sha256_after": "6713c6903922e8ee5041c8eec9f6cf4972f7aa03e647a29bd4f3589e51140412",
+      "protected_fields_unchanged": true
+    }
+  ]
+}

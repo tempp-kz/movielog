@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light;
+  --ink: #28251f;
+  --muted: #746f66;
+  --line: #e3ded5;
+  --paper: #faf8f4;
+  --accent: #785a37;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif; line-height: 1.75; }
+a { color: inherit; text-underline-offset: .2em; }
+a:hover { color: var(--accent); }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.skip-link { position: absolute; left: 1rem; top: -8rem; background: white; padding: .5rem 1rem; z-index: 3; }
+.skip-link:focus { top: 1rem; }
+.site-header { background: #fff; border-bottom: 1px solid var(--line); }
+.header-inner, .site-main, .site-footer { max-width: 1040px; margin-inline: auto; padding-inline: 32px; }
+.header-inner { padding-block: 27px 19px; }
+.site-name { font-size: 22px; letter-spacing: .03em; font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 7px 23px; margin-top: 17px; font-size: 14px; }
+nav a { text-decoration: none; padding-bottom: 3px; }
+nav a[aria-current] { border-bottom: 2px solid var(--accent); color: var(--accent); font-weight: 600; }
+.site-main { padding-block: 42px 56px; }
+.page-heading { margin-bottom: 25px; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { margin-bottom: 12px; font-size: 27px; line-height: 1.5; font-weight: 700; overflow-wrap: anywhere; }
+.page-heading p, .eyebrow { margin-bottom: 0; color: var(--muted); font-size: 14px; }
+.card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 27px; }
+.review-card { background: #fff; border: 1px solid var(--line); border-radius: 5px; overflow: hidden; }
+.card-image { display: block; padding: 13px 13px 0; }
+.card-image img { display: block; width: 100%; height: auto; aspect-ratio: 1280/670; object-fit: contain; background: #fff; }
+.card-content { padding: 19px 23px 22px; }
+.article-meta, .list-meta { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: 12px; }
+.article-type { font-size: 11px; border: 1px solid var(--line); border-radius: 3px; padding: 0 6px; line-height: 1.8; background: var(--paper); }
+.rating { color: var(--accent); font-size: 15px; font-weight: 700; margin-left: auto; white-space: nowrap; }
+.review-card h2 { margin-block: 12px 8px; font-size: 19px; line-height: 1.55; overflow-wrap: anywhere; }
+.review-card h2 a { text-decoration: none; }
+.short-review { margin-bottom: 0; font-size: 14px; line-height: 1.85; white-space: pre-wrap; overflow-wrap: anywhere; }
+.full-article { max-width: 740px; margin-inline: auto; }
+.article-heading h1 { margin-top: 16px; font-size: 30px; }
+.article-heading .article-meta { max-width: 460px; }
+.article-image { display: block; width: 100%; height: auto; max-height: 440px; object-fit: contain; margin-block: 25px 30px; }
+.article-short { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 18px; line-height: 1.8; font-weight: 600; padding-left: 18px; border-left: 3px solid var(--accent); margin-bottom: 32px; }
+.article-body { font-size: 16px; line-height: 2; overflow-wrap: anywhere; }
+.article-body p { margin-bottom: 1.5em; }
+.article-body h2 { margin-top: 2em; font-size: 22px; }
+.article-body h3 { margin-top: 1.8em; font-size: 19px; }
+.article-body img { max-width: 100%; height: auto; }
+.article-body pre { overflow-x: auto; background: #efece5; padding: 16px; border-radius: 4px; }
+.article-body blockquote { margin-inline: 0; border-left: 3px solid var(--line); padding-left: 20px; }
+.article-body table { border-collapse: collapse; display: block; max-width: 100%; overflow-x: auto; }
+.article-body td, .article-body th { padding: 8px 12px; border: 1px solid var(--line); }
+.metadata-section, .related { margin-top: 40px; padding-top: 27px; border-top: 1px solid var(--line); }
+.metadata-section h2, .related h2, .index-section h2 { font-size: 20px; margin-bottom: 18px; }
+.metadata-section h3 { font-size: 16px; margin-bottom: 12px; }
+.film-metadata { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 12px 20px; font-size: 14px; margin-bottom: 24px; }
+.film-metadata dt { color: var(--muted); }
+.film-metadata dd { margin: 0; overflow-wrap: anywhere; }
+details { margin-top: 8px; }
+summary { cursor: pointer; color: var(--muted); margin-bottom: 7px; }
+.source { color: var(--muted); font-size: 13px; margin-bottom: 0; }
+.index-section { margin-top: 32px; }
+.count { margin-left: 12px; color: var(--muted); font-size: 12px; font-weight: 400; white-space: nowrap; }
+.article-list, .term-list { list-style: none; margin: 0; padding: 0; }
+.article-list { border-top: 1px solid var(--line); }
+.article-list li { display: flex; gap: 20px; align-items: baseline; justify-content: space-between; padding-block: 15px; border-bottom: 1px solid var(--line); }
+.list-title { font-size: 15px; overflow-wrap: anywhere; text-decoration: none; }
+.list-meta { flex-shrink: 0; gap: 10px; }
+.list-meta .rating { font-size: 13px; }
+.term-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.term-list a { display: flex; align-items: baseline; justify-content: space-between; padding: 15px; border: 1px solid var(--line); background: #fff; border-radius: 4px; text-decoration: none; font-size: 14px; overflow-wrap: anywhere; }
+.empty { color: var(--muted); padding-block: 15px; }
+.site-footer { border-top: 1px solid var(--line); padding-block: 23px 32px; color: var(--muted); font-size: 13px; }
+@media (max-width: 660px) {
+  .header-inner, .site-main, .site-footer { padding-inline: 20px; }
+  .header-inner { padding-block: 20px 16px; }
+  .site-name { font-size: 18px; }
+  nav { gap: 8px 17px; font-size: 13px; margin-top: 14px; }
+  .site-main { padding-block: 29px 40px; }
+  h1 { font-size: 23px; }
+  .card-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .card-content { padding: 17px 18px 20px; }
+  .review-card h2 { font-size: 18px; }
+  .article-heading h1 { font-size: 26px; }
+  .article-short { font-size: 17px; }
+  .article-body { font-size: 15px; }
+  .film-metadata { grid-template-columns: 60px minmax(0, 1fr); gap: 12px; }
+  .article-list li { display: block; padding-block: 13px; }
+  .list-meta { margin-top: 5px; }
+  .list-meta .rating { margin-left: 0; }
+  .term-list { grid-template-columns: minmax(0, 1fr); gap: 11px; }
+}
