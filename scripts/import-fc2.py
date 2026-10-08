@@ -12,7 +12,10 @@ import re
 import unicodedata
 import yaml
 
-EXCLUDED = {484, 894, 1004, 1784}
+EXPECTED_SOURCE_SHA256 = 'f7827e377e57abf5707f033bd653965368fc72a500fe7c945807f15b177abef4'
+EXCLUDED = {484, 830, 894, 1004, 1007, 1784}
+OVERRIDES_PATH = Path(__file__).resolve().parent.parent/'migration/approved-article-overrides.json'
+APPROVED_ARTICLES = {int(k):v for k,v in json.loads(OVERRIDES_PATH.read_text(encoding='utf-8')).items()}
 APPROVED_RATINGS = {738: 2.0, 1166: 2.9}
 DATE_OVERRIDES = {3097: '2008-12-14 05:45:52'}
 PREFIX = re.compile(r'^(?:POINT|ＰＯＩＮＴ|POIMT|PONT|POINR|POIONT|POIT)\s*[:：]?\s*', re.I)
@@ -162,6 +165,8 @@ def make_metadata(title,date,rating,rating_original,short):
 
 def migrate(source,output,audit_dir):
     raw=source.read_bytes();text=raw.decode('utf-8-sig')
+    if hashlib.sha256(raw).hexdigest()!=EXPECTED_SOURCE_SHA256:
+        raise ValueError('FC2log.txt differs from the source used for these record-specific approvals')
     if output.exists() and any(output.iterdir()):raise ValueError('Output directory must be empty')
     output.mkdir(parents=True,exist_ok=True);audit_dir.mkdir(parents=True,exist_ok=True)
     items=[];holds=[];excluded=[];verifications=[];stats=Counter()
@@ -175,7 +180,7 @@ def migrate(source,output,audit_dir):
         if number in EXCLUDED:
             excluded.append(dict(record=number,title=src_title,date=src_date,reason='ユーザー指定で対象外'));continue
         body=re.search(r'(?ms)^BODY:\r?\n(.*?)(?=^-----\r?$|\Z)',block).group(1)
-        if EVENT.search(src_title):
+        if EVENT.search(src_title) and number not in APPROVED_ARTICLES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason='上映会・映画祭・舞台等：記事ごとに確認',source_body=body));continue
         if number in ARTICLE_CHECKS:
             holds.append(dict(record=number,title=src_title,date=src_date,reason=ARTICLE_CHECKS[number],source_body=body));continue
@@ -185,7 +190,13 @@ def migrate(source,output,audit_dir):
             if signature(converted)!=signature(visible(fragment)):raise ValueError('Visible characters changed')
             if not converted:raise ValueError('Empty review body')
             if re.search(r'<img\b|<iframe\b|<script\b|amazon\.co\.jp|rakuten\.co\.jp',fragment,re.I):raise ValueError('External asset/ad remains')
-            if number==210:
+            if number in APPROVED_ARTICLES:
+                _,rating_original,_,error=parse_headline(headline,number)
+                if error:raise ValueError(error)
+                data=[(a['title'],a['rating'],a['short_review'],a['body']) for a in APPROVED_ARTICLES[number]['articles']]
+                stats['承認済み本文差替元記事']+=1
+                if len(data)>1:stats['承認済み分割元記事']+=1
+            elif number==210:
                 m=re.fullmatch(r'(.*?)\n\n『感染』\n(.*?)\n\n『予言』\n(.*)',converted,re.S)
                 if not m:raise ValueError('Approved split source headings changed')
                 shared,one,two=m.groups()
@@ -203,8 +214,13 @@ def migrate(source,output,audit_dir):
                 name=title.translate(WINDOWS_CHARS).rstrip('. ')+'_'+date[:10]+'.md'
                 items.append(dict(record=number,name=name,metadata=meta,body=converted_body,source_title=src_title))
                 output_names.append(name)
-            verifications.append(dict(record=number,source_title=src_title,source_date=src_date,review_date=date,source_span=span,boundary=boundary,visible_sha256=hashlib.sha256(signature(visible(fragment)).encode()).hexdigest(),split=(number==210),outputs=output_names))
-            stats['抽出元記事']+=1;stats['本文文字一致']+=1
+            verification=dict(record=number,source_title=src_title,source_date=src_date,review_date=date,source_span=span,boundary=boundary,visible_sha256=hashlib.sha256(signature(visible(fragment)).encode()).hexdigest(),split=(len(data)>1),outputs=output_names)
+            if number in APPROVED_ARTICLES:
+                verification['body_origin']='ユーザー指定本文・2026-10-08'
+                verification['approved_body_sha256']={name:hashlib.sha256(article['body'].encode('utf-8')).hexdigest() for name,article in zip(output_names,APPROVED_ARTICLES[number]['articles'])}
+            verifications.append(verification)
+            stats['抽出元記事']+=1
+            if number not in APPROVED_ARTICLES:stats['本文文字一致']+=1
         except ValueError as exc:
             holds.append(dict(record=number,title=src_title,date=src_date,reason=str(exc),source_body=body))
     names=Counter(x['name'].casefold() for x in items)
@@ -223,11 +239,14 @@ def migrate(source,output,audit_dir):
         fm,out_body=p.read_text(encoding='utf-8')[4:].split('\n---\n',1)
         assert yaml.safe_load(fm)==item['metadata']
         assert signature(out_body)==signature(item['body'])
+        if item['record'] in APPROVED_ARTICLES:
+            assert out_body.strip('\n')==item['body']
+            stats['ユーザー指定本文一致ファイル']+=1
     assert stats['公開映画カテゴリ']==len(excluded)+len(holds)+stats['抽出元記事']
     stats['生成Markdown']=len(items);stats['ユーザー指定除外']=len(excluded);stats['個別確認待ち']=len(holds)
     result=dict(source_sha256=hashlib.sha256(raw).hexdigest(),counts=dict(stats),excluded=excluded,holds=holds,verification=verifications)
     (audit_dir/'fc2-import-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字'),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (audit_dir/'fc2-holds.csv').open('w',encoding='utf-8-sig',newline='') as fh:
         writer=csv.writer(fh);writer.writerow(['レコード番号','旧記事タイトル','元投稿日','確認理由'])
         for item in holds:writer.writerow([item['record'],item['title'],item['date'],item['reason']])

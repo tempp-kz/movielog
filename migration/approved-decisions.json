@@ -1,8 +1,10 @@
 {
   "excluded_records": [
     484,
+    830,
     894,
     1004,
+    1007,
     1784
   ],
   "rating_overrides": {
@@ -17,5 +19,10 @@
     "予言と同時に見た。",
     "感染と同時に見た。"
   ],
-  "windows_filename_characters": "対応する全角文字"
+  "windows_filename_characters": "対応する全角文字",
+  "approved_body_overrides_file": "migration/approved-article-overrides.json",
+  "approved_body_override_records": [
+    1049,
+    1087
+  ]
 }
