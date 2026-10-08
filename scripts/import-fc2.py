@@ -26,6 +26,28 @@ PREFIX = re.compile(r'^(?:POINT|ＰＯＩＮＴ|POIMT|PONT|POINR|POIONT|POIT)\s*
 MEDIA = {'映画','DVD','BS','試写会','gyao','民放','TV','レンタル','WOWOW','ビデオ','CATV','KML飛行機','ヤフ動','ﾔﾌ動','DVD試写','DVD試写会','DVDコンペ','ヤフ動画','ヤフー動画','公開','民放吹替','英語','映画館','テレ朝','字幕','吹替','VHS','nwa','NW','FC','試写会:自主制作'}
 WINDOWS_CHARS = str.maketrans({'\\':'＼','/':'／',':':'：','*':'＊','?':'？','"':'＂','<':'＜','>':'＞','|':'｜'})
 EVENT = re.compile(r'上映会|映画祭|フィルムフェスティバル|フィルメックス|シネシティ|ミュージカル|劇団|美術展|DigitalTiff|ホラーフェス|ヴェンダース.*コレクション|[（(]\s*(?:ssff|pff|riff|tiff|ticcf|gtf)(?=[\s)）]|プレ|試写)', re.I)
+APPROVED_EVENT_TITLES = {
+    145: '亀も空を飛ぶ',
+    171: '照明熊谷学校',
+    173: 'BUBU AGAIN',
+    479: '東京画',
+    481: 'パリ、テキサス',
+    487: '都市とモードのビデオノート',
+    609: '霧笛',
+    640: 'サウンド・バリア',
+    955: 'ライフ・イズ・ビューティフル',
+    1111: 'ラフ',
+    1115: 'マッチポイント',
+    1181: 'ヨーロッパ特急',
+    1226: '鉄コン筋クリート',
+    1230: '青い春',
+    1232: 'ピンポン',
+    1706: '再会の街で',
+    1761: 'ウォーターホース',
+    1907: 'インサイド／アウトサイド',
+    2137: '解体病棟',
+    2323: '4枚目の似顔絵',
+}
 ARTICLE_CHECKS = {
     116: '評価欄に2.8点と仮定条件の3点：採用する点数を個別確認',
     747: '評価欄に3点と3.05点：採用する点数を個別確認',
@@ -38,6 +60,7 @@ TITLE_OVERRIDES = {
     1881: 'ヘイジャパ',  # Remove the explicitly marked '(略' suffix; do not infer a full title.
     1876: '犬と私の10の約束',  # Remove the schedule and the repeated viewing annotation only.
     3036: '舟を編む',  # A stray '<' follows the DVD/year annotations in the export.
+    **APPROVED_EVENT_TITLES,
 }
 
 class VisibleText(HTMLParser):
@@ -202,7 +225,7 @@ def migrate(source,output,audit_dir):
         if number in EXCLUDED:
             excluded.append(dict(record=number,title=src_title,date=src_date,reason='ユーザー指定で対象外'));continue
         body=re.search(r'(?ms)^BODY:\r?\n(.*?)(?=^-----\r?$|\Z)',block).group(1)
-        if EVENT.search(src_title) and number not in APPROVED_ARTICLES:
+        if EVENT.search(src_title) and number not in APPROVED_ARTICLES and number not in APPROVED_EVENT_TITLES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason='上映会・映画祭・舞台等：記事ごとに確認',source_body=body));continue
         if number in ARTICLE_CHECKS and number not in APPROVED_HEADLINES:
             holds.append(dict(record=number,title=src_title,date=src_date,reason=ARTICLE_CHECKS[number],source_body=body));continue
@@ -268,7 +291,7 @@ def migrate(source,output,audit_dir):
     stats['生成Markdown']=len(items);stats['ユーザー指定除外']=len(excluded);stats['個別確認待ち']=len(holds)
     result=dict(source_sha256=hashlib.sha256(raw).hexdigest(),counts=dict(stats),excluded=excluded,holds=holds,verification=verifications)
     (audit_dir/'fc2-import-audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES),approved_headline_overrides_file='migration/approved-headline-overrides.json',approved_headline_override_records=sorted(APPROVED_HEADLINES),approved_typo_prefix_removals=APPROVED_TYPO_PREFIXES,approved_trailing_text_removals=APPROVED_TRAILING_TEXT_REMOVALS,pending_rating_rule_records=[],symbol_rating_rule=dict(approved_date='2026-10-08',baseline=3,star_increment=0.5,half_star_increment=0.3,cross_increment=-1,triangle_increment=-0.5,parenthetical_bonus_included=True,maximum=5,unrated_symbol_value=3)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (audit_dir/'approved-decisions.json').write_text(json.dumps(dict(excluded_records=sorted(EXCLUDED),rating_overrides=APPROVED_RATINGS,date_overrides=DATE_OVERRIDES,split_record=210,split_short_reviews=['予言と同時に見た。','感染と同時に見た。'],windows_filename_characters='対応する全角文字',approved_body_overrides_file='migration/approved-article-overrides.json',approved_body_override_records=sorted(APPROVED_ARTICLES),approved_headline_overrides_file='migration/approved-headline-overrides.json',approved_headline_override_records=sorted(APPROVED_HEADLINES),approved_typo_prefix_removals=APPROVED_TYPO_PREFIXES,approved_trailing_text_removals=APPROVED_TRAILING_TEXT_REMOVALS,approved_event_review_titles=APPROVED_EVENT_TITLES,pending_rating_rule_records=[],symbol_rating_rule=dict(approved_date='2026-10-08',baseline=3,star_increment=0.5,half_star_increment=0.3,cross_increment=-1,triangle_increment=-0.5,parenthetical_bonus_included=True,maximum=5,unrated_symbol_value=3)),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (audit_dir/'fc2-holds.csv').open('w',encoding='utf-8-sig',newline='') as fh:
         writer=csv.writer(fh);writer.writerow(['レコード番号','旧記事タイトル','元投稿日','確認理由'])
         for item in holds:writer.writerow([item['record'],item['title'],item['date'],item['reason']])
