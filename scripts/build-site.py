@@ -125,6 +125,16 @@ def film_from(data: dict) -> Film:
     year = film.get("release_year")
     if year is not None and (isinstance(year, bool) or not isinstance(year, int)):
         raise ValueError("release_year は年を整数で指定してください。")
+    if year is None:
+        # A known release date supplies its year directly, without filling the source field.
+        release = film.get("release_date")
+        if isinstance(release, date):
+            film["release_year"] = release.year
+        elif isinstance(release, str):
+            try:
+                film["release_year"] = date.fromisoformat(release).year
+            except ValueError:
+                pass
     return Film(film, key)
 
 

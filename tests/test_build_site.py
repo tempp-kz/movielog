@@ -131,6 +131,15 @@ class SiteTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "作品IDと作品URLが一致"):
             site.build(self.root, self.output)
 
+    def test_release_date_alone_is_enough_for_year_index_without_source_changes(self):
+        path = self.add(release_date="2005-04-16", release_year=None)
+        original = path.read_bytes()
+        site.build(self.root, self.output)
+        self.assertIn("2005年", self.read("years/index.html"))
+        self.assertIn("映画A", self.read("years/index.html"))
+        self.assertEqual(path.read_bytes(), original)
+        self.assertIsNone(self.article(path).data["release_year"])
+
     def test_unowned_output_is_not_overwritten(self):
         self.add()
         self.output.mkdir()
