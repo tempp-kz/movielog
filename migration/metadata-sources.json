@@ -165,7 +165,98 @@
       ],
       "body_sha256_before": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
       "body_sha256_after": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/少年_2024-03-30.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "大島渚"
+            ],
+            "cast": [
+              "渡辺文雄",
+              "小山明子",
+              "阿部哲夫",
+              "木下剛志"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 1969,
+            "directors": [
+              "大島渚"
+            ],
+            "cast": [
+              "渡辺文雄",
+              "小山明子",
+              "阿部哲夫",
+              "木下剛志"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn38view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn38view0",
+                  "title": "JFDB - 少年",
+                  "url": "https://jfdb.jp/title/10088",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/15589",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/15589",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/15589",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/15589",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "bf31fa9980d97b7c74a387a01880a40d683c34df1d1312e7161faea65ba005c0",
+          "article_sha256_after": "a2501f86a23f75a72fcf4cb9eb726722b96022724c6d94e80a177a7734357400",
+          "body_sha256_before": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
+          "body_sha256_after": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/ゴッドランド／GODLAND_2024-03-22.md",
@@ -254,7 +345,105 @@
       ],
       "body_sha256_before": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
       "body_sha256_after": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/遠いところ_2024-03-22.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2023,
+            "directors": [
+              "工藤将亮"
+            ],
+            "cast": [
+              "花瀬琴音",
+              "石田夢実",
+              "佐久間祥朗",
+              "長谷川月起",
+              "松岡依都美",
+              "髙橋雄祐",
+              "カトウシンスケ",
+              "中島歩"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "工藤将亮"
+            ],
+            "cast": [
+              "花瀬琴音",
+              "石田夢実",
+              "佐久間祥朗",
+              "長谷川月起",
+              "松岡依都美",
+              "髙橋雄祐",
+              "カトウシンスケ",
+              "中島歩"
+            ],
+            "genres": [
+              "ドラマ",
+              "劇映画"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103663",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103663",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103663",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn38view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn38view1",
+                  "title": "JFDB - 遠いところ",
+                  "url": "https://jfdb.jp/title/9979",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/103663",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "93d39e9470e94c365795130101279458732e3679807514d06f36b4f785244b89",
+          "article_sha256_after": "cdf8065ace898e8dce39b5ed18b9674c2e76ee3677d6fd0791169ad854beb208",
+          "body_sha256_before": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
+          "body_sha256_after": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2023-07-07",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/DUNE／デューン 砂の惑星_2024-03-19.md",
@@ -389,7 +578,113 @@
       ],
       "body_sha256_before": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
       "body_sha256_after": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/終わらない週末_2024-03-15.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "サム・エスメイル"
+            ],
+            "cast": [
+              "ジュリア・ロバーツ",
+              "マハーシャラ・アリ",
+              "イーサン・ホーク",
+              "マイハラ・ヘロルド",
+              "ケヴィン・ベーコン",
+              "ファラ・マッケンジー",
+              "チャーリー・エヴァンス"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "サム・エスメイル"
+            ],
+            "cast": [
+              "ジュリア・ロバーツ",
+              "マハーシャラ・アリ",
+              "イーサン・ホーク",
+              "マイハラ・ヘロルド",
+              "ケヴィン・ベーコン",
+              "ファラ・マッケンジー",
+              "チャーリー・エヴァンス"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn18search6",
+                "turn24view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn18search6",
+                  "title": "終わらない週末 : 作品情報・キャスト・あらすじ - 映画.com",
+                  "url": "https://eiga.com/movie/98801/",
+                  "observed_in": [
+                    "search01"
+                  ]
+                },
+                {
+                  "ref_id": "turn24view1",
+                  "title": "終わらない週末 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E9%80%B1%E6%9C%AB",
+                  "observed_in": [
+                    "open_wiki02"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/107773",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/107773",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/107773",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/107773",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "34f5dc86642b7f4940ce926bc2c2b901827e90993c967b990cb9680ccc47a580",
+          "article_sha256_after": "b4d1f37f764faf367d6670f5ba473d4c5710b1872f518585155b5cf0e3fb786c",
+          "body_sha256_before": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
+          "body_sha256_after": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/牛首村_2024-03-14.md",
@@ -435,7 +730,108 @@
       ],
       "body_sha256_before": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
       "body_sha256_after": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/牛首村_2024-03-14.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2022,
+            "directors": [
+              "清水崇"
+            ],
+            "cast": [
+              "Kōki,",
+              "萩原利久",
+              "高橋文哉",
+              "芋生悠",
+              "大谷凜香",
+              "莉子",
+              "松尾諭",
+              "堀内敬子",
+              "田中直樹",
+              "麿赤兒"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2022,
+            "directors": [
+              "清水崇"
+            ],
+            "cast": [
+              "Kōki,",
+              "萩原利久",
+              "高橋文哉",
+              "芋生悠",
+              "大谷凜香",
+              "莉子",
+              "松尾諭",
+              "堀内敬子",
+              "田中直樹",
+              "麿赤兒"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97575",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97575",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97575",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn22view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn22view0",
+                  "title": "牛首村 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E7%89%9B%E9%A6%96%E6%9D%91",
+                  "observed_in": [
+                    "open_wiki01"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/97575",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "ac30c37116659407506f07a5a0ffc53f495c5327e16de2c90c3a81b06dea239e",
+          "article_sha256_after": "2a2b22126de26d35d24fc2ca3019f2edf60aea282b1aa831fd66457406b0e077",
+          "body_sha256_before": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
+          "body_sha256_after": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2022-02-18",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/バッドランド・ハンターズ_2024-03-12.md",
@@ -482,7 +878,100 @@
       ],
       "body_sha256_before": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
       "body_sha256_after": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/バッドランド・ハンターズ_2024-03-12.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ホ・ミョンヘン"
+            ],
+            "cast": [
+              "マ・ドンソク",
+              "イ・ヒジュン",
+              "イ・ジュニョン",
+              "ノ・ジョンウィ",
+              "アン・ジヘ"
+            ],
+            "genres": [
+              "アクション"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2024,
+            "directors": [
+              "ホ・ミョンヘン"
+            ],
+            "cast": [
+              "マ・ドンソク",
+              "イ・ヒジュン",
+              "イ・ジュニョン",
+              "ノ・ジョンウィ",
+              "アン・ジヘ"
+            ],
+            "genres": [
+              "アクション"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn37view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn37view0",
+                  "title": "バッドランド・ハンターズ : 作品情報・キャスト・あらすじ - 映画.com",
+                  "url": "https://eiga.com/movie/101001/",
+                  "observed_in": [
+                    "open_confirm02"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/113221",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/113221",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/113221",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/113221",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "77c6068ec6337cbd9b5111622d325f7f971b5025535e582d3a559856b1b67d2d",
+          "article_sha256_after": "1b574b4094687b8eeed25de8b2546f00b0320a4bdd55c2b52f1e86e986326c5b",
+          "body_sha256_before": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
+          "body_sha256_after": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/パスト ライブス／再会_2024-03-08.md",
@@ -1094,7 +1583,100 @@
       ],
       "body_sha256_before": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
       "body_sha256_after": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/死霊のはらわた ライジング_2024-03-07.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "リー・クローニン"
+            ],
+            "cast": [
+              "アリッサ・サザーランド",
+              "リリー・サリバン",
+              "モーガン・デイヴィス",
+              "ネル・フィッシャー",
+              "ジェイデン・ダニエルズ"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "リー・クローニン"
+            ],
+            "cast": [
+              "アリッサ・サザーランド",
+              "リリー・サリバン",
+              "モーガン・デイヴィス",
+              "ネル・フィッシャー",
+              "ジェイデン・ダニエルズ"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn40view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn40view1",
+                  "title": "80年代ホラーの金字塔、待望の最新作『死霊のはらわた ライジング』８月２日（水）ブルーレイ＆DVD発売、DVDレンタル、デジタル販売、デジタルレンタル決定！ | ワーナー ブラザース ジャパン合同会社のプレスリリース",
+                  "url": "https://prtimes.jp/main/html/rd/p/000000050.000063715.html",
+                  "observed_in": [
+                    "find_confirm03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/97341",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97341",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97341",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/97341",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "aae6555339acf454fa596f524e9f7ea60366f82875b18f4d3bec7ff8809c0ca7",
+          "article_sha256_after": "a6355217160664a522ca9f35b73fe4c2a8a85f72ae5904ff49c78dd5ded6a83b",
+          "body_sha256_before": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
+          "body_sha256_after": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/キラー・ブック・クラブ_2024-03-07.md",
@@ -1141,7 +1723,110 @@
       ],
       "body_sha256_before": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
       "body_sha256_after": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/キラー・ブック・クラブ_2024-03-07.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "カルロス・アロンソ"
+            ],
+            "cast": [
+              "ベッキ・ベリージャ",
+              "アルバロ・メル",
+              "プリシラ・デルガード",
+              "ダニエル・グラオ",
+              "イバン・ペリセル",
+              "ハムサ・サイディ",
+              "マリア・セレスエラ",
+              "アネ・ロット",
+              "カルロス・アルカイデ"
+            ],
+            "genres": [
+              "ホラー",
+              "ミステリー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "カルロス・アロンソ"
+            ],
+            "cast": [
+              "ベッキ・ベリージャ",
+              "アルバロ・メル",
+              "プリシラ・デルガード",
+              "ダニエル・グラオ",
+              "イバン・ペリセル",
+              "ハムサ・サイディ",
+              "マリア・セレスエラ",
+              "アネ・ロット",
+              "カルロス・アルカイデ"
+            ],
+            "genres": [
+              "ホラー",
+              "ミステリー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn40view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn40view0",
+                  "title": "キラー・ブック・クラブ : 作品情報・キャスト・あらすじ - 映画.com",
+                  "url": "https://eiga.com/movie/99938/",
+                  "observed_in": [
+                    "find_confirm03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/111378",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/111378",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/111378",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/111378",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "8ec417c9284e505f864f145cfbfb2c7fdef2a9d1899f724d470d358f16870122",
+          "article_sha256_after": "e96044c0f269ee3fe14845c0aed059196ce3413644b099e8fe9f07ae7499b2ee",
+          "body_sha256_before": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
+          "body_sha256_after": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/ゾン100 ゾンビになるまでにしたい100のこと_2024-03-07.md",
@@ -1189,7 +1874,120 @@
       ],
       "body_sha256_before": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
       "body_sha256_after": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/ゾン100 ゾンビになるまでにしたい100のこと_2024-03-07.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "石田雄介"
+            ],
+            "cast": [
+              "赤楚衛二",
+              "白石麻衣",
+              "栁俊太郎",
+              "市川由衣",
+              "川﨑麻世",
+              "早見あかり",
+              "筧美和子",
+              "中田クルミ",
+              "ドロンズ石本",
+              "中村無何有",
+              "谷口翔太",
+              "佐戸井けん太",
+              "北村一輝"
+            ],
+            "genres": [
+              "アクション",
+              "ホラー",
+              "コメディ"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "石田雄介"
+            ],
+            "cast": [
+              "赤楚衛二",
+              "白石麻衣",
+              "栁俊太郎",
+              "市川由衣",
+              "川﨑麻世",
+              "早見あかり",
+              "筧美和子",
+              "中田クルミ",
+              "ドロンズ石本",
+              "中村無何有",
+              "谷口翔太",
+              "佐戸井けん太",
+              "北村一輝"
+            ],
+            "genres": [
+              "アクション",
+              "ホラー",
+              "コメディ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn23view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn23view0",
+                  "title": "ゾン100〜ゾンビになるまでにしたい100のこと〜 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%82%BE%E3%83%B3100%E3%80%9C%E3%82%BE%E3%83%B3%E3%83%93%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84100%E3%81%AE%E3%81%93%E3%81%A8%E3%80%9C",
+                  "observed_in": [
+                    "open_wiki03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/103760",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103760",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103760",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/103760",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "a16b9f60a7fc246c4cae6a875b63353f8f9788d32d3feeddacf0a4db6af429ca",
+          "article_sha256_after": "5378903fbc8df13dee141c37239e29a63cde263188a29ccc6a884c5a8e33006a",
+          "body_sha256_before": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
+          "body_sha256_after": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/スマイル_2024-03-07.md",
@@ -1236,7 +2034,100 @@
       ],
       "body_sha256_before": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
       "body_sha256_after": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/スマイル_2024-03-07.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "パーカー・フィン"
+            ],
+            "cast": [
+              "ソジー・ベーコン",
+              "ジェシー・T・アッシャー",
+              "カイル・ガルナー",
+              "ケイトリン・ステイシー",
+              "ロブ・モーガン"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2023,
+            "directors": [
+              "パーカー・フィン"
+            ],
+            "cast": [
+              "ソジー・ベーコン",
+              "ジェシー・T・アッシャー",
+              "カイル・ガルナー",
+              "ケイトリン・ステイシー",
+              "ロブ・モーガン"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn23view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn23view1",
+                  "title": "Smile スマイル - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB_%282022%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB%29",
+                  "observed_in": [
+                    "open_wiki03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/104139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "18618e4b94ecaf2a0f11cfa45969e7293ffebdd6a8e81fd2c47044f1cd38f065",
+          "article_sha256_after": "7016f4f77c9eafefb74067a6b98f39bce76270d1a881cfb576392e4416654dbc",
+          "body_sha256_before": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
+          "body_sha256_after": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/ヴィーガンズ・ハム_2024-03-07.md",
@@ -1329,7 +2220,110 @@
       ],
       "body_sha256_before": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
       "body_sha256_after": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/マルナシドス　ゾンビの谷_2024-03-07.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ハビエル・ルイス・カルデラ",
+              "アルベルト・デ・トロ"
+            ],
+            "cast": [
+              "ミキ・エスパルベ",
+              "アウラ・ガリード",
+              "ルイス・カイェホ",
+              "アルバーロ・セルバンテス",
+              "ヘスス・カロッツァ",
+              "ダフニス・バルドゥス",
+              "セルヒオ・トリコ"
+            ],
+            "genres": [
+              "アクション",
+              "アドベンチャー・冒険",
+              "ファンタジー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2022,
+            "directors": [
+              "ハビエル・ルイス・カルデラ",
+              "アルベルト・デ・トロ"
+            ],
+            "cast": [
+              "ミキ・エスパルベ",
+              "アウラ・ガリード",
+              "ルイス・カイェホ",
+              "アルバーロ・セルバンテス",
+              "ヘスス・カロッツァ",
+              "ダフニス・バルドゥス",
+              "セルヒオ・トリコ"
+            ],
+            "genres": [
+              "アクション",
+              "アドベンチャー・冒険",
+              "ファンタジー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn40view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn40view2",
+                  "title": "マルナシドス　ゾンビの谷 : 作品情報・キャスト・あらすじ - 映画.com",
+                  "url": "https://cinema.eiga.com/movie/97668/",
+                  "observed_in": [
+                    "find_confirm03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/104155",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104155",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104155",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/104155",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "f23138caaea06729e592ce3bb363ef6f59264ec6175c91e72429b27b7a53d74c",
+          "article_sha256_after": "b6e5c4dd848606d9bc7ee2518765b14f45472dd9ceaa0e3be672482757661638",
+          "body_sha256_before": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
+          "body_sha256_after": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/M3GAN ミーガン_2024-03-07.md",
@@ -1500,7 +2494,98 @@
       ],
       "body_sha256_before": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
       "body_sha256_after": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/讐 ～ADA～　第二部　絶望篇_2019-06-08.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "白石晃士"
+            ],
+            "cast": [
+              "仙石みなみ",
+              "佐藤綾乃",
+              "相楽樹",
+              "村上東奈"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2013,
+            "directors": [
+              "白石晃士"
+            ],
+            "cast": [
+              "仙石みなみ",
+              "佐藤綾乃",
+              "相楽樹",
+              "村上東奈"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn23view3"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn23view3",
+                  "title": "讐 〜ADA〜 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E8%AE%90_%E3%80%9CADA%E3%80%9C",
+                  "observed_in": [
+                    "open_wiki03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/55092",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55092",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55092",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55092",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "1cc5ffc21957f20376b70e4536a73367a504d756375258e620615275108cb3a9",
+          "article_sha256_after": "0c11b2ea32815e9ed0c7eeb73766151ba692f5f34a5e2445b9dc03f4bfbb13f9",
+          "body_sha256_before": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
+          "body_sha256_after": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/オール・ユー・ニード・イズ・キル_2019-06-04.md",
@@ -1590,7 +2675,110 @@
       ],
       "body_sha256_before": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
       "body_sha256_after": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/感染創世記_2019-05-08.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "リース・イヴネッシェン"
+            ],
+            "cast": [
+              "エミリー・アラタロ",
+              "ライオネル・ブードラル",
+              "コリン・パラディン",
+              "エリン・スチュアート",
+              "トム・パーキンソン"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2010,
+            "directors": [
+              "リース・イヴネッシェン"
+            ],
+            "cast": [
+              "エミリー・アラタロ",
+              "ライオネル・ブードラル",
+              "コリン・パラディン",
+              "エリン・スチュアート",
+              "トム・パーキンソン"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn28search6"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn28search6",
+                  "title": "Where to Watch 感染創世記 (2010) Full Movie Free Online - Plex",
+                  "url": "https://watch.plex.tv/ja/movie/dead-genesis",
+                  "observed_in": [
+                    "fallback01"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56507",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56507",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56507",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn28search1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn28search1",
+                  "title": "映画 感染創世記 (2010) - allcinema",
+                  "url": "https://www.allcinema.net/cinema/341481",
+                  "observed_in": [
+                    "fallback01"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56507",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "0a948054c0d641e755a4c4581f7a239fde8acd80becd0443800056c0e9c8e537",
+          "article_sha256_after": "99431bede4b88f086c0a0da4e921116b2cb7bbc330b6617ba7fc426f5425d884",
+          "body_sha256_before": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
+          "body_sha256_after": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/ロード・オブ・セイラム_2018-12-16.md",
@@ -1635,7 +2823,102 @@
       ],
       "body_sha256_before": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
       "body_sha256_after": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/ロード・オブ・セイラム_2018-12-16.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2013,
+            "directors": [
+              "ロブ・ゾンビ"
+            ],
+            "cast": [
+              "シェリ・ムーン・ゾンビ",
+              "ブルース・デイヴィソン",
+              "ジェフ・ダニエル・フィリップス",
+              "ケン・フォリー",
+              "ジュディ・ギーソン",
+              "ディー・ウォーレス",
+              "メグ・フォスター"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2013,
+            "directors": [
+              "ロブ・ゾンビ"
+            ],
+            "cast": [
+              "シェリ・ムーン・ゾンビ",
+              "ブルース・デイヴィソン",
+              "ジェフ・ダニエル・フィリップス",
+              "ケン・フォリー",
+              "ジュディ・ギーソン",
+              "ディー・ウォーレス",
+              "メグ・フォスター"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55338",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55338",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55338",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn25view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn25view1",
+                  "title": "ロード・オブ・セイラム - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%BB%E3%82%A4%E3%83%A9%E3%83%A0",
+                  "observed_in": [
+                    "open_wiki04"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/55338",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "5f1b9c861b7dfb26b17b5bfcd9ba18a26617b1e8afe465ef61e18448851224a1",
+          "article_sha256_after": "7b3a8b49b2e37acd8764de483231c6f87894072d51456c84aeb0cde46b414b68",
+          "body_sha256_before": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
+          "body_sha256_after": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2013-09-28",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/エビデンス全滅_2018-09-24.md",
@@ -1834,7 +3117,108 @@
       ],
       "body_sha256_before": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
       "body_sha256_after": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/劇場版 プリパラ＆キラッとプリ☆チャン ～きらきらメモリアルライブ～_2018-08-12.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2018,
+            "directors": [
+              "依田伸隆"
+            ],
+            "cast": [
+              "林鼓子",
+              "久保田未夢",
+              "厚木那奈美",
+              "茜屋日海夏(Himika Akaneya)",
+              "伊達朱里紗",
+              "阿澄佳奈",
+              "大久保瑠美",
+              "加藤英美里",
+              "伊藤かな恵",
+              "三宅健太"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2018,
+            "directors": [
+              "依田伸隆"
+            ],
+            "cast": [
+              "林鼓子",
+              "久保田未夢",
+              "厚木那奈美",
+              "茜屋日海夏(Himika Akaneya)",
+              "伊達朱里紗",
+              "阿澄佳奈",
+              "大久保瑠美",
+              "加藤英美里",
+              "伊藤かな恵",
+              "三宅健太"
+            ],
+            "genres": [
+              "アニメ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/78752",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/78752",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/78752",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn40view3"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn40view3",
+                  "title": "| エイベックス・ピクチャーズ株式会社",
+                  "url": "https://avex-pictures.co.jp/lineup/76005/",
+                  "observed_in": [
+                    "find_confirm03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/78752",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "58c93902143e01892648762937569b6f100af9081efa0c6fdf4a961781f08a5b",
+          "article_sha256_after": "026c519e555f191f1d7cef2aadd4eccdad132336e9721f49229cb393de643c7a",
+          "body_sha256_before": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
+          "body_sha256_after": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2018-05-05",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/バットマン_2018-08-08.md",
@@ -2014,7 +3398,123 @@
       ],
       "body_sha256_before": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
       "body_sha256_after": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/ラストデイズオンマーズ_2018-06-16.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ルアイリ・ロビンソン"
+            ],
+            "cast": [
+              "リーヴ・シュレイバー",
+              "イライアス・コティーズ",
+              "ロモーラ・ガライ",
+              "オリヴィア・ウィリアムズ",
+              "ジョニー・ハリス",
+              "ゴラン・コスティッチ"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2014,
+            "directors": [
+              "ルアイリ・ロビンソン"
+            ],
+            "cast": [
+              "リーヴ・シュレイバー",
+              "イライアス・コティーズ",
+              "ロモーラ・ガライ",
+              "オリヴィア・ウィリアムズ",
+              "ジョニー・ハリス",
+              "ゴラン・コスティッチ"
+            ],
+            "genres": [
+              "SF",
+              "ホラー",
+              "サスペンス"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn39search4",
+                "turn39search5"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn39search4",
+                  "title": "ラスト・デイズ・オン・マーズ : 作品情報・キャスト・あらすじ・動画 - 映画.com",
+                  "url": "https://eiga.com/movie/81198/",
+                  "observed_in": [
+                    "fallback08"
+                  ]
+                },
+                {
+                  "ref_id": "turn39search5",
+                  "title": "ラスト・デイズ・オン・マーズの作品情報・あらすじ・キャスト - ぴあ映画",
+                  "url": "https://lp.p.pia.jp/event/movie/25382/index.html",
+                  "observed_in": [
+                    "fallback08"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/60339",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60339",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60339",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn25view3"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn25view3",
+                  "title": "ラスト・デイズ・オン・マーズ - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%B9%E3%83%88%E3%83%BB%E3%83%87%E3%82%A4%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%BC%E3%82%BA",
+                  "observed_in": [
+                    "open_wiki04"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/60339",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "7701dbc0c14d87d35cb7de103c3fb0cc9f7e1eeaafa07d5179ee1ec63d3000ad",
+          "article_sha256_after": "2606729f1adc181bd1a9810a694441655b0d79e528932b5959384aeeaa3a56e9",
+          "body_sha256_before": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
+          "body_sha256_after": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/アメイジング・スパイダーマン２_2018-06-04.md",
@@ -2273,7 +3773,97 @@
       ],
       "body_sha256_before": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
       "body_sha256_after": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/AFFLICTED アフリクテッド_2018-02-24.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2015,
+            "directors": [
+              "デレク・リー",
+              "クリフ・プラウズ"
+            ],
+            "cast": [
+              "デレク・リー",
+              "クリフ・プラウズ",
+              "バイヤ・レハズ"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2015,
+            "directors": [
+              "デレク・リー",
+              "クリフ・プラウズ"
+            ],
+            "cast": [
+              "デレク・リー",
+              "クリフ・プラウズ",
+              "バイヤ・レハズ"
+            ],
+            "genres": [
+              "ホラー",
+              "ミステリー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn34search1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn34search1",
+                  "title": "‎AFFLICTED アフリクテッド - Apple TV",
+                  "url": "https://tv.apple.com/jp/movie/afflicted-%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AF%E3%83%86%E3%83%83%E3%83%88/umc.cmc.1yfjndeipawau6qjfwbi1ryc0",
+                  "observed_in": [
+                    "fallback06"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/60139",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "866673057c5ed94409d3e1389dcc47ca067afbb5ab9440224b76fda3de453c93",
+          "article_sha256_after": "aec26887b017b56e8a6efe8a4a68eb2c42a04e2c18e19c5f3f0c86c75c869715",
+          "body_sha256_before": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
+          "body_sha256_after": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2015-01-27",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/スーパーマンIII／電子の要塞_2018-01-24.md",
@@ -2413,7 +4003,119 @@
       ],
       "body_sha256_before": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
       "body_sha256_after": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/あそこの席_2017-12-16.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "中村義洋"
+            ],
+            "cast": [
+              "阪田瑞穂",
+              "細田善彦",
+              "浅香友紀",
+              "上山竜治",
+              "宮下雄也",
+              "小松愛",
+              "市川春樹",
+              "矢口聖来",
+              "眞島秀和",
+              "根岸季衣"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2005,
+            "directors": [
+              "中村義洋"
+            ],
+            "cast": [
+              "阪田瑞穂",
+              "細田善彦",
+              "浅香友紀",
+              "上山竜治",
+              "宮下雄也",
+              "小松愛",
+              "市川春樹",
+              "矢口聖来",
+              "眞島秀和",
+              "根岸季衣"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn41search0",
+                "turn41search2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn41search0",
+                  "title": "あそこの席 : 作品情報・キャスト・あらすじ - 映画.com",
+                  "url": "https://eiga.com/movie/41282/",
+                  "observed_in": [
+                    "fallback07"
+                  ]
+                },
+                {
+                  "ref_id": "turn41search2",
+                  "title": "あそこの席の作品情報・あらすじ・キャスト - ぴあ映画",
+                  "url": "https://lp.p.pia.jp/event/movie/12629/index.html",
+                  "observed_in": [
+                    "fallback07"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/11468",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/11468",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/11468",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/11468",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "a750c94ec0841e8c808576de2f35da7c6c7c1a61ce94c0e708a9817a693ac96b",
+          "article_sha256_after": "4bf3e9dc3c01247b59269df3f451f5902ac4b5465e710fdee11942a5cf05e6fe",
+          "body_sha256_before": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
+          "body_sha256_after": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/メアリーと秘密の王国_2017-12-12.md",
@@ -2455,7 +4157,108 @@
       ],
       "body_sha256_before": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
       "body_sha256_after": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/メアリーと秘密の王国_2017-12-12.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2014,
+            "directors": [
+              "クリス・ウェッジ"
+            ],
+            "cast": [
+              "コリン・ファレル",
+              "ジョシュ・ハッチャーソン",
+              "アマンダ・サイフリッド",
+              "クリストフ・ヴァルツ",
+              "アジズ・アンサリ",
+              "クリス・オダウド",
+              "ジェイソン・サダイキス",
+              "スティーヴン・タイラー",
+              "ビヨンセ・ノウルズ"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2014,
+            "directors": [
+              "クリス・ウェッジ"
+            ],
+            "cast": [
+              "コリン・ファレル",
+              "ジョシュ・ハッチャーソン",
+              "アマンダ・サイフリッド",
+              "クリストフ・ヴァルツ",
+              "アジズ・アンサリ",
+              "クリス・オダウド",
+              "ジェイソン・サダイキス",
+              "スティーヴン・タイラー",
+              "ビヨンセ・ノウルズ"
+            ],
+            "genres": [
+              "アニメ",
+              "ファンタジー",
+              "アドベンチャー・冒険"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56431",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56431",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56431",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn27view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn27view0",
+                  "title": "メアリーと秘密の王国 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A2%E3%83%AA%E3%83%BC%E3%81%A8%E7%A7%98%E5%AF%86%E3%81%AE%E7%8E%8B%E5%9B%BD",
+                  "observed_in": [
+                    "open_wiki05"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56431",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "5782ff2ea3842d2617d70366ce8a539ba0c92e8768f51ac90903c5c901e94cad",
+          "article_sha256_after": "08e3edd68b1fd678d5b876156950795f9dfa13cf11d0da9ee606135d94382f08",
+          "body_sha256_before": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
+          "body_sha256_after": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2014-10-18",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/アップルシード アルファ_2017-12-08.md",
@@ -2588,7 +4391,94 @@
       ],
       "body_sha256_before": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
       "body_sha256_after": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/殺戮職人芝刈男_2017-10-28.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ケヴィン・グリーン",
+              "トリップ・ノートン",
+              "アダム・ジョンソン"
+            ],
+            "cast": [
+              "ジョン・ロッカー",
+              "クリスティン・タイラー",
+              "ロン・レスター",
+              "アレロン・ルッジェロ",
+              "ブルース・テイラー"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2002,
+            "directors": [
+              "ケヴィン・グリーン",
+              "トリップ・ノートン",
+              "アダム・ジョンソン"
+            ],
+            "cast": [
+              "ジョン・ロッカー",
+              "クリスティン・タイラー",
+              "ロン・レスター",
+              "アレロン・ルッジェロ",
+              "ブルース・テイラー"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/42485",
+              "decision_authority": "user_confirmed_answer",
+              "note": "",
+              "caution": "本人が確認した2002を採用。以前のDVD情報の製作年表記と統合しない。"
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/42485",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/42485",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/42485",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "04273e373a8e0a9f21b591632f593b4e4cda710fd8f6fd3ce1e6e401c3c6c53e",
+          "article_sha256_after": "68199176244f19b3aa2133361bd5a4f4ac01dbab5e7b804269fa35169e9949a6",
+          "body_sha256_before": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
+          "body_sha256_after": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/11：11：11_2017-10-24.md",
@@ -2637,7 +4527,122 @@
       ],
       "body_sha256_before": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
       "body_sha256_after": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/11：11：11_2017-10-24.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ダーレン・リン・バウズマン"
+            ],
+            "cast": [
+              "ティモシー・ギブス",
+              "マイケル・ランデス",
+              "ウェンディ・グレン",
+              "デニス・ラフター",
+              "ルイス・ソレル",
+              "ブレンダン・プライス"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2011,
+            "directors": [
+              "ダーレン・リン・バウズマン"
+            ],
+            "cast": [
+              "ティモシー・ギブス",
+              "マイケル・ランデス",
+              "ウェンディ・グレン",
+              "デニス・ラフター",
+              "ルイス・ソレル",
+              "ブレンダン・プライス"
+            ],
+            "genres": [
+              "ホラー",
+              "スリラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn36view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn36view0",
+                  "title": "11-11-11 (film) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/11-11-11_%28film%29",
+                  "observed_in": [
+                    "find_movie_sections"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/53909",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/53909",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/53909",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn36view0",
+                "turn40view4"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn36view0",
+                  "title": "11-11-11 (film) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/11-11-11_%28film%29",
+                  "observed_in": [
+                    "find_movie_sections"
+                  ]
+                },
+                {
+                  "ref_id": "turn40view4",
+                  "title": "11-11-11 (film) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/11-11-11_%28film%29",
+                  "observed_in": [
+                    "find_confirm03"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/53909",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "a568a96e413e4db4cb4912843f4d4dbeea5b6f2b977c36e31e4cacd4a377528b",
+          "article_sha256_after": "7239f8e7e1491f0fb2147fda322125fad23d007e28be23f33148767bd8c8a32d",
+          "body_sha256_before": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
+          "body_sha256_after": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/仮面ライダー×仮面ライダー ドライブ＆鎧武 MOVIE大戦フルスロットル_2017-10-20.md",
@@ -2728,7 +4733,98 @@
       ],
       "body_sha256_before": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
       "body_sha256_after": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/劇場版 シドニアの騎士_2017-10-16.md",
+          "changed_fields": [
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": 2015,
+            "directors": [
+              "静野孔文"
+            ],
+            "cast": [
+              "逢坂良太",
+              "豊崎愛生",
+              "櫻井孝宏",
+              "金元寿子",
+              "喜多村英梨"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2015,
+            "directors": [
+              "静野孔文"
+            ],
+            "cast": [
+              "逢坂良太",
+              "豊崎愛生",
+              "櫻井孝宏",
+              "金元寿子",
+              "喜多村英梨"
+            ],
+            "genres": [
+              "アニメーション"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60561",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60561",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/60561",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn39search1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn39search1",
+                  "title": "JFDB - 劇場版 シドニアの騎士",
+                  "url": "https://jfdb.jp/title/5610",
+                  "observed_in": [
+                    "fallback08"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/60561",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "29ccc761a6581bdd122a0b734f681e4f222830064e8742500ded8f4e24b7db9a",
+          "article_sha256_after": "befcea368fbc8ad06110a0fdc9ebf69904305ef9320921f723b5887395364ada",
+          "body_sha256_before": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
+          "body_sha256_after": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": "2015-03-06",
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/シャドウハンター_2017-10-12.md",
@@ -3387,7 +5483,96 @@
       ],
       "body_sha256_before": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
       "body_sha256_after": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/ババドック～暗闇の魔物～_2017-08-12.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "ジェニファー・ケント"
+            ],
+            "cast": [
+              "エッシー・デイヴィス",
+              "ダニエル・ヘンシュオール",
+              "ヘイリー・マッケルヒニー"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2014,
+            "directors": [
+              "ジェニファー・ケント"
+            ],
+            "cast": [
+              "エッシー・デイヴィス",
+              "ダニエル・ヘンシュオール",
+              "ヘイリー・マッケルヒニー"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn27view4"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn27view4",
+                  "title": "ババドック 暗闇の魔物 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%90%E3%83%89%E3%83%83%E3%82%AF_%E6%9A%97%E9%97%87%E3%81%AE%E9%AD%94%E7%89%A9",
+                  "observed_in": [
+                    "open_wiki05"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/59396",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/59396",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/59396",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/59396",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "2c4d6b21e4f009ea91aedb9d14cae682ae56adb2ad51337c303ba2baa074f993",
+          "article_sha256_after": "d367a100781f99207167fa8217a7bb88925575c181f494bb4cf3e038b7f6039c",
+          "body_sha256_before": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
+          "body_sha256_after": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/エンカウンターズ －侵略－_2017-08-08.md",
@@ -3432,7 +5617,94 @@
       ],
       "body_sha256_before": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
       "body_sha256_after": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/エンカウンターズ －侵略－_2017-08-08.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "アンダース・ヨハネス・ブック"
+            ],
+            "cast": [
+              "クリスチャン・フィヨルド",
+              "ジェイコブ・ワグナー・グルデイガー",
+              "キャスパー・スロース",
+              "シグニ・マチルド・ソレンセン",
+              "クラウス・ヴェデル"
+            ],
+            "genres": [
+              "ホラー",
+              "SF",
+              "ミステリー"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2014,
+            "directors": [
+              "アンダース・ヨハネス・ブック"
+            ],
+            "cast": [
+              "クリスチャン・フィヨルド",
+              "ジェイコブ・ワグナー・グルデイガー",
+              "キャスパー・スロース",
+              "シグニ・マチルド・ソレンセン",
+              "クラウス・ヴェデル"
+            ],
+            "genres": [
+              "ホラー",
+              "SF",
+              "ミステリー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/62882",
+              "decision_authority": "user_confirmed_answer",
+              "note": "",
+              "caution": "2014は本人指定。外部出典で公開年を確定した値とは扱わない。"
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/62882",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/62882",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/62882",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "3fe0f4cc3b43fcba02a2785e60c95c61f2f7a66a2fd11ddaa2f987c884d06567",
+          "article_sha256_after": "929b6c118b7f423c83e9c24a7d75562b0b48e324d150f6feb69773fa5680b3e4",
+          "body_sha256_before": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
+          "body_sha256_after": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/劇場版 零～ゼロ～_2017-08-04.md",
@@ -3526,7 +5798,106 @@
       ],
       "body_sha256_before": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
       "body_sha256_after": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/グリズリー・レイジ_2017-07-28.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "デヴィッド・デコトー"
+            ],
+            "cast": [
+              "タイラー・ホークリン",
+              "ケイト・トッド",
+              "グラハム・コサコスキー"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2007,
+            "directors": [
+              "デヴィッド・デコトー"
+            ],
+            "cast": [
+              "タイラー・ホークリン",
+              "ケイト・トッド",
+              "グラハム・コサコスキー"
+            ],
+            "genres": [
+              "ホラー"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn42view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view0",
+                  "title": "Grizzly Rage - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Grizzly_Rage",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56612",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56612",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56612",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn42view0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view0",
+                  "title": "Grizzly Rage - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Grizzly_Rage",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56612",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "04dfb3917fc19083cf7255e099afd450bc141ac4a9574469be0ef3d6765ee2c4",
+          "article_sha256_after": "2704878796d30db7073906531c5d4df33c99b5633a8ac98170fdf2011558df48",
+          "body_sha256_before": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
+          "body_sha256_after": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/クルードさんちのはじめての冒険_2017-07-24.md",
@@ -3570,7 +5941,104 @@
       ],
       "body_sha256_before": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
       "body_sha256_after": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/クルードさんちのはじめての冒険_2017-07-24.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "クリス・サンダース",
+              "カーク・デミッコ"
+            ],
+            "cast": [
+              "ニコラス・ケイジ",
+              "エマ・ストーン",
+              "ライアン・レイノルズ",
+              "キャサリン・キーナー",
+              "クロリス・リーチマン",
+              "クラーク・デューク"
+            ],
+            "genres": [
+              "アニメ"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2013,
+            "directors": [
+              "クリス・サンダース",
+              "カーク・デミッコ"
+            ],
+            "cast": [
+              "ニコラス・ケイジ",
+              "エマ・ストーン",
+              "ライアン・レイノルズ",
+              "キャサリン・キーナー",
+              "クロリス・リーチマン",
+              "クラーク・デューク"
+            ],
+            "genres": [
+              "アニメ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn26view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn26view1",
+                  "title": "クルードさんちのはじめての冒険 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%89%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E5%86%92%E9%99%BA",
+                  "observed_in": [
+                    "open_wiki06"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/55658",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55658",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55658",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/55658",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "528cbbf656e7e94f2ae3688d0a9329ca72893c2d1390e3628418f68898fa5802",
+          "article_sha256_after": "6a9ff2ea5668438026755e2ecc6248983e8010d5a43437fbb30cee00d0585314",
+          "body_sha256_before": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
+          "body_sha256_after": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/終の信託_2017-07-20.md",
@@ -3618,7 +6086,102 @@
       ],
       "body_sha256_before": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
       "body_sha256_after": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/終の信託_2017-07-20.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "周防正行"
+            ],
+            "cast": [
+              "草刈民代",
+              "役所広司",
+              "大沢たかお",
+              "浅野忠信",
+              "細田善彦",
+              "中村久美"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2012,
+            "directors": [
+              "周防正行"
+            ],
+            "cast": [
+              "草刈民代",
+              "役所広司",
+              "大沢たかお",
+              "浅野忠信",
+              "細田善彦",
+              "中村久美"
+            ],
+            "genres": [
+              "ドラマ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn26view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn26view2",
+                  "title": "終の信託 - Wikipedia",
+                  "url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E3%81%AE%E4%BF%A1%E8%A8%97",
+                  "observed_in": [
+                    "open_wiki06"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/5203",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/5203",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/5203",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/5203",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "82659fa38c03a63bb78101caaddecacb8abfafbc6e6878bdeb0b431e10bc2adc",
+          "article_sha256_after": "d75f29407e41dcaaab860f0a71e12b61679b2047affe2ca53404c8c3f1d0df04",
+          "body_sha256_before": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
+          "body_sha256_after": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/亡国のイージス_2017-07-16.md",
@@ -3855,7 +6418,141 @@
       ],
       "body_sha256_before": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
       "body_sha256_after": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/チレラマ CHILLERAMA_2017-06-28.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "アダム・リフキン",
+              "ティム・サリヴァン",
+              "ジョー・リンチ",
+              "アダム・グリーン"
+            ],
+            "cast": [
+              "アダム・リフキン",
+              "セーラ・マッチ",
+              "オーウェン・ベンジャミン",
+              "レイ・ワイズ",
+              "ショーン・ポール・ロックハート",
+              "アントン・トロイ",
+              "ギャビー・ウェスト",
+              "アダム・ロビテル",
+              "リン・シェイ",
+              "ジョエル・デヴィッド・ムーア",
+              "クリスティーナ・クリーブ",
+              "ケイン・ホッダー",
+              "コーリー・ジョーンズ",
+              "ケイリー・ソーン",
+              "ブレンダン・マクレアリー",
+              "マイルズ・ドゥーガル",
+              "リチャード・リール"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2011,
+            "directors": [
+              "アダム・リフキン",
+              "ティム・サリヴァン",
+              "ジョー・リンチ",
+              "アダム・グリーン"
+            ],
+            "cast": [
+              "アダム・リフキン",
+              "セーラ・マッチ",
+              "オーウェン・ベンジャミン",
+              "レイ・ワイズ",
+              "ショーン・ポール・ロックハート",
+              "アントン・トロイ",
+              "ギャビー・ウェスト",
+              "アダム・ロビテル",
+              "リン・シェイ",
+              "ジョエル・デヴィッド・ムーア",
+              "クリスティーナ・クリーブ",
+              "ケイン・ホッダー",
+              "コーリー・ジョーンズ",
+              "ケイリー・ソーン",
+              "ブレンダン・マクレアリー",
+              "マイルズ・ドゥーガル",
+              "リチャード・リール"
+            ],
+            "genres": [
+              "ホラー",
+              "コメディ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn42view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view1",
+                  "title": "Chillerama - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Chillerama",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/53879",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/53879",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/53879",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn42view1"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view1",
+                  "title": "Chillerama - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Chillerama",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/53879",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "6545fe8be4fd6b29e58b1d7d3dd006f7ba767b53057da0bdfd958eea857507ce",
+          "article_sha256_after": "fbe73149ce7a737fb3e2de6b4ee562a5be3d63993a66d3fb7bf382dc85b21bd7",
+          "body_sha256_before": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
+          "body_sha256_after": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/オキュラス／怨霊鏡_2017-06-24.md",
@@ -4031,7 +6728,107 @@
       ],
       "body_sha256_before": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
       "body_sha256_after": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/AAAH！ゾンビーズ!!　俺タチだって生きている_2017-06-12.md",
+          "changed_fields": [
+            "release_year",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "マシュー・コーネン"
+            ],
+            "cast": [
+              "マシュー・デイヴィス",
+              "コルビー・フレンチ",
+              "ジュリアンナ・ロビンソン"
+            ],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2007,
+            "directors": [
+              "マシュー・コーネン"
+            ],
+            "cast": [
+              "マシュー・デイヴィス",
+              "コルビー・フレンチ",
+              "ジュリアンナ・ロビンソン"
+            ],
+            "genres": [
+              "ホラー",
+              "コメディ"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn42view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view2",
+                  "title": "Wasting Away - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Wasting_Away",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/58597",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/58597",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/58597",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn32search0"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn32search0",
+                  "title": "映画 ＡＡＡＨ！ゾンビーズ！！　俺タチだって生きている (2007) - allcinema",
+                  "url": "https://www.allcinema.net/cinema/348212",
+                  "observed_in": [
+                    "fallback04"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/58597",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "4142c3c90deab6126e7e2067c3ef691f346ea76d751821f5f2b8ad332238b918",
+          "article_sha256_after": "d88aa8ec71d4e2b2df570c37a02e1e105c015d411a91b8588e1896f7dfe94ed8",
+          "body_sha256_before": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
+          "body_sha256_after": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/ゴーストメイカー_2017-06-08.md",
@@ -4071,7 +6868,96 @@
       ],
       "body_sha256_before": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
       "body_sha256_after": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
-      "protected_fields_unchanged": true
+      "protected_fields_unchanged": true,
+      "review_updates": [
+        {
+          "file": "content/reviews/ゴーストメイカー_2017-06-08.md",
+          "changed_fields": [
+            "release_year"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [
+              "マウロ・ボレッリ"
+            ],
+            "cast": [
+              "アーロン・ディーン・アイゼンバーグ",
+              "リズ・フェニング"
+            ],
+            "genres": [
+              "ホラー",
+              "SF"
+            ]
+          },
+          "metadata_after": {
+            "release_year": 2011,
+            "directors": [
+              "マウロ・ボレッリ"
+            ],
+            "cast": [
+              "アーロン・ディーン・アイゼンバーグ",
+              "リズ・フェニング"
+            ],
+            "genres": [
+              "ホラー",
+              "SF"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn42view3"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn42view3",
+                  "title": "Box of Shadows - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Box_of_Shadows",
+                  "observed_in": [
+                    "open_other_years"
+                  ]
+                }
+              ],
+              "existing_source_url": "https://filmarks.com/movies/56056",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56056",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56056",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [],
+              "candidate_sources": [],
+              "existing_source_url": "https://filmarks.com/movies/56056",
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "c53182a13d59ce3e0b5682a0cc86a45c0cba6ba36de6c4d9fa9036e59dbe9408",
+          "article_sha256_after": "6259c46931c46266bf0849154f76a3b6c2efd74226f2ff721886cc2575dbc76c",
+          "body_sha256_before": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
+          "body_sha256_after": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     },
     {
       "file": "content/reviews/塔の上のラプンツェル_2017-06-04.md",
@@ -13387,6 +16273,146 @@
       "body_sha256_before": "2e14c8afb67d7d8b2a2845412687febbf2dd65d93aa3c82c7faf550e85c4def3",
       "body_sha256_after": "2e14c8afb67d7d8b2a2845412687febbf2dd65d93aa3c82c7faf550e85c4def3",
       "protected_fields_unchanged": true
+    },
+    {
+      "file": "content/reviews/ミッドナイト・クロニクル_2015-12-24.md",
+      "source_kind": "movie",
+      "metadata_history_note": "初回300件の同定保留を、30件試行の本人確認に基づき補完。",
+      "review_updates": [
+        {
+          "file": "content/reviews/ミッドナイト・クロニクル_2015-12-24.md",
+          "changed_fields": [
+            "release_year",
+            "directors",
+            "cast",
+            "genres"
+          ],
+          "metadata_before": {
+            "release_year": null,
+            "directors": [],
+            "cast": [],
+            "genres": []
+          },
+          "metadata_after": {
+            "release_year": 2009,
+            "directors": [
+              "Christian T. Petersen"
+            ],
+            "cast": [
+              "Charles Hubbell",
+              "Matt Amendt",
+              "Steve Sweere",
+              "Dawn Brodey",
+              "Sam L. Landman",
+              "Melissa Anne Murphy",
+              "Joseph Papke",
+              "Richard Ooms",
+              "Claudia Wilkens",
+              "Pat Hammond",
+              "Karen Wiese-Thompson"
+            ],
+            "genres": [
+              "ファンタジー",
+              "アドベンチャー・冒険"
+            ]
+          },
+          "field_evidence": {
+            "release_year": {
+              "candidate_source_refs": [
+                "turn35search2",
+                "turn38view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn35search2",
+                  "title": "Midnight Chronicles - Production & Contact Info | IMDbPro",
+                  "url": "https://pro.imdb.com/title/tt1079372/",
+                  "observed_in": [
+                    "midnight_english"
+                  ]
+                },
+                {
+                  "ref_id": "turn38view2",
+                  "title": "‎Midnight Chronicles - Apple TV",
+                  "url": "https://tv.apple.com/us/movie/midnight-chronicles/umc.cmc.35na1w60tqqk4iab8ftzvgbde",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": null,
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "directors": {
+              "candidate_source_refs": [
+                "turn38view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn38view2",
+                  "title": "‎Midnight Chronicles - Apple TV",
+                  "url": "https://tv.apple.com/us/movie/midnight-chronicles/umc.cmc.35na1w60tqqk4iab8ftzvgbde",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": null,
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "cast": {
+              "candidate_source_refs": [
+                "turn38view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn38view2",
+                  "title": "‎Midnight Chronicles - Apple TV",
+                  "url": "https://tv.apple.com/us/movie/midnight-chronicles/umc.cmc.35na1w60tqqk4iab8ftzvgbde",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": null,
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            },
+            "genres": {
+              "candidate_source_refs": [
+                "turn38view2"
+              ],
+              "candidate_sources": [
+                {
+                  "ref_id": "turn38view2",
+                  "title": "‎Midnight Chronicles - Apple TV",
+                  "url": "https://tv.apple.com/us/movie/midnight-chronicles/umc.cmc.35na1w60tqqk4iab8ftzvgbde",
+                  "observed_in": [
+                    "open_confirm01"
+                  ]
+                }
+              ],
+              "existing_source_url": null,
+              "decision_authority": "user_confirmed_answer",
+              "note": ""
+            }
+          },
+          "article_sha256_before": "03518e17d3a98c58f99a7e8c22ddbb668e32d5a55b462d9ffe3265ec87d3a00f",
+          "article_sha256_after": "80e1d0159803845f42e5b01550eb7bf583ac185898bdb24df683b87ac85cbb66",
+          "body_sha256_before": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
+          "body_sha256_after": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
+          "protected_fields_unchanged": true,
+          "protected_frontmatter_bytes_unchanged": true,
+          "existing_release_date_preserved": null,
+          "batch_id": "metadata-trial30-approved-20261009",
+          "approved_at": "2026-10-09T13:09:40.962Z",
+          "applied_at": "2026-10-09T13:18:00.659200+00:00",
+          "answer_sha256": "747b63dce61e86f3022d241169b4970a8267812741dc68e76c4ce12d9eedc8ca",
+          "answer_library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1"
+        }
+      ]
     }
   ]
 }

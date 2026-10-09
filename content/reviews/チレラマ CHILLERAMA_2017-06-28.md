@@ -4,8 +4,10 @@ title: チレラマ CHILLERAMA
 reading: null
 reading_status: 未調査
 release_date: null
-release_year: null
-genres: []
+release_year: 2011
+genres:
+- ホラー
+- コメディ
 directors:
 - アダム・リフキン
 - ティム・サリヴァン
