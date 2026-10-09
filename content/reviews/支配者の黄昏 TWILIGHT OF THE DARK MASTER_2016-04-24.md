@@ -5,11 +5,18 @@ reading: null
 reading_status: 未調査
 release_date: null
 release_year: null
-genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+genres:
+- アニメ
+directors:
+- 新房昭之
+cast:
+- 関俊彦
+- 篠原恵美
+- 神谷明
+- 高乃麗
+- 石丸博也
+filmarks_url: https://filmarks.com/movies/108748
+filmarks_id: '108748'
 review_date: '2016-04-24 00:00:45'
 rating: 3.0
 rating_display: 3点

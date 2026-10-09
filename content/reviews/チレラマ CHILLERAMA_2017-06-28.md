@@ -6,10 +6,31 @@ reading_status: 未調査
 release_date: null
 release_year: null
 genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+directors:
+- アダム・リフキン
+- ティム・サリヴァン
+- ジョー・リンチ
+- アダム・グリーン
+cast:
+- アダム・リフキン
+- セーラ・マッチ
+- オーウェン・ベンジャミン
+- レイ・ワイズ
+- ショーン・ポール・ロックハート
+- アントン・トロイ
+- ギャビー・ウェスト
+- アダム・ロビテル
+- リン・シェイ
+- ジョエル・デヴィッド・ムーア
+- クリスティーナ・クリーブ
+- ケイン・ホッダー
+- コーリー・ジョーンズ
+- ケイリー・ソーン
+- ブレンダン・マクレアリー
+- マイルズ・ドゥーガル
+- リチャード・リール
+filmarks_url: https://filmarks.com/movies/53879
+filmarks_id: '53879'
 review_date: '2017-06-28 00:00:29'
 rating: 4.0
 rating_display: 4点

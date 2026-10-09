@@ -3,13 +3,26 @@ type: review
 title: Polar Night
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
-genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+release_date: '2023-12-15'
+release_year: 2023
+genres:
+- ドラマ
+directors:
+- 磯谷渚
+cast:
+- 河野知美
+- 峰平朔良
+- 廣田朋菜
+- 北澤響
+- 梅田誠弘
+- 木原勝利
+- 関幸治
+- 神田朱未
+- 小玉葵
+- 山﨑七海
+- カトウシンスケ
+filmarks_url: https://filmarks.com/movies/112155
+filmarks_id: '112155'
 review_date: '2024-03-07 15:09:11'
 rating: 3.0
 rating_display: 3点

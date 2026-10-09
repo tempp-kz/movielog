@@ -6,10 +6,26 @@ reading_status: 未調査
 release_date: null
 release_year: null
 genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+directors:
+- 塩谷直義
+cast:
+- 水樹奈々
+- 野島健児
+- 神谷浩史
+- 中村悠一
+- 梶裕貴
+- 花澤香菜
+- 甲斐田裕子
+- 福山潤
+- 浅野真澄
+- 諏訪部順一
+- 藤原啓治
+- 福圓美里
+- 阿部敦
+- 鈴木達央
+- 宮川美保
+filmarks_url: https://filmarks.com/movies/28336
+filmarks_id: '28336'
 review_date: '2015-04-21 00:00:00'
 rating: 3.0
 rating_display: 3点

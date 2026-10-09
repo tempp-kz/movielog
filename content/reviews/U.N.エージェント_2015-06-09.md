@@ -6,10 +6,15 @@ reading_status: 未調査
 release_date: null
 release_year: null
 genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+directors:
+- ジャコモ・バティアート
+cast:
+- ブノワ・マジメル
+- イポリット・ジラルド
+- カロリーナ・グルシュカ
+- ケン・デュケン
+filmarks_url: https://filmarks.com/movies/60071
+filmarks_id: '60071'
 review_date: '2015-06-09 00:00:18'
 rating: 3.0
 rating_display: 3点

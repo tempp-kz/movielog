@@ -3,13 +3,23 @@ type: review
 title: SUSHI GIRL
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
+release_date: '2012-12-22'
+release_year: 2012
 genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+directors:
+- カーン・サクストン
+cast:
+- トニー・トッド
+- ジェームズ・デュヴァル
+- ノア・ハサウェイ
+- マーク・ハミル
+- 千葉真一
+- ダニー・トレホ
+- アンディ・マッケンジー
+- コートニー・パーム
+- マイケル・ビーン
+filmarks_url: https://filmarks.com/movies/53115
+filmarks_id: '53115'
 review_date: '2016-05-08 00:00:34'
 rating: 3.5
 rating_display: 3.5点

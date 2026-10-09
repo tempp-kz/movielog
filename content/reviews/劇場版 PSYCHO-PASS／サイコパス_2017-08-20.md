@@ -3,13 +3,28 @@ type: review
 title: 劇場版 PSYCHO-PASS／サイコパス
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
-genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+release_date: '2015-01-09'
+release_year: 2015
+genres:
+- アニメ
+directors:
+- 本広克行
+- 塩谷直義
+cast:
+- 花澤香菜
+- 野島健児
+- 佐倉綾音
+- 伊藤静
+- 櫻井孝宏
+- 沢城みゆき
+- 東地宏樹
+- 山路和弘
+- 日髙のり子
+- 神谷浩史
+- 石塚運昇
+- 関智一
+filmarks_url: https://filmarks.com/movies/58559
+filmarks_id: '58559'
 review_date: '2017-08-20 00:00:37'
 rating: 3.0
 rating_display: 3点

@@ -3,13 +3,30 @@ type: review
 title: 攻殻機動隊ARISE -GHOST IN THE SHELL
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
-genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+release_date: '2013-06-22'
+release_year: 2013
+genres:
+- アニメ
+directors:
+- 黄瀬和哉
+- むらた雅彦
+cast:
+- 坂本真綾
+- 塾一久
+- 松田健一郎
+- 新垣樽助
+- 壇臣幸
+- 中國卓郎
+- 上田燿司
+- 中井和哉
+- 沢城みゆき
+- 浅野まゆみ
+- 星野貴紀
+- 間宮康弘
+- 野島健児
+- 宮内敦士
+filmarks_url: https://filmarks.com/movies/53517
+filmarks_id: '53517'
 review_date: '2016-01-16 00:00:56'
 rating: 3.3
 rating_display: 3.3点

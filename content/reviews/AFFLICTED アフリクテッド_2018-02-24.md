@@ -3,13 +3,18 @@ type: review
 title: AFFLICTED アフリクテッド
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
+release_date: '2015-01-27'
+release_year: 2015
 genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+directors:
+- デレク・リー
+- クリフ・プラウズ
+cast:
+- デレク・リー
+- クリフ・プラウズ
+- バイヤ・レハズ
+filmarks_url: https://filmarks.com/movies/60139
+filmarks_id: '60139'
 review_date: '2018-02-24 00:00:52'
 rating: 3.5
 rating_display: 3.5点

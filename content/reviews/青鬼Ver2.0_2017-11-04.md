@@ -3,13 +3,22 @@ type: review
 title: 青鬼Ver2.0
 reading: null
 reading_status: 未調査
-release_date: null
-release_year: null
-genres: []
-directors: []
-cast: []
-filmarks_url: null
-filmarks_id: null
+release_date: '2015-07-04'
+release_year: 2015
+genres:
+- ホラー
+directors:
+- 前川英章
+cast:
+- 中川大志
+- 平祐奈
+- 松島庄汰
+- 久松郁実
+- 勧修寺玲旺
+- タモト清嵐
+- 入山杏奈
+filmarks_url: https://filmarks.com/movies/61321
+filmarks_id: '61321'
 review_date: '2017-11-04 00:00:01'
 rating: 3.0
 rating_display: 3点
