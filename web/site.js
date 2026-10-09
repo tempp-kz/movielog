@@ -43,7 +43,79 @@
     return update;
   }
 
-  const api = {normalize, searchArticles, pickRandom, randomController};
+  function compareText(a, b) { return a < b ? -1 : a > b ? 1 : 0; }
+
+  function compareNames(a, b) {
+    if (Boolean(a.reading) !== Boolean(b.reading)) return a.reading ? -1 : 1;
+    const left = a.reading || [a.title, ''];
+    const right = b.reading || [b.title, ''];
+    return compareText(left[0], right[0]) || compareText(left[1], right[1]) ||
+      compareText(b.posted, a.posted) || compareText(a.title, b.title) || compareText(a.file, b.file);
+  }
+
+  function groupIndexEntries(entries, mode) {
+    const groups = new Map();
+    for (const entry of entries) {
+      const labels = mode === 'year' ? [entry.year ? entry.year + '年' : '年未登録'] :
+        mode === 'genre' ? (entry.genres.length ? Array.from(new Set(entry.genres)) : ['ジャンル未登録']) : [entry.reading_label];
+      for (const label of labels) {
+        if (!groups.has(label)) groups.set(label, []);
+        groups.get(label).push(entry);
+      }
+    }
+    for (const group of groups.values()) group.sort(compareNames);
+    const result = Array.from(groups, ([label, rows]) => ({label, entries: rows}));
+    if (mode === 'year') result.sort((a, b) => (a.label === '年未登録') - (b.label === '年未登録') ||
+      Number.parseInt(b.label, 10) - Number.parseInt(a.label, 10));
+    else if (mode === 'genre') {
+      const collator = new Intl.Collator('ja');
+      result.sort((a, b) => (a.label === 'ジャンル未登録') - (b.label === 'ジャンル未登録') || collator.compare(a.label, b.label));
+    } else result.sort((a, b) => compareNames(a.entries[0], b.entries[0]));
+    return result;
+  }
+
+  function indexController(root) {
+    const select = root.querySelector('.index-sort');
+    const target = root.querySelector('.index-groups');
+    const status = root.querySelector('.index-sort-status');
+    const rows = Array.from(target.querySelectorAll('li[data-index-entry]'));
+    const entries = rows.map((row, index) => ({...JSON.parse(row.dataset.indexEntry), index}));
+    const owner = root.ownerDocument;
+    function update() {
+      const groups = groupIndexEntries(entries, select.value);
+      const fragment = owner.createDocumentFragment();
+      for (const group of groups) {
+        const section = owner.createElement('section');
+        section.className = 'index-section';
+        const heading = owner.createElement('h2');
+        heading.textContent = group.label;
+        const count = owner.createElement('span');
+        count.className = 'count';
+        count.textContent = group.entries.length.toLocaleString('ja-JP') + '件';
+        heading.append(count);
+        const list = owner.createElement('ul');
+        list.className = 'article-list';
+        for (const entry of group.entries) list.append(rows[entry.index].cloneNode(true));
+        section.append(heading, list);
+        fragment.append(section);
+      }
+      if (!groups.length) {
+        const empty = owner.createElement('p'); empty.className = 'empty'; empty.textContent = '記事はまだありません。'; fragment.append(empty);
+      }
+      target.replaceChildren(fragment);
+      const label = {name: '名前順', year: '年代順', genre: 'ジャンル順'}[select.value];
+      const known = entries.filter(entry => entry.reading).length;
+      status.textContent = entries.length.toLocaleString('ja-JP') + '件（読み確定 ' + known.toLocaleString('ja-JP') +
+        '件・未確定 ' + (entries.length - known).toLocaleString('ja-JP') + '件）を' + label + 'で表示しています。' +
+        (select.value === 'year' ? '映画の公開年が新しい順です。' : '') +
+        (select.value === 'genre' ? '複数ジャンルの記事はそれぞれに掲載します。' : '');
+    }
+    root.querySelector('.index-sort-controls').hidden = false;
+    select.addEventListener('change', update);
+    return update;
+  }
+
+  const api = {normalize, searchArticles, pickRandom, randomController, compareNames, groupIndexEntries, indexController};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   if (typeof document === 'undefined') return;
   document.documentElement.classList.add('js');
@@ -72,6 +144,8 @@
     }
   });
   mobile.addEventListener('change', closeSidebar);
+
+  for (const root of document.querySelectorAll('.sortable-index')) indexController(root);
 
   const articles = window.movieLogArticles || [];
   const cards = document.getElementById('random-cards');

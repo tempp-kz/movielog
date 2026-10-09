@@ -25,6 +25,8 @@ class SiteTests(unittest.TestCase):
         (self.root / "assets").mkdir()
         (self.root / "web").mkdir()
         shutil.copy(REPO / "assets" / "default.png", self.root / "assets" / "default.png")
+        shutil.copy(REPO / "assets" / "banner.png", self.root / "assets" / "banner.png")
+        shutil.copy(REPO / "assets" / "x-card.png", self.root / "assets" / "x-card.png")
         shutil.copy(REPO / "web" / "site.css", self.root / "web" / "site.css")
         shutil.copy(REPO / "web" / "site.js", self.root / "web" / "site.js")
         self.output = self.root / "_site"
@@ -203,6 +205,46 @@ class SiteTests(unittest.TestCase):
         for route in ("titles/k/index.html", "titles/unknown/index.html", "years/2024/index.html", "years/unknown/index.html", "genres/unknown/index.html"):
             self.assertIn(site.href("index.html", route), page)
             self.assertTrue((self.output / route).is_file())
+
+    def test_shared_banner_and_x_card_use_separate_images_with_correct_dimensions(self):
+        path = self.add('映画「A」', short_review='短評 < & " をそのまま保持。')
+        before = path.read_bytes()
+        site.build(self.root, self.output)
+        for route in ['index.html', 'titles/index.html', self.article(path).route]:
+            page = self.read(route)
+            self.assertIn('<meta name="twitter:card" content="summary_large_image">', page)
+            self.assertIn('<meta name="twitter:image" content="https://tempp-kz.github.io/movielog/assets/x-card.png">', page)
+            self.assertIn('<meta property="og:image" content="https://tempp-kz.github.io/movielog/assets/x-card.png">', page)
+        page = self.read(self.article(path).route)
+        self.assertIn('src="' + site.href(self.article(path).route, 'assets/banner.png') + '" alt="" width="1949" height="635"', page)
+        self.assertIn('content="短評 &lt; &amp; &quot; をそのまま保持。"', page)
+        self.assertEqual(path.read_bytes(), before)
+        self.assertEqual((self.output / 'assets/banner.png').read_bytes(), (REPO / 'assets/banner.png').read_bytes())
+        self.assertEqual((self.output / 'assets/x-card.png').read_bytes(), (REPO / 'assets/x-card.png').read_bytes())
+
+    def test_index_sort_controls_preserve_filter_and_expose_only_registered_attributes(self):
+        self.add('確定', reading='かくてい', reading_status='取得済み', release_year=2024, genres=['ホラー', 'SF'])
+        self.add('保留', reading='ほりゅう', reading_status='要確認', release_year=1969)
+        site.build(self.root, self.output)
+        from html.parser import HTMLParser
+        class Rows(HTMLParser):
+            def __init__(self):
+                super().__init__(); self.rows = []; self.selects = 0
+            def handle_starttag(self, tag, attrs):
+                attrs = dict(attrs)
+                if 'data-index-entry' in attrs:
+                    self.rows.append(json.loads(attrs['data-index-entry']))
+                if tag == 'select' and attrs.get('class') == 'index-sort': self.selects += 1
+        for route, expected in [('titles/index.html', 2), ('years/index.html', 2), ('years/2024/index.html', 1), ('genres/' + site.digest('ホラー') + '/index.html', 1)]:
+            rows = Rows(); rows.feed(self.read(route))
+            self.assertEqual(rows.selects, 1)
+            self.assertEqual(len(rows.rows), expected)
+            self.assertEqual(rows.rows[0]['year'], 2024)
+            self.assertEqual(rows.rows[0]['genres'], ['ホラー', 'SF'])
+            self.assertEqual(rows.rows[0]['reading'], ['かくてい', 'かくてい'])
+            if expected == 2:
+                self.assertIsNone(rows.rows[1]['reading'])
+        self.assertIn('<option value="year" selected>年代順</option>', self.read('years/index.html'))
         self.assertIn("未登録", self.read("years/unknown/index.html"))
         self.assertIn("未登録", self.read("genres/unknown/index.html"))
 

@@ -14,6 +14,7 @@ import posixpath
 import random
 import re
 import shutil
+import struct
 import unicodedata
 from urllib.parse import quote, unquote, urlsplit
 
@@ -21,6 +22,8 @@ from markdown_it import MarkdownIt
 import yaml
 
 SITE_TITLE = "映画の感想を だらだら呟く"
+SITE_URL = "https://tempp-kz.github.io/movielog/"
+SITE_DESCRIPTION = "Temppの各所に分散していた映画ログまとめです。"
 NAV = [("index.html", "トップ"), ("titles/index.html", "作品名順"),
        ("years/index.html", "公開年順"), ("genres/index.html", "ジャンル"),
        ("directors/index.html", "監督"), ("cast/index.html", "出演者"),
@@ -218,6 +221,7 @@ class Site:
         self.optimized = optimized_count(root, articles)
         self.random_candidates = articles[4:]
         self.initial_random = random.sample(self.random_candidates, min(2, len(self.random_candidates)))
+        self.image_sizes = {}
         self.entries = [(a, f) for a in articles for f in a.films if f.title]
         self.name_groups = {group: [] for group, _, _ in NAME_GROUPS}
         self.years: dict[int, dict[str, Article]] = defaultdict(dict)
@@ -263,13 +267,20 @@ class Site:
 <nav class="tree-nav" aria-label="記事の索引">{''.join(nodes)}</nav>
 <div class="sidebar-links"><a href="https://tempp-kz.github.io/tempp/">■架空都市神津wiki</a><a href="https://tempp-kz.github.io/pucopac/">■ぷ庫OPAC</a></div></aside>'''
 
-    def write_page(self, route: str, title: str, content: str, active: str = "") -> None:
+    def write_page(self, route: str, title: str, content: str, active: str = "", description: str | None = None) -> None:
         home = route == "index.html"
         header = "" if home else f'<header class="site-header"><div class="header-inner"><a class="site-name" href="{href(route, "index.html")}">{SITE_TITLE}</a></div></header>'
         data_script = f'<script defer src="{href(route, "assets/article-data.js")}"></script>' if home or route == 'search/index.html' else ''
+        page_title = title if home else title + " | " + SITE_TITLE
+        page_description = re.sub(r"\s+", " ", description or SITE_DESCRIPTION).strip()[:200]
+        card_image = SITE_URL + 'assets/x-card.png'
+        social = f'''<meta name="description" content="{e(page_description)}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="{e(SITE_TITLE)}"><meta property="og:title" content="{e(page_title)}"><meta property="og:description" content="{e(page_description)}"><meta property="og:url" content="{SITE_URL + quote(route, safe='/')}">
+<meta property="og:image" content="{card_image}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="670"><meta property="og:image:alt" content="{e(SITE_TITLE)} ©Tempp">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(page_title)}"><meta name="twitter:description" content="{e(page_description)}"><meta name="twitter:image" content="{card_image}"><meta name="twitter:image:alt" content="{e(SITE_TITLE)} ©Tempp">'''
         document = f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(title)} | {SITE_TITLE}</title><link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
+<title>{e(page_title)}</title>{social}<link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
 <body data-site-root="{href(route, 'index.html')}"><a class="skip-link" href="#main">本文へ</a><div class="site-layout">{self.sidebar(route, active)}<div class="site-content">
 <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false">メニュー・検索</button>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
 </div></div><button class="sidebar-backdrop" type="button" aria-label="メニューを閉じる" hidden></button></body></html>'''
@@ -281,7 +292,7 @@ class Site:
     def image_path(self, article: Article) -> str:
         image = article.data.get("image")
         if not image:
-            return "assets/default.png"
+            return "assets/banner.png"
         if not isinstance(image, str):
             raise ValueError(f"{article.path.name}: image はローカル画像のパスで指定してください。")
         if image.startswith("![[") and image.endswith("]]"):
@@ -298,6 +309,13 @@ class Site:
                 return resolved.relative_to(self.root).as_posix()
         raise ValueError(f"{article.path.name}: assets内に画像が見つかりません: {image}")
 
+    def image_size(self, path: str) -> tuple[int, int]:
+        if path not in self.image_sizes:
+            with (self.root / path).open('rb') as stream:
+                header = stream.read(24)
+            self.image_sizes[path] = struct.unpack('>II', header[16:24]) if header[:8] == b'\x89PNG\r\n\x1a\n' else (1280, 670)
+        return self.image_sizes[path]
+
     def date_badge(self, article: Article) -> str:
         return f'<span class="article-type">{TYPE_LABEL[article.kind]}</span><time datetime="{article.posted.date().isoformat()}">{article.posted:%Y-%m-%d}</time>'
 
@@ -305,15 +323,28 @@ class Site:
         display = article.data.get("rating_display")
         return f'<span class="rating">{e(display)}</span>' if display is not None else ""
 
-    def article_row(self, article: Article, current: str, label: str | None = None) -> str:
-        return f'<li><a class="list-title" href="{href(current, article.route)}">{e(label or article.title)}</a><div class="list-meta">{self.date_badge(article)}{self.score(article)}</div></li>'
+    def article_row(self, article: Article, current: str, label: str | None = None, film: Film | None = None, sortable: bool = False) -> str:
+        attrs = ''
+        if sortable:
+            reading = film.reading if film else None
+            known = reading_group(reading) != 'unknown'
+            meta = {'title': film.title if film else article.title, 'reading': reading_key(reading) if known else None,
+                    'reading_label': ('数字・英語' if reading_key(reading)[0][0].isdigit() else reading_key(reading)[0][0]) if known else '読み未登録・要確認',
+                    'year': film.data.get('release_year') if film else None, 'genres': film.data.get('genres', []) if film else [],
+                    'posted': article.posted.isoformat(), 'file': article.path.name}
+            attrs = ' data-index-entry="' + e(json.dumps(meta, ensure_ascii=False, separators=(',', ':'))) + '"'
+        return f'<li{attrs}><a class="list-title" href="{href(current, article.route)}">{e(label or article.title)}</a><div class="list-meta">{self.date_badge(article)}{self.score(article)}</div></li>'
 
     def list_articles(self, articles: list[Article], current: str) -> str:
         if not articles:
             return '<p class="empty">記事はまだありません。</p>'
         return '<ul class="article-list">' + "".join(self.article_row(a, current) for a in articles) + "</ul>"
 
-    def ordered_index(self, entries: list[tuple[Article, Film | None]], current: str) -> str:
+    def sortable_index(self, content: str, mode: str = 'name') -> str:
+        options = ''.join(f'<option value="{value}"' + (' selected' if value == mode else '') + f'>{label}</option>' for value, label in [('name', '名前順'), ('year', '年代順'), ('genre', 'ジャンル順')])
+        return f'''<div class="sortable-index"><div class="index-sort-controls" hidden><label>並び順 <select class="index-sort">{options}</select></label><p class="index-sort-status" role="status"></p></div><div class="index-groups">{content}</div></div>'''
+
+    def ordered_index(self, entries: list[tuple[Article, Film | None]], current: str, *, controls: bool = True) -> str:
         """Confirmed readings first; pending readings are never guessed from a title."""
         def order(entry: tuple[Article, Film | None]) -> tuple:
             article, film = entry
@@ -337,17 +368,19 @@ class Site:
             rows = []
             for article, film in group:
                 title = film.title + " — " + article.title if article.kind == "essay" and film else article.title
-                rows.append(self.article_row(article, current, title))
+                rows.append(self.article_row(article, current, title, film, sortable=True))
             result += f'<section class="index-section"><h2>{e(label)}<span class="count">{len(group):,}件</span></h2><ul class="article-list">' + "".join(rows) + '</ul></section>'
-        return result if entries else result + '<p class="empty">記事はまだありません。</p>'
+        if not entries:
+            result += '<p class="empty">記事はまだありません。</p>'
+        return self.sortable_index(result) if controls else result
 
-    def index_articles(self, articles: list[Article], current: str, *, year: int | None = None, field: str | None = None, name: str | None = None) -> str:
+    def index_articles(self, articles: list[Article], current: str, *, year: int | None = None, field: str | None = None, name: str | None = None, controls: bool = True) -> str:
         entries = []
         for article in articles:
             candidates = [f for f in article.films if f.title and (year is None or f.data.get("release_year") == year) and (field is None or name in f.data[field])]
             film = min(candidates, key=lambda f: (reading_group(f.reading) == "unknown", reading_key(f.reading) if f.reading else (f.title, ""))) if candidates else None
             entries.append((article, film))
-        return self.ordered_index(entries, current)
+        return self.ordered_index(entries, current, controls=controls)
 
     def count_link(self, current: str, target: str, label: str, count: int) -> str:
         text = f'<span>{e(label)}</span><span class="count">{count:,}件</span>'
@@ -374,9 +407,11 @@ class Site:
 
     def card(self, article: Article) -> str:
         route = 'index.html'
+        image = self.image_path(article)
+        width, height = self.image_size(image)
         short = article.data.get("short_review")
         short_html = f'<p class="short-review">{e(short)}</p>' if short is not None else ""
-        return f'''<article class="review-card" data-article-route="{e(article.route)}"><a class="card-image" href="{href(route, article.route)}" tabindex="-1" aria-hidden="true"><img src="{href(route, self.image_path(article))}" alt="" width="1280" height="670"></a>
+        return f'''<article class="review-card" data-article-route="{e(article.route)}"><a class="card-image" href="{href(route, article.route)}" tabindex="-1" aria-hidden="true"><img src="{href(route, image)}" alt="" width="{width}" height="{height}"></a>
 <div class="card-content"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div>
 <h3><a href="{href(route, article.route)}">{e(article.title)}</a></h3>{short_html}</div></article>'''
 
@@ -385,7 +420,8 @@ class Site:
         cards = ''.join(self.card(article) for article in self.articles[:4])
         random_cards = ''.join(self.card(article) for article in self.initial_random)
         banner = 'assets/banner.png' if (self.root / 'assets/banner.png').is_file() else 'assets/default.png'
-        content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="1280" height="670"></figure>
+        width, height = self.image_size(banner)
+        content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="{width}" height="{height}"></figure>
 <div class="home-notice"><p>ここはTemppの各所に分散しておいてあった映画ログまとめです。</p><p>古いものは表現に不適切なものがあります。</p><p>時期によって点数にばらつきがあります。</p><ul><li>・数字のものは5点満点</li><li>・★のものは―は３点。プラスは★又は☆、マイナスは×又は△がついています。</li></ul>
 <div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div><div><dt>最適化本数：</dt><dd>{self.optimized:,}本</dd></div></dl></div></div>
 <section class="home-section" id="latest-reviews"><h2>最新の感想</h2><div class="card-grid">{cards}</div></section>
@@ -484,25 +520,29 @@ class Site:
 
     def article_pages(self) -> None:
         for article in self.articles:
+            image = self.image_path(article)
+            width, height = self.image_size(image)
             short = article.data.get("short_review")
             short_html = f'<p class="article-short">{e(short)}</p>' if short is not None else ""
             content = f'''<article class="full-article"><header class="article-heading"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div><h1>{e(article.title)}</h1></header>
-<img class="article-image" src="{href(article.route, self.image_path(article))}" alt="" width="1280" height="670">
+<img class="article-image" src="{href(article.route, image)}" alt="" width="{width}" height="{height}">
 {short_html}<div class="article-body">{self.render_body(article)}</div>{self.metadata(article)}{self.related(article)}</article>'''
-            self.write_page(article.route, article.title, content)
+            self.write_page(article.route, article.title, content, description=article.data.get('short_review'))
 
     def indexes(self) -> None:
         route = "titles/index.html"
-        content = '<div class="page-heading"><h1>作品名順</h1><p>確定した読みの順に並べ、未登録・要確認の記事は末尾に掲載します。</p></div>' + self.name_links(route) + self.ordered_index(self.entries, route)
+        content = '<div class="page-heading"><h1>作品名順</h1><p>名前順では確定した読みの順に並べ、未登録・要確認の記事は末尾に掲載します。</p></div>' + self.name_links(route) + self.ordered_index(self.entries, route)
         self.write_page(route, "作品名順", content, route)
         for group, label, _ in NAME_GROUPS:
             group_route = f'titles/{group}/index.html'
             self.write_page(group_route, label, f'<div class="page-heading"><p class="eyebrow"><a href="{href(group_route, route)}">名前から検索</a></p><h1>{e(label)}</h1></div>' + self.ordered_index(self.name_groups[group], group_route), route)
         route = "years/index.html"
         content = '<div class="page-heading"><h1>公開年順</h1><p>映画の年が新しい順に掲載します。各年の中は確定した読みの順です。</p></div>' + self.year_links(route)
+        year_content = ''
         for year in sorted(self.years, reverse=True):
-            content += f'<section class="year-section"><h2>{year}年</h2>{self.index_articles(list(self.years[year].values()), route, year=year)}</section>'
-        content += '<section class="year-section"><h2>年未登録</h2>' + self.index_articles(self.year_unknown, route) + '</section>'
+            year_content += f'<section class="year-section"><h2>{year}年</h2>{self.index_articles(list(self.years[year].values()), route, year=year, controls=False)}</section>'
+        year_content += '<section class="year-section"><h2>年未登録</h2>' + self.index_articles(self.year_unknown, route, controls=False) + '</section>'
+        content += self.sortable_index(year_content, mode='year')
         self.write_page(route, "公開年順", content, route)
         for year in self.display_years:
             year_route = f'years/{year}/index.html'
