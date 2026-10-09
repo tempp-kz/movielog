@@ -1,5 +1,6 @@
 """Verify preservation, association and generated indexes with isolated fixtures."""
 import importlib.util
+import json
 from pathlib import Path
 import shutil
 import sys
@@ -25,6 +26,7 @@ class SiteTests(unittest.TestCase):
         (self.root / "web").mkdir()
         shutil.copy(REPO / "assets" / "default.png", self.root / "assets" / "default.png")
         shutil.copy(REPO / "web" / "site.css", self.root / "web" / "site.css")
+        shutil.copy(REPO / "web" / "site.js", self.root / "web" / "site.js")
         self.output = self.root / "_site"
 
     def add(self, title="映画A", posted="2005-01-01 12:00:00", **overrides):
@@ -44,17 +46,65 @@ class SiteTests(unittest.TestCase):
     def read(self, route):
         return (self.output / route).read_text(encoding="utf-8")
 
-    def test_latest_six_uses_posting_date_and_preserves_full_short_text(self):
+    def test_latest_four_and_two_random_preserve_posting_order_and_full_short_text(self):
         self.add("古いレビュー", "2003-01-01")
         for i in range(1, 8):
             self.add(f"新しい{i}", f"2020-01-{i:02d}", type="essay" if i == 7 else "review", short_review="長い短評。" * 80 if i == 7 else "短評。")
         report = site.build(self.root, self.output)
-        self.assertEqual([v["title"] for v in report["latest"]], [f"新しい{i}" for i in range(7, 1, -1)])
+        self.assertEqual([v["title"] for v in report["latest"]], [f"新しい{i}" for i in range(7, 3, -1)])
+        self.assertEqual(len(report['initial_random']), 2)
+        self.assertEqual(len({v['route'] for v in report['initial_random']}), 2)
+        self.assertFalse({v['route'] for v in report['initial_random']} & {v['route'] for v in report['latest']})
         home = self.read("index.html")
         self.assertEqual(home.count('class="review-card"'), 6)
         self.assertIn("長い短評。" * 80, home)
         self.assertIn("エッセイ", home)
-        self.assertNotIn("古いレビュー", home)
+        self.assertIn('id="random-button"', home)
+        data = json.loads(self.read('assets/article-data.js').removeprefix('window.movieLogArticles=').removesuffix(';\n'))
+        self.assertEqual(len(data), 8)
+        self.assertEqual(sum(item['latest'] for item in data), 4)
+        self.assertIn('原文のまま…誤字です。', data[0]['search_text'])
+        self.assertIn('T00:00:00', data[0]['datetime'])
+
+    def test_sidebar_has_search_tree_and_external_links_on_all_page_types(self):
+        path = self.add(reading='かんせん', reading_status='取得済み', release_year=2024, genres=['ホラー'])
+        site.build(self.root, self.output)
+        for route in ('index.html', 'titles/k/index.html', self.article(path).route, 'search/index.html'):
+            page = self.read(route)
+            self.assertEqual(page.count('aria-label="記事の索引"'), 1)
+            self.assertNotIn('site-footer', page)
+            self.assertIn('id="site-sidebar"', page)
+            self.assertLess(page.index('class="sidebar-search"'), page.index('class="tree-nav"'))
+            self.assertLess(page.index('class="tree-nav"'), page.index('class="sidebar-links"'))
+            self.assertIn('action="' + site.href(route, 'search/index.html') + '"', page)
+            self.assertIn('■架空都市神津wiki', page)
+            self.assertIn('href="https://tempp-kz.github.io/pucopac/"', page)
+        self.assertIn('<details class="nav-folder" open>', self.read('titles/k/index.html'))
+
+    def test_optimized_count_uses_applied_confirmed_records_and_deduplicates_articles(self):
+        attrs = dict(release_year=2024, genres=['ホラー'], directors=['監督'], cast=['出演者'])
+        approved = self.add('確認済み', **attrs)
+        self.add('属性だけ揃う', **attrs)
+        pending = self.add('未確認', **attrs)
+        (self.root / 'migration').mkdir()
+        row = {'file': approved.relative_to(self.root).as_posix(), 'metadata_after': attrs}
+        for name in ('metadata-trial30-a.json', 'metadata-trial30-b.json'):
+            (self.root / 'migration' / name).write_text(json.dumps({'confirmed_count': 1, 'outcomes': [row]}))
+        (self.root / 'migration' / 'metadata-trial-pending.json').write_text(json.dumps({'confirmed_count': 0, 'outcomes': [{'file': pending.relative_to(self.root).as_posix(), 'metadata_after': attrs}]}))
+        report = site.build(self.root, self.output)
+        self.assertEqual(report['optimized_articles'], 1)
+        self.assertIn('最適化本数：</dt><dd>1本', self.read('index.html'))
+        changed = yaml.safe_load(site.FRONTMATTER.fullmatch(approved.read_text())[1])
+        changed['cast'] = []
+        approved.write_text('---\n' + yaml.safe_dump(changed, allow_unicode=True) + '---\n\n本文')
+        self.assertEqual(site.build(self.root, self.output)['optimized_articles'], 0)
+
+    def test_small_article_collection_has_no_latest_random_overlap(self):
+        for i in range(3):
+            self.add('映画' + str(i), f'2024-01-{i + 1:02d}')
+        report = site.build(self.root, self.output)
+        self.assertEqual(len(report['latest']), 3)
+        self.assertEqual(report['initial_random'], [])
 
     def test_all_saved_cast_and_multiple_directors_are_indexed(self):
         p = self.add(filmarks_id="10", directors=["監督A", "監督B"], cast=["出演者1", "出演者2", "出演者3", "出演者4"], genres=["ホラー"])

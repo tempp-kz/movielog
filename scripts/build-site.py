@@ -11,6 +11,7 @@ from html import escape
 import json
 from pathlib import Path
 import posixpath
+import random
 import re
 import shutil
 import unicodedata
@@ -36,6 +37,24 @@ NAME_GROUPS = [("a", "あ行", "あいうえお"), ("k", "か行", "かきくけ
 GENRE_ORDER = "アニメ|ドラマ|恋愛|ホラー|アート・コンテンポラリー|戦争|音楽|ミュージカル|スポーツ|SF|青春|コメディ|アクション|アドベンチャー・冒険|クライム|ショートフィルム・短編|ドキュメンタリー|スリラー|サスペンス|ファミリー|ファンタジー|ミステリー|ヤクザ・任侠|伝記|時代劇|西部劇|歴史|パニック|オムニバス|バイオレンス|ギャング・マフィア".split("|")
 MARKER = "_build-report.json"
 GENERATOR = "movielog-markdown-site-v1"
+
+
+def optimized_count(root: Path, articles: list[Article]) -> int:
+    """Count distinct articles whose user-approved movie attributes are applied."""
+    by_file = {a.path.relative_to(root).as_posix(): a for a in articles}
+    optimized = set()
+    for record in sorted((root / "migration").glob("metadata-trial*.json")):
+        data = json.loads(record.read_text(encoding="utf-8"))
+        rows = data.get("outcomes", [])
+        if not data.get("confirmed_count") or data.get("confirmed_count") != len(rows):
+            continue
+        for row in rows:
+            article = by_file.get(row.get("file"))
+            after = row.get("metadata_after", {})
+            fields = ("release_year", "directors", "cast", "genres")
+            if article and all(after.get(field) and article.data.get(field) == after[field] for field in fields):
+                optimized.add(row["file"])
+    return len(optimized)
 
 
 def e(value: object) -> str:
@@ -196,6 +215,9 @@ class Site:
         self.terms: dict[str, dict[str, list[Article]]] = {name: defaultdict(list) for name in ("genres", "directors", "cast")}
         self.pages = 0
         self.updated = datetime.now(timezone(timedelta(hours=9))).date()
+        self.optimized = optimized_count(root, articles)
+        self.random_candidates = articles[4:]
+        self.initial_random = random.sample(self.random_candidates, min(2, len(self.random_candidates)))
         self.entries = [(a, f) for a in articles for f in a.films if f.title]
         self.name_groups = {group: [] for group, _, _ in NAME_GROUPS}
         self.years: dict[int, dict[str, Article]] = defaultdict(dict)
@@ -215,16 +237,42 @@ class Site:
                     self.terms[field][name].append(article)
         self.markdown = MarkdownIt("commonmark", {"breaks": True, "html": False, "typographer": False}).enable("table")
 
+    def sidebar(self, route: str, active: str) -> str:
+        def link(target: str, label: str, count: int | None = None, folder: bool = False) -> str:
+            current = ' aria-current="page"' if target == route else (' aria-current="location"' if target == active else '')
+            icon = '<span class="folder-icon" aria-hidden="true"></span>' if folder else ''
+            number = f'<span class="tree-count">{count:,}</span>' if count is not None else ''
+            return f'<a href="{href(route, target)}"{current}>{icon}<span class="tree-label">{e(label)}</span>{number}</a>'
+
+        branches = {
+            "titles/index.html": [(f'titles/{group}/index.html', label, len(self.name_groups[group])) for group, label, _ in NAME_GROUPS],
+            "years/index.html": [(f'years/{year}/index.html', f'{year}年', len(self.years.get(year, {}))) for year in self.display_years] + [('years/unknown/index.html', '年未登録', len(self.year_unknown))],
+            "genres/index.html": [('genres/' + digest(name) + '/index.html', name, len(self.terms['genres'][name])) for name in sorted(self.terms['genres'])] + [('genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown))],
+        }
+        nodes = []
+        for target, label in NAV:
+            node = link(target, label, folder=target != "index.html")
+            if target in branches:
+                opened = ' open' if active == target else ''
+                children = ''.join('<li>' + link(path, name, count) + '</li>' for path, name, count in branches[target])
+                nodes.append(f'<details class="nav-folder"{opened}><summary>{node}</summary><ul>{children}</ul></details>')
+            else:
+                nodes.append(f'<div class="nav-leaf">{node}</div>')
+        return f'''<aside id="site-sidebar" class="site-sidebar" aria-label="映画ログのメニュー">
+<form class="sidebar-search" action="{href(route, 'search/index.html')}" method="get" role="search"><label class="visually-hidden" for="site-search">映画ログを検索</label><input id="site-search" name="q" type="search" placeholder="映画ログを検索"><button type="submit">検索</button></form>
+<nav class="tree-nav" aria-label="記事の索引">{''.join(nodes)}</nav>
+<div class="sidebar-links"><a href="https://tempp-kz.github.io/tempp/">■架空都市神津wiki</a><a href="https://tempp-kz.github.io/pucopac/">■ぷ庫OPAC</a></div></aside>'''
+
     def write_page(self, route: str, title: str, content: str, active: str = "") -> None:
-        nav = "".join(f'<a href="{href(route, target)}"' + (' aria-current="page"' if target == active else '') + f'>{label}</a>' for target, label in NAV)
         home = route == "index.html"
-        header = "" if home else f'<header class="site-header"><div class="header-inner"><a class="site-name" href="{href(route, "index.html")}">{SITE_TITLE}</a><nav aria-label="記事の索引">{nav}</nav></div></header>'
-        footer_nav = f'<nav aria-label="記事の索引">{nav}</nav>' if home else ""
+        header = "" if home else f'<header class="site-header"><div class="header-inner"><a class="site-name" href="{href(route, "index.html")}">{SITE_TITLE}</a></div></header>'
+        data_script = f'<script defer src="{href(route, "assets/article-data.js")}"></script>' if home or route == 'search/index.html' else ''
         document = f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(title)} | {SITE_TITLE}</title><link rel="stylesheet" href="{href(route, 'assets/site.css')}"></head>
-<body><a class="skip-link" href="#main">本文へ</a>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
-<footer class="site-footer"><a href="{href(route, 'index.html')}">トップページへ</a>{footer_nav}</footer></body></html>'''
+<title>{e(title)} | {SITE_TITLE}</title><link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
+<body data-site-root="{href(route, 'index.html')}"><a class="skip-link" href="#main">本文へ</a><div class="site-layout">{self.sidebar(route, active)}<div class="site-content">
+<button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false">メニュー・検索</button>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
+</div></div><button class="sidebar-backdrop" type="button" aria-label="メニューを閉じる" hidden></button></body></html>'''
         path = self.output / route
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(document, encoding="utf-8")
@@ -324,24 +372,45 @@ class Site:
         names += sorted(set(self.terms['genres']) - set(names))
         return '<div class="search-grid genre-grid">' + "".join(self.count_link(current, 'genres/' + digest(name) + '/index.html', name, len(self.terms['genres'][name])) for name in names) + '</div><div class="unregistered">' + self.count_link(current, 'genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown)) + '</div>'
 
+    def card(self, article: Article) -> str:
+        route = 'index.html'
+        short = article.data.get("short_review")
+        short_html = f'<p class="short-review">{e(short)}</p>' if short is not None else ""
+        return f'''<article class="review-card" data-article-route="{e(article.route)}"><a class="card-image" href="{href(route, article.route)}" tabindex="-1" aria-hidden="true"><img src="{href(route, self.image_path(article))}" alt="" width="1280" height="670"></a>
+<div class="card-content"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div>
+<h3><a href="{href(route, article.route)}">{e(article.title)}</a></h3>{short_html}</div></article>'''
+
     def home(self) -> None:
         route = "index.html"
-        cards = []
-        for article in self.articles[:6]:
-            short = article.data.get("short_review")
-            short_html = f'<p class="short-review">{e(short)}</p>' if short is not None else ""
-            cards.append(f'''<article class="review-card"><a class="card-image" href="{href(route, article.route)}" tabindex="-1" aria-hidden="true"><img src="{href(route, self.image_path(article))}" alt="" width="1280" height="670"></a>
-<div class="card-content"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div>
-<h3><a href="{href(route, article.route)}">{e(article.title)}</a></h3>{short_html}</div></article>''')
+        cards = ''.join(self.card(article) for article in self.articles[:4])
+        random_cards = ''.join(self.card(article) for article in self.initial_random)
         banner = 'assets/banner.png' if (self.root / 'assets/banner.png').is_file() else 'assets/default.png'
         content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="1280" height="670"></figure>
 <div class="home-notice"><p>ここはTemppの各所に分散しておいてあった映画ログまとめです。</p><p>古いものは表現に不適切なものがあります。</p><p>時期によって点数にばらつきがあります。</p><ul><li>・数字のものは5点満点</li><li>・★のものは―は３点。プラスは★又は☆、マイナスは×又は△がついています。</li></ul>
-<div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div></dl></div></div>
-<section class="home-section"><h2>最新の感想</h2><div class="card-grid">{''.join(cards)}</div></section>
+<div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div><div><dt>最適化本数：</dt><dd>{self.optimized:,}本</dd></div></dl></div></div>
+<section class="home-section" id="latest-reviews"><h2>最新の感想</h2><div class="card-grid">{cards}</div></section>
+<section class="home-section" id="random-reviews"><div class="section-heading"><h2>ランダム感想</h2><button id="random-button" type="button" aria-controls="random-cards" hidden>ランダム</button></div><div id="random-cards" class="card-grid">{random_cards}</div><p id="random-status" class="visually-hidden" role="status"></p></section>
 <section class="home-section"><h2>名前から検索</h2>{self.name_links(route)}</section>
 <section class="home-section"><h2>年代から検索</h2>{self.year_links(route)}</section>
 <section class="home-section"><h2>ジャンルから検索</h2>{self.genre_links(route)}<p class="genre-note">複数のジャンルを持つ感想は、それぞれのジャンルに含まれます。</p></section>'''
         self.write_page(route, SITE_TITLE, content, route)
+
+    def interactive_pages(self) -> None:
+        data = []
+        for index, article in enumerate(self.articles):
+            fields = [article.title, article.data.get('short_review') or '', article.body, str(article.posted)]
+            for film in article.films:
+                fields.extend([film.title, film.reading or '', str(film.data.get('release_year') or '')])
+                fields.extend(name for field in ('genres', 'directors', 'cast') for name in film.data[field])
+            data.append({'title': article.title, 'route': article.route, 'kind': TYPE_LABEL[article.kind],
+                         'date': article.posted.strftime('%Y-%m-%d'), 'datetime': article.posted.isoformat(),
+                         'rating': article.data.get('rating_display') or '', 'short': article.data.get('short_review') or '',
+                         'search_text': '\n'.join(fields), 'card_html': self.card(article), 'latest': index < 4})
+        payload = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
+        (self.output / 'assets/article-data.js').write_text('window.movieLogArticles=' + payload + ';\n', encoding='utf-8')
+        self.write_page('search/index.html', '検索', '''<div class="page-heading"><h1>検索</h1><p id="search-summary" role="status">左の検索窓に言葉を入れて検索してください。</p></div>
+<noscript><p>検索にはJavaScriptを有効にしてください。作品名順・公開年順・ジャンルの一覧からも記事を開けます。</p></noscript>
+<ul id="search-results" class="search-results"></ul><button id="search-more" type="button" hidden>さらに表示</button>''')
 
     def term_links(self, field: str, names: list[str], current: str) -> str:
         return "、".join(f'<a href="{href(current, field + "/" + digest(name) + "/index.html")}">{e(name)}</a>' for name in names)
@@ -474,15 +543,20 @@ def build(root: Path, output: Path) -> dict:
     output.mkdir(parents=True, exist_ok=True)
     shutil.copytree(root / "assets", output / "assets")
     shutil.copyfile(root / "web" / "site.css", output / "assets" / "site.css")
+    shutil.copyfile(root / "web" / "site.js", output / "assets" / "site.js")
     site.home()
     site.article_pages()
     site.indexes()
+    site.interactive_pages()
     (output / ".nojekyll").write_text("", encoding="utf-8")
     report = {"generator": GENERATOR, "articles": len(articles), "html_pages": site.pages,
               "reviews": sum(a.kind == "review" for a in articles), "essays": sum(a.kind == "essay" for a in articles),
               "articles_with_filmarks": sum(any(f.key for f in a.films) for a in articles),
               "articles_with_reading": sum(any(f.reading for f in a.films) for a in articles),
-              "latest": [{"title": a.title, "review_date": str(a.posted), "route": a.route} for a in articles[:6]]}
+              "optimized_articles": site.optimized,
+              "latest": [{"title": a.title, "review_date": str(a.posted), "route": a.route} for a in articles[:4]],
+              "initial_random": [{"title": a.title, "route": a.route} for a in site.initial_random],
+              "random_candidates": len(site.random_candidates), "searchable_articles": len(articles)}
     (output / MARKER).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return report
 
