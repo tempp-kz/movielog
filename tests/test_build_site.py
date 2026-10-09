@@ -101,6 +101,61 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(site.reading_key("きゃく")[0], "きやく")
         self.assertEqual(site.reading_key("きー")[0], "きい")
 
+    def test_name_group_pages_use_reading_not_display_title_and_accept_digits(self):
+        english = self.add("AFFLICTED", reading="あふりくてっど", reading_status="取得済み")
+        number = self.add("11：11：11", reading="１１１１１１", reading_status="取得済み")
+        pending = self.add("保留", reading="あい", reading_status="要確認")
+        site.build(self.root, self.output)
+        self.assertIn("AFFLICTED", self.read("titles/a/index.html"))
+        self.assertNotIn("AFFLICTED", self.read("titles/number/index.html"))
+        self.assertIn("11：11：11", self.read("titles/number/index.html"))
+        self.assertIn("保留", self.read("titles/unknown/index.html"))
+        self.assertNotIn("保留", self.read("titles/a/index.html"))
+        self.assertEqual(site.reading_key("１１１１１１"), site.reading_key("111111"))
+        self.assertEqual(site.reading_group("がい"), "k")
+        self.assertEqual(site.reading_group("111111"), "number")
+        for path in (english, number, pending):
+            self.assertIn(site.href("titles/index.html", self.article(path).route), self.read("titles/index.html"))
+
+    def test_year_and_genre_indexes_sort_confirmed_readings_before_pending(self):
+        common = dict(release_year=2024, genres=["ホラー"])
+        self.add("確定B", "2003-01-01", reading="かた", reading_status="取得済み", **common)
+        self.add("確定A", "2002-01-01", reading="がい", reading_status="取得済み", **common)
+        self.add("保留", "2024-01-01", reading="あい", reading_status="要確認", **common)
+        self.add("未登録", "2025-01-01", **common)
+        repeated = self.add("確定A", "2001-01-01", reading="がい", reading_status="取得済み", **common)
+        old = self.add("昔の映画", "2026-01-01", release_year=1969)
+        site.build(self.root, self.output)
+        for route in ("years/2024/index.html", "genres/" + site.digest("ホラー") + "/index.html"):
+            page = self.read(route)
+            self.assertLess(page.index('>確定A</a>'), page.index('>確定B</a>'))
+            self.assertLess(page.index('>確定B</a>'), page.index('>保留</a>'))
+            self.assertLess(page.index('読み未登録・要確認'), page.index('>保留</a>'))
+            self.assertLess(page.index('読み未登録・要確認'), page.index('>未登録</a>'))
+            self.assertEqual(page.count('>確定A</a>'), 2)
+            self.assertIn("5件（読み確定 3件・未確定 2件）", page)
+            self.assertIn(site.href(route, self.article(repeated).route), page)
+        years = self.read("years/index.html")
+        self.assertLess(years.index('>2024年</span>'), years.index('>1969年</span>'))
+        self.assertIn(site.href("years/1969/index.html", self.article(old).route), self.read("years/1969/index.html"))
+
+    def test_home_has_approved_sections_dynamic_counts_and_unknown_index_links(self):
+        self.add("登録済み", reading="かんせん", reading_status="取得済み", release_year=2024, genres=["ホラー", "SF"])
+        self.add("未登録")
+        site.build(self.root, self.output)
+        page = self.read("index.html")
+        self.assertLess(page.index('class="home-banner"'), page.index("ここはTempp"))
+        self.assertLess(page.index("現在の作業進捗状況"), page.index("最新の感想"))
+        self.assertLess(page.index("最新の感想"), page.index("名前から検索"))
+        self.assertLess(page.index("名前から検索"), page.index("年代から検索"))
+        self.assertLess(page.index("年代から検索"), page.index("ジャンルから検索"))
+        self.assertIn("感想本数：</dt><dd>2本", page)
+        for route in ("titles/k/index.html", "titles/unknown/index.html", "years/2024/index.html", "years/unknown/index.html", "genres/unknown/index.html"):
+            self.assertIn(site.href("index.html", route), page)
+            self.assertTrue((self.output / route).is_file())
+        self.assertIn("未登録", self.read("years/unknown/index.html"))
+        self.assertIn("未登録", self.read("genres/unknown/index.html"))
+
     def test_sources_are_unchanged_and_stale_pages_are_removed_on_rebuild(self):
         first = self.add("映画A", "2005-01-01")
         second = self.add("映画B", "2005-01-02")

@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from hashlib import sha256
 from html import escape
 import json
@@ -20,13 +20,20 @@ from markdown_it import MarkdownIt
 import yaml
 
 SITE_TITLE = "映画の感想を だらだら呟く"
-NAV = [("index.html", "最新"), ("titles/index.html", "作品名順"),
+NAV = [("index.html", "トップ"), ("titles/index.html", "作品名順"),
        ("years/index.html", "公開年順"), ("genres/index.html", "ジャンル"),
        ("directors/index.html", "監督"), ("cast/index.html", "出演者"),
        ("essays/index.html", "エッセイ")]
 TYPE_LABEL = {"review": "レビュー", "essay": "エッセイ"}
 FRONTMATTER = re.compile(r"\A---\r?\n(.*?)\r?\n---(?:\r?\n|\Z)(.*)\Z", re.S)
-HIRAGANA = re.compile(r"[ぁ-ゖゝゞー・\s、。！？…〜～「」『』（）()：:－-]+\Z")
+HIRAGANA = re.compile(r"[ぁ-ゖゝゞー0-9０-９・\s、。！？…〜～「」『』（）()：:－-]+\Z")
+NAME_GROUPS = [("a", "あ行", "あいうえお"), ("k", "か行", "かきくけこ"),
+               ("s", "さ行", "さしすせそ"), ("t", "た行", "たちつてと"),
+               ("n", "な行", "なにぬねの"), ("h", "は行", "はひふへほ"),
+               ("m", "ま行", "まみむめも"), ("y", "や行", "やゆよ"),
+               ("r", "ら行", "らりるれろ"), ("w", "わ行", "わゐゑをん"),
+               ("number", "数字・英語", ""), ("unknown", "読み未登録・要確認", "")]
+GENRE_ORDER = "アニメ|ドラマ|恋愛|ホラー|アート・コンテンポラリー|戦争|音楽|ミュージカル|スポーツ|SF|青春|コメディ|アクション|アドベンチャー・冒険|クライム|ショートフィルム・短編|ドキュメンタリー|スリラー|サスペンス|ファミリー|ファンタジー|ミステリー|ヤクザ・任侠|伝記|時代劇|西部劇|歴史|パニック|オムニバス|バイオレンス|ギャング・マフィア".split("|")
 MARKER = "_build-report.json"
 GENERATOR = "movielog-markdown-site-v1"
 
@@ -41,15 +48,26 @@ def digest(value: str) -> str:
 
 def reading_key(reading: str) -> tuple[str, str]:
     # Gojuon compares voiced and small kana with their base kana first.
+    reading = unicodedata.normalize("NFKC", reading)
     base = "".join(c for c in unicodedata.normalize("NFD", reading) if not unicodedata.combining(c))
     base = base.translate(str.maketrans("ぁぃぅぇぉっゃゅょゎゕゖ", "あいうえおつやゆよわかけ"))
-    base = re.sub(r"[^ぁ-ゖゝゞー]", "", base)
+    base = re.sub(r"[^ぁ-ゖゝゞー0-9]", "", base)
     vowels = {c: vowel for vowel, kana in (("あ", "あかさたなはまやらわ"), ("い", "いきしちにひみりゐ"),
               ("う", "うくすつぬふむゆる"), ("え", "えけせてねへめれゑ"), ("お", "おこそとのほもよろを")) for c in kana}
     normalized = ""
     for char in base:
         normalized += vowels.get(normalized[-1], "ー") if char == "ー" and normalized else char
     return normalized, reading
+
+
+def reading_group(reading: str | None) -> str:
+    key = reading_key(reading)[0] if reading else ""
+    if key[:1].isdigit():
+        return "number"
+    for group, _, kana in NAME_GROUPS:
+        if key and key[0] in kana:
+            return group
+    return "unknown"
 
 
 def href(current: str, target: str) -> str:
@@ -105,7 +123,7 @@ def film_from(data: dict) -> Film:
         film[field] = string_list(data.get(field), field)
     reading = film.get("reading")
     if reading is not None and (not isinstance(reading, str) or not HIRAGANA.fullmatch(reading)):
-        raise ValueError("reading は全文の読みをひらがなで指定してください。")
+        raise ValueError("reading は全文の読みをひらがな・数字で指定してください。")
     raw_id = data.get("filmarks_id")
     film_id = str(raw_id) if raw_id is not None else None
     if film_id and not re.fullmatch(r"\d+", film_id):
@@ -177,6 +195,18 @@ class Site:
         self.by_film: dict[str, list[Article]] = defaultdict(list)
         self.terms: dict[str, dict[str, list[Article]]] = {name: defaultdict(list) for name in ("genres", "directors", "cast")}
         self.pages = 0
+        self.updated = datetime.now(timezone(timedelta(hours=9))).date()
+        self.entries = [(a, f) for a in articles for f in a.films if f.title]
+        self.name_groups = {group: [] for group, _, _ in NAME_GROUPS}
+        self.years: dict[int, dict[str, Article]] = defaultdict(dict)
+        for article, film in self.entries:
+            self.name_groups[reading_group(film.reading)].append((article, film))
+            if film.data.get("release_year") is not None:
+                self.years[film.data["release_year"]][article.route] = article
+        self.year_unknown = [a for a in articles if not any(f.data.get("release_year") is not None for f in a.films)]
+        self.genre_unknown = [a for a in articles if not any(f.data["genres"] for f in a.films)]
+        newest_year = max([self.updated.year, *self.years])
+        self.display_years = list(range(newest_year, min(self.years, default=newest_year) - 1, -1))
         for article in articles:
             for key in dict.fromkeys(f.key for f in article.films if f.key):
                 self.by_film[key].append(article)
@@ -187,13 +217,14 @@ class Site:
 
     def write_page(self, route: str, title: str, content: str, active: str = "") -> None:
         nav = "".join(f'<a href="{href(route, target)}"' + (' aria-current="page"' if target == active else '') + f'>{label}</a>' for target, label in NAV)
+        home = route == "index.html"
+        header = "" if home else f'<header class="site-header"><div class="header-inner"><a class="site-name" href="{href(route, "index.html")}">{SITE_TITLE}</a><nav aria-label="記事の索引">{nav}</nav></div></header>'
+        footer_nav = f'<nav aria-label="記事の索引">{nav}</nav>' if home else ""
         document = f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)} | {SITE_TITLE}</title><link rel="stylesheet" href="{href(route, 'assets/site.css')}"></head>
-<body><a class="skip-link" href="#main">本文へ</a><header class="site-header"><div class="header-inner">
-<a class="site-name" href="{href(route, 'index.html')}">{SITE_TITLE}</a><nav aria-label="記事の索引">{nav}</nav>
-</div></header><main id="main" class="site-main">{content}</main>
-<footer class="site-footer"><a href="{href(route, 'index.html')}">最新の感想へ</a></footer></body></html>'''
+<body><a class="skip-link" href="#main">本文へ</a>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
+<footer class="site-footer"><a href="{href(route, 'index.html')}">トップページへ</a>{footer_nav}</footer></body></html>'''
         path = self.output / route
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(document, encoding="utf-8")
@@ -234,6 +265,65 @@ class Site:
             return '<p class="empty">記事はまだありません。</p>'
         return '<ul class="article-list">' + "".join(self.article_row(a, current) for a in articles) + "</ul>"
 
+    def ordered_index(self, entries: list[tuple[Article, Film | None]], current: str) -> str:
+        """Confirmed readings first; pending readings are never guessed from a title."""
+        def order(entry: tuple[Article, Film | None]) -> tuple:
+            article, film = entry
+            reading = film.reading if film else None
+            newest = (-article.posted.toordinal(), -article.posted.hour, -article.posted.minute, -article.posted.second, -article.posted.microsecond)
+            if reading_group(reading) != "unknown":
+                return (0, reading_key(reading), newest, article.title, article.path.name)
+            return (1, (film.title if film else article.title, ""), newest, article.path.name)
+        entries = sorted(entries, key=order)
+        groups: dict[str, list[tuple[Article, Film | None]]] = {}
+        for article, film in entries:
+            reading = film.reading if film else None
+            label = "読み未登録・要確認"
+            if reading_group(reading) != "unknown":
+                first = reading_key(reading)[0][0]
+                label = "数字・英語" if first.isdigit() else first
+            groups.setdefault(label, []).append((article, film))
+        known = sum(reading_group(f.reading if f else None) != "unknown" for _, f in entries)
+        result = f'<p class="index-summary">{len(entries):,}件（読み確定 {known:,}件・未確定 {len(entries) - known:,}件）</p>'
+        for label, group in groups.items():
+            rows = []
+            for article, film in group:
+                title = film.title + " — " + article.title if article.kind == "essay" and film else article.title
+                rows.append(self.article_row(article, current, title))
+            result += f'<section class="index-section"><h2>{e(label)}<span class="count">{len(group):,}件</span></h2><ul class="article-list">' + "".join(rows) + '</ul></section>'
+        return result if entries else result + '<p class="empty">記事はまだありません。</p>'
+
+    def index_articles(self, articles: list[Article], current: str, *, year: int | None = None, field: str | None = None, name: str | None = None) -> str:
+        entries = []
+        for article in articles:
+            candidates = [f for f in article.films if f.title and (year is None or f.data.get("release_year") == year) and (field is None or name in f.data[field])]
+            film = min(candidates, key=lambda f: (reading_group(f.reading) == "unknown", reading_key(f.reading) if f.reading else (f.title, ""))) if candidates else None
+            entries.append((article, film))
+        return self.ordered_index(entries, current)
+
+    def count_link(self, current: str, target: str, label: str, count: int) -> str:
+        text = f'<span>{e(label)}</span><span class="count">{count:,}件</span>'
+        if not count:
+            return f'<span class="search-item zero">{text}</span>'
+        return f'<a class="search-item" href="{href(current, target)}">{text}</a>'
+
+    def name_links(self, current: str) -> str:
+        return '<div class="search-grid name-grid">' + "".join(self.count_link(current, f'titles/{group}/index.html', label, len(self.name_groups[group])) for group, label, _ in NAME_GROUPS if group != "unknown") + '</div><div class="unregistered">' + self.count_link(current, 'titles/unknown/index.html', '読み未登録・要確認', len(self.name_groups['unknown'])) + '</div>'
+
+    def year_links(self, current: str) -> str:
+        rows = []
+        years = list(self.display_years)
+        while years:
+            size = min(years[0] % 5 + 1, len(years))
+            row, years = years[:size], years[size:]
+            rows.append('<div class="year-row">' + "".join(self.count_link(current, f'years/{year}/index.html', f'{year}年', len(self.years.get(year, {}))) for year in row) + '</div>')
+        return "".join(rows) + '<div class="unregistered">' + self.count_link(current, 'years/unknown/index.html', '年未登録', len(self.year_unknown)) + '</div>'
+
+    def genre_links(self, current: str) -> str:
+        names = [name for name in GENRE_ORDER if name in self.terms['genres']]
+        names += sorted(set(self.terms['genres']) - set(names))
+        return '<div class="search-grid genre-grid">' + "".join(self.count_link(current, 'genres/' + digest(name) + '/index.html', name, len(self.terms['genres'][name])) for name in names) + '</div><div class="unregistered">' + self.count_link(current, 'genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown)) + '</div>'
+
     def home(self) -> None:
         route = "index.html"
         cards = []
@@ -242,8 +332,16 @@ class Site:
             short_html = f'<p class="short-review">{e(short)}</p>' if short is not None else ""
             cards.append(f'''<article class="review-card"><a class="card-image" href="{href(route, article.route)}" tabindex="-1" aria-hidden="true"><img src="{href(route, self.image_path(article))}" alt="" width="1280" height="670"></a>
 <div class="card-content"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div>
-<h2><a href="{href(route, article.route)}">{e(article.title)}</a></h2>{short_html}</div></article>''')
-        self.write_page(route, "最新の感想", '<div class="page-heading"><h1>最新の感想</h1></div><div class="card-grid">' + "".join(cards) + "</div>", route)
+<h3><a href="{href(route, article.route)}">{e(article.title)}</a></h3>{short_html}</div></article>''')
+        banner = 'assets/banner.png' if (self.root / 'assets/banner.png').is_file() else 'assets/default.png'
+        content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="1280" height="670"></figure>
+<div class="home-notice"><p>ここはTemppの各所に分散しておいてあった映画ログまとめです。</p><p>古いものは表現に不適切なものがあります。</p><p>時期によって点数にばらつきがあります。</p><ul><li>・数字のものは5点満点</li><li>・★のものは―は３点。プラスは★又は☆、マイナスは×又は△がついています。</li></ul>
+<div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div></dl></div></div>
+<section class="home-section"><h2>最新の感想</h2><div class="card-grid">{''.join(cards)}</div></section>
+<section class="home-section"><h2>名前から検索</h2>{self.name_links(route)}</section>
+<section class="home-section"><h2>年代から検索</h2>{self.year_links(route)}</section>
+<section class="home-section"><h2>ジャンルから検索</h2>{self.genre_links(route)}<p class="genre-note">複数のジャンルを持つ感想は、それぞれのジャンルに含まれます。</p></section>'''
+        self.write_page(route, SITE_TITLE, content, route)
 
     def term_links(self, field: str, names: list[str], current: str) -> str:
         return "、".join(f'<a href="{href(current, field + "/" + digest(name) + "/index.html")}">{e(name)}</a>' for name in names)
@@ -326,27 +424,21 @@ class Site:
 
     def indexes(self) -> None:
         route = "titles/index.html"
-        entries = [(a, f) for a in self.articles for f in a.films if f.title]
-        known = sorted((v for v in entries if v[1].reading), key=lambda v: (reading_key(v[1].reading), -v[0].posted.toordinal(), -v[0].posted.hour, -v[0].posted.minute, -v[0].posted.second, v[0].title))
-        unknown = sorted((v for v in entries if not v[1].reading), key=lambda v: (v[1].title, v[0].path.name))
-        content = '<div class="page-heading"><h1>作品名順</h1><p>読みが登録された作品を五十音順に並べています。</p></div>'
-        for label, group in (("五十音順", known), ("読み未登録", unknown)):
-            if group:
-                content += f'<section class="index-section"><h2>{label}<span class="count">{len(group):,}件</span></h2>'
-                rows = [self.article_row(a, route, f.title + " — " + a.title if a.kind == "essay" else a.title) for a, f in group]
-                content += '<ul class="article-list">' + "".join(rows) + '</ul></section>'
+        content = '<div class="page-heading"><h1>作品名順</h1><p>確定した読みの順に並べ、未登録・要確認の記事は末尾に掲載します。</p></div>' + self.name_links(route) + self.ordered_index(self.entries, route)
         self.write_page(route, "作品名順", content, route)
+        for group, label, _ in NAME_GROUPS:
+            group_route = f'titles/{group}/index.html'
+            self.write_page(group_route, label, f'<div class="page-heading"><p class="eyebrow"><a href="{href(group_route, route)}">名前から検索</a></p><h1>{e(label)}</h1></div>' + self.ordered_index(self.name_groups[group], group_route), route)
         route = "years/index.html"
-        years: dict[int, dict[str, Article]] = defaultdict(dict)
-        for article, film in entries:
-            if film.data.get("release_year") is not None:
-                years[film.data["release_year"]][article.route] = article
-        content = '<div class="page-heading"><h1>公開年順</h1><p>公開年が登録された記事を並べています。</p></div>'
-        for year in sorted(years):
-            content += f'<section class="index-section"><h2>{year}年</h2>{self.list_articles(list(years[year].values()), route)}</section>'
-        if not years:
-            content += '<p class="empty">公開年が登録された記事はまだありません。</p>'
+        content = '<div class="page-heading"><h1>公開年順</h1><p>映画の年が新しい順に掲載します。各年の中は確定した読みの順です。</p></div>' + self.year_links(route)
+        for year in sorted(self.years, reverse=True):
+            content += f'<section class="year-section"><h2>{year}年</h2>{self.index_articles(list(self.years[year].values()), route, year=year)}</section>'
+        content += '<section class="year-section"><h2>年未登録</h2>' + self.index_articles(self.year_unknown, route) + '</section>'
         self.write_page(route, "公開年順", content, route)
+        for year in self.display_years:
+            year_route = f'years/{year}/index.html'
+            self.write_page(year_route, f'{year}年', f'<div class="page-heading"><p class="eyebrow"><a href="{href(year_route, route)}">年代から検索</a></p><h1>{year}年</h1></div>' + self.index_articles(list(self.years.get(year, {}).values()), year_route, year=year), route)
+        self.write_page('years/unknown/index.html', '年未登録', '<div class="page-heading"><h1>年未登録</h1></div>' + self.index_articles(self.year_unknown, 'years/unknown/index.html'), route)
         for field, label in (("genres", "ジャンル"), ("directors", "監督"), ("cast", "出演者")):
             route = field + "/index.html"
             content = f'<div class="page-heading"><h1>{label}別</h1></div><ul class="term-list">'
@@ -354,8 +446,11 @@ class Site:
                 articles = self.terms[field][name]
                 term_route = field + "/" + digest(name) + "/index.html"
                 content += f'<li><a href="{href(route, term_route)}">{e(name)}<span class="count">{len(articles):,}件</span></a></li>'
-                self.write_page(term_route, name, f'<div class="page-heading"><p class="eyebrow">{label}別</p><h1>{e(name)}</h1></div>' + self.list_articles(articles, term_route), route)
+                self.write_page(term_route, name, f'<div class="page-heading"><p class="eyebrow"><a href="{href(term_route, route)}">{label}別</a></p><h1>{e(name)}</h1></div>' + self.index_articles(articles, term_route, field=field, name=name), route)
             content += '</ul>'
+            if field == "genres":
+                content += '<div class="unregistered">' + self.count_link(route, 'genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown)) + '</div>'
+                self.write_page('genres/unknown/index.html', 'ジャンル未登録', '<div class="page-heading"><h1>ジャンル未登録</h1></div>' + self.index_articles(self.genre_unknown, 'genres/unknown/index.html'), route)
             if not self.terms[field]:
                 content += f'<p class="empty">{label}が登録された記事はまだありません。</p>'
             self.write_page(route, label + "別", content, route)
