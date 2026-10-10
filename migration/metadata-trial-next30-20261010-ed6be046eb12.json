@@ -1,0 +1,5027 @@
+{
+  "batch_id": "metadata-trial-next30-20261010-ed6be046eb12",
+  "dataset_id": "movielog-next30-20261010-ed6be046eb12",
+  "base_commit": "1a60213d39c480bb82cf6744c5b74278e4364535",
+  "source_base_commit": "9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+  "applied_at": "2026-10-11T00:12:39.046729+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "886687c693b84c33209e2a0d29759efde47da6fd67c9215874753f4fcb178027",
+  "candidate_sha256": "b1e7cb9e1cc9af550732c9381664dc0ef216549cdf5cce129593b0f9f4b16732",
+  "target_sha256": "6f59018dbc9f979b215f07ee1f32e63286459ae70ec8ccf2a2e12690139285e6",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/ザ・ヘラクレス_2017-05-28.md",
+      "title": "ザ・ヘラクレス",
+      "review_date": "2017-05-28 00:00:37",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2014,
+        "directors": [
+          "レニー・ハーリン"
+        ],
+        "cast": [
+          "ケラン・ラッツ",
+          "スコット・アドキンス",
+          "リアム・マッキンタイア",
+          "リアム・ギャリガン",
+          "ジョナサン・シェック",
+          "ロクサンヌ・マッキー",
+          "ガイア・ワイス",
+          "ラデ・シェルベッジア"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2014,
+        "directors": [
+          "レニー・ハーリン"
+        ],
+        "cast": [
+          "ケラン・ラッツ",
+          "スコット・アドキンス",
+          "リアム・マッキンタイア",
+          "リアム・ギャリガン",
+          "ジョナサン・シェック",
+          "ロクサンヌ・マッキー",
+          "ガイア・ワイス",
+          "ラデ・シェルベッジア"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざへらくれす",
+        "release_year": 2014,
+        "directors": [
+          "レニー・ハーリン"
+        ],
+        "cast": [
+          "ケラン・ラッツ",
+          "スコット・アドキンス",
+          "リアム・マッキンタイア",
+          "リアム・ギャリガン",
+          "ジョナサン・シェック",
+          "ロクサンヌ・マッキー",
+          "ガイア・ワイス",
+          "ラデ・シェルベッジア"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ],
+        "synopsis": "恋人を兄と結婚させられることになったゼウスの息子が、王の命令で戦地へ送られると……。"
+      },
+      "article_sha256_before": "bb4b93cdc0f3ba7bbd1d12fb889fe0602a817b444c81406a48e2ffa723c89fd2",
+      "article_sha256_after": "63c3c398802e8d0dbced4915e5ab9856ef1e4f129603ec622e0b625b980974e4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "hercules-netflix"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざへらくれす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hercules-netflix",
+            "existing-filmarks-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2014",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "レニー・ハーリン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケラン・ラッツ\nスコット・アドキンス\nリアム・マッキンタイア\nリアム・ギャリガン\nジョナサン・シェック\nロクサンヌ・マッキー\nガイア・ワイス\nラデ・シェルベッジア",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "hercules-netflix"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nアドベンチャー・冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hercules-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋人を兄と結婚させられることになったゼウスの息子が、王の命令で戦地へ送られると……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/高速ばぁば_2017-05-24.md",
+      "title": "高速ばぁば",
+      "review_date": "2017-05-24 00:00:54",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "内藤瑛亮"
+        ],
+        "cast": [
+          "矢作穂香",
+          "北山詩織",
+          "後藤郁",
+          "岡田義徳"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "内藤瑛亮"
+        ],
+        "cast": [
+          "矢作穂香",
+          "北山詩織",
+          "後藤郁",
+          "岡田義徳"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "こうそくばあば",
+        "release_year": 2013,
+        "directors": [
+          "内藤瑛亮"
+        ],
+        "cast": [
+          "矢作穂香",
+          "北山詩織",
+          "後藤郁",
+          "岡田義徳"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "廃老人ホームでロケをした三人組アイドルの一人に、撮影後から異変が起き始める。"
+      },
+      "article_sha256_before": "0457f8d8cea57113cd5e60cd8a61b4d896519928ed4aa7cad5de7744e452cf53",
+      "article_sha256_after": "687a671c39240c6b124a92dd9ee98fc87514ef1cfb03d4c199381360a8aa41e4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "turbo-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こうそくばあば",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "turbo-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2013",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "内藤瑛亮",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "矢作穂香\n北山詩織\n後藤郁\n岡田義徳",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "turbo-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "廃老人ホームでロケをした三人組アイドルの一人に、撮影後から異変が起き始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/シーウルフ_2017-05-20.md",
+      "title": "シーウルフ",
+      "review_date": "2017-05-20 00:00:58",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "クリストフ・スクルーイ"
+        ],
+        "cast": [
+          "トーマス・クレッチマン",
+          "フロリアン・シュテッター",
+          "ぺトラ・シュミッド・スカラー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "クリストフ・スクルーイ"
+        ],
+        "cast": [
+          "トーマス・クレッチマン",
+          "フロリアン・シュテッター",
+          "ぺトラ・シュミッド・スカラー"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しーうるふ",
+        "release_year": 2008,
+        "directors": [
+          "クリストフ・スクルーイ"
+        ],
+        "cast": [
+          "トーマス・クレッチマン",
+          "フロリアン・シュテッター",
+          "ぺトラ・シュミッド・スカラー"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ],
+        "synopsis": "難破してアザラシ猟の船に救われた男が、船長に陸へ戻ることを拒まれ、船員として働かされる。"
+      },
+      "article_sha256_before": "9b189431fa1a8630e2beb15a4e4cabdd8baa20692c0273f4747af6ebb8601145",
+      "article_sha256_after": "5da8960f646efae9e350f776cb14dc54dba6f200da9216088ed0f4bdd3226317",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "seawolf-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しーうるふ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "seawolf-wiki",
+            "seawolf-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2008",
+              "region": "ドイツ",
+              "kind": "テレビ初放送",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリストフ・スクルーイ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トーマス・クレッチマン\nフロリアン・シュテッター\nぺトラ・シュミッド・スカラー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "seawolf-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nアドベンチャー・冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "seawolf-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "難破してアザラシ猟の船に救われた男が、船長に陸へ戻ることを拒まれ、船員として働かされる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ザ・マシーン_2017-05-08.md",
+      "title": "ザ・マシーン",
+      "review_date": "2017-05-08 00:00:53",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2014,
+        "directors": [
+          "キャラドッグ・W・ジェームス"
+        ],
+        "cast": [
+          "トビー・スティーヴンス",
+          "ケイティ・ロッツ",
+          "デニス・ローソン",
+          "ニコラ・レイノルズ"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2014,
+        "directors": [
+          "キャラドッグ・W・ジェームス"
+        ],
+        "cast": [
+          "トビー・スティーヴンス",
+          "ケイティ・ロッツ",
+          "デニス・ローソン",
+          "ニコラ・レイノルズ"
+        ],
+        "genres": [
+          "SF",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざましーん",
+        "release_year": 2014,
+        "directors": [
+          "キャラドッグ・W・ジェームス"
+        ],
+        "cast": [
+          "トビー・スティーヴンス",
+          "ケイティ・ロッツ",
+          "デニス・ローソン",
+          "ニコラ・レイノルズ"
+        ],
+        "genres": [
+          "SF",
+          "ファンタジー"
+        ],
+        "synopsis": "軍用アンドロイドを開発する科学者が、襲撃された助手の脳のデータを新しい機体に移すと……。"
+      },
+      "article_sha256_before": "7672ea76b307403520140ea54fa06b62f97b3f2bddd7fc057af3321ea55d769a",
+      "article_sha256_after": "93bdfb9455c68a4585db5d72e0c7056b73cd61a87669ecefda995ab9cb5b721b",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "machine-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざましーん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "machine-eiga",
+            "existing-filmarks-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2014",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キャラドッグ・W・ジェームス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トビー・スティーヴンス\nケイティ・ロッツ\nデニス・ローソン\nニコラ・レイノルズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "machine-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "machine-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "軍用アンドロイドを開発する科学者が、襲撃された助手の脳のデータを新しい機体に移すと……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ヒドラ_2017-05-04.md",
+      "title": "ヒドラ",
+      "review_date": "2017-05-04 00:00:36",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "アンドリュー・プレンダーガスト"
+        ],
+        "cast": [
+          "ジョージ・スタルツ",
+          "ドーン・オリヴィエリ",
+          "マイケル・シェイマス・ワイルズ",
+          "アレックス・マッカーサー",
+          "ドゥエイン・アドウェイ",
+          "ポリー・シャノン",
+          "グレアム・シールズ"
+        ],
+        "genres": [
+          "パニック"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "アンドリュー・プレンダーガスト"
+        ],
+        "cast": [
+          "ジョージ・スタルツ",
+          "ドーン・オリヴィエリ",
+          "マイケル・シェイマス・ワイルズ",
+          "アレックス・マッカーサー",
+          "ドゥエイン・アドウェイ",
+          "ポリー・シャノン",
+          "グレアム・シールズ"
+        ],
+        "genres": [
+          "パニック"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ひどら",
+        "release_year": 2009,
+        "directors": [
+          "アンドリュー・プレンダーガスト"
+        ],
+        "cast": [
+          "ジョージ・スタルツ",
+          "ドーン・オリヴィエリ",
+          "マイケル・シェイマス・ワイルズ",
+          "アレックス・マッカーサー",
+          "ドゥエイン・アドウェイ",
+          "ポリー・シャノン",
+          "グレアム・シールズ"
+        ],
+        "genres": [
+          "パニック"
+        ],
+        "synopsis": "島に連れてこられた囚人たちが、富豪の人間狩りの獲物にされるが、島には怪物ヒドラも潜んでいた。"
+      },
+      "article_sha256_before": "a2737ba9ae9edd16c8d95a0ae11d8dec8caa5a56694168061b6be6246300993e",
+      "article_sha256_after": "4f5310994a31ad8a78b3f9c82a1dea57fc00204b7b26a4d34b8c7914c0ee5a84",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "hydra-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ひどら",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hydra-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2009",
+              "region": "国外",
+              "kind": "配信作品欄のリリース",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンドリュー・プレンダーガスト",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョージ・スタルツ\nドーン・オリヴィエリ\nマイケル・シェイマス・ワイルズ\nアレックス・マッカーサー\nドゥエイン・アドウェイ\nポリー・シャノン\nグレアム・シールズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パニック",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hydra-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "島に連れてこられた囚人たちが、富豪の人間狩りの獲物にされるが、島には怪物ヒドラも潜んでいた。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/死者の書_2017-04-20.md",
+      "title": "死者の書",
+      "review_date": "2017-04-20 00:00:35",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "川本喜八郎"
+        ],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "川本喜八郎"
+        ],
+        "cast": [
+          "宮沢りえ",
+          "観世銕之丞",
+          "黒柳徹子",
+          "江守徹",
+          "榎木孝明",
+          "三谷昇",
+          "新道乃里子",
+          "観世葉子",
+          "岸田今日子"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ししゃのしょ",
+        "release_year": 2006,
+        "directors": [
+          "川本喜八郎"
+        ],
+        "cast": [
+          "宮沢りえ",
+          "観世銕之丞",
+          "黒柳徹子",
+          "江守徹",
+          "榎木孝明",
+          "三谷昇",
+          "新道乃里子",
+          "観世葉子",
+          "岸田今日子"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "奈良時代、写経を続ける貴族の娘が、二上山に人影を見いだし、その姿を追って山の麓へ向かうと……。"
+      },
+      "article_sha256_before": "548b9c8547c30e1150311b9d9815f7a389a568d750f84b9e1fa29aca27bd061c",
+      "article_sha256_after": "424df81e7415052713d114878c7ba84646cdc49ced15f80d54964edab4c7cab6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "dead-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ししゃのしょ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "dead-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2006",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-6"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "川本喜八郎",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "dead-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "宮沢りえ\n観世銕之丞\n黒柳徹子\n江守徹\n榎木孝明\n三谷昇\n新道乃里子\n観世葉子\n岸田今日子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "dead-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "dead-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "奈良時代、写経を続ける貴族の娘が、二上山に人影を見いだし、その姿を追って山の麓へ向かうと……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/奪還者_2017-04-16.md",
+      "title": "奪還者",
+      "review_date": "2017-04-16 00:00:51",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2015,
+        "directors": [
+          "デヴィッド・ミショッド"
+        ],
+        "cast": [
+          "ガイ・ピアース",
+          "ロバート・パティンソン"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2015,
+        "directors": [
+          "デヴィッド・ミショッド"
+        ],
+        "cast": [
+          "ガイ・ピアース",
+          "ロバート・パティンソン"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "だっかんしゃ",
+        "release_year": 2015,
+        "directors": [
+          "デヴィッド・ミショッド"
+        ],
+        "cast": [
+          "ガイ・ピアース",
+          "ロバート・パティンソン"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー"
+        ],
+        "synopsis": "経済が崩れたオーストラリアで車を盗まれた男が、強盗の一人の弟を連れ、車の行方を追う。"
+      },
+      "article_sha256_before": "de0be161de6af277f487d1d2562a3b4adf4321bb5514dcbe8ab44c9bb7ecafea",
+      "article_sha256_after": "dea7e52dc9d85439196520226efdfec7ef9a69a99f9985526efaed492c608ba8",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "だっかんしゃ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "rover-cinematoday",
+            "existing-filmarks-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2015",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デヴィッド・ミショッド",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ガイ・ピアース\nロバート・パティンソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "rover-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "rover-wowow",
+            "rover-cinematoday"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "経済が崩れたオーストラリアで車を盗まれた男が、強盗の一人の弟を連れ、車の行方を追う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/トーク・トゥ・ザ・デッド_2017-04-08.md",
+      "title": "トーク・トゥ・ザ・デッド",
+      "review_date": "2017-04-08 00:00:39",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "鶴田法男"
+        ],
+        "cast": [
+          "小松彩夏",
+          "加藤和樹",
+          "桜井ユキ",
+          "嶋田久作",
+          "毬谷友子",
+          "大塚千弘"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "鶴田法男"
+        ],
+        "cast": [
+          "小松彩夏",
+          "加藤和樹",
+          "桜井ユキ",
+          "嶋田久作",
+          "毬谷友子",
+          "大塚千弘"
+        ],
+        "genres": [
+          "ドラマ",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "とーくとぅざでっど",
+        "release_year": 2013,
+        "directors": [
+          "鶴田法男"
+        ],
+        "cast": [
+          "小松彩夏",
+          "加藤和樹",
+          "桜井ユキ",
+          "嶋田久作",
+          "毬谷友子",
+          "大塚千弘"
+        ],
+        "genres": [
+          "ドラマ",
+          "ホラー"
+        ],
+        "synopsis": "弟を亡くした女性が、死者に電話をかけられるというアプリを知り、再び弟の声を聞こうとする。"
+      },
+      "article_sha256_before": "896412de78c7c231a3e57ad7a07c99e38b56f2d9d8cc4138a639e5fceb3f4948",
+      "article_sha256_after": "d7af6a61cddc14b1e50463b8d0c135d0fc7b49afadba58a0857cf8ffb2e63f73",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "talk-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とーくとぅざでっど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "talk-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2013",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "鶴田法男",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "小松彩夏\n加藤和樹\n桜井ユキ\n嶋田久作\n毬谷友子\n大塚千弘",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "talk-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "talk-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "弟を亡くした女性が、死者に電話をかけられるというアプリを知り、再び弟の声を聞こうとする。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/不思議の国のアリス_2017-03-24.md",
+      "title": "不思議の国のアリス",
+      "review_date": "2017-03-24 00:00:54",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ウィリアム・スターリング"
+        ],
+        "cast": [
+          "ピーター・セラーズ",
+          "フィオナ・フラートン",
+          "ハイウェル・ベネット",
+          "マイケル・クロフォード",
+          "ロバート・ヘルプマン",
+          "マイケル・ホーダーン",
+          "フローラ・ロブソン"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1972,
+        "directors": [
+          "ウィリアム・スターリング"
+        ],
+        "cast": [
+          "フィオナ・フラートン",
+          "マイケル・クロフォード",
+          "デイヴィ・ケイ"
+        ],
+        "genres": [
+          "ミュージカル"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふしぎのくにのありす",
+        "release_year": 1972,
+        "directors": [
+          "ウィリアム・スターリング"
+        ],
+        "cast": [
+          "フィオナ・フラートン",
+          "マイケル・クロフォード",
+          "デイヴィ・ケイ"
+        ],
+        "genres": [
+          "ミュージカル"
+        ],
+        "synopsis": "アリスはパーティの途中、庭で時計を見ながら走り去るウサギをみつけ、おいかけて木のうろから深い穴に落ちる。"
+      },
+      "article_sha256_before": "3c30ab4a7a0638899b1f2a342440b9848fc2a4f0193c89f98e5b8a25fb54d011",
+      "article_sha256_after": "26c5dd75999256710c3f86398a85a18c03aef79948fc2a710925208514898db1",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふしぎのくにのありす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1972",
+              "region": "",
+              "kind": "",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ウィリアム・スターリング",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フィオナ・フラートン\nマイケル・クロフォード\nデイヴィ・ケイ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミュージカル",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アリスはパーティの途中、庭で時計を見ながら走り去るウサギをみつけ、おいかけて木のうろから深い穴に落ちる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/豆腐小僧_2017-03-20.md",
+      "title": "豆腐小僧",
+      "review_date": "2017-03-20 00:00:53",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "河原真明"
+        ],
+        "cast": [
+          "深田恭子",
+          "武田鉄矢",
+          "小池徹平",
+          "大泉洋",
+          "宮迫博之",
+          "平野綾",
+          "はるな愛",
+          "檀れい",
+          "松平健"
+        ],
+        "genres": [
+          "ファミリー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "杉井ギサブロー",
+          "河原真明"
+        ],
+        "cast": [
+          "深田恭子",
+          "武田鉄矢",
+          "小池徹平",
+          "大泉洋",
+          "宮迫博之",
+          "平野綾",
+          "はるな愛",
+          "檀れい",
+          "松平健"
+        ],
+        "genres": [
+          "ファミリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "とうふこぞう",
+        "release_year": 2011,
+        "directors": [
+          "杉井ギサブロー",
+          "河原真明"
+        ],
+        "cast": [
+          "深田恭子",
+          "武田鉄矢",
+          "小池徹平",
+          "大泉洋",
+          "宮迫博之",
+          "平野綾",
+          "はるな愛",
+          "檀れい",
+          "松平健"
+        ],
+        "genres": [
+          "ファミリー"
+        ],
+        "synopsis": "人を怖がらせられない妖怪の子が、父に叱られる暮らしから飛び出し、母を捜しに出かける。"
+      },
+      "article_sha256_before": "7a34c004062ccc7f8055ea652f69e5cdeef5fe9f848ccaaa94bad9846304a517",
+      "article_sha256_after": "d4bfb25f6117aa4192dc209a4c6fb76b1242d61d91a52b1de4b209b0851b4915",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "tofu-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とうふこぞう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "tofu-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2011",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "tofu-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "杉井ギサブロー\n河原真明",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-10"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "深田恭子\n武田鉄矢\n小池徹平\n大泉洋\n宮迫博之\n平野綾\nはるな愛\n檀れい\n松平健",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-10"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファミリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "tofu-fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人を怖がらせられない妖怪の子が、父に叱られる暮らしから飛び出し、母を捜しに出かける。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/パロルのみらい島_2017-02-08.md",
+      "title": "パロルのみらい島",
+      "review_date": "2017-02-08 00:00:52",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2014,
+        "directors": [
+          "今井一暁"
+        ],
+        "cast": [
+          "藤村歩",
+          "勝杏里",
+          "川澄綾子"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2014,
+        "directors": [
+          "今井一暁"
+        ],
+        "cast": [
+          "藤村歩",
+          "勝杏里",
+          "川澄綾子"
+        ],
+        "genres": [
+          "SF",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぱろるのみらいじま",
+        "release_year": 2014,
+        "directors": [
+          "今井一暁"
+        ],
+        "cast": [
+          "藤村歩",
+          "勝杏里",
+          "川澄綾子"
+        ],
+        "genres": [
+          "SF",
+          "ファンタジー"
+        ],
+        "synopsis": "人間の写真を見つけた動物の子供たちが、島を出てはいけないという掟を破り、外の世界へ出ることに……。"
+      },
+      "article_sha256_before": "f96fcd3c3a59321814a1a162bcc63190b6331dc3840d0512ff8055eb94ccb131",
+      "article_sha256_after": "a4b72ea85fff890f9a6648787275e11420946ba0610f2ee60dcc70611d1d506e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "parol-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぱろるのみらいじま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "parol-jfdb",
+            "existing-filmarks-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2014",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "今井一暁",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "藤村歩\n勝杏里\n川澄綾子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "parol-danime"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "parol-danime"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人間の写真を見つけた動物の子供たちが、島を出てはいけないという掟を破り、外の世界へ出ることに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アリーテ姫_2017-01-20.md",
+      "title": "アリーテ姫",
+      "review_date": "2017-01-20 00:00:00",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "片渕須直"
+        ],
+        "cast": [
+          "桑島法子",
+          "小山剛志",
+          "高山みなみ",
+          "沼田祐介",
+          "こおろぎさとみ",
+          "竹本英史"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2001,
+        "directors": [
+          "片渕須直"
+        ],
+        "cast": [
+          "桑島法子",
+          "小山剛志",
+          "高山みなみ",
+          "沼田祐介",
+          "こおろぎさとみ",
+          "竹本英史"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ありーてひめ",
+        "release_year": 2001,
+        "directors": [
+          "片渕須直"
+        ],
+        "cast": [
+          "桑島法子",
+          "小山剛志",
+          "高山みなみ",
+          "沼田祐介",
+          "こおろぎさとみ",
+          "竹本英史"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ],
+        "synopsis": "塔に閉じ込められて求婚者を待つ姫が、抜け道を通って町に出て、職人の仕事を目にする。"
+      },
+      "article_sha256_before": "b42609f11403537e73eaa3cb880d80ab8ef38aefda01b8e46dd7430d2c4900dc",
+      "article_sha256_after": "0a5f6ade4ecc2d84e1388a41ea5b3a8f67f74d9c34f2153020a0bfc594b2a6b7",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "arete-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ありーてひめ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "arete-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2001",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "片渕須直",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "桑島法子\n小山剛志\n高山みなみ\n沼田祐介\nこおろぎさとみ\n竹本英史",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファミリー\nアニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "arete-studio"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "塔に閉じ込められて求婚者を待つ姫が、抜け道を通って町に出て、職人の仕事を目にする。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ディノシャーク_2017-01-12.md",
+      "title": "ディノシャーク",
+      "review_date": "2017-01-12 00:00:40",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ケビン・オニール"
+        ],
+        "cast": [
+          "エリック・バルフォー",
+          "イヴァ・ハスパーガー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "ケビン・オニール"
+        ],
+        "cast": [
+          "エリック・バルフォー",
+          "イヴァ・ハスパーガー"
+        ],
+        "genres": [
+          "パニック"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "でぃのしゃーく",
+        "release_year": 2010,
+        "directors": [
+          "ケビン・オニール"
+        ],
+        "cast": [
+          "エリック・バルフォー",
+          "イヴァ・ハスパーガー"
+        ],
+        "genres": [
+          "パニック"
+        ],
+        "synopsis": "古代のサメが現れたメキシコの海で、帰郷した青年の友人が泳いでいる最中に襲われる。"
+      },
+      "article_sha256_before": "4af6ada0eb0608f4f1129c942b7513302c7700356429d3a5606c55851721917f",
+      "article_sha256_after": "f64def6102c2b3ddc30d10bc4c2dd5c7f6890a41809de4ed27a50dee57c780c3",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "dino-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "でぃのしゃーく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "dino-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2010",
+              "region": "米国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-13"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケビン・オニール",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-13"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エリック・バルフォー\nイヴァ・ハスパーガー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "dino-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パニック",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "dino-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "古代のサメが現れたメキシコの海で、帰郷した青年の友人が泳いでいる最中に襲われる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/米百俵 小林虎三郎の天命_2017-01-08.md",
+      "title": "米百俵 小林虎三郎の天命",
+      "review_date": "2017-01-08 00:00:54",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "島宏"
+        ],
+        "cast": [
+          "中村嘉葎雄",
+          "真行寺君枝",
+          "沖田浩之",
+          "河原崎建三",
+          "尾藤イサオ",
+          "大出俊",
+          "三原じゅん子"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1993,
+        "directors": [
+          "島宏"
+        ],
+        "cast": [
+          "中村嘉葎雄",
+          "真行寺君枝",
+          "沖田浩之",
+          "河原崎建三",
+          "尾藤イサオ",
+          "大出俊",
+          "三原じゅん子"
+        ],
+        "genres": [
+          "時代劇"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "こめひゃっぴょうこばやしとらさぶろうのてんめい",
+        "release_year": 1993,
+        "directors": [
+          "島宏"
+        ],
+        "cast": [
+          "中村嘉葎雄",
+          "真行寺君枝",
+          "沖田浩之",
+          "河原崎建三",
+          "尾藤イサオ",
+          "大出俊",
+          "三原じゅん子"
+        ],
+        "genres": [
+          "時代劇"
+        ],
+        "synopsis": "敗戦後の長岡藩に届いた米百俵を、小林虎三郎は藩士に配らず、学校づくりに使おうとするが……。"
+      },
+      "article_sha256_before": "8282e17f4dc84cb64acb1e4937e3a6d14094d6930e7a0b630d72deed5eaf080a",
+      "article_sha256_after": "f5a783e5d5eab4566b5cf9606ca19ec0df690be3d6156dfa737d725776b4eaa4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "rice-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こめひゃっぴょうこばやしとらさぶろうのてんめい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "rice-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1993",
+              "region": "日本",
+              "kind": "製作年候補・ビデオ作品",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-14"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "島宏",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-14"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中村嘉葎雄\n真行寺君枝\n沖田浩之\n河原崎建三\n尾藤イサオ\n大出俊\n三原じゅん子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "rice-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "時代劇",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "rice-creator"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "敗戦後の長岡藩に届いた米百俵を、小林虎三郎は藩士に配らず、学校づくりに使おうとするが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/痛み_2016-12-28.md",
+      "title": "痛み",
+      "review_date": "2016-12-28 00:00:53",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "クァク・キョンテク"
+        ],
+        "cast": [
+          "クォン・サンウ",
+          "チョン・リョウォン",
+          "マ・ドンソク"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "クァク・キョンテク"
+        ],
+        "cast": [
+          "クォン・サンウ",
+          "チョン・リョウォン",
+          "マ・ドンソク"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛",
+          "韓国映画"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "いたみ",
+        "release_year": 2012,
+        "directors": [
+          "クァク・キョンテク"
+        ],
+        "cast": [
+          "クォン・サンウ",
+          "チョン・リョウォン",
+          "マ・ドンソク"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛",
+          "韓国映画"
+        ],
+        "synopsis": "痛みを感じない取立て屋の男が、わずかな傷でも出血が止まらない血友病の女性と出会う。"
+      },
+      "article_sha256_before": "1b59015543b4b261c676abba73f10082353566708c0cd7fce6575293b1832229",
+      "article_sha256_after": "a18416e847b3ea172f41c891edde20546d53e213e576d753f1f6b82e4d0d7b1b",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "pain-jorudan"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いたみ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "pain-pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2012",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-15"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クァク・キョンテク",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-15"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クォン・サンウ\nチョン・リョウォン\nマ・ドンソク",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "pain-pia",
+            "pain-jorudan"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛\n韓国映画",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "pain-pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "痛みを感じない取立て屋の男が、わずかな傷でも出血が止まらない血友病の女性と出会う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ナイト・ウルフ／人狼憑異_2016-12-24.md",
+      "title": "ナイト・ウルフ/人狼憑異",
+      "review_date": "2016-12-24 00:00:30",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョナサン・グレンデニング"
+        ],
+        "cast": [
+          "イザベラ・カルソープ",
+          "トム・フェルトン",
+          "ジェマ・アトキンソン",
+          "ジョシュ・ボウマン",
+          "ガブリエル・トムソン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "ジョナサン・グレンデニング"
+        ],
+        "cast": [
+          "イザベラ・カルソープ",
+          "トム・フェルトン",
+          "ジェマ・アトキンソン",
+          "ジョシュ・ボウマン",
+          "ガブリエル・トムソン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ないとうるふじんろうひょうい",
+        "release_year": 2010,
+        "directors": [
+          "ジョナサン・グレンデニング"
+        ],
+        "cast": [
+          "イザベラ・カルソープ",
+          "トム・フェルトン",
+          "ジェマ・アトキンソン",
+          "ジョシュ・ボウマン",
+          "ガブリエル・トムソン"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "帰省した女性が、嵐の夜、家族や友人と屋敷に閉じ込められ、正体の分からない生き物に襲われる。"
+      },
+      "article_sha256_before": "c8b2d8d6ece0dbb2eef1fbc8b5f9a523aa412b5800c37d9d5d434967996e72b1",
+      "article_sha256_after": "9ba2ce086fdd9b5b9b53923df4c27d5674365f4701fa9f9e83830a49ba6c40d2",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ないとうるふじんろうひょうい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "wolf-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2010",
+              "region": "英国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョナサン・グレンデニング",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "イザベラ・カルソープ\nトム・フェルトン\nジェマ・アトキンソン\nジョシュ・ボウマン\nガブリエル・トムソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "wolf-rakuten"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "帰省した女性が、嵐の夜、家族や友人と屋敷に閉じ込められ、正体の分からない生き物に襲われる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/青木ヶ原_2016-12-04.md",
+      "title": "青木ヶ原",
+      "review_date": "2016-12-04 00:00:25",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2013,
+        "directors": [
+          "新城卓"
+        ],
+        "cast": [
+          "勝野洋",
+          "前田亜季",
+          "矢柴俊博",
+          "田中伸一",
+          "ゴリ",
+          "中村育二",
+          "石原良純",
+          "長谷川真弓",
+          "二木てるみ",
+          "左とん平",
+          "渋谷天外",
+          "津川雅彦"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "新城卓"
+        ],
+        "cast": [
+          "勝野洋",
+          "前田亜季",
+          "矢柴俊博",
+          "田中伸一",
+          "ゴリ",
+          "中村育二",
+          "石原良純",
+          "長谷川真弓",
+          "二木てるみ",
+          "左とん平",
+          "渋谷天外",
+          "津川雅彦"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あおきがはら",
+        "release_year": 2013,
+        "directors": [
+          "新城卓"
+        ],
+        "cast": [
+          "勝野洋",
+          "前田亜季",
+          "矢柴俊博",
+          "田中伸一",
+          "ゴリ",
+          "中村育二",
+          "石原良純",
+          "長谷川真弓",
+          "二木てるみ",
+          "左とん平",
+          "渋谷天外",
+          "津川雅彦"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ],
+        "synopsis": "樹海で遺体捜しをする宿の主人が、前夜に酒場で会った男を、死体として見つけると……。"
+      },
+      "article_sha256_before": "4cf2d59b0af40d2badd07b4aafb121c732f08f96256957095ae2e49351e88766",
+      "article_sha256_after": "5abafc3572df735d26509da92fa806a9d55a4003e5afb403fae591c566f87ab6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "aoki-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あおきがはら",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "aoki-kine",
+            "existing-filmarks-17"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2013",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-17"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "新城卓",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-17"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "勝野洋\n前田亜季\n矢柴俊博\n田中伸一\nゴリ\n中村育二\n石原良純\n長谷川真弓\n二木てるみ\n左とん平\n渋谷天外\n津川雅彦",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "aoki-jfdb",
+            "aoki-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "aoki-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "樹海で遺体捜しをする宿の主人が、前夜に酒場で会った男を、死体として見つけると……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/トイレの花子さん新劇場版_2016-11-28.md",
+      "title": "トイレの花子さん新劇場版",
+      "review_date": "2016-11-28 00:00:58",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2013,
+        "directors": [
+          "山田雅史"
+        ],
+        "cast": [
+          "上野優華",
+          "水崎綾女",
+          "安田聖愛",
+          "田中瞳佳",
+          "山川りな",
+          "石條遥梨",
+          "馬場良馬"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "山田雅史"
+        ],
+        "cast": [
+          "上野優華",
+          "水崎綾女",
+          "安田聖愛",
+          "田中瞳佳",
+          "山川りな",
+          "石條遥梨",
+          "馬場良馬"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "といれのはなこさんしんげきじょうばん",
+        "release_year": 2013,
+        "directors": [
+          "山田雅史"
+        ],
+        "cast": [
+          "上野優華",
+          "水崎綾女",
+          "安田聖愛",
+          "田中瞳佳",
+          "山川りな",
+          "石條遥梨",
+          "馬場良馬"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "いじめから友人を守れなかった女子高生が、その友人がトイレで死んだ後、町で続く怪異に巻き込まれる。"
+      },
+      "article_sha256_before": "faa5a974d0c5c6e8700fbe427a9afd2aa7cd89164ec2b03e1b09582b657a7978",
+      "article_sha256_after": "8fdca3f849a349dadcfd9616b4bdf2e2440bc5cddc9e08e43454bd1f290c9bf1",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "hanako-jorudan"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "といれのはなこさんしんげきじょうばん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hanako-eiga",
+            "existing-filmarks-18"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2013",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-18"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "山田雅史",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-18"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "上野優華\n水崎綾女\n安田聖愛\n田中瞳佳\n山川りな\n石條遥梨\n馬場良馬",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "hanako-jorudan"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hanako-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いじめから友人を守れなかった女子高生が、その友人がトイレで死んだ後、町で続く怪異に巻き込まれる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/デス・トラップ　死神の法則_2016-11-16.md",
+      "title": "デス・トラップ　死神の法則",
+      "review_date": "2016-11-16 00:00:02",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "横山一洋"
+        ],
+        "cast": [
+          "及川奈央",
+          "仲松秀規"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2015,
+        "directors": [
+          "横山一洋"
+        ],
+        "cast": [
+          "及川奈央",
+          "仲松秀規"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ですとらっぷしにがみのほうそく",
+        "release_year": 2015,
+        "directors": [
+          "横山一洋"
+        ],
+        "cast": [
+          "及川奈央",
+          "仲松秀規"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ],
+        "synopsis": "人を呪いたい客が集まるバーで、バーテンダーが願いをかなえるが、その背後には死神が……。"
+      },
+      "article_sha256_before": "bd55eb69a17776144280826c084cb522bcf3773a9308dc322150d1c81ed8c025",
+      "article_sha256_after": "c3e9ed08ced3832c0649e7cadd36ed15c7de5469350a3df85befc76c8fd56d41",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ですとらっぷしにがみのほうそく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "trap-play",
+            "trap-actor",
+            "trap-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2015",
+              "region": "日本",
+              "kind": "製作年候補・ビデオ作品",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-19"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "横山一洋",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-19"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "及川奈央\n仲松秀規",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-19"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "trap-videomarket",
+            "trap-actor"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人を呪いたい客が集まるバーで、バーテンダーが願いをかなえるが、その背後には死神が……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/集団殺人クラブ　GROWING_2016-11-12.md",
+      "title": "集団殺人クラブ　GROWING",
+      "review_date": "2016-11-12 00:00:23",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "谷洋平"
+        ],
+        "cast": [
+          "小向美奈子",
+          "遠藤憲一",
+          "柳沢なな",
+          "石川佳奈",
+          "松田悟志"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "谷洋平"
+        ],
+        "cast": [
+          "小向美奈子",
+          "遠藤憲一",
+          "柳沢なな",
+          "石川佳奈",
+          "松田悟志"
+        ],
+        "genres": [
+          "ドラマ",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しゅうだんさつじんくらぶぐろーいんぐ",
+        "release_year": 2004,
+        "directors": [
+          "谷洋平"
+        ],
+        "cast": [
+          "小向美奈子",
+          "遠藤憲一",
+          "柳沢なな",
+          "石川佳奈",
+          "松田悟志"
+        ],
+        "genres": [
+          "ドラマ",
+          "ホラー"
+        ],
+        "synopsis": "女子高生の仲良し三人組が、悪夢をきっかけに、殺人鬼タケゾウに狙われることに……。"
+      },
+      "article_sha256_before": "c502cf47c5753540c1a51d60e229432d4af83c16ed333d33219313096f4d09d4",
+      "article_sha256_after": "06f65bcef1b4231c02ba41e6543e6f2e97c1156f3d10185c87e8073fe99f561d",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "growing-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しゅうだんさつじんくらぶぐろーいんぐ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "growing-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2004",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-20"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "谷洋平",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-20"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "小向美奈子\n遠藤憲一\n柳沢なな\n石川佳奈\n松田悟志",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-20",
+            "growing-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "growing-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "女子高生の仲良し三人組が、悪夢をきっかけに、殺人鬼タケゾウに狙われることに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/東京分裂ガールズ_2016-11-08.md",
+      "title": "東京分裂ガールズ",
+      "review_date": "2016-11-08 00:00:22",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "MizuneT"
+        ],
+        "cast": [
+          "梶原ひかり",
+          "富沢恵莉",
+          "岡田悟一"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "MizuneT"
+        ],
+        "cast": [
+          "梶原ひかり",
+          "富沢恵莉",
+          "岡田悟一"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "とうきょうぶんれつがーるず",
+        "release_year": 2011,
+        "directors": [
+          "MizuneT"
+        ],
+        "cast": [
+          "梶原ひかり",
+          "富沢恵莉",
+          "岡田悟一"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "てるまとるいーずは二人で漫画家デビューを目指していたが、ある日喧嘩してるいーずは家を飛び出し、バスに轢かれてしまう。"
+      },
+      "article_sha256_before": "76a89bb9cefa5445ec796ad9ce3d2a8bac9ea0f29cb47b3dd42cb62d1f52ba17",
+      "article_sha256_after": "1dff3d1337b4d8f0639bfc786834e975819c925feadcdd1fb9ea9bc19b3c29bf",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とうきょうぶんれつがーるず",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "tokyo-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2011",
+              "region": "日本",
+              "kind": "オリジナルビデオの作品年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "MizuneT",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "梶原ひかり\n富沢恵莉\n岡田悟一",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "てるまとるいーずは二人で漫画家デビューを目指していたが、ある日喧嘩してるいーずは家を飛び出し、バスに轢かれてしまう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/元カノdeath_2016-11-04.md",
+      "title": "元カノdeath",
+      "review_date": "2016-11-04 00:00:21",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ピヤポン・チューペッチ"
+        ],
+        "cast": [
+          "ラチャウィン・ウォンウィリア",
+          "トンプーム・シリピパット",
+          "アチャーマ・チワニットチャパン",
+          "アナンダ・エヴァリンハム"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "ピヤポン・チューペッチ"
+        ],
+        "cast": [
+          "ラチャウィン・ウォンウィリア",
+          "トンプーム・シリピパット",
+          "アチャーマ・チワニットチャパン",
+          "アナンダ・エヴァリンハム"
+        ],
+        "genres": [
+          "ホラー",
+          "タイ映画"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "もとかのです",
+        "release_year": 2010,
+        "directors": [
+          "ピヤポン・チューペッチ"
+        ],
+        "cast": [
+          "ラチャウィン・ウォンウィリア",
+          "トンプーム・シリピパット",
+          "アチャーマ・チワニットチャパン",
+          "アナンダ・エヴァリンハム"
+        ],
+        "genres": [
+          "ホラー",
+          "タイ映画"
+        ],
+        "synopsis": "恋人を別の女性と映画館で見かけた女優志望の女性に、翌日、その女性の自殺の知らせが……。"
+      },
+      "article_sha256_before": "3ff6f689c319859b5924db1366cc0456383d657f33f79f69d4a5fd0a782b21e6",
+      "article_sha256_after": "ff2d0e96df75ea26c38979b8025465203aba3b6011b3c73db2e0a7296b61e93b",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "もとかのです",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "ex-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2010",
+              "region": "タイ",
+              "kind": "配信作品欄のリリース",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-22"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ピヤポン・チューペッチ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-22"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラチャウィン・ウォンウィリア\nトンプーム・シリピパット\nアチャーマ・チワニットチャパン\nアナンダ・エヴァリンハム",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-22"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nタイ映画",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "ex-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋人を別の女性と映画館で見かけた女優志望の女性に、翌日、その女性の自殺の知らせが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/高レート裏麻雀列伝　むこうぶち3　裏プロ_2016-10-08.md",
+      "title": "高レート裏麻雀列伝　むこうぶち3　裏プロ",
+      "review_date": "2016-10-08 00:00:26",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "片岡修二"
+        ],
+        "cast": [
+          "袴田吉彦",
+          "松田賢二",
+          "ガダルカナル・タカ",
+          "及川奈央",
+          "下元史朗",
+          "和興",
+          "馬場巧",
+          "三上剛",
+          "松田直樹",
+          "成瀬朱美",
+          "宮内こずえ",
+          "高田延彦"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "片岡修二"
+        ],
+        "cast": [
+          "袴田吉彦",
+          "松田賢二",
+          "ガダルカナル・タカ",
+          "及川奈央",
+          "下元史朗",
+          "和興",
+          "馬場巧",
+          "三上剛",
+          "松田直樹",
+          "成瀬朱美",
+          "宮内こずえ",
+          "高田延彦"
+        ],
+        "genres": [
+          "ギャンブル・博打"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "こうれーとうらまーじゃんれつでんむこうぶち３うらぷろ",
+        "release_year": 2008,
+        "directors": [
+          "片岡修二"
+        ],
+        "cast": [
+          "袴田吉彦",
+          "松田賢二",
+          "ガダルカナル・タカ",
+          "及川奈央",
+          "下元史朗",
+          "和興",
+          "馬場巧",
+          "三上剛",
+          "松田直樹",
+          "成瀬朱美",
+          "宮内こずえ",
+          "高田延彦"
+        ],
+        "genres": [
+          "ギャンブル・博打"
+        ],
+        "synopsis": "ホステスと組んで経営者たちを麻雀で負かしている男の前に、無敗の打ち手・傀が現れる。"
+      },
+      "article_sha256_before": "962e7bc526ad34ad21e26402c0c7a5ca89e102a8108bebc8ad51207a867ef904",
+      "article_sha256_after": "881be6213090195819abed0ed53e37271b9cca0fc31e5b7ffaa47afef889bdd2",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こうれーとうらまーじゃんれつでんむこうぶち３うらぷろ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "mukou-unext",
+            "mukou-allcinema",
+            "mukou-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2008",
+              "region": "日本",
+              "kind": "オリジナルビデオの作品年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-23"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "片岡修二",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-23"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "袴田吉彦\n松田賢二\nガダルカナル・タカ\n及川奈央\n下元史朗\n和興\n馬場巧\n三上剛\n松田直樹\n成瀬朱美\n宮内こずえ\n高田延彦",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "mukou-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ギャンブル・博打",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "mukou-unext"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホステスと組んで経営者たちを麻雀で負かしている男の前に、無敗の打ち手・傀が現れる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/新１３日の金曜日_2016-09-28.md",
+      "title": "新１３日の金曜日",
+      "review_date": "2016-09-28 00:00:36",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ダニエル・スタインマン"
+        ],
+        "cast": [
+          "ジョン・シェパード",
+          "メラニー・キンナマン",
+          "シェイバー・ロス",
+          "リチャード・ヤング",
+          "キャロル・ロカテル",
+          "コリー・フェルドマン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1985,
+        "directors": [
+          "ダニエル・スタインマン"
+        ],
+        "cast": [
+          "ジョン・シェパード",
+          "メラニー・キンナマン",
+          "シェイバー・ロス",
+          "リチャード・ヤング",
+          "キャロル・ロカテル",
+          "コリー・フェルドマン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しんじゅうさんにちのきんようび",
+        "release_year": 1985,
+        "directors": [
+          "ダニエル・スタインマン"
+        ],
+        "cast": [
+          "ジョン・シェパード",
+          "メラニー・キンナマン",
+          "シェイバー・ロス",
+          "リチャード・ヤング",
+          "キャロル・ロカテル",
+          "コリー・フェルドマン"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "ジェイソンに襲われた少年が、成長して療養施設へ移ると、そこで再び殺人事件が起こる。"
+      },
+      "article_sha256_before": "23ce4d9d962fd3f56c1150a3b5f2da0c5cbde6296c913d358fe197621573e417",
+      "article_sha256_after": "ad739ba75ecea6a2ae920ba52293c99f266f4c5fe7a778fd03c59a63039fb0fe",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "friday5-reading"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しんじゅうさんにちのきんようび",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "friday5-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1985",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダニエル・スタインマン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・シェパード\nメラニー・キンナマン\nシェイバー・ロス\nリチャード・ヤング\nキャロル・ロカテル\nコリー・フェルドマン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "friday5-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイソンに襲われた少年が、成長して療養施設へ移ると、そこで再び殺人事件が起こる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/眠狂四郎　多情剣_2016-09-16.md",
+      "title": "眠狂四郎　多情剣",
+      "review_date": "2016-09-16 00:00:25",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "井上昭"
+        ],
+        "cast": [
+          "市川雷蔵",
+          "水谷八重子",
+          "中谷一郎",
+          "五味龍太郎",
+          "戸田皓久",
+          "香山恵子",
+          "田村寿子",
+          "毛利郁子"
+        ],
+        "genres": [
+          "時代劇"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1966,
+        "directors": [
+          "井上昭"
+        ],
+        "cast": [
+          "市川雷蔵",
+          "水谷八重子",
+          "中谷一郎",
+          "五味龍太郎",
+          "戸田皓久",
+          "香山恵子",
+          "田村寿子",
+          "毛利郁子"
+        ],
+        "genres": [
+          "時代劇"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ねむりきょうしろうたじょうけん",
+        "release_year": 1966,
+        "directors": [
+          "井上昭"
+        ],
+        "cast": [
+          "市川雷蔵",
+          "水谷八重子",
+          "中谷一郎",
+          "五味龍太郎",
+          "戸田皓久",
+          "香山恵子",
+          "田村寿子",
+          "毛利郁子"
+        ],
+        "genres": [
+          "時代劇"
+        ],
+        "synopsis": "女からの手紙で娼家を訪れた眠狂四郎が、待ち構えていた刺客たちに襲われる。"
+      },
+      "article_sha256_before": "5a472e746cc1a581ef3ce406a98dcd6ae3a3c96e8eb8d20e4e0ef89fcb7b6497",
+      "article_sha256_after": "304e3d2936a033a3df6dca01a7033895e9a8536225943062a2a7fad4557153e2",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "nemuri-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ねむりきょうしろうたじょうけん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "nemuri-kadokawa"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1966",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "井上昭",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "市川雷蔵\n水谷八重子\n中谷一郎\n五味龍太郎\n戸田皓久\n香山恵子\n田村寿子\n毛利郁子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "時代劇",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "nemuri-kadokawa"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "女からの手紙で娼家を訪れた眠狂四郎が、待ち構えていた刺客たちに襲われる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/赤毛のアン_2016-09-12.md",
+      "title": "赤毛のアン",
+      "review_date": "2016-09-12 00:00:17",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ケヴィン・サリヴァン"
+        ],
+        "cast": [
+          "ミーガン・フォローズ",
+          "コリーン・デューハースト",
+          "パトリシア・ハミルトン",
+          "マリリン・ライトストーン",
+          "チャーミオン・キング",
+          "ローズマリー・ラドクリフ",
+          "ジャッキー・バロウズ",
+          "リチャード・ファーンズワース",
+          "スカイラー・グラント",
+          "ジョナサン・クロンビー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1989,
+        "directors": [
+          "ケヴィン・サリヴァン"
+        ],
+        "cast": [
+          "ミーガン・フォローズ",
+          "コリーン・デューハースト",
+          "パトリシア・ハミルトン",
+          "マリリン・ライトストーン",
+          "チャーミオン・キング",
+          "ローズマリー・ラドクリフ",
+          "ジャッキー・バロウズ",
+          "リチャード・ファーンズワース",
+          "スカイラー・グラント",
+          "ジョナサン・クロンビー"
+        ],
+        "genres": [
+          "青春",
+          "ファミリー",
+          "文芸"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あかげのあん",
+        "release_year": 1989,
+        "directors": [
+          "ケヴィン・サリヴァン"
+        ],
+        "cast": [
+          "ミーガン・フォローズ",
+          "コリーン・デューハースト",
+          "パトリシア・ハミルトン",
+          "マリリン・ライトストーン",
+          "チャーミオン・キング",
+          "ローズマリー・ラドクリフ",
+          "ジャッキー・バロウズ",
+          "リチャード・ファーンズワース",
+          "スカイラー・グラント",
+          "ジョナサン・クロンビー"
+        ],
+        "genres": [
+          "青春",
+          "ファミリー",
+          "文芸"
+        ],
+        "synopsis": "男の子を迎えるはずだった農場の老兄妹のもとに、手違いで孤児の少女アンがやって来る。"
+      },
+      "article_sha256_before": "3c024f25245c034c9f958fcea720763ab7acc35f1820952394a9da198a8aa366",
+      "article_sha256_after": "d2846327a403d7ebaedf4cd2062ebb011b479fbe1838982510c27ce8c79a3187",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "anne-library"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あかげのあん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "anne-allcinema",
+            "anne-original"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1989",
+              "region": "日本",
+              "kind": "劇場用ダイジェスト版の公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-26"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケヴィン・サリヴァン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-26"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミーガン・フォローズ\nコリーン・デューハースト\nパトリシア・ハミルトン\nマリリン・ライトストーン\nチャーミオン・キング\nローズマリー・ラドクリフ\nジャッキー・バロウズ\nリチャード・ファーンズワース\nスカイラー・グラント\nジョナサン・クロンビー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "anne-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "青春\nファミリー\n文芸",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "anne-sullivan"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "男の子を迎えるはずだった農場の老兄妹のもとに、手違いで孤児の少女アンがやって来る。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/逃がれの街_2016-09-04.md",
+      "title": "逃がれの街",
+      "review_date": "2016-09-04 00:00:12",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "工藤栄一"
+        ],
+        "cast": [
+          "水谷豊",
+          "坂本浩之",
+          "甲斐智枝美",
+          "夏八木勲",
+          "草笛光子",
+          "田中邦衛",
+          "本田博太郎",
+          "財津一郎",
+          "平田満",
+          "島田紳助"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1983,
+        "directors": [
+          "工藤栄一"
+        ],
+        "cast": [
+          "水谷豊",
+          "坂本浩之",
+          "甲斐智枝美",
+          "夏八木勲",
+          "草笛光子",
+          "田中邦衛",
+          "本田博太郎",
+          "財津一郎",
+          "平田満",
+          "島田紳助"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "のがれのまち",
+        "release_year": 1983,
+        "directors": [
+          "工藤栄一"
+        ],
+        "cast": [
+          "水谷豊",
+          "坂本浩之",
+          "甲斐智枝美",
+          "夏八木勲",
+          "草笛光子",
+          "田中邦衛",
+          "本田博太郎",
+          "財津一郎",
+          "平田満",
+          "島田紳助"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "旧友を一晩泊めた配送運転手が、翌日、その男の起こした殺人事件の共犯として逮捕される。"
+      },
+      "article_sha256_before": "592594dc4e372b0f5ff6a35669e93832970aaa871ebbe5ebaa170a5ddd00ee13",
+      "article_sha256_after": "83dd7d616cce3685496d38321b61624830c7eb96f81767351808308b95846d76",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "のがれのまち",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "nogare-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1983",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "工藤栄一",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "水谷豊\n坂本浩之\n甲斐智枝美\n夏八木勲\n草笛光子\n田中邦衛\n本田博太郎\n財津一郎\n平田満\n島田紳助",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "nogare-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "旧友を一晩泊めた配送運転手が、翌日、その男の起こした殺人事件の共犯として逮捕される。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/フライト・デスティネーション_2016-08-28.md",
+      "title": "フライト・デスティネーション",
+      "review_date": "2016-08-28 00:00:04",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジェイソン・ボルク"
+        ],
+        "cast": [
+          "ジェイソン・プリーストリー",
+          "ルー・ダイアモンド・フィリップス",
+          "ガーウィン・サンフォード",
+          "ゲイリー・ハドソン",
+          "ステファニー・フォン・フェッテン",
+          "マイケル・エクランド"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "ジェイソン・ボルク"
+        ],
+        "cast": [
+          "ジェイソン・プリーストリー",
+          "ルー・ダイアモンド・フィリップス",
+          "ガーウィン・サンフォード",
+          "ゲイリー・ハドソン",
+          "ステファニー・フォン・フェッテン",
+          "マイケル・エクランド"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふらいとですてぃねーしょん",
+        "release_year": 2007,
+        "directors": [
+          "ジェイソン・ボルク"
+        ],
+        "cast": [
+          "ジェイソン・プリーストリー",
+          "ルー・ダイアモンド・フィリップス",
+          "ガーウィン・サンフォード",
+          "ゲイリー・ハドソン",
+          "ステファニー・フォン・フェッテン",
+          "マイケル・エクランド"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "時空を移動できる装置を盗んだ博士が、捜査官の家族を乗せた旅客機で逃亡していると判明する。"
+      },
+      "article_sha256_before": "8226479ca6d1c43656d2d7cc337f01a9d75c56d9c585dbd6e8a3eb1616efc242",
+      "article_sha256_after": "6b99092a75446fa47793358b7e37dabdcdc27489641a47cc338c3a5c19dd69b4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "flight-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふらいとですてぃねーしょん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "flight-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2007",
+              "region": "国外",
+              "kind": "配信作品欄のリリース",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-28"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイソン・ボルク",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-28"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイソン・プリーストリー\nルー・ダイアモンド・フィリップス\nガーウィン・サンフォード\nゲイリー・ハドソン\nステファニー・フォン・フェッテン\nマイケル・エクランド",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-28"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "flight-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "時空を移動できる装置を盗んだ博士が、捜査官の家族を乗せた旅客機で逃亡していると判明する。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/１３日の金曜日ＰＡＲＴ８／ジェイソンＮ.Ｙ.へ_2016-08-12.md",
+      "title": "１３日の金曜日ＰＡＲＴ８／ジェイソンＮ.Ｙ.へ",
+      "review_date": "2016-08-12 00:00:56",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ロブ・ヘデン"
+        ],
+        "cast": [
+          "ジェンセン・ダジェット",
+          "スコット・リーヴス",
+          "バーバラ・ビンガム",
+          "ピーター・マーク・リッチマン",
+          "マーティン・カミンズ",
+          "ゴードン・カリー",
+          "アレックス・ディアカン",
+          "ヴィンセント・クレイグ・デュプリー",
+          "サフロン・ヘンダーソン",
+          "ケリー・フー",
+          "シャーリーン・マーティン",
+          "ウォーレン・マンソン",
+          "ケイン・ホッダー"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1989,
+        "directors": [
+          "ロブ・ヘデン"
+        ],
+        "cast": [
+          "ジェンセン・ダジェット",
+          "スコット・リーヴス",
+          "バーバラ・ビンガム",
+          "ピーター・マーク・リッチマン",
+          "マーティン・カミンズ",
+          "ゴードン・カリー",
+          "アレックス・ディアカン",
+          "ヴィンセント・クレイグ・デュプリー",
+          "サフロン・ヘンダーソン",
+          "ケリー・フー",
+          "シャーリーン・マーティン",
+          "ウォーレン・マンソン",
+          "ケイン・ホッダー"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "じゅうさんにちのきんようびぱーとえいとじぇいそんにゅーよーくへ",
+        "release_year": 1989,
+        "directors": [
+          "ロブ・ヘデン"
+        ],
+        "cast": [
+          "ジェンセン・ダジェット",
+          "スコット・リーヴス",
+          "バーバラ・ビンガム",
+          "ピーター・マーク・リッチマン",
+          "マーティン・カミンズ",
+          "ゴードン・カリー",
+          "アレックス・ディアカン",
+          "ヴィンセント・クレイグ・デュプリー",
+          "サフロン・ヘンダーソン",
+          "ケリー・フー",
+          "シャーリーン・マーティン",
+          "ウォーレン・マンソン",
+          "ケイン・ホッダー"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "ニューヨークへ向かう高校生たちの客船に、湖でよみがえったジェイソンが乗り込む。"
+      },
+      "article_sha256_before": "8b1924ec345a041dd1ae38061b114c8574a00fef5584439d977882de3aac199b",
+      "article_sha256_after": "7d1a46d50145414a8fde139ee1231e7e863f95a9a2854459e8d7d3a2edc3bdf9",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "friday8-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "じゅうさんにちのきんようびぱーとえいとじぇいそんにゅーよーくへ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "friday8-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1989",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-29"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロブ・ヘデン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-29"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェンセン・ダジェット\nスコット・リーヴス\nバーバラ・ビンガム\nピーター・マーク・リッチマン\nマーティン・カミンズ\nゴードン・カリー\nアレックス・ディアカン\nヴィンセント・クレイグ・デュプリー\nサフロン・ヘンダーソン\nケリー・フー\nシャーリーン・マーティン\nウォーレン・マンソン\nケイン・ホッダー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-29"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "friday8-prime"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ニューヨークへ向かう高校生たちの客船に、湖でよみがえったジェイソンが乗り込む。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/カクレンボ_2016-07-24.md",
+      "title": "カクレンボ",
+      "review_date": "2016-07-24 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "森田修平"
+        ],
+        "cast": [
+          "竹内順子",
+          "植木誠",
+          "鈴木真仁",
+          "内藤玲",
+          "石橋美佳",
+          "小林晃子"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2005,
+        "directors": [
+          "森田修平"
+        ],
+        "cast": [
+          "竹内順子",
+          "植木誠",
+          "鈴木真仁",
+          "内藤玲",
+          "石橋美佳",
+          "小林晃子"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かくれんぼ",
+        "release_year": 2005,
+        "directors": [
+          "森田修平"
+        ],
+        "cast": [
+          "竹内順子",
+          "植木誠",
+          "鈴木真仁",
+          "内藤玲",
+          "石橋美佳",
+          "小林晃子"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "行方不明の妹を探す少年が、廃墟の街で子供たちの間に伝わる、鬼のかくれんぼに参加すると……。"
+      },
+      "article_sha256_before": "00903dc6f61f5a7bea301b31924ed1d11a98662d51fe359c92eec6560efd9932",
+      "article_sha256_after": "fea3244f4f89f71bd82aebaa41938f1a71eaf12e0156fd9d303662d72198428c",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "kakurenbo-cwf"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かくれんぼ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "kakurenbo-yamato"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2005",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-filmarks-30"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "森田修平",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-filmarks-30"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "竹内順子\n植木誠\n鈴木真仁\n内藤玲\n石橋美佳\n小林晃子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-filmarks-30"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "kakurenbo-cwf"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "行方不明の妹を探す少年が、廃墟の街で子供たちの間に伝わる、鬼のかくれんぼに参加すると……。",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "hercules-netflix",
+      "title": "Netflix：ザ・ヘラクレス",
+      "url": "https://www.netflix.com/jp/title/70295173",
+      "retrieval_ref": "turn69search0",
+      "checked_facts": [
+        "2014年",
+        "アクション・アドベンチャー映画",
+        "ゼウスの息子"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hercules-wowow",
+      "title": "WOWOW：ザ・ヘラクレス",
+      "url": "https://www.wowow.co.jp/detail/106669",
+      "retrieval_ref": "turn69search1",
+      "checked_facts": [
+        "恋人ヘベと兄の政略結婚",
+        "王が主人公をエジプトへ派遣"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "turbo-wiki",
+      "title": "Wikipedia：高速ばぁば",
+      "url": "https://ja.wikipedia.org/wiki/高速ばぁば",
+      "retrieval_ref": "turn70view0",
+      "checked_facts": [
+        "こうそくばあば",
+        "日本公開2013年",
+        "製作2012年",
+        "三人組アイドルの廃老人ホームでのロケ",
+        "ロケ後の怪異"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "seawolf-wiki",
+      "title": "Wikipedia：Der Seewolf (2008)",
+      "url": "https://de.wikipedia.org/wiki/Der_Seewolf_(2008)",
+      "retrieval_ref": "turn82view0",
+      "checked_facts": [
+        "Christoph Schrewe監督",
+        "2008年ドイツ初放送",
+        "難破者をアザラシ猟船が救助",
+        "船長は陸へ戻さず船員として働かせる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "seawolf-allcinema",
+      "title": "allcinema：シーウルフ (2008)",
+      "url": "https://www.allcinema.net/cinema/pdf/336462",
+      "retrieval_ref": "turn78search7",
+      "checked_facts": [
+        "2008年TVM",
+        "アクション",
+        "アドベンチャー",
+        "監督・既存主要キャストが一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "machine-wowow",
+      "title": "WOWOW：ザ・マシーン",
+      "url": "https://www.wowow.co.jp/detail/110504",
+      "retrieval_ref": "turn78search2",
+      "checked_facts": [
+        "SF／ファンタジー",
+        "軍用アンドロイド開発",
+        "助手の脳データを機体へ移植"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "machine-eiga",
+      "title": "映画.com：ザ・マシーン",
+      "url": "https://eiga.com/movie/80065/",
+      "retrieval_ref": "turn78search1",
+      "checked_facts": [
+        "日本公開2014年",
+        "製作2013年",
+        "近未来SFアクション"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hydra-apple",
+      "title": "Apple TV：ヒドラ",
+      "url": "https://tv.apple.com/jp/movie/ヒトラ/umc.cmc.4s20gg4uf2quhkvnsbhbjlta6",
+      "retrieval_ref": "turn70search3",
+      "checked_facts": [
+        "リリース2009年",
+        "囚人を島で人間狩りの対象にする",
+        "島に怪物ヒドラ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "dead-official",
+      "title": "川本喜八郎公式サイト：死者の書",
+      "url": "https://kawamotokihachiro.jp/product/animation/dead/",
+      "retrieval_ref": "turn70search1",
+      "checked_facts": [
+        "ししゃのしょ",
+        "製作2005年",
+        "公式の声の出演8名と語り1名"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "dead-jfdb",
+      "title": "JFDB：死者の書",
+      "url": "https://jfdb.jp/title/525",
+      "retrieval_ref": "turn78view0",
+      "checked_facts": [
+        "日本公開2006年",
+        "アニメーション",
+        "奈良時代の貴族の娘の写経",
+        "二上山に人影を見て山の麓へ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "rover-wowow",
+      "title": "WOWOW：奪還者",
+      "url": "https://www.wowow.co.jp/detail/108254",
+      "retrieval_ref": "turn71search1",
+      "checked_facts": [
+        "サスペンス／ミステリー",
+        "経済崩壊後のオーストラリア",
+        "強盗に車を奪われた男と強盗の弟"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "rover-cinematoday",
+      "title": "シネマトゥデイ：奪還者",
+      "url": "https://www.cinematoday.jp/movie/T0016047",
+      "retrieval_ref": "turn71search2",
+      "checked_facts": [
+        "日本公開2015年",
+        "男が強盗の弟を連れて車を追う"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "talk-jfdb",
+      "title": "JFDB：トーク・トゥ・ザ・デッド",
+      "url": "https://jfdb.jp/title/3850",
+      "retrieval_ref": "turn78view1",
+      "checked_facts": [
+        "日本公開2013年",
+        "製作2012年",
+        "ドラマ",
+        "ホラー",
+        "弟を亡くした女性",
+        "死者と通話するアプリ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "alice-eiga",
+      "title": "映画.com：不思議の国のアリス（実写版）",
+      "url": "https://eiga.com/movie/48694/",
+      "retrieval_ref": "turn85search9",
+      "checked_facts": [
+        "ウィリアム・スターリング監督",
+        "ピーター・セラーズほかの実写ミュージカル",
+        "レビュー本文のアニメへの言及と整合しない"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "tofu-fuji",
+      "title": "フジテレビ：豆富小僧",
+      "url": "https://www.fujitv.co.jp/movie/01movie/20110000_07_M00.html",
+      "retrieval_ref": "turn72search0",
+      "checked_facts": [
+        "人を怖がらせられない妖怪の子",
+        "父に叱られる",
+        "母を捜しに出る",
+        "公式題名は豆富小僧"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "tofu-jfdb",
+      "title": "JFDB：豆富小僧",
+      "url": "https://jfdb.jp/title/2874",
+      "retrieval_ref": "turn78view2",
+      "checked_facts": [
+        "Tofu kozo",
+        "日本公開2011年",
+        "杉井ギサブロー（総監督）",
+        "河原真明（監督）"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "parol-danime",
+      "title": "dアニメストア：パロルのみらい島",
+      "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=20006",
+      "retrieval_ref": "turn72search3",
+      "checked_facts": [
+        "SF/ファンタジー",
+        "島の動物の子供が人間の写真を発見",
+        "島を出ない掟を破って外へ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "parol-jfdb",
+      "title": "JFDB：パロルのみらい島",
+      "url": "https://jfdb.jp/title/4095",
+      "retrieval_ref": "turn81search0",
+      "checked_facts": [
+        "Parol no miraijima",
+        "日本公開2014年"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "arete-studio",
+      "title": "STUDIO4℃：アリーテ姫",
+      "url": "https://www.studio4c.co.jp/works/pages/09.html",
+      "retrieval_ref": "turn72search6",
+      "checked_facts": [
+        "2001年作品",
+        "塔の姫が求婚者を待つ",
+        "抜け道から町に出て職人の仕事を見る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "arete-jfdb",
+      "title": "JFDB：アリーテ姫",
+      "url": "https://jfdb.jp/title/7964",
+      "retrieval_ref": "turn72search7",
+      "checked_facts": [
+        "Arete hime",
+        "日本公開2001年"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "dino-eiga",
+      "title": "映画.com：ディノシャーク",
+      "url": "https://eiga.com/movie/83771/",
+      "retrieval_ref": "turn72search4",
+      "checked_facts": [
+        "製作2010年",
+        "モンスターパニック",
+        "メキシコに戻った青年",
+        "海で友人が襲われる",
+        "古代のサメ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "rice-kine",
+      "title": "KINENOTE：米百俵 小林虎三郎の天命",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=73820",
+      "retrieval_ref": "turn73search0",
+      "checked_facts": [
+        "こめひゃっぴょうこばやしとらさぶろうのてんめい",
+        "製作1993年",
+        "劇場未公開・オリジナルビデオ",
+        "時代劇"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "rice-creator",
+      "title": "ひらめきと感動の世界：映画 米百俵",
+      "url": "https://hirameki.tv/【映画】米百俵/",
+      "retrieval_ref": "turn73search1",
+      "checked_facts": [
+        "敗戦後の長岡藩",
+        "援助の米百俵",
+        "小林虎三郎は米を学校の資金へ使おうとする"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "pain-pia",
+      "title": "ぴあ：痛み",
+      "url": "https://lp.p.pia.jp/event/movie/20184/index.html",
+      "retrieval_ref": "turn73search4",
+      "checked_facts": [
+        "日本公開2012年",
+        "製作2011年",
+        "人間ドラマ",
+        "無痛症の取立て屋と血友病の女性"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "pain-jorudan",
+      "title": "映画の時間：痛み",
+      "url": "https://movie.jorudan.co.jp/film/42617/",
+      "retrieval_ref": "turn78search4",
+      "checked_facts": [
+        "いたみ",
+        "ラブロマンス"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "wolf-eiga",
+      "title": "映画.com：ナイト・ウルフ 人狼憑異",
+      "url": "https://eiga.com/movie/83046/",
+      "retrieval_ref": "turn80search5",
+      "checked_facts": [
+        "製作2010年",
+        "13 Hrs",
+        "ジョナサン・グレンデニング監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "wolf-rakuten",
+      "title": "楽天ブックス：ナイト・ウルフ 人狼憑異",
+      "url": "https://books.rakuten.co.jp/rb/11403541/",
+      "retrieval_ref": "turn73search5",
+      "checked_facts": [
+        "帰省した女性",
+        "嵐で屋敷に閉じ込められた家族や友人",
+        "生物による襲撃",
+        "DVD発売年は年候補に採用しない"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "aoki-kine",
+      "title": "KINENOTE：青木ヶ原",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=70222",
+      "retrieval_ref": "turn81search2",
+      "checked_facts": [
+        "あおきがはら",
+        "日本公開2013年",
+        "恋愛",
+        "宿の主人は前夜会った男の遺体を樹海で発見"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "aoki-jfdb",
+      "title": "JFDB：青木ヶ原",
+      "url": "https://jfdb.jp/title/3553",
+      "retrieval_ref": "turn81search3",
+      "checked_facts": [
+        "Aokigahara",
+        "ドラマ",
+        "新城卓監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hanako-eiga",
+      "title": "映画.com：トイレの花子さん 新劇場版",
+      "url": "https://eiga.com/movie/78670/",
+      "retrieval_ref": "turn74search0",
+      "checked_facts": [
+        "日本公開2013年",
+        "転校生が友人へのいじめを止められない",
+        "友人がトイレに閉じ込められ死亡",
+        "その後の怪異"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hanako-jorudan",
+      "title": "映画の時間：トイレの花子さん 新劇場版",
+      "url": "https://movie.jorudan.co.jp/film/71621/",
+      "retrieval_ref": "turn81search5",
+      "checked_facts": [
+        "といれのはなこさんしんげきじょうばん",
+        "ホラー"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "trap-play",
+      "title": "Rakuten PLAY：デス・トラップ 死神の法則",
+      "url": "https://play.rakuten.co.jp/content/26060",
+      "retrieval_ref": "turn84search2",
+      "checked_facts": [
+        "制作2013年",
+        "横山一洋監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "trap-actor",
+      "title": "及川奈央公式ブログ：デストラップ 死神の法則",
+      "url": "https://oinao.exblog.jp/20700842/",
+      "retrieval_ref": "turn84search0",
+      "checked_facts": [
+        "DVDドラマとして撮影",
+        "バーのママが死神",
+        "一話完結の三話構成"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "trap-videomarket",
+      "title": "ビデオマーケット：デス・トラップ 死神の法則",
+      "url": "https://www.videomarket.jp/title/211163/A211163002999H01",
+      "retrieval_ref": "turn77search5",
+      "checked_facts": [
+        "他人を呪う依頼を引き受けるバー",
+        "バーテンダーの背後に死神"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "trap-apple",
+      "title": "Apple TV：デス・トラップ 死神の法則",
+      "url": "https://tv.apple.com/jp/movie/テストラッフ-死神の法則/umc.cmc.4gwthi9vrop476ckqbhf7p5pb",
+      "retrieval_ref": "turn80search3",
+      "checked_facts": [
+        "リリース2015年",
+        "copyright 2013",
+        "制作年2013とリリース欄2015を区別"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "growing-eiga",
+      "title": "映画.com：集団殺人クラブ GROWING",
+      "url": "https://eiga.com/movie/41017/",
+      "retrieval_ref": "turn74search5",
+      "checked_facts": [
+        "日本公開2004年",
+        "谷洋平監督",
+        "殺人鬼タケゾウと女子高生"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "growing-natalie",
+      "title": "映画ナタリー：集団殺人クラブ GROWING",
+      "url": "https://natalie.mu/eiga/film/142809",
+      "retrieval_ref": "turn83search4",
+      "checked_facts": [
+        "シュウダンサツジンクラブグローイング",
+        "女子高生三人組",
+        "悪夢がきっかけ",
+        "スプラッタ・ホラー"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "tokyo-allcinema",
+      "title": "allcinema：東京分裂ガールズ",
+      "url": "https://www.allcinema.net/cinema/340618",
+      "retrieval_ref": "turn84search4",
+      "checked_facts": [
+        "2011年オリジナルビデオ",
+        "MizuneT監督",
+        "既存キャスト3名が一致",
+        "採用できる導入の事実を得られなかった"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "ex-apple",
+      "title": "Apple TV：元カノ Death",
+      "url": "https://tv.apple.com/jp/movie/元カノ-death/umc.cmc.2ventwwoclq9adxntjp597uw3",
+      "retrieval_ref": "turn75search0",
+      "checked_facts": [
+        "リリース2010年",
+        "女優志望の女性",
+        "映画館で恋人と別の女性を目撃",
+        "翌日その女性の自殺の知らせ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "mukou-unext",
+      "title": "U-NEXT：高レート裏麻雀列伝 むこうぶち3 裏プロ",
+      "url": "https://www.video.unext.jp/title/SID0038502",
+      "retrieval_ref": "turn84search6",
+      "checked_facts": [
+        "2008年",
+        "秀はホステスと組んで経営者から金を取る",
+        "無敗の雀士・傀が現れる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "mukou-allcinema",
+      "title": "allcinema：むこうぶち3 裏プロ",
+      "url": "https://www.allcinema.net/cinema/pdf/330768",
+      "retrieval_ref": "turn80search8",
+      "checked_facts": [
+        "2008年オリジナルビデオ",
+        "ギャンブル・博打"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "mukou-apple",
+      "title": "Apple TV：むこうぶち3 裏プロ",
+      "url": "https://tv.apple.com/jp/movie/高レート裏麻雀列伝-むこうふち-3-裏フロ/umc.cmc.3aiahw62b840b50mtju00td6o",
+      "retrieval_ref": "turn84search5",
+      "checked_facts": [
+        "2007年の表示",
+        "U-NEXT・allcinemaの2008年と差があるため根拠を併記"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "friday5-eiga",
+      "title": "映画.com：新・13日の金曜日",
+      "url": "https://eiga.com/movie/45436/",
+      "retrieval_ref": "turn85search1",
+      "checked_facts": [
+        "日本公開1985年",
+        "前作事件の生存者が療養施設へ",
+        "施設の殺人事件"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "friday5-reading",
+      "title": "映画チラシサイト：新13日の金曜日",
+      "url": "https://eiga-chirashi.jp/view_item.php?titleid=1076",
+      "retrieval_ref": "turn85search0",
+      "checked_facts": [
+        "シンジュウサンニチノキンヨウビ",
+        "1985年",
+        "監督・出演者が一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "nemuri-kadokawa",
+      "title": "KADOKAWA：眠狂四郎 多情剣",
+      "url": "https://cinemakadokawa.jp/product/entry-5433.html",
+      "retrieval_ref": "turn75search8",
+      "checked_facts": [
+        "日本公開1966年",
+        "菊からの手紙",
+        "娼家での刺客の襲撃"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "nemuri-natalie",
+      "title": "映画ナタリー：眠狂四郎 多情剣",
+      "url": "https://natalie.mu/eiga/film/134126",
+      "retrieval_ref": "turn85search4",
+      "checked_facts": [
+        "ネムリキョウシロウタジョウケン",
+        "監督・主要出演者が一致",
+        "製作1965年の欄は公開年へ転記しない"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anne-library",
+      "title": "大阪市立図書館：映画関連資料目録",
+      "url": "https://www.oml.city.osaka.lg.jp/image_key/2026/466_01.pdf",
+      "retrieval_ref": "turn82search8",
+      "checked_facts": [
+        "赤毛のアン",
+        "アカゲノアン",
+        "ケヴィン・サリヴァン"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anne-allcinema",
+      "title": "allcinema：赤毛のアン",
+      "url": "https://www.allcinema.net/cinema/pdf/495",
+      "retrieval_ref": "turn82search7",
+      "checked_facts": [
+        "日本公開1989年",
+        "劇場用ダイジェスト版",
+        "青春",
+        "ファミリー",
+        "文芸"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anne-sullivan",
+      "title": "Sullivan Entertainment：Anne of Green Gables",
+      "url": "https://www.gazebotv.com/packages/anne-of-green-gables/videos/anne-of-green-gables",
+      "retrieval_ref": "turn86search7",
+      "checked_facts": [
+        "Kevin Sullivan監督",
+        "老兄妹は農場を手伝う男の子を迎える予定",
+        "手違いで孤児の少女Anneが来る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anne-original",
+      "title": "Sullivan Entertainment公式ストア：About Us",
+      "url": "https://shopatsullivan.com/pages/about-us",
+      "retrieval_ref": "turn86search8",
+      "checked_facts": [
+        "元のテレビ作品は1985年",
+        "日本の劇場公開1989年と区別"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "nogare-wowow",
+      "title": "WOWOW：逃がれの街",
+      "url": "https://www.wowow.co.jp/detail/109626",
+      "retrieval_ref": "turn76search3",
+      "checked_facts": [
+        "配送運転手が旧友を泊める",
+        "翌日殺人の共犯として逮捕"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "nogare-eiga",
+      "title": "映画.com：逃がれの街",
+      "url": "https://eiga.com/movie/38613/",
+      "retrieval_ref": "turn76search4",
+      "checked_facts": [
+        "日本公開1983年"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "flight-apple",
+      "title": "Apple TV：フライト・デスティネーション",
+      "url": "https://tv.apple.com/jp/movie/フライトテスティネーション/umc.cmc.2owfo3r5n5l6a82v7bfh2yrs4",
+      "retrieval_ref": "turn76search5",
+      "checked_facts": [
+        "リリース2007年",
+        "時空間移動の装置を博士が盗む",
+        "捜査官の家族と博士が同じ旅客機に乗る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "friday8-prime",
+      "title": "Prime Video：13日の金曜日PART8",
+      "url": "https://www.primevideo.com/-/ja/detail/0LOP6EDFT5WTN5MSFQ1U5927VD?tr=re",
+      "retrieval_ref": "turn77search0",
+      "checked_facts": [
+        "1989年",
+        "高校生のニューヨーク旅行の船",
+        "よみがえったジェイソンが乗船"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "friday8-kine",
+      "title": "KINENOTE：13日の金曜日PART8 ジェイソンN.Y.へ",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=4392",
+      "retrieval_ref": "turn79search5",
+      "checked_facts": [
+        "じゅうさんにちのきんようびぱーとえいとじぇいそんにゅーよーくへ",
+        "日本公開1989年"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "kakurenbo-cwf",
+      "title": "コミックス・ウェーブ・フィルム：カクレンボ",
+      "url": "https://www.cwfilms.jp/products/article/kakurenbo.html",
+      "retrieval_ref": "turn76search6",
+      "checked_facts": [
+        "2005年作品",
+        "少年は行方不明の妹を捜す",
+        "荒廃した街で子供が鬼のかくれんぼをする"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "kakurenbo-yamato",
+      "title": "YAMATOWORKS：カクレンボ",
+      "url": "https://yamato-works.com/works/works-26/",
+      "retrieval_ref": "turn76search7",
+      "checked_facts": [
+        "日本公開2005年",
+        "森田修平監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-filmarks-1",
+      "title": "既存MDDataの出典：ザ・ヘラクレス（Filmarks）",
+      "url": "https://filmarks.com/movies/57982",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-2",
+      "title": "既存MDDataの出典：高速ばぁば（Filmarks）",
+      "url": "https://filmarks.com/movies/53123",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-3",
+      "title": "既存MDDataの出典：シーウルフ（Filmarks）",
+      "url": "https://filmarks.com/movies/67562",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-4",
+      "title": "既存MDDataの出典：ザ・マシーン（Filmarks）",
+      "url": "https://filmarks.com/movies/57816",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-5",
+      "title": "既存MDDataの出典：ヒドラ（Filmarks）",
+      "url": "https://filmarks.com/movies/55359",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-6",
+      "title": "既存MDDataの出典：死者の書（Filmarks）",
+      "url": "https://filmarks.com/movies/35575",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-7",
+      "title": "既存MDDataの出典：奪還者（Filmarks）",
+      "url": "https://filmarks.com/movies/57326",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-8",
+      "title": "既存MDDataの出典：トーク・トゥ・ザ・デッド（Filmarks）",
+      "url": "https://filmarks.com/movies/53126",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-9",
+      "title": "既存MDDataの出典：不思議の国のアリス（Filmarks）",
+      "url": "https://filmarks.com/movies/45610",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-10",
+      "title": "既存MDDataの出典：豆腐小僧（Filmarks）",
+      "url": "https://filmarks.com/movies/1625",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-11",
+      "title": "既存MDDataの出典：パロルのみらい島（Filmarks）",
+      "url": "https://filmarks.com/movies/56678",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-12",
+      "title": "既存MDDataの出典：アリーテ姫（Filmarks）",
+      "url": "https://filmarks.com/movies/10858",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-13",
+      "title": "既存MDDataの出典：ディノシャーク（Filmarks）",
+      "url": "https://filmarks.com/movies/58729",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-14",
+      "title": "既存MDDataの出典：米百俵 小林虎三郎の天命（Filmarks）",
+      "url": "https://filmarks.com/movies/107764",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-15",
+      "title": "既存MDDataの出典：痛み（Filmarks）",
+      "url": "https://filmarks.com/movies/16965",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-16",
+      "title": "既存MDDataの出典：ナイト・ウルフ/人狼憑異（Filmarks）",
+      "url": "https://filmarks.com/movies/47609",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-17",
+      "title": "既存MDDataの出典：青木ヶ原（Filmarks）",
+      "url": "https://filmarks.com/movies/53133",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-18",
+      "title": "既存MDDataの出典：トイレの花子さん新劇場版（Filmarks）",
+      "url": "https://filmarks.com/movies/54497",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-19",
+      "title": "既存MDDataの出典：デス・トラップ　死神の法則（Filmarks）",
+      "url": "https://filmarks.com/movies/56589",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-20",
+      "title": "既存MDDataの出典：集団殺人クラブ　GROWING（Filmarks）",
+      "url": "https://filmarks.com/movies/17131",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-21",
+      "title": "既存MDDataの出典：東京分裂ガールズ（Filmarks）",
+      "url": "https://filmarks.com/movies/57074",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-22",
+      "title": "既存MDDataの出典：元カノdeath（Filmarks）",
+      "url": "https://filmarks.com/movies/38999",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-23",
+      "title": "既存MDDataの出典：高レート裏麻雀列伝　むこうぶち3　裏プロ（Filmarks）",
+      "url": "https://filmarks.com/movies/55599",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-24",
+      "title": "既存MDDataの出典：新１３日の金曜日（Filmarks）",
+      "url": "https://filmarks.com/movies/12856",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-25",
+      "title": "既存MDDataの出典：眠狂四郎　多情剣（Filmarks）",
+      "url": "https://filmarks.com/movies/21804",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-26",
+      "title": "既存MDDataの出典：赤毛のアン（Filmarks）",
+      "url": "https://filmarks.com/movies/13272",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-27",
+      "title": "既存MDDataの出典：逃がれの街（Filmarks）",
+      "url": "https://filmarks.com/movies/31349",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-28",
+      "title": "既存MDDataの出典：フライト・デスティネーション（Filmarks）",
+      "url": "https://filmarks.com/movies/59344",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-29",
+      "title": "既存MDDataの出典：１３日の金曜日ＰＡＲＴ８／ジェイソンＮ.Ｙ.へ（Filmarks）",
+      "url": "https://filmarks.com/movies/21100",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    },
+    {
+      "ref_id": "existing-filmarks-30",
+      "title": "既存MDDataの出典：カクレンボ（Filmarks）",
+      "url": "https://filmarks.com/movies/21496",
+      "origin": "previous_metadata_batch",
+      "checked_facts": [
+        "既存の監督・キャスト・登録済み属性を引継ぎ"
+      ],
+      "not_retrieved_again_this_batch": true
+    }
+  ]
+}
