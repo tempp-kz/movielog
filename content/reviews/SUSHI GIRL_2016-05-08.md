@@ -1,11 +1,13 @@
 ---
 type: review
 title: SUSHI GIRL
-reading: null
-reading_status: 未調査
+reading: すしがーる
+reading_status: 取得済み
 release_date: '2012-12-22'
 release_year: 2012
-genres: []
+genres:
+- クライム
+- スリラー
 directors:
 - カーン・サクストン
 cast:
@@ -25,6 +27,7 @@ rating: 3.5
 rating_display: 3.5点
 rating_original: POINT：★
 short_review: アトレイユの劣化っぷりが素敵。
+synopsis: 服役を終えた男が、強盗仲間と女体盛りの寿司を囲み、消えたダイヤモンドの行方を問われることに……。
 source: FC2
 source_url: null
 image: null

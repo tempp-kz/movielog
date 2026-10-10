@@ -1,0 +1,5201 @@
+{
+  "batch_id": "metadata-trial-policy30-20261010",
+  "dataset_id": "movielog-policy30-20261010-9cae5875a287",
+  "base_commit": "9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+  "applied_at": "2026-10-10T21:30:20.862970+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "8737402883915fabe06a2acccda40fb2bd931abb329c0b6e1d3e9e7a0a1512d0",
+  "answer_library_file_id": "libfile_1e21847df7a481918ed9a43e7db32fb7",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/ヘンゼル & グレーテル_2016-07-20.md",
+      "title": "ヘンゼル & グレーテル",
+      "review_date": "2016-07-20 00:00:30",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "トミー・ウィルコラ"
+        ],
+        "cast": [
+          "ジェレミー・レナー",
+          "ジェマ・アータートン",
+          "ファムケ・ヤンセン",
+          "ピーター・ストーメア"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "トミー・ウィルコラ"
+        ],
+        "cast": [
+          "ジェレミー・レナー",
+          "ジェマ・アータートン",
+          "ファムケ・ヤンセン",
+          "ピーター・ストーメア"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "へんぜるあんどぐれーてる",
+        "release_year": 2013,
+        "directors": [
+          "トミー・ウィルコラ"
+        ],
+        "cast": [
+          "ジェレミー・レナー",
+          "ジェマ・アータートン",
+          "ファムケ・ヤンセン",
+          "ピーター・ストーメア"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ],
+        "synopsis": "魔女退治を仕事にする兄妹が、子供の誘拐が続く村へ呼ばれ、姿を消した子供たちを捜す。"
+      },
+      "article_sha256_before": "933f803b25f243f0187245a426dfaa8070062c44414c8d4690af2b6bc8273e71",
+      "article_sha256_after": "04f48fa90d6a55b971645d46ac0f55afd29b0bc117bdbcc0181bb7e54882c89f",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "へんぜるあんどぐれーてる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hansel-eiga",
+            "hansel-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2013",
+              "date": "",
+              "region": "米国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トミー・ウィルコラ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェレミー・レナー\nジェマ・アータートン\nファムケ・ヤンセン\nピーター・ストーメア",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nアドベンチャー・冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hansel-eiga",
+            "hansel-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "魔女退治を仕事にする兄妹が、子供の誘拐が続く村へ呼ばれ、姿を消した子供たちを捜す。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ゾンビズ・シティ_2016-07-08.md",
+      "title": "ゾンビズ・シティ",
+      "review_date": "2016-07-08 00:00:23",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ホルヘ・オルギン"
+        ],
+        "cast": [
+          "カミーユ・リンチ",
+          "カリーナ・ピサロ",
+          "クリストバル・バッラ"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ホルヘ・オルギン"
+        ],
+        "cast": [
+          "カミーユ・リンチ",
+          "カリーナ・ピサロ",
+          "クリストバル・バッラ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞんびずしてぃ",
+        "release_year": 2008,
+        "directors": [
+          "ホルヘ・オルギン"
+        ],
+        "cast": [
+          "カミーユ・リンチ",
+          "カリーナ・ピサロ",
+          "クリストバル・バッラ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "母をゾンビにされた少女が、母の言葉を頼りに海を目指し、感染しない子供たちと出会う。"
+      },
+      "article_sha256_before": "56cb875db04e0ae531c51c8167df040230ebab593db23534fca7c48b74843242",
+      "article_sha256_after": "bdbdefcd56c89c59bcf97bd1ae0a7989b49d45bffd9fa33d246019bc23f84e28",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "zcity-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞんびずしてぃ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "zcity-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2008",
+              "date": "",
+              "region": "チリ",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホルヘ・オルギン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カミーユ・リンチ\nカリーナ・ピサロ\nクリストバル・バッラ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "zcity-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "zcity-official"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "母をゾンビにされた少女が、母の言葉を頼りに海を目指し、感染しない子供たちと出会う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ゾンビ特急“地獄行”_2016-06-20.md",
+      "title": "ゾンビ特急“地獄行”",
+      "review_date": "2016-06-20 00:00:40",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ユージニオ・マーティン"
+        ],
+        "cast": [
+          "クリストファー・リー",
+          "ピーター・カッシング",
+          "テリー・サヴァラス",
+          "アルベルト・デ・メンドーサ",
+          "シルヴィア・トルトーサ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1972,
+        "directors": [
+          "ユージニオ・マーティン"
+        ],
+        "cast": [
+          "クリストファー・リー",
+          "ピーター・カッシング",
+          "テリー・サヴァラス",
+          "アルベルト・デ・メンドーサ",
+          "シルヴィア・トルトーサ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞんびとっきゅうじごくいき",
+        "release_year": 1972,
+        "directors": [
+          "ユージニオ・マーティン"
+        ],
+        "cast": [
+          "クリストファー・リー",
+          "ピーター・カッシング",
+          "テリー・サヴァラス",
+          "アルベルト・デ・メンドーサ",
+          "シルヴィア・トルトーサ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "氷漬けの類人猿を欧州へ運ぶ学者がシベリア鉄道に乗り込むと、車内で人々が死に始める。"
+      },
+      "article_sha256_before": "c8765f5f46254cec63ce404979e7e9e64794313fc064c6ee9a233285540ab0c3",
+      "article_sha256_after": "dc83c6d2732632dc999f05fbd1d3bb321c185e444da48900b58d2e82dd8a8d31",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞんびとっきゅうじごくいき",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "express-wiki",
+            "express-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1972",
+              "date": "",
+              "region": "国外",
+              "kind": "映画祭での初上映年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ユージニオ・マーティン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリストファー・リー\nピーター・カッシング\nテリー・サヴァラス\nアルベルト・デ・メンドーサ\nシルヴィア・トルトーサ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "express-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "氷漬けの類人猿を欧州へ運ぶ学者がシベリア鉄道に乗り込むと、車内で人々が死に始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ウーマン・ハンティング 殺戮の森_2016-06-16.md",
+      "title": "ウーマン・ハンティング 殺戮の森",
+      "review_date": "2016-06-16 00:00:40",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": [
+          "アダルト",
+          "サスペンス",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "うーまんはんてぃんぐさつりくのもり",
+        "release_year": 2011,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": [
+          "アダルト",
+          "サスペンス",
+          "ミステリー"
+        ],
+        "synopsis": "ゲームで借金を抱えた友人を助けようとした弁護士志望の女性が、友人と人間狩りの標的にされる。"
+      },
+      "article_sha256_before": "853cf75b2ad187b5ade80dfd9ec6db8d0f030b41677a1c9902f95e4183062a9b",
+      "article_sha256_after": "42a5e96ae55a624db6996bbc276cb5c44c2400ce8649afa3e011e239154fc4ff",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うーまんはんてぃんぐさつりくのもり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hunting-wowow",
+            "hunting-ktv"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2011",
+              "date": "",
+              "region": "日本",
+              "kind": "製作年候補・ビデオ作品",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "A.K.G",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "仁科百華\n吉田優華\n岸本尚子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "hunting-wowow",
+            "hunting-ktv"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アダルト\nサスペンス\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hunting-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゲームで借金を抱えた友人を助けようとした弁護士志望の女性が、友人と人間狩りの標的にされる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/金星怪人ゾンター_2016-06-08.md",
+      "title": "金星怪人ゾンター",
+      "review_date": "2016-06-08 00:00:06",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ラリー・ブキャナン"
+        ],
+        "cast": [
+          "ジョン・エイガー",
+          "スーザン・ビューマン",
+          "アンソニー・ヒューストン",
+          "パトリシア・デラニー",
+          "ウォーレン・ハマック"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": null,
+        "directors": [
+          "ラリー・ブキャナン"
+        ],
+        "cast": [
+          "ジョン・エイガー",
+          "スーザン・ビューマン",
+          "アンソニー・ヒューストン",
+          "パトリシア・デラニー",
+          "ウォーレン・ハマック"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "きんせいかいじんぞんたー",
+        "directors": [
+          "ラリー・ブキャナン"
+        ],
+        "cast": [
+          "ジョン・エイガー",
+          "スーザン・ビューマン",
+          "アンソニー・ヒューストン",
+          "パトリシア・デラニー",
+          "ウォーレン・ハマック"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ],
+        "synopsis": "金星の生命体と交信する科学者が、地球の問題を解決してくれると信じてその到来を待つが……。"
+      },
+      "article_sha256_before": "305283d994872a244c13adc1a963807c0919367112458b234191440524b988f1",
+      "article_sha256_after": "c05fc181badaf4caaeae09d587581cc34aa83133e14965e3f0757fa61d5dfb04",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "きんせいかいじんぞんたー",
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラリー・ブキャナン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・エイガー\nスーザン・ビューマン\nアンソニー・ヒューストン\nパトリシア・デラニー\nウォーレン・ハマック",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "zontar-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "zontar-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "金星の生命体と交信する科学者が、地球の問題を解決してくれると信じてその到来を待つが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ステップファーザー　殺人鬼の棲む家_2016-05-24.md",
+      "title": "ステップファーザー　殺人鬼の棲む家",
+      "review_date": "2016-05-24 00:00:03",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ネルソン・マコーミック"
+        ],
+        "cast": [
+          "ディラン・ウォルシュ",
+          "セーラ・ウォード",
+          "ペン・バッジリー",
+          "アンバー・ハード",
+          "ジョン・テニー",
+          "シェリー・ストリングフィールド",
+          "ペイジ・ターコー",
+          "ナンシー・リネハン・チャールズ",
+          "ディアドレ・ラヴジョイ",
+          "ブルー・デッカート",
+          "ジェイソン・ワイルズ",
+          "ジェサリン・ギルシグ",
+          "ブレーデン・レマスターズ"
+        ],
+        "genres": [
+          "サスペンス"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ネルソン・マコーミック"
+        ],
+        "cast": [
+          "ディラン・ウォルシュ",
+          "セーラ・ウォード",
+          "ペン・バッジリー",
+          "アンバー・ハード",
+          "ジョン・テニー",
+          "シェリー・ストリングフィールド",
+          "ペイジ・ターコー",
+          "ナンシー・リネハン・チャールズ",
+          "ディアドレ・ラヴジョイ",
+          "ブルー・デッカート",
+          "ジェイソン・ワイルズ",
+          "ジェサリン・ギルシグ",
+          "ブレーデン・レマスターズ"
+        ],
+        "genres": [
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "すてっぷふぁーざーさつじんきのすむいえ",
+        "release_year": 2009,
+        "directors": [
+          "ネルソン・マコーミック"
+        ],
+        "cast": [
+          "ディラン・ウォルシュ",
+          "セーラ・ウォード",
+          "ペン・バッジリー",
+          "アンバー・ハード",
+          "ジョン・テニー",
+          "シェリー・ストリングフィールド",
+          "ペイジ・ターコー",
+          "ナンシー・リネハン・チャールズ",
+          "ディアドレ・ラヴジョイ",
+          "ブルー・デッカート",
+          "ジェイソン・ワイルズ",
+          "ジェサリン・ギルシグ",
+          "ブレーデン・レマスターズ"
+        ],
+        "genres": [
+          "サスペンス"
+        ],
+        "synopsis": "士官学校から帰った青年が、母の新しい恋人と暮らし始め、継父になる男の振る舞いを疑うように……。"
+      },
+      "article_sha256_before": "989538278c82eeaaf14eba1080c51e7621c768f0bf67dfb54e188f99544db257",
+      "article_sha256_after": "9e31d6d19710012cf390c51995cbac7ace87bb783fb1ea5f4bf30494844a736b",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すてっぷふぁーざーさつじんきのすむいえ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "stepfather-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2009",
+              "date": "",
+              "region": "米国",
+              "kind": "作品年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-6"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ネルソン・マコーミック",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-6"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ディラン・ウォルシュ\nセーラ・ウォード\nペン・バッジリー\nアンバー・ハード\nジョン・テニー\nシェリー・ストリングフィールド\nペイジ・ターコー\nナンシー・リネハン・チャールズ\nディアドレ・ラヴジョイ\nブルー・デッカート\nジェイソン・ワイルズ\nジェサリン・ギルシグ\nブレーデン・レマスターズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-6"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "stepfather-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "士官学校から帰った青年が、母の新しい恋人と暮らし始め、継父になる男の振る舞いを疑うように……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/猟奇島_2016-05-20.md",
+      "title": "猟奇島",
+      "review_date": "2016-05-20 00:00:04",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "アーネスト・B・シュードサック",
+          "アーヴィング・ピシェル"
+        ],
+        "cast": [
+          "ジョエル・マクリー",
+          "フェイ・レイ",
+          "レスリー・バンクス",
+          "ロバート・アームストロング",
+          "ノーブル・ジョンソン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1933,
+        "directors": [
+          "アーネスト・B・シュードサック",
+          "アーヴィング・ピシェル"
+        ],
+        "cast": [
+          "ジョエル・マクリー",
+          "フェイ・レイ",
+          "レスリー・バンクス",
+          "ロバート・アームストロング",
+          "ノーブル・ジョンソン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "りょうきじま",
+        "release_year": 1933,
+        "directors": [
+          "アーネスト・B・シュードサック",
+          "アーヴィング・ピシェル"
+        ],
+        "cast": [
+          "ジョエル・マクリー",
+          "フェイ・レイ",
+          "レスリー・バンクス",
+          "ロバート・アームストロング",
+          "ノーブル・ジョンソン"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "船が沈んで孤島にたどり着いた男が、島の住人に迎えられるが、そこでは人間を獲物に狩りが行われていた。"
+      },
+      "article_sha256_before": "78c489c1fec4acd5941df66934b8eff041e321cf2d880786431ea8e6018e32a8",
+      "article_sha256_after": "c76493821b900ecf6aa700eb4aa16d5ab1bee42569db9bf9fb5d6dbd7eb41176",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "りょうきじま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "island-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1933",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アーネスト・B・シュードサック\nアーヴィング・ピシェル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョエル・マクリー\nフェイ・レイ\nレスリー・バンクス\nロバート・アームストロング\nノーブル・ジョンソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-7"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "island-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "船が沈んで孤島にたどり着いた男が、島の住人に迎えられるが、そこでは人間を獲物に狩りが行われていた。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ザ・プラマー　恐怖の訪問者_2016-05-16.md",
+      "title": "ザ・プラマー　恐怖の訪問者",
+      "review_date": "2016-05-16 00:00:06",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ピーター・ウィアー"
+        ],
+        "cast": [
+          "ジュディ・モリス",
+          "アイヴァー・カンツ",
+          "ロベルト・コールビー",
+          "キャンディ・レイモンド",
+          "アンリ・ゼプス",
+          "ヨミ・アビオウダン",
+          "ビヴァリー・ロバーツ",
+          "ブルース・ローゼン",
+          "ダフネ・グレイ",
+          "メメ・ソーン",
+          "デヴィッド・バーチェル"
+        ],
+        "genres": [
+          "サスペンス"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1979,
+        "directors": [
+          "ピーター・ウィアー"
+        ],
+        "cast": [
+          "ジュディ・モリス",
+          "アイヴァー・カンツ",
+          "ロベルト・コールビー",
+          "キャンディ・レイモンド",
+          "アンリ・ゼプス",
+          "ヨミ・アビオウダン",
+          "ビヴァリー・ロバーツ",
+          "ブルース・ローゼン",
+          "ダフネ・グレイ",
+          "メメ・ソーン",
+          "デヴィッド・バーチェル"
+        ],
+        "genres": [
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざぷらまーきょうふのほうもんしゃ",
+        "release_year": 1979,
+        "directors": [
+          "ピーター・ウィアー"
+        ],
+        "cast": [
+          "ジュディ・モリス",
+          "アイヴァー・カンツ",
+          "ロベルト・コールビー",
+          "キャンディ・レイモンド",
+          "アンリ・ゼプス",
+          "ヨミ・アビオウダン",
+          "ビヴァリー・ロバーツ",
+          "ブルース・ローゼン",
+          "ダフネ・グレイ",
+          "メメ・ソーン",
+          "デヴィッド・バーチェル"
+        ],
+        "genres": [
+          "サスペンス"
+        ],
+        "synopsis": "配管の修理に来た男が、水回りを壊しながら何度も通い続け、家にいる妻を悩ませる。"
+      },
+      "article_sha256_before": "55b4d6358ddaee3a42d5b369b2ca2c370f4906336a63b200390cd85ce44c658a",
+      "article_sha256_after": "739a7e8a9a7caed3084556db2e752a33a1f06e875cbdadead496173b87d5aae4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "plumber-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざぷらまーきょうふのほうもんしゃ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "plumber-wiki",
+            "plumber-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1979",
+              "date": "",
+              "region": "豪州",
+              "kind": "要確認：TV初放送1979／allcinema作品年1980",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ピーター・ウィアー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジュディ・モリス\nアイヴァー・カンツ\nロベルト・コールビー\nキャンディ・レイモンド\nアンリ・ゼプス\nヨミ・アビオウダン\nビヴァリー・ロバーツ\nブルース・ローゼン\nダフネ・グレイ\nメメ・ソーン\nデヴィッド・バーチェル",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "plumber-wiki",
+            "plumber-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "配管の修理に来た男が、水回りを壊しながら何度も通い続け、家にいる妻を悩ませる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/SUSHI GIRL_2016-05-08.md",
+      "title": "SUSHI GIRL",
+      "review_date": "2016-05-08 00:00:34",
+      "metadata_before": {
+        "release_year": 2012,
+        "directors": [
+          "カーン・サクストン"
+        ],
+        "cast": [
+          "トニー・トッド",
+          "ジェームズ・デュヴァル",
+          "ノア・ハサウェイ",
+          "マーク・ハミル",
+          "千葉真一",
+          "ダニー・トレホ",
+          "アンディ・マッケンジー",
+          "コートニー・パーム",
+          "マイケル・ビーン"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "カーン・サクストン"
+        ],
+        "cast": [
+          "トニー・トッド",
+          "ジェームズ・デュヴァル",
+          "ノア・ハサウェイ",
+          "マーク・ハミル",
+          "千葉真一",
+          "ダニー・トレホ",
+          "アンディ・マッケンジー",
+          "コートニー・パーム",
+          "マイケル・ビーン"
+        ],
+        "genres": [
+          "クライム",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "すしがーる",
+        "release_year": 2012,
+        "directors": [
+          "カーン・サクストン"
+        ],
+        "cast": [
+          "トニー・トッド",
+          "ジェームズ・デュヴァル",
+          "ノア・ハサウェイ",
+          "マーク・ハミル",
+          "千葉真一",
+          "ダニー・トレホ",
+          "アンディ・マッケンジー",
+          "コートニー・パーム",
+          "マイケル・ビーン"
+        ],
+        "genres": [
+          "クライム",
+          "スリラー"
+        ],
+        "synopsis": "服役を終えた男が、強盗仲間と女体盛りの寿司を囲み、消えたダイヤモンドの行方を問われることに……。"
+      },
+      "article_sha256_before": "bb19bad35f96b92c89df717db3e82626bae0393fa6041ab91dbdacf7d7773fad",
+      "article_sha256_after": "4173bea6cab2b3b5000830a6543f7112484a66760f25a8035fbb017879de451d",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "sushi-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すしがーる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "sushi-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2012",
+              "date": "",
+              "region": "日本",
+              "kind": "既存の日本劇場公開年を保持",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-9"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カーン・サクストン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-9"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トニー・トッド\nジェームズ・デュヴァル\nノア・ハサウェイ\nマーク・ハミル\n千葉真一\nダニー・トレホ\nアンディ・マッケンジー\nコートニー・パーム\nマイケル・ビーン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "sushi-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クライム\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "sushi-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "服役を終えた男が、強盗仲間と女体盛りの寿司を囲み、消えたダイヤモンドの行方を問われることに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/支配者の黄昏 TWILIGHT OF THE DARK MASTER_2016-04-24.md",
+      "title": "支配者の黄昏 TWILIGHT OF THE DARK MASTER",
+      "review_date": "2016-04-24 00:00:45",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "新房昭之"
+        ],
+        "cast": [
+          "関俊彦",
+          "篠原恵美",
+          "神谷明",
+          "高乃麗",
+          "石丸博也"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1998,
+        "directors": [
+          "新房昭之"
+        ],
+        "cast": [
+          "関俊彦",
+          "篠原恵美",
+          "神谷明",
+          "高乃麗",
+          "石丸博也"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しはいしゃのたそがれとわいらいとおぶざだーくますたー",
+        "release_year": 1998,
+        "directors": [
+          "新房昭之"
+        ],
+        "cast": [
+          "関俊彦",
+          "篠原恵美",
+          "神谷明",
+          "高乃麗",
+          "石丸博也"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "人間が鬼に食い殺される近未来の新宿で、守護者でもある私立探偵が、事件を調べる依頼を受ける。"
+      },
+      "article_sha256_before": "d1f51508561edba091b9e6e3e1160f9a6e8b2cf34bf1deb0da1ea439b1375144",
+      "article_sha256_after": "0b02a37d55a9c98294174df86f8542006014b306cfc7b2f8a0690ce6b7538c39",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "twilight-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しはいしゃのたそがれとわいらいとおぶざだーくますたー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "twilight-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1998",
+              "date": "",
+              "region": "日本",
+              "kind": "製作年候補・OVA",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-10"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "新房昭之",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-10"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "関俊彦\n篠原恵美\n神谷明\n高乃麗\n石丸博也",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-10"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "twilight-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人間が鬼に食い殺される近未来の新宿で、守護者でもある私立探偵が、事件を調べる依頼を受ける。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/Mirror 鏡の中_2016-04-20.md",
+      "title": "Mirror 鏡の中",
+      "review_date": "2016-04-20 00:00:34",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "キム・ソンホ"
+        ],
+        "cast": [
+          "ユ・ジテ",
+          "キム・ミョンミン",
+          "キム・ヘナ",
+          "キ・ジュボン",
+          "キム・ミョンス",
+          "チョン・ウンピョ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2003,
+        "directors": [
+          "キム・ソンホ"
+        ],
+        "cast": [
+          "ユ・ジテ",
+          "キム・ミョンミン",
+          "キム・ヘナ",
+          "キ・ジュボン",
+          "キム・ミョンス",
+          "チョン・ウンピョ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "みらーかがみのなか",
+        "release_year": 2003,
+        "directors": [
+          "キム・ソンホ"
+        ],
+        "cast": [
+          "ユ・ジテ",
+          "キム・ミョンミン",
+          "キム・ヘナ",
+          "キ・ジュボン",
+          "キム・ミョンス",
+          "チョン・ウンピョ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "火災の後、再開を控えるデパートで従業員が次々に死に、元刑事の警備責任者がその理由を調べるが……。"
+      },
+      "article_sha256_before": "76884b88225c47bfed2eaedd6da35f0a5b23bf877e02c3002bd0d99049115f5b",
+      "article_sha256_after": "fc1ad5498c9f29a0a085991b429cb71adf428a98e584e055fb05e99565b78982",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "みらーかがみのなか",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "mirror-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2003",
+              "date": "",
+              "region": "韓国",
+              "kind": "配信作品欄のリリース年候補",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キム・ソンホ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ユ・ジテ\nキム・ミョンミン\nキム・ヘナ\nキ・ジュボン\nキム・ミョンス\nチョン・ウンピョ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-11"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "mirror-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "火災の後、再開を控えるデパートで従業員が次々に死に、元刑事の警備責任者がその理由を調べるが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/リトル・マーメイド II_2016-04-16.md",
+      "title": "リトル・マーメイド II",
+      "review_date": "2016-04-16 00:00:03",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジム・カメラッド"
+        ],
+        "cast": [
+          "ジョディ・ベンソン",
+          "サミュエル・E・ライト",
+          "タラ・ストロング",
+          "パット・キャロル",
+          "バディ・ハケット",
+          "ケネス・マース",
+          "マックス・カセラ",
+          "スティーヴン・ファースト",
+          "ロブ・ポールセン",
+          "クランシー・ブラウン",
+          "カム・クラーク"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2000,
+        "directors": [
+          "ジム・カメラッド"
+        ],
+        "cast": [
+          "ジョディ・ベンソン",
+          "サミュエル・E・ライト",
+          "タラ・ストロング",
+          "パット・キャロル",
+          "バディ・ハケット",
+          "ケネス・マース",
+          "マックス・カセラ",
+          "スティーヴン・ファースト",
+          "ロブ・ポールセン",
+          "クランシー・ブラウン",
+          "カム・クラーク"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "りとるまーめいど2",
+        "release_year": 2000,
+        "directors": [
+          "ジム・カメラッド"
+        ],
+        "cast": [
+          "ジョディ・ベンソン",
+          "サミュエル・E・ライト",
+          "タラ・ストロング",
+          "パット・キャロル",
+          "バディ・ハケット",
+          "ケネス・マース",
+          "マックス・カセラ",
+          "スティーヴン・ファースト",
+          "ロブ・ポールセン",
+          "クランシー・ブラウン",
+          "カム・クラーク"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ],
+        "synopsis": "海に近づくことを禁じられた元人魚の娘が、自分の名を刻んだ貝を見つけ、隠された秘密を調べに海へ。"
+      },
+      "article_sha256_before": "ea8829ef842c2dab7483c922f46168798825e21c22374052b7e0a73f59471ee2",
+      "article_sha256_after": "02b766539e6f316cfe07c48f88d28ea3cdfb24b42977266b87d3c0dc77ccb75e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "mermaid-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "りとるまーめいど2",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "mermaid-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2000",
+              "date": "",
+              "region": "国外",
+              "kind": "OVAの作品年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジム・カメラッド",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョディ・ベンソン\nサミュエル・E・ライト\nタラ・ストロング\nパット・キャロル\nバディ・ハケット\nケネス・マース\nマックス・カセラ\nスティーヴン・ファースト\nロブ・ポールセン\nクランシー・ブラウン\nカム・クラーク",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-12"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファミリー\nアニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "mermaid-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "海に近づくことを禁じられた元人魚の娘が、自分の名を刻んだ貝を見つけ、隠された秘密を調べに海へ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ウーマン・ハンティング　殺戮の森_2016-03-24.md",
+      "title": "ウーマン・ハンティング　殺戮の森",
+      "review_date": "2016-03-24 00:00:09",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": [
+          "アダルト",
+          "サスペンス",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "うーまんはんてぃんぐさつりくのもり",
+        "release_year": 2011,
+        "directors": [
+          "A.K.G"
+        ],
+        "cast": [
+          "仁科百華",
+          "吉田優華",
+          "岸本尚子"
+        ],
+        "genres": [
+          "アダルト",
+          "サスペンス",
+          "ミステリー"
+        ],
+        "synopsis": "ゲームで借金を抱えた友人を助けようとした弁護士志望の女性が、友人と人間狩りの標的にされる。"
+      },
+      "article_sha256_before": "a7b474c850a452e822e89842d7cf0c952b2eae14b8818e8d355f8239e1fd49f3",
+      "article_sha256_after": "3b2f942e3d5da0148d17e75d72a4d36f3b8a981f93fb1874855e1cb42c7dce7a",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うーまんはんてぃんぐさつりくのもり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "hunting-wowow",
+            "hunting-ktv"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2011",
+              "date": "",
+              "region": "日本",
+              "kind": "製作年候補・ビデオ作品",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-13"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "A.K.G",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-13"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "仁科百華\n吉田優華\n岸本尚子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "hunting-wowow",
+            "hunting-ktv"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アダルト\nサスペンス\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "hunting-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゲームで借金を抱えた友人を助けようとした弁護士志望の女性が、友人と人間狩りの標的にされる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/V／H／S シンドローム_2016-03-04.md",
+      "title": "V/H/S シンドローム",
+      "review_date": "2016-03-04 00:00:21",
+      "metadata_before": {
+        "release_year": 2013,
+        "directors": [
+          "アダム・ウィンガード",
+          "デヴィッド・ブルックナー",
+          "タイ・ウェスト",
+          "グレン・マクエイド",
+          "ジョー・スワンバーグ",
+          "レイディオ・サイレンス"
+        ],
+        "cast": [],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "アダム・ウィンガード",
+          "デヴィッド・ブルックナー",
+          "タイ・ウェスト",
+          "グレン・マクエイド",
+          "ジョー・スワンバーグ",
+          "レイディオ・サイレンス"
+        ],
+        "cast": [
+          "カルビン・リーダー",
+          "レイン・ヒューズ",
+          "ケンタッカー・オードリー",
+          "アダム・ウィンガード",
+          "フランク・スタック",
+          "サイモン・バレット",
+          "ハンナ・フィアマン",
+          "マイク・ドンラン",
+          "ジョー・サイケス",
+          "ドリュー・ソウヤー",
+          "ジョー・スワンバーグ",
+          "ソフィア・タカール",
+          "ケイト・リン・シエル",
+          "ノーマ・C・キノンス",
+          "ドリュー・モーレイン",
+          "グレン・マクエイド",
+          "ヘレン・ロジャース",
+          "ダニエル・カウフマン",
+          "チャド・ビレラ",
+          "マット・ベティネリ",
+          "タイラー・ジレット",
+          "ジャスティン・マルティネス"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぶいえいちえすしんどろーむ",
+        "release_year": 2013,
+        "directors": [
+          "アダム・ウィンガード",
+          "デヴィッド・ブルックナー",
+          "タイ・ウェスト",
+          "グレン・マクエイド",
+          "ジョー・スワンバーグ",
+          "レイディオ・サイレンス"
+        ],
+        "cast": [
+          "カルビン・リーダー",
+          "レイン・ヒューズ",
+          "ケンタッカー・オードリー",
+          "アダム・ウィンガード",
+          "フランク・スタック",
+          "サイモン・バレット",
+          "ハンナ・フィアマン",
+          "マイク・ドンラン",
+          "ジョー・サイケス",
+          "ドリュー・ソウヤー",
+          "ジョー・スワンバーグ",
+          "ソフィア・タカール",
+          "ケイト・リン・シエル",
+          "ノーマ・C・キノンス",
+          "ドリュー・モーレイン",
+          "グレン・マクエイド",
+          "ヘレン・ロジャース",
+          "ダニエル・カウフマン",
+          "チャド・ビレラ",
+          "マット・ベティネリ",
+          "タイラー・ジレット",
+          "ジャスティン・マルティネス"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "テープを盗むよう頼まれた若者たちが、死体のある家で大量のビデオを見つけ、一本ずつ再生すると……。"
+      },
+      "article_sha256_before": "67d46588e2e2fbf0549f3f2910b851186fddaa725971d28e79dc1d3aba59fd54",
+      "article_sha256_after": "776e8f26d9db255dc95606b34700548e5472222d76631b51121884bbc6f453b6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "vhs-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぶいえいちえすしんどろーむ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "vhs-eiga",
+            "vhs-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2013",
+              "date": "",
+              "region": "日本",
+              "kind": "既存の日本劇場公開年を保持",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-14"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アダム・ウィンガード\nデヴィッド・ブルックナー\nタイ・ウェスト\nグレン・マクエイド\nジョー・スワンバーグ\nレイディオ・サイレンス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "vhs-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カルビン・リーダー\nレイン・ヒューズ\nケンタッカー・オードリー\nアダム・ウィンガード\nフランク・スタック\nサイモン・バレット\nハンナ・フィアマン\nマイク・ドンラン\nジョー・サイケス\nドリュー・ソウヤー\nジョー・スワンバーグ\nソフィア・タカール\nケイト・リン・シエル\nノーマ・C・キノンス\nドリュー・モーレイン\nグレン・マクエイド\nヘレン・ロジャース\nダニエル・カウフマン\nチャド・ビレラ\nマット・ベティネリ\nタイラー・ジレット\nジャスティン・マルティネス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-14"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "vhs-wiki",
+            "vhs-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テープを盗むよう頼まれた若者たちが、死体のある家で大量のビデオを見つけ、一本ずつ再生すると……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/監獄島_2016-02-24.md",
+      "title": "監獄島",
+      "review_date": "2016-02-24 00:00:56",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "スコット・ワイパー"
+        ],
+        "cast": [
+          "スティーヴ・オースティン",
+          "ヴィニー・ジョーンズ",
+          "ロバート・マモーネ",
+          "リック・ホフマン",
+          "トーリー・マセット",
+          "マヌー・ベネット",
+          "マデリーン・ウエスト",
+          "クリストファー・ジェームズ・ベイカー",
+          "サマンサ・ヒーリー",
+          "ルーク・ペグラー",
+          "エメリア・バーンズ"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "スコット・ワイパー"
+        ],
+        "cast": [
+          "スティーヴ・オースティン",
+          "ヴィニー・ジョーンズ",
+          "ロバート・マモーネ",
+          "リック・ホフマン",
+          "トーリー・マセット",
+          "マヌー・ベネット",
+          "マデリーン・ウエスト",
+          "クリストファー・ジェームズ・ベイカー",
+          "サマンサ・ヒーリー",
+          "ルーク・ペグラー",
+          "エメリア・バーンズ"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かんごくじま",
+        "release_year": 2009,
+        "directors": [
+          "スコット・ワイパー"
+        ],
+        "cast": [
+          "スティーヴ・オースティン",
+          "ヴィニー・ジョーンズ",
+          "ロバート・マモーネ",
+          "リック・ホフマン",
+          "トーリー・マセット",
+          "マヌー・ベネット",
+          "マデリーン・ウエスト",
+          "クリストファー・ジェームズ・ベイカー",
+          "サマンサ・ヒーリー",
+          "ルーク・ペグラー",
+          "エメリア・バーンズ"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "死刑囚十人が孤島に集められ、生中継される番組の中で、生還を懸けて互いに殺し合うよう命じられる。"
+      },
+      "article_sha256_before": "669bd09b5d2d799eb98542b9a8f575731b7d8012f7189eb77c3fa6a756260c5e",
+      "article_sha256_after": "10c81d90f4cb1c3c9c6e0b9c8b5196b0bb757ab312a49eb6182cfa0623559c8e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "condemned-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かんごくじま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "condemned-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2009",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-15"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スコット・ワイパー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-15"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スティーヴ・オースティン\nヴィニー・ジョーンズ\nロバート・マモーネ\nリック・ホフマン\nトーリー・マセット\nマヌー・ベネット\nマデリーン・ウエスト\nクリストファー・ジェームズ・ベイカー\nサマンサ・ヒーリー\nルーク・ペグラー\nエメリア・バーンズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-15"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "condemned-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "死刑囚十人が孤島に集められ、生中継される番組の中で、生還を懸けて互いに殺し合うよう命じられる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アナコンダ３_2016-02-16.md",
+      "title": "アナコンダ３",
+      "review_date": "2016-02-16 00:00:53",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ドン・E・ファンルロイ"
+        ],
+        "cast": [
+          "デヴィッド・ハッセルホフ",
+          "クリスタル・アレン",
+          "ジョン・リス=デイヴィス",
+          "アンソニー・グリーン",
+          "パトリック・レジス"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ドン・E・ファンルロイ"
+        ],
+        "cast": [
+          "デヴィッド・ハッセルホフ",
+          "クリスタル・アレン",
+          "ジョン・リス=デイヴィス",
+          "アンソニー・グリーン",
+          "パトリック・レジス"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あなこんだ3",
+        "release_year": 2008,
+        "directors": [
+          "ドン・E・ファンルロイ"
+        ],
+        "cast": [
+          "デヴィッド・ハッセルホフ",
+          "クリスタル・アレン",
+          "ジョン・リス=デイヴィス",
+          "アンソニー・グリーン",
+          "パトリック・レジス"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "研究施設から二匹の大蛇が逃げ出し、実験に関わった女性科学者が、ハンターと追跡することに……。"
+      },
+      "article_sha256_before": "9120d7fcff2fd1ff9419e8311b455b1da0f1473cdfc0476cf655202d98fc314c",
+      "article_sha256_after": "3b3dd0d9492e7e340d504820c489a2fc8991d793eb8767ebe86d1ebb09e09d3e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "anaconda-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あなこんだ3",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "anaconda-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2008",
+              "date": "",
+              "region": "米国",
+              "kind": "作品年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドン・E・ファンルロイ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デヴィッド・ハッセルホフ\nクリスタル・アレン\nジョン・リス=デイヴィス\nアンソニー・グリーン\nパトリック・レジス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-16"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "anaconda-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "研究施設から二匹の大蛇が逃げ出し、実験に関わった女性科学者が、ハンターと追跡することに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ダークウォーター 奪われた水の真実_2016-02-08.md",
+      "title": "ダークウォーター 奪われた水の真実",
+      "review_date": "2016-02-08 00:00:56",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ダミアン・リー"
+        ],
+        "cast": [
+          "アンディ・ガルシア",
+          "フォレスト・ウィテカー",
+          "デボラ・カーラ・アンガー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ダミアン・リー"
+        ],
+        "cast": [
+          "アンディ・ガルシア",
+          "フォレスト・ウィテカー",
+          "デボラ・カーラ・アンガー"
+        ],
+        "genres": [
+          "アクション",
+          "ミステリー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "だーくうぉーたーうばわれたみずのしんじつ",
+        "release_year": 2012,
+        "directors": [
+          "ダミアン・リー"
+        ],
+        "cast": [
+          "アンディ・ガルシア",
+          "フォレスト・ウィテカー",
+          "デボラ・カーラ・アンガー"
+        ],
+        "genres": [
+          "アクション",
+          "ミステリー",
+          "サスペンス"
+        ],
+        "synopsis": "南米の村で起きた虐殺への会社の関与を告発したい女性が、元CIAの男に調査を頼み、男は現地へ向かう。"
+      },
+      "article_sha256_before": "0a2502705cdaedb2c0163ee2802313000466193fb4652c12ef4a357ffc67a7d6",
+      "article_sha256_after": "500896fde277ede9974cb00a8908752150161d170f6011b0e2d506c60a157182",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "だーくうぉーたーうばわれたみずのしんじつ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "water-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2012",
+              "date": "",
+              "region": "カナダ",
+              "kind": "作品年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-17"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダミアン・リー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-17"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンディ・ガルシア\nフォレスト・ウィテカー\nデボラ・カーラ・アンガー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "water-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nミステリー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "water-sony"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "南米の村で起きた虐殺への会社の関与を告発したい女性が、元CIAの男に調査を頼み、男は現地へ向かう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/サイレントウェイ_2016-01-28.md",
+      "title": "サイレントウェイ",
+      "review_date": "2016-01-28 00:00:58",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "アントニオ・トラショラス"
+        ],
+        "cast": [
+          "レオノア・ヴァレラ",
+          "アナ・デ・アルマス"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "アントニオ・トラショラス"
+        ],
+        "cast": [
+          "レオノア・ヴァレラ",
+          "アナ・デ・アルマス"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "さいれんとうぇい",
+        "release_year": 2011,
+        "directors": [
+          "アントニオ・トラショラス"
+        ],
+        "cast": [
+          "レオノア・ヴァレラ",
+          "アナ・デ・アルマス"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー",
+          "ホラー"
+        ],
+        "synopsis": "深夜のコインランドリーへ寄ったモデル志望の女性が、話していた青年が連続殺人犯だと気づくと……。"
+      },
+      "article_sha256_before": "f88061ba77f3ed95f0fd2990bfd981fe172d9ccda4d78112b5cdd8a550071f37",
+      "article_sha256_after": "bd857d963296a19023cf000d7a38755f07c093ec8115ba213045a892634f967c",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "silent-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "さいれんとうぇい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "silent-eiga",
+            "silent-wowow",
+            "silent-allcinema"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2011",
+              "date": "",
+              "region": "スペイン／コロンビア",
+              "kind": "要確認：製作2011／作品年2012",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-18"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アントニオ・トラショラス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-18"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "レオノア・ヴァレラ\nアナ・デ・アルマス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "silent-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nミステリー\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "silent-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "深夜のコインランドリーへ寄ったモデル志望の女性が、話していた青年が連続殺人犯だと気づくと……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ボン脳即菩薩_2016-01-20.md",
+      "title": "ボン脳即菩薩",
+      "review_date": "2016-01-20 00:00:41",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "安藤ボン"
+        ],
+        "cast": [
+          "竹内ゆきの",
+          "イチキ游子",
+          "冨田じゅん",
+          "リカヤ・スプナー",
+          "倖田李梨",
+          "春繭",
+          "中田寛美",
+          "長原翔",
+          "五十嵐康陽",
+          "ゆらかわまき",
+          "安藤利秋"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "安藤ボン"
+        ],
+        "cast": [
+          "竹内ゆきの",
+          "イチキ游子",
+          "冨田じゅん",
+          "リカヤ・スプナー",
+          "倖田李梨",
+          "春繭",
+          "中田寛美",
+          "長原翔",
+          "五十嵐康陽",
+          "ゆらかわまき",
+          "安藤利秋"
+        ],
+        "genres": [
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぼんのうそくぼさつ",
+        "release_year": 2013,
+        "directors": [
+          "安藤ボン"
+        ],
+        "cast": [
+          "竹内ゆきの",
+          "イチキ游子",
+          "冨田じゅん",
+          "リカヤ・スプナー",
+          "倖田李梨",
+          "春繭",
+          "中田寛美",
+          "長原翔",
+          "五十嵐康陽",
+          "ゆらかわまき",
+          "安藤利秋"
+        ],
+        "genres": [
+          "コメディ"
+        ],
+        "synopsis": "股間の観音様を人に見せて一家を養う女性のもとに、ある日、見知らぬ霊媒師が訪れる。"
+      },
+      "article_sha256_before": "41c51d2ae6b5adac04431db48d2bfae7433965ed94899aadfb972512ff4f012f",
+      "article_sha256_after": "9b40d6b9b2513d04998fcb96d473543e961524edac2eb57db5bdc6eb2b008658",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "bonno-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぼんのうそくぼさつ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "bonno-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2013",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-19"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "安藤ボン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-19"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "竹内ゆきの\nイチキ游子\n冨田じゅん\nリカヤ・スプナー\n倖田李梨\n春繭\n中田寛美\n長原翔\n五十嵐康陽\nゆらかわまき\n安藤利秋",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "コメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "bonno-jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "股間の観音様を人に見せて一家を養う女性のもとに、ある日、見知らぬ霊媒師が訪れる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/Ｕ.Ｍ.Ａ　レイク・プラシッド　ファイナル_2016-01-16.md",
+      "title": "Ｕ.Ｍ.Ａ　レイク・プラシッド　ファイナル",
+      "review_date": "2016-01-16 00:00:22",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ドン・マイケル・ポール"
+        ],
+        "cast": [
+          "エリザベス・ローム",
+          "ヤンシー・バトラー",
+          "ポール・ニコルズ",
+          "ポピー・リー・フライアー",
+          "ベネディクト・スミス",
+          "キャロライン・フォード",
+          "スカーレット・バーン",
+          "ジェフ・スチュワート",
+          "ロバート・イングランド",
+          "シーウェル・ホイットニー",
+          "エレナ・ボエバ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ドン・マイケル・ポール"
+        ],
+        "cast": [
+          "エリザベス・ローム",
+          "ヤンシー・バトラー",
+          "ポール・ニコルズ",
+          "ポピー・リー・フライアー",
+          "ベネディクト・スミス",
+          "キャロライン・フォード",
+          "スカーレット・バーン",
+          "ジェフ・スチュワート",
+          "ロバート・イングランド",
+          "シーウェル・ホイットニー",
+          "エレナ・ボエバ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ゆーえむえーれいくぷらしっどふぁいなる",
+        "release_year": 2012,
+        "directors": [
+          "ドン・マイケル・ポール"
+        ],
+        "cast": [
+          "エリザベス・ローム",
+          "ヤンシー・バトラー",
+          "ポール・ニコルズ",
+          "ポピー・リー・フライアー",
+          "ベネディクト・スミス",
+          "キャロライン・フォード",
+          "スカーレット・バーン",
+          "ジェフ・スチュワート",
+          "ロバート・イングランド",
+          "シーウェル・ホイットニー",
+          "エレナ・ボエバ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "巨大ワニのいる湖を囲うフェンスの内側へ、保安官の娘を含む高校生たちが、キャンプで入り込んでしまう。"
+      },
+      "article_sha256_before": "9b55efdd5a39bd9c7c9174ac3489319cbd5376ea6788569d72fdcebf6eafa372",
+      "article_sha256_after": "1936b680e5910969fc5e76ce56274d732ac315a37fa0efacad11824dbe721e47",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゆーえむえーれいくぷらしっどふぁいなる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "lake-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2012",
+              "date": "",
+              "region": "米国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-20"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドン・マイケル・ポール",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-20"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エリザベス・ローム\nヤンシー・バトラー\nポール・ニコルズ\nポピー・リー・フライアー\nベネディクト・スミス\nキャロライン・フォード\nスカーレット・バーン\nジェフ・スチュワート\nロバート・イングランド\nシーウェル・ホイットニー\nエレナ・ボエバ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-20"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "lake-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "巨大ワニのいる湖を囲うフェンスの内側へ、保安官の娘を含む高校生たちが、キャンプで入り込んでしまう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/殺人者はライフルを持っている！_2016-01-08.md",
+      "title": "殺人者はライフルを持っている！",
+      "review_date": "2016-01-08 00:00:50",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ピーター・ボグダノヴィッチ"
+        ],
+        "cast": [
+          "ボリス・カーロフ",
+          "ティム・オケリー",
+          "アーサー・ピーターソン",
+          "モンティ・ランディス",
+          "ナンシー・スー",
+          "ピーター・ボグダノヴィッチ",
+          "スタッフォード・モーガン",
+          "ジェームズ・ブラウン",
+          "メアリー・ジャクソン",
+          "ティム・バーンズ",
+          "サンディ・バロン",
+          "ジェラルディン・バロン",
+          "マーク・デニス",
+          "フランク・マーシャル",
+          "マイク・ファレル"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1968,
+        "directors": [
+          "ピーター・ボグダノヴィッチ"
+        ],
+        "cast": [
+          "ボリス・カーロフ",
+          "ティム・オケリー",
+          "アーサー・ピーターソン",
+          "モンティ・ランディス",
+          "ナンシー・スー",
+          "ピーター・ボグダノヴィッチ",
+          "スタッフォード・モーガン",
+          "ジェームズ・ブラウン",
+          "メアリー・ジャクソン",
+          "ティム・バーンズ",
+          "サンディ・バロン",
+          "ジェラルディン・バロン",
+          "マーク・デニス",
+          "フランク・マーシャル",
+          "マイク・ファレル"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "さつじんしゃはらいふるをもっている",
+        "release_year": 1968,
+        "directors": [
+          "ピーター・ボグダノヴィッチ"
+        ],
+        "cast": [
+          "ボリス・カーロフ",
+          "ティム・オケリー",
+          "アーサー・ピーターソン",
+          "モンティ・ランディス",
+          "ナンシー・スー",
+          "ピーター・ボグダノヴィッチ",
+          "スタッフォード・モーガン",
+          "ジェームズ・ブラウン",
+          "メアリー・ジャクソン",
+          "ティム・バーンズ",
+          "サンディ・バロン",
+          "ジェラルディン・バロン",
+          "マーク・デニス",
+          "フランク・マーシャル",
+          "マイク・ファレル"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "引退を決めた怪奇映画の俳優が最後の上映会へ向かう一方、銃を手にした青年が町で人を撃ち始める。"
+      },
+      "article_sha256_before": "f6d1eab2e4df72228e1c5f1b5e7627b4d97dced370fec2ce0cd873085086e8e6",
+      "article_sha256_after": "d1ca6631399d681402afbfb0e1d3213ef085e2a75879ba9eacdee34bb2ec570a",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "targets-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "さつじんしゃはらいふるをもっている",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "targets-kine",
+            "targets-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1968",
+              "date": "",
+              "region": "米国",
+              "kind": "製作年候補・日本劇場未公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ピーター・ボグダノヴィッチ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ボリス・カーロフ\nティム・オケリー\nアーサー・ピーターソン\nモンティ・ランディス\nナンシー・スー\nピーター・ボグダノヴィッチ\nスタッフォード・モーガン\nジェームズ・ブラウン\nメアリー・ジャクソン\nティム・バーンズ\nサンディ・バロン\nジェラルディン・バロン\nマーク・デニス\nフランク・マーシャル\nマイク・ファレル",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-21"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "targets-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "引退を決めた怪奇映画の俳優が最後の上映会へ向かう一方、銃を手にした青年が町で人を撃ち始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ガス人間第一号_2016-01-04.md",
+      "title": "ガス人間第一号",
+      "review_date": "2016-01-04 00:00:39",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "本多猪四郎"
+        ],
+        "cast": [
+          "土屋嘉男",
+          "三橋達也",
+          "八千草薫",
+          "左卜全",
+          "佐多契子",
+          "野村浩三",
+          "伊藤久哉",
+          "佐々木孝丸",
+          "山田圭介",
+          "草間璋夫",
+          "田島義文",
+          "三島耕",
+          "小杉義男",
+          "坪野鎌之",
+          "権藤幸彦",
+          "中村哲",
+          "緒方燐作",
+          "山田巳之助",
+          "熊谷二良",
+          "村上冬樹",
+          "山本廉",
+          "榊田敬二",
+          "広瀬正一",
+          "岡豊",
+          "佐藤功一",
+          "黒田忠彦",
+          "塩沢とき",
+          "松村達雄"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1960,
+        "directors": [
+          "本多猪四郎"
+        ],
+        "cast": [
+          "土屋嘉男",
+          "三橋達也",
+          "八千草薫",
+          "左卜全",
+          "佐多契子",
+          "野村浩三",
+          "伊藤久哉",
+          "佐々木孝丸",
+          "山田圭介",
+          "草間璋夫",
+          "田島義文",
+          "三島耕",
+          "小杉義男",
+          "坪野鎌之",
+          "権藤幸彦",
+          "中村哲",
+          "緒方燐作",
+          "山田巳之助",
+          "熊谷二良",
+          "村上冬樹",
+          "山本廉",
+          "榊田敬二",
+          "広瀬正一",
+          "岡豊",
+          "佐藤功一",
+          "黒田忠彦",
+          "塩沢とき",
+          "松村達雄"
+        ],
+        "genres": [
+          "ホラー",
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "がすにんげんだいいちごう",
+        "release_year": 1960,
+        "directors": [
+          "本多猪四郎"
+        ],
+        "cast": [
+          "土屋嘉男",
+          "三橋達也",
+          "八千草薫",
+          "左卜全",
+          "佐多契子",
+          "野村浩三",
+          "伊藤久哉",
+          "佐々木孝丸",
+          "山田圭介",
+          "草間璋夫",
+          "田島義文",
+          "三島耕",
+          "小杉義男",
+          "坪野鎌之",
+          "権藤幸彦",
+          "中村哲",
+          "緒方燐作",
+          "山田巳之助",
+          "熊谷二良",
+          "村上冬樹",
+          "山本廉",
+          "榊田敬二",
+          "広瀬正一",
+          "岡豊",
+          "佐藤功一",
+          "黒田忠彦",
+          "塩沢とき",
+          "松村達雄"
+        ],
+        "genres": [
+          "ホラー",
+          "SF"
+        ],
+        "synopsis": "銀行強盗を調べる刑事の捜査線上に舞踊家が浮かび、身体をガスに変えられる男との関係が見え始める。"
+      },
+      "article_sha256_before": "cccb4a311133a039feb40bd117b5f3238a9ab0bc65e8e28d936a084333b4f80d",
+      "article_sha256_after": "f4ede8910219f94d253bbc79d73fa13b29df2de8e28c6a43f28e492ce009e736",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "gas-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "がすにんげんだいいちごう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "gas-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1960",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-22"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "本多猪四郎",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-22"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "土屋嘉男\n三橋達也\n八千草薫\n左卜全\n佐多契子\n野村浩三\n伊藤久哉\n佐々木孝丸\n山田圭介\n草間璋夫\n田島義文\n三島耕\n小杉義男\n坪野鎌之\n権藤幸彦\n中村哲\n緒方燐作\n山田巳之助\n熊谷二良\n村上冬樹\n山本廉\n榊田敬二\n広瀬正一\n岡豊\n佐藤功一\n黒田忠彦\n塩沢とき\n松村達雄",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "gas-kine"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nSF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "gas-netflix"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "銀行強盗を調べる刑事の捜査線上に舞踊家が浮かび、身体をガスに変えられる男との関係が見え始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/タワー・オブ・ザ・デッド_2015-12-28.md",
+      "title": "タワー・オブ・ザ・デッド",
+      "review_date": "2015-12-28 00:00:03",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョージ・メンデラック"
+        ],
+        "cast": [
+          "ジェイソン・ロンドン",
+          "アリシア・リー・ウィリス",
+          "ジャド・ネルソン",
+          "ロバート・キャラダイン",
+          "ロックリン・マンロー",
+          "サラ・レイン",
+          "C・トーマス・ハウエル"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "ジョージ・メンデラック"
+        ],
+        "cast": [
+          "ジェイソン・ロンドン",
+          "アリシア・リー・ウィリス",
+          "ジャド・ネルソン",
+          "ロバート・キャラダイン",
+          "ロックリン・マンロー",
+          "サラ・レイン",
+          "C・トーマス・ハウエル"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "たわーおぶざでっど",
+        "release_year": 2010,
+        "directors": [
+          "ジョージ・メンデラック"
+        ],
+        "cast": [
+          "ジェイソン・ロンドン",
+          "アリシア・リー・ウィリス",
+          "ジャド・ネルソン",
+          "ロバート・キャラダイン",
+          "ロックリン・マンロー",
+          "サラ・レイン",
+          "C・トーマス・ハウエル"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "政府のビルで爆弾が人を凶暴にするウイルスをまき散らし、閉じ込められた生存者たちが出口を探す。"
+      },
+      "article_sha256_before": "ced9de058f819e4edf0ff8b6fd9e2ef5e1a1c87d5e3f5f6ee7468cd717ec3171",
+      "article_sha256_after": "b9ce0d1a857ed929c57c748e4e08cb8231bb41af47ca7499f446f097c7c66eaa",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "tower-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "たわーおぶざでっど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "tower-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2010",
+              "date": "",
+              "region": "米国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-23"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョージ・メンデラック",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-23"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイソン・ロンドン\nアリシア・リー・ウィリス\nジャド・ネルソン\nロバート・キャラダイン\nロックリン・マンロー\nサラ・レイン\nC・トーマス・ハウエル",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-23"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "tower-plex"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "政府のビルで爆弾が人を凶暴にするウイルスをまき散らし、閉じ込められた生存者たちが出口を探す。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アイアンマン ライズ・オブ・テクノヴォア_2015-12-20.md",
+      "title": "アイアンマン ライズ・オブ・テクノヴォア",
+      "review_date": "2015-12-20 00:00:24",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "浜崎博嗣"
+        ],
+        "cast": [
+          "藤原啓治",
+          "入野自由",
+          "手塚秀彰",
+          "沢城みゆき",
+          "玄田哲章"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "浜崎博嗣"
+        ],
+        "cast": [
+          "藤原啓治",
+          "入野自由",
+          "手塚秀彰",
+          "沢城みゆき",
+          "玄田哲章"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あいあんまんらいずおぶてくのゔぉあ",
+        "release_year": 2013,
+        "directors": [
+          "浜崎博嗣"
+        ],
+        "cast": [
+          "藤原啓治",
+          "入野自由",
+          "手塚秀彰",
+          "沢城みゆき",
+          "玄田哲章"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "監視衛星を襲う敵との戦いで仲間が倒れ、追跡を始めたアイアンマンは味方の組織にも追われることに……。"
+      },
+      "article_sha256_before": "9769ce78de429639392a1c602fbac5054ce02e496e310d060065c1f1a1ef5aa9",
+      "article_sha256_after": "fa5a9e0cfbf995ee78931d8e56ce2964d9a9258e936d54ff7441c1a9c711e911",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "ironman-madhouse",
+            "ironman-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あいあんまんらいずおぶてくのゔぉあ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "ironman-wiki",
+            "ironman-madhouse"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2013",
+              "date": "",
+              "region": "日本",
+              "kind": "OVAの作品年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "浜崎博嗣",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "藤原啓治\n入野自由\n手塚秀彰\n沢城みゆき\n玄田哲章",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-24"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "ironman-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "監視衛星を襲う敵との戦いで仲間が倒れ、追跡を始めたアイアンマンは味方の組織にも追われることに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/血のバレンタイン_2015-12-16.md",
+      "title": "血のバレンタイン",
+      "review_date": "2015-12-16 00:00:58",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョージ・ミハルカ"
+        ],
+        "cast": [
+          "ポール・ケルマン",
+          "ロリ・ハリアー",
+          "シンシア・デイル",
+          "ニール・アフレック"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1981,
+        "directors": [
+          "ジョージ・ミハルカ"
+        ],
+        "cast": [
+          "ポール・ケルマン",
+          "ロリ・ハリアー",
+          "シンシア・デイル",
+          "ニール・アフレック"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ちのばれんたいん",
+        "release_year": 1981,
+        "directors": [
+          "ジョージ・ミハルカ"
+        ],
+        "cast": [
+          "ポール・ケルマン",
+          "ロリ・ハリアー",
+          "シンシア・デイル",
+          "ニール・アフレック"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "炭鉱事故と殺人事件から二十年、町でバレンタインの祝いが復活すると、再び殺人が起こり始める。"
+      },
+      "article_sha256_before": "ced500c194cb10ca0aa50fde0a0482b204f5b49f29cbe4ad061db9fb37df6edb",
+      "article_sha256_after": "10d4b720638cba2ab863cc97a6048cfd47c5b64670e536cb642db89acf5c12c6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "valentine-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちのばれんたいん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "valentine-eiga",
+            "valentine-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1981",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョージ・ミハルカ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ポール・ケルマン\nロリ・ハリアー\nシンシア・デイル\nニール・アフレック",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-25"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "valentine-wiki",
+            "valentine-eiga"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "炭鉱事故と殺人事件から二十年、町でバレンタインの祝いが復活すると、再び殺人が起こり始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アントブリー_2015-12-04.md",
+      "title": "アントブリー",
+      "review_date": "2015-12-04 00:00:13",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョン・A・デイヴィス"
+        ],
+        "cast": [
+          "ジュリア・ロバーツ",
+          "ニコラス・ケイジ",
+          "メリル・ストリープ",
+          "ポール・ジアマッティ",
+          "ザック・タイラー",
+          "レジーナ・キング",
+          "ブルース・キャンベル",
+          "リリー・トムリン",
+          "チェリ・オテリ",
+          "ラリー・ミラー"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "ジョン・A・デイヴィス"
+        ],
+        "cast": [
+          "ジュリア・ロバーツ",
+          "ニコラス・ケイジ",
+          "メリル・ストリープ",
+          "ポール・ジアマッティ",
+          "ザック・タイラー",
+          "レジーナ・キング",
+          "ブルース・キャンベル",
+          "リリー・トムリン",
+          "チェリ・オテリ",
+          "ラリー・ミラー"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あんとぶりー",
+        "release_year": 2006,
+        "directors": [
+          "ジョン・A・デイヴィス"
+        ],
+        "cast": [
+          "ジュリア・ロバーツ",
+          "ニコラス・ケイジ",
+          "メリル・ストリープ",
+          "ポール・ジアマッティ",
+          "ザック・タイラー",
+          "レジーナ・キング",
+          "ブルース・キャンベル",
+          "リリー・トムリン",
+          "チェリ・オテリ",
+          "ラリー・ミラー"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ],
+        "synopsis": "いじめの腹いせにアリをいじめていた少年が、アリの魔法で小さくされ、巣の中で暮らすことに……。"
+      },
+      "article_sha256_before": "9e79f588dd943fdf0e650fc9e98ed467d2595b24cb2b46198228da373b429577",
+      "article_sha256_after": "3ea846af6b4e13f69a19619ce2768181f4786765b854abc2f12fe4d3639f38b6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "ant-cinematoday"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あんとぶりー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "ant-cinematoday"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2006",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-26"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・A・デイヴィス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-26"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジュリア・ロバーツ\nニコラス・ケイジ\nメリル・ストリープ\nポール・ジアマッティ\nザック・タイラー\nレジーナ・キング\nブルース・キャンベル\nリリー・トムリン\nチェリ・オテリ\nラリー・ミラー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-26"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファミリー\nアニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "ant-cinematoday"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いじめの腹いせにアリをいじめていた少年が、アリの魔法で小さくされ、巣の中で暮らすことに……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ガンマー第3号 宇宙大作戦_2015-11-24.md",
+      "title": "ガンマー第3号 宇宙大作戦",
+      "review_date": "2015-11-24 00:00:17",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "深作欣二",
+          "田口勝彦"
+        ],
+        "cast": [
+          "ロバート・ホートン",
+          "リチャード・ジャッケル",
+          "ルチアナ・パルッツィ",
+          "バッド・ウィダム",
+          "ロバート・ダンハム",
+          "テッド・ガンサー",
+          "キャッシー・ホーラン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1968,
+        "directors": [
+          "深作欣二",
+          "田口勝彦"
+        ],
+        "cast": [
+          "ロバート・ホートン",
+          "リチャード・ジャッケル",
+          "ルチアナ・パルッツィ",
+          "バッド・ウィダム",
+          "ロバート・ダンハム",
+          "テッド・ガンサー",
+          "キャッシー・ホーラン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "がんまーだい3ごううちゅうだいさくせん",
+        "release_year": 1968,
+        "directors": [
+          "深作欣二",
+          "田口勝彦"
+        ],
+        "cast": [
+          "ロバート・ホートン",
+          "リチャード・ジャッケル",
+          "ルチアナ・パルッツィ",
+          "バッド・ウィダム",
+          "ロバート・ダンハム",
+          "テッド・ガンサー",
+          "キャッシー・ホーラン"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "地球に迫る天体を爆破した隊員たちが宇宙基地へ帰還すると、船に付着した生物が基地の中で育ち始める。"
+      },
+      "article_sha256_before": "a9ea67c88e6da4426386c7e62c9560e6651ddc4f2285ab16f0afe6a03b0d4a22",
+      "article_sha256_after": "8ed5e28ca1baa27a9c87171ebb434b0895a4b8e27546cf904f9775af45b4b18c",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "gamma-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "がんまーだい3ごううちゅうだいさくせん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "gamma-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "1968",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "深作欣二\n田口勝彦",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロバート・ホートン\nリチャード・ジャッケル\nルチアナ・パルッツィ\nバッド・ウィダム\nロバート・ダンハム\nテッド・ガンサー\nキャッシー・ホーラン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-27"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "gamma-wiki"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "地球に迫る天体を爆破した隊員たちが宇宙基地へ帰還すると、船に付着した生物が基地の中で育ち始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ザ・チャイルド　悪魔の起源_2015-11-08.md",
+      "title": "ザ・チャイルド　悪魔の起源",
+      "review_date": "2015-11-08 00:00:52",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョエル・ソワソン"
+        ],
+        "cast": [
+          "ビリー・ドラゴ",
+          "バルバラ・ネデルヤコーヴァ",
+          "ケレン・コールマン",
+          "ティム・ロック"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ジョエル・ソワソン"
+        ],
+        "cast": [
+          "ビリー・ドラゴ",
+          "バルバラ・ネデルヤコーヴァ",
+          "ケレン・コールマン",
+          "ティム・ロック"
+        ],
+        "genres": [
+          "ホラー",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざちゃいるどあくまのきげん",
+        "release_year": 2012,
+        "directors": [
+          "ジョエル・ソワソン"
+        ],
+        "cast": [
+          "ビリー・ドラゴ",
+          "バルバラ・ネデルヤコーヴァ",
+          "ケレン・コールマン",
+          "ティム・ロック"
+        ],
+        "genres": [
+          "ホラー",
+          "スリラー"
+        ],
+        "synopsis": "砂漠で車が故障した夫婦が民家に泊めてもらい、妊娠中の妻が夜中に納屋の子供に気づくと……。"
+      },
+      "article_sha256_before": "07c64cfe13b9d67d112230026e6334407177e7c592b5d95dcf1e61fda4a9b7ae",
+      "article_sha256_after": "8c4ae2f680637735baaac8fdd6845786823c8396e5e679f84cef2ab8e16d1a59",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざちゃいるどあくまのきげん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "child-eiga",
+            "child-wowow"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2012",
+              "date": "",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-28"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョエル・ソワソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-28"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ビリー・ドラゴ\nバルバラ・ネデルヤコーヴァ\nケレン・コールマン\nティム・ロック",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "child-wowow",
+            "child-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "child-wowow",
+            "child-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "砂漠で車が故障した夫婦が民家に泊めてもらい、妊娠中の妻が夜中に納屋の子供に気づくと……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アラン-阿娘-_2015-10-24.md",
+      "title": "アラン-阿娘-",
+      "review_date": "2015-10-24 00:00:58",
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "アン・サンフン"
+        ],
+        "cast": [
+          "ソン・ユナ",
+          "イ・ドンウク",
+          "イ・ジョンス",
+          "チュ・サンウク",
+          "イム・ジュファン"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "アン・サンフン"
+        ],
+        "cast": [
+          "ソン・ユナ",
+          "イ・ドンウク",
+          "イ・ジョンス",
+          "チュ・サンウク",
+          "イム・ジュファン"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あらん",
+        "release_year": 2006,
+        "directors": [
+          "アン・サンフン"
+        ],
+        "cast": [
+          "ソン・ユナ",
+          "イ・ドンウク",
+          "イ・ジョンス",
+          "チュ・サンウク",
+          "イム・ジュファン"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ],
+        "synopsis": "女性刑事が新人の相棒と殺人事件を調べるうち、十年前に死んだ少女とのつながりを知り、悪夢を見るように。"
+      },
+      "article_sha256_before": "416aabb744889296de8ca07d0ee3339bebdbe8c687e7d19e3a01475a09261da0",
+      "article_sha256_after": "872b72e89140661f0ad19aa69c24fabaf65a7c9c1f1fa0b3e7c13c6dee12be3a",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あらん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "aran-filmarks"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2006",
+              "date": "",
+              "region": "韓国",
+              "kind": "製作年候補・日本公開年未確認",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-29"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アン・サンフン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "existing-29"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ソン・ユナ\nイ・ドンウク\nイ・ジョンス\nチュ・サンウク\nイム・ジュファン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "aran-eirin"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "aran-eirin",
+            "aran-apple"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "女性刑事が新人の相棒と殺人事件を調べるうち、十年前に死んだ少女とのつながりを知り、悪夢を見るように。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ルイスと未来泥棒_2015-10-21.md",
+      "title": "ルイスと未来泥棒",
+      "review_date": "2015-10-21 00:00:04",
+      "metadata_before": {
+        "release_year": 2007,
+        "directors": [
+          "スティーヴン・J・アンダーソン"
+        ],
+        "cast": [],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "スティーヴン・J・アンダーソン"
+        ],
+        "cast": [
+          "ダニエル・ハンセン",
+          "ジョーダン・フライ",
+          "ウェズリー・シンガーマン",
+          "スティーブン・ジョン・アンダーソン",
+          "マシュー・ヨーステン",
+          "トム・ケニー",
+          "ローリー・メトカーフ",
+          "トレイシー・ミラー・ザーニーク",
+          "ハーランド・ウィリアムズ",
+          "ニコール・サリヴァン",
+          "オーリアン・レッドソン",
+          "トム・セレック",
+          "イーサン・サンドラー",
+          "アンジェラ・バセット"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "るいすとみらいどろぼう",
+        "release_year": 2007,
+        "directors": [
+          "スティーヴン・J・アンダーソン"
+        ],
+        "cast": [
+          "ダニエル・ハンセン",
+          "ジョーダン・フライ",
+          "ウェズリー・シンガーマン",
+          "スティーブン・ジョン・アンダーソン",
+          "マシュー・ヨーステン",
+          "トム・ケニー",
+          "ローリー・メトカーフ",
+          "トレイシー・ミラー・ザーニーク",
+          "ハーランド・ウィリアムズ",
+          "ニコール・サリヴァン",
+          "オーリアン・レッドソン",
+          "トム・セレック",
+          "イーサン・サンドラー",
+          "アンジェラ・バセット"
+        ],
+        "genres": [
+          "ファミリー",
+          "アニメ"
+        ],
+        "synopsis": "発明を盗まれた施設育ちの少年が、突然現れた少年に誘われ、見知らぬ未来の世界へ足を踏み入れる。"
+      },
+      "article_sha256_before": "94b2b743d9103f1a05d753554e6baa0bef6213cdb04e2a26596564daaf505cd7",
+      "article_sha256_after": "ae6be87b9ef9a197b33a34dfadf999e9d2b1119d9f6840d7efbdcb5e9650691e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "lewis-natalie"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "るいすとみらいどろぼう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "lewis-natalie",
+            "lewis-disney"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "year": "2007",
+              "date": "",
+              "region": "日本",
+              "kind": "既存の日本劇場公開年を保持",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "existing-30"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スティーヴン・J・アンダーソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "lewis-disney"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダニエル・ハンセン\nジョーダン・フライ\nウェズリー・シンガーマン\nスティーブン・ジョン・アンダーソン\nマシュー・ヨーステン\nトム・ケニー\nローリー・メトカーフ\nトレイシー・ミラー・ザーニーク\nハーランド・ウィリアムズ\nニコール・サリヴァン\nオーリアン・レッドソン\nトム・セレック\nイーサン・サンドラー\nアンジェラ・バセット",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "existing-30"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファミリー\nアニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "lewis-disney"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "発明を盗まれた施設育ちの少年が、突然現れた少年に誘われ、見知らぬ未来の世界へ足を踏み入れる。",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "hansel-eiga",
+      "title": "映画.com：ヘンゼル＆グレーテル",
+      "url": "https://eiga.com/movie/57485/",
+      "retrieval_ref": "turn87search1",
+      "checked_facts": [
+        "製作2013年・米国",
+        "トミー・ウィルコラ監督",
+        "幼少時に魔女を倒した兄妹が魔女狩りを仕事にする",
+        "子供の誘拐が続く村から依頼"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hansel-wowow",
+      "title": "WOWOW：ヘンゼル＆グレーテル",
+      "url": "https://www.wowow.co.jp/detail/103111",
+      "retrieval_ref": "turn87search7",
+      "checked_facts": [
+        "製作2013年",
+        "アクション／冒険・SF／ファンタジー",
+        "兄妹は子供の失踪を調査"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "zcity-official",
+      "title": "エクリプス公式：ゾンビズ・シティ",
+      "url": "https://eclipse-movie.co.jp/title/descendents.html",
+      "retrieval_ref": "turn87search2",
+      "checked_facts": [
+        "正式なカタカナ題名",
+        "製作2008年・チリ",
+        "ゾンビホラー",
+        "母が感染した少女が海へ向かう",
+        "少女は感染しない子供たちと出会う"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "express-allcinema",
+      "title": "allcinema：ゾンビ特急 地獄行",
+      "url": "https://www.allcinema.net/cinema/13359",
+      "retrieval_ref": "turn96view2",
+      "checked_facts": [
+        "1972年",
+        "ホラー／パニック",
+        "劇場未公開・ビデオ発売",
+        "別題の表記を確認",
+        "既存監督・主要キャストに対応"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "express-wiki",
+      "title": "Wikipedia：Horror Express",
+      "url": "https://en.wikipedia.org/wiki/Horror_Express",
+      "retrieval_ref": "turn101view3",
+      "checked_facts": [
+        "1972年映画祭上映",
+        "エウヘニオ・マルティン監督",
+        "学者が氷漬けの類人猿を列車で運ぶ",
+        "列車内で死者が出る",
+        "金星怪人や別の列車映画ではない"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hunting-wowow",
+      "title": "WOWOW：ウーマン・ハンティング 殺戮の森",
+      "url": "https://www.wowow.co.jp/detail/103802",
+      "retrieval_ref": "turn95search2",
+      "checked_facts": [
+        "製作2011年・日本",
+        "アダルト",
+        "A.K.G監督",
+        "携帯ゲームで借金を作った女性",
+        "相談を受けた弁護士志望の友人も人間狩りの対象になる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "hunting-ktv",
+      "title": "カンテレドーガ：ウーマン・ハンティング 殺戮の森",
+      "url": "https://ktv-smart.jp/store/series.php?id=226279",
+      "retrieval_ref": "turn95search4",
+      "checked_facts": [
+        "2011年作品",
+        "A.K.G監督",
+        "サスペンス映画・ミステリー映画",
+        "エロス・官能映画"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "zontar-allcinema",
+      "title": "allcinema：金星怪人ゾンターの襲撃",
+      "url": "https://www.allcinema.net/cinema/6116",
+      "retrieval_ref": "turn95view2",
+      "checked_facts": [
+        "作品年1966年",
+        "SF／ホラー",
+        "劇場未公開・TV放映",
+        "ラリー・ブキャナン監督",
+        "既存5人のキャストと同じ作品"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "zontar-filmarks",
+      "title": "Filmarks：ゾンター 金星からの物体X／金星怪人ゾンターの襲撃",
+      "url": "https://filmarks.com/movies/47356",
+      "retrieval_ref": "turn99search1",
+      "checked_facts": [
+        "製作1966年",
+        "既存監督・キャスト5名が一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "zontar-wiki",
+      "title": "Wikipedia：Zontar, the Thing from Venus",
+      "url": "https://en.wikipedia.org/wiki/Zontar,_the_Thing_from_Venus",
+      "retrieval_ref": "turn100view0",
+      "checked_facts": [
+        "テレビ初放送1967年12月",
+        "科学者が金星の生命体と交信",
+        "生命体は地球へ到来し人間を操る",
+        "監督と主要キャストが一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "stepfather-sony",
+      "title": "ソニー・ピクチャーズ公式：ステップファーザー 殺人鬼の棲む家",
+      "url": "https://www.sonypictures.jp/he/837960",
+      "retrieval_ref": "turn96search0",
+      "checked_facts": [
+        "2009年・米国",
+        "ミステリー・サスペンス",
+        "ネルソン・マコーミック監督",
+        "士官学校から帰った青年の母に新しい恋人",
+        "青年は継父になる男の振る舞いを疑う"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "island-eiga",
+      "title": "映画.com：猟奇島",
+      "url": "https://eiga.com/movie/64497/",
+      "retrieval_ref": "turn99search2",
+      "checked_facts": [
+        "日本公開1933年8月",
+        "製作1932年・米国",
+        "既存の共同監督2名と主演が一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "island-apple",
+      "title": "Apple TV：猟奇島",
+      "url": "https://tv.apple.com/jp/movie/猟奇島/umc.cmc.4t4sxlc5cjuskn3eegnrojajl",
+      "retrieval_ref": "turn99search3",
+      "checked_facts": [
+        "1932年の作品",
+        "アドベンチャー／スリラー",
+        "難破した男が孤島へ到着",
+        "島の住人は人間を狩る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "plumber-wiki",
+      "title": "Wikipedia：ザ・プラマー／恐怖の訪問者",
+      "url": "https://ja.wikipedia.org/wiki/ザ・プラマー/恐怖の訪問者",
+      "retrieval_ref": "turn95view0",
+      "checked_facts": [
+        "題名の読みを明記",
+        "1979年豪州TV映画・初放送",
+        "日本劇場未公開",
+        "修理に来る配管工が水回りを壊す",
+        "主婦が配管工の嫌がらせに悩む"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "plumber-allcinema",
+      "title": "allcinema：ザ・プラマー 恐怖の訪問者",
+      "url": "https://www.allcinema.net/cinema/pdf/9016",
+      "retrieval_ref": "turn88search7",
+      "checked_facts": [
+        "作品年1980年",
+        "豪州",
+        "既存監督とキャストに対応",
+        "Wikipediaの1979年と差がある"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "sushi-wiki",
+      "title": "Wikipedia：SUSHI GIRL",
+      "url": "https://ja.wikipedia.org/wiki/SUSHI_GIRL",
+      "retrieval_ref": "turn94view0",
+      "checked_facts": [
+        "スシガールと読みを明記",
+        "2012年",
+        "犯罪・スリラー",
+        "服役を終えた男が強盗仲間の食事会へ",
+        "女体盛りの寿司",
+        "強盗で奪ったダイヤモンドの行方を問われる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "twilight-kine",
+      "title": "KINENOTE：支配者の黄昏 TWILIGHT OF THE DARK MASTER",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=52499",
+      "retrieval_ref": "turn89search2",
+      "checked_facts": [
+        "題名全体の読みを明記",
+        "製作1998年・日本",
+        "劇場未公開のOVA",
+        "アクション",
+        "新房昭之監督",
+        "近未来の新宿で人間が鬼に食い殺される",
+        "守護者でもある私立探偵が依頼を受ける"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "mirror-apple",
+      "title": "Apple TV：Mirror 鏡の中",
+      "url": "https://tv.apple.com/jp/movie/mirror-鏡の中/umc.cmc.61quyowr0oogt8y6zdwxwjs6h",
+      "retrieval_ref": "turn89search5",
+      "checked_facts": [
+        "リリース2003年・韓国",
+        "ホラー",
+        "火災から1年後に再開するデパート",
+        "従業員の不可解な死",
+        "元刑事の警備責任者が調べる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "mermaid-wiki",
+      "title": "Wikipedia：リトル・マーメイドII Return to The Sea",
+      "url": "https://ja.wikipedia.org/wiki/リトル・マーメイドII_Return_to_The_Sea",
+      "retrieval_ref": "turn102view2",
+      "checked_facts": [
+        "リトル・マーメイドツーと読みを明記",
+        "2000年のOVA",
+        "ジム・カマラッド監督",
+        "元人魚の母と人間の父の娘",
+        "娘は海に近づくことを禁じられる",
+        "名前入りのロケットを見つけ秘密を調べに出る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "vhs-wiki",
+      "title": "Wikipedia：V/H/S シンドローム",
+      "url": "https://ja.wikipedia.org/wiki/V/H/S_シンドローム",
+      "retrieval_ref": "turn102view0",
+      "checked_facts": [
+        "ブイ・エイチ・エス シンドロームと読みを明記",
+        "日本公開2013年・製作2012年",
+        "ホラー・アンソロジー",
+        "若者4人がテープを盗む依頼を受ける",
+        "家に死体と多くのビデオテープ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "vhs-eiga",
+      "title": "映画.com：V/H/S シンドローム",
+      "url": "https://eiga.com/movie/78051/",
+      "retrieval_ref": "turn96view0",
+      "checked_facts": [
+        "日本公開2013年7月13日",
+        "製作2012年",
+        "スタッフ・キャスト欄の出演者22名を掲載順で取得",
+        "監督6組",
+        "死体のある家で依頼のテープを探して再生する"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "condemned-natalie",
+      "title": "映画ナタリー：監獄島",
+      "url": "https://natalie.mu/eiga/film/150977",
+      "retrieval_ref": "turn96search2",
+      "checked_facts": [
+        "カンゴクジマと読みを明記",
+        "日本公開2009年・製作2007年",
+        "アクション",
+        "死刑囚10人が孤島で殺し合う番組",
+        "インターネットで生中継"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anaconda-sony",
+      "title": "ソニー・ピクチャーズ公式：アナコンダ3",
+      "url": "https://www.sonypictures.jp/he/855039",
+      "retrieval_ref": "turn90search7",
+      "checked_facts": [
+        "カタカナと数字の正式題名",
+        "2008年・米国",
+        "アクション／ホラー／パニック",
+        "既存監督・主要キャストが一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "anaconda-eiga",
+      "title": "映画.com：アナコンダ3",
+      "url": "https://eiga.com/movie/54578/",
+      "retrieval_ref": "turn90search8",
+      "checked_facts": [
+        "研究施設から二匹の大蛇が逃げる",
+        "科学者アマンダがハンターと大蛇を追う"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "water-sony",
+      "title": "ソニー・ピクチャーズ公式：ダークウォーター 奪われた水の真実",
+      "url": "https://www.sonypictures.jp/he/1147760",
+      "retrieval_ref": "turn97search0",
+      "checked_facts": [
+        "2012年・カナダ",
+        "アクション／ミステリー・サスペンス",
+        "元CIAの男がラジオ番組の仕事をしている",
+        "大企業の女性役員が村の虐殺に関する告発を頼む",
+        "男が南米へ向かう"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "silent-eiga",
+      "title": "映画.com：サイレント・ウェイ",
+      "url": "https://secure.eiga.com/movie/82296/",
+      "retrieval_ref": "turn97view0",
+      "checked_facts": [
+        "カタカナ題名",
+        "製作2011年・スペイン／コロンビア",
+        "監督と既存出演者が一致",
+        "紹介文なし"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "silent-wowow",
+      "title": "WOWOW：サイレント・ウェイ",
+      "url": "https://www.wowow.co.jp/detail/104334",
+      "retrieval_ref": "turn101search0",
+      "checked_facts": [
+        "製作2011年",
+        "サスペンス／ミステリー・ホラー",
+        "モデル志望でホテルに勤める女性",
+        "深夜にコインランドリーへ寄る",
+        "そこで会った青年が連続殺人犯と気づく"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "silent-allcinema",
+      "title": "allcinema：サイレント・ウェイ",
+      "url": "https://www.allcinema.net/cinema/pdf/344681",
+      "retrieval_ref": "turn101search8",
+      "checked_facts": [
+        "作品年2012年",
+        "ホラー／サスペンス",
+        "劇場未公開",
+        "2011年と異なる年を記載"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "bonno-jfdb",
+      "title": "JFDB：ボン脳即菩薩",
+      "url": "https://jfdb.jp/title/3926",
+      "retrieval_ref": "turn98view1",
+      "checked_facts": [
+        "映画のローマ字表記Bonnosokubosatsu",
+        "日本公開2013年10月5日",
+        "安藤ボン監督",
+        "劇映画は媒体分類",
+        "股間に観音様を宿す女性が一家を養う",
+        "謎の霊媒師が現れる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "lake-eiga",
+      "title": "映画.com：U.M.A レイク・プラシッド ファイナル",
+      "url": "https://eiga.com/movie/83845/",
+      "retrieval_ref": "turn100search2",
+      "checked_facts": [
+        "製作2012年",
+        "湖をフェンスで隔離して巨大ワニを保護",
+        "高校生が立ち入り禁止区域へ",
+        "女性保安官の娘も同行している"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "targets-kine",
+      "title": "KINENOTE：殺人者はライフルを持っている！",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=47404",
+      "retrieval_ref": "turn91search8",
+      "checked_facts": [
+        "題名の読みを明記",
+        "製作1968年・米国",
+        "劇場未公開",
+        "サスペンス・ミステリー",
+        "既存監督・主演が一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "targets-wowow",
+      "title": "WOWOW：殺人者はライフルを持っている！",
+      "url": "https://www.wowow.co.jp/detail/002249",
+      "retrieval_ref": "turn91search9",
+      "checked_facts": [
+        "1968年",
+        "引退する怪奇映画俳優が最後の上映会へ向かう",
+        "別の青年が銃で人を撃つ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "gas-kine",
+      "title": "KINENOTE：ガス人間第一号",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=23318",
+      "retrieval_ref": "turn92search0",
+      "checked_facts": [
+        "がすにんげんだいいちごう",
+        "日本公開1960年・製作1960年",
+        "ホラー／SF",
+        "本多猪四郎監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "gas-netflix",
+      "title": "Netflix：ガス人間第1号",
+      "url": "https://www.netflix.com/jp/title/81318417",
+      "retrieval_ref": "turn92search8",
+      "checked_facts": [
+        "銀行強盗が続く",
+        "日本舞踊の家元が捜査線上に浮かぶ",
+        "身体をガスに変えられる男との関係"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "tower-eiga",
+      "title": "映画.com：タワー・オブ・ザ・デッド",
+      "url": "https://eiga.com/movie/83364/",
+      "retrieval_ref": "turn97view1",
+      "checked_facts": [
+        "カタカナ題名",
+        "製作2010年・米国",
+        "ジョージ・メンデラックス監督",
+        "紹介文なし"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "tower-plex",
+      "title": "Plex：タワー・オブ・ザ・デッド",
+      "url": "https://watch.plex.tv/ja/movie/fight-or-flight-2010",
+      "retrieval_ref": "turn101search4",
+      "checked_facts": [
+        "連邦政府のビルで爆発",
+        "人間を凶暴にするウイルスがビル内へ",
+        "出口を封鎖され生き残った人々が脱出を図る",
+        "同じ監督の2010年作品"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "ironman-madhouse",
+      "title": "マッドハウス公式：アイアンマン ライズ・オブ・テクノヴォア",
+      "url": "https://madhouse.co.jp/works/ova_ironman/",
+      "retrieval_ref": "turn97view2",
+      "checked_facts": [
+        "正式なカタカナ題名",
+        "浜崎博嗣監督のOVA"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "ironman-wiki",
+      "title": "Wikipedia：Iron Man: Rise of Technovore",
+      "url": "https://en.wikipedia.org/wiki/Iron_Man:_Rise_of_Technovore",
+      "retrieval_ref": "turn100view2",
+      "checked_facts": [
+        "2013年の日本のアニメ作品",
+        "映画のローマ字表記を掲載",
+        "新たな監視衛星を破壊しようとする敵",
+        "ウォーマシンが攻撃される",
+        "アイアンマンが追跡"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "valentine-wiki",
+      "title": "Wikipedia：血のバレンタイン（映画）",
+      "url": "https://ja.wikipedia.org/wiki/血のバレンタイン_(映画)",
+      "retrieval_ref": "turn103view0",
+      "checked_facts": [
+        "ちのバレンタイン",
+        "日本公開1981年・製作1981年",
+        "ホラー",
+        "昔の炭鉱事故と殺人事件",
+        "町のバレンタインの祝いが復活"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "valentine-eiga",
+      "title": "映画.com：血のバレンタイン",
+      "url": "https://eiga.com/movie/46731/",
+      "retrieval_ref": "turn98view0",
+      "checked_facts": [
+        "日本公開1981年",
+        "炭鉱町で祭りを開く",
+        "祭りをやめるよう警告",
+        "再び殺人事件が起こる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "ant-cinematoday",
+      "title": "シネマトゥデイ：アントブリー",
+      "url": "https://www.cinematoday.jp/movie/T0004898",
+      "retrieval_ref": "turn93search1",
+      "checked_facts": [
+        "正式なカタカナ題名",
+        "日本公開2006年",
+        "いじめられた少年がアリに八つ当たり",
+        "アリの魔法で少年が小さくなる",
+        "アリの巣で暮らす"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "gamma-wiki",
+      "title": "Wikipedia：ガンマー第3号 宇宙大作戦",
+      "url": "https://ja.wikipedia.org/wiki/ガンマー第3号_宇宙大作戦",
+      "retrieval_ref": "turn99view1",
+      "checked_facts": [
+        "題名の読みを明記・3は数字表記",
+        "1968年・日米合作・日本劇場公開",
+        "深作欣二と田口勝彦の共同監督",
+        "地球へ衝突する天体を爆破",
+        "帰還した船に宇宙生物が付着"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "child-eiga",
+      "title": "映画.com：ザ・チャイルド 悪魔の起源",
+      "url": "https://eiga.com/movie/57588/",
+      "retrieval_ref": "turn97search6",
+      "checked_facts": [
+        "日本公開2012年",
+        "製作2010年",
+        "夫婦が車のトラブルで助けを求める",
+        "民家に泊まり不審な音を聞く"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "child-wowow",
+      "title": "WOWOW：ザ・チャイルド 悪魔の起源",
+      "url": "https://www.wowow.co.jp/detail/103166",
+      "retrieval_ref": "turn93search5",
+      "checked_facts": [
+        "製作2011年・米国",
+        "ホラー",
+        "妊娠した妻と夫が砂漠で車の故障に遭う",
+        "民家に泊めてもらう",
+        "納屋の子供に気づく"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "child-apple",
+      "title": "Apple TV：ザ・チャイルド 悪魔の起源",
+      "url": "https://tv.apple.com/jp/movie/サチャイルト-悪魔の起源/umc.cmc.75v5fsl1h3wl8owp2n1kk9dea",
+      "retrieval_ref": "turn97search2",
+      "checked_facts": [
+        "リリース2012年",
+        "ホラー／スリラー",
+        "ジョエル・ソワソン監督",
+        "車が故障した夫婦が民家へ"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "aran-filmarks",
+      "title": "Filmarks：アラン 阿娘",
+      "url": "https://filmarks.com/movies/33957",
+      "retrieval_ref": "turn93search7",
+      "checked_facts": [
+        "製作2006年・韓国",
+        "アン・サンフン監督",
+        "主要キャストが一致"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "aran-eirin",
+      "title": "映倫：アラン 阿娘",
+      "url": "https://www.eirin.jp/list/index.php?e_month=12&e_year=2024&eirin_no=S-4232&pageID=283&s_month=1&s_year=2009&x=0&y=0",
+      "retrieval_ref": "turn93search6",
+      "checked_facts": [
+        "女刑事と新人の相棒が殺人事件を追う",
+        "サスペンス・ホラー",
+        "審査日2010年8月23日は公開年として採用しない"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "aran-apple",
+      "title": "Apple TV：アラン 阿娘",
+      "url": "https://tv.apple.com/jp/movie/アラン-阿娘/umc.cmc.rmdyrr4t01chggyiuq22p4gr",
+      "retrieval_ref": "turn97search4",
+      "checked_facts": [
+        "女刑事が相棒と殺人事件を調べる",
+        "10年前の少女の死とのつながり",
+        "少女の悪夢を見る"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "lewis-disney",
+      "title": "ディズニー公式：ルイスと未来泥棒",
+      "url": "https://www.disney.co.jp/studio/animation/0813",
+      "retrieval_ref": "turn98search1",
+      "checked_facts": [
+        "2007年・米国公開",
+        "原語キャスト14名を掲載順で取得",
+        "施設で育った少年が母親の記憶を呼び起こす装置を作る",
+        "装置が盗まれる",
+        "別の少年に未来へ連れて行かれる"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "lewis-natalie",
+      "title": "映画ナタリー：ルイスと未来泥棒",
+      "url": "https://natalie.mu/eiga/film/145902",
+      "retrieval_ref": "turn98search2",
+      "checked_facts": [
+        "ルイストミライドロボウと読みを明記",
+        "日本公開2007年・製作2007年",
+        "スティーブン・アンダーソン監督"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-1",
+      "title": "既存の出典付きMDData：ヘンゼル & グレーテル",
+      "url": "https://filmarks.com/movies/53293",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-2",
+      "title": "既存の出典付きMDData：ゾンビズ・シティ",
+      "url": "https://filmarks.com/movies/53317",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-3",
+      "title": "既存の出典付きMDData：ゾンビ特急“地獄行”",
+      "url": "https://filmarks.com/movies/47884",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-4",
+      "title": "既存の出典付きMDData：ウーマン・ハンティング 殺戮の森",
+      "url": "https://filmarks.com/movies/57191",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-5",
+      "title": "既存の出典付きMDData：金星怪人ゾンター",
+      "url": "https://filmarks.com/movies/47356",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-6",
+      "title": "既存の出典付きMDData：ステップファーザー　殺人鬼の棲む家",
+      "url": "https://filmarks.com/movies/49030",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-7",
+      "title": "既存の出典付きMDData：猟奇島",
+      "url": "https://filmarks.com/movies/21715",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-8",
+      "title": "既存の出典付きMDData：ザ・プラマー　恐怖の訪問者",
+      "url": "https://filmarks.com/movies/43040",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-9",
+      "title": "既存の出典付きMDData：SUSHI GIRL",
+      "url": "https://filmarks.com/movies/53115",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-10",
+      "title": "既存の出典付きMDData：支配者の黄昏 TWILIGHT OF THE DARK MASTER",
+      "url": "https://filmarks.com/movies/108748",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-11",
+      "title": "既存の出典付きMDData：Mirror 鏡の中",
+      "url": "https://filmarks.com/movies/41067",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-12",
+      "title": "既存の出典付きMDData：リトル・マーメイド II",
+      "url": "https://filmarks.com/movies/53406",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-13",
+      "title": "既存の出典付きMDData：ウーマン・ハンティング　殺戮の森",
+      "url": "https://filmarks.com/movies/57191",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-14",
+      "title": "既存の出典付きMDData：V/H/S シンドローム",
+      "url": "https://filmarks.com/movies/54676",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-15",
+      "title": "既存の出典付きMDData：監獄島",
+      "url": "https://filmarks.com/movies/16002",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-16",
+      "title": "既存の出典付きMDData：アナコンダ３",
+      "url": "https://filmarks.com/movies/55730",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-17",
+      "title": "既存の出典付きMDData：ダークウォーター 奪われた水の真実",
+      "url": "https://filmarks.com/movies/54366",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-18",
+      "title": "既存の出典付きMDData：サイレントウェイ",
+      "url": "https://filmarks.com/movies/53647",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-19",
+      "title": "既存の出典付きMDData：ボン脳即菩薩",
+      "url": "https://filmarks.com/movies/58212",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-20",
+      "title": "既存の出典付きMDData：Ｕ.Ｍ.Ａ　レイク・プラシッド　ファイナル",
+      "url": "https://filmarks.com/movies/57178",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-21",
+      "title": "既存の出典付きMDData：殺人者はライフルを持っている！",
+      "url": "https://filmarks.com/movies/50308",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-22",
+      "title": "既存の出典付きMDData：ガス人間第一号",
+      "url": "https://filmarks.com/movies/18340",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-23",
+      "title": "既存の出典付きMDData：タワー・オブ・ザ・デッド",
+      "url": "https://filmarks.com/movies/48905",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-24",
+      "title": "既存の出典付きMDData：アイアンマン ライズ・オブ・テクノヴォア",
+      "url": "https://filmarks.com/movies/56302",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-25",
+      "title": "既存の出典付きMDData：血のバレンタイン",
+      "url": "https://filmarks.com/movies/32931",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-26",
+      "title": "既存の出典付きMDData：アントブリー",
+      "url": "https://filmarks.com/movies/31922",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-27",
+      "title": "既存の出典付きMDData：ガンマー第3号 宇宙大作戦",
+      "url": "https://filmarks.com/movies/35099",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-28",
+      "title": "既存の出典付きMDData：ザ・チャイルド　悪魔の起源",
+      "url": "https://filmarks.com/movies/28327",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-29",
+      "title": "既存の出典付きMDData：アラン-阿娘-",
+      "url": "https://filmarks.com/movies/33957",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    },
+    {
+      "ref_id": "existing-30",
+      "title": "既存の出典付きMDData：ルイスと未来泥棒",
+      "url": "https://filmarks.com/movies/34634",
+      "retrieval_ref": "local-md",
+      "checked_facts": [
+        "正本開始時コミット 9875f91070609ba472ae5ab4e0e055fd5fe2cd82",
+        "監督・キャスト全員と順序を保持",
+        "レビュー日時の秒を保持"
+      ],
+      "checked_at": "2026-10-10",
+      "origin": "this_batch_web_lookup"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 ---
 type: review
 title: 支配者の黄昏 TWILIGHT OF THE DARK MASTER
-reading: null
-reading_status: 未調査
+reading: しはいしゃのたそがれとわいらいとおぶざだーくますたー
+reading_status: 取得済み
 release_date: null
-release_year: null
+release_year: 1998
 genres:
 - アニメ
 directors:
@@ -22,6 +22,7 @@ rating: 3.0
 rating_display: 3点
 rating_original: POINT：POINT：－
 short_review: 変な雰囲気。
+synopsis: 人間が鬼に食い殺される近未来の新宿で、守護者でもある私立探偵が、事件を調べる依頼を受ける。
 source: FC2
 source_url: null
 image: null
