@@ -190,6 +190,9 @@ def load_articles(root: Path) -> list[Article]:
                 raise ValueError("type は review または essay を手動指定してください。")
             if not isinstance(data.get("title"), str) or not data["title"].strip():
                 raise ValueError("title が空欄です。")
+            synopsis = data.get("synopsis")
+            if synopsis is not None and not isinstance(synopsis, str):
+                raise ValueError("synopsis は短いあらすじを文字列で指定してください。")
             raw_date = data.get("review_date")
             if isinstance(raw_date, (datetime, date)):
                 raw_date = raw_date.isoformat()
@@ -524,9 +527,20 @@ class Site:
             width, height = self.image_size(image)
             short = article.data.get("short_review")
             short_html = f'<p class="article-short">{e(short)}</p>' if short is not None else ""
-            content = f'''<article class="full-article"><header class="article-heading"><div class="article-meta">{self.date_badge(article)}{self.score(article)}</div><h1>{e(article.title)}</h1></header>
+            synopsis = article.data.get("synopsis")
+            heading_meta = self.date_badge(article) + self.score(article)
+            intro = short_html
+            if article.kind == "review" and synopsis and synopsis.strip():
+                heading_meta = f'<span class="article-type">{TYPE_LABEL[article.kind]}</span>'
+                short_html = f'<p class="article-short"><strong>{e(short)}</strong></p>' if short is not None else ""
+                display = article.data.get("rating_display")
+                score_html = f'<strong class="rating">{e(display)}</strong>' if display is not None else ""
+                intro = f'''<section class="article-intro" aria-label="短評と作品紹介">{short_html}
+<p class="review-byline"><time datetime="{article.posted.isoformat()}">{article.posted:%Y-%m-%d}</time>{score_html}</p>
+<p class="article-synopsis">{e(synopsis)}</p></section><hr class="review-divider">'''
+            content = f'''<article class="full-article"><header class="article-heading"><div class="article-meta">{heading_meta}</div><h1>{e(article.title)}</h1></header>
 <img class="article-image" src="{href(article.route, image)}" alt="" width="{width}" height="{height}">
-{short_html}<div class="article-body">{self.render_body(article)}</div>{self.metadata(article)}{self.related(article)}</article>'''
+{intro}<div class="article-body">{self.render_body(article)}</div>{self.metadata(article)}{self.related(article)}</article>'''
             self.write_page(article.route, article.title, content, description=article.data.get('short_review'))
 
     def indexes(self) -> None:

@@ -22,6 +22,7 @@ rating: 3.5
 rating_display: 3.5点
 rating_original: POINT：★
 short_review: ネタばれすぎ。
+synopsis: "旅の映像をブログに載せる青年2人のうち、パリで女性に会った1人の体が変わり始め……。"
 source: FC2
 source_url: null
 image: null

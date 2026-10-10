@@ -1,0 +1,1026 @@
+{
+  "batch_id": "synopsis-trial30-20261010",
+  "base_commit": "42fc0a42c95b72f9595e5055763cc2ca5f1d50b5",
+  "published_base_commit": "ae697cba14826fe3a668442ab5d8a9df4e3c7318",
+  "applied_at": "2026-10-10T11:02:57.178571+09:00",
+  "target_count": 30,
+  "applied_count": 30,
+  "unresolved_count": 0,
+  "scope": "the existing human-approved metadata trial30; all other articles retain their current layout",
+  "user_instruction": "2026-10-10: add synopses and the approved layout to these 30; migrate other articles when adding information",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "not_applied",
+  "new_field": "synopsis",
+  "layout_opt_in": "nonblank synopsis on review articles",
+  "new_synopsis_texts_are_individually_user_confirmed": false,
+  "synopsis_workflow_approval_is_distinct_from_individual_text_confirmation": true,
+  "first_five": "reuse previously verified facts and the user-provided wording; no repeat movie research",
+  "next_25": "short independent introductions from checked facts; existing or lightly supplemented sources",
+  "outcomes": [
+    {
+      "number": 1,
+      "synopsis": "暗黒神に仕える神官が、仲間が消息を絶った町へ派遣され、失踪の理由を調べると……。",
+      "character_count": 40,
+      "facts": [
+        "暗黒神に仕える神官",
+        "同僚の失踪",
+        "町へ派遣され調査"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn52view0",
+          "title": "Fantasy Flight Games",
+          "url": "https://www.fantasyflightgames.com/en/products/midnight-chronicles/"
+        },
+        {
+          "ref_id": "turn52view1",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/title/70183467"
+        }
+      ],
+      "research_origin": "reuse_previous_verified_facts",
+      "text_authority": "user_provided_example",
+      "individual_user_confirmation": "user_provided_example",
+      "file": "content/reviews/ミッドナイト・クロニクル_2015-12-24.md",
+      "title": "ミッドナイト・クロニクル",
+      "review_date": "2015-12-24 00:00:15",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "5b7ffb68639ed9721696ab9dba31ca827ffa2884e9ad66a7e72651f20f9e1f58",
+      "article_sha256_after": "f5c42c36f2b66c9f47abec5f9c4924b74985efe9f3de447761c4eab5a92669b5",
+      "body_sha256_before": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
+      "body_sha256_after": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 2,
+      "synopsis": "父に命じられて事故の被害者を装う10歳の少年が、金をだまし取る一家と日本各地を旅する。",
+      "character_count": 43,
+      "facts": [
+        "少年は10歳",
+        "父に当たり屋をさせられる",
+        "一家で日本各地を移動"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn53view1",
+          "title": "国立映画アーカイブ",
+          "url": "https://www.nfaj.go.jp/program/oshima202303-25/"
+        },
+        {
+          "ref_id": "turn52view6",
+          "title": "大島渚プロダクション",
+          "url": "https://oshima-pro.jp/works_j.html"
+        }
+      ],
+      "research_origin": "reuse_previous_verified_facts",
+      "text_authority": "user_provided_example",
+      "individual_user_confirmation": "user_provided_example",
+      "file": "content/reviews/少年_2024-03-30.md",
+      "title": "少年",
+      "review_date": "2024-03-30 20:28:15",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "f2fef9ceb679bd5d569c38359752f2894f69d1820f56455dadc12d3e0226d9bb",
+      "article_sha256_after": "5593f35b35663d2d0cbc9373ab17e40099ea73a3ddce770d989faa653ab2b873",
+      "body_sha256_before": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
+      "body_sha256_after": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 3,
+      "synopsis": "夜の仕事で家計を支える沖縄の17歳の母親が、夫から暴力を受けながら息子を育てるが……。",
+      "character_count": 43,
+      "facts": [
+        "沖縄の17歳の母親",
+        "夜のキャバクラ勤務が家計を支える",
+        "夫の暴力",
+        "息子を育てる"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn51view2",
+          "title": "作品公式サイト",
+          "url": "https://afarshore.jp/"
+        },
+        {
+          "ref_id": "turn53view0",
+          "title": "JFDB",
+          "url": "https://jfdb.jp/title/9979"
+        }
+      ],
+      "research_origin": "reuse_previous_verified_facts",
+      "text_authority": "user_provided_example",
+      "individual_user_confirmation": "user_provided_example",
+      "file": "content/reviews/遠いところ_2024-03-22.md",
+      "title": "遠いところ",
+      "review_date": "2024-03-22 08:53:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "50d348f2fedcfdc0178283b958aa576d0b9911af8a5b855a42b22a5a59c88642",
+      "article_sha256_after": "670e10585dcb9fcda8b40f116711885087f2ad1b1d20646a42abda20a40f9bdb",
+      "body_sha256_before": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
+      "body_sha256_after": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 4,
+      "synopsis": "通信が途絶えた貸別荘で、休暇中の家族が、持ち主を名乗って訪れた父娘と一緒に過ごすことに……。",
+      "character_count": 46,
+      "facts": [
+        "一家が別荘を借り休暇",
+        "通信が途絶える",
+        "父と娘が所有者を名乗り訪問"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn52search3",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/jp/title/81314956"
+        },
+        {
+          "ref_id": "turn53view2",
+          "title": "Netflix Tudum",
+          "url": "https://www.netflix.com/tudum/articles/leave-the-world-behind-release-date-photos?inapp=true/"
+        }
+      ],
+      "research_origin": "reuse_previous_verified_facts",
+      "text_authority": "user_provided_example",
+      "individual_user_confirmation": "user_provided_example",
+      "file": "content/reviews/終わらない週末_2024-03-15.md",
+      "title": "終わらない週末",
+      "review_date": "2024-03-15 16:23:33",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "8ecae8bccb4acba1896882f1deaf2eee9f3cd2dfd75a18703520def1cc6f7f94",
+      "article_sha256_after": "8696f1c70c3471d750d0c966d2323435fd300a0719cc709cb2a274f623bde58f",
+      "body_sha256_before": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
+      "body_sha256_after": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 5,
+      "synopsis": "女子高生が、自分と同じ顔の少女が映る心霊動画を見て、その撮影場所を訪れたところ……。",
+      "character_count": 42,
+      "facts": [
+        "女子高生",
+        "自分に似た少女の心霊動画",
+        "撮影された廃墟へ訪問"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn52view2",
+          "title": "東映ビデオ",
+          "url": "https://shop.toei-video.co.jp/products/dstd20611"
+        },
+        {
+          "ref_id": "turn52view3",
+          "title": "JFDB",
+          "url": "https://jfdb.jp/title/9511"
+        }
+      ],
+      "research_origin": "reuse_previous_verified_facts",
+      "text_authority": "user_provided_example",
+      "individual_user_confirmation": "user_provided_example",
+      "file": "content/reviews/牛首村_2024-03-14.md",
+      "title": "牛首村",
+      "review_date": "2024-03-14 14:22:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "f03dd1284fb0e1d1e00ff751d7ff2a5a4aa54e416e64a07904d2cd5725f3ad7d",
+      "article_sha256_after": "aff58a3af5011262654d83b7e8c0b64534eb0d91fc1a851b100f4b3ce0378aae",
+      "body_sha256_before": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
+      "body_sha256_after": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 6,
+      "synopsis": "少女を連れ戻すため、地震で街が崩れたソウルの狩人が、医師の管理する建物へ向かうが……。",
+      "character_count": 43,
+      "facts": [
+        "地震後のソウル",
+        "主人公は狩人",
+        "医師に捕らわれた少女を救出",
+        "医師が建物を支配"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn56search1",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/jp/title/81721676"
+        },
+        {
+          "ref_id": "turn54view0",
+          "title": "映画.com",
+          "url": "https://eiga.com/movie/101001/"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/バッドランド・ハンターズ_2024-03-12.md",
+      "title": "バッドランド・ハンターズ",
+      "review_date": "2024-03-12 15:53:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "e6da656bbf0d6b2c7e380df9ed75761d714f12c1b7c1dc5498d16b3e6444caf9",
+      "article_sha256_after": "c1f9d8d2fd99f26d33711249cf4294ab3e5822b20cdddb09eff9b8f9661217da",
+      "body_sha256_before": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
+      "body_sha256_after": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 7,
+      "synopsis": "姉を訪ねた女性の滞在中、地震で姿を現した地下の本とレコードが、家に死霊を呼び込んで……。",
+      "character_count": 44,
+      "facts": [
+        "妹が姉を訪問",
+        "地震で地下の部屋が現れる",
+        "死者の書とレコード",
+        "死霊が復活"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn56view0",
+          "title": "ワーナー ブラザース公式プレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000063715.html"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/死霊のはらわた ライジング_2024-03-07.md",
+      "title": "死霊のはらわた ライジング",
+      "review_date": "2024-03-07 03:34:10",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "7af107906c44723e8fe7f46da100434d3e6b217c685656044b7abc6155f15dcf",
+      "article_sha256_after": "17cfa63285baf6d73998131395987b3ee0200e02b01d4d631e4f12b4850369a6",
+      "body_sha256_before": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
+      "body_sha256_after": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 8,
+      "synopsis": "ホラー好きの大学生8人が、読書会の仲間で共有する秘密を知っているらしいピエロに狙われることに……。",
+      "character_count": 49,
+      "facts": [
+        "8人のホラー愛好家",
+        "大学生の読書会",
+        "共有する秘密",
+        "秘密を知るらしい殺人ピエロ"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn56search0",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/jp/title/81478540"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/キラー・ブック・クラブ_2024-03-07.md",
+      "title": "キラー・ブック・クラブ",
+      "review_date": "2024-03-07 03:28:45",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "652223e9884e888b5b94fe9b00e2e2c2a6f9bd90cffcc418d7a75d2963559fef",
+      "article_sha256_after": "3b0ec23a5484d37504e18f4e798c6de43e89c56bf60c53d4dbe859c5bc8b20bc",
+      "body_sha256_before": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
+      "body_sha256_after": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 9,
+      "synopsis": "ゾンビが街に現れて仕事から解放された会社員が、今までできなかったことを100個書き出して実行する。",
+      "character_count": 49,
+      "facts": [
+        "会社員アキラ",
+        "長時間労働とパワハラ",
+        "街にゾンビ発生で出勤不要",
+        "したいこと100個のリストを実行"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn66search4",
+          "title": "Netflix公式発表",
+          "url": "https://about.netflix.com/ja/news/zom-100-bucket-list-of-the-dead-title-announcement"
+        },
+        {
+          "ref_id": "turn66search5",
+          "title": "Netflix予告編紹介",
+          "url": "https://about.netflix.com/ja/news/iconic-zombie-shark-makes-a-splash-in-zom100-bucket-list-of-the-dead-trailer"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/ゾン100 ゾンビになるまでにしたい100のこと_2024-03-07.md",
+      "title": "ゾン100 ゾンビになるまでにしたい100のこと",
+      "review_date": "2024-03-07 03:21:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "2087035b880d342342aa82dc201498c0d4ba8e9adf8e2d3d918c473cfdb517df",
+      "article_sha256_after": "0a46e91f8d6af6e4234c7959bca46e156ea238a2e9c23d96fd0cb243b1468979",
+      "body_sha256_before": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
+      "body_sha256_after": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 10,
+      "synopsis": "患者が笑いながら自殺する場に居合わせた精神科医のもとで、幻影を見るなどの異変が続き……。",
+      "character_count": 44,
+      "facts": [
+        "女性精神科医",
+        "患者が笑顔のまま自殺",
+        "医師が幻影に悩まされる"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn56view2",
+          "title": "日本語Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/スマイル_(2022年の映画)"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/スマイル_2024-03-07.md",
+      "title": "スマイル",
+      "review_date": "2024-03-07 03:17:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "fad28926025ce0fa741e96f6b236602437869cbd7897b202b66bacae2e020321",
+      "article_sha256_after": "211dbb6eb7a0f56c1ca7a76e7b99716b357d1ccc94bcaf15a6f0a89436fd2da2",
+      "body_sha256_before": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
+      "body_sha256_after": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 11,
+      "synopsis": "スペイン内戦の敵対する部隊が、襲ってきたゾンビから逃れるため、一緒に行動するはめに……。",
+      "character_count": 44,
+      "facts": [
+        "スペイン内戦",
+        "敵対する兵士",
+        "ゾンビ襲撃",
+        "協力して行動"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn57search2",
+          "title": "Netflix",
+          "url": "https://www.netflix.com/jp/title/80208806"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/マルナシドス　ゾンビの谷_2024-03-07.md",
+      "title": "マルナシドス　ゾンビの谷",
+      "review_date": "2024-03-07 01:05:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "ca87dffae9a9ef5cece362876a42df2318a2d50324c729f79b65c0472cce9455",
+      "article_sha256_after": "f573f001b1003fd6f99a8f530df1a5655bdf9aa89da90ebc365022305e458b79",
+      "body_sha256_before": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
+      "body_sha256_after": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 12,
+      "synopsis": "授業に戸惑う少女を助けた塾生が、塾への反抗を理由に優等生から狙われるようになり……。",
+      "character_count": 42,
+      "facts": [
+        "特殊な授業の進学塾",
+        "市川美保を田村遥が助ける",
+        "遥は塾に反抗的",
+        "優等生夕子が遥を標的にする"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn59view4",
+          "title": "日本語Wikipedia・第二部の節",
+          "url": "https://ja.wikipedia.org/wiki/讐_〜ADA〜"
+        },
+        {
+          "ref_id": "turn57search4",
+          "title": "U-NEXT",
+          "url": "https://www.video.unext.jp/title/SID0038277?alpge=1&lpset=1"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/讐 ～ADA～　第二部　絶望篇_2019-06-08.md",
+      "title": "讐 ～ADA～　第二部　絶望篇",
+      "review_date": "2019-06-08 00:00:00",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "5490e6f049c338a3af294d8fb54f0eee2a6af8fb372714ca37cacc22c3fa9ef2",
+      "article_sha256_after": "3ee52e009bc31214207dad1983180b3e6ab92452cb714a6839c7e18b3d170294",
+      "body_sha256_before": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
+      "body_sha256_after": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 13,
+      "synopsis": "ゾンビとの戦いを撮影する映像作家が、自衛集団に同行し、隊員の日々の行動を記録するが……。",
+      "character_count": 44,
+      "facts": [
+        "ゾンビが支配する世界",
+        "ドキュメンタリー映像作家",
+        "自己防衛集団への密着",
+        "日常をカメラに記録"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn58view0",
+          "title": "配給会社キュリオスコープ",
+          "url": "https://www.curiouscope.co.jp/product/感染創世記/"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/感染創世記_2019-05-08.md",
+      "title": "感染創世記",
+      "review_date": "2019-05-08 00:00:03",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "e721c3f43212e6b5b54f356cd1d0864f187b0884ec4f844b8675d0a896033eba",
+      "article_sha256_after": "6148bdaa5fec76b908d2fafbecf8b3f148327fe1d5415bcf5c2cbc1013ed0d35",
+      "body_sha256_before": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
+      "body_sha256_after": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 14,
+      "synopsis": "ラジオDJの女性が、届いたレコードを聞いたのを境に、セイラムで不可解な出来事を経験し始める。",
+      "character_count": 46,
+      "facts": [
+        "セイラムの女性ラジオDJ",
+        "送り主ザ・ロードのレコード",
+        "聞いた後に周囲で異変"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn61search2",
+          "title": "TOブックス公式作品紹介",
+          "url": "https://www.tobooks.jp/contents/17305"
+        },
+        {
+          "ref_id": "turn61search1",
+          "title": "Apple TV",
+          "url": "https://tv.apple.com/jp/movie/ロードオブセイラム/umc.cmc.3c96cj6s6f9l9fog29luh654z"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/ロード・オブ・セイラム_2018-12-16.md",
+      "title": "ロード・オブ・セイラム",
+      "review_date": "2018-12-16 00:00:17",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "12c8a1c0446e0696c86e100755ae6e4690e1c09f6eaa0a03694ff4c41171247c",
+      "article_sha256_after": "8755e26c18a6be39909cd7f404231f69e85a9463d381452fc80324a35cf2fdf2",
+      "body_sha256_before": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
+      "body_sha256_after": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 15,
+      "synopsis": "プリパラに迷い込んだみらい・えも・りんかの前で、歴代のアイドルたちがライブを繰り広げる。",
+      "character_count": 44,
+      "facts": [
+        "みらい・えも・りんかがプリパラの世界へ",
+        "歴代のシリーズのアイドルのステージ"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn60view5",
+          "title": "配給会社エイベックス・ピクチャーズ",
+          "url": "https://avex-pictures.co.jp/lineup/76005/"
+        },
+        {
+          "ref_id": "turn60search5",
+          "title": "制作会社タツノコプロ",
+          "url": "https://tatsunoko.co.jp/works/pripara-kiratto-pri-chan-the-movie-kirakira-memorial-live/"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/劇場版 プリパラ＆キラッとプリ☆チャン ～きらきらメモリアルライブ～_2018-08-12.md",
+      "title": "劇場版 プリパラ＆キラッとプリ☆チャン ～きらきらメモリアルライブ～",
+      "review_date": "2018-08-12 00:00:01",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "e405a8c9a90a08773ecef38c1d0ecdf81bc7c4f0e74ad4d083d38c22f93d6223",
+      "article_sha256_after": "c180414b4066c54a2b1af0b523dcfde33f7297ae02930b92c6e5d6681d7d65db",
+      "body_sha256_before": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
+      "body_sha256_after": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 16,
+      "synopsis": "任務を終えるはずだった火星の調査隊が、最後の日に見つかった生命の痕跡を確かめようとすると……。",
+      "character_count": 47,
+      "facts": [
+        "有人火星調査隊",
+        "滞在の最終日",
+        "化石から微小生命体の細胞分裂を発見"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn61search4",
+          "title": "映画.com",
+          "url": "https://eiga.com/movie/81198/"
+        },
+        {
+          "ref_id": "turn61search3",
+          "title": "ぴあ",
+          "url": "https://lp.p.pia.jp/event/movie/25382/index.html"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/ラストデイズオンマーズ_2018-06-16.md",
+      "title": "ラストデイズオンマーズ",
+      "review_date": "2018-06-16 00:00:51",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "d37f33d3957e14e56c2d61b7f49db3e216baf819338e3210c75f9a5c153cf81c",
+      "article_sha256_after": "f65441e0a1299688e3d7d1a930fa3dd2fc9ad73edaabb226c1afba5430961478",
+      "body_sha256_before": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
+      "body_sha256_after": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 17,
+      "synopsis": "旅の映像をブログに載せる青年2人のうち、パリで女性に会った1人の体が変わり始め……。",
+      "character_count": 42,
+      "facts": [
+        "親友の青年2人の世界旅行",
+        "映像をブログで公開",
+        "パリで女性と会った後、ホテルで負傷",
+        "デレクの体に異変"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn61search5",
+          "title": "発売元TCエンタテインメント",
+          "url": "https://www.tc-ent.co.jp/products/detail/TCED-2336"
+        },
+        {
+          "ref_id": "turn61search6",
+          "title": "WOWOW",
+          "url": "https://www.wowow.co.jp/detail/107292"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/AFFLICTED アフリクテッド_2018-02-24.md",
+      "title": "AFFLICTED アフリクテッド",
+      "review_date": "2018-02-24 00:00:52",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "3a4df0991d08fb3b155bc7b76013b4295990a3c1eeba5e52f35d10b112347abf",
+      "article_sha256_after": "31f26ea4b9e48848811e9881e71f12e7dd4cd54b32af70c23f9a23ab3c254219",
+      "body_sha256_before": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
+      "body_sha256_after": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 18,
+      "synopsis": "クラスで空いていた席を与えられた転校生が、そこに座った生徒には不幸が続くという噂を聞くが……。",
+      "character_count": 47,
+      "facts": [
+        "転校してきた高校生",
+        "空いていた席を割り当てられる",
+        "座った生徒が失踪・事故・自殺"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn61search7",
+          "title": "映画.com",
+          "url": "https://eiga.com/movie/41282/"
+        },
+        {
+          "ref_id": "turn61search9",
+          "title": "allcinema",
+          "url": "https://www.allcinema.net/cinema/pdf/323082"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/あそこの席_2017-12-16.md",
+      "title": "あそこの席",
+      "review_date": "2017-12-16 00:00:19",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "02da68a4c28f7ba3ea0310d33b29bc79d1e603b09602dbf43208ce592d4ed733",
+      "article_sha256_after": "cc58c0ce038d5ff42ecf1a6aff1c67cd2346a2612d9bf2a8582a5d93687fadba",
+      "body_sha256_before": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
+      "body_sha256_after": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 19,
+      "synopsis": "父を訪ねた少女が、森の女王から花のつぼみを預かった途端、小さな体になってしまい……。",
+      "character_count": 42,
+      "facts": [
+        "研究者の父を訪問",
+        "森の女王と遭遇",
+        "花のつぼみを託される",
+        "体が小さくなる"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn63search0",
+          "title": "20世紀スタジオ公式",
+          "url": "https://www.20thcenturystudios.jp/movies/epic"
+        },
+        {
+          "ref_id": "turn63search4",
+          "title": "Prime Video",
+          "url": "https://www.primevideo.com/-/ja/detail/0SC64ONN5OYHBQON3ZFRLKH7IM"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/メアリーと秘密の王国_2017-12-12.md",
+      "title": "メアリーと秘密の王国",
+      "review_date": "2017-12-12 00:00:23",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "2b04438e76710f5870b37cf5688f5ccaba3ed658f38a89679f29a3eb5b29b531",
+      "article_sha256_after": "16572f059c5dc0e23b9f9e580fbea799c9f5731763e3b803a3017800e95dcb64",
+      "body_sha256_before": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
+      "body_sha256_after": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 20,
+      "synopsis": "深夜のゴルフ場で誕生会を開く若者たちが、芝刈り作業員の格好をした殺人者に襲われる。",
+      "character_count": 41,
+      "facts": [
+        "カントリークラブで誕生会",
+        "夜のパーティー",
+        "殺人者が芝刈り作業員の格好"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65search7",
+          "title": "IMDb・The Greenskeeper (2002)",
+          "url": "https://www.imdb.com/title/tt0311231/plotsummary/"
+        },
+        {
+          "ref_id": "turn65search8",
+          "title": "Rotten Tomatoes",
+          "url": "https://www.rottentomatoes.com/m/greenskeeper"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/殺戮職人芝刈男_2017-10-28.md",
+      "title": "殺戮職人芝刈男",
+      "review_date": "2017-10-28 00:00:51",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "a8595ee3d8a481d8f48a06561f98f99d728e0445d2e359e20d2436a7432704b2",
+      "article_sha256_after": "e0a70a7bfdbab25d505e38176216d6275d3a8dc32a3a65e69719facc89872a38",
+      "body_sha256_before": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
+      "body_sha256_after": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 21,
+      "synopsis": "妻子を亡くした作家が、病気の父を訪ねたスペインで、11という数字に結びつく出来事に遭遇する。",
+      "character_count": 46,
+      "facts": [
+        "妻と息子を失った作家",
+        "病気の父がいるスペインへ",
+        "11時11分等の数字11に関わる事件"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn62view0",
+          "title": "英語Wikipedia・Darren Lynn Bousman作品",
+          "url": "https://en.wikipedia.org/wiki/11-11-11_(film)"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/11：11：11_2017-10-24.md",
+      "title": "11:11:11",
+      "review_date": "2017-10-24 00:00:45",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "b507103a31de014d605eb13b1995ff27c98480b1c243424719f6dd4d953f25d0",
+      "article_sha256_after": "d8e5ad1c46df7970240553ebc438450d389c3eb98ed64094c7e70252419e4b6a",
+      "body_sha256_before": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
+      "body_sha256_after": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 22,
+      "synopsis": "宇宙船シドニアの地下で育った青年が、人型兵器の訓練生に選ばれ、人類を襲う生命体と戦うことに……。",
+      "character_count": 48,
+      "facts": [
+        "人類が宇宙船シドニアで生活",
+        "船の地下で育った長道",
+        "人型兵器の訓練生に抜擢",
+        "異生物と人類の戦い"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn63view0",
+          "title": "JFDB",
+          "url": "https://jfdb.jp/title/5610"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/劇場版 シドニアの騎士_2017-10-16.md",
+      "title": "劇場版 シドニアの騎士",
+      "review_date": "2017-10-16 00:00:13",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "ca35d94c137ddc488563f1ae51b408c982d91257e33fe174e1639a57b927b3ed",
+      "article_sha256_after": "5f415e548eaf8ce22db489b1f1b95aeba5d998401c746699c483aa41a9c0e281",
+      "body_sha256_before": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
+      "body_sha256_after": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 23,
+      "synopsis": "夫を亡くした母親が、息子の持ってきた見覚えのない絵本を読み聞かせた後、暮らしに異変が……。",
+      "character_count": 45,
+      "facts": [
+        "夫が事故死",
+        "母と息子の2人暮らし",
+        "息子が見覚えのない絵本を持参",
+        "読み聞かせ後に奇怪な現象"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn63view1",
+          "title": "日本語Wikipedia",
+          "url": "https://ja.wikipedia.org/wiki/ババドック_暗闇の魔物"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/ババドック～暗闇の魔物～_2017-08-12.md",
+      "title": "ババドック～暗闇の魔物～",
+      "review_date": "2017-08-12 00:00:34",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "15724ce8a9fb5e6c090ac3e27f2d4d0b5bccf97aca9daed44beaecaa999445bf",
+      "article_sha256_after": "3256c510d67d1eb9d4ae685afa9293ee6757674e0e6ffeff32707613baebac39",
+      "body_sha256_before": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
+      "body_sha256_after": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 24,
+      "synopsis": "スウェーデンの森で赤い光を追っていた映画の撮影班が、突然消えた仲間を捜すことに……。",
+      "character_count": 42,
+      "facts": [
+        "映画撮影目的の4人がスウェーデン北部の森へ",
+        "赤い光を追う",
+        "光が消えた時に仲間アレクスも失踪"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65search5",
+          "title": "楽天ブックス・発売作品紹介",
+          "url": "https://books.rakuten.co.jp/rb/13186368/"
+        },
+        {
+          "ref_id": "turn65search4",
+          "title": "Rakuten PLAY",
+          "url": "https://play.rakuten.co.jp/content/325615"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/エンカウンターズ －侵略－_2017-08-08.md",
+      "title": "エンカウンターズ －侵略－",
+      "review_date": "2017-08-08 00:00:34",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "da1851270e29cecd1fc93b5a73ad113fb295fe501bbf372dfcf5c9ffd2acaee2",
+      "article_sha256_after": "bb67f85c0e65d3782fe2de0812879820aac27d870df35ec0d640da7021fcd8cb",
+      "body_sha256_before": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
+      "body_sha256_after": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 25,
+      "synopsis": "卒業を祝う若者4人が、立入禁止の森で車を走らせて子熊を死なせ、母熊に追われることに……。",
+      "character_count": 44,
+      "facts": [
+        "高校卒業記念の若者4人",
+        "立入禁止区域の森へ侵入",
+        "車で子熊を殺す",
+        "母熊に追われる"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn63view2",
+          "title": "英語Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grizzly_Rage"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/グリズリー・レイジ_2017-07-28.md",
+      "title": "グリズリー・レイジ",
+      "review_date": "2017-07-28 00:00:52",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "c5f42dfca15f0cb3f258025cbd9c4795df6e676ffd4fd0b8e4f91e6ef19d656f",
+      "article_sha256_after": "bb1a934d85b2dd7725f0a3c0a17be8677f1c6649013cac4e4b166dcbae067bae",
+      "body_sha256_before": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
+      "body_sha256_after": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 26,
+      "synopsis": "洞窟から出ずに暮らしていた原始人の一家が、地震で家を失い、外を知る青年と旅をすることに……。",
+      "character_count": 46,
+      "facts": [
+        "洞窟に暮らす原始人の一家",
+        "外出しないという父の掟",
+        "地震で洞窟が崩壊",
+        "青年ガイと新しい土地を探す"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65search1",
+          "title": "WOWOW",
+          "url": "https://www.wowow.co.jp/detail/105067"
+        },
+        {
+          "ref_id": "turn65search0",
+          "title": "BS日テレ",
+          "url": "https://www.bs4.jp/the-croods/"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/クルードさんちのはじめての冒険_2017-07-24.md",
+      "title": "クルードさんちのはじめての冒険",
+      "review_date": "2017-07-24 00:00:34",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "d95e88cbdf3de5af05fd6e3ff4946d88ee3a3c68c44d9f259b04d94a5a8c72f3",
+      "article_sha256_after": "96452e7bc512de31b3205de5e2b2419e6f6bf0d6268bd7b73a81ec3d0fe898ea",
+      "body_sha256_before": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
+      "body_sha256_after": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 27,
+      "synopsis": "重いぜんそくの患者と親しくなった女医が、最期に苦しまないようにしてほしいと頼まれるが……。",
+      "character_count": 45,
+      "facts": [
+        "女性医師と重度のぜんそく患者",
+        "2人の関係が親密に",
+        "患者から最期の苦痛を減らすよう依頼"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn66search0",
+          "title": "U-NEXT・映画版紹介",
+          "url": "https://www.video.unext.jp/title/SID0013201/c_txt%3Db"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/終の信託_2017-07-20.md",
+      "title": "終の信託",
+      "review_date": "2017-07-20 00:00:23",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "2ebb29dd16aa65f7ed533536f905e7c42a0e246c85e2abba8e28befca1c5920f",
+      "article_sha256_after": "fbeb9d6a504de6616d553d02ed851e059dfc13a64d3b5f600ede02e79dab20da",
+      "body_sha256_before": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
+      "body_sha256_after": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 28,
+      "synopsis": "閉館するドライブイン映画館で、観客が怪物映画を見ている間に、場内でもゾンビが動き始める。",
+      "character_count": 44,
+      "facts": [
+        "閉館日のドライブイン映画館",
+        "怪物映画の上映",
+        "従業員がゾンビに噛まれて来場",
+        "劇場でもゾンビの事件"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65view1",
+          "title": "英語Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chillerama"
+        },
+        {
+          "ref_id": "turn66search2",
+          "title": "ciatr・導入の確認のみ",
+          "url": "https://ciatr.jp/topics/309617"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/チレラマ CHILLERAMA_2017-06-28.md",
+      "title": "チレラマ CHILLERAMA",
+      "review_date": "2017-06-28 00:00:29",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "a22a01c2321e241fd40d4476c60330e4013b6d7a0965a5705d56138f8412f853",
+      "article_sha256_after": "9cf0bf3efcb23f1193774afb4d36385ac5fdb4d11d0ddcaf759e4eb204b365e4",
+      "body_sha256_before": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
+      "body_sha256_after": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 29,
+      "synopsis": "軍の薬品が混ざったアイスを食べた男女4人が、ゾンビになった自覚のないまま街へ出る。",
+      "character_count": 41,
+      "facts": [
+        "軍の血清がアイスクリームを汚染",
+        "4人が食べてゾンビ化",
+        "自分たちを人間だと思っている",
+        "外へ出て助けを探す"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65view2",
+          "title": "英語Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wasting_Away"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/AAAH！ゾンビーズ!!　俺タチだって生きている_2017-06-12.md",
+      "title": "AAAH！ゾンビーズ!!　俺タチだって生きている",
+      "review_date": "2017-06-12 00:00:05",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "5b068f9c0f9720e6f176c07ed5d4e84fadaf0713c9570f3f96702b9fd8d8ba29",
+      "article_sha256_after": "1b9f124751b416a9d82d8994b226dff41ca7cf75272e4a519088de23cbfc178b",
+      "body_sha256_before": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
+      "body_sha256_after": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    },
+    {
+      "number": 30,
+      "synopsis": "大学生たちが、入ると一時的に幽霊になれる棺を発見し、遊び半分でその仕掛けを試すが……。",
+      "character_count": 43,
+      "facts": [
+        "大学生グループ",
+        "幽霊を体験できる棺",
+        "最初は遊びとして使用"
+      ],
+      "sources": [
+        {
+          "ref_id": "turn65view3",
+          "title": "英語Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Box_of_Shadows"
+        }
+      ],
+      "research_origin": "current_light_check",
+      "text_authority": "assistant_composed_under_user_approved_rules",
+      "individual_user_confirmation": "not_individually_confirmed",
+      "file": "content/reviews/ゴーストメイカー_2017-06-08.md",
+      "title": "ゴーストメイカー",
+      "review_date": "2017-06-08 00:00:34",
+      "source_field": "synopsis",
+      "application_status": "applied_to_assistant_working_repository",
+      "article_sha256_before": "36e51b18c7c9637215a3a3d04dc7b34c4aee041b2f9d83ddc4f933b829a16ea4",
+      "article_sha256_after": "cee7d1ab92df2034405a5b5fa2fc584066e9fa66da93390620f05aacc6d363c3",
+      "body_sha256_before": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
+      "body_sha256_after": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
+      "all_other_frontmatter_and_body_bytes_unchanged": true
+    }
+  ]
+}

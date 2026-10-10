@@ -67,6 +67,11 @@ h1 { margin-bottom: 12px; font-size: 27px; line-height: 1.5; font-weight: 700; o
 .article-heading .article-meta { max-width: 460px; }
 .article-image { display: block; width: 100%; height: auto; max-height: 440px; object-fit: contain; margin-block: 25px 30px; }
 .article-short { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 18px; line-height: 1.8; font-weight: 600; padding-left: 18px; border-left: 3px solid var(--accent); margin-bottom: 32px; }
+.article-intro .article-short { border: 0; padding: 0; margin: 0 0 4px; font-weight: 700; }
+.review-byline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 20px; margin: 0; font-size: 14px; color: var(--muted); }
+.review-byline .rating { margin-left: 0; font-size: 15px; }
+.article-synopsis { margin: 14px 0 0; font-size: 16px; line-height: 1.9; overflow-wrap: anywhere; }
+.review-divider { border: 0; border-top: 1px solid #b9c3ce; margin: 23px 0; }
 .article-body { font-size: 16px; line-height: 2; overflow-wrap: anywhere; }
 .article-body p { margin-bottom: 1.5em; }
 .article-body h2 { margin-top: 2em; font-size: 22px; }
@@ -155,6 +160,7 @@ summary { cursor: pointer; color: var(--muted); margin-bottom: 7px; }
   .review-card h3 { font-size: 18px; }
   .article-heading h1 { font-size: 26px; }
   .article-short { font-size: 17px; }
+  .article-synopsis { font-size: 15px; }
   .article-body { font-size: 15px; }
   .film-metadata { grid-template-columns: 60px minmax(0, 1fr); gap: 12px; }
   .article-list li { display: block; padding-block: 13px; }

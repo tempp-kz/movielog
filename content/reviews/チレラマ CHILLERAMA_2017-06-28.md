@@ -38,6 +38,7 @@ rating: 4.0
 rating_display: 4点
 rating_original: POINT：★★
 short_review: これは見事なZ級。
+synopsis: "閉館するドライブイン映画館で、観客が怪物映画を見ている間に、場内でもゾンビが動き始める。"
 source: FC2
 source_url: null
 image: null

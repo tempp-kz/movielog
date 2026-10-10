@@ -48,6 +48,47 @@ class SiteTests(unittest.TestCase):
     def read(self, route):
         return (self.output / route).read_text(encoding="utf-8")
 
+    def test_synopsis_review_layout_preserves_original_text_and_full_timestamp(self):
+        path = self.add("紹介あり", "2024-03-30 20:28:15", short_review="短評 < & 。",
+                        synopsis="少女が <森> に入り、& の先を訪ねると……。",
+                        body="原文の誤字。\n\n末尾の段落も保持。\n")
+        before = path.read_bytes()
+        site.build(self.root, self.output)
+        page = self.read(self.article(path).route)
+        from html.parser import HTMLParser
+        class Tags(HTMLParser):
+            def __init__(self):
+                super().__init__(); self.classes = []; self.times = []; self.ratings = []
+            def handle_starttag(self, tag, attrs):
+                attrs = dict(attrs)
+                self.classes.extend(attrs.get("class", "").split())
+                if tag == "time": self.times.append(attrs["datetime"])
+                if attrs.get("class") == "rating": self.ratings.append(tag)
+        tags = Tags(); tags.feed(page)
+        self.assertEqual(tags.times, ["2024-03-30T20:28:15"])
+        self.assertEqual(tags.ratings, ["strong"])
+        order = ["article-short", "review-byline", "article-synopsis", "review-divider", "article-body"]
+        self.assertEqual([v for v in tags.classes if v in order], order)
+        self.assertIn("<strong>短評 &lt; &amp; 。</strong>", page)
+        self.assertIn("少女が &lt;森&gt; に入り、&amp; の先を訪ねると……。", page)
+        self.assertIn("<p>原文の誤字。</p>\n<p>末尾の段落も保持。</p>", page)
+        self.assertEqual(path.read_bytes(), before)
+
+    def test_reviews_without_synopsis_keep_the_existing_layout(self):
+        paths = [self.add("未追加"), self.add("空欄", synopsis="  "), self.add("未確定", synopsis=None)]
+        site.build(self.root, self.output)
+        for path in paths:
+            page = self.read(self.article(path).route)
+            self.assertNotIn("article-intro", page)
+            self.assertNotIn("review-divider", page)
+            self.assertIn('<span class="rating">3点</span>', page)
+            self.assertIn('<p class="article-short">短評。</p>', page)
+
+    def test_nontext_synopsis_is_rejected_with_article_path(self):
+        path = self.add("不正な紹介", synopsis=["文"])
+        with self.assertRaisesRegex(ValueError, "不正な紹介.*synopsis"):
+            site.load_articles(self.root)
+
     def test_latest_four_and_two_random_preserve_posting_order_and_full_short_text(self):
         self.add("古いレビュー", "2003-01-01")
         for i in range(1, 8):
