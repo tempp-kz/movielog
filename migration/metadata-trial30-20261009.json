@@ -14,7 +14,7 @@
     "cast",
     "genres"
   ],
-  "reading_application": "pending_stage5",
+  "reading_application": "applied_stage5_assistant_working_repository",
   "answer_provenance": {
     "library_file_id": "libfile_db1608e5d12c8191849aaedc2bf04ec1",
     "filename": "映画ログ_MDData確認_30件_回答 (1).json",
@@ -148,14 +148,15 @@
         }
       },
       "approved_reading_pending_stage5": "みっどないとくろにくる",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "03518e17d3a98c58f99a7e8c22ddbb668e32d5a55b462d9ffe3265ec87d3a00f",
       "article_sha256_after": "80e1d0159803845f42e5b01550eb7bf583ac185898bdb24df683b87ac85cbb66",
       "body_sha256_before": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
       "body_sha256_after": "1d32812c48996f86dd81b0eefc367269cc8c776fcd1181f83b22c6ded92739e0",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 2,
@@ -237,14 +238,15 @@
         }
       },
       "approved_reading_pending_stage5": "しょうねん",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "bf31fa9980d97b7c74a387a01880a40d683c34df1d1312e7161faea65ba005c0",
       "article_sha256_after": "a2501f86a23f75a72fcf4cb9eb726722b96022724c6d94e80a177a7734357400",
       "body_sha256_before": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
       "body_sha256_after": "6c482944e08e67a96a48937eb7681f813504c94d9ec59c56fe3cb8ad3671e870",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 3,
@@ -333,14 +335,15 @@
         }
       },
       "approved_reading_pending_stage5": "とおいところ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "93d39e9470e94c365795130101279458732e3679807514d06f36b4f785244b89",
       "article_sha256_after": "cdf8065ace898e8dce39b5ed18b9674c2e76ee3677d6fd0791169ad854beb208",
       "body_sha256_before": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
       "body_sha256_after": "2cc15dd38d1382100f58821dc0d8f5cdb04704be32f3745f8053c19491c8ffef",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2023-07-07"
+      "existing_release_date_preserved": "2023-07-07",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 4,
@@ -437,14 +440,15 @@
         }
       },
       "approved_reading_pending_stage5": "おわらないしゅうまつ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "34f5dc86642b7f4940ce926bc2c2b901827e90993c967b990cb9680ccc47a580",
       "article_sha256_after": "b4d1f37f764faf367d6670f5ba473d4c5710b1872f518585155b5cf0e3fb786c",
       "body_sha256_before": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
       "body_sha256_after": "f34c18c5835b33a88d7cba1f75e2170290d720fb978f2a31f908fa58d24d6e04",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 5,
@@ -536,14 +540,15 @@
         }
       },
       "approved_reading_pending_stage5": "うしくびむら",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "ac30c37116659407506f07a5a0ffc53f495c5327e16de2c90c3a81b06dea239e",
       "article_sha256_after": "2a2b22126de26d35d24fc2ca3019f2edf60aea282b1aa831fd66457406b0e077",
       "body_sha256_before": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
       "body_sha256_after": "fe3cae942148015842ece16536ea6f24eb25b38283030932cddd2749935e1de9",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2022-02-18"
+      "existing_release_date_preserved": "2022-02-18",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 6,
@@ -627,14 +632,15 @@
         }
       },
       "approved_reading_pending_stage5": "ばっどらんどはんたーず",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "77c6068ec6337cbd9b5111622d325f7f971b5025535e582d3a559856b1b67d2d",
       "article_sha256_after": "1b574b4094687b8eeed25de8b2546f00b0320a4bdd55c2b52f1e86e986326c5b",
       "body_sha256_before": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
       "body_sha256_after": "eed387c5cc2029f94a87be96e2b0fc1e88649c9babfb4dc9b05f3e8716368e4d",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 7,
@@ -718,14 +724,15 @@
         }
       },
       "approved_reading_pending_stage5": "しりょうのはらわたらいじんぐ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "aae6555339acf454fa596f524e9f7ea60366f82875b18f4d3bec7ff8809c0ca7",
       "article_sha256_after": "a6355217160664a522ca9f35b73fe4c2a8a85f72ae5904ff49c78dd5ded6a83b",
       "body_sha256_before": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
       "body_sha256_after": "56203f414b954f9ae8968a790990e9af003b20ef8be62d183013c349692b7338",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 8,
@@ -819,14 +826,15 @@
         }
       },
       "approved_reading_pending_stage5": "きらーぶっくくらぶ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "8ec417c9284e505f864f145cfbfb2c7fdef2a9d1899f724d470d358f16870122",
       "article_sha256_after": "e96044c0f269ee3fe14845c0aed059196ce3413644b099e8fe9f07ae7499b2ee",
       "body_sha256_before": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
       "body_sha256_after": "6e2b69735cf8eec65eb09ed7568972a94baf700c26734e34fea2ddaff5a4bc2b",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 9,
@@ -930,14 +938,15 @@
         }
       },
       "approved_reading_pending_stage5": "ぞんひゃくぞんびになるまでにしたいひゃくのこと",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "a16b9f60a7fc246c4cae6a875b63353f8f9788d32d3feeddacf0a4db6af429ca",
       "article_sha256_after": "5378903fbc8df13dee141c37239e29a63cde263188a29ccc6a884c5a8e33006a",
       "body_sha256_before": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
       "body_sha256_after": "12051fc7118a38e88b3602401f103f6b5e737c972d2e6364691265bbaf0791b6",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 10,
@@ -1021,14 +1030,15 @@
         }
       },
       "approved_reading_pending_stage5": "すまいる",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "18618e4b94ecaf2a0f11cfa45969e7293ffebdd6a8e81fd2c47044f1cd38f065",
       "article_sha256_after": "7016f4f77c9eafefb74067a6b98f39bce76270d1a881cfb576392e4416654dbc",
       "body_sha256_before": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
       "body_sha256_after": "03ae7d3356cf9ec9b71e6d7da4757c6069baf3886e77f8712ea060620e27b78a",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 11,
@@ -1122,14 +1132,15 @@
         }
       },
       "approved_reading_pending_stage5": "まるなしどすぞんびのたに",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "f23138caaea06729e592ce3bb363ef6f59264ec6175c91e72429b27b7a53d74c",
       "article_sha256_after": "b6e5c4dd848606d9bc7ee2518765b14f45472dd9ceaa0e3be672482757661638",
       "body_sha256_before": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
       "body_sha256_after": "2a2900d4a8b9525a98722ad92cb1272ea52b37b00ef8bbec25b1d3f7c6c5c4dd",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 12,
@@ -1211,14 +1222,15 @@
         }
       },
       "approved_reading_pending_stage5": "あだだいにぶぜつぼうへん",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "1cc5ffc21957f20376b70e4536a73367a504d756375258e620615275108cb3a9",
       "article_sha256_after": "0c11b2ea32815e9ed0c7eeb73766151ba692f5f34a5e2445b9dc03f4bfbb13f9",
       "body_sha256_before": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
       "body_sha256_after": "6a050f94e0868a71f1d918f6661bca6a7ae2cd39ff8769ce2faff8f13cd8c205",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 13,
@@ -1312,14 +1324,15 @@
         }
       },
       "approved_reading_pending_stage5": "かんせんそうせいき",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "0a948054c0d641e755a4c4581f7a239fde8acd80becd0443800056c0e9c8e537",
       "article_sha256_after": "99431bede4b88f086c0a0da4e921116b2cb7bbc330b6617ba7fc426f5425d884",
       "body_sha256_before": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
       "body_sha256_after": "e4cf5356e7b22775a348b54238d2b48806cda3e38538de739a88b523fda8e54f",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 14,
@@ -1405,14 +1418,15 @@
         }
       },
       "approved_reading_pending_stage5": "ろーどおぶせいらむ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "5f1b9c861b7dfb26b17b5bfcd9ba18a26617b1e8afe465ef61e18448851224a1",
       "article_sha256_after": "7b3a8b49b2e37acd8764de483231c6f87894072d51456c84aeb0cde46b414b68",
       "body_sha256_before": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
       "body_sha256_after": "7e1c16ee98df6b3b9fb41e1eba873ab586d451eb47a2e4b892c0b1889bf41016",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2013-09-28"
+      "existing_release_date_preserved": "2013-09-28",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 15,
@@ -1504,14 +1518,15 @@
         }
       },
       "approved_reading_pending_stage5": "げきじょうばんぷりぱらあんどきらっとぷりちゃんきらきらめもりあるらいぶ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "58c93902143e01892648762937569b6f100af9081efa0c6fdf4a961781f08a5b",
       "article_sha256_after": "026c519e555f191f1d7cef2aadd4eccdad132336e9721f49229cb393de643c7a",
       "body_sha256_before": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
       "body_sha256_after": "883a6bb6af00a3584fbe6faff2d2bf5f883a2f2713f8fc295a19d9e725abfe88",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2018-05-05"
+      "existing_release_date_preserved": "2018-05-05",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 16,
@@ -1618,14 +1633,15 @@
         }
       },
       "approved_reading_pending_stage5": "らすとでいずおんまーず",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "7701dbc0c14d87d35cb7de103c3fb0cc9f7e1eeaafa07d5179ee1ec63d3000ad",
       "article_sha256_after": "2606729f1adc181bd1a9810a694441655b0d79e528932b5959384aeeaa3a56e9",
       "body_sha256_before": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
       "body_sha256_after": "184d0821f43e744fb09d5a77da808b3be55c2ae19be5d7899203be39b2525d9f",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 17,
@@ -1706,14 +1722,15 @@
         }
       },
       "approved_reading_pending_stage5": "あふりくてっど",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "866673057c5ed94409d3e1389dcc47ca067afbb5ab9440224b76fda3de453c93",
       "article_sha256_after": "aec26887b017b56e8a6efe8a4a68eb2c42a04e2c18e19c5f3f0c86c75c869715",
       "body_sha256_before": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
       "body_sha256_after": "6cb37deee1edac7e7b65030d4b83b778d19317a11afe1892283f31a15eae332f",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2015-01-27"
+      "existing_release_date_preserved": "2015-01-27",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 18,
@@ -1816,14 +1833,15 @@
         }
       },
       "approved_reading_pending_stage5": "あそこのせき",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "a750c94ec0841e8c808576de2f35da7c6c7c1a61ce94c0e708a9817a693ac96b",
       "article_sha256_after": "4bf3e9dc3c01247b59269df3f451f5902ac4b5465e710fdee11942a5cf05e6fe",
       "body_sha256_before": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
       "body_sha256_after": "6c484f3304e5d9d39d1ba4b98f7a05f80b452e656ece2cc5f4c3c8f07760fe84",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 19,
@@ -1915,14 +1933,15 @@
         }
       },
       "approved_reading_pending_stage5": "めありーとひみつのおうこく",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "5782ff2ea3842d2617d70366ce8a539ba0c92e8768f51ac90903c5c901e94cad",
       "article_sha256_after": "08e3edd68b1fd678d5b876156950795f9dfa13cf11d0da9ee606135d94382f08",
       "body_sha256_before": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
       "body_sha256_after": "a62e996ffbbc9d7bb3573683513324fc9f1e1c90a0ac254afedd52d50a011e86",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2014-10-18"
+      "existing_release_date_preserved": "2014-10-18",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 20,
@@ -2000,14 +2019,15 @@
         }
       },
       "approved_reading_pending_stage5": "さつりくしょくにんしばかりおとこ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "04273e373a8e0a9f21b591632f593b4e4cda710fd8f6fd3ce1e6e401c3c6c53e",
       "article_sha256_after": "68199176244f19b3aa2133361bd5a4f4ac01dbab5e7b804269fa35169e9949a6",
       "body_sha256_before": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
       "body_sha256_after": "e455c178065f0e7d94527743c00737d2877e3e6a8969b373ebe00d05d5abcbc0",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 21,
@@ -2113,14 +2133,15 @@
         }
       },
       "approved_reading_pending_stage5": "111111",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "a568a96e413e4db4cb4912843f4d4dbeea5b6f2b977c36e31e4cacd4a377528b",
       "article_sha256_after": "7239f8e7e1491f0fb2147fda322125fad23d007e28be23f33148767bd8c8a32d",
       "body_sha256_before": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
       "body_sha256_after": "6c67ee0a422aef73965af389785bfe6df0ce099722d4fbf91710948744952d45",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 22,
@@ -2202,14 +2223,15 @@
         }
       },
       "approved_reading_pending_stage5": "げきじょうばんしどにあのきし",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "29ccc761a6581bdd122a0b734f681e4f222830064e8742500ded8f4e24b7db9a",
       "article_sha256_after": "befcea368fbc8ad06110a0fdc9ebf69904305ef9320921f723b5887395364ada",
       "body_sha256_before": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
       "body_sha256_after": "30329b990397575998220bbcb682b32270c6606affd652b7637a58e368bd904d",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": "2015-03-06"
+      "existing_release_date_preserved": "2015-03-06",
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 23,
@@ -2289,14 +2311,15 @@
         }
       },
       "approved_reading_pending_stage5": "ばばどっくくらやみのまもの",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "2c4d6b21e4f009ea91aedb9d14cae682ae56adb2ad51337c303ba2baa074f993",
       "article_sha256_after": "d367a100781f99207167fa8217a7bb88925575c181f494bb4cf3e038b7f6039c",
       "body_sha256_before": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
       "body_sha256_after": "57b87a1990e67ef1888e314a54e5f3520d73975b4ab4f3dfa765fbf14b3f171e",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 24,
@@ -2374,14 +2397,15 @@
         }
       },
       "approved_reading_pending_stage5": "えんかうんたーずしんりゃく",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "3fe0f4cc3b43fcba02a2785e60c95c61f2f7a66a2fd11ddaa2f987c884d06567",
       "article_sha256_after": "929b6c118b7f423c83e9c24a7d75562b0b48e324d150f6feb69773fa5680b3e4",
       "body_sha256_before": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
       "body_sha256_after": "370520965561bd5dd9f68a23133051534eb1dec1556973a3f669d8a6d154f8cf",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 25,
@@ -2471,14 +2495,15 @@
         }
       },
       "approved_reading_pending_stage5": "ぐりずりーれいじ",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "04dfb3917fc19083cf7255e099afd450bc141ac4a9574469be0ef3d6765ee2c4",
       "article_sha256_after": "2704878796d30db7073906531c5d4df33c99b5633a8ac98170fdf2011558df48",
       "body_sha256_before": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
       "body_sha256_after": "6471bcefd3c0d3c84aeba92d3c5555056c97cfb7fc3694cd7fae92ff7b524762",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 26,
@@ -2566,14 +2591,15 @@
         }
       },
       "approved_reading_pending_stage5": "くるーどさんちのはじめてのぼうけん",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "528cbbf656e7e94f2ae3688d0a9329ca72893c2d1390e3628418f68898fa5802",
       "article_sha256_after": "6a9ff2ea5668438026755e2ecc6248983e8010d5a43437fbb30cee00d0585314",
       "body_sha256_before": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
       "body_sha256_after": "c4d2529be7ced0876c764ad783da77d5b61821b0e31e8a2f6bf366949b857e0f",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 27,
@@ -2659,14 +2685,15 @@
         }
       },
       "approved_reading_pending_stage5": "ついのしんたく",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "82659fa38c03a63bb78101caaddecacb8abfafbc6e6878bdeb0b431e10bc2adc",
       "article_sha256_after": "d75f29407e41dcaaab860f0a71e12b61679b2047affe2ca53404c8c3f1d0df04",
       "body_sha256_before": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
       "body_sha256_after": "45b06e7020e9ebbba8b280cc28a6f121e54b43b3114ff65f1185aa1b70a7d675",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 28,
@@ -2791,14 +2818,15 @@
         }
       },
       "approved_reading_pending_stage5": "ちれらま",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "6545fe8be4fd6b29e58b1d7d3dd006f7ba767b53057da0bdfd958eea857507ce",
       "article_sha256_after": "fbe73149ce7a737fb3e2de6b4ee562a5be3d63993a66d3fb7bf382dc85b21bd7",
       "body_sha256_before": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
       "body_sha256_after": "f6ee116469a313e6e138a20dbba354d1f5bae26289b39c3c523fa29dd0f45e82",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 29,
@@ -2889,14 +2917,15 @@
         }
       },
       "approved_reading_pending_stage5": "あああぞんびーずおれたちだっていきている",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "4142c3c90deab6126e7e2067c3ef691f346ea76d751821f5f2b8ad332238b918",
       "article_sha256_after": "d88aa8ec71d4e2b2df570c37a02e1e105c015d411a91b8588e1896f7dfe94ed8",
       "body_sha256_before": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
       "body_sha256_after": "c50b28e217c9752f918ec8addedfda7f379293b0e75878a62d087748a75aeaec",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     },
     {
       "number": 30,
@@ -2976,14 +3005,17 @@
         }
       },
       "approved_reading_pending_stage5": "ごーすとめいかー",
-      "reading_application_status": "pending_stage5",
+      "reading_application_status": "applied_stage5_assistant_working_repository",
       "article_sha256_before": "c53182a13d59ce3e0b5682a0cc86a45c0cba6ba36de6c4d9fa9036e59dbe9408",
       "article_sha256_after": "6259c46931c46266bf0849154f76a3b6c2efd74226f2ff721886cc2575dbc76c",
       "body_sha256_before": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
       "body_sha256_after": "1d085e31d5a56de4ade30478fc2e6ceae35cb26474bff4035d37cb87127b9a39",
       "protected_fields_unchanged": true,
       "protected_frontmatter_bytes_unchanged": true,
-      "existing_release_date_preserved": null
+      "existing_release_date_preserved": null,
+      "reading_application_record": "migration/reading-trial30-20261010.json"
     }
-  ]
+  ],
+  "reading_application_record": "migration/reading-trial30-20261010.json",
+  "reading_applied_at": "2026-10-10T09:55:02.874638+09:00"
 }

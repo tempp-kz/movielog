@@ -1,8 +1,8 @@
 ---
 type: review
 title: AFFLICTED アフリクテッド
-reading: null
-reading_status: 未調査
+reading: "あふりくてっど"
+reading_status: 取得済み
 release_date: '2015-01-27'
 release_year: 2015
 genres:
