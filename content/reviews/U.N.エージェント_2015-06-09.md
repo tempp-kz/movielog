@@ -1,18 +1,22 @@
 ---
 type: review
 title: U.N.エージェント
-reading: null
-reading_status: 未調査
+reading: ゆーえぬえーじぇんと
+reading_status: 取得済み
 release_date: null
-release_year: null
-genres: []
+release_year: 2008
+genres:
+- 戦争
+- ドラマ
 directors:
 - ジャコモ・バティアート
 cast:
 - ブノワ・マジメル
 - イポリット・ジラルド
-- カロリーナ・グルシュカ
 - ケン・デュケン
+- カロリーナ・グルシュカ
+- フリスト・ショポフ
+- クリストフ・オーデン
 filmarks_url: https://filmarks.com/movies/60071
 filmarks_id: '60071'
 review_date: '2015-06-09 00:00:18'
@@ -20,6 +24,7 @@ rating: 3.0
 rating_display: 3点
 rating_original: POINT：－
 short_review: 凄腕？
+synopsis: スレブレニツァで8000人を超えるイスラム教徒が行方不明となった。国連は自体を重く見て凄腕の捜査官ジャックを派遣するが……。
 source: FC2
 source_url: null
 image: null

@@ -1,0 +1,4920 @@
+{
+  "batch_id": "metadata-trial-next30-20261012-1ed87ef5037e",
+  "dataset_id": "movielog-next30-20261012-1ed87ef5037e",
+  "base_commit": "beaa4b4affea7e1709b89443ee0794ac69bd8ef3",
+  "source_base_commit": "beaa4b4affea7e1709b89443ee0794ac69bd8ef3",
+  "applied_at": "2026-10-14T11:05:33.723920+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "f63fe275e761f69a8f036b60e2e6aed69243bde808af6041e681e2ea9c3a48ac",
+  "candidate_sha256": "0157a31c60f2861809e991fb41ce569cc5db6bc2f94d4b4033f22f0c218ee5eb",
+  "target_sha256": "6d12b52db773be6b28087b52f5321fe5fe888c49e2d9341023ec7eefd8b4a055",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/チルドレン・オブ・ザ・コーン_2015-10-12.md",
+      "title": "チルドレン・オブ・ザ・コーン",
+      "review_date": "2015-10-12 00:00:55",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "フリッツ・カーシュ"
+        ],
+        "cast": [
+          "ピーター・ホートン",
+          "リンダ・ハミルトン",
+          "R・G・アームストロング",
+          "ジョン・フランクリン",
+          "コートニー・ゲインズ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1984,
+        "directors": [
+          "フリッツ・カーシュ"
+        ],
+        "cast": [
+          "ピーター・ホートン",
+          "リンダ・ハミルトン",
+          "R・G・アームストロング",
+          "ジョン・フランクリン",
+          "コートニー・ゲインズ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ちるどれんおぶざこーん",
+        "release_year": 1984,
+        "directors": [
+          "フリッツ・カーシュ"
+        ],
+        "cast": [
+          "ピーター・ホートン",
+          "リンダ・ハミルトン",
+          "R・G・アームストロング",
+          "ジョン・フランクリン",
+          "コートニー・ゲインズ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "バートは彼女とドライブ中に子どもを轢き、病院を求めてとうもろこし畑の広がる村を探し回るが村には大人の姿は見えず、子どもしかいない。"
+      },
+      "article_sha256_before": "907d0d52fc296285ea71b80a6a10bab4e2c803199569f3ad401c86f72c90678b",
+      "article_sha256_after": "46c9d4675174bc41c6a175ebd8b4967355cb1aa3373612daae86152fec12a47e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r01king",
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちるどれんおぶざこーん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r01king",
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "本人判断",
+              "region": "日本",
+              "video_through": false,
+              "year": "1984"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r01king",
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フリッツ・カーシュ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ピーター・ホートン\nリンダ・ハミルトン\nR・G・アームストロング\nジョン・フランクリン\nコートニー・ゲインズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r01king",
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r01king",
+            "r01ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "バートは彼女とドライブ中に子どもを轢き、病院を求めてとうもろこし畑の広がる村を探し回るが村には大人の姿は見えず、子どもしかいない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ストレージ２４_2015-10-09.md",
+      "title": "ストレージ２４",
+      "review_date": "2015-10-09 00:00:51",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2013,
+        "directors": [
+          "ヨハネス・ロバーツ"
+        ],
+        "cast": [
+          "ノエル・クラーク",
+          "コリン・オドナヒュー",
+          "ネッド・デネヒー",
+          "アントニア・キャンベル＝ヒューズ",
+          "ローラ・ハドック"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "ヨハネス・ロバーツ"
+        ],
+        "cast": [
+          "ノエル・クラーク",
+          "コリン・オドノヒュー",
+          "ネッド・デネヒー",
+          "ローラ・ハドック",
+          "アントニア・キャンベル＝ヒューズ"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "すとれーじ24",
+        "release_year": 2013,
+        "directors": [
+          "ヨハネス・ロバーツ"
+        ],
+        "cast": [
+          "ノエル・クラーク",
+          "コリン・オドノヒュー",
+          "ネッド・デネヒー",
+          "ローラ・ハドック",
+          "アントニア・キャンベル＝ヒューズ"
+        ],
+        "genres": [
+          "サスペンス",
+          "ミステリー"
+        ],
+        "synopsis": "貨物機が墜落したロンドンで停電した貸倉庫に人々が閉じ込められ、正体不明の襲撃者に遭遇する。"
+      },
+      "article_sha256_before": "d152bcdf9c27d6869536d93a2176cb46224acbd77ba1753ef1a8b46d2bfc7e97",
+      "article_sha256_after": "1e3ce96202896f58b0a597fb2abeecba8381864ec4aaab6523c8551b786ba1e0",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すとれーじ24",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2013"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヨハネス・ロバーツ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ノエル・クラーク\nコリン・オドノヒュー\nネッド・デネヒー\nローラ・ハドック\nアントニア・キャンベル＝ヒューズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r02pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "貨物機が墜落したロンドンで停電した貸倉庫に人々が閉じ込められ、正体不明の襲撃者に遭遇する。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アイス・エイジ４　パイレーツ大冒険_2015-10-06.md",
+      "title": "アイス・エイジ４　パイレーツ大冒険",
+      "review_date": "2015-10-06 00:00:56",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "スティーヴ・マーティノ",
+          "マイケル・サーマイヤー"
+        ],
+        "cast": [
+          "ジョン・レグイザモ",
+          "レイ・ロマノ",
+          "デニス・リアリー",
+          "クイーン・ラティファ",
+          "ジェニファー・ロペス"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "スティーヴ・マーティノ",
+          "マイケル・サーマイヤー"
+        ],
+        "cast": [
+          "ジョン・レグイザモ",
+          "レイ・ロマーノ",
+          "デニス・リアリー",
+          "クイーン・ラティファ",
+          "ジェニファー・ロペス"
+        ],
+        "genres": [
+          "アニメ",
+          "コメディ",
+          "ファミリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あいすえいじ4ぱいれーつだいぼうけん",
+        "release_year": 2012,
+        "directors": [
+          "スティーヴ・マーティノ",
+          "マイケル・サーマイヤー"
+        ],
+        "cast": [
+          "ジョン・レグイザモ",
+          "レイ・ロマーノ",
+          "デニス・リアリー",
+          "クイーン・ラティファ",
+          "ジェニファー・ロペス"
+        ],
+        "genres": [
+          "アニメ",
+          "コメディ",
+          "ファミリー"
+        ],
+        "synopsis": "地殻変動で流氷ごと海へ流されたマンモスたちが、家族のもとへ帰ろうとする途中で海賊に出会う。"
+      },
+      "article_sha256_before": "fb707aedcabd4059995ab1d91d00145a9f9d526a304b64c4645c905ad3dc69bd",
+      "article_sha256_after": "310e548348b3c77c33ea69a8ad262b4edbd5cfb8a4442ce693d8e5f127b6bc42",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あいすえいじ4ぱいれーつだいぼうけん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "世界一般公開",
+              "region": "ベルギー・フランス等",
+              "video_through": true,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スティーヴ・マーティノ\nマイケル・サーマイヤー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・レグイザモ\nレイ・ロマーノ\nデニス・リアリー\nクイーン・ラティファ\nジェニファー・ロペス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nコメディ\nファミリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r03fox",
+            "r03ac",
+            "r03bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "地殻変動で流氷ごと海へ流されたマンモスたちが、家族のもとへ帰ろうとする途中で海賊に出会う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ＲＥＣ：レック／ザ・クアランティン_2015-10-03.md",
+      "title": "ＲＥＣ：レック／ザ・クアランティン",
+      "review_date": "2015-10-03 00:00:32",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョン・エリック・ドゥードル"
+        ],
+        "cast": [
+          "ジェニファー・カーペンター",
+          "スティーヴ・ハリス",
+          "ジェイ・ヘルナンデス",
+          "ジョナサン・シェック",
+          "コロンバス・ショート",
+          "アンドリュー・フィセラ",
+          "ラデ・シェルベッジア",
+          "グレッグ・ジャーマン",
+          "バーナード・ホワイト",
+          "ダニア・ラミレス",
+          "エレイン・ケイガン",
+          "マリン・ヒンクル",
+          "ジョーイ・キング",
+          "ジャーメイン・ジャクソン",
+          "シャロン・ファーガソン",
+          "デニス・オヘア"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ジョン・エリック・ドゥードル"
+        ],
+        "cast": [
+          "ジェニファー・カーペンター",
+          "スティーヴ・ハリス",
+          "ジェイ・ヘンアンデス",
+          "ジョナサン・シェック"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス",
+          "パニック"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "れっくざくあらんてぃん",
+        "release_year": 2008,
+        "directors": [
+          "ジョン・エリック・ドゥードル"
+        ],
+        "cast": [
+          "ジェニファー・カーペンター",
+          "スティーヴ・ハリス",
+          "ジェイ・ヘンアンデス",
+          "ジョナサン・シェック"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス",
+          "パニック"
+        ],
+        "synopsis": "消防士の取材に同行したテレビレポーターが、住人に襲われる事件の起きたアパートに封じ込められる。"
+      },
+      "article_sha256_before": "9761d2aaaeca7bfb2e0d598b68699646d6f6376242d217be5733020db79cbb6d",
+      "article_sha256_after": "1aead1572f3c350936f5878492ff05a0f9e6c4cf5c4b31d9275913a5ae08a038",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r04sony",
+            "r04ac",
+            "r04bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "れっくざくあらんてぃん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r04ac",
+            "r04bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "世界一般公開",
+              "region": "米国等",
+              "video_through": true,
+              "year": "2008"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r04sony",
+            "r04ac",
+            "r04bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・エリック・ドゥードル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r04sony",
+            "r04ac",
+            "r04bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェニファー・カーペンター\nスティーヴ・ハリス\nジェイ・ヘンアンデス\nジョナサン・シェック",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r04ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nサスペンス\nパニック",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r04sony",
+            "r04ac",
+            "r04bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "消防士の取材に同行したテレビレポーターが、住人に襲われる事件の起きたアパートに封じ込められる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ヤング・シャーロック　ピラミッドの謎_2015-09-15.md",
+      "title": "ヤング・シャーロック　ピラミッドの謎",
+      "review_date": "2015-09-15 00:00:57",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "バリー・レヴィンソン"
+        ],
+        "cast": [
+          "ニコラス・ロウ",
+          "アラン・コックス",
+          "ソフィー・ウォード",
+          "アンソニー・ヒギンズ",
+          "スーザン・フリートウッド",
+          "フレディ・ジョーンズ",
+          "ナイジェル・ストック",
+          "ロジャー・アシュトン=グリフィス",
+          "アール・ローズ"
+        ],
+        "genres": [
+          "アクション",
+          "アドベンチャー・冒険"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1986,
+        "directors": [
+          "バリー・レヴィンソン"
+        ],
+        "cast": [
+          "ニコラス・ロウ",
+          "アラン・コックス",
+          "ソフィー・ウォード",
+          "アンソニー・ヒギンズ",
+          "スーザン・フリートウッド"
+        ],
+        "genres": [
+          "ミステリー",
+          "アドベンチャー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "やんぐしゃーろっく ぴらみっどのなぞ",
+        "release_year": 1986,
+        "directors": [
+          "バリー・レヴィンソン"
+        ],
+        "cast": [
+          "ニコラス・ロウ",
+          "アラン・コックス",
+          "ソフィー・ウォード",
+          "アンソニー・ヒギンズ",
+          "スーザン・フリートウッド"
+        ],
+        "genres": [
+          "ミステリー",
+          "アドベンチャー"
+        ],
+        "synopsis": "学校で出会った少年ホームズとワトソンが、教授の謎の死をきっかけに事件を追い始める。"
+      },
+      "article_sha256_before": "308bfd8d060bd64a4324e62d28a34e72499684c9fe72c645aa7bf33b8a5ffc1b",
+      "article_sha256_after": "5ef622ca700eceb28f6a9dbc50ca26583664eb6ba3db8a1a5baf6d54f5ee61ba",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "やんぐしゃーろっく ぴらみっどのなぞ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1986"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "バリー・レヴィンソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ニコラス・ロウ\nアラン・コックス\nソフィー・ウォード\nアンソニー・ヒギンズ\nスーザン・フリートウッド",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミステリー\nアドベンチャー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r05eiga",
+            "r05bs"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "学校で出会った少年ホームズとワトソンが、教授の謎の死をきっかけに事件を追い始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ジョーズ'８７／復讐篇_2015-08-30.md",
+      "title": "ジョーズ'８７／復讐篇",
+      "review_date": "2015-08-30 00:00:34",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョセフ・サージェント"
+        ],
+        "cast": [
+          "マイケル・ケイン",
+          "ロレイン・ゲイリー",
+          "マリオ・ヴァン・ピーブルズ",
+          "ランス・ゲスト",
+          "カレン・ヤング",
+          "ジュディス・バーシ",
+          "リン・ウィットフィールド",
+          "ミッチェル・アンダーソン",
+          "ジェイ・メロ",
+          "セドリック・スコット",
+          "メルヴィン・ヴァン・ピーブルズ"
+        ],
+        "genres": [
+          "パニック"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1987,
+        "directors": [
+          "ジョセフ・サージェント"
+        ],
+        "cast": [
+          "ロレイン・ゲイリー",
+          "マイケル・ケイン",
+          "ランス・ゲスト",
+          "マリオ・バン・ピーブルズ",
+          "カレン・ヤング"
+        ],
+        "genres": [
+          "パニック",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "じょーず87ふくしゅうへん",
+        "release_year": 1987,
+        "directors": [
+          "ジョセフ・サージェント"
+        ],
+        "cast": [
+          "ロレイン・ゲイリー",
+          "マイケル・ケイン",
+          "ランス・ゲスト",
+          "マリオ・バン・ピーブルズ",
+          "カレン・ヤング"
+        ],
+        "genres": [
+          "パニック",
+          "サスペンス"
+        ],
+        "synopsis": "息子をサメに奪われたエレンが長男の暮らすバハマを訪れると、巨大ザメが再び一家に迫る。"
+      },
+      "article_sha256_before": "d4a2d3c9e58d1795b346bbcb7ccbb7cafbd8ac6bfba1691462ed7ae35f3a6db1",
+      "article_sha256_after": "e2584964eab5533f746de148c92ed6b71269d2aae016ae627971b9c953517222",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "じょーず87ふくしゅうへん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1987"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョセフ・サージェント",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロレイン・ゲイリー\nマイケル・ケイン\nランス・ゲスト\nマリオ・バン・ピーブルズ\nカレン・ヤング",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パニック\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r06eiga",
+            "r06ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "息子をサメに奪われたエレンが長男の暮らすバハマを訪れると、巨大ザメが再び一家に迫る。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ベルフラワー_2015-08-12.md",
+      "title": "ベルフラワー",
+      "review_date": "2015-08-12 00:00:59",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2012,
+        "directors": [
+          "エヴァン・グローデル"
+        ],
+        "cast": [
+          "エヴァン・グローデル",
+          "ジェシー・ワイズマン",
+          "タイラー・ドーソン",
+          "レベッカ・ブランデス",
+          "ヴィンセント・グラショー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "エヴァン・グローデル"
+        ],
+        "cast": [
+          "エヴァン・グローデル",
+          "ジェシー・ワイズマン",
+          "タイラー・ドーソン",
+          "レベッカ・ブランデス",
+          "ヴィンセント・グラショー"
+        ],
+        "genres": [
+          "青春ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "べるふらわー",
+        "release_year": 2012,
+        "directors": [
+          "エヴァン・グローデル"
+        ],
+        "cast": [
+          "エヴァン・グローデル",
+          "ジェシー・ワイズマン",
+          "タイラー・ドーソン",
+          "レベッカ・ブランデス",
+          "ヴィンセント・グラショー"
+        ],
+        "genres": [
+          "青春ドラマ"
+        ],
+        "synopsis": "火炎放射器の改造に熱中する青年が、ミリーとの出会いをきっかけに恋に落ちる。"
+      },
+      "article_sha256_before": "d23a5b4bd835daa3c265794c2993dc7c1d4c672304bbfbc07f729adfedf0cf0a",
+      "article_sha256_after": "311f526d993f32f5583a1cb545d0de460ef82099eca1904b84aaac0184d106ac",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "べるふらわー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エヴァン・グローデル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エヴァン・グローデル\nジェシー・ワイズマン\nタイラー・ドーソン\nレベッカ・ブランデス\nヴィンセント・グラショー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "青春ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r07pia"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "火炎放射器の改造に熱中する青年が、ミリーとの出会いをきっかけに恋に落ちる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/変態島_2015-08-06.md",
+      "title": "変態島",
+      "review_date": "2015-08-06 00:00:34",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ファブリス・ドゥ・ヴェルツ"
+        ],
+        "cast": [
+          "エマニュエル・ベアール",
+          "ルーファス・シーウェル",
+          "ペッチ・オササヌグラ",
+          "アンポン・パンクラトク",
+          "ジュリー・ドレフュス",
+          "ヨセ・デパウ"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ファブリス・ドゥ・ヴェルツ"
+        ],
+        "cast": [
+          "エマニュエル・ベアール",
+          "ルーファス・シーウェル",
+          "ペッチ・オササヌグラ",
+          "アンポン・パンクラトク",
+          "ジュリー・ドレフュス",
+          "ヨセ・デパウ"
+        ],
+        "genres": [
+          "サスペンス",
+          "エロティック"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "へんたいじま",
+        "release_year": 2008,
+        "directors": [
+          "ファブリス・ドゥ・ヴェルツ"
+        ],
+        "cast": [
+          "エマニュエル・ベアール",
+          "ルーファス・シーウェル",
+          "ペッチ・オササヌグラ",
+          "アンポン・パンクラトク",
+          "ジュリー・ドレフュス",
+          "ヨセ・デパウ"
+        ],
+        "genres": [
+          "サスペンス",
+          "エロティック"
+        ],
+        "synopsis": "息子を失った夫婦は映像の中に息子に似た子どもを見つけ、その子を探して島へ向かう。"
+      },
+      "article_sha256_before": "cc4accde2f35d2b93efacb0a0f6e4479f14df3af56832cc06431ccf77c5dc6d1",
+      "article_sha256_after": "8c5f794ade70022c714036f27b05d1d0a93e8f5db7704ef49b4b4ec24928d043",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r08ac",
+            "r08apple",
+            "r08cnc",
+            "r08bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "へんたいじま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r08cnc",
+            "r08bom",
+            "r08ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "世界一般公開",
+              "region": "フランス",
+              "video_through": true,
+              "year": "2008"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r08ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファブリス・ドゥ・ヴェルツ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r08ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エマニュエル・ベアール\nルーファス・シーウェル\nペッチ・オササヌグラ\nアンポン・パンクラトク\nジュリー・ドレフュス\nヨセ・デパウ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r08ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nエロティック",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r08ac",
+            "r08apple",
+            "r08cnc",
+            "r08bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "息子を失った夫婦は映像の中に息子に似た子どもを見つけ、その子を探して島へ向かう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ゾンビ　ディレクターズカット版_2015-07-30.md",
+      "title": "ゾンビ　ディレクターズカット版",
+      "review_date": "2015-07-30 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジョージ・A・ロメロ"
+        ],
+        "cast": [
+          "デヴィッド・エムゲ",
+          "ケン・フォリー",
+          "スコット・H・ライニガー",
+          "ゲイラン・ロス",
+          "トム・サヴィーニ",
+          "デヴィッド・クロフォード",
+          "デヴィッド・アーリー",
+          "リチャード・フランス",
+          "ハワード・スミス",
+          "ダニエル・ディートリヒ",
+          "フレッド・ベイカー",
+          "ジェームズ・A・バフィコ",
+          "ロッド・スタウファー"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1994,
+        "directors": [
+          "ジョージ・Ａ・ロメロ"
+        ],
+        "cast": [
+          "ケン・フォリー",
+          "デヴィッド・エムゲ",
+          "スコット・Ｈ・ライニガー",
+          "ゲイラン・ロス",
+          "トム・サヴィーニ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞんび でぃれくたーずかっとばん",
+        "release_year": 1994,
+        "directors": [
+          "ジョージ・Ａ・ロメロ"
+        ],
+        "cast": [
+          "ケン・フォリー",
+          "デヴィッド・エムゲ",
+          "スコット・Ｈ・ライニガー",
+          "ゲイラン・ロス",
+          "トム・サヴィーニ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "ゾンビが増え続ける世界で、男女四人はショッピングセンターに避難場所を求める。"
+      },
+      "article_sha256_before": "874b21479e0e018b5f4951ae79ce167120d867a98de8e7500a88bafcd04404c2",
+      "article_sha256_after": "9d7248fc71c0ffc504620f369e0488b0c59116364e247221ae524b2b81d7050f",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞんび でぃれくたーずかっとばん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開（139分版）",
+              "region": "日本",
+              "video_through": false,
+              "year": "1994"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョージ・Ａ・ロメロ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケン・フォリー\nデヴィッド・エムゲ\nスコット・Ｈ・ライニガー\nゲイラン・ロス\nトム・サヴィーニ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r09eiga",
+            "r09ci"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゾンビが増え続ける世界で、男女四人はショッピングセンターに避難場所を求める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/デビル・インサイド_2015-07-27.md",
+      "title": "デビル・インサイド",
+      "review_date": "2015-07-27 00:00:27",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ウィリアム・ブレント・ベル"
+        ],
+        "cast": [
+          "フェルナンダ・アンドラーデ",
+          "サイモン・クォーターマン",
+          "エヴァン・ヘルムス",
+          "スーザン・クローリー"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ウィリアム・ブレント・ベル"
+        ],
+        "cast": [
+          "フェルナンダ・アンドラーデ",
+          "サイモン・クォーターマン",
+          "エヴァン・ヘルムス",
+          "スーザン・クローリー",
+          "ボニー・モーガン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "でびるいんさいど",
+        "release_year": 2012,
+        "directors": [
+          "ウィリアム・ブレント・ベル"
+        ],
+        "cast": [
+          "フェルナンダ・アンドラーデ",
+          "サイモン・クォーターマン",
+          "エヴァン・ヘルムス",
+          "スーザン・クローリー",
+          "ボニー・モーガン"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "悪魔払い中に母が人を殺した事件を調べるため、娘は二十年後にバチカンへ向かう。"
+      },
+      "article_sha256_before": "f505712ffecf38362f128088446e7464d768dc08ca1509b75ef64f8effffdfa8",
+      "article_sha256_after": "7b03f66f66e490905c630b72cbdd5845eed163d99edf76b829b26913cfb6c71f",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "でびるいんさいど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "世界一般公開",
+              "region": "米国",
+              "video_through": true,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ウィリアム・ブレント・ベル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フェルナンダ・アンドラーデ\nサイモン・クォーターマン\nエヴァン・ヘルムス\nスーザン・クローリー\nボニー・モーガン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r10ac",
+            "r10bom"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "悪魔払い中に母が人を殺した事件を調べるため、娘は二十年後にバチカンへ向かう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ドットハック　セカイの向こうに_2015-07-24.md",
+      "title": "ドットハック　セカイの向こうに",
+      "review_date": "2015-07-24 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "松山洋"
+        ],
+        "cast": [],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "松山洋"
+        ],
+        "cast": [
+          "桜庭ななみ",
+          "松坂桃李",
+          "田中圭",
+          "福井裕佳梨",
+          "井上麻里奈",
+          "緒方賢一",
+          "藤田咲",
+          "勝生真沙子",
+          "増谷康紀",
+          "檜山修之"
+        ],
+        "genres": [
+          "SF・ファンタジー",
+          "アニメーション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "どっとはっく せかいのむこうに",
+        "release_year": 2012,
+        "directors": [
+          "松山洋"
+        ],
+        "cast": [
+          "桜庭ななみ",
+          "松坂桃李",
+          "田中圭",
+          "福井裕佳梨",
+          "井上麻里奈",
+          "緒方賢一",
+          "藤田咲",
+          "勝生真沙子",
+          "増谷康紀",
+          "檜山修之"
+        ],
+        "genres": [
+          "SF・ファンタジー",
+          "アニメーション"
+        ],
+        "synopsis": "女子中学生そらがオンラインゲームに参加すると、仮想世界と現実の両方で異変が起こり始める。"
+      },
+      "article_sha256_before": "1cfa9e4e909a40f88689178d6c5b6c9ba7d4df6afe53688d405d54813a8387b7",
+      "article_sha256_after": "834472771c38718b47f675274a97a7c9183895c9b6e8301c98eeb093f3db6ccc",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r11jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どっとはっく せかいのむこうに",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r11jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r11jfdb",
+            "r11fd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "松山洋",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r11fd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "桜庭ななみ\n松坂桃李\n田中圭\n福井裕佳梨\n井上麻里奈\n緒方賢一\n藤田咲\n勝生真沙子\n増谷康紀\n檜山修之",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r11jfdb"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF・ファンタジー\nアニメーション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r11jfdb",
+            "r11fd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "女子中学生そらがオンラインゲームに参加すると、仮想世界と現実の両方で異変が起こり始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/劇場版 どうぶつの森_2015-07-12.md",
+      "title": "劇場版 どうぶつの森",
+      "review_date": "2015-07-12 00:00:22",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2006,
+        "directors": [
+          "志村錠児"
+        ],
+        "cast": [],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "志村錠児"
+        ],
+        "cast": [
+          "堀江由衣",
+          "福圓美里",
+          "折笠富美子"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "げきじょうばん どうぶつのもり",
+        "release_year": 2006,
+        "directors": [
+          "志村錠児"
+        ],
+        "cast": [
+          "堀江由衣",
+          "福圓美里",
+          "折笠富美子"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "どうぶつ村に引っ越したあいが、働きながら暮らすうちに、浜辺で不思議な手紙を拾う。"
+      },
+      "article_sha256_before": "fecc746176586189926cd7ae8b01b109dd03aa86c9f945a04979f2667835b4d4",
+      "article_sha256_after": "ee62f69fd74cfe0097fc5a730167affa4a9f639a4b62365f9e0a14faf334b508",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "げきじょうばん どうぶつのもり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2006"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "志村錠児",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "堀江由衣\n福圓美里\n折笠富美子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r12ct"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どうぶつ村に引っ越したあいが、働きながら暮らすうちに、浜辺で不思議な手紙を拾う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/古畑任三郎ファイナル 今、甦る死_2015-07-06.md",
+      "title": "古畑任三郎ファイナル 今、甦る死",
+      "review_date": "2015-07-06 00:00:18",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 2006,
+        "directors": [],
+        "cast": [
+          "田村正和",
+          "西村まさ彦",
+          "石井正則",
+          "藤原竜也",
+          "石坂浩二",
+          "松嶋菜々子"
+        ],
+        "genres": [
+          "単発"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "河野圭太"
+        ],
+        "cast": [
+          "田村正和",
+          "石坂浩二",
+          "藤原竜也",
+          "西村雅彦",
+          "石井正則",
+          "小林隆",
+          "立石凉子",
+          "千葉哲也",
+          "吉田日出子"
+        ],
+        "genres": [
+          "ミステリー",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふるはたにんざぶろうふぁいなるいまよみがえるし",
+        "release_year": 2006,
+        "directors": [
+          "河野圭太"
+        ],
+        "cast": [
+          "田村正和",
+          "石坂浩二",
+          "藤原竜也",
+          "西村雅彦",
+          "石井正則",
+          "小林隆",
+          "立石凉子",
+          "千葉哲也",
+          "吉田日出子"
+        ],
+        "genres": [
+          "ミステリー",
+          "コメディ"
+        ],
+        "synopsis": "裏山開発を巡って対立するパン工場の経営者一家で遺体が見つかり、古畑任三郎が捜査に入る。"
+      },
+      "article_sha256_before": "410cf71736008596ac1fd04129bd4836d8af8aa18f731431ea91865b198901ff",
+      "article_sha256_after": "15df30bd18945bf72bb125304025ef1bc8427060e5e9c385050623284091363e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふるはたにんざぶろうふぁいなるいまよみがえるし",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本初回放送",
+              "region": "日本",
+              "video_through": false,
+              "year": "2006"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "河野圭太",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田村正和\n石坂浩二\n藤原竜也\n西村雅彦\n石井正則\n小林隆\n立石凉子\n千葉哲也\n吉田日出子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミステリー\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r13ac",
+            "r13fuji"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "裏山開発を巡って対立するパン工場の経営者一家で遺体が見つかり、古畑任三郎が捜査に入る。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/蝿男の恐怖_2015-07-03.md",
+      "title": "蝿男の恐怖",
+      "review_date": "2015-07-03 00:00:39",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "カート・ニューマン"
+        ],
+        "cast": [
+          "デヴィッド・ヘディソン",
+          "パトリシア・オーウェンズ",
+          "ヴィンセント・プライス",
+          "ハーバート・マーシャル",
+          "キャスリーン・フリーマン",
+          "ベティ・ルー・ガーソン",
+          "チャールズ・ハーバート",
+          "ユージン・ボーデン",
+          "ハリー・カーター"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1958,
+        "directors": [
+          "カート・ニューマン"
+        ],
+        "cast": [
+          "アル・ヘディソン",
+          "パトリシア・オーウェンズ",
+          "ヴィンセント・プライス",
+          "ハーバート・マーシャル",
+          "キャスリーン・フリーマン",
+          "ベティ・ルー・ガーソン",
+          "チャールズ・ハーバート",
+          "ユージン・ボーデン",
+          "ハリー・カーター"
+        ],
+        "genres": [
+          "SF",
+          "ホラー",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "はえおとこのきょうふ",
+        "release_year": 1958,
+        "directors": [
+          "カート・ニューマン"
+        ],
+        "cast": [
+          "アル・ヘディソン",
+          "パトリシア・オーウェンズ",
+          "ヴィンセント・プライス",
+          "ハーバート・マーシャル",
+          "キャスリーン・フリーマン",
+          "ベティ・ルー・ガーソン",
+          "チャールズ・ハーバート",
+          "ユージン・ボーデン",
+          "ハリー・カーター"
+        ],
+        "genres": [
+          "SF",
+          "ホラー",
+          "ドラマ"
+        ],
+        "synopsis": "物質転送装置を作った科学者が自ら実験を試みるが、装置に紛れ込んだ蝿によって姿が変わる。"
+      },
+      "article_sha256_before": "532537363d1da7ed01cd88603df472882c83e3d7cac46a4d1040fbbb86f9af28",
+      "article_sha256_after": "bfb3b07a4c5b301044430a6c955ab49744f2ce3517912e74a071ef1125334453",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "はえおとこのきょうふ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "世界一般公開",
+              "region": "米国",
+              "video_through": true,
+              "year": "1958"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カート・ニューマン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アル・ヘディソン\nパトリシア・オーウェンズ\nヴィンセント・プライス\nハーバート・マーシャル\nキャスリーン・フリーマン\nベティ・ルー・ガーソン\nチャールズ・ハーバート\nユージン・ボーデン\nハリー・カーター",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nホラー\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r14ac",
+            "r14afi"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "物質転送装置を作った科学者が自ら実験を試みるが、装置に紛れ込んだ蝿によって姿が変わる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/悪魔のシスター_2015-06-27.md",
+      "title": "悪魔のシスター",
+      "review_date": "2015-06-27 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ブライアン・デ・パルマ"
+        ],
+        "cast": [
+          "マーゴット・キダー",
+          "ジェニファー・ソルト",
+          "チャールズ・ダーニング",
+          "バーナード・ヒューズ",
+          "ウィリアム・フィンレイ",
+          "メアリー・ダヴェンポート",
+          "ドルフ・スウィート"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1974,
+        "directors": [
+          "ブライアン・デ・パルマ"
+        ],
+        "cast": [
+          "マーゴット・キダー",
+          "ジェニファー・ソルト",
+          "チャールズ・ダーニング",
+          "バーナード・ヒューズ",
+          "ウィリアム・フィンレイ",
+          "メアリー・ダヴェンポート",
+          "ドルフ・スウィート",
+          "ライル・ウィルソン"
+        ],
+        "genres": [
+          "ホラー",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あくまのしすたー",
+        "release_year": 1974,
+        "directors": [
+          "ブライアン・デ・パルマ"
+        ],
+        "cast": [
+          "マーゴット・キダー",
+          "ジェニファー・ソルト",
+          "チャールズ・ダーニング",
+          "バーナード・ヒューズ",
+          "ウィリアム・フィンレイ",
+          "メアリー・ダヴェンポート",
+          "ドルフ・スウィート",
+          "ライル・ウィルソン"
+        ],
+        "genres": [
+          "ホラー",
+          "ミステリー"
+        ],
+        "synopsis": "青年が殺される現場を目撃した女性記者が、その事件を追って単独で調査に乗り出したところ……。"
+      },
+      "article_sha256_before": "951ccc7b663a9efb85d943e4e79c4120984e0a770351edeed88e1e51b80c27bb",
+      "article_sha256_after": "81349c094b0d688a66a3f7b3e8dbe82c5addc33c7cd5480219029e5ddcf06528",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "r15ac",
+            "r15paramount"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あくまのしすたー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "r15ac",
+            "r15paramount"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本劇場初公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1974"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "r15ac",
+            "r15paramount"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブライアン・デ・パルマ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "r15ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マーゴット・キダー\nジェニファー・ソルト\nチャールズ・ダーニング\nバーナード・ヒューズ\nウィリアム・フィンレイ\nメアリー・ダヴェンポート\nドルフ・スウィート\nライル・ウィルソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "r15ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "r15ac"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "青年が殺される現場を目撃した女性記者が、その事件を追って単独で調査に乗り出したところ……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/イントルーダーズ_2015-06-24.md",
+      "title": "イントルーダーズ",
+      "review_date": "2015-06-24 00:00:38",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "フアン・カルロス・フレスナディージョ"
+        ],
+        "cast": [
+          "クライヴ・オーウェン",
+          "カリス・ファン・ハウテン",
+          "ダニエル・ブリュール",
+          "ピラール・ロペス・デ・アジャラ",
+          "エラ・パーネル",
+          "イサン・コルチェロ",
+          "ケリー・フォックス",
+          "エクトル・アルテリオ"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "フアン・カルロス・フレスナディージョ"
+        ],
+        "cast": [
+          "クライヴ・オーウェン",
+          "カリス・ファン・ハウテン",
+          "ダニエル・ブリュール",
+          "ピラール・ロペス・デ・アジャラ",
+          "エラ・パーネル",
+          "イサン・コルチェロ",
+          "ケリー・フォックス",
+          "エクトル・アルテリオ"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "いんとるーだーず",
+        "release_year": 2011,
+        "directors": [
+          "フアン・カルロス・フレスナディージョ"
+        ],
+        "cast": [
+          "クライヴ・オーウェン",
+          "カリス・ファン・ハウテン",
+          "ダニエル・ブリュール",
+          "ピラール・ロペス・デ・アジャラ",
+          "エラ・パーネル",
+          "イサン・コルチェロ",
+          "ケリー・フォックス",
+          "エクトル・アルテリオ"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ],
+        "synopsis": "木の中で不思議な手紙を見つけたミアが、自分の部屋に顔のない怪人の気配を感じ始める。"
+      },
+      "article_sha256_before": "739ddfcec43cd6c8420688657390f10c8d9fca34c037b50e1bfd3d45dadaf338",
+      "article_sha256_after": "422818bb8ff998873c26fdc13e09d7f9c7926d60419e1f73d213ff9e134b7627",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+            "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いんとるーだーず",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+            "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "アメリカ／イギリス／スペイン",
+              "video_through": true,
+              "year": "2011"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+            "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フアン・カルロス・フレスナディージョ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+            "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クライヴ・オーウェン\nカリス・ファン・ハウテン\nダニエル・ブリュール\nピラール・ロペス・デ・アジャラ\nエラ・パーネル\nイサン・コルチェロ\nケリー・フォックス\nエクトル・アルテリオ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+            "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "木の中で不思議な手紙を見つけたミアが、自分の部屋に顔のない怪人の気配を感じ始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アパリション　悪霊_2015-06-15.md",
+      "title": "アパリション　悪霊",
+      "review_date": "2015-06-15 00:00:55",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "トッド・リンカーン"
+        ],
+        "cast": [
+          "アシュリー・グリーン",
+          "トム・フェルトン",
+          "セバスチャン・スタン",
+          "ルーク・パスカリーノ"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "トッド・リンカーン"
+        ],
+        "cast": [
+          "アシュリー・グリーン",
+          "トム・フェルトン",
+          "セバスチャン・スタン",
+          "ルーク・パスクァリーノ",
+          "ジュリアンナ・ギル",
+          "リック・ゴメス",
+          "マーティ・マトゥーリス"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あぱりしょんあくりょう",
+        "release_year": 2012,
+        "directors": [
+          "トッド・リンカーン"
+        ],
+        "cast": [
+          "アシュリー・グリーン",
+          "トム・フェルトン",
+          "セバスチャン・スタン",
+          "ルーク・パスクァリーノ",
+          "ジュリアンナ・ギル",
+          "リック・ゴメス",
+          "マーティ・マトゥーリス"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "新居に暮らすカップルの周囲で、日常を脅かす不可解な現象が起こり始める。"
+      },
+      "article_sha256_before": "e0fd64b41be0117213d865a0954cbfb57f00d782a0874bff8fbc973a5b90aef3",
+      "article_sha256_after": "5f4011992327e05198c0e6c036fe2ad7691db4561803b6fa125588f35e32fc5a",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あぱりしょんあくりょう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e",
+            "retrieved-ab92bac9786d1160c5b7fcd2c73aacdc3f6a92db128ac1d348f9dbabda5a3de8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "米国一般公開",
+              "region": "アメリカ",
+              "video_through": true,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e",
+            "retrieved-ab92bac9786d1160c5b7fcd2c73aacdc3f6a92db128ac1d348f9dbabda5a3de8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トッド・リンカーン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e",
+            "retrieved-ab92bac9786d1160c5b7fcd2c73aacdc3f6a92db128ac1d348f9dbabda5a3de8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アシュリー・グリーン\nトム・フェルトン\nセバスチャン・スタン\nルーク・パスクァリーノ\nジュリアンナ・ギル\nリック・ゴメス\nマーティ・マトゥーリス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e",
+            "retrieved-ab92bac9786d1160c5b7fcd2c73aacdc3f6a92db128ac1d348f9dbabda5a3de8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "新居に暮らすカップルの周囲で、日常を脅かす不可解な現象が起こり始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ヴェノム　毒蛇男の恐怖_2015-06-12.md",
+      "title": "ヴェノム　毒蛇男の恐怖",
+      "review_date": "2015-06-12 00:00:46",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジム・ギレスピー"
+        ],
+        "cast": [
+          "アグネス・ブルックナー",
+          "ジョナサン・ジャクソン",
+          "ローラ・ラムジー",
+          "D・J・コトローナ",
+          "リック・クレイマー",
+          "ミーガン・グッド",
+          "ビジュー・フィリップス",
+          "メソッド・マン",
+          "ステイシー・トラヴィス",
+          "マーカス・ライル・ブラウン",
+          "ジェームズ・ピッケンズ・Jr",
+          "パヴェウ・シャイダ"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2005,
+        "directors": [
+          "ジム・ギレスピー"
+        ],
+        "cast": [
+          "アグネス・ブルックナー",
+          "ジョナサン・ジャクソン",
+          "ローラ・ラムジー",
+          "Ｄ・Ｊ・コトローナ",
+          "リック・クレイマー",
+          "ミーガン・グッド",
+          "ビジュー・フィリップス",
+          "メソッド・マン",
+          "ステイシー・トラヴィス",
+          "マーカス・ブラウン",
+          "ジェームズ・ピッケンズ・Ｊｒ",
+          "パヴェウ・シャイダ"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ゔぇのむどくへびおとこのきょうふ",
+        "release_year": 2005,
+        "directors": [
+          "ジム・ギレスピー"
+        ],
+        "cast": [
+          "アグネス・ブルックナー",
+          "ジョナサン・ジャクソン",
+          "ローラ・ラムジー",
+          "Ｄ・Ｊ・コトローナ",
+          "リック・クレイマー",
+          "ミーガン・グッド",
+          "ビジュー・フィリップス",
+          "メソッド・マン",
+          "ステイシー・トラヴィス",
+          "マーカス・ブラウン",
+          "ジェームズ・ピッケンズ・Ｊｒ",
+          "パヴェウ・シャイダ"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "友人の不可解な死に疑問を抱いた十代の若者たちが、その背後に隠れた真相を探ろうとするが……。"
+      },
+      "article_sha256_before": "f289fa522f120295460bc75ab4b4515e3aa2949978d3cdfe8374348e0cac5f68",
+      "article_sha256_after": "7cd9bd2846049d8c857c847b432780f2641ce659749b8c18cf10cf0d152b1d51",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゔぇのむどくへびおとこのきょうふ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-50c76e6842045e3f0550c80e8745878de8276f991a169b4da42de478a5666645",
+            "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "アメリカ",
+              "video_through": true,
+              "year": "2005"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-50c76e6842045e3f0550c80e8745878de8276f991a169b4da42de478a5666645",
+            "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62",
+            "retrieved-22c2518c083eeefd0ef1e5ec76688b93073402d0d419986fcde47b36632a6d2a"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジム・ギレスピー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-50c76e6842045e3f0550c80e8745878de8276f991a169b4da42de478a5666645",
+            "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62",
+            "retrieved-22c2518c083eeefd0ef1e5ec76688b93073402d0d419986fcde47b36632a6d2a"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アグネス・ブルックナー\nジョナサン・ジャクソン\nローラ・ラムジー\nＤ・Ｊ・コトローナ\nリック・クレイマー\nミーガン・グッド\nビジュー・フィリップス\nメソッド・マン\nステイシー・トラヴィス\nマーカス・ブラウン\nジェームズ・ピッケンズ・Ｊｒ\nパヴェウ・シャイダ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-50c76e6842045e3f0550c80e8745878de8276f991a169b4da42de478a5666645",
+            "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62",
+            "retrieved-22c2518c083eeefd0ef1e5ec76688b93073402d0d419986fcde47b36632a6d2a"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-22c2518c083eeefd0ef1e5ec76688b93073402d0d419986fcde47b36632a6d2a"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "友人の不可解な死に疑問を抱いた十代の若者たちが、その背後に隠れた真相を探ろうとするが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/U.N.エージェント_2015-06-09.md",
+      "title": "U.N.エージェント",
+      "review_date": "2015-06-09 00:00:18",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジャコモ・バティアート"
+        ],
+        "cast": [
+          "ブノワ・マジメル",
+          "イポリット・ジラルド",
+          "カロリーナ・グルシュカ",
+          "ケン・デュケン"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ジャコモ・バティアート"
+        ],
+        "cast": [
+          "ブノワ・マジメル",
+          "イポリット・ジラルド",
+          "ケン・デュケン",
+          "カロリーナ・グルシュカ",
+          "フリスト・ショポフ",
+          "クリストフ・オーデン"
+        ],
+        "genres": [
+          "戦争",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ゆーえぬえーじぇんと",
+        "release_year": 2008,
+        "directors": [
+          "ジャコモ・バティアート"
+        ],
+        "cast": [
+          "ブノワ・マジメル",
+          "イポリット・ジラルド",
+          "ケン・デュケン",
+          "カロリーナ・グルシュカ",
+          "フリスト・ショポフ",
+          "クリストフ・オーデン"
+        ],
+        "genres": [
+          "戦争",
+          "ドラマ"
+        ],
+        "synopsis": "スレブレニツァで8000人を超えるイスラム教徒が行方不明となった。国連は自体を重く見て凄腕の捜査官ジャックを派遣するが……。"
+      },
+      "article_sha256_before": "963e27063bdf6e5b226729f6fd071fdc162ea685164c27903e86b3de3c31ef4a",
+      "article_sha256_after": "50e7328275e78d42033919f85757c4746f774da8fb4072af9c446bc12659e436",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゆーえぬえーじぇんと",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-89c2ff77885873445dc79bf37828a728c0bf05adfc7e4786398c801200715899",
+            "retrieved-419dddd028fc7d14b2a98ee1777a9c5a37ea4f526197dbbb2e33d2648ee75ad8",
+            "retrieved-1d1085b6bdcb3ea952bc22c83c743efd3150abd750b1abe71258221066e7e0d0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "フランス／ポーランド／イタリア",
+              "video_through": true,
+              "year": "2008"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-89c2ff77885873445dc79bf37828a728c0bf05adfc7e4786398c801200715899",
+            "retrieved-419dddd028fc7d14b2a98ee1777a9c5a37ea4f526197dbbb2e33d2648ee75ad8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャコモ・バティアート",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-89c2ff77885873445dc79bf37828a728c0bf05adfc7e4786398c801200715899"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブノワ・マジメル\nイポリット・ジラルド\nケン・デュケン\nカロリーナ・グルシュカ\nフリスト・ショポフ\nクリストフ・オーデン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-89c2ff77885873445dc79bf37828a728c0bf05adfc7e4786398c801200715899"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "戦争\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スレブレニツァで8000人を超えるイスラム教徒が行方不明となった。国連は自体を重く見て凄腕の捜査官ジャックを派遣するが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ゾンビ・ブライド_2015-06-06.md",
+      "title": "ゾンビ・ブライド",
+      "review_date": "2015-06-06 00:00:06",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "山内大輔"
+        ],
+        "cast": [
+          "みづなれい",
+          "倖田李梨",
+          "竹本泰志",
+          "野村貴浩",
+          "なかみつせいじ",
+          "高橋佐織",
+          "久保田泰也"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2013,
+        "directors": [
+          "山内大輔"
+        ],
+        "cast": [
+          "みづなれい",
+          "倖田李梨",
+          "竹本泰志",
+          "野村貴浩",
+          "なかみつせいじ",
+          "高橋佐織",
+          "久保田泰也"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞんびぶらいど",
+        "release_year": 2013,
+        "directors": [
+          "山内大輔"
+        ],
+        "cast": [
+          "みづなれい",
+          "倖田李梨",
+          "竹本泰志",
+          "野村貴浩",
+          "なかみつせいじ",
+          "高橋佐織",
+          "久保田泰也"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "不倫相手に殺されたＯＬが朝にはゾンビとなっており、先輩ゾンビとの出会いを迎える。"
+      },
+      "article_sha256_before": "f790e7d91e90730e421fc3952c1feb09361feebecf15b6425cad51a88eb691ea",
+      "article_sha256_after": "6fe2bb7ec13a8c0fd705bae0df56ab5aa18719256a6cf83fa494c926484ad73e",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96",
+            "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0",
+            "retrieved-f16e0745368e883bcc32c458e3ef55db7af47dd136d589edd5feeb08b3f9f9ff"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞんびぶらいど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96",
+            "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0",
+            "retrieved-f16e0745368e883bcc32c458e3ef55db7af47dd136d589edd5feeb08b3f9f9ff"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "日本",
+              "video_through": true,
+              "year": "2013"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96",
+            "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0",
+            "retrieved-f16e0745368e883bcc32c458e3ef55db7af47dd136d589edd5feeb08b3f9f9ff"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "山内大輔",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96",
+            "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "みづなれい\n倖田李梨\n竹本泰志\n野村貴浩\nなかみつせいじ\n高橋佐織\n久保田泰也",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0",
+            "retrieved-f16e0745368e883bcc32c458e3ef55db7af47dd136d589edd5feeb08b3f9f9ff"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "不倫相手に殺されたＯＬが朝にはゾンビとなっており、先輩ゾンビとの出会いを迎える。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/富江アンリミテッド_2015-05-30.md",
+      "title": "富江アンリミテッド",
+      "review_date": "2015-05-30 00:00:42",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "井口昇"
+        ],
+        "cast": [
+          "荒井萌",
+          "仲村みう",
+          "多田愛佳",
+          "大和田健介",
+          "大堀こういち",
+          "川上麻衣子"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "井口昇"
+        ],
+        "cast": [
+          "荒井萌",
+          "多田愛佳",
+          "大和田健介",
+          "松浦慎一郎",
+          "岸建太朗",
+          "駿河太郎",
+          "水井真希",
+          "石川ゆうや",
+          "村田唯",
+          "大堀こういち",
+          "川上麻衣子",
+          "仲村みう"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "とみえあんりみてっど",
+        "release_year": 2011,
+        "directors": [
+          "井口昇"
+        ],
+        "cast": [
+          "荒井萌",
+          "多田愛佳",
+          "大和田健介",
+          "松浦慎一郎",
+          "岸建太朗",
+          "駿河太郎",
+          "水井真希",
+          "石川ゆうや",
+          "村田唯",
+          "大堀こういち",
+          "川上麻衣子",
+          "仲村みう"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "事故で姉の富江を失った女子高生月子の前に、一年後、死んだはずの姉が姿を現す。"
+      },
+      "article_sha256_before": "53f6ec66063406cc18813683896f69bb680d2d06ffe165f227e14b9d6d01d4f7",
+      "article_sha256_after": "067596ba787300c74cb3c064cc15b9dfa8eb7aabd3703a901115e30acd9bd9c4",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とみえあんりみてっど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946",
+            "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c",
+            "retrieved-0fda0b1aeb7907ca0149d1830b0ee30bd32006972a0b1e6fc21f941b1f9d83c8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2011-05-14",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2011"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946",
+            "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c",
+            "retrieved-0fda0b1aeb7907ca0149d1830b0ee30bd32006972a0b1e6fc21f941b1f9d83c8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "井口昇",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "荒井萌\n多田愛佳\n大和田健介\n松浦慎一郎\n岸建太朗\n駿河太郎\n水井真希\n石川ゆうや\n村田唯\n大堀こういち\n川上麻衣子\n仲村みう",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946",
+            "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946",
+            "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c",
+            "retrieved-0fda0b1aeb7907ca0149d1830b0ee30bd32006972a0b1e6fc21f941b1f9d83c8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "事故で姉の富江を失った女子高生月子の前に、一年後、死んだはずの姉が姿を現す。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/シャークトパス_2015-05-24.md",
+      "title": "シャークトパス",
+      "review_date": "2015-05-24 00:00:56",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "デクラン・オブライエン"
+        ],
+        "cast": [
+          "エリック・ロバーツ",
+          "ケレム・バーシン",
+          "サラ・マルクル・レイン",
+          "エクトル・ヒメネス",
+          "リヴ・ボーン",
+          "メーガン・バークリー"
+        ],
+        "genres": [
+          "パニック"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "デクラン・オブライエン"
+        ],
+        "cast": [
+          "ケレム・バーシン",
+          "サラ・マラクル・レイン",
+          "エリック・ロバーツ",
+          "エクトル・ヒメネス",
+          "ピーター・ネルソン"
+        ],
+        "genres": [
+          "ホラー",
+          "パニック",
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しゃーくとぱす",
+        "release_year": 2010,
+        "directors": [
+          "デクラン・オブライエン"
+        ],
+        "cast": [
+          "ケレム・バーシン",
+          "サラ・マラクル・レイン",
+          "エリック・ロバーツ",
+          "エクトル・ヒメネス",
+          "ピーター・ネルソン"
+        ],
+        "genres": [
+          "ホラー",
+          "パニック",
+          "アクション"
+        ],
+        "synopsis": "半身がサメ、半身がタコの怪物が、試験運用のトラブルで制御不能になり、人々に襲いかかる。"
+      },
+      "article_sha256_before": "f5c69d491aa6f50ee276e619bb99b25967348a103e0459c912dd120ed7d35615",
+      "article_sha256_after": "26393d2ee9af698bb2a9c2f360287a871c835301635c73c1d6370145c3799443",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259",
+            "retrieved-3847e90759bc1253facc31ba02da20c0a5d8d1bf8c4e31e122975f16aee6d345",
+            "retrieved-91c9eb16d3aacc63ad91b93ce680ca6ce7d08ac4fb41e38083be3b1f52808224"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しゃーくとぱす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259",
+            "retrieved-3847e90759bc1253facc31ba02da20c0a5d8d1bf8c4e31e122975f16aee6d345",
+            "retrieved-91c9eb16d3aacc63ad91b93ce680ca6ce7d08ac4fb41e38083be3b1f52808224"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "アメリカ",
+              "video_through": true,
+              "year": "2010"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259",
+            "retrieved-3847e90759bc1253facc31ba02da20c0a5d8d1bf8c4e31e122975f16aee6d345",
+            "retrieved-91c9eb16d3aacc63ad91b93ce680ca6ce7d08ac4fb41e38083be3b1f52808224"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デクラン・オブライエン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケレム・バーシン\nサラ・マラクル・レイン\nエリック・ロバーツ\nエクトル・ヒメネス\nピーター・ネルソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nパニック\nアクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-3847e90759bc1253facc31ba02da20c0a5d8d1bf8c4e31e122975f16aee6d345",
+            "retrieved-91c9eb16d3aacc63ad91b93ce680ca6ce7d08ac4fb41e38083be3b1f52808224"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "半身がサメ、半身がタコの怪物が、試験運用のトラブルで制御不能になり、人々に襲いかかる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/古畑任三郎　黒岩博士の恐怖_2015-05-18.md",
+      "title": "古畑任三郎　黒岩博士の恐怖",
+      "review_date": "2015-05-18 00:00:05",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": 1999,
+        "directors": [],
+        "cast": [
+          "田村正和",
+          "緒形拳",
+          "酒井敏也",
+          "栗田貫一",
+          "八嶋智人",
+          "篠井英介"
+        ],
+        "genres": [
+          "単発"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1999,
+        "directors": [
+          "鈴木雅之"
+        ],
+        "cast": [
+          "田村正和",
+          "緒形拳",
+          "西村雅彦",
+          "栗田貫一",
+          "石井正則",
+          "白井晃",
+          "小林隆",
+          "酒井敏也",
+          "篠井英介",
+          "八嶋智人"
+        ],
+        "genres": [
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふるはたにんざぶろうくろいわはかせのきょうふ",
+        "release_year": 1999,
+        "directors": [
+          "鈴木雅之"
+        ],
+        "cast": [
+          "田村正和",
+          "緒形拳",
+          "西村雅彦",
+          "栗田貫一",
+          "石井正則",
+          "白井晃",
+          "小林隆",
+          "酒井敏也",
+          "篠井英介",
+          "八嶋智人"
+        ],
+        "genres": [
+          "ミステリー"
+        ],
+        "synopsis": "肛門からおみくじが発見され、そのおみくじの指し示す方法で死亡している死体が何件も見つかる。捜査本部は連続殺人として捜査していたが……。"
+      },
+      "article_sha256_before": "50f83570b7f5e11e31a09684665b5d8ea15fd8783fdde67758b266b34e0021a9",
+      "article_sha256_after": "384608f852ad937c3dceed27e9529cef206312bc8baea4b3a469627ddf2d4f0a",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふるはたにんざぶろうくろいわはかせのきょうふ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-9f9b57d3b9ccbeba45888118fcdb9cffc5ad905dda98058bbadb9325dae8d5f1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1999-04-06",
+              "kind": "日本放送",
+              "region": "日本",
+              "video_through": false,
+              "year": "1999"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-0bc6c05ba8d61c687dee0f81a95d0b59edb58624b1663216c88093cb4264c812",
+            "retrieved-9f9b57d3b9ccbeba45888118fcdb9cffc5ad905dda98058bbadb9325dae8d5f1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "鈴木雅之",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-0bc6c05ba8d61c687dee0f81a95d0b59edb58624b1663216c88093cb4264c812"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田村正和\n緒形拳\n西村雅彦\n栗田貫一\n石井正則\n白井晃\n小林隆\n酒井敏也\n篠井英介\n八嶋智人",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-0bc6c05ba8d61c687dee0f81a95d0b59edb58624b1663216c88093cb4264c812"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "肛門からおみくじが発見され、そのおみくじの指し示す方法で死亡している死体が何件も見つかる。捜査本部は連続殺人として捜査していたが……。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ディヴァイド_2015-05-12.md",
+      "title": "ディヴァイド",
+      "review_date": "2015-05-12 00:00:17",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ザヴィエ・ジャン"
+        ],
+        "cast": [
+          "ローレン・ジャーマン",
+          "マイケル・ビーン",
+          "マイロ・ヴィンティミリア",
+          "コートニー・B・ヴァンス",
+          "マイケル・エクランド",
+          "イバン・ゴンサレス",
+          "アビー・シックソン",
+          "アシュトン・ホームズ",
+          "ロザンナ・アークエット"
+        ],
+        "genres": [
+          "SF"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ザヴィエ・ジャン"
+        ],
+        "cast": [
+          "ローレン・ジャーマン",
+          "マイケル・ビーン",
+          "マイロ・ヴィンティミリア",
+          "コートニー・Ｂ・ヴァンス",
+          "マイケル・エクランド",
+          "イバン・ゴンサレス",
+          "アビー・シックソン",
+          "アシュトン・ホームズ",
+          "ロザンナ・アークエット"
+        ],
+        "genres": [
+          "SF",
+          "ドラマ",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "でぃゔぁいど",
+        "release_year": 2012,
+        "directors": [
+          "ザヴィエ・ジャン"
+        ],
+        "cast": [
+          "ローレン・ジャーマン",
+          "マイケル・ビーン",
+          "マイロ・ヴィンティミリア",
+          "コートニー・Ｂ・ヴァンス",
+          "マイケル・エクランド",
+          "イバン・ゴンサレス",
+          "アビー・シックソン",
+          "アシュトン・ホームズ",
+          "ロザンナ・アークエット"
+        ],
+        "genres": [
+          "SF",
+          "ドラマ",
+          "サスペンス"
+        ],
+        "synopsis": "突然の爆撃で壊滅したニューヨークで、九人の人々が個人の地下シェルターへ避難する。"
+      },
+      "article_sha256_before": "08e01b16bd4057ee8d5d7a7f9c5631d8c94b312328ddc1791c868191577dce9f",
+      "article_sha256_after": "6b0632182bb045bb5b8bde097de91a7ad6dea01515f35ceb0d46f42fa4717358",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563",
+            "retrieved-0c7a4bdab653ca041d3b7a964deceaa0aa1beab8913d46ce38a8bf8340a5dc6d"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "でぃゔぁいど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563",
+            "retrieved-0c7a4bdab653ca041d3b7a964deceaa0aa1beab8913d46ce38a8bf8340a5dc6d"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-06-09",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ザヴィエ・ジャン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ローレン・ジャーマン\nマイケル・ビーン\nマイロ・ヴィンティミリア\nコートニー・Ｂ・ヴァンス\nマイケル・エクランド\nイバン・ゴンサレス\nアビー・シックソン\nアシュトン・ホームズ\nロザンナ・アークエット",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nドラマ\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563",
+            "retrieved-0c7a4bdab653ca041d3b7a964deceaa0aa1beab8913d46ce38a8bf8340a5dc6d"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "突然の爆撃で壊滅したニューヨークで、九人の人々が個人の地下シェルターへ避難する。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ダブルヘッド・ジョーズ_2015-05-06.md",
+      "title": "ダブルヘッド・ジョーズ",
+      "review_date": "2015-05-06 00:00:14",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "クリストファー・レイ"
+        ],
+        "cast": [
+          "カルメン・エレクトラ",
+          "ブルック・ホーガン",
+          "カーメン・エレクトラ",
+          "チャーリー・オコンネル",
+          "デヴィッド・ガイエゴス"
+        ],
+        "genres": [
+          "アクション",
+          "パニック"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "クリストファー・レイ"
+        ],
+        "cast": [
+          "カーメン・エレクトラ",
+          "チャーリー・オコンネル",
+          "ブルック・ホーガン",
+          "デヴィッド・ガイエゴス",
+          "ジェフ・ワード"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "だぶるへっどじょーず",
+        "release_year": 2012,
+        "directors": [
+          "クリストファー・レイ"
+        ],
+        "cast": [
+          "カーメン・エレクトラ",
+          "チャーリー・オコンネル",
+          "ブルック・ホーガン",
+          "デヴィッド・ガイエゴス",
+          "ジェフ・ワード"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ],
+        "synopsis": "海洋研究の合宿に出た教授と学生たちが、二つの頭を持つ巨大なサメに襲われる。"
+      },
+      "article_sha256_before": "f8b57fd09f83d6a64fa89356b9cb611da38a13ec1d124ecc6b7a1e7d84150540",
+      "article_sha256_after": "2e8dd5b8f63a5e8a957b1c362bdb36d31ae82bbdf0ae04c17bbd176cb11da2d2",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff",
+            "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e",
+            "retrieved-0cd2b55fd107fbc1841eeff7c486ade01e11d4308af016f7c5b4be95481aa3a0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "だぶるへっどじょーず",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff",
+            "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e",
+            "retrieved-0cd2b55fd107fbc1841eeff7c486ade01e11d4308af016f7c5b4be95481aa3a0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "製作年",
+              "region": "アメリカ",
+              "video_through": true,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff",
+            "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e",
+            "retrieved-0cd2b55fd107fbc1841eeff7c486ade01e11d4308af016f7c5b4be95481aa3a0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリストファー・レイ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カーメン・エレクトラ\nチャーリー・オコンネル\nブルック・ホーガン\nデヴィッド・ガイエゴス\nジェフ・ワード",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff",
+            "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e",
+            "retrieved-0cd2b55fd107fbc1841eeff7c486ade01e11d4308af016f7c5b4be95481aa3a0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "海洋研究の合宿に出た教授と学生たちが、二つの頭を持つ巨大なサメに襲われる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/白い巨塔_2015-04-27.md",
+      "title": "白い巨塔",
+      "review_date": "2015-04-27 00:00:45",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "山本薩夫"
+        ],
+        "cast": [
+          "田宮二郎",
+          "小川眞由美",
+          "東野英治郎",
+          "滝沢修",
+          "船越英二",
+          "田村高廣",
+          "石山健二郎",
+          "小沢栄太郎",
+          "藤村志保",
+          "長谷川待子",
+          "岸輝子",
+          "加藤嘉",
+          "永田靖",
+          "加藤武",
+          "下絛正巳",
+          "鈴木瑞穂",
+          "須賀不二男",
+          "清水将夫",
+          "高原駿雄",
+          "早川雄三",
+          "北原義郎",
+          "潮万太郎",
+          "瀧花久子"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1966,
+        "directors": [
+          "山本薩夫"
+        ],
+        "cast": [
+          "田宮二郎",
+          "小川真由美",
+          "東野英治郎",
+          "滝沢修",
+          "船越英二",
+          "田村高廣",
+          "石山健二郎",
+          "小沢栄太郎",
+          "藤村志保",
+          "長谷川待子",
+          "岸輝子",
+          "加藤嘉",
+          "永田靖",
+          "加藤武",
+          "下絛正巳",
+          "鈴木瑞穂",
+          "須賀不二男",
+          "清水将夫",
+          "高原駿雄",
+          "早川雄三",
+          "北原義郎",
+          "潮万太郎",
+          "滝花久子"
+        ],
+        "genres": [
+          "サスペンス",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "しろいきょとう",
+        "release_year": 1966,
+        "directors": [
+          "山本薩夫"
+        ],
+        "cast": [
+          "田宮二郎",
+          "小川真由美",
+          "東野英治郎",
+          "滝沢修",
+          "船越英二",
+          "田村高廣",
+          "石山健二郎",
+          "小沢栄太郎",
+          "藤村志保",
+          "長谷川待子",
+          "岸輝子",
+          "加藤嘉",
+          "永田靖",
+          "加藤武",
+          "下絛正巳",
+          "鈴木瑞穂",
+          "須賀不二男",
+          "清水将夫",
+          "高原駿雄",
+          "早川雄三",
+          "北原義郎",
+          "潮万太郎",
+          "滝花久子"
+        ],
+        "genres": [
+          "サスペンス",
+          "ドラマ"
+        ],
+        "synopsis": "東教授の退官を前に、大学病院の助教授・財前五郎が後任の有力候補となる。"
+      },
+      "article_sha256_before": "bf8c1ae72a3438dde9e80bab5debce5d805d1cd2f2e91d4f66540c138bd192a3",
+      "article_sha256_after": "6b3e4a6e382bc6da45b0790bb10f0d766f5e52ec4d6884a426297e346b2b5bf8",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-7a26de16a38d2742323720b39b659c6ba0d43d6d265f4c3d4b87b94ed677e08c",
+            "retrieved-162b004796f6c5db993aad2f1185c32cc2319efdad976d9bc3ca6315fd18a7ed"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しろいきょとう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-7a26de16a38d2742323720b39b659c6ba0d43d6d265f4c3d4b87b94ed677e08c",
+            "retrieved-162b004796f6c5db993aad2f1185c32cc2319efdad976d9bc3ca6315fd18a7ed",
+            "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1966-10-15",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1966"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-7a26de16a38d2742323720b39b659c6ba0d43d6d265f4c3d4b87b94ed677e08c",
+            "retrieved-162b004796f6c5db993aad2f1185c32cc2319efdad976d9bc3ca6315fd18a7ed",
+            "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "山本薩夫",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田宮二郎\n小川真由美\n東野英治郎\n滝沢修\n船越英二\n田村高廣\n石山健二郎\n小沢栄太郎\n藤村志保\n長谷川待子\n岸輝子\n加藤嘉\n永田靖\n加藤武\n下絛正巳\n鈴木瑞穂\n須賀不二男\n清水将夫\n高原駿雄\n早川雄三\n北原義郎\n潮万太郎\n滝花久子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-7a26de16a38d2742323720b39b659c6ba0d43d6d265f4c3d4b87b94ed677e08c",
+            "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "東教授の退官を前に、大学病院の助教授・財前五郎が後任の有力候補となる。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/劇場版 BLOOD-C The Last Dark_2015-04-21.md",
+      "title": "劇場版 BLOOD-C The Last Dark",
+      "review_date": "2015-04-21 00:00:00",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "塩谷直義"
+        ],
+        "cast": [
+          "水樹奈々",
+          "野島健児",
+          "神谷浩史",
+          "中村悠一",
+          "梶裕貴",
+          "花澤香菜",
+          "甲斐田裕子",
+          "福山潤",
+          "浅野真澄",
+          "諏訪部順一",
+          "藤原啓治",
+          "福圓美里",
+          "阿部敦",
+          "鈴木達央",
+          "宮川美保"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "塩谷直義"
+        ],
+        "cast": [
+          "水樹奈々",
+          "野島健児",
+          "橋本愛",
+          "神谷浩史",
+          "中村悠一",
+          "梶裕貴",
+          "花澤香菜",
+          "甲斐田裕子",
+          "福山潤",
+          "浅野真澄",
+          "諏訪部順一"
+        ],
+        "genres": [
+          "ホラー",
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "げきじょうばんぶらっどしーざらすとだーく",
+        "release_year": 2012,
+        "directors": [
+          "塩谷直義"
+        ],
+        "cast": [
+          "水樹奈々",
+          "野島健児",
+          "橋本愛",
+          "神谷浩史",
+          "中村悠一",
+          "梶裕貴",
+          "花澤香菜",
+          "甲斐田裕子",
+          "福山潤",
+          "浅野真澄",
+          "諏訪部順一"
+        ],
+        "genres": [
+          "ホラー",
+          "アニメ"
+        ],
+        "synopsis": "七原文人への復讐を求めて東京に現れた小夜が、サーラットと呼ばれる集団に出会う。"
+      },
+      "article_sha256_before": "b180377116e6d090a673d178ff6c2b275950c8907efde70f7324f1286e2c69b3",
+      "article_sha256_after": "164774fad08ecc03c14c8390d8491eb885183477166943b58788121f5bac825d",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-98a1ad1ed8bbc5339df4da49e5548d422850f12e46234d5ea0c8f9197dc2f7df"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "げきじょうばんぶらっどしーざらすとだーく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-98a1ad1ed8bbc5339df4da49e5548d422850f12e46234d5ea0c8f9197dc2f7df",
+            "retrieved-eb70b1444b7d6bf4d6fb22060705a72cf34647da5c35b239c9d7f63b4dcc9653"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-06-02",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-98a1ad1ed8bbc5339df4da49e5548d422850f12e46234d5ea0c8f9197dc2f7df",
+            "retrieved-c2f23be75b709c073126c6948803fdb9ff813e00e4aea382ed2b01b7507645d0",
+            "retrieved-eb70b1444b7d6bf4d6fb22060705a72cf34647da5c35b239c9d7f63b4dcc9653"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "塩谷直義",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-c2f23be75b709c073126c6948803fdb9ff813e00e4aea382ed2b01b7507645d0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "水樹奈々\n野島健児\n橋本愛\n神谷浩史\n中村悠一\n梶裕貴\n花澤香菜\n甲斐田裕子\n福山潤\n浅野真澄\n諏訪部順一",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-eb70b1444b7d6bf4d6fb22060705a72cf34647da5c35b239c9d7f63b4dcc9653"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nアニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-c2f23be75b709c073126c6948803fdb9ff813e00e4aea382ed2b01b7507645d0"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "七原文人への復讐を求めて東京に現れた小夜が、サーラットと呼ばれる集団に出会う。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/片腕ドラゴン_2015-04-15.md",
+      "title": "片腕ドラゴン",
+      "review_date": "2015-04-15 00:00:11",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジミー・ウォング"
+        ],
+        "cast": [
+          "ジミー・ウォング",
+          "タン・シン",
+          "ティエン・イェー",
+          "ライ・シュン",
+          "ルン・フー",
+          "シット・ホン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 1974,
+        "directors": [
+          "ジミー・ウォング"
+        ],
+        "cast": [
+          "ジミー・ウォング",
+          "タン・シン",
+          "ティエン・イェー",
+          "ライ・シュン",
+          "ルン・フー",
+          "シット・ホン"
+        ],
+        "genres": [
+          "アクション",
+          "格闘技"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かたうでどらごん",
+        "release_year": 1974,
+        "directors": [
+          "ジミー・ウォング"
+        ],
+        "cast": [
+          "ジミー・ウォング",
+          "タン・シン",
+          "ティエン・イェー",
+          "ライ・シュン",
+          "ルン・フー",
+          "シット・ホン"
+        ],
+        "genres": [
+          "アクション",
+          "格闘技"
+        ],
+        "synopsis": "片腕を失った男が復讐を決意し、残された腕を鍛えて敵に立ち向かう準備を始める。"
+      },
+      "article_sha256_before": "7894dc501ec985be432ee732a55d8140539bd6bd2c95069fd86b03fc939d1ac2",
+      "article_sha256_after": "2760873f741aa80d742c1728bc4b729368a99f76303716dc7e0c48b04ae1a8f6",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "retrieved-59163f37bb5029c51ecf49b953fb75f378e1a4215e0b6b889e455dbfdd3df21b"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かたうでどらごん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8",
+            "retrieved-20aa3247a194053753a021a165b62ca397124d32fead9b3518abeae373ba325a",
+            "retrieved-59163f37bb5029c51ecf49b953fb75f378e1a4215e0b6b889e455dbfdd3df21b"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1974-02-08",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1974"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8",
+            "retrieved-20aa3247a194053753a021a165b62ca397124d32fead9b3518abeae373ba325a",
+            "retrieved-59163f37bb5029c51ecf49b953fb75f378e1a4215e0b6b889e455dbfdd3df21b"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジミー・ウォング",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジミー・ウォング\nタン・シン\nティエン・イェー\nライ・シュン\nルン・フー\nシット・ホン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n格闘技",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "片腕を失った男が復讐を決意し、残された腕を鍛えて敵に立ち向かう準備を始める。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/空気の無くなる日_2015-04-12.md",
+      "title": "空気の無くなる日",
+      "review_date": "2015-04-12 00:00:12",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [
+          "深見泰三",
+          "北島多恵子",
+          "花沢徳衛"
+        ],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1954,
+        "directors": [
+          "伊東寿恵男"
+        ],
+        "cast": [
+          "深見泰三",
+          "北島多恵子",
+          "花沢徳衛"
+        ],
+        "genres": [
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "くうきのなくなるひ",
+        "release_year": 1954,
+        "directors": [
+          "伊東寿恵男"
+        ],
+        "cast": [
+          "深見泰三",
+          "北島多恵子",
+          "花沢徳衛"
+        ],
+        "genres": [
+          "SF"
+        ],
+        "synopsis": "ハレー彗星が近づいたある日、ハレー彗星のしっぽが地球に接触して５分間毒がまきちらされるらしいという噂が流れた。"
+      },
+      "article_sha256_before": "a304c5141c705742cd9570093babccebac3eefecfe1dbde614d001eadfac42e2",
+      "article_sha256_after": "8dc9e961a063a81c366ac2ddfad78566a040034b5a765c614cf3e98558c874c2",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "くうきのなくなるひ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-2a67448f9d81f2e0b594914e4388940dfcd41caba46b1bdbb9291ac8f84bf6fa"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "1954"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-ff791edf97fe71c27c7e795c52d529b8aa6dc5cb1457719f2150224e81f1df4a"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "伊東寿恵男",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-2a67448f9d81f2e0b594914e4388940dfcd41caba46b1bdbb9291ac8f84bf6fa"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "深見泰三\n北島多恵子\n花沢徳衛",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-2a67448f9d81f2e0b594914e4388940dfcd41caba46b1bdbb9291ac8f84bf6fa"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ハレー彗星が近づいたある日、ハレー彗星のしっぽが地球に接触して５分間毒がまきちらされるらしいという噂が流れた。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/預言者_2015-04-03.md",
+      "title": "預言者",
+      "review_date": "2015-04-03 00:00:57",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "ジャック・オーディアール"
+        ],
+        "cast": [
+          "タハール・ラヒム",
+          "ニエル・アレストリュプ",
+          "アデル・バンシェリフ",
+          "ヒシャーム・ヤクビ",
+          "レイラ・ベクティ"
+        ],
+        "genres": [
+          "ドラマ",
+          "クライム"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ジャック・オーディアール"
+        ],
+        "cast": [
+          "タハール・ラヒム",
+          "ニエル・アレストリュプ",
+          "アデル・バンシェリフ",
+          "イシェーム・ヤクビ",
+          "レイラ・ベクティ"
+        ],
+        "genres": [
+          "サスペンス",
+          "犯罪",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "よげんしゃ",
+        "release_year": 2012,
+        "directors": [
+          "ジャック・オーディアール"
+        ],
+        "cast": [
+          "タハール・ラヒム",
+          "ニエル・アレストリュプ",
+          "アデル・バンシェリフ",
+          "イシェーム・ヤクビ",
+          "レイラ・ベクティ"
+        ],
+        "genres": [
+          "サスペンス",
+          "犯罪",
+          "ドラマ"
+        ],
+        "synopsis": "読み書きのできない十九歳の青年マリクが刑務所に入り、過酷な環境で生き抜く術を学んでいく。"
+      },
+      "article_sha256_before": "cd88be3865fad07c5575010e8ec7724844125c045117605d6abb3f3dfde19cbf",
+      "article_sha256_after": "3c9d261f6495ff2c8ea758d1da0f23884be2e278e4c75f366d21f3c0383253ec",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "よげんしゃ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149",
+            "retrieved-d7119d59b00afc52c7468700fad003699f333b8087b8b14f8dfc2613dce9d5dd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-01-21",
+              "kind": "日本公開",
+              "region": "日本",
+              "video_through": false,
+              "year": "2012"
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149",
+            "retrieved-7e8e5602789c5bbe5969dc570f6626af571b0ae34d5d4cf53cbfccf384d74f39",
+            "retrieved-d7119d59b00afc52c7468700fad003699f333b8087b8b14f8dfc2613dce9d5dd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャック・オーディアール",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "タハール・ラヒム\nニエル・アレストリュプ\nアデル・バンシェリフ\nイシェーム・ヤクビ\nレイラ・ベクティ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\n犯罪\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149",
+            "retrieved-d7119d59b00afc52c7468700fad003699f333b8087b8b14f8dfc2613dce9d5dd"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "読み書きのできない十九歳の青年マリクが刑務所に入り、過酷な環境で生き抜く術を学んでいく。",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1984年製作・フリッツ・カーシュ監督の第一作",
+        "2024年8月16日日本劇場初公開",
+        "子どもカルト集団の町へ青年医師と恋人が迷い込む",
+        "出演全5名掲載"
+      ],
+      "ref_id": "r01king",
+      "title": "キングレコード 日本劇場初公開告知",
+      "url": "https://news.kingrecords.co.jp/2024/06/30071/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "日本公開2024年8月16日",
+        "監督と全5名のキャスト"
+      ],
+      "ref_id": "r01ct",
+      "title": "シネマトゥデイ チルドレン・オブ・ザ・コーン",
+      "url": "https://www.cinematoday.jp/movie/T0008017"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2013年2月12日日本公開・2012年英国製作",
+        "監督・出演全5名と分類",
+        "貨物機墜落後、停電した貸倉庫へ閉じ込められる"
+      ],
+      "ref_id": "r02pia",
+      "title": "ぴあ映画 ストレージ24",
+      "url": "https://lp.p.pia.jp/event/movie/22449/index.html"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2012年製作・原題Continental Drift",
+        "監督2名・英語声優5名・ジャンル3分類",
+        "地殻変動で流氷に乗った3匹が海へ流される"
+      ],
+      "ref_id": "r03fox",
+      "title": "20th Century Studios JP アイス・エイジ4",
+      "url": "https://www.20thcenturystudios.jp/movies/ice-age4"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "日本劇場未公開"
+      ],
+      "ref_id": "r03ac",
+      "title": "allcinema アイス・エイジ4",
+      "url": "https://www.allcinema.net/cinema/pdf/343925"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "最初の一般公開2012年6月27日",
+        "日本公式の2012年7月13日は米国公開に対応"
+      ],
+      "ref_id": "r03bom",
+      "title": "Box Office Mojo Ice Age Continental Drift",
+      "url": "https://www.boxofficemojo.com/title/tt1667889.htm/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2008年ハリウッドリメイク",
+        "ジョン・エリック・ドゥードル監督",
+        "出演4名掲載・吹替は別記",
+        "消防士同行取材中アパートに封じ込められる"
+      ],
+      "ref_id": "r04sony",
+      "title": "ソニー・ピクチャーズ REC レック／ザ・クアランティン",
+      "url": "https://www.sonypictures.jp/he/867796"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "日本劇場未公開",
+        "ホラー・サスペンス・パニック"
+      ],
+      "ref_id": "r04ac",
+      "title": "allcinema REC レック／ザ・クアランティン",
+      "url": "https://www.allcinema.net/cinema/333622"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "最初の一般公開2008年10月10日"
+      ],
+      "ref_id": "r04bom",
+      "title": "Box Office Mojo Quarantine",
+      "url": "https://www.boxofficemojo.com/title/tt1082868/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1986年3月8日日本公開・1985年製作",
+        "Young Sherlock Holmes"
+      ],
+      "ref_id": "r05eiga",
+      "title": "映画.com ヤング・シャーロック ピラミッドの謎",
+      "url": "https://cinema.eiga.com/movie/30567/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "バリー・レヴィンソン監督と出演全5名",
+        "ミステリー・アドベンチャー",
+        "少年ホームズと転校生ワトソンが教授の死を追う"
+      ],
+      "ref_id": "r05bs",
+      "title": "BS10プレミアム ヤング・シャーロック",
+      "url": "https://www.bs10.jp/premium/program/32963/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1987年8月8日日本公開",
+        "ジョセフ・サージェント監督・出演5名",
+        "息子を失ったエレンがバハマへ向かう"
+      ],
+      "ref_id": "r06eiga",
+      "title": "映画.com ジョーズ87 復讐篇",
+      "url": "https://eiga.com/movie/61286/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "シリーズ第4作",
+        "パニック・サスペンス"
+      ],
+      "ref_id": "r06ac",
+      "title": "allcinema ジョーズ87 復讐篇",
+      "url": "https://www.allcinema.net/cinema/pdf/10914"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2012年6月16日日本公開",
+        "監督と出演全5名",
+        "青春ドラマ",
+        "マッドマックス2に心酔する青年が火炎放射器を改造し女性に出会う"
+      ],
+      "ref_id": "r07pia",
+      "title": "ぴあ映画 ベルフラワー",
+      "url": "https://lp.p.pia.jp/event/movie/21139/index.html"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "日本劇場未公開・Vinyan",
+        "監督と出演全6名・サスペンス/エロティック"
+      ],
+      "ref_id": "r08ac",
+      "title": "allcinema 変態島",
+      "url": "https://www.allcinema.net/cinema/pdf/335308"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "息子を失った夫婦が映像中に似た子どもを見つけ島を訪れる"
+      ],
+      "ref_id": "r08apple",
+      "title": "Apple TV 変態島",
+      "url": "https://tv.apple.com/jp/movie/%E5%A4%89%E6%85%8B%E5%B3%B6/umc.cmc.3clnjhtiqsklwxi0cuv68h6uc"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "フランス劇場公開2008年10月1日"
+      ],
+      "ref_id": "r08cnc",
+      "title": "CNC VINYAN",
+      "url": "https://www.cnc.fr/professionnels/visas-et-classification/115323"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "最初の劇場公開2008年10月1日フランス"
+      ],
+      "ref_id": "r08bom",
+      "title": "Box Office Mojo Vinyan",
+      "url": "https://www.boxofficemojo.com/title/tt1029241/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "139分ディレクターズカット版・1978年製作",
+        "日本公開1994年10月",
+        "男女4名がショッピングセンターへ避難"
+      ],
+      "ref_id": "r09eiga",
+      "title": "映画.com ゾンビ ディレクターズカット完全版",
+      "url": "https://eiga.com/movie/18327/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "ロメロ監督・出演5名",
+        "ホラー映画と記載",
+        "1979年日本公開のアルジェント監修版と区別"
+      ],
+      "ref_id": "r09ci",
+      "title": "クランクイン ゾンビ ディレクターズカット完全版",
+      "url": "https://www.crank-in.net/movietitle/32307"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2012年・日本劇場未公開",
+        "監督・掲載全5名キャスト・ホラー",
+        "母の事件を調べる娘がバチカンへ向かう"
+      ],
+      "ref_id": "r10ac",
+      "title": "allcinema デビル・インサイド",
+      "url": "https://www.allcinema.net/cinema/pdf/342658"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "最初の一般公開2012年1月6日"
+      ],
+      "ref_id": "r10bom",
+      "title": "Box Office Mojo The Devil Inside",
+      "url": "https://www.boxofficemojo.com/title/tt1560985/"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "ローマ字Dot hack sekai no muko ni",
+        "2012年1月21日公開",
+        "SF・ファンタジー/アニメーション"
+      ],
+      "ref_id": "r11jfdb",
+      "title": "JFDB ドットハック セカイの向こうに",
+      "url": "https://jfdb.jp/title/3113"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "松山洋監督・出演全10名",
+        "福岡柳川の中学生そらがオンラインゲームを試す",
+        "ゲームと現実に異変が起こる"
+      ],
+      "ref_id": "r11fd",
+      "title": "FlyingDog ドットハック セカイの向こうに",
+      "url": "https://www.jvcmusic.co.jp/flyingdog/-/Animedata/Z0361.html"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2006年12月16日日本公開",
+        "志村錠児監督・出演全3名掲載",
+        "オムニバスアニメーション",
+        "あいがどうぶつ村に引越し、浜辺で不思議な手紙を拾う"
+      ],
+      "ref_id": "r12ct",
+      "title": "シネマトゥデイ 劇場版どうぶつの森",
+      "url": "https://www.cinematoday.jp/movie/T0004927"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "2006年1月3日TV放映・製作2005年",
+        "演出河野圭太・出演全9名",
+        "ミステリー・コメディ"
+      ],
+      "ref_id": "r13ac",
+      "title": "allcinema 古畑任三郎ファイナル 今、甦る死",
+      "url": "https://www.allcinema.net/cinema/pdf/324041"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "第1夜は堀部家とパン工場、裏山の開発を巡る争い",
+        "堀部大吉の遺体発見後古畑が現場検証する"
+      ],
+      "ref_id": "r13fuji",
+      "title": "フジテレビ 古畑任三郎FINAL 商品情報",
+      "url": "https://eshop.fujitv.co.jp/c/c_dvdbd/20882"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1958年カート・ニューマン監督・日本劇場未公開",
+        "掲載全9名キャスト・SF/ホラー/ドラマ",
+        "電送装置人体実験に蝿が紛れ込む"
+      ],
+      "ref_id": "r14ac",
+      "title": "allcinema 蝿男の恐怖",
+      "url": "https://www.allcinema.net/cinema/pdf/17814"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1958年7月一般公開"
+      ],
+      "ref_id": "r14afi",
+      "title": "AFI Catalog The Fly",
+      "url": "https://catalog.afi.com/Film/52548-THE-FLY"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "1974年8月24日日本初公開・2024年リバイバル",
+        "ブライアン・デ・パルマ監督・出演名簿"
+      ],
+      "ref_id": "r15ac",
+      "title": "allcinema 悪魔のシスター",
+      "url": "https://www.allcinema.net/cinema/pdf/662",
+      "candidate_body": "保存済みPDFの属性：SISTERS、1973、監督ブライアン・デ・パルマ、日本初公開1974/08/24、出演8名、ホラー／ミステリー。導入の短い抜粋：黒人青年が惨殺される現場を目撃した女性記者は単身捜査に乗り出す。",
+      "supplement_library_file_id": "libfile_5027db24ded08191b67cd3ac56a7bf17",
+      "supplement_member": "allcinema-662-extracted.txt"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "checked_facts": [
+        "記者グレースが青年の殺害を目撃するが警察が信じない"
+      ],
+      "ref_id": "r15paramount",
+      "title": "パラマウント 悪魔のシスター（旧記録：本文未確認）",
+      "url": "https://paramount.jp/search/detail.php?id=8415"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。イントルーダーズ (2011)／INTRUDERS。メディア 映画。ジャンル ホラー サスペンス。製作国 アメリカ／イギリス／スペイン。時間 100分。公開情報 劇場未公開。監督 フアン・カルロス・フレスナディージョ Juan Carlos Fresnadillo。出演（掲載順）：クライヴ・オーウェン、カリス・ファン・ハウテン、ダニエル・ブリュール、ピラール・ロペス・デ・アジャラ、エラ・パーネル、イサン・コルチェロ、ケリー・フォックス、エクトル・アルテリオ。解説の短い抜粋：ミアが木の中から不思議な手紙を発見す\nる。",
+      "ref_id": "retrieved-d8f919fa8328ea293a6d8a092f5b5cb061d1af69981af9c6c919e796821281ca",
+      "retrieval_tool_ref": "turn10view0",
+      "title": "allcinema イントルーダーズ PDF（属性欄・必要本文抜粋）",
+      "url": "https://www.allcinema.net/cinema/pdf/343027"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。イントルーダーズ。原題 INTRUDERS。日本・劇場未公開作品。監督：ファン・カルロス・フレスナディージョ。主演：クライヴ・オーウェン。出演欄（掲載順）：クライヴ・オーウェン、カリス・ファン・ハウテン、ダニエル・ブリュール、ケリー・フォックス、エラ・パーネル、マーク・ウィンゲット。制作年：2011。DVD発売日：2013年02月20日。レーベル NBC ユニバーサル・エンターテイメントジャパン。規格品番 GNBF-3153。あらすじの短い抜粋：ある日、ミアは自分の部屋にその''顔なし怪人''の気配を感じるようになる。",
+      "ref_id": "retrieved-7bd2725666da1af57f4831508bf89e656cd5349d8b9ec98b072358e89253046f",
+      "retrieval_tool_ref": "turn11view0",
+      "title": "TOWER RECORDS イントルーダーズ DVD（商品属性・必要本文抜粋）",
+      "url": "https://tower.jp/item/3193753"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の属性欄抜粋。アパリション －悪霊－ (2012)／THE APPARITION。映画。ジャンル ホラー。製作国 アメリカ。時間82分。公開情報 劇場未公開。監督 トッド・リンカーン Todd Lincoln。出演（掲載順）：アシュリー・グリーン、トム・フェルトン、セバスチャン・スタン、ルーク・パスクァリーノ、ジュリアンナ・ギル、リック・ゴメス、マーティ・マトゥーリス。",
+      "ref_id": "retrieved-5b8ab34bc083fc642b477e35779086d233fe4e9cdd9f163ef5707a11c00a9f76",
+      "retrieval_tool_ref": "turn13view0",
+      "title": "allcinema アパリション－悪霊－ PDF（属性欄抜粋）",
+      "url": "https://www.allcinema.net/cinema/pdf/345462"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。アパリション -悪霊-。原題The Apparition。制作年2012。制作国アメリカ。ジャンルホラー。監督トッド・リンカーン。役名／役者名の掲載順：ケリー／アシュリー・グリーン、ベン／セバスチャン・スタン、パトリック／トム・フェルトン、リディア／ジュリアンナ・ギル、グレッグ／ルーク・パスクァリーノ、マイク／リック・ゴメス。導入の短い本文抜粋：新居で怪奇現象に悩まされるカップルの男女。",
+      "ref_id": "retrieved-07fa1bf8b6fa527acb1c25b43f7fd217f41631393ac6318a3b5dfbdd160c223e",
+      "retrieval_tool_ref": "turn13view1",
+      "title": "WOWOW アパリション-悪霊-（作品属性・導入抜粋）",
+      "url": "https://www.wowow.co.jp/detail/103791"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の属性欄抜粋。The Apparition (2012)。Horror。82 mins。Director Todd Lincoln。Release Date: 2012。Premiere Information: Los Angeles and New York openings: 24 Aug 2012。Country: United States。Cast（掲載順）：Ashley Greene（Kelly）、Sebastian Stan（Ben）、Tom Felton（Patrick）、Julianna Guill（Lydia）、Anna Clark（Maggie）。",
+      "ref_id": "retrieved-ab92bac9786d1160c5b7fcd2c73aacdc3f6a92db128ac1d348f9dbabda5a3de8",
+      "retrieval_tool_ref": "turn13view2",
+      "title": "AFI Catalog The Apparition（作品・米国公開記録抜粋）",
+      "url": "https://catalog.afi.com/Film/68860-THE-APPARITION"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ヴェノム 毒蛇男の恐怖 (2005)／VENOM。映画。ジャンル ホラー。製作国 アメリカ。時間87分。公開情報 劇場未公開。監督ジム・ギレスピー Jim Gillespie。出演（掲載順）：アグネス・ブルックナー、ジョナサン・ジャクソン、ローラ・ラムジー、Ｄ・Ｊ・コトローナ、リック・クレイマー、ミーガン・グッド、ビジュー・フィリップス、メソッド・マン、ステイシー・トラヴィス、マーカス・ブラウン、ジェームズ・ピッケンズ・Ｊｒ、パヴェウ・シャイダ。リック・クレイマーの役名はレイ・ソーヤー。解説の短い抜粋：悪霊に取り憑かれて“毒蛇男”となっ\nてしまった男",
+      "ref_id": "retrieved-50c76e6842045e3f0550c80e8745878de8276f991a169b4da42de478a5666645",
+      "retrieval_tool_ref": "turn15view0",
+      "title": "allcinema ヴェノム毒蛇男の恐怖 PDF（属性・本文抜粋）",
+      "url": "https://www.allcinema.net/cinema/pdf/325134"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の属性欄抜粋。ヴェノム 毒蛇男の恐怖。読み欄：べのむどくへびおとこのきょうふ。原題VENOM。ジャンル ホラー。製作国アメリカ。製作年2005。公開年月日 未公開。上映時間87分。配給 ウォルト・ディズニー・スタジオ・ジャパン。監督ジム・ギレスピー。出演欄の掲載順：アグネス・ブルックナー、ジョナサン・ジャクソン、ローラ・ラムジー、D・J・コトローナ。",
+      "ref_id": "retrieved-b4184d69113760bc3224abbe4eb0f90b5188bdfcd4d6d239f32fecc7c1bd3e62",
+      "retrieval_tool_ref": "turn15view1",
+      "title": "KINENOTE ヴェノム毒蛇男の恐怖（読み・属性欄抜粋）",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=46644"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ヴェノム 毒蛇男の恐怖。2005。分類表示：ホラー・サスペンス・ダーク。監督ジム ギレスピー。出演者欄：ジョナサン ジャクソン、ラウラ ラムジー、Ｄ・Ｊ・コトローナ、リック クレイマー。提供Paramount Pictures。導入の短い本文抜粋：友人の謎の死に隠された真実を突き止めようとする十代の若者たち",
+      "ref_id": "retrieved-22c2518c083eeefd0ef1e5ec76688b93073402d0d419986fcde47b36632a6d2a",
+      "retrieval_tool_ref": "turn15view2",
+      "title": "Prime Video ヴェノム毒蛇男の恐怖（属性・導入抜粋）",
+      "url": "https://www.primevideo.com/-/ja/detail/0KIK0AL09AINJWQQKVWT1TY0RA"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（作品情報・クレジット）。U.N.エージェント (2008)、RESOLUTION 819。メディア TVM。ジャンル 戦争／ドラマ。製作国 フランス／ポーランド／イタリア。96分。公開情報 劇場未公開。監督 ジャコモ・バティアート Giacomo Battiato。出演（記載順）：ブノワ・マジメル、イポリット・ジラルド、ケン・デュケン、カロリーナ・グルシュカ、フリスト・ショポフ、クリストフ・オーデン。",
+      "ref_id": "retrieved-89c2ff77885873445dc79bf37828a728c0bf05adfc7e4786398c801200715899",
+      "retrieval_tool_ref": "turn17view0",
+      "title": "allcinema U.N.エージェント (2008)",
+      "url": "https://www.allcinema.net/cinema/pdf/336978"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（作品情報のみ。ユーザーレビューは根拠にしない）。U.N.エージェント。2008年製作／96分／フランス・ポーランド・イタリア合作。原題 Resolution 819。監督 ジャコモ・バティアート。出演（記載順）：ブノワ・マジメル、イポリット・ジラルド、ケン・デュケン、カロリーナ・グルシュカ、クリストフ・オーデン。",
+      "ref_id": "retrieved-419dddd028fc7d14b2a98ee1777a9c5a37ea4f526197dbbb2e33d2648ee75ad8",
+      "retrieval_tool_ref": "turn17view1",
+      "title": "映画.com U.N.エージェント",
+      "url": "https://eiga.com/movie/83265/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。U.N.エージェント RESOLUTION819。監督 ジャコモ・バッティアート。出演 ブノワ・マジメル、イポリット・ジラルド、ケン・デュケン。ジャンル 洋画／ドラマ／戦争ドラマ。制作年2008年、制作国フランス、96分、メーカー彩プロ、品番CFTD-273。レンタル開始日2010-02-03。紹介本文の短い抜粋：『事態を重く見たICTYは辣腕検察官・ジャックを派遣するが…。』",
+      "ref_id": "retrieved-1d1085b6bdcb3ea952bc22c83c743efd3150abd750b1abe71258221066e7e0d0",
+      "retrieval_tool_ref": "turn17view2",
+      "title": "ぽすれん U.N.エージェント",
+      "url": "https://posren.com/detail-172764.html"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（作品情報・クレジット）。ゾンビ・ブライド (2013)。オリジナルビデオ。ジャンル ホラー。製作国 日本、74分。監督・脚本 山内大輔。出演（掲載順）：みづなれい、倖田李梨、竹本泰志、野村貴浩、なかみつせいじ、高橋佐織、久保田泰也。",
+      "ref_id": "retrieved-8c795de0f059cc5bd6a09398d788efbd395c189bfc190a224c986e594288fa96",
+      "retrieval_tool_ref": "turn19view0",
+      "title": "allcinema ゾンビ・ブライド (2013)",
+      "url": "https://www.allcinema.net/cinema/pdf/345581"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ゾンビ･ブライド。監督・脚本 山内大輔。出演（収録内容の記載順）：みづなれい、倖田李梨、竹本泰志、野村貴浩、なかみつせいじ、高橋佐織、久保田泰也。74分、日本、制作年2013。DVDオリジナル発売日2013年06月20日。ラインコミュニケーションズ、LCPR-02013、SKU4529971020139。紹介本文の短い抜粋：『不倫相手に殺害されたOLの嶋沢愛里(29)は朝目を覚ますとゾンビになっていた。』",
+      "ref_id": "retrieved-d56943d80ca74a43121cf02060396f88370d880eb12c9471961482fc71b444d0",
+      "retrieval_tool_ref": "turn20view0",
+      "title": "TOWER RECORDS ゾンビ･ブライド",
+      "url": "https://tower.jp/item/3247335"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ゾンビ・ブライド。制作年2013、日本、74分。ジャンル アダルト。監督 山内大輔。出演（掲載順）：みづなれい（嶋沢愛里）、倖田李梨（杏子）、竹本泰志（吉岡）、里見瑤子（ようこ）、野村貴浩。紹介本文の短い抜粋：『やがて彼女は、スナックを営む先輩ゾンビ・ようこと知り合う。』",
+      "ref_id": "retrieved-f16e0745368e883bcc32c458e3ef55db7af47dd136d589edd5feeb08b3f9f9ff",
+      "retrieval_tool_ref": "turn20view1",
+      "title": "WOWOW ゾンビ・ブライド",
+      "url": "https://www.wowow.co.jp/detail/103799"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。富江 アンリミテッド (2011)。映画、日本、83分、ホラー、初公開日2011/05/14、ティ・ジョイ＝CJ Entertainment JAPAN、R15+。監督井口昇、原作伊藤潤二。出演（掲載順）：荒井萌（月子）、多田愛佳（佳恵）、大和田健介（下田俊夫）、松浦慎一郎、岸建太朗、駿河太郎、水井真希、石川ゆうや、村田唯、大堀こういち（飯塚政史）、川上麻衣子（飯塚喜美子）、仲村みう（富江）。紹介本文の短い抜粋：『両親と月子の前に、死んだはずの富江が姿を現わす。』",
+      "ref_id": "retrieved-c9f2a629f6ca923949bf6dde03b591b918ed1734f171bc4abc6070963f6d8946",
+      "retrieval_tool_ref": "turn22view0",
+      "title": "allcinema 富江 アンリミテッド (2011)",
+      "url": "https://www.allcinema.net/cinema/pdf/338948"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。富江 アンリミテッド。読み とみえあんりみてっど。ホラー、日本、製作年2011、公開年月日2011/5/14。製作会社東映ビデオ、配給ティ・ジョイ=CJ Entertainment JAPAN。監督井口昇、原作伊藤潤二。出演（掲載順）：荒井萌（月子）、仲村みう（富江）、多田愛佳（佳恵）、大和田健介（下田俊夫）、大堀こういち、川上麻衣子。紹介本文の短い抜粋：『事故死した女子高生、富江が一年後に家族の前に現れ、家族を恐怖に陥れていく。』",
+      "ref_id": "retrieved-a3f048369ba06c0953cd4ee1d8856ab2eb7b2ae0aab43ba46453fc54569b945c",
+      "retrieval_tool_ref": "turn22view1",
+      "title": "KINENOTE 富江 アンリミテッド",
+      "url": "https://www.kinenote.com/sp/public/cinema/detail.aspx?cinema_id=41862"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（ユーザーレビューは使用しない）。富江 アンリミテッド。劇場公開日2011年5月14日、2011年製作、日本、83分、R15+。配給ティ・ジョイ、CJエンタテインメント。監督井口昇、原作伊藤潤二。出演（掲載順）：荒井萌、仲村みう、多田愛佳、大和田健介、大堀こういち、川上麻衣子。紹介本文の短い抜粋：『美しい姉・富江に負い目を感じていた女子高生の月子は、凄惨な事故で姉を亡くす。』",
+      "ref_id": "retrieved-0fda0b1aeb7907ca0149d1830b0ee30bd32006972a0b1e6fc21f941b1f9d83c8",
+      "retrieval_tool_ref": "turn22view2",
+      "title": "映画.com 富江 アンリミテッド",
+      "url": "https://eiga.com/movie/55960/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。シャークトパス SHARKTOPUS (2010)。原題SHARKTOPUS。TVM。ホラー／パニック／アクション。アメリカ、89分。監督デクラン・オブライエン。出演（掲載順）：ケレム・バーシン（アンディ・フリン）、サラ・マラクル・レイン（ニコール・サンズ）、エリック・ロバーツ（ネイサン・サンズ）、エクトル・ヒメネス（ボーンズ）、ピーター・ネルソン（コックス）。",
+      "ref_id": "retrieved-e937d1d7bb820d50090a7f2478a09017bce0543f564c5c4d6ce6ff00f93c5259",
+      "retrieval_tool_ref": "turn24view0",
+      "title": "allcinema シャークトパス SHARKTOPUS (2010)",
+      "url": "https://www.allcinema.net/cinema/pdf/340114"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。インターフィルム公式シャークトパス合体パック3枚組。対象はDisc1 Sharktopus（2010年、アメリカ、89分）で続編の2014／2015年とは区別。2010年にアメリカSyfyチャンネル初登場と記載。セット発売日2022-08-05は作品初公開日ではない。対象Disc1監督デクラン・オブライエン。出演（原語出演の掲載順）：ケレム・バーシン、サラ・マラクル・レーン、エリック・ロバーツ。紹介本文の短い抜粋：『その生物は半身がタコ、半身がサメのようだが、何故か人間には襲いかからず、海中深く消えていった。』",
+      "ref_id": "retrieved-3847e90759bc1253facc31ba02da20c0a5d8d1bf8c4e31e122975f16aee6d345",
+      "retrieval_tool_ref": "turn24view1",
+      "title": "インターフィルム公式 シャークトパス合体パック（Disc1）",
+      "url": "https://inter-film.com/post-1143/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。シャークトパス SHARKTOPUS。原題Sharktopus、制作年2010、アメリカ、89分。ジャンル アクション／冒険。監督デクラン・オブライエン。出演（掲載順）：ケレム・バーシン、サラ・マルクル・レイン、エリック・ロバーツ、エクトル・ヒメネス、ピーター・ネルソン、リヴ・ボーン。紹介本文の短い抜粋：『だが、試験運用中のトラブルから制御不能に陥ったシャークトパスは、やがて見境なく人間たちを襲い始める。』",
+      "ref_id": "retrieved-91c9eb16d3aacc63ad91b93ce680ca6ce7d08ac4fb41e38083be3b1f52808224",
+      "retrieval_tool_ref": "turn24view2",
+      "title": "WOWOW シャークトパス SHARKTOPUS",
+      "url": "https://www.wowow.co.jp/detail/110639"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。古畑任三郎スペシャル VS.監察医 黒岩博士の恐怖 (1999)。TVM、日本、110分、ミステリー。TV放映欄1999/04/16～、火曜日、21:00-23:14、フジテレビと記載。演出鈴木雅之、プロデュース関口静夫、脚本三谷幸喜。出演（PDF本文掲載順）：田村正和、緒形拳、西村雅彦、栗田貫一、石井正則、白井晃、小林隆、酒井敏也、篠井英介、八嶋智人。",
+      "ref_id": "retrieved-0bc6c05ba8d61c687dee0f81a95d0b59edb58624b1663216c88093cb4264c812",
+      "retrieval_tool_ref": "turn26view0",
+      "title": "allcinema 古畑任三郎スペシャル VS.監察医 黒岩博士の恐怖",
+      "url": "https://www.allcinema.net/cinema/pdf/162445"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。古畑任三郎スペシャル第1話『黒岩博士の恐怖』、ドラマ、1999年4月6日フジテレビ。演出鈴木雅之、脚本三谷幸喜。出演（掲載順）：田村正和（古畑任三郎）、西村雅彦（今泉慎太郎）、石井正則（西園寺守）、緒形拳（黒岩健吾）、栗田貫一（春木）、八嶋智人（ウエイター）、酒井敏也（小木智満）、篠井英介（仕立屋）、白井晃（芳賀）、小林隆、植松洋。Q&Aも放送日1999年4月6日／フジテレビと記載。",
+      "ref_id": "retrieved-9f9b57d3b9ccbeba45888118fcdb9cffc5ad905dda98058bbadb9325dae8d5f1",
+      "retrieval_tool_ref": "turn26view1",
+      "title": "WEBザテレビジョン 古畑任三郎スペシャル 黒岩博士の恐怖",
+      "url": "https://thetv.jp/program/0000014717/1/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ディヴァイド (2011)、THE DIVIDE。映画、SF／ドラマ／サスペンス。アメリカ、112分、R15+。初公開日2012/06/09、プレシディオ。監督ザヴィエ・ジャン Xavier Gens。出演（掲載順）：ローレン・ジャーマン、マイケル・ビーン、マイロ・ヴィンティミリア、コートニー・Ｂ・ヴァンス、マイケル・エクランド、イバン・ゴンサレス、アビー・シックソン、アシュトン・ホームズ、ロザンナ・アークエット。紹介本文の短い抜粋：『個人所有の地下シェルターには９人の男女が逃げ込むことに成功する。』",
+      "ref_id": "retrieved-9ebc80c8a00342642e6e72402c79ea1bdd79d5ef2009b7e17d271cff7a647563",
+      "retrieval_tool_ref": "turn28view0",
+      "title": "allcinema ディヴァイド (2011)",
+      "url": "https://www.allcinema.net/cinema/pdf/342543"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（ユーザーレビューは使用しない）。ディヴァイド。日本劇場公開日2012年6月9日。2011年製作、アメリカ、112分、R15+。原題The Divide、配給プレシディオ。監督ザビエ・ジャン。出演（掲載順）：ローレン・ジャーマン、マイケル・ビーン、マイロ・ビンティミリア、コートニー・B・バンス、アシュトン・ホームズ、ロザンナ・アークエット、イバン・ゴンザレス、マイケル・エクランド、アビー・シックソン。紹介本文の短い抜粋：『ニューヨークが突然の爆撃を受け、壊滅状態に陥る。』",
+      "ref_id": "retrieved-0c7a4bdab653ca041d3b7a964deceaa0aa1beab8913d46ce38a8bf8340a5dc6d",
+      "retrieval_tool_ref": "turn28view1",
+      "title": "映画.com ディヴァイド",
+      "url": "https://eiga.com/movie/57104/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。アルバトロス公式 ダブルヘッド・ジョーズ。原題2 Headed Shark Attack、制作年2012、アメリカ、88分、品番ALBSD-1535、POS4532318405797。監督クリストファー・レイ。出演（掲載順）：カーメン・エレクトラ、チャーリー・オコンネル、ブルック・ホーガン、デヴィッド・ガイエゴス、ジェフ・ワード。紹介本文の短い抜粋：『大学の研究合宿で、ソロモン諸島に向かいクルーザーを走らせるバビッシュ教授とその生徒たち。』",
+      "ref_id": "retrieved-c69c34aa89c298f6b430ed2ddf52c9d3835c51b5f537cb413499df7c8db06eff",
+      "retrieval_tool_ref": "turn30view0",
+      "title": "アルバトロス公式 ダブルヘッド・ジョーズ",
+      "url": "https://www.albatros-film.com/archives/1876/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。ダブルヘッド・ジョーズ。原題2-Headed Shark Attack、制作年2012、アメリカ、88分、ジャンル アクション／冒険。監督クリストファー・レイ。出演（掲載順）：カーメン・エレクトラ（アン・バビッシュ）、チャーリー・オコンネル（フランクリン・バビッシュ教授）、ブルック・ホーガン（ケイト）、クリスティーナ・バック（ダナ）、ジェラルド・ウェブ（ハン）、デヴィッド・ガイエゴス（ポール）。紹介本文の短い抜粋：『なんと、双頭の大きなサメが現われ、海で遊んでいた学生たちを次々襲い始めたのだ。』",
+      "ref_id": "retrieved-52f29ab5d125a062cf3a63e15ee115e50042477b568b5a827bb7fffcc4e3c69e",
+      "retrieval_tool_ref": "turn30view1",
+      "title": "WOWOW ダブルヘッド・ジョーズ",
+      "url": "https://www.wowow.co.jp/detail/115212"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。テレビ東京 午後ロード ダブルヘッド・ジョーズ。番組放送2017-11-27は今回の再放送情報で作品初公開日ではない。製作年／国2012／アメリカ。監督クリストファー・レイ。出演（俳優掲載順、声優と分離）：カーメン・エレクトラ、チャーリー・オコンネル、ブルック・ホーガン、デビッド・ガイエゴス、ジェフ・ワード。紹介本文の短い抜粋：『なんと、そのサメには獰猛な牙を剥く頭が２つあったのだ！』",
+      "ref_id": "retrieved-0cd2b55fd107fbc1841eeff7c486ade01e11d4308af016f7c5b4be95481aa3a0",
+      "retrieval_tool_ref": "turn30view2",
+      "title": "テレビ東京 ダブルヘッド・ジョーズ 番組情報",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/24194_201711271335.html"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。JFDB 白い巨塔、Shiroi kyoto、The Great White Tower。公開日1966年10月15日、150分、劇映画、Monochrome。監督山本薩夫。キャスト（掲載順）：田宮二郎、田村高廣、東野英治郎。製作・国内配給 大映。原作山崎豊子。紹介本文の短い抜粋：『大阪・浪速大学医学部では、東教授の定年を控え、後任教授には若きエリート助教授・財前五郎が有力視されていた。』",
+      "ref_id": "retrieved-7a26de16a38d2742323720b39b659c6ba0d43d6d265f4c3d4b87b94ed677e08c",
+      "retrieval_tool_ref": "turn32view0",
+      "title": "JFDB 白い巨塔",
+      "url": "https://jfdb.jp/title/7241"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。白い巨塔(1966)、読みしろいきょとう、The Great White Tower/The Ivory Tower。文芸、日本、製作年1966、公開1966/10/15、149分、製作大映東京、配給大映、モノクロ。監督山本薩夫。出演（掲載順）：田宮二郎、東野英治郎、小沢栄太郎、加藤嘉、田村高廣、下絛正巳、船越英二、滝沢修、須賀不二男、夏木章、加藤武、北原義郎、高原駿雄、竹村洋介、早川雄三、石山健二郎、長谷川待子、藤村志保、岸輝子、小川真由美、瀧花久子、見明凡太朗、南方伸夫、村田扶実子、浜世津子、杉田康、河原侃二、潮万太郎、伊東光一、清水将夫、鈴木瑞穂、永田靖、小山内淳、山根圭一郎、平井岐代子、天池仁美、岡崎夏子、白井玲子、安瀬充、村井徹、福原真理子、赤沢未知子。",
+      "ref_id": "retrieved-162b004796f6c5db993aad2f1185c32cc2319efdad976d9bc3ca6315fd18a7ed",
+      "retrieval_tool_ref": "turn32view1",
+      "title": "KINENOTE 白い巨塔(1966)",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=22030"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。白い巨塔 (1966)、映画、日本、B&W、サスペンス／ドラマ、初公開日1966/10/15。監督山本薩夫。出演（掲載順）：田宮二郎、小川真由美、東野英治郎、滝沢修、船越英二、田村高廣、石山健二郎、小沢栄太郎、藤村志保、長谷川待子、岸輝子、加藤嘉、永田靖、加藤武、下絛正巳、鈴木瑞穂、須賀不二男、清水将夫、高原駿雄、早川雄三、北原義郎、潮万太郎、滝花久子。紹介本文の短い抜粋：『東の教え子である財前五郎は最有力候補と言われていたが、傲慢な態度ゆえ東教授に疎まれ\nており、様々な工作を進めていた。』",
+      "ref_id": "retrieved-8a5d4889638f977c0b7f40886489369f1cb34851e8132dd81f3fdf7f7989243e",
+      "retrieval_tool_ref": "turn33view0",
+      "title": "allcinema 白い巨塔 (1966)",
+      "url": "https://www.allcinema.net/cinema/pdf/160924"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。松竹作品データベース 劇場版 BLOOD-C The Last Dark。作品読み『げきじょうばん ぶらっどしー ざ らすと だーく』。公開日2012年6月2日、110分、ジャンルアニメ。監督塩谷直義、原作Production I.G／CLAMP、配給松竹。キャスト（掲載順）：水樹奈々、野島健児、橋本愛、神谷浩史。紹介本文の短い抜粋：『その危機に現れたのは日本刀を手に＜古きもの＞と戦う少女・小夜だった。』",
+      "ref_id": "retrieved-98a1ad1ed8bbc5339df4da49e5548d422850f12e46234d5ea0c8f9197dc2f7df",
+      "retrieval_tool_ref": "turn35view0",
+      "title": "松竹公式 劇場版 BLOOD-C The Last Dark",
+      "url": "https://www.shochiku.co.jp/cinema/database/04750/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。アニプレックス公式 劇場版BLOOD-C The Last Dark。アニメ、TVシリーズから続く完全新作劇場アニメーション。監督塩谷直義、原作Production I.G／CLAMP、制作Production I.G、製作Project BLOOD-C Movie、配給松竹。キャスト（掲載順）：水樹奈々、野島健児、橋本愛、神谷浩史、中村悠一、梶裕貴、花澤香菜、甲斐田裕子、福山潤、浅野真澄、諏訪部順一。ストーリーの短い抜粋：『小夜は七原文人に復讐を果たすべく東京にいた。』『そんな東京で小夜は社会の闇を暴くために活動するネットコミュニティ・サーラットのメンバーに出会う。』",
+      "ref_id": "retrieved-c2f23be75b709c073126c6948803fdb9ff813e00e4aea382ed2b01b7507645d0",
+      "retrieval_tool_ref": "turn35view1",
+      "title": "アニプレックス公式 劇場版BLOOD-C The Last Dark",
+      "url": "https://www.aniplex.co.jp/lineup/blood-c-movie/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。JFDB 劇場版BLOOD-C The Last Dark、2012年、公開日2012年6月2日、106分、ジャンルホラー／アニメーション。監督塩谷直義。キャスト（掲載順）：水樹奈々（小夜）、野島健児（七原文人）、橋本愛（柊真奈）。製作Project BLOOD-C Movie、配給松竹、制作Production I.G。",
+      "ref_id": "retrieved-eb70b1444b7d6bf4d6fb22060705a72cf34647da5c35b239c9d7f63b4dcc9653",
+      "retrieval_tool_ref": "turn35view2",
+      "title": "JFDB 劇場版BLOOD-C The Last Dark",
+      "url": "https://jfdb.jp/title/3143"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。片腕ドラゴン (1972)、ONE ARMED BOXER／CHINESE BOXER／獨臂拳王。映画、アクション／格闘技、香港、93分、初公開日1974/02/08、東和。監督ジミー・ウォング Jimmy Wang Yu。出演（掲載順）：ジミー・ウォング、タン・シン、ティエン・イェー、ライ・シュン、ルン・フー、シット・ホン。紹介本文の短い抜粋：『片腕を失った男が、復讐のため、残された腕を鋼のように鍛え上げて……』",
+      "ref_id": "retrieved-71d322a2b2c21d3fa46ca9579b2885bc038adbb579caf480bc844f1349bd2fd8",
+      "retrieval_tool_ref": "turn37view0",
+      "title": "allcinema 片腕ドラゴン (1972)",
+      "url": "https://www.allcinema.net/cinema/pdf/4548"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（ユーザーレビューは使用しない）。片腕ドラゴン。日本劇場公開日1974年2月8日。1972年製作、香港、原題One-Armed Boxer、配給東和。監督ジミー・ウォング。出演（掲載順）：ジミー・ウォング、タン・シン、ティエン・イェー、フェイ・ルン、ライ・シュン。あらすじの短い抜粋：『チャオは復讐のために、各国から武道の専門家を雇いこんだ。』",
+      "ref_id": "retrieved-20aa3247a194053753a021a165b62ca397124d32fead9b3518abeae373ba325a",
+      "retrieval_tool_ref": "turn37view1",
+      "title": "映画.com 片腕ドラゴン",
+      "url": "https://secure.eiga.com/movie/51704/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。片腕ドラゴン、読みかたうでどらごん。分類アクション。公開日1974年2月8日、香港（1972）、配給東和。監督ジミー・ウォング。出演（掲載順）：ジミー・ウォング、タン・シン、ティエン・イェー、フェイ・ルン、ライ・シュン。",
+      "ref_id": "retrieved-59163f37bb5029c51ecf49b953fb75f378e1a4215e0b6b889e455dbfdd3df21b",
+      "retrieval_tool_ref": "turn38view0",
+      "title": "映画の時間 片腕ドラゴン",
+      "url": "https://movie.jorudan.co.jp/film/12444/"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。国立映画アーカイブ所蔵フィルム 空気の無くなる日（その他題名 空気のなくなる日）。日本映画社、製作1949、白黒、51分。監督 伊東寿恵男。演出補助 吉田庄太郎、菅家陳彦。原作岩倉政治。出演（掲載順）：深見泰三、花沢徳衛、河崎竪男、平山均、佐々木浩一、河合健児、大町文夫、望月伸光、榊田敬二、大塚秀雄、高野二郎、〓方一夫、島田敬一、北島多恵子、小沢經子、田中筆子、小松千歳、馬野都留子、春野音羽、原緋沙子、木匠久美子、戸田春子、鏑木ハルナ、瀧鈴子、一色勝代、登山晴子、児童劇団『銀河座』。",
+      "ref_id": "retrieved-ff791edf97fe71c27c7e795c52d529b8aa6dc5cb1457719f2150224e81f1df4a",
+      "retrieval_tool_ref": "turn40view0",
+      "title": "国立映画アーカイブ所蔵フィルム 空気の無くなる日",
+      "url": "https://nfad.nfaj.go.jp/det.php?data_id=8947&key=&key_y=&mode=3&notation_id=&op=AND&page=0&s_page=&sakuhin_id=109700"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。空気の無くなる日 (1949)、映画、SF、日本、B&W、54分。初公開日1954/（月日なし）、公開情報日本映画社。演出（掲載順）：伊東壽惠男、吉田庄太郎、菅家陳彦。原作岩倉政治『空気がなくなる日』、特殊技術東宝合成課。出演（掲載順）：深見泰三、北島多恵子、花沢徳衛。",
+      "ref_id": "retrieved-2a67448f9d81f2e0b594914e4388940dfcd41caba46b1bdbb9291ac8f84bf6fa",
+      "retrieval_tool_ref": "turn40view1",
+      "title": "allcinema 空気の無くなる日 (1949)",
+      "url": "https://www.allcinema.net/cinema/pdf/241889"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（研究家の鑑賞記事。公式作品紹介ではない）。佐藤利明、娯楽映画研究所、2021-10-07。作品は1949年日本映画社、伊東寿恵男と記載。1950年に共同映画の配給で学校巡回上映、1954年劇場公開とする。NFAJと比較すると監督・演出補助の肩書に差があり、本記事は演出3名列記。鑑賞感想と物語の叙述は今回のあらすじ事実根拠にしない。",
+      "ref_id": "retrieved-ce376a34c3e40b0f2320af0fc34ac23237a5d28d9481fb88e015936cc74b4560",
+      "retrieval_tool_ref": "turn40view2",
+      "title": "佐藤利明 娯楽映画研究所 空気の無くなる日（鑑賞記事・参考）",
+      "url": "https://note.com/toshiakis/n/n9ebc8869f483"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋。預言者 (2009)、UN PROPHETE、映画、サスペンス／犯罪／ドラマ。フランス、150分、日本初公開日2012/01/21、スプリングハズカム。監督ジャック・オーディアール Jacques Audiard。出演（掲載順）：タハール・ラヒム（マリク）、ニエル・アレストリュプ（セザール）、アデル・バンシェリフ（リヤド）、イシェーム・ヤクビ（レイェブ）、レイラ・ベクティ（ジャミラ）。紹介本文の短い抜粋：『19歳のアラブ系青年マリクは６年の刑に服して中央刑務所に送られる。』",
+      "ref_id": "retrieved-e81e5798e491d5e1d8bd47beb090f72abab00516cee0184d7d86c272cee12149",
+      "retrieval_tool_ref": "turn42view0",
+      "title": "allcinema 預言者 (2009)",
+      "url": "https://www.allcinema.net/cinema/pdf/336913"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（技術情報）。Un prophète de Jacques Audiard (2008)。長編、Fiction、下位分類Drame、撮影言語フランス語。製作国France, Italie、フランス主体。製作年Année de production 2008、フランス公開Sortie en France 26/08/2009、2h29min、Visa110.809、交付25/06/2009。日本2010年フランス映画祭選出の記載。今回読めた国際公開表は結果なしで、日本公開日をこの本文から確認したとは扱わない。",
+      "ref_id": "retrieved-7e8e5602789c5bbe5969dc570f6626af571b0ae34d5d4cf53cbfccf384d74f39",
+      "retrieval_tool_ref": "turn42view1",
+      "title": "Unifrance Un prophète de Jacques Audiard",
+      "url": "https://www.unifrance.org/film/29603/un-prophete"
+    },
+    {
+      "accessed_at": "2026-10-13",
+      "candidate_body": "取得本文の必要部分抜粋（ユーザーレビューは使用しない）。預言者（2009）。日本劇場公開日2012年1月21日。製作年2009、フランス、150分。原題Un Prophete、配給スプリングハズカム。2010年日本フランス映画祭で初上映と記載。監督ジャック・オーディアール。出演（掲載順）：タハール・ラヒム、ニエル・アレストリュプ、アデル・ペンシュリフ、レダ・カティブ、イシェーム・ヤクビ、ジル・コーエン、アントワーヌ・バズラー、レイラ・ベクティ、ピエール・レシア、スリマヌ・ダジ。紹介本文の短い抜粋：『そんな環境の中、マリクは徐々に読み書きを覚え、刑務所での独自のサバイバル方法を身につけていく……。』",
+      "ref_id": "retrieved-d7119d59b00afc52c7468700fad003699f333b8087b8b14f8dfc2613dce9d5dd",
+      "retrieval_tool_ref": "turn43view0",
+      "title": "映画.com 預言者（2009）",
+      "url": "https://eiga.com/movie/55346/"
+    }
+  ]
+}
