@@ -1,0 +1,98 @@
+{
+  "batch_id": "metadata-trial-individual-year-20261020",
+  "dataset_id": "movielog-individual-year-20261020",
+  "base_commit": "347f61f2ad892cce1eace759622acc4c8021fa33",
+  "source_base_commit": "347f61f2ad892cce1eace759622acc4c8021fa33",
+  "applied_at": "2026-10-20T12:21:57.403915+09:00",
+  "target_count": 1,
+  "confirmed_count": 1,
+  "answer_sha256": "22d9cc293bdbab5d3d13023e41851044874bef80467f950b06066415ba646cac",
+  "candidate_sha256": "00ad5c6d2f044772031f7e3310c72f5a8f1c180600c39452ebac86eb514ab9c3",
+  "target_sha256": "535392efad0e650c6351329a8655a0a1ba12dba58e08a05774b91c4a82f7fdc9",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/隙魔_2014-08-26.md",
+      "title": "隙魔",
+      "review_date": "2014-08-26 00:00:48",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [
+          "中田圭"
+        ],
+        "cast": [
+          "野村恵里",
+          "山口美也子",
+          "伊藤さやか",
+          "米里友利",
+          "宇佐美なな"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "metadata_after": {
+        "release_year": 2005
+      },
+      "confirmed_updates": {
+        "release_year": 2005
+      },
+      "article_sha256_before": "89de1ae9a5f1508d9a1f245c12b805022088fe83431005328fb9f6039219ba21",
+      "article_sha256_after": "9c66997a6002d6f288036429bc5219ae3ca73f011c033e2a2286adc1beb0ea7f",
+      "body_bytes_unchanged": true,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "release_year": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2005",
+              "region": "",
+              "kind": "本人判断",
+              "video_through": false
+            },
+            "note": "本人指示（2026-10-20）：隙魔は2005年。空欄の場合は補填。"
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "next30-cae52f3731962a67-source-1",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cae52f3731962a67-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cae52f3731962a67-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cae52f3731962a67-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cae52f3731962a67-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    }
+  ],
+  "image_assets": []
+}

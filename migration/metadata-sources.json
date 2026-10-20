@@ -30930,6 +30930,16 @@
           },
           "identity_decision": "same",
           "answer_sha256": "4c5a3adbb517d25bc8b0d7d079db9eaac78e7f98cde297323d3fd9fa32c0c615"
+        },
+        {
+          "batch_id": "metadata-trial-individual-year-20261020",
+          "approved_at": "2026-10-20T10:05:14+09:00",
+          "record": "migration/metadata-trial-individual-year-20261020.json",
+          "confirmed_updates": {
+            "release_year": 2005
+          },
+          "identity_decision": "same",
+          "answer_sha256": "22d9cc293bdbab5d3d13023e41851044874bef80467f950b06066415ba646cac"
         }
       ]
     },
