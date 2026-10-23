@@ -286,7 +286,9 @@ class Site:
 <title>{e(page_title)}</title>{social}<link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
 <body data-site-root="{href(route, 'index.html')}"><a class="skip-link" href="#main">本文へ</a><div class="site-layout">{self.sidebar(route, active)}<div class="site-content">
 <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false">メニュー・検索</button>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
-</div></div><button class="sidebar-backdrop" type="button" aria-label="メニューを閉じる" hidden></button></body></html>'''
+</div></div><button class="sidebar-backdrop" type="button" aria-label="メニューを閉じる" hidden></button>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "4d5fc53e77f74098b80266fed00de5f9"}}'></script><!-- End Cloudflare Web Analytics -->
+</body></html>'''
         path = self.output / route
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(document, encoding="utf-8")
