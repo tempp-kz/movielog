@@ -116,6 +116,20 @@ related_films:
 
 本文はMarkdownとして表示します。記号の自動整文・表記修正は行いません。画像・記事リンクは通常のMarkdown形式を使ってください。
 
+## エッセイの追加
+
+`type: essay` のMarkdownを次のフォルダへ保存すると、通常のサイト生成時に各一覧へ追加されます。本文・日付などは既存のMarkdown形式を使います。
+
+|フォルダ|一覧|
+|---|---|
+|`content/essays/movies/`|映画エッセイ一覧|
+|`content/essays/museums/`|美術館・博物館エッセイ一覧|
+|`content/essays/books/`|本エッセイ一覧|
+|`content/essays/novels/`|小説エッセイ一覧|
+|`content/essays/other/`|その他エッセイ一覧|
+
+各分野でファイル名を `001_題名.md`、`002_題名.md` のように追加順にナンバリングします。一覧は先頭番号の小さい順です（1、2、10の数値順）。番号なしは番号付きの後へ日付の古い順に表示します。既存の `content/essays/` 直下のエッセイは映画一覧にも表示し、既存の総合エッセイURLは残します。現在のエッセイは0件です。
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml`を用意しました。確認用ブランチでは生成ルールのテストとHTML生成まで実行します。`main`へ反映し、GitHubのSettings → Pages → Build and deployment → Sourceを**GitHub Actions**にした後は、`main`へのpushで生成・公開されます。公開先は`https://tempp-kz.github.io/movielog/`です。今回の確認用ブランチへのpushだけでは公開しません。

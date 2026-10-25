@@ -23,11 +23,12 @@ import yaml
 
 SITE_TITLE = "映画の感想を だらだら呟く"
 SITE_URL = "https://tempp-kz.github.io/movielog/"
-SITE_DESCRIPTION = "Temppの各所に分散していた映画ログまとめです。"
-NAV = [("index.html", "トップ"), ("titles/index.html", "作品名順"),
+SITE_DESCRIPTION = "ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。"
+NAV = [("titles/index.html", "作品名順"),
        ("years/index.html", "公開年順"), ("genres/index.html", "ジャンル"),
-       ("directors/index.html", "監督"), ("cast/index.html", "出演者"),
-       ("essays/index.html", "エッセイ")]
+       ("directors/index.html", "監督"), ("cast/index.html", "出演者")]
+ESSAY_CATEGORIES = [("movies", "映画"), ("museums", "美術館・博物館"),
+                    ("books", "本"), ("novels", "小説"), ("other", "その他")]
 TYPE_LABEL = {"review": "レビュー", "essay": "エッセイ"}
 FRONTMATTER = re.compile(r"\A---\r?\n(.*?)\r?\n---(?:\r?\n|\Z)(.*)\Z", re.S)
 HIRAGANA = re.compile(r"[ぁ-ゖゝゞー0-9０-９・\s、。！？…〜～「」『』（）()：:－-]+\Z")
@@ -137,6 +138,11 @@ class Article:
     @property
     def kind(self) -> str:
         return self.data["type"]
+
+
+def essay_order(article: Article) -> tuple:
+    number = re.match(r"(\d+)", article.path.stem)
+    return (int(number[1]) if number else float("inf"), article.posted, article.path.name)
 
 
 def film_from(data: dict) -> Film:
@@ -256,7 +262,7 @@ class Site:
             "years/index.html": [(f'years/{year}/index.html', f'{year}年', len(self.years.get(year, {}))) for year in self.display_years] + [('years/unknown/index.html', '年未登録', len(self.year_unknown))],
             "genres/index.html": [('genres/' + digest(name) + '/index.html', name, len(self.terms['genres'][name])) for name in sorted(self.terms['genres'])] + [('genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown))],
         }
-        nodes = []
+        nodes = ['<p class="nav-heading">トップ</p><hr class="nav-divider">']
         for target, label in NAV:
             node = link(target, label, folder=target != "index.html")
             if target in branches:
@@ -265,6 +271,9 @@ class Site:
                 nodes.append(f'<details class="nav-folder"{opened}><summary>{node}</summary><ul>{children}</ul></details>')
             else:
                 nodes.append(f'<div class="nav-leaf">{node}</div>')
+        nodes.append('<hr class="nav-divider"><p class="nav-heading">エッセイ</p>')
+        for category, label in ESSAY_CATEGORIES:
+            nodes.append('<div class="nav-leaf">' + link(f'essays/{category}/index.html', label, folder=True) + '</div>')
         return f'''<aside id="site-sidebar" class="site-sidebar" aria-label="映画ログのメニュー">
 <form class="sidebar-search" action="{href(route, 'search/index.html')}" method="get" role="search"><label class="visually-hidden" for="site-search">映画ログを検索</label><input id="site-search" name="q" type="search" placeholder="映画ログを検索"><button type="submit">検索</button></form>
 <nav class="tree-nav" aria-label="記事の索引">{''.join(nodes)}</nav>
@@ -427,7 +436,9 @@ class Site:
         banner = 'assets/banner.png' if (self.root / 'assets/banner.png').is_file() else 'assets/default.png'
         width, height = self.image_size(banner)
         content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="{width}" height="{height}"></figure>
-<div class="home-notice"><p>ここはTemppの各所に分散しておいてあった映画ログまとめです。</p><p>古いものは表現に不適切なものがあります。</p><p>時期によって点数にばらつきがあります。</p><ul><li>・数字のものは5点満点</li><li>・★のものは―は３点。プラスは★又は☆、マイナスは×又は△がついています。</li></ul>
+<div class="home-notice"><p>ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。</p>
+<h2>―映画について</h2><ul><li>評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li><li>点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。</li><li>古いものは表現に不適切なものがあります。</li></ul>
+<h2>―その他について</h2><ul><li>感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li></ul>
 <div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div><div><dt>最適化本数：</dt><dd>{self.optimized:,}本</dd></div></dl></div></div>
 <section class="home-section" id="latest-reviews"><h2>最新の感想</h2><div class="card-grid">{cards}</div></section>
 <section class="home-section" id="random-reviews"><div class="section-heading"><h2>ランダム感想</h2><button id="random-button" type="button" aria-controls="random-cards" hidden>ランダム</button></div><div id="random-cards" class="card-grid">{random_cards}</div><p id="random-status" class="visually-hidden" role="status"></p></section>
@@ -581,6 +592,14 @@ class Site:
             self.write_page(route, label + "別", content, route)
         route = "essays/index.html"
         self.write_page(route, "エッセイ一覧", '<div class="page-heading"><h1>エッセイ一覧</h1></div>' + self.list_articles([a for a in self.articles if a.kind == "essay"], route), route)
+        for category, label in ESSAY_CATEGORIES:
+            route = f"essays/{category}/index.html"
+            # 既存の直下エッセイは映画扱いを保ち、分野別フォルダだけで振り分ける。
+            articles = [a for a in self.articles if a.kind == "essay" and
+                        (a.path.parent.name == category or
+                         (category == "movies" and a.path.parent == self.root / "content" / "essays"))]
+            title = label + "エッセイ一覧"
+            self.write_page(route, title, '<div class="page-heading"><h1>' + e(title) + '</h1></div>' + self.list_articles(sorted(articles, key=essay_order), route), route)
 
 
 def build(root: Path, output: Path) -> dict:

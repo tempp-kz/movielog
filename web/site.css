@@ -28,6 +28,8 @@ button:disabled { cursor: default; opacity: .55; }
 .tree-nav a { display: flex; align-items: center; gap: 9px; text-decoration: none; padding: 7px 8px; border-radius: 4px; min-width: 0; }
 .tree-nav a:hover { background: #e9edf2; }
 .tree-nav a[aria-current] { background: #dde9f5; color: var(--accent); font-weight: 600; }
+.nav-heading { margin: 5px 8px; font-weight: 600; }
+.nav-divider { margin: 14px 0; border: 0; border-top: 1px solid var(--line); }
 .nav-leaf { padding-left: 17px; }
 .nav-folder { margin: 2px 0; }
 .nav-folder summary { display: list-item; margin: 0; color: var(--ink); list-style-position: inside; }
@@ -111,7 +113,8 @@ summary { cursor: pointer; color: var(--muted); margin-bottom: 7px; }
 .home-banner { margin: 0 0 28px; }
 .home-banner img { display: block; width: 100%; height: auto; }
 .home-notice p { margin-bottom: 4px; }
-.home-notice ul { list-style: none; padding: 0; margin-block: 10px; }
+.home-notice h2 { margin: 18px 0 6px; font-size: 17px; }
+.home-notice ul { padding-left: 1.5em; margin-block: 10px; }
 .home-progress { margin-top: 20px; }
 .home-progress dl { margin: 0 0 0 1em; }
 .home-progress dt, .home-progress dd { display: inline; margin: 0; }

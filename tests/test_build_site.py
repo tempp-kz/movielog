@@ -124,6 +124,44 @@ class SiteTests(unittest.TestCase):
             self.assertIn('href="https://tempp-kz.github.io/pucopac/"', page)
         self.assertIn('<details class="nav-folder" open>', self.read('titles/k/index.html'))
 
+    def test_requested_home_notice_and_nonlink_sidebar_headings(self):
+        self.add()
+        site.build(self.root, self.output)
+        from lxml import html
+        page = html.fromstring(self.read('index.html'))
+        notice = page.xpath('//div[@class="home-notice"]')[0]
+        self.assertIn('ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。', notice.text_content())
+        self.assertEqual(notice.xpath('./h2/text()'), ['―映画について', '―その他について'])
+        self.assertEqual(notice.xpath('./ul/li/text()'), [
+            '評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。',
+            '点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。',
+            '古いものは表現に不適切なものがあります。',
+            '感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。'])
+        nav = page.xpath('//nav[@class="tree-nav"]')[0]
+        self.assertEqual(nav.xpath('./p/text()'), ['トップ', 'エッセイ'])
+        self.assertFalse(nav.xpath('.//a[normalize-space(.)="トップ" or normalize-space(.)="エッセイ"]'))
+        labels = nav.xpath('./div/a/span[@class="tree-label"]/text()')
+        self.assertEqual(labels, ['監督', '出演者', '映画', '美術館・博物館', '本', '小説', 'その他'])
+        self.assertEqual(len(nav.xpath('./hr')), 2)
+        for category, label in site.ESSAY_CATEGORIES:
+            essay_page = self.read(f'essays/{category}/index.html')
+            self.assertIn('<h1>' + label + 'エッセイ一覧</h1>', essay_page)
+            self.assertIn('class="empty"', essay_page)
+
+    def test_essay_categories_follow_numbered_addition_order(self):
+        for category, label in site.ESSAY_CATEGORIES:
+            directory = self.root / 'content' / 'essays' / category
+            directory.mkdir()
+            for number in (10, 2, 1):
+                # 日付の降順やファイル名の文字列順に依存しないことを確認。
+                path = self.add(f'{label}{number}', f'2024-01-{number:02d} 12:00:00', type='essay')
+                path.rename(directory / f'{number}_{label}.md')
+        site.build(self.root, self.output)
+        from lxml import html
+        for category, label in site.ESSAY_CATEGORIES:
+            page = html.fromstring(self.read(f'essays/{category}/index.html'))
+            self.assertEqual(page.xpath('//main//ul[contains(@class,"article-list")]/li//a/text()'), [f'{label}1', f'{label}2', f'{label}10'])
+
     def test_optimized_count_uses_applied_confirmed_records_and_deduplicates_articles(self):
         attrs = dict(release_year=2024, genres=['ホラー'], directors=['監督'], cast=['出演者'])
         approved = self.add('確認済み', **attrs)
@@ -237,7 +275,7 @@ class SiteTests(unittest.TestCase):
         self.add("未登録")
         site.build(self.root, self.output)
         page = self.read("index.html")
-        self.assertLess(page.index('class="home-banner"'), page.index("ここはTempp"))
+        self.assertLess(page.index('class="home-banner"'), page.index("ここはTempp", page.index('class="home-notice"')))
         self.assertLess(page.index("現在の作業進捗状況"), page.index("最新の感想"))
         self.assertLess(page.index("最新の感想"), page.index("名前から検索"))
         self.assertLess(page.index("名前から検索"), page.index("年代から検索"))
