@@ -228,6 +228,13 @@ class Site:
         self.pages = 0
         self.updated = datetime.now(timezone(timedelta(hours=9))).date()
         self.optimized = optimized_count(root, articles)
+        # 一覧とメニュー件数は同じ記事集合を使う。直下エッセイは従来どおり映画扱い。
+        self.essay_groups = {
+            category: [a for a in articles if a.kind == "essay" and
+                       (a.path.parent.name == category or
+                        (category == "movies" and a.path.parent == root / "content" / "essays"))]
+            for category, _ in ESSAY_CATEGORIES
+        }
         self.random_candidates = articles[4:]
         self.initial_random = random.sample(self.random_candidates, min(2, len(self.random_candidates)))
         self.image_sizes = {}
@@ -262,7 +269,8 @@ class Site:
             "years/index.html": [(f'years/{year}/index.html', f'{year}年', len(self.years.get(year, {}))) for year in self.display_years] + [('years/unknown/index.html', '年未登録', len(self.year_unknown))],
             "genres/index.html": [('genres/' + digest(name) + '/index.html', name, len(self.terms['genres'][name])) for name in sorted(self.terms['genres'])] + [('genres/unknown/index.html', 'ジャンル未登録', len(self.genre_unknown))],
         }
-        nodes = ['<p class="nav-heading">トップ</p><hr class="nav-divider">']
+        nodes = [link("index.html", "トップ"), '<hr class="nav-divider">',
+                 f'<p class="nav-heading">映画短評 ({self.optimized:,})</p>']
         for target, label in NAV:
             node = link(target, label, folder=target != "index.html")
             if target in branches:
@@ -273,7 +281,7 @@ class Site:
                 nodes.append(f'<div class="nav-leaf">{node}</div>')
         nodes.append('<hr class="nav-divider"><p class="nav-heading">エッセイ</p>')
         for category, label in ESSAY_CATEGORIES:
-            nodes.append('<div class="nav-leaf">' + link(f'essays/{category}/index.html', label, folder=True) + '</div>')
+            nodes.append('<div class="nav-leaf">' + link(f'essays/{category}/index.html', f'{label} ({len(self.essay_groups[category]):,})', folder=True) + '</div>')
         return f'''<aside id="site-sidebar" class="site-sidebar" aria-label="映画ログのメニュー">
 <form class="sidebar-search" action="{href(route, 'search/index.html')}" method="get" role="search"><label class="visually-hidden" for="site-search">映画ログを検索</label><input id="site-search" name="q" type="search" placeholder="映画ログを検索"><button type="submit">検索</button></form>
 <nav class="tree-nav" aria-label="記事の索引">{''.join(nodes)}</nav>
@@ -594,10 +602,7 @@ class Site:
         self.write_page(route, "エッセイ一覧", '<div class="page-heading"><h1>エッセイ一覧</h1></div>' + self.list_articles([a for a in self.articles if a.kind == "essay"], route), route)
         for category, label in ESSAY_CATEGORIES:
             route = f"essays/{category}/index.html"
-            # 既存の直下エッセイは映画扱いを保ち、分野別フォルダだけで振り分ける。
-            articles = [a for a in self.articles if a.kind == "essay" and
-                        (a.path.parent.name == category or
-                         (category == "movies" and a.path.parent == self.root / "content" / "essays"))]
+            articles = self.essay_groups[category]
             title = label + "エッセイ一覧"
             self.write_page(route, title, '<div class="page-heading"><h1>' + e(title) + '</h1></div>' + self.list_articles(sorted(articles, key=essay_order), route), route)
 

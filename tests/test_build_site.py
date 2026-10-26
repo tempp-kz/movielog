@@ -121,11 +121,12 @@ class SiteTests(unittest.TestCase):
             self.assertLess(page.index('class="sidebar-search"'), page.index('class="tree-nav"'))
             self.assertLess(page.index('class="tree-nav"'), page.index('class="sidebar-links"'))
             self.assertIn('action="' + site.href(route, 'search/index.html') + '"', page)
+            self.assertIn('href="' + site.href(route, 'index.html') + '"', page.split('<nav class="tree-nav"', 1)[1].split('</nav>', 1)[0])
             self.assertIn('■架空都市神津wiki', page)
             self.assertIn('href="https://tempp-kz.github.io/pucopac/"', page)
         self.assertIn('<details class="nav-folder" open>', self.read('titles/k/index.html'))
 
-    def test_requested_home_notice_and_nonlink_sidebar_headings(self):
+    def test_requested_home_notice_and_sidebar_labels(self):
         self.add()
         site.build(self.root, self.output)
         page = self.read('index.html')
@@ -138,11 +139,13 @@ class SiteTests(unittest.TestCase):
             '古いものは表現に不適切なものがあります。',
             '感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。'])
         nav = page.split('<nav class="tree-nav" aria-label="記事の索引">', 1)[1].split('</nav>', 1)[0]
-        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['トップ', 'エッセイ'])
-        self.assertNotIn('<span class="tree-label">トップ</span>', nav)
+        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['映画短評 (0)', 'エッセイ'])
+        self.assertIn('<a href="index.html" aria-current="page"><span class="tree-label">トップ</span></a>', nav)
         self.assertNotIn('<span class="tree-label">エッセイ</span>', nav)
         labels = re.findall(r'<div class="nav-leaf"><a[^>]*>.*?<span class="tree-label">(.*?)</span>', nav)
-        self.assertEqual(labels, ['監督', '出演者', '映画', '美術館・博物館', '本', '小説', 'その他'])
+        self.assertEqual(labels, ['監督', '出演者', '映画 (0)', '美術館・博物館 (0)', '本 (0)', '小説 (0)', 'その他 (0)'])
+        self.assertLess(nav.index('<hr class="nav-divider">'), nav.index('映画短評 (0)'))
+        self.assertLess(nav.index('映画短評 (0)'), nav.index('作品名順'))
         self.assertEqual(nav.count('<hr class="nav-divider">'), 2)
         for category, label in site.ESSAY_CATEGORIES:
             essay_page = self.read(f'essays/{category}/index.html')
@@ -161,6 +164,11 @@ class SiteTests(unittest.TestCase):
         for category, label in site.ESSAY_CATEGORIES:
             page = self.read(f'essays/{category}/index.html').split('<main ', 1)[1].split('</main>', 1)[0]
             self.assertEqual(re.findall(r'<a class="list-title"[^>]*>(.*?)</a>', page), [f'{label}1', f'{label}2', f'{label}10'])
+            self.assertIn(f'<span class="tree-label">{label} (3)</span>', self.read('index.html'))
+        self.add('直下の映画エッセイ', type='essay')
+        site.build(self.root, self.output)
+        self.assertIn('<span class="tree-label">映画 (4)</span>', self.read('index.html'))
+        self.assertIn('<span class="tree-label">本 (3)</span>', self.read('essays/movies/index.html'))
 
     def test_optimized_count_uses_applied_confirmed_records_and_deduplicates_articles(self):
         attrs = dict(release_year=2024, genres=['ホラー'], directors=['監督'], cast=['出演者'])
@@ -175,10 +183,12 @@ class SiteTests(unittest.TestCase):
         report = site.build(self.root, self.output)
         self.assertEqual(report['optimized_articles'], 1)
         self.assertIn('最適化本数：</dt><dd>1本', self.read('index.html'))
+        self.assertIn('<p class="nav-heading">映画短評 (1)</p>', self.read('index.html'))
         changed = yaml.safe_load(site.FRONTMATTER.fullmatch(approved.read_text())[1])
         changed['cast'] = []
         approved.write_text('---\n' + yaml.safe_dump(changed, allow_unicode=True) + '---\n\n本文')
         self.assertEqual(site.build(self.root, self.output)['optimized_articles'], 0)
+        self.assertIn('<p class="nav-heading">映画短評 (0)</p>', self.read('index.html'))
 
     def test_small_article_collection_has_no_latest_random_overlap(self):
         for i in range(3):
