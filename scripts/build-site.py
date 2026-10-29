@@ -27,6 +27,7 @@ SITE_DESCRIPTION = "ここはTempp/久世余白が各所に分散しておいて
 NAV = [("titles/index.html", "作品名順"),
        ("years/index.html", "公開年順"), ("genres/index.html", "ジャンル"),
        ("directors/index.html", "監督"), ("cast/index.html", "出演者")]
+NOVEL_NAV = [("novels/titles/index.html", "作品名順"), ("novels/authors/index.html", "著者順")]
 ESSAY_CATEGORIES = [("movies", "映画"), ("museums", "美術館・博物館"),
                     ("books", "本"), ("novels", "小説"), ("other", "その他")]
 TYPE_LABEL = {"review": "レビュー", "essay": "エッセイ"}
@@ -279,6 +280,9 @@ class Site:
                 nodes.append(f'<details class="nav-folder"{opened}><summary>{node}</summary><ul>{children}</ul></details>')
             else:
                 nodes.append(f'<div class="nav-leaf">{node}</div>')
+        nodes.append('<hr class="nav-divider"><p class="nav-heading">小説短評 (0)</p>')
+        for target, label in NOVEL_NAV:
+            nodes.append('<div class="nav-leaf">' + link(target, label, folder=True) + '</div>')
         nodes.append('<hr class="nav-divider"><p class="nav-heading">エッセイ</p>')
         for category, label in ESSAY_CATEGORIES:
             nodes.append('<div class="nav-leaf">' + link(f'essays/{category}/index.html', f'{label} ({len(self.essay_groups[category]):,})', folder=True) + '</div>')
@@ -300,7 +304,7 @@ class Site:
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(page_title)}"><meta name="twitter:description" content="{e(page_description)}"><meta name="twitter:image" content="{card_image}"><meta name="twitter:image:alt" content="{e(SITE_TITLE)} ©Tempp">'''
         document = f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(page_title)}</title>{social}<link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
+<title>{e(page_title)}</title>{social}<link rel="icon" type="image/png" href="{href(route, 'assets/favicon.png')}"><link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
 <body data-site-root="{href(route, 'index.html')}"><a class="skip-link" href="#main">本文へ</a><div class="site-layout">{self.sidebar(route, active)}<div class="site-content">
 <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false">メニュー・検索</button>{header}<main id="main" class="site-main{' home-page' if home else ''}">{content}</main>
 </div></div><button class="sidebar-backdrop" type="button" aria-label="メニューを閉じる" hidden></button>
@@ -445,7 +449,7 @@ class Site:
         width, height = self.image_size(banner)
         content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="{width}" height="{height}"></figure>
 <div class="home-notice"><p>ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。</p>
-<h2>―映画について</h2><ul><li>評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li><li>点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。</li><li>古いものは表現に不適切なものがあります。</li></ul>
+<h2>―映画短評について</h2><ul><li>評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li><li>点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。</li><li>古いものは表現に不適切なものがあります。</li></ul>
 <h2>―その他について</h2><ul><li>感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li></ul>
 <div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div><div><dt>最適化本数：</dt><dd>{self.optimized:,}本</dd></div></dl></div></div>
 <section class="home-section" id="latest-reviews"><h2>最新の感想</h2><div class="card-grid">{cards}</div></section>
@@ -598,6 +602,9 @@ class Site:
             if not self.terms[field]:
                 content += f'<p class="empty">{label}が登録された記事はまだありません。</p>'
             self.write_page(route, label + "別", content, route)
+        for route, label in NOVEL_NAV:
+            title = "小説短評：" + label
+            self.write_page(route, title, '<div class="page-heading"><h1>' + e(title) + '</h1></div>' + self.list_articles([], route), route)
         route = "essays/index.html"
         self.write_page(route, "エッセイ一覧", '<div class="page-heading"><h1>エッセイ一覧</h1></div>' + self.list_articles([a for a in self.articles if a.kind == "essay"], route), route)
         for category, label in ESSAY_CATEGORIES:

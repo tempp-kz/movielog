@@ -28,6 +28,7 @@ class SiteTests(unittest.TestCase):
         shutil.copy(REPO / "assets" / "default.png", self.root / "assets" / "default.png")
         shutil.copy(REPO / "assets" / "banner.png", self.root / "assets" / "banner.png")
         shutil.copy(REPO / "assets" / "x-card.png", self.root / "assets" / "x-card.png")
+        shutil.copy(REPO / "assets" / "favicon.png", self.root / "assets" / "favicon.png")
         shutil.copy(REPO / "web" / "site.css", self.root / "web" / "site.css")
         shutil.copy(REPO / "web" / "site.js", self.root / "web" / "site.js")
         self.output = self.root / "_site"
@@ -113,7 +114,7 @@ class SiteTests(unittest.TestCase):
     def test_sidebar_has_search_tree_and_external_links_on_all_page_types(self):
         path = self.add(reading='かんせん', reading_status='取得済み', release_year=2024, genres=['ホラー'])
         site.build(self.root, self.output)
-        for route in ('index.html', 'titles/k/index.html', self.article(path).route, 'search/index.html'):
+        for route in ('index.html', 'titles/k/index.html', self.article(path).route, 'search/index.html', 'novels/titles/index.html', 'novels/authors/index.html'):
             page = self.read(route)
             self.assertEqual(page.count('aria-label="記事の索引"'), 1)
             self.assertNotIn('site-footer', page)
@@ -124,6 +125,8 @@ class SiteTests(unittest.TestCase):
             self.assertIn('href="' + site.href(route, 'index.html') + '"', page.split('<nav class="tree-nav"', 1)[1].split('</nav>', 1)[0])
             self.assertIn('■架空都市神津wiki', page)
             self.assertIn('href="https://tempp-kz.github.io/pucopac/"', page)
+            self.assertIn('<link rel="icon" type="image/png" href="' + site.href(route, 'assets/favicon.png') + '">', page)
+        self.assertEqual((self.output / 'assets/favicon.png').read_bytes(), (REPO / 'assets/favicon.png').read_bytes())
         self.assertIn('<details class="nav-folder" open>', self.read('titles/k/index.html'))
 
     def test_requested_home_notice_and_sidebar_labels(self):
@@ -132,21 +135,26 @@ class SiteTests(unittest.TestCase):
         page = self.read('index.html')
         notice = page.split('<div class="home-notice">', 1)[1].split('<div class="home-progress">', 1)[0]
         self.assertIn('ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。', notice)
-        self.assertEqual(re.findall(r'<h2>(.*?)</h2>', notice), ['―映画について', '―その他について'])
+        self.assertEqual(re.findall(r'<h2>(.*?)</h2>', notice), ['―映画短評について', '―その他について'])
         self.assertEqual(re.findall(r'<li>(.*?)</li>', notice), [
             '評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。',
             '点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。',
             '古いものは表現に不適切なものがあります。',
             '感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。'])
         nav = page.split('<nav class="tree-nav" aria-label="記事の索引">', 1)[1].split('</nav>', 1)[0]
-        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['映画短評 (0)', 'エッセイ'])
+        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['映画短評 (0)', '小説短評 (0)', 'エッセイ'])
         self.assertIn('<a href="index.html" aria-current="page"><span class="tree-label">トップ</span></a>', nav)
         self.assertNotIn('<span class="tree-label">エッセイ</span>', nav)
         labels = re.findall(r'<div class="nav-leaf"><a[^>]*>.*?<span class="tree-label">(.*?)</span>', nav)
-        self.assertEqual(labels, ['監督', '出演者', '映画 (0)', '美術館・博物館 (0)', '本 (0)', '小説 (0)', 'その他 (0)'])
+        self.assertEqual(labels, ['監督', '出演者', '作品名順', '著者順', '映画 (0)', '美術館・博物館 (0)', '本 (0)', '小説 (0)', 'その他 (0)'])
         self.assertLess(nav.index('<hr class="nav-divider">'), nav.index('映画短評 (0)'))
         self.assertLess(nav.index('映画短評 (0)'), nav.index('作品名順'))
-        self.assertEqual(nav.count('<hr class="nav-divider">'), 2)
+        self.assertEqual(nav.count('<hr class="nav-divider">'), 3)
+        for route, label in site.NOVEL_NAV:
+            self.assertIn('href="' + route + '"', nav)
+            novel_page = self.read(route)
+            self.assertIn('<h1>小説短評：' + label + '</h1>', novel_page)
+            self.assertIn('class="empty"', novel_page)
         for category, label in site.ESSAY_CATEGORIES:
             essay_page = self.read(f'essays/{category}/index.html')
             self.assertIn('<h1>' + label + 'エッセイ一覧</h1>', essay_page)
