@@ -1,0 +1,6025 @@
+{
+  "batch_id": "metadata-trial-next30-20261029-281e5f89ee55",
+  "dataset_id": "movielog-next30-20261029-281e5f89ee55",
+  "base_commit": "995a07e8427f84ef302eb965cf61bd452836db88",
+  "source_base_commit": "995a07e8427f84ef302eb965cf61bd452836db88",
+  "applied_at": "2026-10-29T16:08:45.713588+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "c689356f99a3d9d5d9a252a008fd0ec4b806bd7698f3fd1577c51f098b881a69",
+  "candidate_sha256": "50d6f5d0d13c2c315664feec6df12ca76240d2d71a8b54d35cee7c7ef67f566a",
+  "target_sha256": "32fb57396352d4811e5fc5a33615b689d827d5edfe4cf893dd9402275a7c0857",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/原子怪獣現わる_2012-11-28.md",
+      "title": "原子怪獣現わる",
+      "review_date": "2012-11-28 00:00:16",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1954,
+        "directors": [
+          "ユージン・ローリー"
+        ],
+        "cast": [
+          "ポール・クリスチャン",
+          "ポーラ・レイモンド",
+          "セシル・ケラウェイ",
+          "ケネス・トビー",
+          "ジャック・ペニック",
+          "ドナルド・ウッズ",
+          "リー・バン・クリーフ"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "げんしかいじゅうあらわる",
+        "release_year": 1954,
+        "directors": [
+          "ユージン・ローリー"
+        ],
+        "cast": [
+          "ポール・クリスチャン",
+          "ポーラ・レイモンド",
+          "セシル・ケラウェイ",
+          "ケネス・トビー",
+          "ジャック・ペニック",
+          "ドナルド・ウッズ",
+          "リー・バン・クリーフ"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ],
+        "synopsis": "北極での水爆実験後怪獣を目撃した学者トムは、その存在を誰にも信じてもらえず……。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "ぶっちゃけていうと原子力の影響でなんか怪獣が出る系統の映画なんですが、ゴジラより少し前の作品だ。初代ゴジラのような悲壮感とか原子力の恐ろしさというテイストではなく、ただの怪獣ものではあるんですが白黒の雰囲気がなんかいい。怪獣もなんかポジション的に(何故暴れてるのか)よくわからないところも雑多な感じで、動きも着ぐるみではなくコマドリなんですが、流石ハリーハウゼンなのか妙になまものっぽい動きが素敵。怪獣を見ても信じてもらえないトムの奔走もなかなか悪くないです(その分怪獣の登場が遅いですが)。個人的には面白かったのですが、怪獣ものの元祖的な作品であり、他の作品にオマージュされまくっているので、全体的には今の作品からみると面白みが薄く、時代がら特撮もショボいにはかわりない(でもハリーハウゼンのコマドリは今のCG怪獣よりよっぽど好きだ)ので怪獣が好きな人以外にはいまいちかもしれない。\n",
+        "title": "原子怪獣現わる",
+        "short_review": "怪獣かわいい。"
+      },
+      "article_sha256_before": "f61d7714c5f225805e1267597d81df94fa11b24afb4ef69bec8765224355f4e7",
+      "article_sha256_after": "3cbb935c254e8b18be48292f04e806c46b6c6fd6ecaab70bcaed49532a31a8fa",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "げんしかいじゅうあらわる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-7d1d00a86222e768-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1954-10-17",
+              "year": "1954",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-7d1d00a86222e768-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ユージン・ローリー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-7d1d00a86222e768-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ポール・クリスチャン\nポーラ・レイモンド\nセシル・ケラウェイ\nケネス・トビー\nジャック・ペニック\nドナルド・ウッズ\nリー・バン・クリーフ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-7d1d00a86222e768-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-7d1d00a86222e768-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "北極での水爆実験後怪獣を目撃した学者トムは、その存在を誰にも信じてもらえず……。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぶっちゃけていうと原子力の影響でなんか怪獣が出る系統の映画なんですが、ゴジラより少し前の作品だ。初代ゴジラのような悲壮感とか原子力の恐ろしさというテイストではなく、ただの怪獣ものではあるんですが白黒の雰囲気がなんかいい。怪獣もなんかポジション的に(何故暴れてるのか)よくわからないところも雑多な感じで、動きも着ぐるみではなくコマドリなんですが、流石ハリーハウゼンなのか妙になまものっぽい動きが素敵。怪獣を見ても信じてもらえないトムの奔走もなかなか悪くないです(その分怪獣の登場が遅いですが)。個人的には面白かったのですが、怪獣ものの元祖的な作品であり、他の作品にオマージュされまくっているので、全体的には今の作品からみると面白みが薄く、時代がら特撮もショボいにはかわりない(でもハリーハウゼンのコマドリは今のCG怪獣よりよっぽど好きだ)ので怪獣が好きな人以外にはいまいちかもしれない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "原子怪獣現わる",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "怪獣かわいい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/幽幻道士_2012-11-26.md",
+      "title": "幽幻道士",
+      "review_date": "2012-11-26 00:00:30",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1985,
+        "directors": [
+          "チャオ・ツォンシン"
+        ],
+        "cast": [
+          "シャドウ・リュウ",
+          "リュウ・ツーハン",
+          "チェン・ツーチャン",
+          "チャン・タイスン",
+          "ホァン・グオシュー",
+          "ホン・イーユェン",
+          "キン・トー"
+        ],
+        "genres": [
+          "ホラー",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ゆうげんどうし",
+        "release_year": 1985,
+        "directors": [
+          "チャオ・ツォンシン"
+        ],
+        "cast": [
+          "シャドウ・リュウ",
+          "リュウ・ツーハン",
+          "チェン・ツーチャン",
+          "チャン・タイスン",
+          "ホァン・グオシュー",
+          "ホン・イーユェン",
+          "キン・トー"
+        ],
+        "genres": [
+          "ホラー",
+          "コメディ"
+        ],
+        "synopsis": "旅回りの孤児たちはキョンシーのお札を剥がし、騒動の末、道士と孫娘テンテンのもとへ。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "そういえば小学生のころ霊幻道士とか幽幻道士とか流行ったのに最近全然やらないというかレンタルもないのはなんでだろうか？今回見たのは幽幻のほうで、ホラー作品の霊幻と比べて子供がたくさん出てきてややコメディタッチなほうの作品です。効果音もピコピコしててなんか面白いし。改めて見直して思ったのは、ちゃんとカンフーしてること。最近の映画であんまりカンフー一辺倒なのって少ないけど爺さんも子供も動きがカンフーで凄く面白い、というか爺さんの元気さが異常。熱血師匠とか食いしん坊のスイカ頭とかテンテンちゃんとか登場人物も個性豊かで面白い。それによくわからん食紅的なものを混ぜてお札や爆弾を作るなんて理科の実験ライクでワクワクするじゃないか（このせいで道教のイメージが変になってるんだろうなあ。死体を持って帰るのが大変だからキョンシーにして自分で移動させるとか。）。\n",
+        "title": "幽幻道士",
+        "short_review": "テンテンちゃんマジ天使！"
+      },
+      "article_sha256_before": "7a5c30394571f0379bda8fabda284ec6f431ace76d44f418fd46dffc16b276be",
+      "article_sha256_after": "b8e240f5ca04769367318f9a43eb4a4e3d475f5c78e98dc8295527abcd2df890",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゆうげんどうし",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-461a981824325450-source-1",
+            "next30-461a981824325450-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1985",
+              "region": "台湾",
+              "kind": "制作年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-461a981824325450-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チャオ・ツォンシン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-461a981824325450-source-1",
+            "next30-461a981824325450-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "シャドウ・リュウ\nリュウ・ツーハン\nチェン・ツーチャン\nチャン・タイスン\nホァン・グオシュー\nホン・イーユェン\nキン・トー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-461a981824325450-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-461a981824325450-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "旅回りの孤児たちはキョンシーのお札を剥がし、騒動の末、道士と孫娘テンテンのもとへ。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "そういえば小学生のころ霊幻道士とか幽幻道士とか流行ったのに最近全然やらないというかレンタルもないのはなんでだろうか？今回見たのは幽幻のほうで、ホラー作品の霊幻と比べて子供がたくさん出てきてややコメディタッチなほうの作品です。効果音もピコピコしててなんか面白いし。改めて見直して思ったのは、ちゃんとカンフーしてること。最近の映画であんまりカンフー一辺倒なのって少ないけど爺さんも子供も動きがカンフーで凄く面白い、というか爺さんの元気さが異常。熱血師匠とか食いしん坊のスイカ頭とかテンテンちゃんとか登場人物も個性豊かで面白い。それによくわからん食紅的なものを混ぜてお札や爆弾を作るなんて理科の実験ライクでワクワクするじゃないか（このせいで道教のイメージが変になってるんだろうなあ。死体を持って帰るのが大変だからキョンシーにして自分で移動させるとか。）。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "幽幻道士",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テンテンちゃんマジ天使！",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/鉄男 TETSUO_2012-11-24.md",
+      "title": "鉄男 TETSUO",
+      "review_date": "2012-11-24 00:00:37",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1989,
+        "directors": [
+          "塚本晋也"
+        ],
+        "cast": [
+          "田口トモロヲ",
+          "藤原京",
+          "叶岡伸",
+          "塚本晋也",
+          "六平直政",
+          "石橋蓮司"
+        ],
+        "genres": [
+          "ホラー",
+          "アクション",
+          "SF",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "てつお",
+        "release_year": 1989,
+        "directors": [
+          "塚本晋也"
+        ],
+        "cast": [
+          "田口トモロヲ",
+          "藤原京",
+          "叶岡伸",
+          "塚本晋也",
+          "六平直政",
+          "石橋蓮司"
+        ],
+        "genres": [
+          "ホラー",
+          "アクション",
+          "SF",
+          "スリラー"
+        ],
+        "synopsis": "頬に金属の突起を見つけた会社員の体に異変が広がり、肉体は次第に鉄へと変わっていく。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "一部で有名な映画なんですが、絶妙に後半ダレてる気がしなくもないのだけど、カルト映画だからそういうのは気にしない。とりあえず前半の鉄子のあたりは謎の緊張感と意味不明な迫力で押し切られた感はあるんですが、ドリルちんことか等悪乗り部分はどう反応したものか困惑するなぁ。所々移動シーンがクレイアニメ的なこまどりなのは面白いような気もするんだけど、何故こまどりなのかと突っ込むべきなのか。ともあれ個人的にはコメディだと思うんだがどうなんだろう？石橋蓮司のポジションは特に謎ではあるんだが、全体的に鉄になる以外何が何だかわからない作品で、映画というよりはPVっぽい印象かも。それはおいといて音楽は非常によかった。パンクな重低音もいいし使いどころのよくわからないメロドラマ的なBGMもなんかうけた。カルト映画というジャンルが好きな人には面白いかもしれないがそれ以外にはお勧めしないなぁ。\n",
+        "title": "鉄男 TETSUO",
+        "short_review": "うーんカルト映画やなぁ。"
+      },
+      "article_sha256_before": "88ab34b80590d03e540c95956ab3ba7331809f42e1379e2c7d64c303075cb4c5",
+      "article_sha256_after": "5c462a08b44d521588ed96a3d5f675ca615e897f915972b5ca06b571c179b7da",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "てつお",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-cd089a4a515057a8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1989-07-01",
+              "year": "1989",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-cd089a4a515057a8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "塚本晋也",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-cd089a4a515057a8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田口トモロヲ\n藤原京\n叶岡伸\n塚本晋也\n六平直政\n石橋蓮司",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-cd089a4a515057a8-source-1",
+            "next30-cd089a4a515057a8-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nアクション\nSF\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-cd089a4a515057a8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "頬に金属の突起を見つけた会社員の体に異変が広がり、肉体は次第に鉄へと変わっていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "一部で有名な映画なんですが、絶妙に後半ダレてる気がしなくもないのだけど、カルト映画だからそういうのは気にしない。とりあえず前半の鉄子のあたりは謎の緊張感と意味不明な迫力で押し切られた感はあるんですが、ドリルちんことか等悪乗り部分はどう反応したものか困惑するなぁ。所々移動シーンがクレイアニメ的なこまどりなのは面白いような気もするんだけど、何故こまどりなのかと突っ込むべきなのか。ともあれ個人的にはコメディだと思うんだがどうなんだろう？石橋蓮司のポジションは特に謎ではあるんだが、全体的に鉄になる以外何が何だかわからない作品で、映画というよりはPVっぽい印象かも。それはおいといて音楽は非常によかった。パンクな重低音もいいし使いどころのよくわからないメロドラマ的なBGMもなんかうけた。カルト映画というジャンルが好きな人には面白いかもしれないがそれ以外にはお勧めしないなぁ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "鉄男 TETSUO",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うーんカルト映画やなぁ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/未来世紀ブラジル_2012-11-22.md",
+      "title": "未来世紀ブラジル",
+      "review_date": "2012-11-22 00:00:15",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1986,
+        "directors": [
+          "テリー・ギリアム"
+        ],
+        "cast": [
+          "ジョナサン・プライス",
+          "ロバート・デ・ニーロ",
+          "キャサリン・ヘルモンド",
+          "イアン・ホルム",
+          "ボブ・ホスキンス",
+          "マイケル・ペイリン",
+          "キム・グライスト"
+        ],
+        "genres": [
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "みらいせいきぶらじる",
+        "release_year": 1986,
+        "directors": [
+          "テリー・ギリアム"
+        ],
+        "cast": [
+          "ジョナサン・プライス",
+          "ロバート・デ・ニーロ",
+          "キャサリン・ヘルモンド",
+          "イアン・ホルム",
+          "ボブ・ホスキンス",
+          "マイケル・ペイリン",
+          "キム・グライスト"
+        ],
+        "genres": [
+          "SF"
+        ],
+        "synopsis": "情報を厳しく管理する社会で働くサムは、誤認逮捕に抗議する女性に夢の中の美女の面影を見る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "カルト的な作品で確かにカルト人気もうなずけなくはないのだけど、なんとなくあまり好みではないのは主人公が基地外すぎるからだろうか。この映画の素晴らしさは管理社会やら何やらの風刺とそれに縛られない自由なサムの対比部分ではあるんだけど、サムがフリーダムすぎて辛いのです。確かに途中までは面白かったのだけど、中盤以降のサムの行動は神経症かと思うほどで、見ていて周囲の人が可哀そうで仕方がないです。さてサムの基地外っぷりはおいといてこの映画の見所の管理社会への風刺についてですが、工事一つするのに何十枚もの書類がいり配管工は27B書類と聞いただけで癲癇を起こすとかそういう世界観も面白いし、紙に巻かれた人間のシルエットとか四角四面な登場人物とか管理社会を表わす表現も視覚的で面白い。そして何よりデニーロの配管工を始め出てくる人間が概ね個性が強すぎて観ていて面白いです（中でも飛びぬけてサムがおかしいけど）。ただ最後の方で、真実なのかサムの妄想なのかだんだんよくわからなくなってくるあたりからやっぱりあんまり好みじゃないんだよなぁ。夢落ち含めて解釈のしようがある映画は嫌いじゃないんだけど、どちらにしても私はあまりサムを好きになれない所が悩ましいところかも。\n",
+        "title": "未来世紀ブラジル",
+        "short_review": "こんなにカッコいい配管工はマリオ以外いない。"
+      },
+      "article_sha256_before": "fbd2d2401441d28983893aae6e38d1448a646fadc52e3192e83a05f9797cfd1a",
+      "article_sha256_after": "e91944ced42f5ab4b824b685f4bcd611e2f8c2bd291bc8712d1970f1a4f7e479",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "みらいせいきぶらじる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-bce06bf3d4a6b545-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1986-10-10",
+              "year": "1986",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-bce06bf3d4a6b545-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テリー・ギリアム",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-bce06bf3d4a6b545-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョナサン・プライス\nロバート・デ・ニーロ\nキャサリン・ヘルモンド\nイアン・ホルム\nボブ・ホスキンス\nマイケル・ペイリン\nキム・グライスト",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-bce06bf3d4a6b545-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-bce06bf3d4a6b545-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "情報を厳しく管理する社会で働くサムは、誤認逮捕に抗議する女性に夢の中の美女の面影を見る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カルト的な作品で確かにカルト人気もうなずけなくはないのだけど、なんとなくあまり好みではないのは主人公が基地外すぎるからだろうか。この映画の素晴らしさは管理社会やら何やらの風刺とそれに縛られない自由なサムの対比部分ではあるんだけど、サムがフリーダムすぎて辛いのです。確かに途中までは面白かったのだけど、中盤以降のサムの行動は神経症かと思うほどで、見ていて周囲の人が可哀そうで仕方がないです。さてサムの基地外っぷりはおいといてこの映画の見所の管理社会への風刺についてですが、工事一つするのに何十枚もの書類がいり配管工は27B書類と聞いただけで癲癇を起こすとかそういう世界観も面白いし、紙に巻かれた人間のシルエットとか四角四面な登場人物とか管理社会を表わす表現も視覚的で面白い。そして何よりデニーロの配管工を始め出てくる人間が概ね個性が強すぎて観ていて面白いです（中でも飛びぬけてサムがおかしいけど）。ただ最後の方で、真実なのかサムの妄想なのかだんだんよくわからなくなってくるあたりからやっぱりあんまり好みじゃないんだよなぁ。夢落ち含めて解釈のしようがある映画は嫌いじゃないんだけど、どちらにしても私はあまりサムを好きになれない所が悩ましいところかも。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "未来世紀ブラジル",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こんなにカッコいい配管工はマリオ以外いない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/キック・オーバー_2012-11-20.md",
+      "title": "キック・オーバー",
+      "review_date": "2012-11-20 00:00:00",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "エイドリアン・グランバーグ"
+        ],
+        "cast": [
+          "メル・ギブソン",
+          "ダニエル・ヒメネス・カチョ",
+          "ケビン・ヘルナンデス",
+          "ドロレス・エレディア",
+          "ピーター・ストーメア"
+        ],
+        "genres": [
+          "クライム",
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "きっくおーばー",
+        "release_year": 2012,
+        "directors": [
+          "エイドリアン・グランバーグ"
+        ],
+        "cast": [
+          "メル・ギブソン",
+          "ダニエル・ヒメネス・カチョ",
+          "ケビン・ヘルナンデス",
+          "ドロレス・エレディア",
+          "ピーター・ストーメア"
+        ],
+        "genres": [
+          "クライム",
+          "アクション"
+        ],
+        "synopsis": "大金を奪って逃げた男がメキシコの刑務所へ送られ、金と暴力が支配する内部で生き残りを図る。",
+        "rating": 3.3,
+        "rating_display": "3.3点",
+        "body": "冒頭からピエロの格好したメル・ギブソンが車で砂漠を逃亡してるっていうシュールな光景で始まる。この作品は全体的に非日常な日常に溢れてる。非日常を描いてる作品はたくさんあるけれども、そういう作品って非日常を非日常として楽しむ作品なので、そういう雰囲気とは趣が違って、非日常的な日常なままのシュールさが楽しい作品。そんな風景じゃ銃を突きつけられたりするシーンも日常の一コマとして妙に軽かったりする不思議な雰囲気。町中で起こる狙撃も急な感じで面白かった。刑務所風景も面白く、普通にスラムで、ラブホ的なものやホッケーゲームやらもあり、これらも所変われば風情も大分違ったりする。ただここまで日常と近接してると更生っていうのは主眼になさそうだなぁ。とりあえずラスト近辺のメル・ギブソンの反射神経がもの凄かったのと、ラストの話運びがちょっと意外だったのは面白かった。ただ、あまりアクション映画とかクライム映画的な緊迫感はない。\n",
+        "title": "キック・オーバー",
+        "short_review": "不思議な刑務所のお話。"
+      },
+      "article_sha256_before": "4fc6182adfa99b71089da3a3fc04b0689f983030164d8b701677c06b3608d2b0",
+      "article_sha256_after": "c128c1b0474c1c8bc4f16388bb372cf5ce1925423c5e9b6cd8123ba2199b11c6",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "きっくおーばー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-f7e3c25504bfe509-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-10-13",
+              "year": "2012",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-f7e3c25504bfe509-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エイドリアン・グランバーグ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-f7e3c25504bfe509-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "メル・ギブソン\nダニエル・ヒメネス・カチョ\nケビン・ヘルナンデス\nドロレス・エレディア\nピーター・ストーメア",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-f7e3c25504bfe509-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クライム\nアクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-f7e3c25504bfe509-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "大金を奪って逃げた男がメキシコの刑務所へ送られ、金と暴力が支配する内部で生き残りを図る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.3",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.3",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "冒頭からピエロの格好したメル・ギブソンが車で砂漠を逃亡してるっていうシュールな光景で始まる。この作品は全体的に非日常な日常に溢れてる。非日常を描いてる作品はたくさんあるけれども、そういう作品って非日常を非日常として楽しむ作品なので、そういう雰囲気とは趣が違って、非日常的な日常なままのシュールさが楽しい作品。そんな風景じゃ銃を突きつけられたりするシーンも日常の一コマとして妙に軽かったりする不思議な雰囲気。町中で起こる狙撃も急な感じで面白かった。刑務所風景も面白く、普通にスラムで、ラブホ的なものやホッケーゲームやらもあり、これらも所変われば風情も大分違ったりする。ただここまで日常と近接してると更生っていうのは主眼になさそうだなぁ。とりあえずラスト近辺のメル・ギブソンの反射神経がもの凄かったのと、ラストの話運びがちょっと意外だったのは面白かった。ただ、あまりアクション映画とかクライム映画的な緊迫感はない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キック・オーバー",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "不思議な刑務所のお話。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ネクロノミカン_2012-11-18.md",
+      "title": "ネクロノミカン",
+      "review_date": "2012-11-18 00:00:17",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1994,
+        "directors": [
+          "クリストフ・ガンズ",
+          "金子修介",
+          "ブライアン・ユズナ"
+        ],
+        "cast": [
+          "ブルース・ペイン",
+          "リチャード・リンチ",
+          "ベリンダ・バウアー",
+          "マリア・フォード",
+          "デビッド・ワーナー",
+          "ベス・メイヤー",
+          "デニス・クリストファー",
+          "シグニー・コールマン"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ねくろのみかん",
+        "release_year": 1994,
+        "directors": [
+          "クリストフ・ガンズ",
+          "金子修介",
+          "ブライアン・ユズナ"
+        ],
+        "cast": [
+          "ブルース・ペイン",
+          "リチャード・リンチ",
+          "ベリンダ・バウアー",
+          "マリア・フォード",
+          "デビッド・ワーナー",
+          "ベス・メイヤー",
+          "デニス・クリストファー",
+          "シグニー・コールマン"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "ラヴクラフトが禁断の書を読み進めると、死者の復活や永遠の命をめぐる三つの怪異が現れる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "本作はザ・ドラウンド、ザ・コールド、ウィスパーズという3つの話で構成されていて、どれもこれもゴテゴテした特撮で心が和む。チープだけど意外と凝った造形で、特殊効果も所々チャチいけど悪くない。しかしそれにしても血が緑なのはいいとして蛍光緑なのはどうなのか、暗くてゴシックな雰囲気に飛び散る蛍光緑の粘性の血液！最後の作品とかは特に妙なスピード感があって好きなんだけどぶるぶる震えるにしても程度があるだろう的な非人間的な動きがまたたまらない。最初の奴にしてもタコが顔から生えるとか怖がらせようとしてるのか笑わせようとしてるのかこのよくわからないラインがクトゥルフのよさかもしれない。でも冷気以外どの話かよくわかんないよね。一番最初はダゴンかしら？\n",
+        "title": "ネクロノミカン",
+        "short_review": "ダｗｗｗゴｗｗｗンｗｗｗｗｗ"
+      },
+      "article_sha256_before": "6c3846043ddcb192aa68b311a9a8d67400e98b8bc054756b754d6d78987901d7",
+      "article_sha256_after": "154e705d7fc578c532917ace9d6bfede1aeea2fb77b88595b2d9507ba9f42bc6",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ねくろのみかん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-90eec63434d54244-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1994-08-13",
+              "year": "1994",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-90eec63434d54244-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリストフ・ガンズ\n金子修介\nブライアン・ユズナ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-90eec63434d54244-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブルース・ペイン\nリチャード・リンチ\nベリンダ・バウアー\nマリア・フォード\nデビッド・ワーナー\nベス・メイヤー\nデニス・クリストファー\nシグニー・コールマン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-90eec63434d54244-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-90eec63434d54244-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラヴクラフトが禁断の書を読み進めると、死者の復活や永遠の命をめぐる三つの怪異が現れる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "本作はザ・ドラウンド、ザ・コールド、ウィスパーズという3つの話で構成されていて、どれもこれもゴテゴテした特撮で心が和む。チープだけど意外と凝った造形で、特殊効果も所々チャチいけど悪くない。しかしそれにしても血が緑なのはいいとして蛍光緑なのはどうなのか、暗くてゴシックな雰囲気に飛び散る蛍光緑の粘性の血液！最後の作品とかは特に妙なスピード感があって好きなんだけどぶるぶる震えるにしても程度があるだろう的な非人間的な動きがまたたまらない。最初の奴にしてもタコが顔から生えるとか怖がらせようとしてるのか笑わせようとしてるのかこのよくわからないラインがクトゥルフのよさかもしれない。でも冷気以外どの話かよくわかんないよね。一番最初はダゴンかしら？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ネクロノミカン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダｗｗｗゴｗｗｗンｗｗｗｗｗ",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/推理作家ポー 最期の5日間_2012-11-16.md",
+      "title": "推理作家ポー 最期の5日間",
+      "review_date": "2012-11-16 00:00:08",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ジェームズ・マクティーグ"
+        ],
+        "cast": [
+          "ジョン・キューザック",
+          "ルーク・エバンス",
+          "アリス・イブ",
+          "ブレンダン・グリーソン",
+          "ケビン・マクナリー",
+          "オリバー・ジャクソン＝コーエン"
+        ],
+        "genres": [
+          "ミステリー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "すいりさっかぽーさいごの5にちかん",
+        "release_year": 2012,
+        "directors": [
+          "ジェームズ・マクティーグ"
+        ],
+        "cast": [
+          "ジョン・キューザック",
+          "ルーク・エバンス",
+          "アリス・イブ",
+          "ブレンダン・グリーソン",
+          "ケビン・マクナリー",
+          "オリバー・ジャクソン＝コーエン"
+        ],
+        "genres": [
+          "ミステリー",
+          "サスペンス"
+        ],
+        "synopsis": "ボルティモアでポーの小説をなぞる殺人が続き、容疑をかけられたポー自身も捜査に加わる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "流石に大猿が出てくるわけではないが、ポーの小説の事件を再現しているのでポーの小説が好きならなかなか面白いかもしれない。どう事件が起きるかではなく（ダイジェストすぎるので）、小説が書かれたボルティモアの情景を見るという点で。石造りの建物の冷たさや霧の深さ等、なかなか風情がある。ただ、作者が事件を追う形式だから当然っちゃ当然なんですが、推理的な話は欠片もないので推理を期待したらNGかも。ストーリーも、自分が書いた小説通りの殺人が起き、どう書けば犯人を誘導できるか、的な視点はなかなか斬新で面白くはあるのですが（ただうまくいっているかというと疑問。）、全体的にこのストーリーでは過剰なんじゃないか？という程度にはグロ描写が満載で、寧ろストーリーの面白さというよりは次はどんな酷い事件が起こるのかという残酷描写で視線を繋いでいる気がしなくもないなぁ。ポーが好きな人が見るには賛否両論ありそうだしストーリー全体の結末を冒頭に描くのは少しもったいない気もする。\n",
+        "title": "推理作家ポー 最期の5日間",
+        "short_review": "思いの外グロい。"
+      },
+      "article_sha256_before": "01d5a009db0e85caa4039f7e57312eb4c4b9f140788bf0b98a0bdfd8822df847",
+      "article_sha256_after": "5708bbeef57637d93ee825cb15abaaf67e08b33de085b2d08e0b7b901e27c45b",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すいりさっかぽーさいごの5にちかん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-6964be6e27704f3d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-10-12",
+              "year": "2012",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-6964be6e27704f3d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェームズ・マクティーグ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-6964be6e27704f3d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・キューザック\nルーク・エバンス\nアリス・イブ\nブレンダン・グリーソン\nケビン・マクナリー\nオリバー・ジャクソン＝コーエン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-6964be6e27704f3d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミステリー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-6964be6e27704f3d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ボルティモアでポーの小説をなぞる殺人が続き、容疑をかけられたポー自身も捜査に加わる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "流石に大猿が出てくるわけではないが、ポーの小説の事件を再現しているのでポーの小説が好きならなかなか面白いかもしれない。どう事件が起きるかではなく（ダイジェストすぎるので）、小説が書かれたボルティモアの情景を見るという点で。石造りの建物の冷たさや霧の深さ等、なかなか風情がある。ただ、作者が事件を追う形式だから当然っちゃ当然なんですが、推理的な話は欠片もないので推理を期待したらNGかも。ストーリーも、自分が書いた小説通りの殺人が起き、どう書けば犯人を誘導できるか、的な視点はなかなか斬新で面白くはあるのですが（ただうまくいっているかというと疑問。）、全体的にこのストーリーでは過剰なんじゃないか？という程度にはグロ描写が満載で、寧ろストーリーの面白さというよりは次はどんな酷い事件が起こるのかという残酷描写で視線を繋いでいる気がしなくもないなぁ。ポーが好きな人が見るには賛否両論ありそうだしストーリー全体の結末を冒頭に描くのは少しもったいない気もする。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "推理作家ポー 最期の5日間",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "思いの外グロい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/4匹の蠅_2012-11-14.md",
+      "title": "4匹の蠅",
+      "review_date": "2012-11-14 00:00:56",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1973,
+        "directors": [
+          "ダリオ・アルジェント"
+        ],
+        "cast": [
+          "マイケル・ブランドン",
+          "ミムジー・ファーマー",
+          "ジャン＝ピエール・マリエール",
+          "フランシーヌ・ラセット",
+          "バッド・スペンサー"
+        ],
+        "genres": [
+          "ホラー",
+          "犯罪",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "4ひきのはえ",
+        "release_year": 1973,
+        "directors": [
+          "ダリオ・アルジェント"
+        ],
+        "cast": [
+          "マイケル・ブランドン",
+          "ミムジー・ファーマー",
+          "ジャン＝ピエール・マリエール",
+          "フランシーヌ・ラセット",
+          "バッド・スペンサー"
+        ],
+        "genres": [
+          "ホラー",
+          "犯罪",
+          "スリラー"
+        ],
+        "synopsis": "つきまとう男を誤って刺したドラマーは、その瞬間を仮面の人物に撮影され、脅迫にさらされる。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "アルジェントだからホラーだろうと思ってみたらサスペンスだった。そしていつものホラーのgdgdした感じがあまりなく、頻繁に入る妙なお笑いカットも含めてなかなかいいテンポの展開、ってアルジェントっぽくないなあ。電話とかの音の使い方も暗がりの写し方も余韻があって凄くいい。というか何故ホラーだとあんなにgdgdになってしまうんだろうか。とりあえずキャラがみんなどっかオカシイのは通常運転として、濃いキャラを割とうまく使いつつも綺麗に纏まってる気はする。最後に唐突に芸術的な演出になるのは謎だがいつものことでもある。それにしてもホラーだと思ってたので改めてサスペンスとして考えると、ネタ自体はすぐわかるレベルなんですが、そういうのはおいといて執念というか感情的でなかなか凄い作品。がそれ以上に笑えるシーンが多かったので突っ込みながら見ても面白いと思うのです。それにしても女の人を綺麗に撮ろうという気がさらさらないのは気に入った。\n",
+        "title": "4匹の蠅",
+        "short_review": "ホラーよりサスペンスのほうが面白くない？"
+      },
+      "article_sha256_before": "dd012cd4797fad044c14f7b5139cccdbbe0d0a469c10d094dbb185d865ad514c",
+      "article_sha256_after": "b967297a19d9689278229d796082ba2e573e213968e8f3bb6d465a84216a9ecb",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4ひきのはえ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-b4cb9fbdecededa4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1973-04-21",
+              "year": "1973",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-b4cb9fbdecededa4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダリオ・アルジェント",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-b4cb9fbdecededa4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マイケル・ブランドン\nミムジー・ファーマー\nジャン＝ピエール・マリエール\nフランシーヌ・ラセット\nバッド・スペンサー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-b4cb9fbdecededa4-source-1",
+            "next30-b4cb9fbdecededa4-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\n犯罪\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-b4cb9fbdecededa4-source-1",
+            "next30-b4cb9fbdecededa4-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "つきまとう男を誤って刺したドラマーは、その瞬間を仮面の人物に撮影され、脅迫にさらされる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アルジェントだからホラーだろうと思ってみたらサスペンスだった。そしていつものホラーのgdgdした感じがあまりなく、頻繁に入る妙なお笑いカットも含めてなかなかいいテンポの展開、ってアルジェントっぽくないなあ。電話とかの音の使い方も暗がりの写し方も余韻があって凄くいい。というか何故ホラーだとあんなにgdgdになってしまうんだろうか。とりあえずキャラがみんなどっかオカシイのは通常運転として、濃いキャラを割とうまく使いつつも綺麗に纏まってる気はする。最後に唐突に芸術的な演出になるのは謎だがいつものことでもある。それにしてもホラーだと思ってたので改めてサスペンスとして考えると、ネタ自体はすぐわかるレベルなんですが、そういうのはおいといて執念というか感情的でなかなか凄い作品。がそれ以上に笑えるシーンが多かったので突っ込みながら見ても面白いと思うのです。それにしても女の人を綺麗に撮ろうという気がさらさらないのは気に入った。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4匹の蠅",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラーよりサスペンスのほうが面白くない？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/プランゼット_2012-11-12.md",
+      "title": "プランゼット",
+      "review_date": "2012-11-12 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "粟津順"
+        ],
+        "cast": [
+          "宮野真守",
+          "石原夏織",
+          "竹内順子",
+          "津田健次郎",
+          "寺崎裕香",
+          "岩崎征実",
+          "屋良有作"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぷらんぜっと",
+        "release_year": 2010,
+        "directors": [
+          "粟津順"
+        ],
+        "cast": [
+          "宮野真守",
+          "石原夏織",
+          "竹内順子",
+          "津田健次郎",
+          "寺崎裕香",
+          "岩崎征実",
+          "屋良有作"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "異星生命体の侵略で追い詰められた人類は最終作戦を決め、兵士の大志は妹を火星へ避難させる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "世界観は悪くない。全体的にセピアな色遣いと妙に細かい設定(軍属は保護されてるけど一般市民は碌な生活してないとか)は悪くないんだけどぶっちゃけそれ以外特筆すべきところがない。なんとなくEVAとガンダムを掛け合わせたような感じで物語の中心が5人くらいの人物に終始し、そして5人くらいの人物が地球の運命を一方的に握っているという展開はちょっと厨二臭すぎる気もしなくはない。SFモノって敵の意図とかそういうのとかで不明点が残るのはよくあることなんだけど、この映画は何もかもが分らな過ぎて最後の方は主人公の脳内展開な気すらしてくる。やっぱ5人以外の客観的視点がほしいなぁ。それ以外にも兵隊なのに弾の残数全く把握してないとか細かいところも随分甘くてなんだか微妙だ。ただロボットは好きだし変形するところは嫌いじゃない。\n",
+        "title": "プランゼット",
+        "short_review": "まさか2010年制作映画とは。"
+      },
+      "article_sha256_before": "39f8aeea3d1deb3fde4ad84d244ded3ba4525c7d76bf2a9cb593f8fc06006572",
+      "article_sha256_after": "a688208aba25b5984fd227484f3a21002eecf660926023004ede240e3f823613",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぷらんぜっと",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-3da0fb252ec86e64-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2010-05-22",
+              "year": "2010",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-3da0fb252ec86e64-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "粟津順",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-3da0fb252ec86e64-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "宮野真守\n石原夏織\n竹内順子\n津田健次郎\n寺崎裕香\n岩崎征実\n屋良有作",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-3da0fb252ec86e64-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-3da0fb252ec86e64-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "異星生命体の侵略で追い詰められた人類は最終作戦を決め、兵士の大志は妹を火星へ避難させる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "世界観は悪くない。全体的にセピアな色遣いと妙に細かい設定(軍属は保護されてるけど一般市民は碌な生活してないとか)は悪くないんだけどぶっちゃけそれ以外特筆すべきところがない。なんとなくEVAとガンダムを掛け合わせたような感じで物語の中心が5人くらいの人物に終始し、そして5人くらいの人物が地球の運命を一方的に握っているという展開はちょっと厨二臭すぎる気もしなくはない。SFモノって敵の意図とかそういうのとかで不明点が残るのはよくあることなんだけど、この映画は何もかもが分らな過ぎて最後の方は主人公の脳内展開な気すらしてくる。やっぱ5人以外の客観的視点がほしいなぁ。それ以外にも兵隊なのに弾の残数全く把握してないとか細かいところも随分甘くてなんだか微妙だ。ただロボットは好きだし変形するところは嫌いじゃない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "プランゼット",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "まさか2010年制作映画とは。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/バイオハザード ダムネーション_2012-11-10.md",
+      "title": "バイオハザード ダムネーション",
+      "review_date": "2012-11-10 00:00:36",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "神谷誠"
+        ],
+        "cast": [
+          "マシュー・マーサー",
+          "デイブ・ウィッテンバーグ",
+          "コートニー・テイラー",
+          "バル・タッソー",
+          "ロビン・サックス",
+          "ウェンディー・リー",
+          "サリー・サフィオッティ",
+          "森川智之",
+          "檜山修之",
+          "皆川純子",
+          "大畑伸太郎",
+          "飯塚昭三",
+          "川崎恵理子",
+          "杉本ゆう"
+        ],
+        "genres": [
+          "アニメ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ばいおはざーどだむねーしょん",
+        "release_year": 2012,
+        "directors": [
+          "神谷誠"
+        ],
+        "cast": [
+          "マシュー・マーサー",
+          "デイブ・ウィッテンバーグ",
+          "コートニー・テイラー",
+          "バル・タッソー",
+          "ロビン・サックス",
+          "ウェンディー・リー",
+          "サリー・サフィオッティ",
+          "森川智之",
+          "檜山修之",
+          "皆川純子",
+          "大畑伸太郎",
+          "飯塚昭三",
+          "川崎恵理子",
+          "杉本ゆう"
+        ],
+        "genres": [
+          "アニメ"
+        ],
+        "synopsis": "生物兵器の投入を調べに東欧の内戦国へ潜入したレオンは、退去命令に従わず真相を追う。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "フルCGの作品で、映画というよりはゲームっぽい。CGについて、接写は頑張って作ってるけど中距離はPS3の方が動きが綺麗な気はするし、ゾンビもテカりすぎな気がする。ゾンビってもっとマットなもんじゃ無かろうか。そして主要人物の顔は上手く作っているけど（口元は自然だけど目元はちょっと堅い気がするが）、主要登場人物以外のモブの顔以外の作りが案外酷かったりする。総合的にゲームのムービーカットを合わせたような作品だが、ぶっちゃけこれなら自分でプレイした方が面白いのじゃなかろうか？あんまり人間が闘ってる作品ではなかったのだけど。ただリッカーとかタイラントとかクリーチャーの使い所は面白かった。面白かったといえば登場人物（女）が竜巻旋風脚したりとか色々あるんですが、微妙に全てのシーンで巧妙にぱんつが隠されたりしてる。こういう映画のレーティングってそんなとこで区切られてるものなのか？とか若干疑問に思うのだけど。ゲームが好きなら面白い気もするが、それならゲームをやればいいじゃないとちょっと思う。\n",
+        "title": "バイオハザード ダムネーション",
+        "short_review": "フルCG。"
+      },
+      "article_sha256_before": "05d1ba699a444b67b75934ccf94c55d4b5a8bf9be4171ec5a4f55d66563b58c4",
+      "article_sha256_after": "a45d24c8fd3a3dd146a54e1f28baf85fd5935b2c72d814e7bc82a9c7d03b7d5a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ばいおはざーどだむねーしょん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-253aaede9619a71c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-10-27",
+              "year": "2012",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-253aaede9619a71c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "神谷誠",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-253aaede9619a71c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マシュー・マーサー\nデイブ・ウィッテンバーグ\nコートニー・テイラー\nバル・タッソー\nロビン・サックス\nウェンディー・リー\nサリー・サフィオッティ\n森川智之\n檜山修之\n皆川純子\n大畑伸太郎\n飯塚昭三\n川崎恵理子\n杉本ゆう",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-253aaede9619a71c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-253aaede9619a71c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "生物兵器の投入を調べに東欧の内戦国へ潜入したレオンは、退去命令に従わず真相を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フルCGの作品で、映画というよりはゲームっぽい。CGについて、接写は頑張って作ってるけど中距離はPS3の方が動きが綺麗な気はするし、ゾンビもテカりすぎな気がする。ゾンビってもっとマットなもんじゃ無かろうか。そして主要人物の顔は上手く作っているけど（口元は自然だけど目元はちょっと堅い気がするが）、主要登場人物以外のモブの顔以外の作りが案外酷かったりする。総合的にゲームのムービーカットを合わせたような作品だが、ぶっちゃけこれなら自分でプレイした方が面白いのじゃなかろうか？あんまり人間が闘ってる作品ではなかったのだけど。ただリッカーとかタイラントとかクリーチャーの使い所は面白かった。面白かったといえば登場人物（女）が竜巻旋風脚したりとか色々あるんですが、微妙に全てのシーンで巧妙にぱんつが隠されたりしてる。こういう映画のレーティングってそんなとこで区切られてるものなのか？とか若干疑問に思うのだけど。ゲームが好きなら面白い気もするが、それならゲームをやればいいじゃないとちょっと思う。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "バイオハザード ダムネーション",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フルCG。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/屋敷女_2012-11-08.md",
+      "title": "屋敷女",
+      "review_date": "2012-11-08 00:00:38",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ジュリアン・モーリー",
+          "アレクサンドル・バスティロ"
+        ],
+        "cast": [
+          "ベアトリス・ダル",
+          "アリソン・パラディ",
+          "ナタリー・ルーセル",
+          "フランソワ＝レジス・マルシャソン",
+          "ニコラ・デュボシェル",
+          "リュドビック・ベルティロ",
+          "エメン・サイディ",
+          "エマニュエル・レンツィ"
+        ],
+        "genres": [
+          "ホラー",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "やしきおんな",
+        "release_year": 2008,
+        "directors": [
+          "ジュリアン・モーリー",
+          "アレクサンドル・バスティロ"
+        ],
+        "cast": [
+          "ベアトリス・ダル",
+          "アリソン・パラディ",
+          "ナタリー・ルーセル",
+          "フランソワ＝レジス・マルシャソン",
+          "ニコラ・デュボシェル",
+          "リュドビック・ベルティロ",
+          "エメン・サイディ",
+          "エマニュエル・レンツィ"
+        ],
+        "genres": [
+          "ホラー",
+          "スリラー"
+        ],
+        "synopsis": "出産を翌日に控えたサラの家に見知らぬ女が現れ、警察が去った後も家の中に潜んでいた。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "殺人鬼が襲ってくる作品ってのは数あれど、なかなかここまで生々しい痛い作品は珍しい。リアリティ溢れる痛み、そしてハサミの切れ味が半端ない。普通のスプラッタなら血まみれになるうちになんとなく場面に慣れてきちゃうんだけど、これはいつまでも一つ一つの怪我が痛々しくグロいというかなんか精神的に来る痛さで怖さに飽きがこないなぁ。敵の女は動機はよくわからんままにも行動に一貫性があって(この辺がなんとなく日本のホラーに似てる気もする)一直線な部分に迫力があるし、警察とか色々登場人物が出てくるんですが完全な被害者でもなく防衛者でもなく、なかなか絶妙なポジションを維持している。まあ妊婦さんは見ない方はいいだろうけど妊婦が襲われる作品ってのも珍しいね。とりあえずスプラッタとかグロいのが好きな人にはお勧めです。\n",
+        "title": "屋敷女",
+        "short_review": "怖いし痛いし生々しい。"
+      },
+      "article_sha256_before": "75d6537b9b3ca6d7b0b491edb55d6198f1210aaeb3ab94386a17de482034f798",
+      "article_sha256_after": "82cfeec97899b785f98a485bbf1f11b799d92bb02a0e7dcf758253000bf84cbb",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "やしきおんな",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-ef89d45659c6d5b2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-06-21",
+              "year": "2008",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-ef89d45659c6d5b2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジュリアン・モーリー\nアレクサンドル・バスティロ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-ef89d45659c6d5b2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ベアトリス・ダル\nアリソン・パラディ\nナタリー・ルーセル\nフランソワ＝レジス・マルシャソン\nニコラ・デュボシェル\nリュドビック・ベルティロ\nエメン・サイディ\nエマニュエル・レンツィ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-ef89d45659c6d5b2-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-ef89d45659c6d5b2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "出産を翌日に控えたサラの家に見知らぬ女が現れ、警察が去った後も家の中に潜んでいた。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "殺人鬼が襲ってくる作品ってのは数あれど、なかなかここまで生々しい痛い作品は珍しい。リアリティ溢れる痛み、そしてハサミの切れ味が半端ない。普通のスプラッタなら血まみれになるうちになんとなく場面に慣れてきちゃうんだけど、これはいつまでも一つ一つの怪我が痛々しくグロいというかなんか精神的に来る痛さで怖さに飽きがこないなぁ。敵の女は動機はよくわからんままにも行動に一貫性があって(この辺がなんとなく日本のホラーに似てる気もする)一直線な部分に迫力があるし、警察とか色々登場人物が出てくるんですが完全な被害者でもなく防衛者でもなく、なかなか絶妙なポジションを維持している。まあ妊婦さんは見ない方はいいだろうけど妊婦が襲われる作品ってのも珍しいね。とりあえずスプラッタとかグロいのが好きな人にはお勧めです。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "屋敷女",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "怖いし痛いし生々しい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ムカデ人間_2012-11-06.md",
+      "title": "ムカデ人間",
+      "review_date": "2012-11-06 00:00:04",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "トム・シックス"
+        ],
+        "cast": [
+          "ディーター・ラーザー",
+          "北村昭博",
+          "アシュリー・C・ウィリアムス",
+          "アシュリン・イェニー"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "むかでにんげん",
+        "release_year": 2011,
+        "directors": [
+          "トム・シックス"
+        ],
+        "cast": [
+          "ディーター・ラーザー",
+          "北村昭博",
+          "アシュリー・C・ウィリアムス",
+          "アシュリン・イェニー"
+        ],
+        "genres": [
+          "サスペンス",
+          "ホラー"
+        ],
+        "synopsis": "旅先のドイツで車が故障した女性二人は助けを求めた屋敷で、人間を結合する実験に囚われる。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "この映画、どこまでネタバレしていいのか非常に困るんですが、えーとこんなん観る人は大体あらすじもわかってるだろ、ってとこでムカデ人間の話です。それで色々あってムカデ人間なんですが、早々にムカデ人間なんですよ、まだDVDが半分くらい残ってるのに。これほどこの先どう展開する方法があるんだろうかと心配になった映画も珍しいです。だってなんかもう・・・。しかもこれ三部作の第1作目とか・・・マジでこの後どうなるんだろうという意味で心配な映画ってなかなかないよなぁ・・・。さてそんなこんなでムカデ人間なんですが、ムカデの一人が日本人で関西弁のチンピラなんですよね。みんな英語をしゃべってるなかで「なんやワレなめとんのか！」とか一人日本語で、そっから既に雰囲気はコメディ一直線です。博士の斜め上っぷりから始まり突っ込みどころは満載である。最後妙に精神論的な方向に持ってこうともしてたけどあれは蛇足だと思う（ムカデ人間作りたい動機もよくわからないし（趣味だろ。ともあれ二作目が気になるのは罠に引っ掛かってる気がする順調に。\n",
+        "title": "ムカデ人間",
+        "short_review": "とりあえずよくこんなん作ったなあという点で。"
+      },
+      "article_sha256_before": "fbdde0a8d93379e5e305da1234bcb5e8898431a3ad5a3599fc5152013b4fcb12",
+      "article_sha256_after": "18ff36d9b0aa871ef28d850a6568a820a7eeb2dfa08dd8e6b8c2d5e6b5cf04e2",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "むかでにんげん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-9424a8e2acf3c838-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2011-07-02",
+              "year": "2011",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-9424a8e2acf3c838-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トム・シックス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-9424a8e2acf3c838-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ディーター・ラーザー\n北村昭博\nアシュリー・C・ウィリアムス\nアシュリン・イェニー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-9424a8e2acf3c838-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-9424a8e2acf3c838-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "旅先のドイツで車が故障した女性二人は助けを求めた屋敷で、人間を結合する実験に囚われる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "この映画、どこまでネタバレしていいのか非常に困るんですが、えーとこんなん観る人は大体あらすじもわかってるだろ、ってとこでムカデ人間の話です。それで色々あってムカデ人間なんですが、早々にムカデ人間なんですよ、まだDVDが半分くらい残ってるのに。これほどこの先どう展開する方法があるんだろうかと心配になった映画も珍しいです。だってなんかもう・・・。しかもこれ三部作の第1作目とか・・・マジでこの後どうなるんだろうという意味で心配な映画ってなかなかないよなぁ・・・。さてそんなこんなでムカデ人間なんですが、ムカデの一人が日本人で関西弁のチンピラなんですよね。みんな英語をしゃべってるなかで「なんやワレなめとんのか！」とか一人日本語で、そっから既に雰囲気はコメディ一直線です。博士の斜め上っぷりから始まり突っ込みどころは満載である。最後妙に精神論的な方向に持ってこうともしてたけどあれは蛇足だと思う（ムカデ人間作りたい動機もよくわからないし（趣味だろ。ともあれ二作目が気になるのは罠に引っ掛かってる気がする順調に。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ムカデ人間",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とりあえずよくこんなん作ったなあという点で。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/SAFE セイフ_2012-11-04.md",
+      "title": "SAFE セイフ",
+      "review_date": "2012-11-04 00:00:33",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2012,
+        "directors": [
+          "ボアズ・イェーキン"
+        ],
+        "cast": [
+          "ジェイソン・ステイサム",
+          "キャサリン・チェン",
+          "ジェームズ・ホン",
+          "クリス・サランドン",
+          "ジョセフ・シコラ",
+          "ロバート・ジョン・バーク",
+          "レジー・リー",
+          "アンソン・マウント"
+        ],
+        "genres": [
+          "アクション",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "せいふ",
+        "release_year": 2012,
+        "directors": [
+          "ボアズ・イェーキン"
+        ],
+        "cast": [
+          "ジェイソン・ステイサム",
+          "キャサリン・チェン",
+          "ジェームズ・ホン",
+          "クリス・サランドン",
+          "ジョセフ・シコラ",
+          "ロバート・ジョン・バーク",
+          "レジー・リー",
+          "アンソン・マウント"
+        ],
+        "genres": [
+          "アクション",
+          "サスペンス"
+        ],
+        "synopsis": "妻を殺され絶望した元刑事ルークはマフィアに追われる少女を助け、自らも争いに巻き込まれる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "少女とヲッサン（ステイサム）の二人を軸にしてストーリーが進むのだけど、いかんせん少女の感情が乏しい（でもおそらくアメリカ人の中国人感ってこうなんだろうな）からか少女の印象が弱いし、なぜヲッサンが少女を助けるのか他行動動機がよくわからないので全体的にピンと来ない。アクションも大ジャーンプ！とかは目立つものの取り立てて新しい面白さというのもなく（年を考えると動きは素晴らしいが）、綺麗に作ってあるので全編通してスクリーンから目が離れることはないものの、普通な感じであまり印象に残らないかも。ただメイン筋ではないんですが、宗教の関係か自殺できないことが前提で追い込まれるステイサムとかそういうチラられる文化背景とかは面白かったかも。あと3Dな感じのインターフェイスって近未来的な映画にはよく出るけどあれって絶対使いづらいよなぁといつも思っている。単純な消費系アクション映画とすると悪くはない。\n",
+        "title": "SAFE セイフ",
+        "short_review": "ウーン、普通？"
+      },
+      "article_sha256_before": "5d09d2337b2e7bd1955e3fc8097f80eda919bdccd5e53ab446d2b29a8064bf7a",
+      "article_sha256_after": "6184dba513640fd3db1aacd1ccb97baf016a2300d714905a2d1c47e4dfd00097",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "せいふ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-1a85c7682d4544b6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2012-10-13",
+              "year": "2012",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-1a85c7682d4544b6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ボアズ・イェーキン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-1a85c7682d4544b6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイソン・ステイサム\nキャサリン・チェン\nジェームズ・ホン\nクリス・サランドン\nジョセフ・シコラ\nロバート・ジョン・バーク\nレジー・リー\nアンソン・マウント",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-1a85c7682d4544b6-source-1",
+            "next30-1a85c7682d4544b6-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-1a85c7682d4544b6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妻を殺され絶望した元刑事ルークはマフィアに追われる少女を助け、自らも争いに巻き込まれる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "少女とヲッサン（ステイサム）の二人を軸にしてストーリーが進むのだけど、いかんせん少女の感情が乏しい（でもおそらくアメリカ人の中国人感ってこうなんだろうな）からか少女の印象が弱いし、なぜヲッサンが少女を助けるのか他行動動機がよくわからないので全体的にピンと来ない。アクションも大ジャーンプ！とかは目立つものの取り立てて新しい面白さというのもなく（年を考えると動きは素晴らしいが）、綺麗に作ってあるので全編通してスクリーンから目が離れることはないものの、普通な感じであまり印象に残らないかも。ただメイン筋ではないんですが、宗教の関係か自殺できないことが前提で追い込まれるステイサムとかそういうチラられる文化背景とかは面白かったかも。あと3Dな感じのインターフェイスって近未来的な映画にはよく出るけどあれって絶対使いづらいよなぁといつも思っている。単純な消費系アクション映画とすると悪くはない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SAFE セイフ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ウーン、普通？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/怨念地図 全国版_2012-11-02.md",
+      "title": "怨念地図 全国版",
+      "review_date": "2012-11-02 00:00:55",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "田川幹太"
+        ],
+        "cast": [
+          "田川幹太"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "おんねんちずぜんこくばん",
+        "release_year": 2004,
+        "directors": [
+          "田川幹太"
+        ],
+        "cast": [
+          "田川幹太"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "全国の心霊スポットを題材に、各地の怪異の証言と現場の映像を集めた心霊作品集。",
+        "rating": 1.0,
+        "rating_display": "1点",
+        "body": "内容としては昔流行ったB6サイズくらいの心霊本の1ページサイズの心霊スポットコーナーを音読しただけの作品。しかもネタも「○○の場所に行ったら何かよくわからないものが足に触ったがなんだったんだろうか」的な話でしかもそれで終わってしまうのでそもそもの話が大変つまらなすぎる。それから一応映像作品ではあるんですが、心霊現象があった場所をただ映像で流してるだけで、特にあなたの知らない世界的な再現映像だったりするわけでもない(モノクロな心霊本の写真のほうが味があるなあ)。しかも男も女も子供も全部同じナレーターの一人語り(抑揚付けて読んでるだけ)なのでなんか気持ち悪いです。そんなわけで見始めて10分で辛くなり15分で耐えがたくなり・・・という耐久レースにはひょっとしたら向くのかもしれません。\n",
+        "title": "怨念地図 全国版",
+        "short_review": "これも酷過ぎ。"
+      },
+      "article_sha256_before": "b5f7bae6e1e3445f033ef2c81436deb2c74cf4b08f9497ba05a31ff2fc5898db",
+      "article_sha256_after": "c0ffb96177d1ba7bb445fa421c5feb4567781b0bc6d63b54432112a4f05b409d",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "next30-532c233eff419127-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "おんねんちずぜんこくばん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-532c233eff419127-source-1",
+            "next30-532c233eff419127-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-02-25",
+              "year": "2004",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田川幹太",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-532c233eff419127-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田川幹太",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-532c233eff419127-source-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-532c233eff419127-source-1",
+            "next30-532c233eff419127-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "全国の心霊スポットを題材に、各地の怪異の証言と現場の映像を集めた心霊作品集。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "1.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "1.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "内容としては昔流行ったB6サイズくらいの心霊本の1ページサイズの心霊スポットコーナーを音読しただけの作品。しかもネタも「○○の場所に行ったら何かよくわからないものが足に触ったがなんだったんだろうか」的な話でしかもそれで終わってしまうのでそもそもの話が大変つまらなすぎる。それから一応映像作品ではあるんですが、心霊現象があった場所をただ映像で流してるだけで、特にあなたの知らない世界的な再現映像だったりするわけでもない(モノクロな心霊本の写真のほうが味があるなあ)。しかも男も女も子供も全部同じナレーターの一人語り(抑揚付けて読んでるだけ)なのでなんか気持ち悪いです。そんなわけで見始めて10分で辛くなり15分で耐えがたくなり・・・という耐久レースにはひょっとしたら向くのかもしれません。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "怨念地図 全国版",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "これも酷過ぎ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/30デイズ・ナイト： ダーク・デイズ_2012-10-30.md",
+      "title": "30デイズ・ナイト: ダーク・デイズ",
+      "review_date": "2012-10-30 00:00:44",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2011,
+        "directors": [
+          "ベン・ケタイ"
+        ],
+        "cast": [
+          "キエレ・サンチェス",
+          "リス・コイロ",
+          "ディオラ・ベアード",
+          "ハロルド・ペリノー",
+          "ミア・カーシュナー"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "30でいずないとだーくでいず",
+        "release_year": 2011,
+        "directors": [
+          "ベン・ケタイ"
+        ],
+        "cast": [
+          "キエレ・サンチェス",
+          "リス・コイロ",
+          "ディオラ・ベアード",
+          "ハロルド・ペリノー",
+          "ミア・カーシュナー"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "吸血鬼の襲撃で夫を失ったステラは、その存在を訴える旅の中で同じ境遇の仲間と出会う。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "前は極夜の無敵なバンパイアから逃げまどったり戦ったりする映画で、今回はバンパイアをやっつける映画となんとなく似たような感じはあるのだけど、どことなく若干ジャンルが違う気がする。前回もたいして白夜感はなかったんですが、今回はますますクリーチャーもの的なテイストが強い、というかやっぱりバンパイアに見えない件について。そして前作の極夜という場面設定がすっかり無駄になっていたのと同様に、今回もLAだとか都会とかいうよさがすっかり生かされてないところがなんとなくｇｄｇｄ展開ではある。そして今回も仲間2人くらいとバンパイアと戦うんですが、他2人の使えなさが半端ない。バンパイアより寧ろ仲間が敵で、効率よくバンパイアを倒すには仲間を先にぶっ殺したほうがいいのではなかろうかというダメな感じ、そんな中でステラ無双です。アクションモノとしてはそんなに悪くはないんですがバンパイアものとするとなんとなく記憶に残らなさそうな感じで残念だなぁ。\n",
+        "title": "30デイズ・ナイト: ダーク・デイズ",
+        "short_review": "前作とちょっとジャンルが違うよな。"
+      },
+      "article_sha256_before": "31d92686ebaea1e4c20b0072be135ad10daf41ff7d88a03801a29f1ae01d3398",
+      "article_sha256_after": "ccfa537938a5c2e3ad133383cccb045c3fcc04d10147c29fb063474740ce7a28",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "30でいずないとだーくでいず",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d85a8ec483d1d10e-source-1",
+            "next30-d85a8ec483d1d10e-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2011",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d85a8ec483d1d10e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ベン・ケタイ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d85a8ec483d1d10e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キエレ・サンチェス\nリス・コイロ\nディオラ・ベアード\nハロルド・ペリノー\nミア・カーシュナー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d85a8ec483d1d10e-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d85a8ec483d1d10e-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "吸血鬼の襲撃で夫を失ったステラは、その存在を訴える旅の中で同じ境遇の仲間と出会う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "前は極夜の無敵なバンパイアから逃げまどったり戦ったりする映画で、今回はバンパイアをやっつける映画となんとなく似たような感じはあるのだけど、どことなく若干ジャンルが違う気がする。前回もたいして白夜感はなかったんですが、今回はますますクリーチャーもの的なテイストが強い、というかやっぱりバンパイアに見えない件について。そして前作の極夜という場面設定がすっかり無駄になっていたのと同様に、今回もLAだとか都会とかいうよさがすっかり生かされてないところがなんとなくｇｄｇｄ展開ではある。そして今回も仲間2人くらいとバンパイアと戦うんですが、他2人の使えなさが半端ない。バンパイアより寧ろ仲間が敵で、効率よくバンパイアを倒すには仲間を先にぶっ殺したほうがいいのではなかろうかというダメな感じ、そんな中でステラ無双です。アクションモノとしてはそんなに悪くはないんですがバンパイアものとするとなんとなく記憶に残らなさそうな感じで残念だなぁ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "30デイズ・ナイト: ダーク・デイズ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "前作とちょっとジャンルが違うよな。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/女呪霊_2012-10-28.md",
+      "title": "女呪霊",
+      "review_date": "2012-10-28 00:00:28",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "田川幹太"
+        ],
+        "cast": [
+          "山本正",
+          "田川幹太",
+          "田中餌蝋",
+          "古賀栄治"
+        ],
+        "genres": [
+          "ホラー",
+          "ドキュメンタリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "じょじゅれい",
+        "release_year": 2004,
+        "directors": [
+          "田川幹太"
+        ],
+        "cast": [
+          "山本正",
+          "田川幹太",
+          "田中餌蝋",
+          "古賀栄治"
+        ],
+        "genres": [
+          "ホラー",
+          "ドキュメンタリー"
+        ],
+        "synopsis": "視聴者のメールに添えられた不気味な映像を発端に、スタッフが制作元と封印された番組を追う。",
+        "rating": 1.0,
+        "rating_display": "1点",
+        "body": "ストーリーとしては入手した裏DVDに不審な物が映っててこれを調査するというモキュメンタリーですが無理がありすぎる。無駄に長い。15分くらいで終わりそうな内容を1時間に引きなおしたような作品で、ネタが裏DVDなせいか所々シーンと関係なく無駄にあえぎ声が入ってて(声だけ)しかもやたら大音量で凄い誰得感。スタッフらしき人が色々取材をするシーンがあるんですが、コミュ力0なスタッフが同じことを無駄に相手をムカつかせる話し方で何回も何回も同じことを繰り返して聞いたりとか、なんかもうスタッフに映画の本編と無関係な感じでイライラする。とりあえず心霊シーン（？）はわりとそれなりにつくってあるんですが(といってもDVDの中に映ってる心霊動画みたいなものでたいしたことはない、チラ程度)同じシーンを特に意味もなく繰り返すので飽き飽きする。という所で取り立てて面白くもなくあらゆる意味で残念でした。\n",
+        "title": "女呪霊",
+        "short_review": "色々と酷い。"
+      },
+      "article_sha256_before": "a84d54500ab0b4625733cfb722487d26327b221f8286b23476794331bbd2a435",
+      "article_sha256_after": "a808466cb7f548c434d87e5d86bb7967daf11d5b71ab852ea5f122c21a772557",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "next30-637b1e6e272d2674-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "じょじゅれい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-637b1e6e272d2674-source-1",
+            "next30-637b1e6e272d2674-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-08-06",
+              "year": "2004",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-637b1e6e272d2674-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "田川幹太",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "山本正\n田川幹太\n田中餌蝋\n古賀栄治",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-637b1e6e272d2674-source-1",
+            "next30-637b1e6e272d2674-source-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nドキュメンタリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-637b1e6e272d2674-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "視聴者のメールに添えられた不気味な映像を発端に、スタッフが制作元と封印された番組を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "1.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "1.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ストーリーとしては入手した裏DVDに不審な物が映っててこれを調査するというモキュメンタリーですが無理がありすぎる。無駄に長い。15分くらいで終わりそうな内容を1時間に引きなおしたような作品で、ネタが裏DVDなせいか所々シーンと関係なく無駄にあえぎ声が入ってて(声だけ)しかもやたら大音量で凄い誰得感。スタッフらしき人が色々取材をするシーンがあるんですが、コミュ力0なスタッフが同じことを無駄に相手をムカつかせる話し方で何回も何回も同じことを繰り返して聞いたりとか、なんかもうスタッフに映画の本編と無関係な感じでイライラする。とりあえず心霊シーン（？）はわりとそれなりにつくってあるんですが(といってもDVDの中に映ってる心霊動画みたいなものでたいしたことはない、チラ程度)同じシーンを特に意味もなく繰り返すので飽き飽きする。という所で取り立てて面白くもなくあらゆる意味で残念でした。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "女呪霊",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "色々と酷い。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/巨乳ドラゴン 温泉ゾンビ VS ストリッパー5_2012-10-26.md",
+      "title": "巨乳ドラゴン 温泉ゾンビ VS ストリッパー5",
+      "review_date": "2012-10-26 00:00:24",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "中野貴雄"
+        ],
+        "cast": [
+          "蒼井そら",
+          "かすみりさ",
+          "桜井まり",
+          "TAMAYO",
+          "相川イオ",
+          "鳥肌実",
+          "辻本一樹"
+        ],
+        "genres": [
+          "ホラー",
+          "アクション",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "きょにゅうどらごんおんせんぞんびばーさすすとりっぱー5",
+        "release_year": 2010,
+        "directors": [
+          "中野貴雄"
+        ],
+        "cast": [
+          "蒼井そら",
+          "かすみりさ",
+          "桜井まり",
+          "TAMAYO",
+          "相川イオ",
+          "鳥肌実",
+          "辻本一樹"
+        ],
+        "genres": [
+          "ホラー",
+          "アクション",
+          "コメディ"
+        ],
+        "synopsis": "寂れた温泉街へ巡業に来たストリッパーたちは、地下の廃墟で見つけた死者の本から騒動に遭う。",
+        "rating": 4.1,
+        "rating_display": "4.1点",
+        "body": "全方位突っ込み待ちという系統のコメディホラー(？)作品で、まあちっとも怖くないのはおいといて全体的に驚愕の安っぽさである。確かに笑いに走ったホラー（？）作品っていうのは一定数あるんですが、こんなに安っぽい作品というのもなかなかなく、そもそも出てくるゾンビが特に理由なく色々コスプレしているあたりもうどっから突っ込んでいいのかよくわからないよね。とりあえずストリッパーなので（？）おっぱいはポロポロ出てたりはするんですが別に全然エロくもなく、よく考えたらストリップシーンもないぞ。そんなこんなで光り輝くチェーンソーとか女体盛りとか好き放題です。ちなみにストリッパー5っていうのは多分5人いるから5なんだと思うがこの取ってつけた感も好きです。とりあえずちっともエロくも怖くもないんだけどツボど真ん中だったので無駄に点数は高め（呉々もコレを信じて借りたりしないでください、一般的には駄作です）。とりあえずねねさんが半端ないと思う。\n",
+        "title": "巨乳ドラゴン 温泉ゾンビ VS ストリッパー5",
+        "short_review": "主観特大)　こういうくだらない映画ってとても好き。"
+      },
+      "article_sha256_before": "83b164cd2478490ae0d4625bc43f366f15da5cf8cf9dfd69df6ed0d89adc0e30",
+      "article_sha256_after": "10fe16af166df8dec8cb9dde769e54f54f71502765f4ac9b6bf5e731dc80d6f7",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "きょにゅうどらごんおんせんぞんびばーさすすとりっぱー5",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d4f608d00fef8ac4-source-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2010",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d4f608d00fef8ac4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中野貴雄",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d4f608d00fef8ac4-source-1",
+            "next30-d4f608d00fef8ac4-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "蒼井そら\nかすみりさ\n桜井まり\nTAMAYO\n相川イオ\n鳥肌実\n辻本一樹",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d4f608d00fef8ac4-source-3",
+            "next30-d4f608d00fef8ac4-source-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nアクション\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d4f608d00fef8ac4-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "寂れた温泉街へ巡業に来たストリッパーたちは、地下の廃墟で見つけた死者の本から騒動に遭う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.1",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.1",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "全方位突っ込み待ちという系統のコメディホラー(？)作品で、まあちっとも怖くないのはおいといて全体的に驚愕の安っぽさである。確かに笑いに走ったホラー（？）作品っていうのは一定数あるんですが、こんなに安っぽい作品というのもなかなかなく、そもそも出てくるゾンビが特に理由なく色々コスプレしているあたりもうどっから突っ込んでいいのかよくわからないよね。とりあえずストリッパーなので（？）おっぱいはポロポロ出てたりはするんですが別に全然エロくもなく、よく考えたらストリップシーンもないぞ。そんなこんなで光り輝くチェーンソーとか女体盛りとか好き放題です。ちなみにストリッパー5っていうのは多分5人いるから5なんだと思うがこの取ってつけた感も好きです。とりあえずちっともエロくも怖くもないんだけどツボど真ん中だったので無駄に点数は高め（呉々もコレを信じて借りたりしないでください、一般的には駄作です）。とりあえずねねさんが半端ないと思う。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "巨乳ドラゴン 温泉ゾンビ VS ストリッパー5",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "主観特大)　こういうくだらない映画ってとても好き。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/隣の家の少女_2012-10-24.md",
+      "title": "隣の家の少女",
+      "review_date": "2012-10-24 00:00:31",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2010,
+        "directors": [
+          "グレゴリー・M・ウィルソン"
+        ],
+        "cast": [
+          "ブライス・オーファース",
+          "ダニエル・マンチ",
+          "ブランチ・ベイカー",
+          "グレアム・パトリック・マーティン",
+          "ウィリアム・アザートン",
+          "ベンジャミン・ロス・カプラン",
+          "マデリン・テイラー",
+          "オースティン・ウィリアムズ",
+          "グラント・ショウ",
+          "キャサリン・メアリー・スチュワート"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "となりのいえのしょうじょ",
+        "release_year": 2010,
+        "directors": [
+          "グレゴリー・M・ウィルソン"
+        ],
+        "cast": [
+          "ブライス・オーファース",
+          "ダニエル・マンチ",
+          "ブランチ・ベイカー",
+          "グレアム・パトリック・マーティン",
+          "ウィリアム・アザートン",
+          "ベンジャミン・ロス・カプラン",
+          "マデリン・テイラー",
+          "オースティン・ウィリアムズ",
+          "グラント・ショウ",
+          "キャサリン・メアリー・スチュワート"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "両親を事故で失った姉妹が隣家に越してきた夏、少年は親しくなった少女への虐待を知る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "有り体に言うと虐待ものなんですが、虐待がエスカレートしていく描写が随分と生々しい分精神的につらい作品である。苛めてるのはメインは叔母で、ちょっかいを出してるのがその家やら近所の子供という構図で、デイヴィッド一人なんとかしようと思っているんだけど、叔母が大人なだけに子供のデイヴィッドはどうすることもできず、周りの子供からもハブラレ予感を回避したいという思惑があり、っていう感じで登場人物の心理描写がえらい生生しいので辛い(でもよく考えたら心情自体はあまり描かれていないけど)。全体的に原作に比べて猟奇的な方向の演出が激しい気はしますが(原作では描かれていたデイヴィッドと仲良くしてるシーンはあんまりなく、いきなり虐待雰囲気)、エロ的な部分もあるけどそれ以上にロリでも痛々しいと思うんじゃないかと思うような作品でまさに誰得な感じ。一応実話ベースですがこういう描き方は実在する人の許可とか大変そうなきがする。とりあえず虐待シーンは普通のホラー以上に痛々しいので注意。\n",
+        "title": "隣の家の少女",
+        "short_review": "随分胸糞悪い感じ。"
+      },
+      "article_sha256_before": "072f4988d56f3809b34214118aef208b87a8ed3d42f1ee2f0ef934c251780b4a",
+      "article_sha256_after": "cc495a2bc1afd6348fe2ea38b397fce2cf7ebd2aa009a190aa4bee4240d6ba11",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "となりのいえのしょうじょ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-74466bb1c91b7a9f-source-1",
+            "next30-74466bb1c91b7a9f-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2010-03-13",
+              "year": "2010",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-74466bb1c91b7a9f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "グレゴリー・M・ウィルソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-74466bb1c91b7a9f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブライス・オーファース\nダニエル・マンチ\nブランチ・ベイカー\nグレアム・パトリック・マーティン\nウィリアム・アザートン\nベンジャミン・ロス・カプラン\nマデリン・テイラー\nオースティン・ウィリアムズ\nグラント・ショウ\nキャサリン・メアリー・スチュワート",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-74466bb1c91b7a9f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-74466bb1c91b7a9f-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "両親を事故で失った姉妹が隣家に越してきた夏、少年は親しくなった少女への虐待を知る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "有り体に言うと虐待ものなんですが、虐待がエスカレートしていく描写が随分と生々しい分精神的につらい作品である。苛めてるのはメインは叔母で、ちょっかいを出してるのがその家やら近所の子供という構図で、デイヴィッド一人なんとかしようと思っているんだけど、叔母が大人なだけに子供のデイヴィッドはどうすることもできず、周りの子供からもハブラレ予感を回避したいという思惑があり、っていう感じで登場人物の心理描写がえらい生生しいので辛い(でもよく考えたら心情自体はあまり描かれていないけど)。全体的に原作に比べて猟奇的な方向の演出が激しい気はしますが(原作では描かれていたデイヴィッドと仲良くしてるシーンはあんまりなく、いきなり虐待雰囲気)、エロ的な部分もあるけどそれ以上にロリでも痛々しいと思うんじゃないかと思うような作品でまさに誰得な感じ。一応実話ベースですがこういう描き方は実在する人の許可とか大変そうなきがする。とりあえず虐待シーンは普通のホラー以上に痛々しいので注意。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "隣の家の少女",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "随分胸糞悪い感じ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/犬木加奈子恐怖world 亡霊の棲む家_2012-10-22.md",
+      "title": "犬木加奈子恐怖world 亡霊の棲む家",
+      "review_date": "2012-10-22 00:00:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2000,
+        "directors": [
+          "熊澤尚人"
+        ],
+        "cast": [
+          "犬木加奈子",
+          "芳本美代子",
+          "戸田昌宏",
+          "片岡礼子",
+          "塚本晋也",
+          "草野康太",
+          "長宗我部陽子",
+          "田中要次"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "いぬきかなこきょうふわーるどぼうれいのすむいえ",
+        "release_year": 2000,
+        "directors": [
+          "熊澤尚人"
+        ],
+        "cast": [
+          "犬木加奈子",
+          "芳本美代子",
+          "戸田昌宏",
+          "片岡礼子",
+          "塚本晋也",
+          "草野康太",
+          "長宗我部陽子",
+          "田中要次"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "郊外のマンションで住人たちが次々と姿を消し、失踪した管理人の日誌には謎の言葉が残る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "犬木加奈子はホラー漫画家で結構好きなんですが、よく考えたら閉塞感とか疎外感とか漫画ならではの主観的な怖さの演出っぷりがうまい漫画家さんではあるものの、あまりよさの出る方向の映像化ではないような気はする（そもそも元々映像化するにはなんとなくありふれた話が多い）。ストーリー的にはどこかでありそうな感じの話ではあるんですが、犬木加奈子云々を抜きにしても話によってはそもそもあまり面白い演出ではなかったような気がするなぁ。映画はそもそもタイトルバックからして安っぽいし、最初の話の登場人物は滑舌もいまいちなので印象がいまいちかも。一番面白かったのは似てる隣人の話かな。でも全体的に落ちがないんだよなぁ。ところで古びた寂れ団地の薄ら暗さはそれだけでだいぶんホラーじみているのだけど、こういう所で形成される人間関係ってじめじめしそうなので立地的にはホラー向きな気がする。\n",
+        "title": "犬木加奈子恐怖world 亡霊の棲む家",
+        "short_review": "特に犬木加奈子っぽいわけではない。"
+      },
+      "article_sha256_before": "214cc39045eb1c58671161a14453b7c23481e33841e4653dfdb88fe64a30c333",
+      "article_sha256_after": "b9a2681339a00a57a21e172a280b50361d8c5737078ac6a8bbd8f2381c738917",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いぬきかなこきょうふわーるどぼうれいのすむいえ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-aec55f386b04ac04-source-2",
+            "next30-aec55f386b04ac04-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2000",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-aec55f386b04ac04-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "熊澤尚人",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-aec55f386b04ac04-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "犬木加奈子\n芳本美代子\n戸田昌宏\n片岡礼子\n塚本晋也\n草野康太\n長宗我部陽子\n田中要次",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-aec55f386b04ac04-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-aec55f386b04ac04-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "郊外のマンションで住人たちが次々と姿を消し、失踪した管理人の日誌には謎の言葉が残る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "犬木加奈子はホラー漫画家で結構好きなんですが、よく考えたら閉塞感とか疎外感とか漫画ならではの主観的な怖さの演出っぷりがうまい漫画家さんではあるものの、あまりよさの出る方向の映像化ではないような気はする（そもそも元々映像化するにはなんとなくありふれた話が多い）。ストーリー的にはどこかでありそうな感じの話ではあるんですが、犬木加奈子云々を抜きにしても話によってはそもそもあまり面白い演出ではなかったような気がするなぁ。映画はそもそもタイトルバックからして安っぽいし、最初の話の登場人物は滑舌もいまいちなので印象がいまいちかも。一番面白かったのは似てる隣人の話かな。でも全体的に落ちがないんだよなぁ。ところで古びた寂れ団地の薄ら暗さはそれだけでだいぶんホラーじみているのだけど、こういう所で形成される人間関係ってじめじめしそうなので立地的にはホラー向きな気がする。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "犬木加奈子恐怖world 亡霊の棲む家",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "特に犬木加奈子っぽいわけではない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/片腕ドラゴン_2012-10-20.md",
+      "title": "片腕ドラゴン",
+      "review_date": "2012-10-20 00:00:00",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1974,
+        "directors": [
+          "ジミー・ウォング"
+        ],
+        "cast": [
+          "ジミー・ウォング",
+          "タン・シン",
+          "ティエン・イェー",
+          "フェイ・ルン",
+          "ライ・シュン"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かたうでどらごん",
+        "release_year": 1974,
+        "directors": [
+          "ジミー・ウォング"
+        ],
+        "cast": [
+          "ジミー・ウォング",
+          "タン・シン",
+          "ティエン・イェー",
+          "フェイ・ルン",
+          "ライ・シュン"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "敵対道場との争いで師と右腕を失った青年は、生き延びた先で残された左腕を鍛え始める。",
+        "rating": 3.9,
+        "rating_display": "3.9点",
+        "body": "片腕ドラゴンというと一部で有名な奇妙なカンフー映画で、まあ簡単にいうと片腕になっても戦う話ではある。しかしこの映画が特殊なのは、熱いバトルという以上に色んな武道家の奇矯なアクションが溢れているところ。なかなか筆舌に尽くしがたいのですが、逆さになってグルグル周りをまわってみたり天井近くの壁にジャンプしてみたり、とどうにもこうにも何だかオカシイ。確かにマッハとかも動きとしてはオカシイ気もするんですが、これはそれ以上になんというか随分おかしな動きをする。そういえばムエタイの人の戦う前の踊りもなんか妙だし、インド人は顔だけ黒いぞ。演出的にも途中で時間の経過するシーンがあるんですが、そこを静止画数枚でクリアするというあたりもなかなか衝撃的な力技であった、こういう脳みそ使わない所は好きだ。と色々あるんですが、アクション自体はヲッサンも含めてなかなかの体さばきで見ごたえがある気がする。熊のようなオッサンの野獣のようなアクションからも目が離せないし、こんなおかしな演出しなければ普通に普通の面白いカンフー映画だったのではないだろうか？他の点では、BGMが絶妙に西部警察とか空気読んでないところも面白かった。ところで敵ってチャオ師匠じゃないのかね？\n",
+        "title": "片腕ドラゴン",
+        "short_review": "動作おかしすぎるだろ。"
+      },
+      "article_sha256_before": "250700612abcc6bf71f6fb0d1c563b99be944424c278780cc5ad9dd77c421b88",
+      "article_sha256_after": "787e7422cba63df0e3486564ea040fe18503908f7af9b556d817a38355adc7e6",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かたうでどらごん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-9d9a5ccc84b44908-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1974-02-08",
+              "year": "1974",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-9d9a5ccc84b44908-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジミー・ウォング",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-9d9a5ccc84b44908-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジミー・ウォング\nタン・シン\nティエン・イェー\nフェイ・ルン\nライ・シュン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-9d9a5ccc84b44908-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-9d9a5ccc84b44908-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "敵対道場との争いで師と右腕を失った青年は、生き延びた先で残された左腕を鍛え始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.9",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.9",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "片腕ドラゴンというと一部で有名な奇妙なカンフー映画で、まあ簡単にいうと片腕になっても戦う話ではある。しかしこの映画が特殊なのは、熱いバトルという以上に色んな武道家の奇矯なアクションが溢れているところ。なかなか筆舌に尽くしがたいのですが、逆さになってグルグル周りをまわってみたり天井近くの壁にジャンプしてみたり、とどうにもこうにも何だかオカシイ。確かにマッハとかも動きとしてはオカシイ気もするんですが、これはそれ以上になんというか随分おかしな動きをする。そういえばムエタイの人の戦う前の踊りもなんか妙だし、インド人は顔だけ黒いぞ。演出的にも途中で時間の経過するシーンがあるんですが、そこを静止画数枚でクリアするというあたりもなかなか衝撃的な力技であった、こういう脳みそ使わない所は好きだ。と色々あるんですが、アクション自体はヲッサンも含めてなかなかの体さばきで見ごたえがある気がする。熊のようなオッサンの野獣のようなアクションからも目が離せないし、こんなおかしな演出しなければ普通に普通の面白いカンフー映画だったのではないだろうか？他の点では、BGMが絶妙に西部警察とか空気読んでないところも面白かった。ところで敵ってチャオ師匠じゃないのかね？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "片腕ドラゴン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "動作おかしすぎるだろ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/エレファント・マン_2012-10-18.md",
+      "title": "エレファント・マン",
+      "review_date": "2012-10-18 00:00:48",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1981,
+        "directors": [
+          "デビッド・リンチ"
+        ],
+        "cast": [
+          "アンソニー・ホプキンス",
+          "ジョン・ハート",
+          "アン・バンクロフト",
+          "ジョン・ギールグッド",
+          "ウェンディ・ヒラー",
+          "フレディ・ジョーンズ",
+          "マイケル・エルフィック",
+          "フレデリック・トレベス"
+        ],
+        "genres": [
+          "ヒューマンドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "えれふぁんとまん",
+        "release_year": 1981,
+        "directors": [
+          "デビッド・リンチ"
+        ],
+        "cast": [
+          "アンソニー・ホプキンス",
+          "ジョン・ハート",
+          "アン・バンクロフト",
+          "ジョン・ギールグッド",
+          "ウェンディ・ヒラー",
+          "フレディ・ジョーンズ",
+          "マイケル・エルフィック",
+          "フレデリック・トレベス"
+        ],
+        "genres": [
+          "ヒューマンドラマ"
+        ],
+        "synopsis": "見世物小屋で暮らすメリックを病院へ迎えた医師は、怯えて口を閉ざす彼の知性に触れていく。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "どことなくサイコホラーのようなイメージがある作品だけど、普通の感動系のドラマ作品である。演技の光る映画で、エレファントマンであるジョンの声や仕草等がなかなかに奥ゆかしく、これまでの酷い扱いがしのばれる素晴らしい演技だった。そして周りの人の好奇の目線や医長の態度も上手く、女たちが盛大にキモがっている部分もなかなかいい。ただもう一人の主人公であるフレデリック医師については、その葛藤等のパートが薄い点でちょっと残念な気がする（でも好演してる、がやっぱホプキンスは殺人鬼のがいい。この映画のもっとも面白いところは、エレファントマンを醜い(=自分達と同じではない)ものとして描いている点だ(畸形といっても最近のクリーチャーモノを見慣れてるせいなのか、頭のこぶがハートマークにみえるくらいで特に畸形に感じなかった点でちょっと見方を誤った気がしないではない。)。だからこそ女は叫びまくるし男も眉をひそめつつも一目見ようと近寄ってくる。この最初の醜いものであるという視点がその後のジョンの行動の人間味を際立たせてる要因である。実話ベースなんですが、そもそも実話のジョンは見世物興行で儲かってたのに人権愛護団体の運動やらで食えなくなって、結局フレデリックの元を訪れているという部分でなんだか現実も世知辛いものであるよね。そう考えると人権団体の「可哀そう」っていうのも「醜い」と同じ偏見に変わりない。ともあれ婦長が強くてよかった。\n",
+        "title": "エレファント・マン",
+        "short_review": "意外とキュート。"
+      },
+      "article_sha256_before": "40501d8c0e24a12827f7cfc9e299859aa8ff6daab5b02945dd018d69e192f6e8",
+      "article_sha256_after": "fdfb1ad0e352130ff938be01162625af132a4aeb1fb00dac535977005a68e7f8",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "えれふぁんとまん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-c751d571cff04596-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1981-05-09",
+              "year": "1981",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-c751d571cff04596-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デビッド・リンチ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-c751d571cff04596-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンソニー・ホプキンス\nジョン・ハート\nアン・バンクロフト\nジョン・ギールグッド\nウェンディ・ヒラー\nフレディ・ジョーンズ\nマイケル・エルフィック\nフレデリック・トレベス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-c751d571cff04596-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヒューマンドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-c751d571cff04596-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "見世物小屋で暮らすメリックを病院へ迎えた医師は、怯えて口を閉ざす彼の知性に触れていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どことなくサイコホラーのようなイメージがある作品だけど、普通の感動系のドラマ作品である。演技の光る映画で、エレファントマンであるジョンの声や仕草等がなかなかに奥ゆかしく、これまでの酷い扱いがしのばれる素晴らしい演技だった。そして周りの人の好奇の目線や医長の態度も上手く、女たちが盛大にキモがっている部分もなかなかいい。ただもう一人の主人公であるフレデリック医師については、その葛藤等のパートが薄い点でちょっと残念な気がする（でも好演してる、がやっぱホプキンスは殺人鬼のがいい。この映画のもっとも面白いところは、エレファントマンを醜い(=自分達と同じではない)ものとして描いている点だ(畸形といっても最近のクリーチャーモノを見慣れてるせいなのか、頭のこぶがハートマークにみえるくらいで特に畸形に感じなかった点でちょっと見方を誤った気がしないではない。)。だからこそ女は叫びまくるし男も眉をひそめつつも一目見ようと近寄ってくる。この最初の醜いものであるという視点がその後のジョンの行動の人間味を際立たせてる要因である。実話ベースなんですが、そもそも実話のジョンは見世物興行で儲かってたのに人権愛護団体の運動やらで食えなくなって、結局フレデリックの元を訪れているという部分でなんだか現実も世知辛いものであるよね。そう考えると人権団体の「可哀そう」っていうのも「醜い」と同じ偏見に変わりない。ともあれ婦長が強くてよかった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エレファント・マン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "意外とキュート。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アルマゲドン・コード_2012-10-16.md",
+      "title": "アルマゲドン・コード",
+      "review_date": "2012-10-16 00:00:37",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ヴァディム・シメリェフ"
+        ],
+        "cast": [
+          "アナスタシア・ザヴォロトニウク",
+          "ヴァンサン・ペレーズ",
+          "ウラジミール・メニショフ",
+          "オレグ・ステファン",
+          "ジェイ・ベネディクト"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あるまげどんこーど",
+        "release_year": 2009,
+        "directors": [
+          "ヴァディム・シメリェフ"
+        ],
+        "cast": [
+          "アナスタシア・ザヴォロトニウク",
+          "ヴァンサン・ペレーズ",
+          "ウラジミール・メニショフ",
+          "オレグ・ステファン",
+          "ジェイ・ベネディクト"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "四都市への核テロ計画を探るため、ロシアの女性捜査官ダーシャは極秘の潜入任務に就く。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "所々ヘリアクションとかハリウッド映画にも遜色のない迫力の戦闘シーンも散見されるんだけど、それと同じくらいになんか凄くショボいアクションシーンも散見してて、全体としてよくわからないテンションの映画だった。場面転換自体は全体的にうまいとは思うんだけど、転換された後のシーンが唐突にショボかったりとかかっこつけるところを間違ってる気がする。そしてラストの仰々しさがちょっと意味がわからないレベルであった。マトリックス的であったり007的であったりいろんな映画の要素要素を場面毎にリスペクトしてる感じはするんだけど、せめてもう少し統一感がほしいなぁ。それから人物関係がイマイチよくわからなくて、もう少しモトカレのエピソードを交えないとあまり話に共感できない気がする。総じて派手だったりダサかったりとこの雑な感じがロシアっぽくて個人的には結構好みです。\n",
+        "title": "アルマゲドン・コード",
+        "short_review": "どことなく雑な感じ。"
+      },
+      "article_sha256_before": "06f7ab49b0ab834981ffc37966974868058ca2860613e670fed6ddcafea1ec37",
+      "article_sha256_after": "6ae5ce8e6a2342d7e3d983d31e614db698d2c71c67e695bfeee8ae9ba6db9898",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あるまげどんこーど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d35c567eca53c717-source-3",
+            "next30-d35c567eca53c717-source-4"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-06",
+              "year": "2009",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d35c567eca53c717-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヴァディム・シメリェフ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d35c567eca53c717-source-1",
+            "next30-d35c567eca53c717-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アナスタシア・ザヴォロトニウク\nヴァンサン・ペレーズ\nウラジミール・メニショフ\nオレグ・ステファン\nジェイ・ベネディクト",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d35c567eca53c717-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d35c567eca53c717-source-5"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "四都市への核テロ計画を探るため、ロシアの女性捜査官ダーシャは極秘の潜入任務に就く。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "所々ヘリアクションとかハリウッド映画にも遜色のない迫力の戦闘シーンも散見されるんだけど、それと同じくらいになんか凄くショボいアクションシーンも散見してて、全体としてよくわからないテンションの映画だった。場面転換自体は全体的にうまいとは思うんだけど、転換された後のシーンが唐突にショボかったりとかかっこつけるところを間違ってる気がする。そしてラストの仰々しさがちょっと意味がわからないレベルであった。マトリックス的であったり007的であったりいろんな映画の要素要素を場面毎にリスペクトしてる感じはするんだけど、せめてもう少し統一感がほしいなぁ。それから人物関係がイマイチよくわからなくて、もう少しモトカレのエピソードを交えないとあまり話に共感できない気がする。総じて派手だったりダサかったりとこの雑な感じがロシアっぽくて個人的には結構好みです。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アルマゲドン・コード",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どことなく雑な感じ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/テイキング・ライブス_2012-10-14.md",
+      "title": "テイキング・ライブス",
+      "review_date": "2012-10-14 00:00:12",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "D・J・カルーソ"
+        ],
+        "cast": [
+          "アンジェリーナ・ジョリー",
+          "イーサン・ホーク",
+          "キーファー・サザーランド",
+          "ジーナ・ローランズ",
+          "オリビエ・マルティネス",
+          "チェッキー・カリョ",
+          "ジャン＝ユーグ・アングラード"
+        ],
+        "genres": [
+          "サスペンス",
+          "スリラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ていきんぐらいぶす",
+        "release_year": 2004,
+        "directors": [
+          "D・J・カルーソ"
+        ],
+        "cast": [
+          "アンジェリーナ・ジョリー",
+          "イーサン・ホーク",
+          "キーファー・サザーランド",
+          "ジーナ・ローランズ",
+          "オリビエ・マルティネス",
+          "チェッキー・カリョ",
+          "ジャン＝ユーグ・アングラード"
+        ],
+        "genres": [
+          "サスペンス",
+          "スリラー"
+        ],
+        "synopsis": "白骨死体の発見を受けてモントリオールへ来たFBI捜査官は、被害者に成り代わる殺人犯を追う。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "どことなく引き込まれるPVっぽいオープニングから始まって、雰囲気も悪くないし音楽もわりと場面にあってる。そしてサスペンス物としてネタはバレバレなはずなのにあまり不自然さを感じさせずに謎解きの話が展開しててわりと好印象だった・・・途中までは。しかし物語はいきなりネタバレする。なんだろうかこのがっかり感は。しかもせっかく今までうまくいってたのに物凄く無意味にネタバレされるがっかり感が半端ない。そもそもネタは最初から割れてるので驚きがない(よく考えるとタイトルも無しだろ)上に何故こんな絶妙に残念なタイミングなのかと・・・。しかもラストの取ってつけた感もちょっと微妙な気がする。そういう意味でサスペンス物を期待していくには微妙かもしれない。そういえば映像は割とグロかったです。\n",
+        "title": "テイキング・ライブス",
+        "short_review": "途中から残念な感じ。"
+      },
+      "article_sha256_before": "217a37e323322e427cb207a1514ee45ed13e32c39eb545c9ed517d4dc0ac3395",
+      "article_sha256_after": "0edec63ad3147bac76de28abe8d507d83064bbf3fbf2bd4b1abdec0a834f1122",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ていきんぐらいぶす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-7b795d4e6b08f8ff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-09-11",
+              "year": "2004",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-7b795d4e6b08f8ff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "D・J・カルーソ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-7b795d4e6b08f8ff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンジェリーナ・ジョリー\nイーサン・ホーク\nキーファー・サザーランド\nジーナ・ローランズ\nオリビエ・マルティネス\nチェッキー・カリョ\nジャン＝ユーグ・アングラード",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-7b795d4e6b08f8ff-source-1",
+            "next30-7b795d4e6b08f8ff-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nスリラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-7b795d4e6b08f8ff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "白骨死体の発見を受けてモントリオールへ来たFBI捜査官は、被害者に成り代わる殺人犯を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どことなく引き込まれるPVっぽいオープニングから始まって、雰囲気も悪くないし音楽もわりと場面にあってる。そしてサスペンス物としてネタはバレバレなはずなのにあまり不自然さを感じさせずに謎解きの話が展開しててわりと好印象だった・・・途中までは。しかし物語はいきなりネタバレする。なんだろうかこのがっかり感は。しかもせっかく今までうまくいってたのに物凄く無意味にネタバレされるがっかり感が半端ない。そもそもネタは最初から割れてるので驚きがない(よく考えるとタイトルも無しだろ)上に何故こんな絶妙に残念なタイミングなのかと・・・。しかもラストの取ってつけた感もちょっと微妙な気がする。そういう意味でサスペンス物を期待していくには微妙かもしれない。そういえば映像は割とグロかったです。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テイキング・ライブス",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "途中から残念な感じ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ひぐらしのなく頃に 誓_2012-10-12.md",
+      "title": "ひぐらしのなく頃に 誓",
+      "review_date": "2012-10-12 00:00:44",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "及川中"
+        ],
+        "cast": [
+          "前田公輝",
+          "松山愛里",
+          "飛鳥凛",
+          "あいか",
+          "小野恵令奈",
+          "大杉漣",
+          "川原亜矢子",
+          "田中幸太朗",
+          "三輪ひとみ",
+          "矢部美穂",
+          "大高洋夫"
+        ],
+        "genres": [
+          "ミステリー",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ひぐらしのなくころにちかい",
+        "release_year": 2009,
+        "directors": [
+          "及川中"
+        ],
+        "cast": [
+          "前田公輝",
+          "松山愛里",
+          "飛鳥凛",
+          "あいか",
+          "小野恵令奈",
+          "大杉漣",
+          "川原亜矢子",
+          "田中幸太朗",
+          "三輪ひとみ",
+          "矢部美穂",
+          "大高洋夫"
+        ],
+        "genres": [
+          "ミステリー",
+          "ホラー"
+        ],
+        "synopsis": "雛見沢で友人に囲まれ暮らすレナは、父の新しい恋人が財産を狙っていると知り、追い詰められる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "前作は原作からして面白みもへったくれもない話なのでつまらなくてもやむを得ないと思うんですが、本作は罪滅し編なのでストーリー性もある感じです。そんなわけでストーリー的にはゲームの通りではあるんだが、映画版の難点はそもそもキャラの個性がない所で、体操服の胸に名前でもかいておいてくれないと誰が誰だか油断するとわからなくなる。そんな中でストーリーは進み、キャラに感情移入できないまま色々事件が進んで感動的というか白々しいセリフが飛び交う。基本的に感動的なシーンがいくつかあるんですが、全員棒読みな上に半端なく白々しくて、なんだか軽くクラっとするレベルである。ないわぁレベル38の白さやわぁ。そんなわけでぶっちゃけイマイチですがまあ原作が好きならこれはこれでまあ苦笑気味に見るのも・・いや・・・うーん・・・。とりあえず高野さんがババアなのと大石がでっぷりしてないところは不満である。\n",
+        "title": "ひぐらしのなく頃に 誓",
+        "short_review": "しらじらしいのう。"
+      },
+      "article_sha256_before": "f2fe115227a308597a89d3b6a2643f0e468f64bfd41c241e8872b3f095531a84",
+      "article_sha256_after": "382eacbfd1482ca97d4ea0fb7adc7bc997828b4f681a7d6f1e59ac1875167721",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ひぐらしのなくころにちかい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-855cdcf234b4acd2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-04-18",
+              "year": "2009",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-855cdcf234b4acd2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "及川中",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-855cdcf234b4acd2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "前田公輝\n松山愛里\n飛鳥凛\nあいか\n小野恵令奈\n大杉漣\n川原亜矢子\n田中幸太朗\n三輪ひとみ\n矢部美穂\n大高洋夫",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-855cdcf234b4acd2-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミステリー\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-855cdcf234b4acd2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "雛見沢で友人に囲まれ暮らすレナは、父の新しい恋人が財産を狙っていると知り、追い詰められる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "前作は原作からして面白みもへったくれもない話なのでつまらなくてもやむを得ないと思うんですが、本作は罪滅し編なのでストーリー性もある感じです。そんなわけでストーリー的にはゲームの通りではあるんだが、映画版の難点はそもそもキャラの個性がない所で、体操服の胸に名前でもかいておいてくれないと誰が誰だか油断するとわからなくなる。そんな中でストーリーは進み、キャラに感情移入できないまま色々事件が進んで感動的というか白々しいセリフが飛び交う。基本的に感動的なシーンがいくつかあるんですが、全員棒読みな上に半端なく白々しくて、なんだか軽くクラっとするレベルである。ないわぁレベル38の白さやわぁ。そんなわけでぶっちゃけイマイチですがまあ原作が好きならこれはこれでまあ苦笑気味に見るのも・・いや・・・うーん・・・。とりあえず高野さんがババアなのと大石がでっぷりしてないところは不満である。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ひぐらしのなく頃に 誓",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "しらじらしいのう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/座頭市血煙り街道_2012-10-10.md",
+      "title": "座頭市血煙り街道",
+      "review_date": "2012-10-10 00:00:57",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1967,
+        "directors": [
+          "三隅研次"
+        ],
+        "cast": [
+          "勝新太郎",
+          "近衛十四郎",
+          "高田美和",
+          "朝丘雪路",
+          "中尾ミエ",
+          "坪内ミキ子",
+          "磯村みどり",
+          "伊藤孝雄",
+          "小池朝雄",
+          "松村達雄",
+          "小沢栄太郎",
+          "斎藤信也"
+        ],
+        "genres": [
+          "時代劇",
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざとういちちけむりかいどう",
+        "release_year": 1967,
+        "directors": [
+          "三隅研次"
+        ],
+        "cast": [
+          "勝新太郎",
+          "近衛十四郎",
+          "高田美和",
+          "朝丘雪路",
+          "中尾ミエ",
+          "坪内ミキ子",
+          "磯村みどり",
+          "伊藤孝雄",
+          "小池朝雄",
+          "松村達雄",
+          "小沢栄太郎",
+          "斎藤信也"
+        ],
+        "genres": [
+          "時代劇",
+          "アクション"
+        ],
+        "synopsis": "旅籠で亡くなった母から子供を託された市は、父親を捜す旅で土地の悪事に巻き込まれる。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "座頭市なんと17作目なんですが、他のロングラン映画が劣化していくのをしり目に完成度が高まっているという不思議な作品。やはり三隅監督のなせる業か。いつも同じようなオープニングでチンピラに囲まれたのを返り討ちにして旅先で何かを頼まれるという物凄い様式美。名作臭ゆんゆん。最後まで同じような展開なのにテンプレすぎるからこその面白さっていうか、うん、これこそ様式美だよね。ただ予想外の展開が起こらないのと、最後がちょっとシレっとしてるところが若干ぽかーんだけども、全体として殺陣の素晴らしさ（空気というか温度がなんか違う）具合も虫を切ったりとか細かい演出も凝ってて面白い。でも市のマッサージってあんまり気持ちよさそうにみえないなあ。\n",
+        "title": "座頭市血煙り街道",
+        "short_review": "テンプレに面白い。"
+      },
+      "article_sha256_before": "4e2132cccb81b28bcc00ea72422d33c93894bad668e056db193d1f6a5482d77f",
+      "article_sha256_after": "531e10d0f8d82bddd140c29f8610c3dce7850dbb14b307b5d0739e6b34832a6e",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざとういちちけむりかいどう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-8ea928235e6b3c90-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1967-12-30",
+              "year": "1967",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-8ea928235e6b3c90-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "三隅研次",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-8ea928235e6b3c90-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "勝新太郎\n近衛十四郎\n高田美和\n朝丘雪路\n中尾ミエ\n坪内ミキ子\n磯村みどり\n伊藤孝雄\n小池朝雄\n松村達雄\n小沢栄太郎\n斎藤信也",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-8ea928235e6b3c90-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "時代劇\nアクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-8ea928235e6b3c90-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "旅籠で亡くなった母から子供を託された市は、父親を捜す旅で土地の悪事に巻き込まれる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "座頭市なんと17作目なんですが、他のロングラン映画が劣化していくのをしり目に完成度が高まっているという不思議な作品。やはり三隅監督のなせる業か。いつも同じようなオープニングでチンピラに囲まれたのを返り討ちにして旅先で何かを頼まれるという物凄い様式美。名作臭ゆんゆん。最後まで同じような展開なのにテンプレすぎるからこその面白さっていうか、うん、これこそ様式美だよね。ただ予想外の展開が起こらないのと、最後がちょっとシレっとしてるところが若干ぽかーんだけども、全体として殺陣の素晴らしさ（空気というか温度がなんか違う）具合も虫を切ったりとか細かい演出も凝ってて面白い。でも市のマッサージってあんまり気持ちよさそうにみえないなあ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "座頭市血煙り街道",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テンプレに面白い。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/帝都大戦_2012-10-08.md",
+      "title": "帝都大戦",
+      "review_date": "2012-10-08 00:00:13",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1989,
+        "directors": [
+          "一瀬隆重",
+          "藍乃才"
+        ],
+        "cast": [
+          "加藤雅也",
+          "南果歩",
+          "嶋田久作",
+          "野沢直子",
+          "戸恒恵理子",
+          "斎藤洋介",
+          "桂木文",
+          "岩間さおり",
+          "前田賀奈子",
+          "草薙幸二郎",
+          "土屋嘉男",
+          "高橋長英",
+          "中丸忠雄",
+          "日下武史",
+          "丹波哲郎",
+          "荒俣宏"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ていとたいせん",
+        "release_year": 1989,
+        "directors": [
+          "一瀬隆重",
+          "藍乃才"
+        ],
+        "cast": [
+          "加藤雅也",
+          "南果歩",
+          "嶋田久作",
+          "野沢直子",
+          "戸恒恵理子",
+          "斎藤洋介",
+          "桂木文",
+          "岩間さおり",
+          "前田賀奈子",
+          "草薙幸二郎",
+          "土屋嘉男",
+          "高橋長英",
+          "中丸忠雄",
+          "日下武史",
+          "丹波哲郎",
+          "荒俣宏"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "空襲下の東京で死者の怨念が加藤保憲を蘇らせ、霊能力を持つ青年と将門の末裔が対峙する。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "なんか随分久しぶりに、しかも帝都物語と思って見てしまったわけだが、よくみると相変わらず物凄いチープで好感度UP。なんかあり得ないくらいチープでいい。チープさの一番の要因は、演出的にも激しく浮いてる芋虫幼女でもなく上○さんかと思うような白装束の兄さんでもなく、やっぱ顎の長すぎる嶋田久作だろう。戦闘シーンも滑稽すぎる。他の内容なんて全然どうでもいいけど、やっぱりなんだか長い加藤さんがいてこその映画である。多分今超絶CGでリメイクしてもこの加藤さんの存在感には勝てないだろうなぁ。グロいにはグロいんだけどどっちかっていうと安っぽいが先にくる面白さです。なんとなくショボいとこもいい。帝都物語も借りてこようっと。\n",
+        "title": "帝都大戦",
+        "short_review": "加藤ｪｪｪｪ"
+      },
+      "article_sha256_before": "01ca41d7500953c637c488e899cf2ddcfc3da6f93e69b8b7fa876d6d00710002",
+      "article_sha256_after": "90d135a61ac313694dc6546845614db69560a4023b90ef52fc6fe2ac4fe3d555",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ていとたいせん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-fa870fbb20ac6d1c-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1989-09-15",
+              "year": "1989",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-fa870fbb20ac6d1c-source-1",
+            "next30-fa870fbb20ac6d1c-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "一瀬隆重\n藍乃才",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-fa870fbb20ac6d1c-source-1",
+            "next30-fa870fbb20ac6d1c-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "加藤雅也\n南果歩\n嶋田久作\n野沢直子\n戸恒恵理子\n斎藤洋介\n桂木文\n岩間さおり\n前田賀奈子\n草薙幸二郎\n土屋嘉男\n高橋長英\n中丸忠雄\n日下武史\n丹波哲郎\n荒俣宏",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-fa870fbb20ac6d1c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-fa870fbb20ac6d1c-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "空襲下の東京で死者の怨念が加藤保憲を蘇らせ、霊能力を持つ青年と将門の末裔が対峙する。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんか随分久しぶりに、しかも帝都物語と思って見てしまったわけだが、よくみると相変わらず物凄いチープで好感度UP。なんかあり得ないくらいチープでいい。チープさの一番の要因は、演出的にも激しく浮いてる芋虫幼女でもなく上○さんかと思うような白装束の兄さんでもなく、やっぱ顎の長すぎる嶋田久作だろう。戦闘シーンも滑稽すぎる。他の内容なんて全然どうでもいいけど、やっぱりなんだか長い加藤さんがいてこその映画である。多分今超絶CGでリメイクしてもこの加藤さんの存在感には勝てないだろうなぁ。グロいにはグロいんだけどどっちかっていうと安っぽいが先にくる面白さです。なんとなくショボいとこもいい。帝都物語も借りてこようっと。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "帝都大戦",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "加藤ｪｪｪｪ",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/テケテケ_2012-10-06.md",
+      "title": "テケテケ",
+      "review_date": "2012-10-06 00:00:26",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "白石晃士"
+        ],
+        "cast": [
+          "大島優子",
+          "山崎真実",
+          "西田麻衣",
+          "一慶",
+          "水木薫",
+          "沢柳廸子",
+          "つじしんめい",
+          "阿部進之介",
+          "小島可奈子",
+          "螢雪次朗",
+          "長宗我部陽子"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "てけてけ",
+        "release_year": 2009,
+        "directors": [
+          "白石晃士"
+        ],
+        "cast": [
+          "大島優子",
+          "山崎真実",
+          "西田麻衣",
+          "一慶",
+          "水木薫",
+          "沢柳廸子",
+          "つじしんめい",
+          "阿部進之介",
+          "小島可奈子",
+          "螢雪次朗",
+          "長宗我部陽子"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "友人が下半身を失った遺体で発見された後、女子高生の前にも都市伝説のテケテケが現れる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "テケテケっていう都市伝説とか妖怪って聞いたことないしなんだろうって思ってたら鹿島さんの話なのね。まあネーミング的に鹿島さんよりはテケテケのほうが集客はありそうな気がしなくもないな。ところでホラーというよりはクリーチャーモノといったほうが正しいような気がする作品ではあるのだけど、テケテケさんはなんとなく無機質な感じ(機械的)でそんなに嫌いではない。逆に機械的に描くからこそ噂の伝播性とかテケテケさんの生い立ちの印象がどんどん薄らいでいくのは仕様なのだろう（それならもっと斬新にザシュザシュやるほうがクリーチャーとして面白いだろうか。ストーリーとしてはリングのようにテケテケさんに出会ってから逃れる方法を探る系なんだけど、まあお決まりの展開であり、そこまで酷いわけではなくとりたてて面白いものでもない。ただテケテケさんがどうやってるのかわからないがかなり軽快に真っ二つにされるところが豪快で割と好きかも(真っ二つ最中シーンはないのでその辺はいまいちか？)。でもまあ普通のそこまでひどくはない邦画ホラーという感じです。しかし被害人数少なすぎるよね。\n",
+        "title": "テケテケ",
+        "short_review": "豪快っすなぁ。"
+      },
+      "article_sha256_before": "5bffb8ef1419c2caab5750c7d2e3307c4d92ce3af7d395e1d8d7f0d2f06dff6d",
+      "article_sha256_after": "d147657e4dff7a01ac3f5bc79d829d1dc7b9e2bb03ccf5dc39d1bec356705fc9",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "てけてけ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-54631e3c28dff356-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-21",
+              "year": "2009",
+              "region": "日本",
+              "kind": "公開年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-54631e3c28dff356-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "白石晃士",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-54631e3c28dff356-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "大島優子\n山崎真実\n西田麻衣\n一慶\n水木薫\n沢柳廸子\nつじしんめい\n阿部進之介\n小島可奈子\n螢雪次朗\n長宗我部陽子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-54631e3c28dff356-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-54631e3c28dff356-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "友人が下半身を失った遺体で発見された後、女子高生の前にも都市伝説のテケテケが現れる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テケテケっていう都市伝説とか妖怪って聞いたことないしなんだろうって思ってたら鹿島さんの話なのね。まあネーミング的に鹿島さんよりはテケテケのほうが集客はありそうな気がしなくもないな。ところでホラーというよりはクリーチャーモノといったほうが正しいような気がする作品ではあるのだけど、テケテケさんはなんとなく無機質な感じ(機械的)でそんなに嫌いではない。逆に機械的に描くからこそ噂の伝播性とかテケテケさんの生い立ちの印象がどんどん薄らいでいくのは仕様なのだろう（それならもっと斬新にザシュザシュやるほうがクリーチャーとして面白いだろうか。ストーリーとしてはリングのようにテケテケさんに出会ってから逃れる方法を探る系なんだけど、まあお決まりの展開であり、そこまで酷いわけではなくとりたてて面白いものでもない。ただテケテケさんがどうやってるのかわからないがかなり軽快に真っ二つにされるところが豪快で割と好きかも(真っ二つ最中シーンはないのでその辺はいまいちか？)。でもまあ普通のそこまでひどくはない邦画ホラーという感じです。しかし被害人数少なすぎるよね。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "テケテケ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "豪快っすなぁ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/日本のこわい夜_2012-10-04.md",
+      "title": "日本のこわい夜",
+      "review_date": "2012-10-04 00:00:42",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "中村義洋",
+          "鶴田法男",
+          "白石晃士",
+          "清水崇",
+          "落合正幸"
+        ],
+        "cast": [
+          "白石加代子",
+          "遠藤章造",
+          "岡田義徳",
+          "深浦加奈子",
+          "中村俊介",
+          "嶋田久作",
+          "山崎樹範",
+          "山田優",
+          "村杉蝉之介",
+          "モロ師岡",
+          "麻丘めぐみ",
+          "杉本哲太",
+          "香川照之",
+          "梅野泰靖",
+          "大方斐紗子",
+          "小島聖",
+          "山口美也子",
+          "真木よう子",
+          "杉原杏璃"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "にほんのこわいよる",
+        "release_year": 2004,
+        "directors": [
+          "中村義洋",
+          "鶴田法男",
+          "白石晃士",
+          "清水崇",
+          "落合正幸"
+        ],
+        "cast": [
+          "白石加代子",
+          "遠藤章造",
+          "岡田義徳",
+          "深浦加奈子",
+          "中村俊介",
+          "嶋田久作",
+          "山崎樹範",
+          "山田優",
+          "村杉蝉之介",
+          "モロ師岡",
+          "麻丘めぐみ",
+          "杉本哲太",
+          "香川照之",
+          "梅野泰靖",
+          "大方斐紗子",
+          "小島聖",
+          "山口美也子",
+          "真木よう子",
+          "杉原杏璃"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "『くも女』『すきま』など、五人の監督がそれぞれ異なる怪異を描いた五話の恐怖短編集。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "5本のオムニバスですが、どの話もわりとチープなテイストで、この無節操感が世にも奇妙な物語っぽいカオスな空気にあふれている。最初の「蜘蛛女」もそうですが、蜘蛛女の造形を真面目に着ぐるみ(？)してるあたりなんだかチープだし、ジェットババァっていうネーミングもなによっていう妙な空笑いホラーな感じ。実際映像通りの蜘蛛女に出会ったら怖がるより爆笑する気がしなくもない。全体的にツクリモノがチープだしそもそも怖くないのでホラー目的とするとイマイチなんですが、この妙な胡散臭い昼間にやってるホラーみたいなノリって最近得難く、そういうのをノスタルジックに楽しむならまあなくもないのではないか。\n",
+        "title": "日本のこわい夜",
+        "short_review": "世にも奇妙な的な。"
+      },
+      "article_sha256_before": "0d31e19087358262f0822fc5f730ca43a5b57d81247dad54e6c94940d8c47f4b",
+      "article_sha256_after": "db56f0acec17861cf21a949e7a7fb190744b6fd6945bf3ebf61cc718e6a34194",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "にほんのこわいよる",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-072564ffb872b2dd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-09-22",
+              "year": "2004",
+              "region": "日本",
+              "kind": "テレビ放送年",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-072564ffb872b2dd-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中村義洋\n鶴田法男\n白石晃士\n清水崇\n落合正幸",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-072564ffb872b2dd-source-1",
+            "next30-072564ffb872b2dd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "白石加代子\n遠藤章造\n岡田義徳\n深浦加奈子\n中村俊介\n嶋田久作\n山崎樹範\n山田優\n村杉蝉之介\nモロ師岡\n麻丘めぐみ\n杉本哲太\n香川照之\n梅野泰靖\n大方斐紗子\n小島聖\n山口美也子\n真木よう子\n杉原杏璃",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-072564ffb872b2dd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-072564ffb872b2dd-source-2",
+            "next30-072564ffb872b2dd-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "『くも女』『すきま』など、五人の監督がそれぞれ異なる怪異を描いた五話の恐怖短編集。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "5本のオムニバスですが、どの話もわりとチープなテイストで、この無節操感が世にも奇妙な物語っぽいカオスな空気にあふれている。最初の「蜘蛛女」もそうですが、蜘蛛女の造形を真面目に着ぐるみ(？)してるあたりなんだかチープだし、ジェットババァっていうネーミングもなによっていう妙な空笑いホラーな感じ。実際映像通りの蜘蛛女に出会ったら怖がるより爆笑する気がしなくもない。全体的にツクリモノがチープだしそもそも怖くないのでホラー目的とするとイマイチなんですが、この妙な胡散臭い昼間にやってるホラーみたいなノリって最近得難く、そういうのをノスタルジックに楽しむならまあなくもないのではないか。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "日本のこわい夜",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "世にも奇妙な的な。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/都市伝説物語 ひきこ_2012-10-02.md",
+      "title": "都市伝説物語 ひきこ",
+      "review_date": "2012-10-02 00:00:29",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "奇志戒聖"
+        ],
+        "cast": [
+          "藤田秀和",
+          "東城未来",
+          "飯島恵美",
+          "西田絋ニ",
+          "飛鳥井豊",
+          "佐藤えりな",
+          "植田大輝",
+          "斉藤瑞季"
+        ],
+        "genres": [
+          "アニメ",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "としでんせつものがたりひきこ",
+        "release_year": 2008,
+        "directors": [
+          "奇志戒聖"
+        ],
+        "cast": [
+          "藤田秀和",
+          "東城未来",
+          "飯島恵美",
+          "西田絋ニ",
+          "飛鳥井豊",
+          "佐藤えりな",
+          "植田大輝",
+          "斉藤瑞季"
+        ],
+        "genres": [
+          "アニメ",
+          "ホラー"
+        ],
+        "synopsis": "転校してきた少女へのいじめが始まると、同級生や教師の身に次々と不可解な出来事が起こる。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "なんと全編フルCGなホラー映画です。ストーリー自体はわりとありがちな話なんですが、CG特有の不自然な動きがなかなかに恐ろしい感じを醸し出していて、それなりに引き込まれる作品だった。なんていうか白い女は足を引きずるように歩くんですが、やたら凄い速さで不自然なところが自然という。こういう怪異って意外とCGでも全然いけんじゃん！って言う感じです。映像自体はサイレントヒルに毛が生えたようなクオリティではあるんですが、テクスチャとライティングの使い方がうまいのかうすら臨場感を醸し出していた（これは凄いな。見てる間に色々アレ？と思うシーンもあるんですけど一応ラストで謎は多少解ける。その辺も含めて2度も見直した希有な作品です（基本見直さないので（全部で40分くらいなのもあるかも。ストーリー的にも呪怨っぽいありふれた感じだし映像も美麗というわけではないんですが、団地のうすら寒い感じとうすら寒い人間関係がなんとなく尾を引いて面白かった。\n",
+        "title": "都市伝説物語 ひきこ",
+        "short_review": "独特な怖さ。"
+      },
+      "article_sha256_before": "1fe3949d4b7ab250007ac05fd8a9155856a62648234471a58fd888019f0f87af",
+      "article_sha256_after": "3ddd53b69f6432f17d658c0e4c1f1334c46e55517296c0a7f99f4f04db63f178",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "としでんせつものがたりひきこ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-2",
+            "next30-7047a42d8dadf7bd-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-08-08",
+              "year": "2008",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "奇志戒聖",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-1",
+            "next30-7047a42d8dadf7bd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "藤田秀和\n東城未来\n飯島恵美\n西田絋ニ\n飛鳥井豊\n佐藤えりな\n植田大輝\n斉藤瑞季",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-1",
+            "next30-7047a42d8dadf7bd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-7047a42d8dadf7bd-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "転校してきた少女へのいじめが始まると、同級生や教師の身に次々と不可解な出来事が起こる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんと全編フルCGなホラー映画です。ストーリー自体はわりとありがちな話なんですが、CG特有の不自然な動きがなかなかに恐ろしい感じを醸し出していて、それなりに引き込まれる作品だった。なんていうか白い女は足を引きずるように歩くんですが、やたら凄い速さで不自然なところが自然という。こういう怪異って意外とCGでも全然いけんじゃん！って言う感じです。映像自体はサイレントヒルに毛が生えたようなクオリティではあるんですが、テクスチャとライティングの使い方がうまいのかうすら臨場感を醸し出していた（これは凄いな。見てる間に色々アレ？と思うシーンもあるんですけど一応ラストで謎は多少解ける。その辺も含めて2度も見直した希有な作品です（基本見直さないので（全部で40分くらいなのもあるかも。ストーリー的にも呪怨っぽいありふれた感じだし映像も美麗というわけではないんですが、団地のうすら寒い感じとうすら寒い人間関係がなんとなく尾を引いて面白かった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "都市伝説物語 ひきこ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "独特な怖さ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/LOST 呪われた島_2012-09-30.md",
+      "title": "LOST 呪われた島",
+      "review_date": "2012-09-30 00:00:05",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2006,
+        "directors": [
+          "山本清史"
+        ],
+        "cast": [
+          "佐藤和沙",
+          "松崎桃子",
+          "田中伸彦"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ろすとのろわれたしま",
+        "release_year": 2006,
+        "directors": [
+          "山本清史"
+        ],
+        "cast": [
+          "佐藤和沙",
+          "松崎桃子",
+          "田中伸彦"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "鬼を退治した伝説の残る孤島を訪れた大学生たちは、封印を解き、恐ろしい事態を招いてしまう。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "ストーリーは全般的にアレな感じで、終始凄く取ってつけた感が半端ない。最後というか一番重要な部分の展開の適当さ加減も半端ないし、エンディングもなんじゃそれっていう感じである。そもそも起承があって転結がない。その上どいつもこいつも微妙に棒読みだし会話が唐突すぎるし、唯一の爽やかイケメンが糞という素敵な展開でしかキャラも弱い。しかしそういうのをすっ飛ばしてこの映画の見所は多分揺れるおっぱい。雨の中でも無駄にゆれるおっぱい。執拗な胸へのカメラ。なんかどうでもいい情熱が溢れてて気持ちいいです。とりあえずストーリーはもはや忘却の彼方だしおっぱいも別に脱いでるわけでもないんですが、まあ総じてくだらない映画ではあるかな。犠牲者が必ず正面顔アップで襲われるのはどうなのか。\n",
+        "title": "LOST 呪われた島",
+        "short_review": "( ﾟ∀ﾟ)o彡ﾟおっぱい！おっぱい！"
+      },
+      "article_sha256_before": "1672d000447cc3be1f43b5cc3dd4ae9863ca35d62a9c890395c8cfd516549413",
+      "article_sha256_after": "d0efa6d7de4f51cc99af1ac9121a369c3f40f46689ff33807dea1dbde5be7f09",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ろすとのろわれたしま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-5249fc63543b28a6-source-3"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2006-09-22",
+              "year": "2006",
+              "region": "日本",
+              "kind": "ビデオスルー年",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-5249fc63543b28a6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "山本清史",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-5249fc63543b28a6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "佐藤和沙\n松崎桃子\n田中伸彦",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-5249fc63543b28a6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-5249fc63543b28a6-source-1",
+            "next30-5249fc63543b28a6-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "鬼を退治した伝説の残る孤島を訪れた大学生たちは、封印を解き、恐ろしい事態を招いてしまう。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ストーリーは全般的にアレな感じで、終始凄く取ってつけた感が半端ない。最後というか一番重要な部分の展開の適当さ加減も半端ないし、エンディングもなんじゃそれっていう感じである。そもそも起承があって転結がない。その上どいつもこいつも微妙に棒読みだし会話が唐突すぎるし、唯一の爽やかイケメンが糞という素敵な展開でしかキャラも弱い。しかしそういうのをすっ飛ばしてこの映画の見所は多分揺れるおっぱい。雨の中でも無駄にゆれるおっぱい。執拗な胸へのカメラ。なんかどうでもいい情熱が溢れてて気持ちいいです。とりあえずストーリーはもはや忘却の彼方だしおっぱいも別に脱いでるわけでもないんですが、まあ総じてくだらない映画ではあるかな。犠牲者が必ず正面顔アップで襲われるのはどうなのか。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "LOST 呪われた島",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "( ﾟ∀ﾟ)o彡ﾟおっぱい！おっぱい！",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "next30-7d1d00a86222e768-source-1",
+      "title": "映画.com：原子怪獣現わる",
+      "url": "https://eiga.com/movie/44265/",
+      "candidate_body": "2026-10-29確認。1953年製作、日本公開1954-10-17。監督欄ユージン・ローリー。出演ポール・クリスチャン、ポーラ・レイモンド、セシル・ケラウェイ、ケネス・トビー、ジャック・ペニック、ドナルド・ウッズ、リー・バン・クリーフ。導入：水爆実験後の調査中、学者トムが怪獣を目撃。救出後、その証言は信用されない。解説文の監督記述はスタッフ欄と不整合。"
+    },
+    {
+      "ref_id": "next30-7d1d00a86222e768-source-2",
+      "title": "Apple TV：原子怪獣現わる",
+      "url": "https://tv.apple.com/jp/movie/原子怪獣現わる/umc.cmc.77vvuskvtoy81whwlu8u70td5",
+      "candidate_body": "2026-10-29検索表示確認。分類SF・ホラー、年表示1954。導入は北極の水爆実験が怪獣を目覚めさせる内容。怪獣の種名は候補あらすじに使用しない。"
+    },
+    {
+      "ref_id": "next30-7d1d00a86222e768-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7d1d00a86222e768-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7d1d00a86222e768-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-461a981824325450-source-1",
+      "title": "映画.com：幽幻道士（キョンシーズ）",
+      "url": "https://eiga.com/movie/82664/",
+      "candidate_body": "2026-10-29確認。1985年製作、台湾、94分。監督チャオ・ツォンシン。出演シャドウ・リュウ、リュウ・ツーハン、チェン・ツーチャン、チャン・タイスン、ホァン・グオシュー、ホン・イーユェン、キン・トー。ホラーコメディ。導入：旅芸人一行の孤児がキョンシーのお札を剥がし騒動に。親方の逮捕で子供は道士の家に引き取られる。"
+    },
+    {
+      "ref_id": "next30-461a981824325450-source-2",
+      "title": "公式：幽幻道士＆来来！キョンシーズ30周年特設サイト",
+      "url": "https://yugen-rairai.com/index.html",
+      "candidate_body": "2026-10-29確認。第1作DISCの作品情報は1985年製作、監督趙中興（チャオ・ツォンシン）。シャドウ・リュウの別名リュウ・ツーイー、金塗の表記キントー。TBS版の放送日は1987-09-21。新発売日2017-08-23を初公開年には使用しない。"
+    },
+    {
+      "ref_id": "next30-461a981824325450-source-3",
+      "title": "Apple TV：幽幻道士",
+      "url": "https://tv.apple.com/jp/movie/幽幻道士/umc.cmc.yejt0cgja3bvanr3r5odgtd6",
+      "candidate_body": "2026-10-29検索表示確認。コメディ・ホラー、監督チャオ・ツォンシン、1987年表示。映画.comと公式の1985年製作とは年表示が異なる。初公開年の根拠にはせず疑義として記録。"
+    },
+    {
+      "ref_id": "next30-461a981824325450-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-461a981824325450-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cd089a4a515057a8-source-1",
+      "title": "松竹シネマプラス：鉄男 TETSUO",
+      "url": "https://cinemaplus.shochiku.co.jp/titles/detail/573/",
+      "candidate_body": "2026-10-29確認。1989年製作、日本公開1989-07-01。監督塚本晋也。出演田口トモロヲ、藤原京、叶岡伸、塚本晋也、六平直政、石橋蓮司。ジャンルはホラー・アクション。導入：会社員の頬に金属の突起ができ、体内で金属への変化が進む。"
+    },
+    {
+      "ref_id": "next30-cd089a4a515057a8-source-2",
+      "title": "JFDB：鉄男（検索結果）",
+      "url": "https://jfdb.jp/title/9869",
+      "candidate_body": "2026-10-29検索結果で1989-07-01、分類SF・スリラー・劇映画、肉体が金属に侵蝕される紹介を確認。本文を開く操作は503で取得できず。劇映画は形式のためジャンル候補に入れない。"
+    },
+    {
+      "ref_id": "next30-cd089a4a515057a8-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cd089a4a515057a8-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-cd089a4a515057a8-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bce06bf3d4a6b545-source-1",
+      "title": "映画.com：未来世紀ブラジル",
+      "url": "https://eiga.com/movie/49955/",
+      "candidate_body": "2026-10-29確認。1985年製作、日本公開1986-10-10。監督テリー・ギリアム。出演ジョナサン・プライス、ロバート・デ・ニーロ、キャサリン・ヘルモンド、イアン・ホルム、ボブ・ホスキンス、マイケル・ペイリン、キム・グライスト。SF。導入：情報管理社会の職員サムは誤認逮捕に抗議する女性に夢の美女を重ねる。"
+    },
+    {
+      "ref_id": "next30-bce06bf3d4a6b545-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bce06bf3d4a6b545-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bce06bf3d4a6b545-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bce06bf3d4a6b545-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f7e3c25504bfe509-source-1",
+      "title": "映画.com：キック・オーバー",
+      "url": "https://eiga.com/movie/57682/",
+      "candidate_body": "2026-10-29確認。2011年製作、日本公開2012-10-13。監督エイドリアン・グランバーグ。出演メル・ギブソン、ダニエル・ヒメネス・カチョ、ケビン・ヘルナンデス、ドロレス・エレディア、ピーター・ストーメア。クライムアクション。導入：大金を強奪した男が逃走の末に逮捕され、金と暴力の刑務所へ収容される。"
+    },
+    {
+      "ref_id": "next30-f7e3c25504bfe509-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f7e3c25504bfe509-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f7e3c25504bfe509-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f7e3c25504bfe509-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90eec63434d54244-source-1",
+      "title": "映画.com：ネクロノミカン",
+      "url": "https://eiga.com/movie/47628/",
+      "candidate_body": "2026-10-29確認。1993年製作、日本公開1994-08-13。監督クリストフ・ガンズ、金子修介、ブライアン・ユズナ。出演ブルース・ペイン、リチャード・リンチ、ベリンダ・バウアー、マリア・フォード、デビッド・ワーナー、ベス・メイヤー、デニス・クリストファー、シグニー・コールマンなど。ホラーのオムニバス。ラヴクラフトが禁断の書を読む枠物語の中で、死者復活、不老不死、怪物の三話を描く。"
+    },
+    {
+      "ref_id": "next30-90eec63434d54244-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90eec63434d54244-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90eec63434d54244-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90eec63434d54244-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6964be6e27704f3d-source-1",
+      "title": "映画.com：推理作家ポー 最期の5日間",
+      "url": "https://eiga.com/movie/58200/",
+      "candidate_body": "2026-10-29確認。2012年製作、日本公開2012-10-12。監督ジェームズ・マクティーグ。出演ジョン・キューザック、ルーク・エバンス、アリス・イブ、ブレンダン・グリーソン、ケビン・マクナリー、オリバー・ジャクソン＝コーエン。ミステリーサスペンス。1849年ボルティモアで小説を模した殺人が続き、疑われた作者ポーが捜査へ。元レビューのロンドンとは舞台の記載が異なる。"
+    },
+    {
+      "ref_id": "next30-6964be6e27704f3d-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6964be6e27704f3d-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6964be6e27704f3d-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6964be6e27704f3d-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4cb9fbdecededa4-source-1",
+      "title": "映画.com：4匹の蝿",
+      "url": "https://eiga.com/movie/55443/",
+      "candidate_body": "2026-10-29確認。日本初公開1973-04-21、2010・2024は再公開。監督ダリオ・アルジェント。出演マイケル・ブランドン、ミムジー・ファーマー、ジャン＝ピエール・マリエール、フランシーヌ・ラセット、バッド・スペンサー。ホラー解説。導入：ドラマーが付きまとう男を刺し、その場を仮面の人物に撮られる。製作年欄1973はシネマトゥデイ検索の1971と不一致。"
+    },
+    {
+      "ref_id": "next30-b4cb9fbdecededa4-source-2",
+      "title": "Apple TV：4匹の蝿",
+      "url": "https://tv.apple.com/jp/movie/4匹の蝿/umc.cmc.2cg9uw9zhipjs15vj8mu7rmon",
+      "candidate_body": "2026-10-29検索表示確認。分類犯罪・スリラー。ドラマーのロベルトへの脅迫と周囲で続く殺人を紹介。"
+    },
+    {
+      "ref_id": "next30-b4cb9fbdecededa4-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4cb9fbdecededa4-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4cb9fbdecededa4-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3da0fb252ec86e64-source-1",
+      "title": "映画.com：プランゼット",
+      "url": "https://eiga.com/movie/55265/",
+      "candidate_body": "2026-10-29確認。2010年製作、日本公開2010-05-22。監督粟津順。声の出演宮野真守、石原夏織、竹内順子、津田健次郎、寺崎裕香、岩崎征実、屋良有作。CG制作・声優欄あり。導入：異星生命体の侵攻に最終作戦が決まり、ロボット搭乗員の大志は妹を火星へ送る。"
+    },
+    {
+      "ref_id": "next30-3da0fb252ec86e64-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3da0fb252ec86e64-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3da0fb252ec86e64-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3da0fb252ec86e64-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-253aaede9619a71c-source-1",
+      "title": "映画.com：バイオハザード ダムネーション",
+      "url": "https://eiga.com/movie/56069/",
+      "candidate_body": "2026-10-29確認。2012年製作、日本公開2012-10-27。監督神谷誠。原語声優マシュー・マーサー、デイブ・ウィッテンバーグ、コートニー・テイラー、バル・タッソー、ロビン・サックス、ウェンディー・リー、サリー・サフィオッティ。日本語吹替森川智之、檜山修之、皆川純子、大畑伸太郎、飯塚昭三、川崎恵理子、杉本ゆう。フルCG作品。導入：レオンが東欧での内戦の生物兵器使用を調査し、撤退命令を無視して残る。"
+    },
+    {
+      "ref_id": "next30-253aaede9619a71c-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-253aaede9619a71c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-253aaede9619a71c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-253aaede9619a71c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ef89d45659c6d5b2-source-1",
+      "title": "映画.com：屋敷女",
+      "url": "https://eiga.com/movie/53578/",
+      "candidate_body": "2026-10-29確認。2007年製作、日本公開2008-06-21。監督ジュリアン・モーリー、アレクサンドル・バスティロ。出演ベアトリス・ダル、アリソン・パラディ、ナタリー・ルーセル、フランソワ＝レジス・マルシャソン、ニコラ・デュボシェル、リュドビック・ベルティロ、エメン・サイディ、エマニュエル・レンツィ。導入：出産目前のサラの家を不審な女が訪れ、通報後も屋内に侵入していた。"
+    },
+    {
+      "ref_id": "next30-ef89d45659c6d5b2-source-2",
+      "title": "屋敷女公式サイト（cinemacafe）",
+      "url": "https://www.cinemacafe.net/official/yashiki-onna/",
+      "candidate_body": "2026-10-29検索表示確認。ホラー、ユーロ・スリラーとして紹介。クリスマスイブ、翌日出産予定のサラの家に女が忍び込む導入を確認。"
+    },
+    {
+      "ref_id": "next30-ef89d45659c6d5b2-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ef89d45659c6d5b2-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ef89d45659c6d5b2-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9424a8e2acf3c838-source-1",
+      "title": "映画.com：ムカデ人間",
+      "url": "https://eiga.com/movie/56219/",
+      "candidate_body": "2026-10-29確認。2009年製作、日本初公開2011-07-02。2026年は4K再公開。監督トム・シックス。出演ディーター・ラーザー、北村昭博、アシュリー・C・ウィリアムス、アシュリン・イェニー。サスペンスホラー。導入：旅行中の女性二人が車の故障から屋敷へ助けを求め、人間を結合する医師の実験に巻き込まれる。"
+    },
+    {
+      "ref_id": "next30-9424a8e2acf3c838-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9424a8e2acf3c838-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9424a8e2acf3c838-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9424a8e2acf3c838-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1a85c7682d4544b6-source-1",
+      "title": "映画.com：SAFE セイフ",
+      "url": "https://eiga.com/movie/57837/",
+      "candidate_body": "2026-10-29確認。2012年製作、日本公開2012-10-13。監督ボアズ・イェーキン。出演ジェイソン・ステイサム、キャサリン・チェン、ジェームズ・ホン、クリス・サランドン、ジョセフ・シコラ、ロバート・ジョン・バーク、レジー・リー、アンソン・マウント。アクション。導入：妻を失った元刑事がマフィアに追われる少女を助け、自らも追われる。"
+    },
+    {
+      "ref_id": "next30-1a85c7682d4544b6-source-2",
+      "title": "シネマトゥデイ：SAFE/セイフ",
+      "url": "https://www.cinematoday.jp/movie/T0011634",
+      "candidate_body": "2026-10-29検索表示確認。2011年製作、アクション・サスペンス、監督ボアズ・イェーキン。映画.comの2012年製作とは差。公開年候補は2012年を維持。"
+    },
+    {
+      "ref_id": "next30-1a85c7682d4544b6-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1a85c7682d4544b6-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1a85c7682d4544b6-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-532c233eff419127-source-1",
+      "title": "NDLサーチ：怨念地図 全国版",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004375463",
+      "candidate_body": "2026-10-29確認。映像資料DVD、AXDS-1004、77分、出版2004年2月。G・H・M研究所原作。読みオンネン チズ。北海道トイレの怪、青森県花火など各地の心霊話の収録を確認。監督・ナレーターの記載は確認できず。"
+    },
+    {
+      "ref_id": "next30-532c233eff419127-source-2",
+      "title": "オリコン：怨念地図 全国版",
+      "url": "https://www.oricon.co.jp/prof/288628/products/533736/1/",
+      "candidate_body": "2026-10-29検索表示確認。発売日2004-02-25、発売元クリエイティブアクザ。"
+    },
+    {
+      "ref_id": "next30-532c233eff419127-source-3",
+      "title": "ぽすれん：怨念地図 全国版",
+      "url": "https://posren.com/detail-10558.html",
+      "candidate_body": "2026-10-29検索表示確認。出演田川幹太。心霊本を映像化した作品と紹介。出演の具体的役割は未確認。"
+    },
+    {
+      "ref_id": "next30-532c233eff419127-source-4",
+      "title": "RBB TODAY：夏といえばホラー特集",
+      "url": "https://www.rbbtoday.com/article/2008/07/04/52517.html?pickup_list_click4=true",
+      "candidate_body": "2026-10-29検索表示確認。ホラー特集で心霊本の映像化作品『怨念地図 全国版』を紹介。MAXAM検索では別巻2・3しか得られず、その情報を第1巻へ流用しない。"
+    },
+    {
+      "ref_id": "next30-532c233eff419127-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d85a8ec483d1d10e-source-1",
+      "title": "映画.com：30デイズ・ナイト2 ダーク・デイズ",
+      "url": "https://eiga.com/movie/84343/",
+      "candidate_body": "2026-10-29確認。2010年製作、92分。監督ベン・ケタイ。出演キエレ・サンチェス、リス・コイロ、ディオラ・ベアード、ハロルド・ペリノー、ミア・カーシュナー。劇場公開日の記載なし、あらすじ欄なし。投稿レビューからあらすじを補わない。"
+    },
+    {
+      "ref_id": "next30-d85a8ec483d1d10e-source-2",
+      "title": "ビックカメラ：30デイズ・ナイト2 ダーク・デイズ DVD",
+      "url": "https://www.biccamera.com/bc/item/1773158/",
+      "candidate_body": "2026-10-29確認。OPL-80119、ソニー・ピクチャーズ、発売2011-10-05、分類ホラー。監督・5名キャストは映画.comと一致。導入：夫を失ったステラは吸血鬼の実在を説いて回るが信じられず、同じ境遇のポールたちと出会う。これは廉価版発売記録で初発売日とは断定しない。"
+    },
+    {
+      "ref_id": "next30-d85a8ec483d1d10e-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d85a8ec483d1d10e-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d85a8ec483d1d10e-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-637b1e6e272d2674-source-1",
+      "title": "MAXAM：女呪霊（じょじゅれい）",
+      "url": "https://www.maxam.jp/contents/3234/",
+      "candidate_body": "2026-10-29確認。2004年日本、ホラー、スタッフ非公開。タイトルの読みじょじゅれい。導入：視聴者から不気味な映像の添付メールが届き、スタッフが制作元と接触し未放映番組のマスターを入手する設定。宣伝上の本物という表現は事実認定しない。"
+    },
+    {
+      "ref_id": "next30-637b1e6e272d2674-source-2",
+      "title": "Filmarks：女呪霊",
+      "url": "https://filmarks.com/movies/58687",
+      "candidate_body": "2026-10-29検索表示確認。2004年製作、81分、監督田川幹太。公式のスタッフ非公開表記との違いを注記。出演者は未確認。"
+    },
+    {
+      "ref_id": "next30-637b1e6e272d2674-source-3",
+      "title": "オリコン：女呪霊",
+      "url": "https://www.oricon.co.jp/prof/288628/products/555188/1/",
+      "candidate_body": "2026-10-29検索表示確認。AXDS-1039、発売2004-08-06、クリエイティブアクザ。"
+    },
+    {
+      "ref_id": "next30-637b1e6e272d2674-source-4",
+      "title": "allcinema：女呪霊 PDF（検索結果）",
+      "url": "https://www.allcinema.net/cinema/pdf/320364",
+      "candidate_body": "2026-10-29検索表示確認。2004年、オリジナルビデオ、ホラー・ドキュメンタリー、日本81分。"
+    },
+    {
+      "ref_id": "next30-637b1e6e272d2674-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d4f608d00fef8ac4-source-1",
+      "title": "Filmarks：巨乳ドラゴン 温泉ゾンビVSストリッパー5",
+      "url": "https://filmarks.com/movies/61415",
+      "candidate_body": "2026-10-29確認。2010年製作73分。監督中野貴雄。出演蒼井そら、かすみりさ、桜井まり、TAMAYO、相川イオ、鳥肌実。"
+    },
+    {
+      "ref_id": "next30-d4f608d00fef8ac4-source-2",
+      "title": "ビデオマーケット：巨乳ドラゴン 温泉ゾンビ VS ストリッパー5",
+      "url": "https://www.videomarket.jp/title/112481",
+      "candidate_body": "2026-10-29検索本文確認。2010年、73分、監督中野貴雄。Filmarks掲載の主要5女優に辻本一樹を併記。導入：温泉街を巡業するストリッパーのレナが地下へ降り、廃墟でマリアが死者の本を発見する。"
+    },
+    {
+      "ref_id": "next30-d4f608d00fef8ac4-source-3",
+      "title": "KINENOTE：巨乳ドラゴン（検索結果）",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=50044",
+      "candidate_body": "2026-10-29検索表示でホラーアクションの紹介を確認。温泉街のゾンビとストリッパーの戦い。本文表示はリダイレクトエラー。"
+    },
+    {
+      "ref_id": "next30-d4f608d00fef8ac4-source-4",
+      "title": "Apple TV：巨乳ドラゴン 温泉ゾンビvsストリッパー5",
+      "url": "https://tv.apple.com/jp/movie/巨乳トラコン-温泉ソンヒvsストリッハー５/umc.cmc.hi4r4o4zjwd5tjf6lkij63kv",
+      "candidate_body": "2026-10-29検索表示確認。分類コメディ・ホラー。温泉街へ巡業するレナの導入。"
+    },
+    {
+      "ref_id": "next30-d4f608d00fef8ac4-source-5",
+      "title": "映画.comニュース：巨乳ドラゴンDVDに3D版収録",
+      "url": "https://eiga.com/news/20100516/2/?lid=movie_news_1",
+      "candidate_body": "2026-10-29検索表示確認。2010-05-16の記事に、前日5月15日シネマート六本木の特別上映会と中野監督・主要キャストの舞台挨拶を記録。上映年の根拠とし、通常公開開始日とは断定しない。"
+    },
+    {
+      "ref_id": "next30-74466bb1c91b7a9f-source-1",
+      "title": "Filmarks：隣の家の少女",
+      "url": "https://filmarks.com/movies/30339",
+      "candidate_body": "2026-10-29確認。2007年製作、日本上映2010-03-13。ホラー。監督グレゴリー・M・ウィルソン。出演ブライス・オーファース、ダニエル・マンチ、ブランチ・ベイカー、グレアム・パトリック・マーティン、ウィリアム・アザートン、ベンジャミン・ロス・カプラン、マデリン・テイラー、オースティン・ウィリアムズ、グラント・ショウ、キャサリン・メアリー・スチュワート。あらすじ欄は空。投稿レビューはあらすじ根拠にしない。"
+    },
+    {
+      "ref_id": "next30-74466bb1c91b7a9f-source-2",
+      "title": "映画.com：隣の家の少女",
+      "url": "https://eiga.com/movie/55262/",
+      "candidate_body": "2026-10-29確認。日本公開2010-03-13、2007年製作。監督グレゴリー・ウィルソン。1958年夏、両親を亡くした姉妹が伯母の家へ越し、隣家の少年デビッドは親しくなるが、姉妹への虐待に気付く。"
+    },
+    {
+      "ref_id": "next30-74466bb1c91b7a9f-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-74466bb1c91b7a9f-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-74466bb1c91b7a9f-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aec55f386b04ac04-source-1",
+      "title": "Filmarks：犬木加奈子恐怖world 亡霊の棲む家",
+      "url": "https://filmarks.com/movies/56873",
+      "candidate_body": "2026-10-29確認。2000年製作、76分。監督熊澤尚人。出演犬木加奈子、芳本美代子、戸田昌宏、片岡礼子、塚本晋也、草野康太、長宗我部陽子、田中要次。あらすじ欄なし。投稿レビューはあらすじ根拠にしない。"
+    },
+    {
+      "ref_id": "next30-aec55f386b04ac04-source-2",
+      "title": "allcinema：犬木加奈子恐怖world 亡霊の棲む家",
+      "url": "https://www.allcinema.net/cinema/161527",
+      "candidate_body": "2026-10-29検索本文確認。2000年、日本76分、オリジナルビデオ、ホラー。監督熊沢尚人と表記。Filmarksの熊澤尚人と表記差。"
+    },
+    {
+      "ref_id": "next30-aec55f386b04ac04-source-3",
+      "title": "CDJapan：亡霊の棲む家 犬木加奈子恐怖world",
+      "url": "https://www.cdjapan.co.jp/product/JDXO-25390",
+      "candidate_body": "2026-10-29検索本文確認。Original Release Year 2000、DVD発売2005-07-22、JDXO-25390。導入：郊外の集合住宅で住人が次々消え、失踪した管理人の日誌にコウカスイソウという語が残る。原作の二話をDVD化した商品。DVD発売年を初出年と混同しない。"
+    },
+    {
+      "ref_id": "next30-aec55f386b04ac04-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aec55f386b04ac04-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9d9a5ccc84b44908-source-1",
+      "title": "映画.com：片腕ドラゴン",
+      "url": "https://eiga.com/movie/51704/",
+      "candidate_body": "2026-10-29確認。1972年製作、日本公開1974-02-08。監督ジミー・ウォング。出演ジミー・ウォング、タン・シン、ティエン・イェー、フェイ・ルン、ライ・シュン。空手映画と紹介。導入：敵対道場が武道家を雇い襲撃、師門を壊滅させ主人公の右腕を奪う。生き延びた青年は左腕を鍛える。"
+    },
+    {
+      "ref_id": "next30-9d9a5ccc84b44908-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9d9a5ccc84b44908-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9d9a5ccc84b44908-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-9d9a5ccc84b44908-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c751d571cff04596-source-1",
+      "title": "映画.com：エレファント・マン",
+      "url": "https://eiga.com/movie/6078/",
+      "candidate_body": "2026-10-29確認。1980年製作、日本初公開1981-05-09、2004と2020は再公開。監督デビッド・リンチ。出演アンソニー・ホプキンス、ジョン・ハート、アン・バンクロフト、ジョン・ギールグッド、ウェンディ・ヒラー、フレディ・ジョーンズ、マイケル・エルフィック、フレデリック・トレベス。導入：見世物小屋のメリックを医師が研究のため病院へ連れ、やがてその知性を知る。"
+    },
+    {
+      "ref_id": "next30-c751d571cff04596-source-2",
+      "title": "角川シネマコレクション：エレファント・マン",
+      "url": "https://cinemakadokawa.jp/product/entry-4804.html",
+      "candidate_body": "2026-10-29検索表示確認。デヴィッド・リンチ監督。メリックと主治医の交流を描くヒューマンドラマと紹介。"
+    },
+    {
+      "ref_id": "next30-c751d571cff04596-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c751d571cff04596-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c751d571cff04596-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d35c567eca53c717-source-1",
+      "title": "Filmarks：アルマゲドン・コード",
+      "url": "https://filmarks.com/movies/52453",
+      "candidate_body": "2026-10-29確認。2007年製作、106分、アクション。監督ヴァディム・シメリェフ。出演アナスタシア・ザヴォロトニウク、ヴァンサン・ペレーズ、ウラジミール・メニショフ、オレグ・ステファン。あらすじ欄なし。投稿レビューの核テロ説明はあらすじ根拠に使わない。"
+    },
+    {
+      "ref_id": "next30-d35c567eca53c717-source-2",
+      "title": "映画.com：アルマゲドン・コード",
+      "url": "https://eiga.com/movie/92978/",
+      "candidate_body": "2026-10-29確認。2007年製作、106分ロシア。監督バディム・シメリェフ。出演アナスタシア・ザボロトニウク、バンサン・ペレーズ、ウラジミール・メニショフ、オレグ・ステファン、ジェイ・ベネディクト。人名表記は確認済みFilmarksを優先。"
+    },
+    {
+      "ref_id": "next30-d35c567eca53c717-source-3",
+      "title": "allcinema：アルマゲドン・コード",
+      "url": "https://www.allcinema.net/cinema/333001",
+      "candidate_body": "2026-10-29確認。2007年、アクション、劇場未公開。監督ヴァディム・シメリョフ、主演アナスタシア・ザヴォロトニウク。"
+    },
+    {
+      "ref_id": "next30-d35c567eca53c717-source-4",
+      "title": "オリコン：アルマゲドン・コード DVD",
+      "url": "https://www.oricon.co.jp/prof/475993/products/808932/1/",
+      "candidate_body": "2026-10-29確認。DVD TMSS-116、発売2009-03-06、トランスフォーマー。主演アナスタシア・ザヴォロトンヤックという表記差あり。"
+    },
+    {
+      "ref_id": "next30-d35c567eca53c717-source-5",
+      "title": "エンタマ：アルマゲドン・コード配信紹介（検索結果）",
+      "url": "https://clipbox-official.com/media/content_66273",
+      "candidate_body": "2026-10-29検索表示確認。四都市を狙う同時核テロ計画の情報を得たロシア連邦保安庁が、女性捜査官ダーシャに潜入捜査を命じる導入。原典の配信紹介本文全体は未取得のためあらすじ欄に限定根拠を明記。"
+    },
+    {
+      "ref_id": "next30-7b795d4e6b08f8ff-source-1",
+      "title": "映画.com：テイキング・ライブス",
+      "url": "https://eiga.com/movie/52271/",
+      "candidate_body": "2026-10-29確認。2004年製作、日本公開2004-09-11。監督欄D・J・カルーソ。出演アンジェリーナ・ジョリー、イーサン・ホーク、キーファー・サザーランド、ジーナ・ローランズ、オリビエ・マルティネス、チェッキー・カリョ、ジャン＝ユーグ・アングラード。サスペンス。導入：工事現場の白骨死体の発見にFBIのイリアナがモントリオールへ来て、被害者に成りすます殺人犯を追う。解説とスタッフ欄に人名の表記差あり。"
+    },
+    {
+      "ref_id": "next30-7b795d4e6b08f8ff-source-2",
+      "title": "シネマトゥデイ：テイキング・ライブス",
+      "url": "https://www.cinematoday.jp/movie/T0002006",
+      "candidate_body": "2026-10-29検索表示確認。2004年作品、サイコ・スリラーとして紹介。被害者の人生を乗っ取る連続殺人犯と捜査官の対決。"
+    },
+    {
+      "ref_id": "next30-7b795d4e6b08f8ff-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7b795d4e6b08f8ff-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7b795d4e6b08f8ff-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-855cdcf234b4acd2-source-1",
+      "title": "映画.com：ひぐらしのなく頃に 誓",
+      "url": "https://eiga.com/movie/54215/",
+      "candidate_body": "2026-10-29確認。2009年製作、日本公開2009-04-18。監督及川中。出演前田公輝、松山愛里、飛鳥凛、あいか、小野恵令奈、大杉漣、川原亜矢子、田中幸太朗、三輪ひとみ、矢部美穂、大高洋夫。実写第2作。導入：両親の離婚を自分のせいだと思うレナが、村で仲間と暮らす中、父の恋人の財産目当てを知る。"
+    },
+    {
+      "ref_id": "next30-855cdcf234b4acd2-source-2",
+      "title": "WOWOW：ひぐらしのなく頃に 誓",
+      "url": "https://www.wowow.co.jp/detail/021751",
+      "candidate_body": "2026-10-29検索表示確認。ミステリーホラーの実写映画第2作。前作と登場人物や時間軸を共有する別の物語。"
+    },
+    {
+      "ref_id": "next30-855cdcf234b4acd2-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-855cdcf234b4acd2-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-855cdcf234b4acd2-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8ea928235e6b3c90-source-1",
+      "title": "映画.com：座頭市血煙り街道",
+      "url": "https://eiga.com/movie/36697/",
+      "candidate_body": "2026-10-29確認。1967年製作、日本公開1967-12-30、シリーズ第17作。監督三隅研次。出演勝新太郎、近衛十四郎、高田美和、朝丘雪路、中尾ミエ、坪内ミキ子、磯村みどり、伊藤孝雄、小池朝雄、松村達雄、小沢栄太郎、斎藤信也。導入：病死した母から子供を預かった市が、父親を捜す旅へ出る。元本文の三隈は三隅の誤字候補。"
+    },
+    {
+      "ref_id": "next30-8ea928235e6b3c90-source-2",
+      "title": "KINENOTE：座頭市血煙り街道（検索結果）",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=22328",
+      "candidate_body": "2026-10-29検索表示確認。ジャンル時代劇・アクション、監督三隅研次。市が子供を連れて父を捜す導入。"
+    },
+    {
+      "ref_id": "next30-8ea928235e6b3c90-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8ea928235e6b3c90-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8ea928235e6b3c90-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fa870fbb20ac6d1c-source-1",
+      "title": "Filmarks：帝都大戦",
+      "url": "https://filmarks.com/movies/1223",
+      "candidate_body": "2026-10-29確認。1989年製作、107分。アクション。監督一瀬隆重。出演加藤雅也、南果歩、野沢直子、戸恒恵理子、斎藤洋介、桂木文、岩間さおり、前田賀奈子、草薙幸二郎、土屋嘉男、高橋長英、中丸忠雄、日下武史、丹波哲郎、荒俣宏、嶋田久作など。あらすじ欄は空。"
+    },
+    {
+      "ref_id": "next30-fa870fbb20ac6d1c-source-2",
+      "title": "映画.com：帝都大戦",
+      "url": "https://eiga.com/movie/37929/",
+      "candidate_body": "2026-10-29確認。日本公開1989-09-15。スタッフ欄は藍乃才・一瀬隆重、解説は総監督藍乃才・監督一瀬隆童と表記差。出演欄は加藤昌也、斉藤洋介だがFilmarksを優先。導入：昭和20年、東京への空襲で死者の怨念が魔人加藤を復活させ、霊能力の青年中村と将門の末裔雪子が戦いへ向かう。"
+    },
+    {
+      "ref_id": "next30-fa870fbb20ac6d1c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fa870fbb20ac6d1c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fa870fbb20ac6d1c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54631e3c28dff356-source-1",
+      "title": "映画.com：テケテケ",
+      "url": "https://eiga.com/movie/54412/",
+      "candidate_body": "2026-10-29確認。2009年製作、日本公開2009-03-21。監督白石晃士。出演大島優子、山崎真実、西田麻衣、一慶、水木薫、沢柳廸子、つじしんめい、阿部進之介、小島可奈子、螢雪次朗、長宗我部陽子。導入：帰り道に奇妙な音を聞いた翌日、友人が下半身のない遺体で発見され、可奈の前にもテケテケが出現。"
+    },
+    {
+      "ref_id": "next30-54631e3c28dff356-source-2",
+      "title": "シネマトゥデイ：テケテケ",
+      "url": "https://www.cinematoday.jp/movie/T0007324",
+      "candidate_body": "2026-10-29検索表示確認。2009年、白石晃士監督による都市伝説を題材にしたホラーと紹介。"
+    },
+    {
+      "ref_id": "next30-54631e3c28dff356-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54631e3c28dff356-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54631e3c28dff356-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-072564ffb872b2dd-source-1",
+      "title": "Filmarks：日本のこわい夜",
+      "url": "https://filmarks.com/movies/55160",
+      "candidate_body": "2026-10-29確認。2004年、93分。監督中村義洋、鶴田法男、白石晃士、清水崇、落合正幸。出演白石加代子、遠藤章造、岡田義徳、深浦加奈子、中村俊介、嶋田久作、山崎樹範、山田優、村杉蝉之介、モロ師岡、麻丘めぐみ、杉本哲太、香川照之、梅野泰靖、大方斐紗子、小島聖。"
+    },
+    {
+      "ref_id": "next30-072564ffb872b2dd-source-2",
+      "title": "制作会社アットムービー：日本のこわい夜 世界最恐JホラーSP",
+      "url": "https://atmovie.sakura.ne.jp/atwp/2004/09/22/日本のこわい夜　世界最恐jホラーsp/",
+      "candidate_body": "2026-10-29確認。TBS放送2004-09-22、DRAMA。ホラー監督5名による作品。監督落合正幸、鶴田法男、清水崇、中村義洋、白石晃士。出演はFilmarks掲載分に加えて山口美也子、真木よう子、杉原杏璃を確認。"
+    },
+    {
+      "ref_id": "next30-072564ffb872b2dd-source-3",
+      "title": "Neowing：日本のこわい夜 特別版 DVD",
+      "url": "https://www.neowing.co.jp/product/GNBD-1058",
+      "candidate_body": "2026-10-29確認。2004年放送の5監督のJホラーTVスペシャル。収録例はくも女（遠藤章造）、すきま（中村俊介）。93分、DVD GNBD-1058、発売2005-04-01。個別の話の展開は確認できた説明以上に推測しない。"
+    },
+    {
+      "ref_id": "next30-072564ffb872b2dd-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-072564ffb872b2dd-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7047a42d8dadf7bd-source-1",
+      "title": "Filmarks：都市伝説物語 ひきこ",
+      "url": "https://filmarks.com/movies/58037",
+      "candidate_body": "2026-10-29確認。2008年製作、40分、アニメ。監督奇志戒聖。出演藤田秀和、東城未来、飯島恵美、西田絋ニ、飛鳥井豊、佐藤えりな、植田大輝。西田の末尾ニは資料表記を保持。"
+    },
+    {
+      "ref_id": "next30-7047a42d8dadf7bd-source-2",
+      "title": "KINENOTE：都市伝説物語 ひきこ",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=52612",
+      "candidate_body": "2026-10-29確認。読みとしでんせつものがたりひきこ。2008年製作、劇場未公開、アニメーション・ホラー。監督奇志戒聖。声出演植田大輝、斉藤瑞季、藤田秀和、東城未来、西田絋二、佐藤えりな。導入：転校生さと子へのいじめが始まると、加害生徒や教師に不可解な出来事が相次ぐ。"
+    },
+    {
+      "ref_id": "next30-7047a42d8dadf7bd-source-3",
+      "title": "楽天ブックス：都市伝説物語 ひきこ DVD",
+      "url": "https://books.rakuten.co.jp/rb/5671554/",
+      "candidate_body": "2026-10-29検索本文確認。DVD GNBD-7513、発売2008-08-08、40分、監督奇志戒聖。制作年2007はFilmarksとKINENOTEの2008と異なる。採用年は一致するDVD発売年。"
+    },
+    {
+      "ref_id": "next30-7047a42d8dadf7bd-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7047a42d8dadf7bd-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-5249fc63543b28a6-source-1",
+      "title": "TSUTAYA DISCAS：LOST 呪われた島（検索取得）",
+      "url": "https://movie-tsutaya.tsite.jp/netdvd/dvd/goodsDetail.do?titleID=0087670280",
+      "candidate_body": "2026-10-29検索本文確認。2006年製作、監督山本清史、出演佐藤和沙、松崎桃子、田中伸彦、ホラー。導入：鬼退治の伝説がある孤島を訪れた大学生が封印を解く。ページを開く処理は404。検索で取得した作品説明とスタッフ欄のみ使用し、投稿レビューは使わない。"
+    },
+    {
+      "ref_id": "next30-5249fc63543b28a6-source-2",
+      "title": "CDJapan：LOST 呪われた島 DVD（検索取得）",
+      "url": "https://www.cdjapan.co.jp/product/FDFD-3",
+      "candidate_body": "2026-10-29検索本文確認。佐藤和沙主演のオリジナルビデオ、ホラー。源氏一族の鬼退治伝説のある島へ大学生が訪れ、封印を解く導入。ページを開く処理はタイムアウト。検索取得本文で照合。"
+    },
+    {
+      "ref_id": "next30-5249fc63543b28a6-source-3",
+      "title": "GEO：LOST 呪われた島（検索取得）",
+      "url": "https://geo-online.co.jp/store_info/item/1532051/",
+      "candidate_body": "2026-10-29検索本文確認。2006年製作、80分、日本、分類ホラー。DVD発売・レンタル開始2006-09-22。開く処理は403。検索取得された商品情報を根拠にし、映像自体は取得していない。"
+    },
+    {
+      "ref_id": "next30-5249fc63543b28a6-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-5249fc63543b28a6-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    }
+  ],
+  "image_assets": []
+}
