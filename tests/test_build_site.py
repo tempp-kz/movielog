@@ -142,11 +142,11 @@ class SiteTests(unittest.TestCase):
             '古いものは表現に不適切なものがあります。',
             '感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。'])
         nav = page.split('<nav class="tree-nav" aria-label="記事の索引">', 1)[1].split('</nav>', 1)[0]
-        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['映画短評 (0)', '小説短評 (0)', 'エッセイ'])
+        self.assertEqual(re.findall(r'<p class="nav-heading">(.*?)</p>', nav), ['映画短評 (0)', '小説短評', 'エッセイ'])
         self.assertIn('<a href="index.html" aria-current="page"><span class="tree-label">トップ</span></a>', nav)
         self.assertNotIn('<span class="tree-label">エッセイ</span>', nav)
         labels = re.findall(r'<div class="nav-leaf"><a[^>]*>.*?<span class="tree-label">(.*?)</span>', nav)
-        self.assertEqual(labels, ['監督', '出演者', '作品名順', '著者順', '映画 (0)', '美術館・博物館 (0)', '本 (0)', '小説 (0)', 'その他 (0)'])
+        self.assertEqual(labels, ['監督', '出演者', '作品名順 (0)', '著者順 (0)', '映画 (0)', '美術館・博物館 (0)', '本 (0)', '小説 (0)', 'その他 (0)'])
         self.assertLess(nav.index('<hr class="nav-divider">'), nav.index('映画短評 (0)'))
         self.assertLess(nav.index('映画短評 (0)'), nav.index('作品名順'))
         self.assertEqual(nav.count('<hr class="nav-divider">'), 3)
@@ -159,6 +159,25 @@ class SiteTests(unittest.TestCase):
             essay_page = self.read(f'essays/{category}/index.html')
             self.assertIn('<h1>' + label + 'エッセイ一覧</h1>', essay_page)
             self.assertIn('class="empty"', essay_page)
+
+    def test_novel_folder_files_update_the_matching_list_and_count(self):
+        for route, label in site.NOVEL_NAV:
+            directory = self.root / 'content' / Path(route).parent
+            directory.mkdir(parents=True)
+            (directory / '.gitkeep').write_text('')
+        site.build(self.root, self.output)
+        self.assertIn('<span class="tree-label">作品名順 (0)</span>', self.read('index.html'))
+        for category, title, number in [('titles', '作品側2', 2), ('titles', '作品側1', 1), ('authors', '著者側', 1)]:
+            path = self.add(title, type='essay')
+            path.rename(self.root / 'content' / 'novels' / category / f'{number}_{title}.md')
+        site.build(self.root, self.output)
+        page = self.read('index.html')
+        self.assertIn('<p class="nav-heading">小説短評</p>', page)
+        self.assertIn('<span class="tree-label">作品名順 (2)</span>', page)
+        self.assertIn('<span class="tree-label">著者順 (1)</span>', page)
+        for category, expected in [('titles', ['作品側1', '作品側2']), ('authors', ['著者側'])]:
+            main = self.read(f'novels/{category}/index.html').split('<main ', 1)[1].split('</main>', 1)[0]
+            self.assertEqual(re.findall(r'<a class="list-title"[^>]*>(.*?)</a>', main), expected)
 
     def test_essay_categories_follow_numbered_addition_order(self):
         for category, label in site.ESSAY_CATEGORIES:

@@ -236,6 +236,10 @@ class Site:
                         (category == "movies" and a.path.parent == root / "content" / "essays"))]
             for category, _ in ESSAY_CATEGORIES
         }
+        self.novel_groups = {
+            route: [a for a in articles if a.path.parent == root / "content" / Path(route).parent]
+            for route, _ in NOVEL_NAV
+        }
         self.random_candidates = articles[4:]
         self.initial_random = random.sample(self.random_candidates, min(2, len(self.random_candidates)))
         self.image_sizes = {}
@@ -280,9 +284,9 @@ class Site:
                 nodes.append(f'<details class="nav-folder"{opened}><summary>{node}</summary><ul>{children}</ul></details>')
             else:
                 nodes.append(f'<div class="nav-leaf">{node}</div>')
-        nodes.append('<hr class="nav-divider"><p class="nav-heading">小説短評 (0)</p>')
+        nodes.append('<hr class="nav-divider"><p class="nav-heading">小説短評</p>')
         for target, label in NOVEL_NAV:
-            nodes.append('<div class="nav-leaf">' + link(target, label, folder=True) + '</div>')
+            nodes.append('<div class="nav-leaf">' + link(target, f'{label} ({len(self.novel_groups[target]):,})', folder=True) + '</div>')
         nodes.append('<hr class="nav-divider"><p class="nav-heading">エッセイ</p>')
         for category, label in ESSAY_CATEGORIES:
             nodes.append('<div class="nav-leaf">' + link(f'essays/{category}/index.html', f'{label} ({len(self.essay_groups[category]):,})', folder=True) + '</div>')
@@ -604,7 +608,7 @@ class Site:
             self.write_page(route, label + "別", content, route)
         for route, label in NOVEL_NAV:
             title = "小説短評：" + label
-            self.write_page(route, title, '<div class="page-heading"><h1>' + e(title) + '</h1></div>' + self.list_articles([], route), route)
+            self.write_page(route, title, '<div class="page-heading"><h1>' + e(title) + '</h1></div>' + self.list_articles(sorted(self.novel_groups[route], key=essay_order), route), route)
         route = "essays/index.html"
         self.write_page(route, "エッセイ一覧", '<div class="page-heading"><h1>エッセイ一覧</h1></div>' + self.list_articles([a for a in self.articles if a.kind == "essay"], route), route)
         for category, label in ESSAY_CATEGORIES:
