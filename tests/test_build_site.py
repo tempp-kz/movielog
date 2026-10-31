@@ -28,6 +28,8 @@ class SiteTests(unittest.TestCase):
         shutil.copy(REPO / "assets" / "default.png", self.root / "assets" / "default.png")
         shutil.copy(REPO / "assets" / "banner.png", self.root / "assets" / "banner.png")
         shutil.copy(REPO / "assets" / "x-card.png", self.root / "assets" / "x-card.png")
+        shutil.copy(REPO / "assets" / "home-banner.png", self.root / "assets" / "home-banner.png")
+        shutil.copy(REPO / "assets" / "social-card.png", self.root / "assets" / "social-card.png")
         shutil.copy(REPO / "assets" / "favicon.png", self.root / "assets" / "favicon.png")
         shutil.copy(REPO / "web" / "site.css", self.root / "web" / "site.css")
         shutil.copy(REPO / "web" / "site.js", self.root / "web" / "site.js")
@@ -322,21 +324,26 @@ class SiteTests(unittest.TestCase):
             self.assertIn(site.href("index.html", route), page)
             self.assertTrue((self.output / route).is_file())
 
-    def test_shared_banner_and_x_card_use_separate_images_with_correct_dimensions(self):
+    def test_home_banner_fallback_banner_and_social_card_use_requested_images(self):
         path = self.add('映画「A」', short_review='短評 < & " をそのまま保持。')
         before = path.read_bytes()
         site.build(self.root, self.output)
         for route in ['index.html', 'titles/index.html', self.article(path).route]:
             page = self.read(route)
             self.assertIn('<meta name="twitter:card" content="summary_large_image">', page)
-            self.assertIn('<meta name="twitter:image" content="https://tempp-kz.github.io/movielog/assets/x-card.png">', page)
-            self.assertIn('<meta property="og:image" content="https://tempp-kz.github.io/movielog/assets/x-card.png">', page)
+            self.assertIn('<meta name="twitter:image" content="https://tempp-kz.github.io/movielog/assets/social-card.png">', page)
+            self.assertIn('<meta property="og:image" content="https://tempp-kz.github.io/movielog/assets/social-card.png">', page)
+            self.assertIn('<meta property="og:image:width" content="1731">', page)
+            self.assertIn('<meta property="og:image:height" content="909">', page)
+        self.assertIn('src="assets/home-banner.png" alt="趣味につき、業務報告。 Tempp / 久世余白" width="2048" height="682"', self.read('index.html'))
         page = self.read(self.article(path).route)
         self.assertIn('src="' + site.href(self.article(path).route, 'assets/banner.png') + '" alt="" width="1949" height="635"', page)
         self.assertIn('content="短評 &lt; &amp; &quot; をそのまま保持。"', page)
         self.assertEqual(path.read_bytes(), before)
         self.assertEqual((self.output / 'assets/banner.png').read_bytes(), (REPO / 'assets/banner.png').read_bytes())
         self.assertEqual((self.output / 'assets/x-card.png').read_bytes(), (REPO / 'assets/x-card.png').read_bytes())
+        for name in ('home-banner.png', 'social-card.png'):
+            self.assertEqual((self.output / 'assets' / name).read_bytes(), (REPO / 'assets' / name).read_bytes())
 
     def test_index_sort_controls_preserve_filter_and_expose_only_registered_attributes(self):
         self.add('確定', reading='かくてい', reading_status='取得済み', release_year=2024, genres=['ホラー', 'SF'])

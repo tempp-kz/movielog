@@ -301,11 +301,13 @@ class Site:
         data_script = f'<script defer src="{href(route, "assets/article-data.js")}"></script>' if home or route == 'search/index.html' else ''
         page_title = title if home else title + " | " + SITE_TITLE
         page_description = re.sub(r"\s+", " ", description or SITE_DESCRIPTION).strip()[:200]
-        card_image = SITE_URL + 'assets/x-card.png'
+        card_path = 'assets/social-card.png'
+        card_image = SITE_URL + card_path
+        card_width, card_height = self.image_size(card_path)
         social = f'''<meta name="description" content="{e(page_description)}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="{e(SITE_TITLE)}"><meta property="og:title" content="{e(page_title)}"><meta property="og:description" content="{e(page_description)}"><meta property="og:url" content="{SITE_URL + quote(route, safe='/')}">
-<meta property="og:image" content="{card_image}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="670"><meta property="og:image:alt" content="{e(SITE_TITLE)} ©Tempp">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(page_title)}"><meta name="twitter:description" content="{e(page_description)}"><meta name="twitter:image" content="{card_image}"><meta name="twitter:image:alt" content="{e(SITE_TITLE)} ©Tempp">'''
+<meta property="og:image" content="{card_image}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="{card_width}"><meta property="og:image:height" content="{card_height}"><meta property="og:image:alt" content="趣味につき、業務報告。 Tempp / 久世余白">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(page_title)}"><meta name="twitter:description" content="{e(page_description)}"><meta name="twitter:image" content="{card_image}"><meta name="twitter:image:alt" content="趣味につき、業務報告。 Tempp / 久世余白">'''
         document = f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(page_title)}</title>{social}<link rel="icon" type="image/png" href="{href(route, 'assets/favicon.png')}"><link rel="stylesheet" href="{href(route, 'assets/site.css')}">{data_script}<script defer src="{href(route, 'assets/site.js')}"></script></head>
@@ -449,9 +451,9 @@ class Site:
         route = "index.html"
         cards = ''.join(self.card(article) for article in self.articles[:4])
         random_cards = ''.join(self.card(article) for article in self.initial_random)
-        banner = 'assets/banner.png' if (self.root / 'assets/banner.png').is_file() else 'assets/default.png'
+        banner = 'assets/home-banner.png'
         width, height = self.image_size(banner)
-        content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="{SITE_TITLE} ©Tempp" width="{width}" height="{height}"></figure>
+        content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="趣味につき、業務報告。 Tempp / 久世余白" width="{width}" height="{height}"></figure>
 <div class="home-notice"><p>ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。</p>
 <h2>―映画短評について</h2><ul><li>評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li><li>点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。</li><li>古いものは表現に不適切なものがあります。</li></ul>
 <h2>―その他について</h2><ul><li>感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li></ul>
