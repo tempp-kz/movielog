@@ -454,9 +454,9 @@ class Site:
         banner = 'assets/home-banner.png'
         width, height = self.image_size(banner)
         content = f'''<h1 class="visually-hidden">{SITE_TITLE}</h1><figure class="home-banner"><img src="{href(route, banner)}" alt="趣味につき、業務報告。 Tempp / 久世余白" width="{width}" height="{height}"></figure>
-<div class="home-notice"><p>ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。</p>
+<div class="home-notice"><p>ここはTempp/久世余白が各所に分散しておいてあった業務報告のまとめです。</p>
 <h2>―映画短評について</h2><ul><li>評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li><li>点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。</li><li>古いものは表現に不適切なものがあります。</li></ul>
-<h2>―その他について</h2><ul><li>感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li></ul>
+<h2>―その他及び各エッセイについて</h2><ul><li>感想は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。</li></ul>
 <div class="home-progress"><p>現在の作業進捗状況：</p><dl><div><dt>最終更新日：</dt><dd>{self.updated.year}/{self.updated.month}/{self.updated.day}</dd></div><div><dt>感想本数：</dt><dd>{len(self.articles):,}本</dd></div><div><dt>最適化本数：</dt><dd>{self.optimized:,}本</dd></div></dl></div></div>
 <section class="home-section" id="latest-reviews"><h2>最新の感想</h2><div class="card-grid">{cards}</div></section>
 <section class="home-section" id="random-reviews"><div class="section-heading"><h2>ランダム感想</h2><button id="random-button" type="button" aria-controls="random-cards" hidden>ランダム</button></div><div id="random-cards" class="card-grid">{random_cards}</div><p id="random-status" class="visually-hidden" role="status"></p></section>

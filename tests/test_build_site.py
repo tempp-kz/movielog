@@ -136,8 +136,8 @@ class SiteTests(unittest.TestCase):
         site.build(self.root, self.output)
         page = self.read('index.html')
         notice = page.split('<div class="home-notice">', 1)[1].split('<div class="home-progress">', 1)[0]
-        self.assertIn('ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。', notice)
-        self.assertEqual(re.findall(r'<h2>(.*?)</h2>', notice), ['―映画短評について', '―その他について'])
+        self.assertIn('ここはTempp/久世余白が各所に分散しておいてあった業務報告のまとめです。', notice)
+        self.assertEqual(re.findall(r'<h2>(.*?)</h2>', notice), ['―映画短評について', '―その他及び各エッセイについて'])
         self.assertEqual(re.findall(r'<li>(.*?)</li>', notice), [
             '評価は個人の好みと独断と偏見に基づいており、各作品の実際の良し悪しを反映したものではありません。',
             '点数は０～５点、平均値は３点です。作成した時期によって点数にばらつきがあります。',
