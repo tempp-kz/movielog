@@ -21,7 +21,7 @@ from urllib.parse import quote, unquote, urlsplit
 from markdown_it import MarkdownIt
 import yaml
 
-SITE_TITLE = "映画の感想を だらだら呟く"
+SITE_TITLE = "趣味につき、業務報告。"
 SITE_URL = "https://tempp-kz.github.io/movielog/"
 SITE_DESCRIPTION = "ここはTempp/久世余白が各所に分散しておいてあった映画まとめです。"
 NAV = [("titles/index.html", "作品名順"),
