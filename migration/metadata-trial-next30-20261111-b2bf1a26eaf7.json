@@ -1,0 +1,6038 @@
+{
+  "batch_id": "metadata-trial-next30-20261111-b2bf1a26eaf7",
+  "dataset_id": "movielog-next30-20261111-b2bf1a26eaf7",
+  "base_commit": "ed6780dda5d3c5d5dfa0f1b947c6ad728161fdc8",
+  "source_base_commit": "ed6780dda5d3c5d5dfa0f1b947c6ad728161fdc8",
+  "applied_at": "2026-11-11T11:02:58.942692+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "769de95ba229cb7f6395179b7e58184b1a731eb83240a30b5b448b97e8ffc1e7",
+  "candidate_sha256": "c311dcef9a9322af729e0411b141b9b681cfabeee76a4cfc63900c33cb728d90",
+  "target_sha256": "22e0c20c66bede269cc22f2a536d4ac755072a59a7502ac8b3d658c1ae03e974",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/パニッシャー：ウォーゾーン_2009-05-04.md",
+      "title": "パニッシャー：ウォーゾーン",
+      "review_date": "2009-05-04 01:52:23",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "レクシー・アレキサンダー"
+        ],
+        "cast": [
+          "レイ・スティーブンソン",
+          "ドミニク・ウェスト",
+          "ジュリー・ベンツ",
+          "ダグ・ハッチソン",
+          "ダッシュ・ミホク",
+          "コリン・サーモン",
+          "ウェイン・ナイト"
+        ],
+        "genres": [
+          "アクション",
+          "犯罪"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぱにっしゃーうぉーぞーん",
+        "release_year": 2009,
+        "directors": [
+          "レクシー・アレキサンダー"
+        ],
+        "cast": [
+          "レイ・スティーブンソン",
+          "ドミニク・ウェスト",
+          "ジュリー・ベンツ",
+          "ダグ・ハッチソン",
+          "ダッシュ・ミホク",
+          "コリン・サーモン",
+          "ウェイン・ナイト"
+        ],
+        "genres": [
+          "アクション",
+          "犯罪"
+        ],
+        "synopsis": "法に代わり悪人を裁くフランクが凶悪犯を襲い、傷を負った相手から復讐を狙われる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "相変わらず私怨バリバリのノリなんですが、前作はどことなくサスペンスっぽかったんだけど本作はバイオレンスアクションです。で、結構グロいことはグロいんですが、顔面ふっとバスとかいうスケールなんで、グロイっていうよりはグロイと感じる以前にうそ臭いっていうかアメコミっぽいのかも。しかしアメコミにしてはパニッシャーって普通の強い人間なわけで、他のアメコミに比べるとやっぱりパンチは弱い気がする。さて、本作のストーリーはパニッシャーがギャングに潜入捜査してたFBIを殺してしまうんです。それに心を痛めて随分うじうじしちゃったりするんだこれが。でもフランクの中ではマフィア＝悪で他＝正義っていう実に単純明快に割り切られているので、その辺が形式過ぎてストーリーがますます希薄になっている一因。まあ銃ぶっぱなすノリ映画なので別にいいんだが。なんていうかマフィアっていっても凄い下っ端の貧困層とか案外善良で家族があったり（ｒｙっていうのは全部無視してギャング即悪なんですよねっていうあたりで反面教師的に面白い価値観ではあるんですが、さて汚職警官が出てきた場合にストーリーが立ち行かなくなりそうな。うじうじ悩んで悪にいれるんだろうか。まあ結構大振りアクションなのでグロいのが苦手ならやめといたほうがよさそうかも、とりあえず簡単にたくさん人が死ぬ。\n",
+        "title": "パニッシャー：ウォーゾーン",
+        "short_review": "人間なんだよなぁ。"
+      },
+      "article_sha256_before": "39e335320ba627ffd5514a78b40e50014bd76573c0053d5e00c6caeee6fb25dd",
+      "article_sha256_after": "9296ba53139844ea904ce0971ed4d9ca5e16138773a8f64c19f08ad6d392ca9a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぱにっしゃーうぉーぞーん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-61a0dd5f741e4d94-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-04-18",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-61a0dd5f741e4d94-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "レクシー・アレキサンダー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-61a0dd5f741e4d94-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "レイ・スティーブンソン\nドミニク・ウェスト\nジュリー・ベンツ\nダグ・ハッチソン\nダッシュ・ミホク\nコリン・サーモン\nウェイン・ナイト",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-61a0dd5f741e4d94-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n犯罪",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-61a0dd5f741e4d94-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "法に代わり悪人を裁くフランクが凶悪犯を襲い、傷を負った相手から復讐を狙われる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "相変わらず私怨バリバリのノリなんですが、前作はどことなくサスペンスっぽかったんだけど本作はバイオレンスアクションです。で、結構グロいことはグロいんですが、顔面ふっとバスとかいうスケールなんで、グロイっていうよりはグロイと感じる以前にうそ臭いっていうかアメコミっぽいのかも。しかしアメコミにしてはパニッシャーって普通の強い人間なわけで、他のアメコミに比べるとやっぱりパンチは弱い気がする。さて、本作のストーリーはパニッシャーがギャングに潜入捜査してたFBIを殺してしまうんです。それに心を痛めて随分うじうじしちゃったりするんだこれが。でもフランクの中ではマフィア＝悪で他＝正義っていう実に単純明快に割り切られているので、その辺が形式過ぎてストーリーがますます希薄になっている一因。まあ銃ぶっぱなすノリ映画なので別にいいんだが。なんていうかマフィアっていっても凄い下っ端の貧困層とか案外善良で家族があったり（ｒｙっていうのは全部無視してギャング即悪なんですよねっていうあたりで反面教師的に面白い価値観ではあるんですが、さて汚職警官が出てきた場合にストーリーが立ち行かなくなりそうな。うじうじ悩んで悪にいれるんだろうか。まあ結構大振りアクションなのでグロいのが苦手ならやめといたほうがよさそうかも、とりあえず簡単にたくさん人が死ぬ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パニッシャー：ウォーゾーン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人間なんだよなぁ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/スラムドッグ＄ミリオネア_2009-05-01.md",
+      "title": "スラムドッグ＄ミリオネア",
+      "review_date": "2009-05-01 01:10:41",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ダニー・ボイル"
+        ],
+        "cast": [
+          "デブ・パテル",
+          "フリーダ・ピント",
+          "マドゥル・ミッタル",
+          "アニル・カプール",
+          "イルファン・カーン"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "すらむどっぐみりおねあ",
+        "release_year": 2009,
+        "directors": [
+          "ダニー・ボイル"
+        ],
+        "cast": [
+          "デブ・パテル",
+          "フリーダ・ピント",
+          "マドゥル・ミッタル",
+          "アニル・カプール",
+          "イルファン・カーン"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ],
+        "synopsis": "スラム育ちの青年がクイズ番組で巨額賞金に迫るが、不正を疑われ、過酷な半生を語る。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "アカデミーをとったのにこんなにアメリカのイメージのない映画って初めてかもしれない、っていうか全部インドの話です。で、ぶっちゃけ面白いことは面白いんだ。ただなんだろう、色んな出来事が重厚に積み重なっているからこそラストのエンディングがなんとなくピンとこなくて、思わず夢オチなんじゃないかと思ってしまう。確かに過去の描き方は面白いんだ、大人になってからはわりと映画でありえなくもないストーリーなんだけど子供時代がとても印象的。映画の中でもシビアな子供時代ってあんまり普通お目にかからないっていうか、何が凄いってノータイムで殴られるんだ。まぁ子供だけじゃないんですが、普通な勢いでなんのためらいもなく殴ったり殴り殺したりするんですよ。そういうあたりの雰囲気が一番興味深かったところでもある。さてストーリー自体についてはミリオネアなんですが、奇矯な半生をクイズの順番に従って描いているあたりに少し無理を感じなくもなくて、その辺が結局ジャマールの語ってることが本当かどうかっていうのはある程度観客に委ねられている部分かな、と思わなくもない。確かにｱﾘｴﾈｰな感じだけどそのへんはうまく映画的に編集してあるわけで。ただ信じた警官は意味不明である。さてインド映画のご多分に漏れず唐突に踊るシーンがあるんですが、知り合いのインド人に聞いたところインドではラブシーンを映像にするのは憚られるという理由で仲良しな場面は踊ることが多いとか聞いたんだけどどうなんでしょう。誰か知ってたら教えてください。踊ってるシーンをみてジャマールはｲｹﾒﾝだと思った。\n",
+        "title": "スラムドッグ＄ミリオネア",
+        "short_review": "アメリカ映画？"
+      },
+      "article_sha256_before": "15f28e9ed35fee56f7302c2d794e4457144b762176d0d2dd07d9ee09cd322d7a",
+      "article_sha256_after": "6169eb7906d8e5fc985187e28d5d483320fc23790228b83536c640dbb7605129",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すらむどっぐみりおねあ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-1ad402ddd7692dc5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-04-18",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-1ad402ddd7692dc5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダニー・ボイル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-1ad402ddd7692dc5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デブ・パテル\nフリーダ・ピント\nマドゥル・ミッタル\nアニル・カプール\nイルファン・カーン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-1ad402ddd7692dc5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-1ad402ddd7692dc5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スラム育ちの青年がクイズ番組で巨額賞金に迫るが、不正を疑われ、過酷な半生を語る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アカデミーをとったのにこんなにアメリカのイメージのない映画って初めてかもしれない、っていうか全部インドの話です。で、ぶっちゃけ面白いことは面白いんだ。ただなんだろう、色んな出来事が重厚に積み重なっているからこそラストのエンディングがなんとなくピンとこなくて、思わず夢オチなんじゃないかと思ってしまう。確かに過去の描き方は面白いんだ、大人になってからはわりと映画でありえなくもないストーリーなんだけど子供時代がとても印象的。映画の中でもシビアな子供時代ってあんまり普通お目にかからないっていうか、何が凄いってノータイムで殴られるんだ。まぁ子供だけじゃないんですが、普通な勢いでなんのためらいもなく殴ったり殴り殺したりするんですよ。そういうあたりの雰囲気が一番興味深かったところでもある。さてストーリー自体についてはミリオネアなんですが、奇矯な半生をクイズの順番に従って描いているあたりに少し無理を感じなくもなくて、その辺が結局ジャマールの語ってることが本当かどうかっていうのはある程度観客に委ねられている部分かな、と思わなくもない。確かにｱﾘｴﾈｰな感じだけどそのへんはうまく映画的に編集してあるわけで。ただ信じた警官は意味不明である。さてインド映画のご多分に漏れず唐突に踊るシーンがあるんですが、知り合いのインド人に聞いたところインドではラブシーンを映像にするのは憚られるという理由で仲良しな場面は踊ることが多いとか聞いたんだけどどうなんでしょう。誰か知ってたら教えてください。踊ってるシーンをみてジャマールはｲｹﾒﾝだと思った。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スラムドッグ＄ミリオネア",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アメリカ映画？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/マックスペイン_2009-04-27.md",
+      "title": "マックスペイン",
+      "review_date": "2009-04-27 01:16:04",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ジョン・ムーア"
+        ],
+        "cast": [
+          "マーク・ウォールバーグ",
+          "オルガ・キュリレンコ",
+          "ミラ・クニス",
+          "ボー・ブリッジス",
+          "クリス・“リュダクリス”・ブリッジス",
+          "クリス・オドネル",
+          "アマウリー・ノラスコ"
+        ],
+        "genres": [
+          "アクション",
+          "サスペンス",
+          "犯罪"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "まっくすぺいん",
+        "release_year": 2009,
+        "directors": [
+          "ジョン・ムーア"
+        ],
+        "cast": [
+          "マーク・ウォールバーグ",
+          "オルガ・キュリレンコ",
+          "ミラ・クニス",
+          "ボー・ブリッジス",
+          "クリス・“リュダクリス”・ブリッジス",
+          "クリス・オドネル",
+          "アマウリー・ノラスコ"
+        ],
+        "genres": [
+          "アクション",
+          "サスペンス",
+          "犯罪"
+        ],
+        "synopsis": "妻子を殺した犯人を追う刑事は、別の殺人事件に家族の事件との共通点を見つける。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "ストーリーはまあよくありそうな感じでなんかすぐ忘れそうな雰囲気なんですがそのへんは原作がゲームなので仕方ないところかもしれません。マックスペインって結構昔やったことがあるんだけどかなり重かった（PCが）イメージしかないなぁ。閑話休題。なんですかね、実際最後15分くらいまでは別にたいして面白くないんですよ。映像効果はまあ面白いといえば面白いんですがシン・シティほどかっこよくもなく、デイウォーカーレベルで微妙な感じ。アクションもそれほど目新しいわけでもなく、ストップモーションくるだろうなぁというタイミングでかますというなんか寧ろくどいレベルかもしれない。その上主人公自体にあんまり個性がない、っていうかそういう役柄なのかもしれないんだけど、それを差し置いてもなんていうか役柄に面白みがなく、復讐に燃えるのはいいんだけれども目で語ってないというかそもそも主人公に愛着がわかないんですよね。途中までこいつがセガールだったらいいのにと思ってぼーっとみてたんだけど、なんか最後15分くらい面白かった。薬中が銃を乱射する映画だと思うとなんかラストやけに笑えるし顔のアップとか撮り方もラリってるっぽくて笑える。なんていうかスーパーマリオってキノコ食ってるよねっていうレベルでツボに入れば結構笑えるはず。ただそれを差し置いてもそこに至るまでが果てしなく長かったのでやっぱり後に残らなさそうではある、まぁ復讐もののアクションってそんなもんなのかもしれない。とりあえずナターシャのスタイルはエロかった。ラストの1カットは2への続きだろうか。\n",
+        "title": "マックスペイン",
+        "short_review": "すぐ忘れそうな。"
+      },
+      "article_sha256_before": "9a9a79674efe1bddb4ef390bf7a769402807d00149eec57f70e26b28eb54e223",
+      "article_sha256_after": "cad43f3c565ee2bd260d6cf0374593851d825a36342908f6e82f672bbf73bbd7",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "まっくすぺいん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-782c670e09bab8da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-04-18",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-782c670e09bab8da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・ムーア",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-782c670e09bab8da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マーク・ウォールバーグ\nオルガ・キュリレンコ\nミラ・クニス\nボー・ブリッジス\nクリス・“リュダクリス”・ブリッジス\nクリス・オドネル\nアマウリー・ノラスコ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-782c670e09bab8da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nサスペンス\n犯罪",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-782c670e09bab8da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妻子を殺した犯人を追う刑事は、別の殺人事件に家族の事件との共通点を見つける。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ストーリーはまあよくありそうな感じでなんかすぐ忘れそうな雰囲気なんですがそのへんは原作がゲームなので仕方ないところかもしれません。マックスペインって結構昔やったことがあるんだけどかなり重かった（PCが）イメージしかないなぁ。閑話休題。なんですかね、実際最後15分くらいまでは別にたいして面白くないんですよ。映像効果はまあ面白いといえば面白いんですがシン・シティほどかっこよくもなく、デイウォーカーレベルで微妙な感じ。アクションもそれほど目新しいわけでもなく、ストップモーションくるだろうなぁというタイミングでかますというなんか寧ろくどいレベルかもしれない。その上主人公自体にあんまり個性がない、っていうかそういう役柄なのかもしれないんだけど、それを差し置いてもなんていうか役柄に面白みがなく、復讐に燃えるのはいいんだけれども目で語ってないというかそもそも主人公に愛着がわかないんですよね。途中までこいつがセガールだったらいいのにと思ってぼーっとみてたんだけど、なんか最後15分くらい面白かった。薬中が銃を乱射する映画だと思うとなんかラストやけに笑えるし顔のアップとか撮り方もラリってるっぽくて笑える。なんていうかスーパーマリオってキノコ食ってるよねっていうレベルでツボに入れば結構笑えるはず。ただそれを差し置いてもそこに至るまでが果てしなく長かったのでやっぱり後に残らなさそうではある、まぁ復讐もののアクションってそんなもんなのかもしれない。とりあえずナターシャのスタイルはエロかった。ラストの1カットは2への続きだろうか。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マックスペイン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すぐ忘れそうな。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/グラン・トリノ_2009-04-23.md",
+      "title": "グラン・トリノ",
+      "review_date": "2009-04-23 09:06:25",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "クリント・イーストウッド"
+        ],
+        "cast": [
+          "クリント・イーストウッド",
+          "ビー・バン",
+          "アーニー・ハー",
+          "クリストファー・カーレイ",
+          "ジョン・キャロル・リンチ"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぐらんとりの",
+        "release_year": 2009,
+        "directors": [
+          "クリント・イーストウッド"
+        ],
+        "cast": [
+          "クリント・イーストウッド",
+          "ビー・バン",
+          "アーニー・ハー",
+          "クリストファー・カーレイ",
+          "ジョン・キャロル・リンチ"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "妻を亡くし愛車と暮らす頑固な元自動車工が、隣家に越してきたモン族の少年と出会う。",
+        "rating": 4.1,
+        "rating_display": "4.1点",
+        "body": "ムッスリしてないイーストウッドなんてあんまりないわけですが、今までの作品以上のムッスリ加減。誰からも恐ろしくとっつきにくいコワルスキですが、それがほんの少しづつ、緩和してるようにみえなくもないんだが、強面のままいつのまにか空気が柔らかくなっていく。なんだろうね、他人とか関係なく自分にとって大事なものをもっているんだけど、その価値観がどんどん普通の人の感覚から離れていって時代から取り残されてく。気がついたら誰からも嫌われていて、周りは大嫌いな中国人ばっかりでどうしようもないまま手元にあるのはグラントリノだけなんだ。でもよく考えるとそいつらも好きでそこにいるわけじゃなくて、そこにいるしかなくて、一般社会からアウトしてる連中で、そう考えると、隣の家の少年も少女も嫌いだけど案外善良な奴なのかもしれない。そう思い始めていた頃に事件はおこる。なんか最初は世間から孤立したコワルスキがあるいみドリフ的なコメディドラマっぽいテイストだったんだけど、なんか最後になるにつれてジャンルがよくわからなくなる。コメディにしては随分ハードな展開で、そもそも当初から現実感が薄いような作品なんですが(なんか視点がある意味一方的なのである程度コワルスキの妄想なのかもと思わなくもない)、現実的なのにどこかそうでもないような、なんともいえないエンディング。で結構ハードなエンディングなのに最後はやけに一抹さびしい爽やかさで面白い。いろいろ含めて世代交代っていう話なんだろうか。グラントリノ自体のデザインはかっこいいとは思わないんだけど、イーストウッドの大切にしたいものっていうポジションが輝かしくてかっこいい。\n",
+        "title": "グラン・トリノ",
+        "short_review": "コメディ、か？"
+      },
+      "article_sha256_before": "a51d03e28fa41d8320ac4abd62184b3573bd6a3fca75ce543f76681aafd9b5b3",
+      "article_sha256_after": "6b69e60c0f9323ed609d0483bfd543a7f9f5432401b2f63ddc7bbfa6b42e5dfe",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぐらんとりの",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-8770ceb3051e3163-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-04-25",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-8770ceb3051e3163-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリント・イーストウッド",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-8770ceb3051e3163-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリント・イーストウッド\nビー・バン\nアーニー・ハー\nクリストファー・カーレイ\nジョン・キャロル・リンチ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-8770ceb3051e3163-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-8770ceb3051e3163-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妻を亡くし愛車と暮らす頑固な元自動車工が、隣家に越してきたモン族の少年と出会う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.1",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.1",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ムッスリしてないイーストウッドなんてあんまりないわけですが、今までの作品以上のムッスリ加減。誰からも恐ろしくとっつきにくいコワルスキですが、それがほんの少しづつ、緩和してるようにみえなくもないんだが、強面のままいつのまにか空気が柔らかくなっていく。なんだろうね、他人とか関係なく自分にとって大事なものをもっているんだけど、その価値観がどんどん普通の人の感覚から離れていって時代から取り残されてく。気がついたら誰からも嫌われていて、周りは大嫌いな中国人ばっかりでどうしようもないまま手元にあるのはグラントリノだけなんだ。でもよく考えるとそいつらも好きでそこにいるわけじゃなくて、そこにいるしかなくて、一般社会からアウトしてる連中で、そう考えると、隣の家の少年も少女も嫌いだけど案外善良な奴なのかもしれない。そう思い始めていた頃に事件はおこる。なんか最初は世間から孤立したコワルスキがあるいみドリフ的なコメディドラマっぽいテイストだったんだけど、なんか最後になるにつれてジャンルがよくわからなくなる。コメディにしては随分ハードな展開で、そもそも当初から現実感が薄いような作品なんですが(なんか視点がある意味一方的なのである程度コワルスキの妄想なのかもと思わなくもない)、現実的なのにどこかそうでもないような、なんともいえないエンディング。で結構ハードなエンディングなのに最後はやけに一抹さびしい爽やかさで面白い。いろいろ含めて世代交代っていう話なんだろうか。グラントリノ自体のデザインはかっこいいとは思わないんだけど、イーストウッドの大切にしたいものっていうポジションが輝かしくてかっこいい。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "グラン・トリノ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "コメディ、か？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ヤッターマン_2009-04-19.md",
+      "title": "ヤッターマン",
+      "review_date": "2009-04-19 00:57:33",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "三池崇史"
+        ],
+        "cast": [
+          "櫻井翔",
+          "福田沙紀",
+          "深田恭子",
+          "生瀬勝久",
+          "ケンドーコバヤシ",
+          "岡本杏理",
+          "阿部サダヲ",
+          "滝口順平",
+          "山寺宏一",
+          "たかはし智秋"
+        ],
+        "genres": [
+          "アクション",
+          "コメディ",
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "やったーまん",
+        "release_year": 2009,
+        "directors": [
+          "三池崇史"
+        ],
+        "cast": [
+          "櫻井翔",
+          "福田沙紀",
+          "深田恭子",
+          "生瀬勝久",
+          "ケンドーコバヤシ",
+          "岡本杏理",
+          "阿部サダヲ",
+          "滝口順平",
+          "山寺宏一",
+          "たかはし智秋"
+        ],
+        "genres": [
+          "アクション",
+          "コメディ",
+          "SF"
+        ],
+        "synopsis": "願いをかなえる四つの石をめぐり、ヤッターマンの二人がドロンボー一味と戦う。",
+        "rating": 3.3,
+        "rating_display": "3.3点",
+        "body": "アニメを忠実に実写化すると基本的に無理がでるのでその辺は演出するのが昨今の実写映画ですが、無理なところを無理なまま実写化したのが本作の面白さ。普通ヤッターワンに捕まったまま海を渡ると大変だよね、とかケンダマで闘うと滑稽だよね、っていうのをマヂで実写化しててワロタ。ただそういう部分が面白さの大部分の割合を占めているし、知ってて当然な感じで映画中の説明もあんまりないので元アニメみてない人にはよくわからないと思われ。面白いかどうかは原作見てるかによるところも大きいんだけど基本的に忠実に実写化した駄目な感じ(反語)の作品なので大作を目的にするんだとNGだと思う。さて前評判的に色々あった深キョンはちょっと声に違和感が残るものの実に好演してて、主役二人はまあ別に誰がやってもいいんじゃないかなな感じなんですが、一番よかったのはボヤッキーで、なんていうか違和感が全然ない、意味がわからないレベルで本当にない、びっくり。あと他には普通にシモネタなので子供はみないほうがよいでしょう、っていうかR12くらいつけたほうがよかったんじゃないだろうか。それとは別途思ったのが、そういえばヤッターマンって別にメカにのって闘うわけでもなく、さらにメカが殴り倒すわけでもなく、メカが作る大量の小型ロボットが敵を倒すという変なロボットアニメなんだなと。よく考えると原作もギャグテイストでそもそも花とか爽快感とかないわけだし、原作好きならこれでいいんじゃないかと思わなくもない。というかロボット映画のスっきり爽快作にするには原作的に無理だとオモタ。\n",
+        "title": "ヤッターマン",
+        "short_review": "アニメを真面目に実写化(ｗ)"
+      },
+      "article_sha256_before": "7d65cdddf587a96eeb46bff5c4a9fb0612db75fac502eaa4f0e714199c0279f8",
+      "article_sha256_after": "e34576d83fa7b2880c275ffaa641c950f7389a8566e4de6041ac1f32a42537d3",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "やったーまん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-878462f1515059f4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-07",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-878462f1515059f4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "三池崇史",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-878462f1515059f4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "櫻井翔\n福田沙紀\n深田恭子\n生瀬勝久\nケンドーコバヤシ\n岡本杏理\n阿部サダヲ\n滝口順平\n山寺宏一\nたかはし智秋",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-878462f1515059f4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\nコメディ\nSF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-878462f1515059f4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "願いをかなえる四つの石をめぐり、ヤッターマンの二人がドロンボー一味と戦う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.3",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.3",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメを忠実に実写化すると基本的に無理がでるのでその辺は演出するのが昨今の実写映画ですが、無理なところを無理なまま実写化したのが本作の面白さ。普通ヤッターワンに捕まったまま海を渡ると大変だよね、とかケンダマで闘うと滑稽だよね、っていうのをマヂで実写化しててワロタ。ただそういう部分が面白さの大部分の割合を占めているし、知ってて当然な感じで映画中の説明もあんまりないので元アニメみてない人にはよくわからないと思われ。面白いかどうかは原作見てるかによるところも大きいんだけど基本的に忠実に実写化した駄目な感じ(反語)の作品なので大作を目的にするんだとNGだと思う。さて前評判的に色々あった深キョンはちょっと声に違和感が残るものの実に好演してて、主役二人はまあ別に誰がやってもいいんじゃないかなな感じなんですが、一番よかったのはボヤッキーで、なんていうか違和感が全然ない、意味がわからないレベルで本当にない、びっくり。あと他には普通にシモネタなので子供はみないほうがよいでしょう、っていうかR12くらいつけたほうがよかったんじゃないだろうか。それとは別途思ったのが、そういえばヤッターマンって別にメカにのって闘うわけでもなく、さらにメカが殴り倒すわけでもなく、メカが作る大量の小型ロボットが敵を倒すという変なロボットアニメなんだなと。よく考えると原作もギャグテイストでそもそも花とか爽快感とかないわけだし、原作好きならこれでいいんじゃないかと思わなくもない。というかロボット映画のスっきり爽快作にするには原作的に無理だとオモタ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヤッターマン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメを真面目に実写化(ｗ)",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/マーリー 世界一おバカな犬が教えてくれたこと_2009-04-12.md",
+      "title": "マーリー 世界一おバカな犬が教えてくれたこと",
+      "review_date": "2009-04-12 08:00:23",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "デビッド・フランケル"
+        ],
+        "cast": [
+          "オーウェン・ウィルソン",
+          "ジェニファー・アニストン",
+          "エリック・デイン",
+          "アラン・アーキン",
+          "キャスリーン・ターナー"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ",
+          "ファミリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "まーりーせかいいちおばかないぬがおしえてくれたこと",
+        "release_year": 2009,
+        "directors": [
+          "デビッド・フランケル"
+        ],
+        "cast": [
+          "オーウェン・ウィルソン",
+          "ジェニファー・アニストン",
+          "エリック・デイン",
+          "アラン・アーキン",
+          "キャスリーン・ターナー"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ",
+          "ファミリー"
+        ],
+        "synopsis": "子育ての予行演習に犬を飼い始めた新婚夫婦が、やんちゃなマーリーに振り回される。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "犬映画って年に何本かあるわけですがなんとなく犬映画っていうと身構えてしまう。なんていうか一般に善意の押し付けが激しい作品が多いし。それでやけに身構えてみたんですが本作は案外そんなこともなく、普通のコメディ的ファミリードラマで肩透かした。っていうかそもそもマーリーはそれほどお馬鹿な感じでもなくて、普通の面白げなコメディで、犬が好きならなお面白そうっていうお気楽な感じかも。っていう感じで途中くらいまでは普通だったんだけど最後の方になるにつれてどことなくgdgdになったような気がしなくもない。更年期と育児ストレスはやっぱりよくないんだ多分。メンバー(子供)が増えて家族が夫婦だけじゃなくなってどんどんファミリー要素が強くなり、もっと犬との絡みを増やさないと犬割合が下がってしまうような、でもファミリードラマとしては悪くはないのかも。ただそれなりに普通ぼかしそうな部分をちゃんと描いてたのはいい感じ、なんですがなんとなく犬映画で見まがえますぎてあんまり楽しめなかった気がしなくもない(なんか犬ってだけで結構トラウマだな)のでホームコメディと思って見るとよいです。結局仕事はどうなったのか気になる部分ですが。\n",
+        "title": "マーリー 世界一おバカな犬が教えてくれたこと",
+        "short_review": "犬フィルター作動中。"
+      },
+      "article_sha256_before": "e0849cfeaaf3f5030d68e0ba5d451a4c6f60cd2f7d359d77a17770ea083a9a9c",
+      "article_sha256_after": "98c99108f14b64866e510c8a32b424a037c7fd556fb2b72ea9f5d26988befb18",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "まーりーせかいいちおばかないぬがおしえてくれたこと",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-c33c8d286660d0f8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-27",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-c33c8d286660d0f8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デビッド・フランケル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-c33c8d286660d0f8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "オーウェン・ウィルソン\nジェニファー・アニストン\nエリック・デイン\nアラン・アーキン\nキャスリーン・ターナー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-c33c8d286660d0f8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nコメディ\nファミリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-c33c8d286660d0f8-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "子育ての予行演習に犬を飼い始めた新婚夫婦が、やんちゃなマーリーに振り回される。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "犬映画って年に何本かあるわけですがなんとなく犬映画っていうと身構えてしまう。なんていうか一般に善意の押し付けが激しい作品が多いし。それでやけに身構えてみたんですが本作は案外そんなこともなく、普通のコメディ的ファミリードラマで肩透かした。っていうかそもそもマーリーはそれほどお馬鹿な感じでもなくて、普通の面白げなコメディで、犬が好きならなお面白そうっていうお気楽な感じかも。っていう感じで途中くらいまでは普通だったんだけど最後の方になるにつれてどことなくgdgdになったような気がしなくもない。更年期と育児ストレスはやっぱりよくないんだ多分。メンバー(子供)が増えて家族が夫婦だけじゃなくなってどんどんファミリー要素が強くなり、もっと犬との絡みを増やさないと犬割合が下がってしまうような、でもファミリードラマとしては悪くはないのかも。ただそれなりに普通ぼかしそうな部分をちゃんと描いてたのはいい感じ、なんですがなんとなく犬映画で見まがえますぎてあんまり楽しめなかった気がしなくもない(なんか犬ってだけで結構トラウマだな)のでホームコメディと思って見るとよいです。結局仕事はどうなったのか気になる部分ですが。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マーリー 世界一おバカな犬が教えてくれたこと",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "犬フィルター作動中。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/13日の金曜日_2009-04-08.md",
+      "title": "13日の金曜日",
+      "review_date": "2009-04-08 02:53:58",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "マーカス・ニスペル"
+        ],
+        "cast": [
+          "ジャレッド・パダレッキ",
+          "ダニエル・パナベイカー",
+          "アマンダ・リゲッティ",
+          "アーロン・ヨー",
+          "ジョナサン・サドウスキー",
+          "トラビス・バン・ウィンクル"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "13にちのきんようび",
+        "release_year": 2009,
+        "directors": [
+          "マーカス・ニスペル"
+        ],
+        "cast": [
+          "ジャレッド・パダレッキ",
+          "ダニエル・パナベイカー",
+          "アマンダ・リゲッティ",
+          "アーロン・ヨー",
+          "ジョナサン・サドウスキー",
+          "トラビス・バン・ウィンクル"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "行方不明の妹を探して湖を訪れた青年が、警告をよそに殺人鬼ジェイソンの領域へ入る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "そこから始まるのか、という点で冒頭がちょっと面白かったんだけれども、後はわりと普通のジェイソンな感じでそれなりのバリエーションで色々死につつそれなりに面白かったんだけどまぁ普通の13金？って感じ。1のリメイクではないし、目新しさはそんなにない。ただ被害者キャラクタの個性がわりと豊富だったのでその辺が面白かったかなぁ、あんまり殺され方に影響されてなかったけど。ジェイソンの殺人シーンとは別に若者たちがイザコザやってるっていう設定はそれなりに面白かったんだがかといってそこまでエキサイトするわけでもないんだよなぁ。最近のリメイクラッシュの中でもそんなに光るほうではないような気がする、なんていうかジェイソンっていうと他のと比べると抗しきれない力っていうか斧or素手暴力的なイメージなんだけどそこまでパワフルでもなくて、実在レスラー使うとかやたらジェイソンデカイとかいう設定もなくやたら身近に痛そうなわけでもなく。って考えると不気味さが異常だったテキチェンほどのインパクトもないわけで。リメイクとしてはイマイチ光らないものの、でもまぁ懐かしかったのでそれはそれでよし。最近金ローでもやってくれないしねぇ。\n",
+        "title": "13日の金曜日",
+        "short_review": "案外普通。"
+      },
+      "article_sha256_before": "e4da956fe2c6d3d9e0d9e6c5c3628faa290a3444ea5925f19f11f1145eff7101",
+      "article_sha256_after": "5836ac040b026466811970e78334edc37eb3366b0cbdc9bebacd1b99bb7151bb",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "13にちのきんようび",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-48c44333eb25c66c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-13",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-48c44333eb25c66c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マーカス・ニスペル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-48c44333eb25c66c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャレッド・パダレッキ\nダニエル・パナベイカー\nアマンダ・リゲッティ\nアーロン・ヨー\nジョナサン・サドウスキー\nトラビス・バン・ウィンクル",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-48c44333eb25c66c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-48c44333eb25c66c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "行方不明の妹を探して湖を訪れた青年が、警告をよそに殺人鬼ジェイソンの領域へ入る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "そこから始まるのか、という点で冒頭がちょっと面白かったんだけれども、後はわりと普通のジェイソンな感じでそれなりのバリエーションで色々死につつそれなりに面白かったんだけどまぁ普通の13金？って感じ。1のリメイクではないし、目新しさはそんなにない。ただ被害者キャラクタの個性がわりと豊富だったのでその辺が面白かったかなぁ、あんまり殺され方に影響されてなかったけど。ジェイソンの殺人シーンとは別に若者たちがイザコザやってるっていう設定はそれなりに面白かったんだがかといってそこまでエキサイトするわけでもないんだよなぁ。最近のリメイクラッシュの中でもそんなに光るほうではないような気がする、なんていうかジェイソンっていうと他のと比べると抗しきれない力っていうか斧or素手暴力的なイメージなんだけどそこまでパワフルでもなくて、実在レスラー使うとかやたらジェイソンデカイとかいう設定もなくやたら身近に痛そうなわけでもなく。って考えると不気味さが異常だったテキチェンほどのインパクトもないわけで。リメイクとしてはイマイチ光らないものの、でもまぁ懐かしかったのでそれはそれでよし。最近金ローでもやってくれないしねぇ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "13日の金曜日",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "案外普通。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ドラえもん 新・のび太の宇宙開拓史_2009-04-04.md",
+      "title": "ドラえもん 新・のび太の宇宙開拓史",
+      "review_date": "2009-04-04 00:55:16",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "楠葉宏三",
+          "腰繁男"
+        ],
+        "cast": [
+          "水田わさび",
+          "大原めぐみ",
+          "木村昴",
+          "関智一",
+          "かかずゆみ",
+          "千秋",
+          "櫻井智",
+          "佐久間レイ",
+          "アヤカ・ウィルソン",
+          "徳井義実",
+          "福田充徳",
+          "若田光一",
+          "香里奈"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "どらえもんしんのびたのうちゅうかいたくし",
+        "release_year": 2009,
+        "directors": [
+          "楠葉宏三",
+          "腰繁男"
+        ],
+        "cast": [
+          "水田わさび",
+          "大原めぐみ",
+          "木村昴",
+          "関智一",
+          "かかずゆみ",
+          "千秋",
+          "櫻井智",
+          "佐久間レイ",
+          "アヤカ・ウィルソン",
+          "徳井義実",
+          "福田充徳",
+          "若田光一",
+          "香里奈"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ],
+        "synopsis": "部屋の畳の下が遠い星とつながり、のび太たちは豊かな自然に暮らす人々と交流する。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "劇場版2作目のリメイクで、元作品は結構好きだったんですがなんだか全然違う作品に思えるのは何故なんだろう。ストーリーは確かに同じような感じなのだが。さて新ドラえもん映画は環境配慮なスローガンなんですが、本作でも地球の空気が悪すぎることを冒頭で殊更アピールするわりにその後のストーリー自体にはあまり絡まないという空周りから始まります。その後もストーリーは淡々と進み、ガルタイト鉱業をやっつけるという話なんですが、一番の問題は危機感が全然ないことだろうか。のび太達はピンチに陥ったりするんだけれども、全然ピンチ感がない。多分映画の間合いのとり方が微妙なのが作品全体にわたっているんだけど、なんでこんなシーンをよけいに写してるんだろうとか、なんとなく冗長な部分が多いんですよね。こういうのって戦闘(?)映画には禁物で、特に本作のようなテーマが単一なシンプルストーリーだと緊迫感がないのって致命的に思える。さらに致命的なのがジャイアンとかスネオの存在のとって付けた感、これは本当にどうかと思うしロップル君達もなんとなく親しみを覚えない。多分のび太が単独で行動しすぎでロップル君やジャイアン達との絡みがほとんどないままストーリーが進むんだ。そんなのび太に対してキャラデザ違うんじゃないかと思うような男気溢れるギラーミン(なんかやけに浮いててかっこいいぞ！)が対峙するわけで、なんか他のキャラが益々霞む。んでさらに本作のテーマをあげればSFなところとあとのび太が西部劇でカッコイイ！っていうあたりなんですがのび太のかっこよさもあまり描かれず普通に撃ってもてはやされてるだけな感じなので、益々ギラーミン萌えというよくわからないテンションである。そんなわけで全体的にイマイチ、旧作の期待感も大きかったのかもしれない。あと声優が2人ほど呂律が回ってなかった(どうなのそれ)。やたら柔らかいキャラの動きは好きですが。\n",
+        "title": "ドラえもん 新・のび太の宇宙開拓史",
+        "short_review": "うーんやっぱりワクワクしない。"
+      },
+      "article_sha256_before": "c70dc035e494653438f3fcee8287eabaf72821b06ab01817159ce566ee487cb9",
+      "article_sha256_after": "9e12013f33e1561f8d7d2823fe3a4a70bf7657ace4a5d315864dadf290f2fd86",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どらえもんしんのびたのうちゅうかいたくし",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-b4ecf88b9974b0e2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-07",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-b4ecf88b9974b0e2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "楠葉宏三\n腰繁男",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-b4ecf88b9974b0e2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "水田わさび\n大原めぐみ\n木村昴\n関智一\nかかずゆみ\n千秋\n櫻井智\n佐久間レイ\nアヤカ・ウィルソン\n徳井義実\n福田充徳\n若田光一\n香里奈",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-b4ecf88b9974b0e2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nSF\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-b4ecf88b9974b0e2-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "部屋の畳の下が遠い星とつながり、のび太たちは豊かな自然に暮らす人々と交流する。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "劇場版2作目のリメイクで、元作品は結構好きだったんですがなんだか全然違う作品に思えるのは何故なんだろう。ストーリーは確かに同じような感じなのだが。さて新ドラえもん映画は環境配慮なスローガンなんですが、本作でも地球の空気が悪すぎることを冒頭で殊更アピールするわりにその後のストーリー自体にはあまり絡まないという空周りから始まります。その後もストーリーは淡々と進み、ガルタイト鉱業をやっつけるという話なんですが、一番の問題は危機感が全然ないことだろうか。のび太達はピンチに陥ったりするんだけれども、全然ピンチ感がない。多分映画の間合いのとり方が微妙なのが作品全体にわたっているんだけど、なんでこんなシーンをよけいに写してるんだろうとか、なんとなく冗長な部分が多いんですよね。こういうのって戦闘(?)映画には禁物で、特に本作のようなテーマが単一なシンプルストーリーだと緊迫感がないのって致命的に思える。さらに致命的なのがジャイアンとかスネオの存在のとって付けた感、これは本当にどうかと思うしロップル君達もなんとなく親しみを覚えない。多分のび太が単独で行動しすぎでロップル君やジャイアン達との絡みがほとんどないままストーリーが進むんだ。そんなのび太に対してキャラデザ違うんじゃないかと思うような男気溢れるギラーミン(なんかやけに浮いててかっこいいぞ！)が対峙するわけで、なんか他のキャラが益々霞む。んでさらに本作のテーマをあげればSFなところとあとのび太が西部劇でカッコイイ！っていうあたりなんですがのび太のかっこよさもあまり描かれず普通に撃ってもてはやされてるだけな感じなので、益々ギラーミン萌えというよくわからないテンションである。そんなわけで全体的にイマイチ、旧作の期待感も大きかったのかもしれない。あと声優が2人ほど呂律が回ってなかった(どうなのそれ)。やたら柔らかいキャラの動きは好きですが。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラえもん 新・のび太の宇宙開拓史",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うーんやっぱりワクワクしない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/チェンジリング_2009-03-29.md",
+      "title": "チェンジリング",
+      "review_date": "2009-03-29 12:31:13",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "クリント・イーストウッド"
+        ],
+        "cast": [
+          "アンジェリーナ・ジョリー",
+          "ガトリン・グリフィス",
+          "ジョン・マルコビッチ",
+          "コルム・フィオール",
+          "デボン・コンティ",
+          "ジェフリー・ドノバン",
+          "マイケル・ケリー",
+          "ジェイソン・バトラー・ハーナー",
+          "エイミー・ライアン",
+          "ジェフリー・ピアソン",
+          "エディ・オルダーソン"
+        ],
+        "genres": [
+          "ドラマ",
+          "サスペンス",
+          "犯罪"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ちぇんじりんぐ",
+        "release_year": 2009,
+        "directors": [
+          "クリント・イーストウッド"
+        ],
+        "cast": [
+          "アンジェリーナ・ジョリー",
+          "ガトリン・グリフィス",
+          "ジョン・マルコビッチ",
+          "コルム・フィオール",
+          "デボン・コンティ",
+          "ジェフリー・ドノバン",
+          "マイケル・ケリー",
+          "ジェイソン・バトラー・ハーナー",
+          "エイミー・ライアン",
+          "ジェフリー・ピアソン",
+          "エディ・オルダーソン"
+        ],
+        "genres": [
+          "ドラマ",
+          "サスペンス",
+          "犯罪"
+        ],
+        "synopsis": "行方不明の息子と再会した母親は、警察が連れてきた少年が別人だと訴え、真相を追う。",
+        "rating": 3.9,
+        "rating_display": "3.9点",
+        "body": "主演のクリスティンがアンジェリーナ・ジョリーなんですが、いつものバイオレンスな雰囲気とは打って変わって息子を探す母親を好演しててちょっと驚き。いつのまに演技派になったんだろう？と思いつつも容赦ないシワシワメイクが益々臨場感UP↑。さてストーリーについて、有体に言えば子供を取り替えられた母親が警察と闘う話なんですが、母親が基本的には警察と闘うんでなく協力してもらいたいというスタイルな部分が面白い。普通なら勇猛果敢な母親が権力に向かって闘争する映画のほうが作りやすそうだけど、これは逆で寧ろクリスティンはなるべく争いごとを起こさずに穏便に解決しようとするんだ。それは多分父親が箱を捨てて逃げていったことと息子に言い聞かせてたことと繋がってるし、だからこそ最後が効果的に描かれている。とはいっても始終基本的にはとても静かで、どこか色あせたLAと、いいタイミングでいつの間にか流れているBGMのせいか全体として凄く纏まった雰囲気の作品です。落ち着いた雰囲気なのは子供がいなくなったのに感情的に怒鳴ったりしないクリスティンの描き方にもあるし、凄惨なシーンをあまり具体的に描かなかった部分も大きいと思われ。この映画で一番好みな部分は出てくる登場人物が全てどこか不確定に胡散臭い部分で、そういう意味で最後まで誰を信じていいのかよくわからないような、不安定な部分が結構好みかもしれない。映画見てるとこいつを信じればいいのに馬鹿だなｧと思ったりすることはよくあるんだけどこの作品ではそういうのがなくて、色んな思惑が透けて見える部分に完全な正義とかそういう視点じゃない部分がよい。\n",
+        "title": "チェンジリング",
+        "short_review": "イーストウッドだったのかー。"
+      },
+      "article_sha256_before": "53977c605077e422e18b97cd801d3015852992eb9db67d4e59fe61f972b114de",
+      "article_sha256_after": "5d5ab589cd2940588fd5e2f5f669112b04e6a1ef336805b4e1736199235db748",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちぇんじりんぐ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-f36db3ec645be80b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-20",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-f36db3ec645be80b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリント・イーストウッド",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-f36db3ec645be80b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンジェリーナ・ジョリー\nガトリン・グリフィス\nジョン・マルコビッチ\nコルム・フィオール\nデボン・コンティ\nジェフリー・ドノバン\nマイケル・ケリー\nジェイソン・バトラー・ハーナー\nエイミー・ライアン\nジェフリー・ピアソン\nエディ・オルダーソン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-f36db3ec645be80b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nサスペンス\n犯罪",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-f36db3ec645be80b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "行方不明の息子と再会した母親は、警察が連れてきた少年が別人だと訴え、真相を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.9",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.9",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "主演のクリスティンがアンジェリーナ・ジョリーなんですが、いつものバイオレンスな雰囲気とは打って変わって息子を探す母親を好演しててちょっと驚き。いつのまに演技派になったんだろう？と思いつつも容赦ないシワシワメイクが益々臨場感UP↑。さてストーリーについて、有体に言えば子供を取り替えられた母親が警察と闘う話なんですが、母親が基本的には警察と闘うんでなく協力してもらいたいというスタイルな部分が面白い。普通なら勇猛果敢な母親が権力に向かって闘争する映画のほうが作りやすそうだけど、これは逆で寧ろクリスティンはなるべく争いごとを起こさずに穏便に解決しようとするんだ。それは多分父親が箱を捨てて逃げていったことと息子に言い聞かせてたことと繋がってるし、だからこそ最後が効果的に描かれている。とはいっても始終基本的にはとても静かで、どこか色あせたLAと、いいタイミングでいつの間にか流れているBGMのせいか全体として凄く纏まった雰囲気の作品です。落ち着いた雰囲気なのは子供がいなくなったのに感情的に怒鳴ったりしないクリスティンの描き方にもあるし、凄惨なシーンをあまり具体的に描かなかった部分も大きいと思われ。この映画で一番好みな部分は出てくる登場人物が全てどこか不確定に胡散臭い部分で、そういう意味で最後まで誰を信じていいのかよくわからないような、不安定な部分が結構好みかもしれない。映画見てるとこいつを信じればいいのに馬鹿だなｧと思ったりすることはよくあるんだけどこの作品ではそういうのがなくて、色んな思惑が透けて見える部分に完全な正義とかそういう視点じゃない部分がよい。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チェンジリング",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "イーストウッドだったのかー。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/甲虫王者ムシキング　スーパーバトルムービー　闇の改造甲虫_2009-03-26.md",
+      "title": "甲虫王者ムシキング　スーパーバトルムービー　闇の改造甲虫",
+      "review_date": "2009-03-26 11:28:15",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "水崎淳平"
+        ],
+        "cast": [
+          "進藤尚美",
+          "堀井真吾",
+          "佐藤正治",
+          "塚地武雅",
+          "鈴木拓"
+        ],
+        "genres": [
+          "アニメ",
+          "冒険",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "こうちゅうおうじゃむしきんぐすーぱーばとるむーびーやみのかいぞうこうちゅう",
+        "release_year": 2007,
+        "directors": [
+          "水崎淳平"
+        ],
+        "cast": [
+          "進藤尚美",
+          "堀井真吾",
+          "佐藤正治",
+          "塚地武雅",
+          "鈴木拓"
+        ],
+        "genres": [
+          "アニメ",
+          "冒険",
+          "ファンタジー"
+        ],
+        "synopsis": "妖精ポポと甲虫たちが暮らす森に、闇の妖精アダーに操られた甲虫たちが襲いかかる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "意外と映像が綺麗でそれなりに面白かった。虫を案外グロくなく魅せるというのはそれなりに難しいんじゃないかと思わなくもないのだけど、その辺は案外オッケー。そして意外にも綺麗なセルシェーディングで驚き。バトルもシンプルな技が多いながらもそれなりに白熱してたりする、子供向けではあるけれども普通に子供が見て面白いんではなかろうか。大人が見ると子供向けだなあと好感を抱きそうな感じです、大人が単体で見るのにお勧めするわけではないが昨今のドラえもんとか見ると変にこねくり回すよりずっと好感が持てる。あんま本旨とは関係ないんだけどポポが虫を呼ぶときスジブトとかリッキーとか種類名で呼ぶんですよね、こんにちはアゲハチョウみたいな。同じ虫がたくさんでてきたらどうするんだろう。\n",
+        "title": "甲虫王者ムシキング スーパーバトルムービー 闇の改造甲虫",
+        "short_review": "意外と３D綺麗。"
+      },
+      "article_sha256_before": "fe2505108d69a78391532c7ee05d8bea5643d6312e661f44850844f95a5bcdcd",
+      "article_sha256_after": "4027e19baa7c0d1b254887d95bc32a1236ba760921836e32fbc00c01d12fa850",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こうちゅうおうじゃむしきんぐすーぱーばとるむーびーやみのかいぞうこうちゅう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-814bba979ed2f24c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-03-21",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-814bba979ed2f24c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "水崎淳平",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-814bba979ed2f24c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "進藤尚美\n堀井真吾\n佐藤正治\n塚地武雅\n鈴木拓",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-814bba979ed2f24c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\n冒険\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-814bba979ed2f24c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妖精ポポと甲虫たちが暮らす森に、闇の妖精アダーに操られた甲虫たちが襲いかかる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "意外と映像が綺麗でそれなりに面白かった。虫を案外グロくなく魅せるというのはそれなりに難しいんじゃないかと思わなくもないのだけど、その辺は案外オッケー。そして意外にも綺麗なセルシェーディングで驚き。バトルもシンプルな技が多いながらもそれなりに白熱してたりする、子供向けではあるけれども普通に子供が見て面白いんではなかろうか。大人が見ると子供向けだなあと好感を抱きそうな感じです、大人が単体で見るのにお勧めするわけではないが昨今のドラえもんとか見ると変にこねくり回すよりずっと好感が持てる。あんま本旨とは関係ないんだけどポポが虫を呼ぶときスジブトとかリッキーとか種類名で呼ぶんですよね、こんにちはアゲハチョウみたいな。同じ虫がたくさんでてきたらどうするんだろう。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "甲虫王者ムシキング スーパーバトルムービー 闇の改造甲虫",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "意外と３D綺麗。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/釣りキチ三平_2009-03-20.md",
+      "title": "釣りキチ三平",
+      "review_date": "2009-03-20 01:33:22",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "滝田洋二郎"
+        ],
+        "cast": [
+          "須賀健太",
+          "香椎由宇",
+          "塚本高史",
+          "渡瀬恒彦",
+          "土屋太鳳",
+          "萩原聖人",
+          "小宮泰孝",
+          "志村東吾",
+          "螢雪次朗"
+        ],
+        "genres": [
+          "ドラマ",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "つりきちさんぺい",
+        "release_year": 2009,
+        "directors": [
+          "滝田洋二郎"
+        ],
+        "cast": [
+          "須賀健太",
+          "香椎由宇",
+          "塚本高史",
+          "渡瀬恒彦",
+          "土屋太鳳",
+          "萩原聖人",
+          "小宮泰孝",
+          "志村東吾",
+          "螢雪次朗"
+        ],
+        "genres": [
+          "ドラマ",
+          "冒険"
+        ],
+        "synopsis": "釣りの腕を持つ少年三平が、プロの釣り師から聞いた巨大魚の伝説を確かめに谷へ向かう。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "なんだかよくわからないがこの映画の見所はすごいCGっていう噂だったんだ。釣りの映画にCGって何ぞと思っていたわけで。で、最初のほうは田舎の暮らしから始まるんです。三平君が釣りをする、須賀健太君は相変わらずの好演なんですが、方言が胡散臭くてちょっと浮いてる。方言自体はうまいと思うんですが結構な東北弁ってスクリーンで見ると普段耳にしてる現代日本語とかけ離れてて(失礼)方言自体がすごく浮くんだ。あとキャストによって方言の巻き具合が違う部分もなんだか違和感を感じつつ(どうせなら方言度合いを統一すればいいのに)、うーんまぁ子供向けだよね、と思いながらもわりとクライマックス近くからなんか神展開だった。なんというか釣ったイワナのCGっぷりが異常。なんかそれまではいろいろ突っ込みどころはあるにしろ普通の釣りドラマとして展開してたんですが最後に唐突にドラマからアニメになってしまった感。まあぶっちゃけこっちのほうが面白いとは思う。よく考えたらそもそも名前とかスッ飛んでるし(三平三平(名字も名前も三平なんだｗ)とか三平平とか鮎川魚紳とかなんか虐待じゃないかと思われるネーミングずらり)そもそもなんとなく全体にイタイ雰囲気はあふれてたわけで。結局鑑賞後感は妙にスっきりしてしまったんですが面白いかというと悩ましいところ。釣りというよりは登山映画？\n",
+        "title": "釣りキチ三平",
+        "short_review": "CGが・・・。"
+      },
+      "article_sha256_before": "4cdf76c8ef8979d124d076a591f5f256b0f2beff107312bca261629c86499ee6",
+      "article_sha256_after": "0f7020d371916e1d2f2f6771b472b956f94bf8f7c974701fd12a1dac4cf97ce4",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "つりきちさんぺい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-bc25f5d64019bc9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-20",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-bc25f5d64019bc9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "滝田洋二郎",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-bc25f5d64019bc9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "須賀健太\n香椎由宇\n塚本高史\n渡瀬恒彦\n土屋太鳳\n萩原聖人\n小宮泰孝\n志村東吾\n螢雪次朗",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-bc25f5d64019bc9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-bc25f5d64019bc9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "釣りの腕を持つ少年三平が、プロの釣り師から聞いた巨大魚の伝説を確かめに谷へ向かう。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんだかよくわからないがこの映画の見所はすごいCGっていう噂だったんだ。釣りの映画にCGって何ぞと思っていたわけで。で、最初のほうは田舎の暮らしから始まるんです。三平君が釣りをする、須賀健太君は相変わらずの好演なんですが、方言が胡散臭くてちょっと浮いてる。方言自体はうまいと思うんですが結構な東北弁ってスクリーンで見ると普段耳にしてる現代日本語とかけ離れてて(失礼)方言自体がすごく浮くんだ。あとキャストによって方言の巻き具合が違う部分もなんだか違和感を感じつつ(どうせなら方言度合いを統一すればいいのに)、うーんまぁ子供向けだよね、と思いながらもわりとクライマックス近くからなんか神展開だった。なんというか釣ったイワナのCGっぷりが異常。なんかそれまではいろいろ突っ込みどころはあるにしろ普通の釣りドラマとして展開してたんですが最後に唐突にドラマからアニメになってしまった感。まあぶっちゃけこっちのほうが面白いとは思う。よく考えたらそもそも名前とかスッ飛んでるし(三平三平(名字も名前も三平なんだｗ)とか三平平とか鮎川魚紳とかなんか虐待じゃないかと思われるネーミングずらり)そもそもなんとなく全体にイタイ雰囲気はあふれてたわけで。結局鑑賞後感は妙にスっきりしてしまったんですが面白いかというと悩ましいところ。釣りというよりは登山映画？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "釣りキチ三平",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "CGが・・・。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/DRAGONBALL EVOLUTION_2009-03-17.md",
+      "title": "DRAGONBALL EVOLUTION",
+      "review_date": "2009-03-17 09:34:03",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ジェームズ・ウォン"
+        ],
+        "cast": [
+          "ジャスティン・チャットウィン",
+          "エミー・ロッサム",
+          "チョウ・ユンファ",
+          "ジェームズ・マースターズ",
+          "田村英里子",
+          "ジェイミー・チャン",
+          "ジューン・パーク",
+          "ランダル・ダク・キム",
+          "関めぐみ"
+        ],
+        "genres": [
+          "アクション",
+          "冒険",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "どらごんぼーるえぼりゅーしょん",
+        "release_year": 2009,
+        "directors": [
+          "ジェームズ・ウォン"
+        ],
+        "cast": [
+          "ジャスティン・チャットウィン",
+          "エミー・ロッサム",
+          "チョウ・ユンファ",
+          "ジェームズ・マースターズ",
+          "田村英里子",
+          "ジェイミー・チャン",
+          "ジューン・パーク",
+          "ランダル・ダク・キム",
+          "関めぐみ"
+        ],
+        "genres": [
+          "アクション",
+          "冒険",
+          "ファンタジー"
+        ],
+        "synopsis": "七つ集めると願いがかなうドラゴンボールをめぐり、悟空たちとピッコロが争奪戦を繰り広げる。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "巷で駄作だ駄作だと名高い本作ですが、そこまでひどくなくてガッカリ。仮にDBじゃないといわれたら、そもそも話自体テンプレ過ぎるのでただの駄作なんですが、変に真面目に作ろうとしてる部分がはっちゃけて大爆笑できるほどでもなく、まあ劣化パロディとしてみるとまあそこまでひどくないかとかいうそういうレベル。あんま笑えない。カメハメ波が回復呪文だとかそういうレビューは腐るほどありそうなのでおいといて、別視点でウケたところを紹介することにする、まあ一番ウケタのはオープニングの斜め上さとエンディングのピンク枕で寝てるピッコロなんだけど。さて他のレビューを見ると監督は原作見てないんじゃないかというレビューがあったんだが逆ではないか。だってヤムチャ普通に盗賊やってるし弱いし。じいちゃんの名前が悟飯とかDBのごく初期のネタが結構あるんだよね。あとピッコロがなぜか謎の女とずっと一緒にいるんですが、そいつの名前がマイなんだ。マイっていうとピラフと一緒にいたやつだよね、シュウはいなかったけど。→→→つまり本作に出てた青いのはピッコロじゃなくてピラフなんじゃなかろうか、というところで続編に期待(薄)。それにしても悟空が高校生っていう時点でまあそのへんはアレなんですが、なんていうか乳が揺れるだけのDOAもちゃんとストーリーつけて映画化されてますし、インスパイアでリスペクトなC級パロデイ物と考えると別によくあるレベルじゃね、みたいな。\n",
+        "title": "DRAGONBALL EVOLUTION",
+        "short_review": "ひどくなくてガッカリ。"
+      },
+      "article_sha256_before": "bc631cad10358b8e0189a87208767586225b0a0663b4bf81a823abf1b947bd65",
+      "article_sha256_after": "3cb977e8ff0c8a596381dea06fbf04a3639063fd09e62f65eb1da635c93c8c28",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どらごんぼーるえぼりゅーしょん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-2e8b2e90c4a61557-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-03-13",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-2e8b2e90c4a61557-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェームズ・ウォン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-2e8b2e90c4a61557-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャスティン・チャットウィン\nエミー・ロッサム\nチョウ・ユンファ\nジェームズ・マースターズ\n田村英里子\nジェイミー・チャン\nジューン・パーク\nランダル・ダク・キム\n関めぐみ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-2e8b2e90c4a61557-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-2e8b2e90c4a61557-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "七つ集めると願いがかなうドラゴンボールをめぐり、悟空たちとピッコロが争奪戦を繰り広げる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "巷で駄作だ駄作だと名高い本作ですが、そこまでひどくなくてガッカリ。仮にDBじゃないといわれたら、そもそも話自体テンプレ過ぎるのでただの駄作なんですが、変に真面目に作ろうとしてる部分がはっちゃけて大爆笑できるほどでもなく、まあ劣化パロディとしてみるとまあそこまでひどくないかとかいうそういうレベル。あんま笑えない。カメハメ波が回復呪文だとかそういうレビューは腐るほどありそうなのでおいといて、別視点でウケたところを紹介することにする、まあ一番ウケタのはオープニングの斜め上さとエンディングのピンク枕で寝てるピッコロなんだけど。さて他のレビューを見ると監督は原作見てないんじゃないかというレビューがあったんだが逆ではないか。だってヤムチャ普通に盗賊やってるし弱いし。じいちゃんの名前が悟飯とかDBのごく初期のネタが結構あるんだよね。あとピッコロがなぜか謎の女とずっと一緒にいるんですが、そいつの名前がマイなんだ。マイっていうとピラフと一緒にいたやつだよね、シュウはいなかったけど。→→→つまり本作に出てた青いのはピッコロじゃなくてピラフなんじゃなかろうか、というところで続編に期待(薄)。それにしても悟空が高校生っていう時点でまあそのへんはアレなんですが、なんていうか乳が揺れるだけのDOAもちゃんとストーリーつけて映画化されてますし、インスパイアでリスペクトなC級パロデイ物と考えると別によくあるレベルじゃね、みたいな。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "DRAGONBALL EVOLUTION",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ひどくなくてガッカリ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ザ・フライ２　二世誕生_2009-03-14.md",
+      "title": "ザ・フライ２　二世誕生",
+      "review_date": "2009-03-14 22:20:09",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1989,
+        "directors": [
+          "クリス・ウェイラス"
+        ],
+        "cast": [
+          "エリック・ストルツ",
+          "ダフネ・ズニーガ",
+          "リー・リチャードソン",
+          "ジョン・ゲッツ",
+          "フランク・C・ターナー",
+          "アン・マリー・リー",
+          "ゲイリー・チョーク",
+          "サフロン・ヘンダーソン",
+          "ハーレイ・クロス",
+          "マシュー・ムーア"
+        ],
+        "genres": [
+          "ホラー",
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざふらい2にせいたんじょう",
+        "release_year": 1989,
+        "directors": [
+          "クリス・ウェイラス"
+        ],
+        "cast": [
+          "エリック・ストルツ",
+          "ダフネ・ズニーガ",
+          "リー・リチャードソン",
+          "ジョン・ゲッツ",
+          "フランク・C・ターナー",
+          "アン・マリー・リー",
+          "ゲイリー・チョーク",
+          "サフロン・ヘンダーソン",
+          "ハーレイ・クロス",
+          "マシュー・ムーア"
+        ],
+        "genres": [
+          "ホラー",
+          "SF"
+        ],
+        "synopsis": "人間とハエの遺伝子を受け継ぐ少年が研究所で急成長し、父の残した転送実験に関わっていく。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "結構愛に溢れた作品で、造形はおいといてハエ男もなんだかそもそも気持ち悪くも怖くはなくて普通に共感できる(多分)作品になっている、犬とか結構感動もできちゃったり。そもそも徐々に変わってくっていう絶望感も葛藤もあんまりないので、面白さ的には１とは全く別物なのだけど、まあ普通の展開でありきたりだけどB級にしては悪くない、というかスピンオフものとしてはまあ面白いと思われ。っていうかクローネンバーグ自体がちょっと特殊ジャンルだと思うので1を期待して見ると多分外す。そうだなあどちらかというとデアデビルとかハルクに近い印象じゃなかろうか、ヒーローでは全然ないんだけどね。。他には１ができてから30年後の続編なので技術も新しい部分(ハエ男造形のアクション有)もあって結構面白いところもあるしハエ男自体じゃないグロさもそれなりにあるし。ただやっぱ１の救われなさ感がちょっと懐かしいなあと。\n",
+        "title": "ザ・フライ２ 二世誕生",
+        "short_review": "ホラーではない。"
+      },
+      "article_sha256_before": "0cb52da6d1af29fc36417094dee35eb16e1c45705ebd49a276022bee2f7dc430",
+      "article_sha256_after": "8f01ff0c629e6edd026cc4fde5ee523b479af6ca44ac9202c73e5381a669bcf4",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざふらい2にせいたんじょう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-8c3cf7de77dc3f33-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1989-05-03",
+              "year": "1989",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-8c3cf7de77dc3f33-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クリス・ウェイラス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-8c3cf7de77dc3f33-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エリック・ストルツ\nダフネ・ズニーガ\nリー・リチャードソン\nジョン・ゲッツ\nフランク・C・ターナー\nアン・マリー・リー\nゲイリー・チョーク\nサフロン・ヘンダーソン\nハーレイ・クロス\nマシュー・ムーア",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-8c3cf7de77dc3f33-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nSF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-8c3cf7de77dc3f33-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "人間とハエの遺伝子を受け継ぐ少年が研究所で急成長し、父の残した転送実験に関わっていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "結構愛に溢れた作品で、造形はおいといてハエ男もなんだかそもそも気持ち悪くも怖くはなくて普通に共感できる(多分)作品になっている、犬とか結構感動もできちゃったり。そもそも徐々に変わってくっていう絶望感も葛藤もあんまりないので、面白さ的には１とは全く別物なのだけど、まあ普通の展開でありきたりだけどB級にしては悪くない、というかスピンオフものとしてはまあ面白いと思われ。っていうかクローネンバーグ自体がちょっと特殊ジャンルだと思うので1を期待して見ると多分外す。そうだなあどちらかというとデアデビルとかハルクに近い印象じゃなかろうか、ヒーローでは全然ないんだけどね。。他には１ができてから30年後の続編なので技術も新しい部分(ハエ男造形のアクション有)もあって結構面白いところもあるしハエ男自体じゃないグロさもそれなりにあるし。ただやっぱ１の救われなさ感がちょっと懐かしいなあと。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ザ・フライ２ 二世誕生",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラーではない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/銀河鉄道999　エターナル・ファンタジー_2009-03-02.md",
+      "title": "銀河鉄道999　エターナル・ファンタジー",
+      "review_date": "2009-03-02 00:14:22",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1998,
+        "directors": [
+          "宇田鋼之介"
+        ],
+        "cast": [
+          "野沢雅子",
+          "池田昌子",
+          "肝付兼太",
+          "榊原良子",
+          "戸田恵子",
+          "日高のり子",
+          "たてかべ和也",
+          "梁田清之",
+          "皆口裕子",
+          "山寺宏一"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぎんがてつどう999えたーなるふぁんたじー",
+        "release_year": 1998,
+        "directors": [
+          "宇田鋼之介"
+        ],
+        "cast": [
+          "野沢雅子",
+          "池田昌子",
+          "肝付兼太",
+          "榊原良子",
+          "戸田恵子",
+          "日高のり子",
+          "たてかべ和也",
+          "梁田清之",
+          "皆口裕子",
+          "山寺宏一"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ],
+        "synopsis": "新たな支配者に捕らわれた鉄郎がメーテルと再会し、銀河鉄道999で再び宇宙へ旅立つ。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "改めて思うんだけど999って敵の名前は違うけどストーリー展開がどれも同じでどことなくサザエさんぽい印象になってきた今日この頃、だってさあ旅立つぞで終わっちゃうし。割と最近の作品なのに画像がそんなに新しくもないっていうのもあるけど、まあ原因は激しく投げっぱなしENDになってるせいもある。いや、その辺はわかってるんだけれどもなんとなく気がついたらまた出発ってなんだか終わらないなあというまあそれがロマンスなんですけどね。今作の見所は鉄郎がえらい不細工なところだろうか、もともと不細工なんだけどこの造形はどことなく頭蓋骨の形がおかしいんじゃないかと思ってみたり。それにしてもヘルマザリア無骨なデザインですね、いや別にいいんだけど一番印象に残ったのが「時間は夢を裏切らない」ってそういえば槙原と著作権でこないだもめてたなあとかそういうのな時点であんまり記憶に残らない作品だとは思う。でも一度ゆっくりまとめて漫画を読んでみたいかも。\n",
+        "title": "銀河鉄道999 エターナル・ファンタジー",
+        "short_review": "投げっぱなし系？"
+      },
+      "article_sha256_before": "3771fc02a6db87a1e77b73e0aa4b0a9d126d03bf4d69f27d9739f27a11ca64a4",
+      "article_sha256_after": "e070c440e195ad5df0436ebee7cdf0e7114ed0163295bf112ff5270ad6ff6a71",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぎんがてつどう999えたーなるふぁんたじー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-68460504c4f785f6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1998-03-07",
+              "year": "1998",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-68460504c4f785f6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "宇田鋼之介",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-68460504c4f785f6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "野沢雅子\n池田昌子\n肝付兼太\n榊原良子\n戸田恵子\n日高のり子\nたてかべ和也\n梁田清之\n皆口裕子\n山寺宏一",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-68460504c4f785f6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nSF\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-68460504c4f785f6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "新たな支配者に捕らわれた鉄郎がメーテルと再会し、銀河鉄道999で再び宇宙へ旅立つ。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "改めて思うんだけど999って敵の名前は違うけどストーリー展開がどれも同じでどことなくサザエさんぽい印象になってきた今日この頃、だってさあ旅立つぞで終わっちゃうし。割と最近の作品なのに画像がそんなに新しくもないっていうのもあるけど、まあ原因は激しく投げっぱなしENDになってるせいもある。いや、その辺はわかってるんだけれどもなんとなく気がついたらまた出発ってなんだか終わらないなあというまあそれがロマンスなんですけどね。今作の見所は鉄郎がえらい不細工なところだろうか、もともと不細工なんだけどこの造形はどことなく頭蓋骨の形がおかしいんじゃないかと思ってみたり。それにしてもヘルマザリア無骨なデザインですね、いや別にいいんだけど一番印象に残ったのが「時間は夢を裏切らない」ってそういえば槙原と著作権でこないだもめてたなあとかそういうのな時点であんまり記憶に残らない作品だとは思う。でも一度ゆっくりまとめて漫画を読んでみたいかも。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "銀河鉄道999 エターナル・ファンタジー",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "投げっぱなし系？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/カフーを待ちわびて_2009-02-22.md",
+      "title": "カフーを待ちわびて",
+      "review_date": "2009-02-22 23:13:29",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "中井庸友"
+        ],
+        "cast": [
+          "玉山鉄二",
+          "マイコ",
+          "勝地涼",
+          "尚玄",
+          "瀬名波孝子",
+          "宮川大輔",
+          "ほんこん",
+          "伊藤ゆみ",
+          "白石美帆",
+          "高岡早紀",
+          "沢村一樹"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かふーをまちわびて",
+        "release_year": 2009,
+        "directors": [
+          "中井庸友"
+        ],
+        "cast": [
+          "玉山鉄二",
+          "マイコ",
+          "勝地涼",
+          "尚玄",
+          "瀬名波孝子",
+          "宮川大輔",
+          "ほんこん",
+          "伊藤ゆみ",
+          "白石美帆",
+          "高岡早紀",
+          "沢村一樹"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ],
+        "synopsis": "沖縄の小島で雑貨屋を営む青年のもとに、見知らぬ女性から嫁にしてほしいとの手紙が届く。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "実際のところ最初のほうは結構寝てしまった。眠かったのもあるんだけど沖縄は眠くなる要素に溢れてる気がする。さて本作ですが恋愛小説大賞をとったという話なんだけど、こんなベタな話が昨今大賞をとるのがよくわからないんですが、原作は素晴らしいのかもしれない。さて、南の国の映画でふんわりとした日常を描いた作品としてはめがねとかがあるわけですが、例えばめがねだと島の人にとっての日常とやってきた人の日常の乖離が面白いなかでやけに日常に溢れながら結果としてなんかファンタジーっていうテイストなんですが、これは逆で妙に生臭いリゾート開発の中でふんわりしたファンタジー恋愛を篭めようというなんかこう、設定からして儚い幻影っていうか見るからに都会人が描く幻想っていう感じであんまり好みではない。そもそも色んな意味で現実感がないんだ、そこが好みとして分かれるところなんだろう。風景は綺麗だったがあまり沖縄っぽくもなく、リゾート開発で唐突に生臭いけれども主人公の明青に生活感(生計を立てているという意味で)もないからあんまり周りの人が困ってる感じにもみえないんですよね。この半リアルと半空想なギャップバランスがどうも気持ち悪い。ただあんまりこのへんシビアに描くとほんわか恋愛じゃないわけなんだが、そのへんのポジションがどうも好みではない。というかぶっちゃけマイコが美女じゃなければこんな得体の知れない女を家にあげたりはしないだろうし、玉鉄じゃなくてただのキモオタならすぐ出てくだろうとか思うような人は見ないほうがいいということだな。\n",
+        "title": "カフーを待ちわびて",
+        "short_review": "んー好きな人は好きそう。"
+      },
+      "article_sha256_before": "b4e0775eedcb91b5a9a86e7cdb2d77af90fc549a174f64e791e536e5dc46f9fc",
+      "article_sha256_after": "5c8d50b464e596787414a536f898e18c04c19fc6655009cc1758f1202a8b0198",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かふーをまちわびて",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-aa17fb8951e8dae4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-28",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-aa17fb8951e8dae4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中井庸友",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-aa17fb8951e8dae4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "玉山鉄二\nマイコ\n勝地涼\n尚玄\n瀬名波孝子\n宮川大輔\nほんこん\n伊藤ゆみ\n白石美帆\n高岡早紀\n沢村一樹",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-aa17fb8951e8dae4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋愛\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-aa17fb8951e8dae4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "沖縄の小島で雑貨屋を営む青年のもとに、見知らぬ女性から嫁にしてほしいとの手紙が届く。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "実際のところ最初のほうは結構寝てしまった。眠かったのもあるんだけど沖縄は眠くなる要素に溢れてる気がする。さて本作ですが恋愛小説大賞をとったという話なんだけど、こんなベタな話が昨今大賞をとるのがよくわからないんですが、原作は素晴らしいのかもしれない。さて、南の国の映画でふんわりとした日常を描いた作品としてはめがねとかがあるわけですが、例えばめがねだと島の人にとっての日常とやってきた人の日常の乖離が面白いなかでやけに日常に溢れながら結果としてなんかファンタジーっていうテイストなんですが、これは逆で妙に生臭いリゾート開発の中でふんわりしたファンタジー恋愛を篭めようというなんかこう、設定からして儚い幻影っていうか見るからに都会人が描く幻想っていう感じであんまり好みではない。そもそも色んな意味で現実感がないんだ、そこが好みとして分かれるところなんだろう。風景は綺麗だったがあまり沖縄っぽくもなく、リゾート開発で唐突に生臭いけれども主人公の明青に生活感(生計を立てているという意味で)もないからあんまり周りの人が困ってる感じにもみえないんですよね。この半リアルと半空想なギャップバランスがどうも気持ち悪い。ただあんまりこのへんシビアに描くとほんわか恋愛じゃないわけなんだが、そのへんのポジションがどうも好みではない。というかぶっちゃけマイコが美女じゃなければこんな得体の知れない女を家にあげたりはしないだろうし、玉鉄じゃなくてただのキモオタならすぐ出てくだろうとか思うような人は見ないほうがいいということだな。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カフーを待ちわびて",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "んー好きな人は好きそう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/グロテスク_2009-02-18.md",
+      "title": "グロテスク",
+      "review_date": "2009-02-18 23:11:24",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "白石晃士"
+        ],
+        "cast": [
+          "長澤つぐみ",
+          "川連廣明",
+          "大迫茂生"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぐろてすく",
+        "release_year": 2009,
+        "directors": [
+          "白石晃士"
+        ],
+        "cast": [
+          "長澤つぐみ",
+          "川連廣明",
+          "大迫茂生"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "初めてのデートをしていた二人が何者かに拉致され、見知らぬ地下室で拘束される。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "この監督の作品はノロイはわりと面白かったんだけど、以降売れなくてもいいや系の都市伝説B級を量産してて、このどこか片手間で作ったというかそんな受け狙いな感じがどうもあんまり好きじゃない。さて本編は拉致られて切られたりする話なんですが、あんまり面白くなかった。だってすげー展開もテンプレすぎるというかありきたりすぎるのにどうだ凄いだろう！っていうのが画面から出てるんだ。こういう映画を見に行く人はたいていホステルとか見てるだろうし、そういうのと比べなくてもありきたりで安っぽい上にそもそもグロくないような。別に殺人鬼側が多少ヲカシイのは別にいいんだけど、なんかもうここまで歯の浮くようなテンプレだと辛い。しかもありえないくらい半端なエロシーン入ってるし普通のAVのほうがよっぽど面白いのを作りそうな気がする。つかそもそも痛そうじゃないしあれじゃソッコー死んじゃうし、つかぶった切るだけって何が面白いのよそれみたいな。なんか作り物臭さすらしないような痛くなさそう感です。あとなんかどうでもいいようなシーンが1/3くらいしめてる。ただ微妙にマイナスがついてないのがラスト5分が結構斜め上で笑えたところか。わりと最後がカオスで面白かったんだけど、それにしてもあああっさりやっちゃうと面白みもなにもあったもんじゃありません罠。\n",
+        "title": "グロテスク",
+        "short_review": "なんかいまいち。"
+      },
+      "article_sha256_before": "bc080ebaa770c09cb8071f5376a9d5ff6a897cf56e2ee7a7765dc556983dfcd3",
+      "article_sha256_after": "275454c7e74cdadc88a71f1125558697981617957ea768ea244644a04eb6507e",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぐろてすく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d4a234ad0195f6d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-01-17",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d4a234ad0195f6d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "白石晃士",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d4a234ad0195f6d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "長澤つぐみ\n川連廣明\n大迫茂生",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d4a234ad0195f6d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d4a234ad0195f6d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "初めてのデートをしていた二人が何者かに拉致され、見知らぬ地下室で拘束される。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "この監督の作品はノロイはわりと面白かったんだけど、以降売れなくてもいいや系の都市伝説B級を量産してて、このどこか片手間で作ったというかそんな受け狙いな感じがどうもあんまり好きじゃない。さて本編は拉致られて切られたりする話なんですが、あんまり面白くなかった。だってすげー展開もテンプレすぎるというかありきたりすぎるのにどうだ凄いだろう！っていうのが画面から出てるんだ。こういう映画を見に行く人はたいていホステルとか見てるだろうし、そういうのと比べなくてもありきたりで安っぽい上にそもそもグロくないような。別に殺人鬼側が多少ヲカシイのは別にいいんだけど、なんかもうここまで歯の浮くようなテンプレだと辛い。しかもありえないくらい半端なエロシーン入ってるし普通のAVのほうがよっぽど面白いのを作りそうな気がする。つかそもそも痛そうじゃないしあれじゃソッコー死んじゃうし、つかぶった切るだけって何が面白いのよそれみたいな。なんか作り物臭さすらしないような痛くなさそう感です。あとなんかどうでもいいようなシーンが1/3くらいしめてる。ただ微妙にマイナスがついてないのがラスト5分が結構斜め上で笑えたところか。わりと最後がカオスで面白かったんだけど、それにしてもあああっさりやっちゃうと面白みもなにもあったもんじゃありません罠。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "グロテスク",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんかいまいち。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ヘルライド_2009-02-14.md",
+      "title": "ヘルライド",
+      "review_date": "2009-02-14 01:57:46",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "ラリー・ビショップ"
+        ],
+        "cast": [
+          "ラリー・ビショップ",
+          "マイケル・マドセン",
+          "エリック・バルフォー",
+          "レオノア・バレラ",
+          "デビッド・キャラダイン",
+          "ビニー・ジョーンズ",
+          "デニス・ホッパー"
+        ],
+        "genres": [
+          "アクション",
+          "犯罪"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "へるらいど",
+        "release_year": 2009,
+        "directors": [
+          "ラリー・ビショップ"
+        ],
+        "cast": [
+          "ラリー・ビショップ",
+          "マイケル・マドセン",
+          "エリック・バルフォー",
+          "レオノア・バレラ",
+          "デビッド・キャラダイン",
+          "ビニー・ジョーンズ",
+          "デニス・ホッパー"
+        ],
+        "genres": [
+          "アクション",
+          "犯罪"
+        ],
+        "synopsis": "対抗するグループに仲間を殺されたバイカーたちが、復讐を果たすための旅へ出る。",
+        "rating": 3.8,
+        "rating_display": "3.8点",
+        "body": "とりあえずヲッサンヤンキーがバイクに乗って銃をぶっぱなす映画ですがストーリーのないタランティーノ系で、ストーリーのないタランティーノ映画が好きな人じゃないとイマイチだと思う。私はといえばこういうのなんかなれてきたというか逆に馬鹿っぽいっていうか頭全然使わないあたりがかなり好みなんだけど、というか寧ろこの映画に何を期待していけというのか。こういうマヂで頭使わない感ってのがなんか癒し系です、明日のことなんて別にどうでもいいんだ。うん、すっきり爽快な気分にもなれないしグロくもないし見てよかったと思うわけでもなく、普通の意味でかっこよかったり痺れる憧れるゥもないのでえーとまあどーでもいー無駄な時間をエンジョイっていうか、別に見たから爽快とか面白いとかいうんでもないんだよなこういうの。ただなんかもうどうでもいい感じをエンジョイというかサザエさん見るようなものです。とりあえず出る男は全部チンピラで出る女は全部ビッチで男と女が同じ画面に写ると必ず半裸展開とかいうなんとなく北斗の拳な感じなんですが、全然やらしくないのがまたよしなのです。ただまあ実に意味がないのでバイク好きかタランティーノ的な意味なし映画が好きな人じゃないと駄目かもしれない。とりあえず凄く浪漫カッコイイ。\n",
+        "title": "ヘルライド",
+        "short_review": "馬鹿っぽくていい。"
+      },
+      "article_sha256_before": "0f29cb00174ba4d8bd560e7aa48ead175027767368166b233bd33be753f9cf61",
+      "article_sha256_after": "463eac10ed0bf936d5d0f96ee10dfc56df3bd0edf3c0946463984664e6be8b65",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "へるらいど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-54c5df9e8b633569-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-01-17",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-54c5df9e8b633569-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラリー・ビショップ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-54c5df9e8b633569-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラリー・ビショップ\nマイケル・マドセン\nエリック・バルフォー\nレオノア・バレラ\nデビッド・キャラダイン\nビニー・ジョーンズ\nデニス・ホッパー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-54c5df9e8b633569-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n犯罪",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-54c5df9e8b633569-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "対抗するグループに仲間を殺されたバイカーたちが、復讐を果たすための旅へ出る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とりあえずヲッサンヤンキーがバイクに乗って銃をぶっぱなす映画ですがストーリーのないタランティーノ系で、ストーリーのないタランティーノ映画が好きな人じゃないとイマイチだと思う。私はといえばこういうのなんかなれてきたというか逆に馬鹿っぽいっていうか頭全然使わないあたりがかなり好みなんだけど、というか寧ろこの映画に何を期待していけというのか。こういうマヂで頭使わない感ってのがなんか癒し系です、明日のことなんて別にどうでもいいんだ。うん、すっきり爽快な気分にもなれないしグロくもないし見てよかったと思うわけでもなく、普通の意味でかっこよかったり痺れる憧れるゥもないのでえーとまあどーでもいー無駄な時間をエンジョイっていうか、別に見たから爽快とか面白いとかいうんでもないんだよなこういうの。ただなんかもうどうでもいい感じをエンジョイというかサザエさん見るようなものです。とりあえず出る男は全部チンピラで出る女は全部ビッチで男と女が同じ画面に写ると必ず半裸展開とかいうなんとなく北斗の拳な感じなんですが、全然やらしくないのがまたよしなのです。ただまあ実に意味がないのでバイク好きかタランティーノ的な意味なし映画が好きな人じゃないと駄目かもしれない。とりあえず凄く浪漫カッコイイ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヘルライド",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "馬鹿っぽくていい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/オーストラリア_2009-02-06.md",
+      "title": "オーストラリア",
+      "review_date": "2009-02-06 00:04:28",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "バズ・ラーマン"
+        ],
+        "cast": [
+          "ニコール・キッドマン",
+          "ヒュー・ジャックマン",
+          "デビッド・ウェンハム",
+          "ブライアン・ブラウン",
+          "ジャック・トンプソン",
+          "デビッド・ガルピリル",
+          "ブランドン・ウォルターズ",
+          "ベン・メンデルソーン"
+        ],
+        "genres": [
+          "恋愛",
+          "冒険",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "おーすとらりあ",
+        "release_year": 2009,
+        "directors": [
+          "バズ・ラーマン"
+        ],
+        "cast": [
+          "ニコール・キッドマン",
+          "ヒュー・ジャックマン",
+          "デビッド・ウェンハム",
+          "ブライアン・ブラウン",
+          "ジャック・トンプソン",
+          "デビッド・ガルピリル",
+          "ブランドン・ウォルターズ",
+          "ベン・メンデルソーン"
+        ],
+        "genres": [
+          "恋愛",
+          "冒険",
+          "ドラマ"
+        ],
+        "synopsis": "夫を失った英国貴族の女性が、牧場を守るためカウボーイと牛の群れを連れて大陸を渡る。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "2時間半越えってのもあるんだけれども昔だったら幕間を入れるくらい前半後半でストーリーがわかれている。で、前半の展開としては恋愛要素が多すぎるんだけど、後半の為にはストーリー上確かに必要で、ストーリーとしては前半の西部劇っぽい感じは凄く好きなんですがそういうのの恋愛部分って時間の経過で上品にあらわすべきものなんじゃなかろうか。なんか微妙にそんな早く恋愛廻すと軽い付き合いにしか見えない、精神的な繋がりこそを深く描かないといけないんじゃない？この場合は。ただそこで軽く見せるのに貢献してるのがヒュー・ジャックマンなんだけど、この人絶対主役向きじゃないんだよな。なんというかそこはかとない生活臭が漂うというか目を奪うカリスマ性がないというか、なんか我ながら酷いことをかいてるんですが主役としてはスクリーンで光らないタイプだ(脇役は凄く上手いのに)。しかもニコール・キッドマンが何故かいい意味でレニー・ゼルヴィガー化してるので、二人してどこか生活感あふれてるんだよな、舞台とか周りの人々はあんまり生活感がないのに二人だけ妙に所帯臭い。周りの正義感溢れる神父とか神がかったキング・ジョージとか脇役のかっこよさを主役が引き立ててどうするみたいな。さてテーマとしては戦争あり牛追いありアボリジニ問題ありでてんこ盛りなんですが、悪く言えばどれも散漫で一本芯が入らなかった、よく言えばお気楽な見やすい仕上がりにはなっている。まあ3時間近くやるならこの軽さだともっと短くできたんじゃとか思わなくもないんだけれども、主演2人の演技感からしても娯楽大作になってしまった部分はやっぱり勿体無いと思う。オーストラリアの壮大な映像は確かに素晴らしいけれども看板になるほどではなかった。\n",
+        "title": "オーストラリア",
+        "short_review": "前半と、後半。"
+      },
+      "article_sha256_before": "44465737883155a2990b468c30caa43f8f427fc33d23444d56e1955fd1a20422",
+      "article_sha256_after": "374269264a1f986b0aed6e082a9aedf078105cdbb06ef767278af82ceee11e5a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "おーすとらりあ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-882a57654cc09d40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-28",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-882a57654cc09d40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "バズ・ラーマン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-882a57654cc09d40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ニコール・キッドマン\nヒュー・ジャックマン\nデビッド・ウェンハム\nブライアン・ブラウン\nジャック・トンプソン\nデビッド・ガルピリル\nブランドン・ウォルターズ\nベン・メンデルソーン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-882a57654cc09d40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋愛\n冒険\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-882a57654cc09d40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "夫を失った英国貴族の女性が、牧場を守るためカウボーイと牛の群れを連れて大陸を渡る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "2時間半越えってのもあるんだけれども昔だったら幕間を入れるくらい前半後半でストーリーがわかれている。で、前半の展開としては恋愛要素が多すぎるんだけど、後半の為にはストーリー上確かに必要で、ストーリーとしては前半の西部劇っぽい感じは凄く好きなんですがそういうのの恋愛部分って時間の経過で上品にあらわすべきものなんじゃなかろうか。なんか微妙にそんな早く恋愛廻すと軽い付き合いにしか見えない、精神的な繋がりこそを深く描かないといけないんじゃない？この場合は。ただそこで軽く見せるのに貢献してるのがヒュー・ジャックマンなんだけど、この人絶対主役向きじゃないんだよな。なんというかそこはかとない生活臭が漂うというか目を奪うカリスマ性がないというか、なんか我ながら酷いことをかいてるんですが主役としてはスクリーンで光らないタイプだ(脇役は凄く上手いのに)。しかもニコール・キッドマンが何故かいい意味でレニー・ゼルヴィガー化してるので、二人してどこか生活感あふれてるんだよな、舞台とか周りの人々はあんまり生活感がないのに二人だけ妙に所帯臭い。周りの正義感溢れる神父とか神がかったキング・ジョージとか脇役のかっこよさを主役が引き立ててどうするみたいな。さてテーマとしては戦争あり牛追いありアボリジニ問題ありでてんこ盛りなんですが、悪く言えばどれも散漫で一本芯が入らなかった、よく言えばお気楽な見やすい仕上がりにはなっている。まあ3時間近くやるならこの軽さだともっと短くできたんじゃとか思わなくもないんだけれども、主演2人の演技感からしても娯楽大作になってしまった部分はやっぱり勿体無いと思う。オーストラリアの壮大な映像は確かに素晴らしいけれども看板になるほどではなかった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "オーストラリア",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "前半と、後半。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/カプリコン・１_2009-01-31.md",
+      "title": "カプリコン・１",
+      "review_date": "2009-01-31 01:10:07",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1977,
+        "directors": [
+          "ピーター・ハイアムズ"
+        ],
+        "cast": [
+          "エリオット・グールド",
+          "ジェームズ・ブローリン",
+          "ブレンダ・バッカロ",
+          "サム・ウォーターストン",
+          "O・J・シンプソン",
+          "ハル・ホルブルック",
+          "デビッド・ハドルストン",
+          "デビッド・ドイル",
+          "カレン・ブラック",
+          "テリー・サバラス"
+        ],
+        "genres": [
+          "サスペンス",
+          "SF",
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かぷりこん1",
+        "release_year": 1977,
+        "directors": [
+          "ピーター・ハイアムズ"
+        ],
+        "cast": [
+          "エリオット・グールド",
+          "ジェームズ・ブローリン",
+          "ブレンダ・バッカロ",
+          "サム・ウォーターストン",
+          "O・J・シンプソン",
+          "ハル・ホルブルック",
+          "デビッド・ハドルストン",
+          "デビッド・ドイル",
+          "カレン・ブラック",
+          "テリー・サバラス"
+        ],
+        "genres": [
+          "サスペンス",
+          "SF",
+          "アクション"
+        ],
+        "synopsis": "火星への有人飛行を偽装する計画に宇宙飛行士たちが巻き込まれ、記者が疑惑を追う。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "そもそもあの形のロケットに3人で何ヶ月も乗るのは無理じゃねと思わなくもない。さてストーリーは打ち上げ予定のロケットは実は打ち上げされてなくて、その映像は地上で撮影されたものだった、という話なのだけど、NASAの陰謀(？)自体は至極シンプルでサスペンス物というよりは特に後半はアクション物な面白さを追求してる作品。頭より足を使え的なある意味迷走してるんじゃなかろうか。しかし砂漠の朦朧とした感じに結構緊迫感はあるものの、国家の陰謀アクションな感じはしつつ後半になればなるほど展開的には安っぽい大(小？)立ち回りで埋められていって、メインなNASAの陰謀そこのけで突然出てきた第三者の爺さんやらヲッサンとかの見せ場になっていくのはなんだか本旨から随分ずれてるような気がしなくもない。そもそもNASAの陰謀という設定自体は非常に面白いのに全部うっちゃるというのはちょっと勿体無い気がするなあ。一番の原因はどうやって逃げるかよりどっちに逃げるかっていうアクション的なチョイスばかりさせてるせいだと思われ。せめてもう少し宇宙飛行士的な葛藤があれば。でもアクションとしては面白い。\n",
+        "title": "カプリコン・１",
+        "short_review": "意外とシンプル。"
+      },
+      "article_sha256_before": "cef92e19d4ed819678d8312d0b9f16090a9f662fd6979adfdb673bb4acd88187",
+      "article_sha256_after": "485fa9124da6ca90e4b76a0bf294d6085f26374069feee198f9956ca743b0cd8",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かぷりこん1",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-3594f627d35ad4c7-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1977-12-17",
+              "year": "1977",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-3594f627d35ad4c7-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ピーター・ハイアムズ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-3594f627d35ad4c7-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エリオット・グールド\nジェームズ・ブローリン\nブレンダ・バッカロ\nサム・ウォーターストン\nO・J・シンプソン\nハル・ホルブルック\nデビッド・ハドルストン\nデビッド・ドイル\nカレン・ブラック\nテリー・サバラス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-3594f627d35ad4c7-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\nSF\nアクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-3594f627d35ad4c7-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "火星への有人飛行を偽装する計画に宇宙飛行士たちが巻き込まれ、記者が疑惑を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "そもそもあの形のロケットに3人で何ヶ月も乗るのは無理じゃねと思わなくもない。さてストーリーは打ち上げ予定のロケットは実は打ち上げされてなくて、その映像は地上で撮影されたものだった、という話なのだけど、NASAの陰謀(？)自体は至極シンプルでサスペンス物というよりは特に後半はアクション物な面白さを追求してる作品。頭より足を使え的なある意味迷走してるんじゃなかろうか。しかし砂漠の朦朧とした感じに結構緊迫感はあるものの、国家の陰謀アクションな感じはしつつ後半になればなるほど展開的には安っぽい大(小？)立ち回りで埋められていって、メインなNASAの陰謀そこのけで突然出てきた第三者の爺さんやらヲッサンとかの見せ場になっていくのはなんだか本旨から随分ずれてるような気がしなくもない。そもそもNASAの陰謀という設定自体は非常に面白いのに全部うっちゃるというのはちょっと勿体無い気がするなあ。一番の原因はどうやって逃げるかよりどっちに逃げるかっていうアクション的なチョイスばかりさせてるせいだと思われ。せめてもう少し宇宙飛行士的な葛藤があれば。でもアクションとしては面白い。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カプリコン・１",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "意外とシンプル。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ザ・ クリーナー 消された殺人_2009-01-26.md",
+      "title": "ザ・ クリーナー 消された殺人",
+      "review_date": "2009-01-26 00:23:01",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "レニー・ハーリン"
+        ],
+        "cast": [
+          "サミュエル・L・ジャクソン",
+          "エド・ハリス",
+          "エバ・メンデス",
+          "キキ・パーマー"
+        ],
+        "genres": [
+          "サスペンス",
+          "犯罪",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ざくりーなーけされたさつじん",
+        "release_year": 2009,
+        "directors": [
+          "レニー・ハーリン"
+        ],
+        "cast": [
+          "サミュエル・L・ジャクソン",
+          "エド・ハリス",
+          "エバ・メンデス",
+          "キキ・パーマー"
+        ],
+        "genres": [
+          "サスペンス",
+          "犯罪",
+          "ドラマ"
+        ],
+        "synopsis": "殺人現場の清掃を終えた元刑事が、架空の依頼主にだまされたと知り、事件の真相を探る。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "サミュエルLジャクソンとかエドハリスとか俳優が豪華なのに公開2週間前になっても公式HPすら作られていない謎な作品(今はある)、シネパトスだからだろうか？さてストーリーはサスペンスとしてはそれなりには面白いものの予想を超えるものではなく、サミュLもエドハリスも好演はしているんだけれども異彩を放つというほどでもなく、ってそもそもあからさまにB級な作品に期待過剰すぎたような気もするんですが、木曜洋画劇場＋的な面白さです。うん、面白いには面白いんだけどもう一ひねりほしいというかどこか穏当(予想外のことが起こらない)な展開ってサスペンスとしてはどうなのかと思う。ただ誰が味方なのかとかそういうのを考えながら見る分には面白いんだけど。今ひとつ煮え切らないのは特殊清掃を売りにしてる割には特殊清掃的なシーンがほとんどなかったことかなぁ、普通の警察サスペンスでも十分な気がした。あ、でも普通には面白いです。それにしてもなんでこのキャストでこんな細々とやってるんだろう？ちなみに日本でも何かあった場合区役所が特殊清掃の会社を紹介してたりするんですが、かなり高いです。\n",
+        "title": "ザ・ クリーナー 消された殺人",
+        "short_review": "B級にしてはいい。"
+      },
+      "article_sha256_before": "dcf69cf1739edaa8aefec42bb2687906b5a494fe940676b7288c9b02ccf673bc",
+      "article_sha256_after": "50584597a1427675beca8186913215e9ab12fb5620746b9c561db00d4d934eb2",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ざくりーなーけされたさつじん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-4fe428a85f52f48e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-07",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-4fe428a85f52f48e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "レニー・ハーリン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-4fe428a85f52f48e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サミュエル・L・ジャクソン\nエド・ハリス\nエバ・メンデス\nキキ・パーマー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-4fe428a85f52f48e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス\n犯罪\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-4fe428a85f52f48e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "殺人現場の清掃を終えた元刑事が、架空の依頼主にだまされたと知り、事件の真相を探る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サミュエルLジャクソンとかエドハリスとか俳優が豪華なのに公開2週間前になっても公式HPすら作られていない謎な作品(今はある)、シネパトスだからだろうか？さてストーリーはサスペンスとしてはそれなりには面白いものの予想を超えるものではなく、サミュLもエドハリスも好演はしているんだけれども異彩を放つというほどでもなく、ってそもそもあからさまにB級な作品に期待過剰すぎたような気もするんですが、木曜洋画劇場＋的な面白さです。うん、面白いには面白いんだけどもう一ひねりほしいというかどこか穏当(予想外のことが起こらない)な展開ってサスペンスとしてはどうなのかと思う。ただ誰が味方なのかとかそういうのを考えながら見る分には面白いんだけど。今ひとつ煮え切らないのは特殊清掃を売りにしてる割には特殊清掃的なシーンがほとんどなかったことかなぁ、普通の警察サスペンスでも十分な気がした。あ、でも普通には面白いです。それにしてもなんでこのキャストでこんな細々とやってるんだろう？ちなみに日本でも何かあった場合区役所が特殊清掃の会社を紹介してたりするんですが、かなり高いです。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ザ・ クリーナー 消された殺人",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "B級にしてはいい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ベンジャミン・バトン 数奇な人生_2009-01-22.md",
+      "title": "ベンジャミン・バトン 数奇な人生",
+      "review_date": "2009-01-22 02:33:24",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2009,
+        "directors": [
+          "デビッド・フィンチャー"
+        ],
+        "cast": [
+          "ブラッド・ピット",
+          "ケイト・ブランシェット",
+          "タラジ・P・ヘンソン",
+          "ジュリア・オーモンド",
+          "ジェイソン・フレミング",
+          "イライアス・コティーズ",
+          "ティルダ・スウィントン",
+          "ジャレッド・ハリス",
+          "エル・ファニング",
+          "マハーシャラルハズバズ・アリ"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "べんじゃみんばとんすうきなじんせい",
+        "release_year": 2009,
+        "directors": [
+          "デビッド・フィンチャー"
+        ],
+        "cast": [
+          "ブラッド・ピット",
+          "ケイト・ブランシェット",
+          "タラジ・P・ヘンソン",
+          "ジュリア・オーモンド",
+          "ジェイソン・フレミング",
+          "イライアス・コティーズ",
+          "ティルダ・スウィントン",
+          "ジャレッド・ハリス",
+          "エル・ファニング",
+          "マハーシャラルハズバズ・アリ"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛",
+          "ファンタジー"
+        ],
+        "synopsis": "老人の姿で生まれ、年を重ねるほど若返っていく男が、さまざまな出会いと別れを経験する。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "なんか凄くフォレスト・ガンプにシンクロすると思ったら脚本がフォレスト･ガンプの人で凄く納得した。この手の話は面白いには面白いのだけど凄く面白いかというと悩ましいところ。フォレスト･ガンプほど時勢にのった話ではないんですが、全ての出来事をどこか第三者的に平板に描いている風味があって、伝記的に面白い以上の面白さってのが多分意図的に削がれている。大事な人との別れも出会いも時間の流れに押し流されていってしまうんだ。淡々と描くことで多分色々考えて欲しいという方向性ではないかと思うんだけど、どうも日本人は当時の世情がよくわからないもので、フォレスト･ガンプ同様今ひとつピンとこない感じ。もう一つピンとこないのがみんないい人すぎるというか、老人→若者なベンジャミンを見て誰も不審に思わないというか、ある意味気持ち悪がらないというのがちょっと奇異、というかなんか不自然な感じがします。綺麗に纏まってはいるのだけれども、普通はもっとなんというか・・・谷の部分があるだろ。そういう意味でティム・バートンならきっとそれっぽいファンタジスタを演出できたのではないかと思わせる作品でもある。全体的にどこか不自然に寓話臭いというかマイナスな感じで嘘の香りがするんだ。さて見所はというとブラピとケイトが老人になったり若かったりする部分で、この辺の特殊メイクもなかなかなんですが、中心二人のストーリーが押さえ目な分脇役のティルダ・スウィントンとかジェイソン・フレミングが随分光っていた。そういう意味でも全体的にそつがない映画でもある。フォレスト・ガンプが好きな人は面白いだろうしそうでない人は微妙かもしれない。\n",
+        "title": "ベンジャミン・バトン 数奇な人生",
+        "short_review": "面白いには面白いんだが。"
+      },
+      "article_sha256_before": "457262e5b86dee700039f72e95325b67cc7554547606b01af35461dbc9ac1367",
+      "article_sha256_after": "2489ead0f90435a644335cc118d6e195670dea912af5bf31bb8524a850aadcb3",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "べんじゃみんばとんすうきなじんせい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-250bf72c6a8f64d5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2009-02-07",
+              "year": "2009",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-250bf72c6a8f64d5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デビッド・フィンチャー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-250bf72c6a8f64d5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブラッド・ピット\nケイト・ブランシェット\nタラジ・P・ヘンソン\nジュリア・オーモンド\nジェイソン・フレミング\nイライアス・コティーズ\nティルダ・スウィントン\nジャレッド・ハリス\nエル・ファニング\nマハーシャラルハズバズ・アリ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-250bf72c6a8f64d5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-250bf72c6a8f64d5-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "老人の姿で生まれ、年を重ねるほど若返っていく男が、さまざまな出会いと別れを経験する。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんか凄くフォレスト・ガンプにシンクロすると思ったら脚本がフォレスト･ガンプの人で凄く納得した。この手の話は面白いには面白いのだけど凄く面白いかというと悩ましいところ。フォレスト･ガンプほど時勢にのった話ではないんですが、全ての出来事をどこか第三者的に平板に描いている風味があって、伝記的に面白い以上の面白さってのが多分意図的に削がれている。大事な人との別れも出会いも時間の流れに押し流されていってしまうんだ。淡々と描くことで多分色々考えて欲しいという方向性ではないかと思うんだけど、どうも日本人は当時の世情がよくわからないもので、フォレスト･ガンプ同様今ひとつピンとこない感じ。もう一つピンとこないのがみんないい人すぎるというか、老人→若者なベンジャミンを見て誰も不審に思わないというか、ある意味気持ち悪がらないというのがちょっと奇異、というかなんか不自然な感じがします。綺麗に纏まってはいるのだけれども、普通はもっとなんというか・・・谷の部分があるだろ。そういう意味でティム・バートンならきっとそれっぽいファンタジスタを演出できたのではないかと思わせる作品でもある。全体的にどこか不自然に寓話臭いというかマイナスな感じで嘘の香りがするんだ。さて見所はというとブラピとケイトが老人になったり若かったりする部分で、この辺の特殊メイクもなかなかなんですが、中心二人のストーリーが押さえ目な分脇役のティルダ・スウィントンとかジェイソン・フレミングが随分光っていた。そういう意味でも全体的にそつがない映画でもある。フォレスト・ガンプが好きな人は面白いだろうしそうでない人は微妙かもしれない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ベンジャミン・バトン 数奇な人生",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "面白いには面白いんだが。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ランブルフィッシュ_2009-01-15.md",
+      "title": "ランブルフィッシュ",
+      "review_date": "2009-01-15 00:53:45",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1984,
+        "directors": [
+          "フランシス・フォード・コッポラ"
+        ],
+        "cast": [
+          "マット・ディロン",
+          "ミッキー・ローク",
+          "ダイアン・レイン",
+          "デニス・ホッパー",
+          "ダイアナ・スカーウィッド",
+          "ビンセント・スパーノ",
+          "ニコラス・ケイジ",
+          "クリス・ペン",
+          "ウィリアム・スミス",
+          "グレン・ウィスロー",
+          "トム・ウェイツ"
+        ],
+        "genres": [
+          "青春",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "らんぶるふぃっしゅ",
+        "release_year": 1984,
+        "directors": [
+          "フランシス・フォード・コッポラ"
+        ],
+        "cast": [
+          "マット・ディロン",
+          "ミッキー・ローク",
+          "ダイアン・レイン",
+          "デニス・ホッパー",
+          "ダイアナ・スカーウィッド",
+          "ビンセント・スパーノ",
+          "ニコラス・ケイジ",
+          "クリス・ペン",
+          "ウィリアム・スミス",
+          "グレン・ウィスロー",
+          "トム・ウェイツ"
+        ],
+        "genres": [
+          "青春",
+          "ドラマ"
+        ],
+        "synopsis": "不良グループを率いた兄に憧れる少年が、兄の不在中に別のグループとの果たし合いを受ける。",
+        "rating": 4.2,
+        "rating_display": "4.2点",
+        "body": "不良の青春な話ですが、映像が凄い綺麗なんだ。最近作ったのをわざと白黒にしてるんじゃないかと思えるくらいで（不良とかは昔な感じだけど、っていうかニコラスケイジがフッサールでしたが）、時間を表す雲の動きや影の移り変わりの綺麗さは異常。窓に流れる雲だとか、陰影がその前景として話してる人物より鮮やかなんだ。ストーリーは伝説的な不良の兄の影を追い求める弟の話。兄への憧憬とかでも今なんでこうなんだよとか、一緒にいてなんか嬉しいとかプチ嫉妬とか色々言葉の端々に込められていて結構切ない話で、どこかアンニュイな最強伝説な兄をひたすら追っかけて、でも隔たりに気付いてしまう弟。ミッキー・ロークの定まらない焦点が写す不確かな世界がモノクロの世界と自分と違う速さで流れていく風景をあらわしている（と思う）のだけど、サラっとみてるとそんなにかっこよくも強くもみえないし、結構古風で退屈な青春物かもしれない。登場人物はあんまりかっこよくないのだけど、逆に兄がかっこいいと普通のヒーローものなわけで、兄が普通の人間にもみえる弟の微妙な年齢を繊細に描いた部分でやっぱり青春ものなんだ。そゆ陰影が白黒にとても合ってる。\n",
+        "title": "ランブルフィッシュ",
+        "short_review": "陰影が超絶綺麗。"
+      },
+      "article_sha256_before": "18e0d76724d6b09d8fa2aae0970caa835d0f74f313db07151d989e970caa5fc9",
+      "article_sha256_after": "81ca98355c14c1467adb99b417e2296246c0a81737fbd2247585b3632713e318",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "らんぶるふぃっしゅ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d39738eb4f2cc64b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1984-07-21",
+              "year": "1984",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d39738eb4f2cc64b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フランシス・フォード・コッポラ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d39738eb4f2cc64b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "マット・ディロン\nミッキー・ローク\nダイアン・レイン\nデニス・ホッパー\nダイアナ・スカーウィッド\nビンセント・スパーノ\nニコラス・ケイジ\nクリス・ペン\nウィリアム・スミス\nグレン・ウィスロー\nトム・ウェイツ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d39738eb4f2cc64b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "青春\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d39738eb4f2cc64b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "不良グループを率いた兄に憧れる少年が、兄の不在中に別のグループとの果たし合いを受ける。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.2",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.2",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "不良の青春な話ですが、映像が凄い綺麗なんだ。最近作ったのをわざと白黒にしてるんじゃないかと思えるくらいで（不良とかは昔な感じだけど、っていうかニコラスケイジがフッサールでしたが）、時間を表す雲の動きや影の移り変わりの綺麗さは異常。窓に流れる雲だとか、陰影がその前景として話してる人物より鮮やかなんだ。ストーリーは伝説的な不良の兄の影を追い求める弟の話。兄への憧憬とかでも今なんでこうなんだよとか、一緒にいてなんか嬉しいとかプチ嫉妬とか色々言葉の端々に込められていて結構切ない話で、どこかアンニュイな最強伝説な兄をひたすら追っかけて、でも隔たりに気付いてしまう弟。ミッキー・ロークの定まらない焦点が写す不確かな世界がモノクロの世界と自分と違う速さで流れていく風景をあらわしている（と思う）のだけど、サラっとみてるとそんなにかっこよくも強くもみえないし、結構古風で退屈な青春物かもしれない。登場人物はあんまりかっこよくないのだけど、逆に兄がかっこいいと普通のヒーローものなわけで、兄が普通の人間にもみえる弟の微妙な年齢を繊細に描いた部分でやっぱり青春ものなんだ。そゆ陰影が白黒にとても合ってる。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ランブルフィッシュ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "陰影が超絶綺麗。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/遊星からの物体Ｘ_2009-01-12.md",
+      "title": "遊星からの物体Ｘ",
+      "review_date": "2009-01-12 00:24:04",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1982,
+        "directors": [
+          "ジョン・カーペンター"
+        ],
+        "cast": [
+          "カート・ラッセル",
+          "ウィルフォード・ブリムリー",
+          "リチャード・ダイサート",
+          "ドナルド・モファット",
+          "T・K・カーター",
+          "キース・デビッド"
+        ],
+        "genres": [
+          "SF",
+          "ホラー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ゆうせいからのぶったいえっくす",
+        "release_year": 1982,
+        "directors": [
+          "ジョン・カーペンター"
+        ],
+        "cast": [
+          "カート・ラッセル",
+          "ウィルフォード・ブリムリー",
+          "リチャード・ダイサート",
+          "ドナルド・モファット",
+          "T・K・カーター",
+          "キース・デビッド"
+        ],
+        "genres": [
+          "SF",
+          "ホラー",
+          "サスペンス"
+        ],
+        "synopsis": "南極の観測基地に現れた犬が未知の生命体だと分かり、隊員たちは互いの正体を疑い始める。",
+        "rating": 4.0,
+        "rating_display": "4点",
+        "body": "有名なアレですが、久しぶりに見ると意外と造形が面白いのとどちらかというとグロい造形以上に誰がアレだかわからんという疑心暗鬼も結構面白くて、アレの正体が実にグロいのでさらに疑心暗鬼、というどっちかっていうとサスペンス系の話だということに気がついた。ブレイン･スナッチャー系だったのかこれ、でも中身アレだとやだよなあ確かに。それでまた登場人物が犬が好きだったり妙に生真面目だったりとやけに生活感あふれつつ普通に描かれていて面白い。そして煮え切らないようなラストがまた造形に似合わず結構シリアスでよい。前に見たときはグロさばかりに目がいってしまったんだが展開と別々に考えた方が面白いね。多分今は作ると映倫通らないんじゃないかと思わなくもないチープグロさも当時は凄かったんだろうと思う、とくに作りかけ時。そして改めてこの造形の気持ち悪さが色んなものの原型になってるんだなあとヲモタ。何で気持ち悪いかっていうと一部分は凄く普通で、一部分そうでもないものが合わさってるから普通の部分が際立って余計気持ち悪いんだろうなあ、こういう奥ゆかしさって素敵。\n",
+        "title": "遊星からの物体Ｘ",
+        "short_review": "なごむわ～（ぁ。"
+      },
+      "article_sha256_before": "d9cb423285bf38810d3b00ba77deac26737b27fcf466d5d7cf017d7b00633241",
+      "article_sha256_after": "42ef9f4b09d60a24ac4af7a996cae0988b961d7cbcf650c7ef3c6b5a53f53826",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゆうせいからのぶったいえっくす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-0868d9023928eb0b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1982",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-0868d9023928eb0b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・カーペンター",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-0868d9023928eb0b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カート・ラッセル\nウィルフォード・ブリムリー\nリチャード・ダイサート\nドナルド・モファット\nT・K・カーター\nキース・デビッド",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-0868d9023928eb0b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nホラー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-0868d9023928eb0b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "南極の観測基地に現れた犬が未知の生命体だと分かり、隊員たちは互いの正体を疑い始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "有名なアレですが、久しぶりに見ると意外と造形が面白いのとどちらかというとグロい造形以上に誰がアレだかわからんという疑心暗鬼も結構面白くて、アレの正体が実にグロいのでさらに疑心暗鬼、というどっちかっていうとサスペンス系の話だということに気がついた。ブレイン･スナッチャー系だったのかこれ、でも中身アレだとやだよなあ確かに。それでまた登場人物が犬が好きだったり妙に生真面目だったりとやけに生活感あふれつつ普通に描かれていて面白い。そして煮え切らないようなラストがまた造形に似合わず結構シリアスでよい。前に見たときはグロさばかりに目がいってしまったんだが展開と別々に考えた方が面白いね。多分今は作ると映倫通らないんじゃないかと思わなくもないチープグロさも当時は凄かったんだろうと思う、とくに作りかけ時。そして改めてこの造形の気持ち悪さが色んなものの原型になってるんだなあとヲモタ。何で気持ち悪いかっていうと一部分は凄く普通で、一部分そうでもないものが合わさってるから普通の部分が際立って余計気持ち悪いんだろうなあ、こういう奥ゆかしさって素敵。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "遊星からの物体Ｘ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なごむわ～（ぁ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/劇場版ＮＡＲＵＴＯ－ナルト－疾風伝_2009-01-09.md",
+      "title": "劇場版ＮＡＲＵＴＯ－ナルト－疾風伝",
+      "review_date": "2009-01-09 01:45:29",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "亀垣一"
+        ],
+        "cast": [
+          "竹内順子",
+          "中村千絵",
+          "遠近孝一",
+          "増川洋一"
+        ],
+        "genres": [
+          "アニメ",
+          "アクション",
+          "ファンタジー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "げきじょうばんなるとしっぷうでん",
+        "release_year": 2007,
+        "directors": [
+          "亀垣一"
+        ],
+        "cast": [
+          "竹内順子",
+          "中村千絵",
+          "遠近孝一",
+          "増川洋一"
+        ],
+        "genres": [
+          "アニメ",
+          "アクション",
+          "ファンタジー"
+        ],
+        "synopsis": "復活した魔物を封印できる巫女の護衛に就いたナルトが、彼女から自身の死を予言される。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "なるとの映画みるの初めてだけど漫画はよんでるそんな関係。さてアニメの映画版のご多分に漏れずかなりのテンプレ設定テンプレ展開なんですが、なかなかテンポよくテンプレ展開するしそれなりに面白い話作りでした。でもちょっとテンプレすぎるんだよなあ。ナルトというかジャンプ物は特にそうだけれども忍術ってある意味なんでもありな部分があって、そういうシステムって設定で面白くさせようというよりは話で泣かそう系のほうが楽だし作りやすいんだろうとは思うんだけど、こういう方向性の劇場版はどれも同じストーリーに見えてしまう罠。主人公他のアニメでもよさそうだしオリジナルキャラもなんだかああいつものパターンっていうか。あと魍魎の操る兵団がそこだけ胡散臭くCGなのはどうかと思う。とまあなんとなく酷評してたりはするんですが、同じような作りにもそれなりにうまいへたはありまして、そう考えると結構面白く作ってる方だとは思う。バトルもそれなりにスピード感あるし。でもやっぱナルト好き向け。\n",
+        "title": "劇場版ＮＡＲＵＴＯ－ナルト－疾風伝",
+        "short_review": "てんぷれ。"
+      },
+      "article_sha256_before": "21e424a0352603a20cbc57c55907f24be4d2c29f82744d8b4aa728841f584670",
+      "article_sha256_after": "844aa81a009fd4ea6af3aad6b6442a3169604b00bef2a8186fa554766519ffb9",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "げきじょうばんなるとしっぷうでん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-148da4be420c8ac1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-08-04",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-148da4be420c8ac1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "亀垣一",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-148da4be420c8ac1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "竹内順子\n中村千絵\n遠近孝一\n増川洋一",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-148da4be420c8ac1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nアクション\nファンタジー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-148da4be420c8ac1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "復活した魔物を封印できる巫女の護衛に就いたナルトが、彼女から自身の死を予言される。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なるとの映画みるの初めてだけど漫画はよんでるそんな関係。さてアニメの映画版のご多分に漏れずかなりのテンプレ設定テンプレ展開なんですが、なかなかテンポよくテンプレ展開するしそれなりに面白い話作りでした。でもちょっとテンプレすぎるんだよなあ。ナルトというかジャンプ物は特にそうだけれども忍術ってある意味なんでもありな部分があって、そういうシステムって設定で面白くさせようというよりは話で泣かそう系のほうが楽だし作りやすいんだろうとは思うんだけど、こういう方向性の劇場版はどれも同じストーリーに見えてしまう罠。主人公他のアニメでもよさそうだしオリジナルキャラもなんだかああいつものパターンっていうか。あと魍魎の操る兵団がそこだけ胡散臭くCGなのはどうかと思う。とまあなんとなく酷評してたりはするんですが、同じような作りにもそれなりにうまいへたはありまして、そう考えると結構面白く作ってる方だとは思う。バトルもそれなりにスピード感あるし。でもやっぱナルト好き向け。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "劇場版ＮＡＲＵＴＯ－ナルト－疾風伝",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "てんぷれ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/さよなら銀河鉄道999　アンドロメダ終着駅_2009-01-03.md",
+      "title": "さよなら銀河鉄道999　アンドロメダ終着駅",
+      "review_date": "2009-01-03 03:07:57",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1981,
+        "directors": [
+          "りんたろう"
+        ],
+        "cast": [
+          "野沢雅子",
+          "池田昌子",
+          "麻上洋子",
+          "肝付兼太",
+          "井上真樹夫",
+          "田島令子",
+          "富山敬",
+          "来宮良子",
+          "江守徹"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "さよならぎんがてつどう999あんどろめだしゅうちゃくえき",
+        "release_year": 1981,
+        "directors": [
+          "りんたろう"
+        ],
+        "cast": [
+          "野沢雅子",
+          "池田昌子",
+          "麻上洋子",
+          "肝付兼太",
+          "井上真樹夫",
+          "田島令子",
+          "富山敬",
+          "来宮良子",
+          "江守徹"
+        ],
+        "genres": [
+          "アニメ",
+          "SF",
+          "冒険"
+        ],
+        "synopsis": "機械人間と戦う地球の鉄郎が、メーテルからの呼びかけで再び銀河鉄道999に乗り込む。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "昔のアニメって今より多分好き勝手作れたんだろうなあと思う一作。パーツ自体は結構深い話の積み重ねなんだけど、なんとなく慌しく過ぎ去ってあまり印象に残らない、いや、999を見たという印象は残るのだけど永遠の命とか生命とかなんだか非常にとって付けた感。なんでかっていうと伏線とか状況説明がないのもあるんだが、展開が速すぎるからなんだよな。あとハーロックとかエメラルダスとかある意味主役級があんまり意味もなく登場してよくわからないまま去っていく。翻って本作で重要と思われるようなミャウダーのくだりとか鉄郎の心情とかが結構サラっとというかうすーく描かれていて実にもったいない。多分エピソードの1つ1つがショートカットしすぎな感もあるが総合して知ってる人(ファン)向けの総集編的なテイストかもしんない。思い出ポイントが高そうというか思い入れによるというか。でもメタルメナさんよりクレアさんのほうが好きだなあ（メタルメナさんはあんまりセクシーじゃない。\n",
+        "title": "さよなら銀河鉄道999 アンドロメダ終着駅",
+        "short_review": "意外と古い。"
+      },
+      "article_sha256_before": "2164206f92a2033bd58cff6139a927dbcc309e91644fcd7ef50b0ef2c31aaed0",
+      "article_sha256_after": "7dd8987e61bea7fbf85731518b33c403681be110ecd719e2c6be609cb21ea67e",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "さよならぎんがてつどう999あんどろめだしゅうちゃくえき",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-90ec16c0e18322ea-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1981-08-01",
+              "year": "1981",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-90ec16c0e18322ea-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "りんたろう",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-90ec16c0e18322ea-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "野沢雅子\n池田昌子\n麻上洋子\n肝付兼太\n井上真樹夫\n田島令子\n富山敬\n来宮良子\n江守徹",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-90ec16c0e18322ea-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nSF\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-90ec16c0e18322ea-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "機械人間と戦う地球の鉄郎が、メーテルからの呼びかけで再び銀河鉄道999に乗り込む。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "昔のアニメって今より多分好き勝手作れたんだろうなあと思う一作。パーツ自体は結構深い話の積み重ねなんだけど、なんとなく慌しく過ぎ去ってあまり印象に残らない、いや、999を見たという印象は残るのだけど永遠の命とか生命とかなんだか非常にとって付けた感。なんでかっていうと伏線とか状況説明がないのもあるんだが、展開が速すぎるからなんだよな。あとハーロックとかエメラルダスとかある意味主役級があんまり意味もなく登場してよくわからないまま去っていく。翻って本作で重要と思われるようなミャウダーのくだりとか鉄郎の心情とかが結構サラっとというかうすーく描かれていて実にもったいない。多分エピソードの1つ1つがショートカットしすぎな感もあるが総合して知ってる人(ファン)向けの総集編的なテイストかもしんない。思い出ポイントが高そうというか思い入れによるというか。でもメタルメナさんよりクレアさんのほうが好きだなあ（メタルメナさんはあんまりセクシーじゃない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "さよなら銀河鉄道999 アンドロメダ終着駅",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "意外と古い。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ミラーズ_2008-12-22.md",
+      "title": "ミラーズ",
+      "review_date": "2008-12-22 00:06:10",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "アレクサンドル・アジャ"
+        ],
+        "cast": [
+          "キーファー・サザーランド",
+          "ポーラ・パットン",
+          "エイミー・スマート"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "みらーず",
+        "release_year": 2008,
+        "directors": [
+          "アレクサンドル・アジャ"
+        ],
+        "cast": [
+          "キーファー・サザーランド",
+          "ポーラ・パットン",
+          "エイミー・スマート"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ],
+        "synopsis": "焼けたデパートの夜警となった元刑事が鏡に触れた後、不可解な死と家族の危機に直面する。",
+        "rating": 3.8,
+        "rating_display": "3.8点",
+        "body": "この映画のアオリは予測的中率0%っていう奴なんですが、そもそも的中するほど謎がないとヲモタ。この鏡を使ったストーリーでこの展開だと典型的にこういう話になるってのはそれなりにホラー見慣れてれば予想がつくだろうし、そうでなくてもそんなに意外でもない、というかピンポイント王道じゃないかと・・・。一番最後の奴が謎かなぁと思わなくもないんだけど、それだって鏡でって考えると予告編レベルでネタバレする罠。しかし煽りに煽られたあげく話が王道テンプレートってのはいつものアジャ監督なわけだし、この監督の面白さはある意味展開の上手さにあるんだ。それなりのグロシーンと期待感を非常にテンポよく配置して目を離させないってのが持ち味で、なんとなく見てる間にダルくなったりしないのがよいところ。グロかったり落ち着いてたり緩急の作りがうまい。ただハイテンションもヒルズハブも結局ナンなのよとか全然考えなくてもOKだったのに対して、ミラーズは何が起こるんだろう？っていうのを探索させる作りになってる部分がちょっと所々うまくいってなくて、例えば焼けた女は結局何なのよ、とかなんでそこで動きやすくさせるの、とかあちら側の思考的な部分が行き当たりばったりな感じはする、でもそういうのも相変わらずといえば相変わらずなんだ、うん。とりあえずでかい音で脅かそうとしてないあたりも突っ込みどころの多いあたりも結構好きだ。よく考えたらこの監督の作品で日本に来てるの全部見てる気がする・・・。とりあえず婆さんは可哀想だと思うぞ？\n",
+        "title": "ミラーズ",
+        "short_review": "謎が・・・？"
+      },
+      "article_sha256_before": "38a32ed74edc1591d948123dcd8e2448c1c97decb9dd7785d498448660a74094",
+      "article_sha256_after": "034e55cfbe00ed38ce55f11cb7587be0c5152f130e02c204b9b28d239b1fa582",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "みらーず",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d5d81ea639831a1b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-12-26",
+              "year": "2008",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d5d81ea639831a1b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アレクサンドル・アジャ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d5d81ea639831a1b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キーファー・サザーランド\nポーラ・パットン\nエイミー・スマート",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-d5d81ea639831a1b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d5d81ea639831a1b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "焼けたデパートの夜警となった元刑事が鏡に触れた後、不可解な死と家族の危機に直面する。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "この映画のアオリは予測的中率0%っていう奴なんですが、そもそも的中するほど謎がないとヲモタ。この鏡を使ったストーリーでこの展開だと典型的にこういう話になるってのはそれなりにホラー見慣れてれば予想がつくだろうし、そうでなくてもそんなに意外でもない、というかピンポイント王道じゃないかと・・・。一番最後の奴が謎かなぁと思わなくもないんだけど、それだって鏡でって考えると予告編レベルでネタバレする罠。しかし煽りに煽られたあげく話が王道テンプレートってのはいつものアジャ監督なわけだし、この監督の面白さはある意味展開の上手さにあるんだ。それなりのグロシーンと期待感を非常にテンポよく配置して目を離させないってのが持ち味で、なんとなく見てる間にダルくなったりしないのがよいところ。グロかったり落ち着いてたり緩急の作りがうまい。ただハイテンションもヒルズハブも結局ナンなのよとか全然考えなくてもOKだったのに対して、ミラーズは何が起こるんだろう？っていうのを探索させる作りになってる部分がちょっと所々うまくいってなくて、例えば焼けた女は結局何なのよ、とかなんでそこで動きやすくさせるの、とかあちら側の思考的な部分が行き当たりばったりな感じはする、でもそういうのも相変わらずといえば相変わらずなんだ、うん。とりあえずでかい音で脅かそうとしてないあたりも突っ込みどころの多いあたりも結構好きだ。よく考えたらこの監督の作品で日本に来てるの全部見てる気がする・・・。とりあえず婆さんは可哀想だと思うぞ？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ミラーズ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "謎が・・・？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/K－20 怪人二十面相 伝_2008-12-18.md",
+      "title": "K－20 怪人二十面相 伝",
+      "review_date": "2008-12-18 01:09:47",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "佐藤嗣麻子"
+        ],
+        "cast": [
+          "金城武",
+          "松たか子",
+          "仲村トオル",
+          "國村隼",
+          "高島礼子",
+          "本郷奏多",
+          "今井悠貴",
+          "益岡徹",
+          "鹿賀丈史"
+        ],
+        "genres": [
+          "アクション",
+          "冒険",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "けー20かいじんにじゅうめんそうでん",
+        "release_year": 2008,
+        "directors": [
+          "佐藤嗣麻子"
+        ],
+        "cast": [
+          "金城武",
+          "松たか子",
+          "仲村トオル",
+          "國村隼",
+          "高島礼子",
+          "本郷奏多",
+          "今井悠貴",
+          "益岡徹",
+          "鹿賀丈史"
+        ],
+        "genres": [
+          "アクション",
+          "冒険",
+          "ミステリー"
+        ],
+        "synopsis": "怪人二十面相に仕立てられたサーカスの曲芸師が、名探偵らを巻き込み本物の怪盗に挑む。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "とりあえずの設定として、第二次世界大戦が起こらなくて未曾有の繁栄を謳歌していた帝都だったが、その実は華族をはじめとした格差社会が定着して人々は好きな職業に就くことも出来ず自由に恋をすることも出来ない社会で、怪人20面相はそんななかで華族の財宝を盗んでいた、っていう前フリが冒頭1分あるんだけどそれが本編と全然絡んでないのが笑えた。なんか不必要にバランスを欠くほど一部憲兵の悪逆非道さを描いていて、あー日テレ？？周年記念作品かぁと妙な感慨。憲兵いれるためにこんな設定つくったんだろうか？とまあ閑話休題。全体的には金城武の清清しい（？）アクション映画で、アクション映画的に結構面白かった。屋根の上を飛び回るとかなんかスピーディーで怪盗っぽくてなんかワクワクしていい。ほつれ毛がまるでマスクオブゾロなバンデラスだったけれども、あれはあれでああいうテンプレなんだと思う。それにつけても金城武、ストレートな演技がなんとなく上手くなってきた気がする、他が微妙だからかもしれないがそもそも全然ドラマがメインテーマな映画じゃなさそうだから別にOK。松たか子の口が常に半開きなのが気になりましたが・・・しかし貧民窟とか華族の屋敷とかを取り混ぜてるわりにそういった雰囲気が全くといっていいほど出てなかったのがちょっと残念かもしれない、でもアクション映画としては結構面白いと思う。\n",
+        "title": "K－20 怪人二十面相 伝",
+        "short_review": "とりあえずアクション映画だ。"
+      },
+      "article_sha256_before": "adf9b55ae63b7ce7d47e2ffa54e7debf8a64b134db7703111c34410d7d19f34b",
+      "article_sha256_after": "6193d82ed13e9df9e59d62d9948282a89e4ade9c291c6d85a7291af2dc3ce4db",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "けー20かいじんにじゅうめんそうでん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-58f1febd0f887099-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-12-20",
+              "year": "2008",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-58f1febd0f887099-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "佐藤嗣麻子",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-58f1febd0f887099-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "金城武\n松たか子\n仲村トオル\n國村隼\n高島礼子\n本郷奏多\n今井悠貴\n益岡徹\n鹿賀丈史",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-58f1febd0f887099-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-58f1febd0f887099-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "怪人二十面相に仕立てられたサーカスの曲芸師が、名探偵らを巻き込み本物の怪盗に挑む。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とりあえずの設定として、第二次世界大戦が起こらなくて未曾有の繁栄を謳歌していた帝都だったが、その実は華族をはじめとした格差社会が定着して人々は好きな職業に就くことも出来ず自由に恋をすることも出来ない社会で、怪人20面相はそんななかで華族の財宝を盗んでいた、っていう前フリが冒頭1分あるんだけどそれが本編と全然絡んでないのが笑えた。なんか不必要にバランスを欠くほど一部憲兵の悪逆非道さを描いていて、あー日テレ？？周年記念作品かぁと妙な感慨。憲兵いれるためにこんな設定つくったんだろうか？とまあ閑話休題。全体的には金城武の清清しい（？）アクション映画で、アクション映画的に結構面白かった。屋根の上を飛び回るとかなんかスピーディーで怪盗っぽくてなんかワクワクしていい。ほつれ毛がまるでマスクオブゾロなバンデラスだったけれども、あれはあれでああいうテンプレなんだと思う。それにつけても金城武、ストレートな演技がなんとなく上手くなってきた気がする、他が微妙だからかもしれないがそもそも全然ドラマがメインテーマな映画じゃなさそうだから別にOK。松たか子の口が常に半開きなのが気になりましたが・・・しかし貧民窟とか華族の屋敷とかを取り混ぜてるわりにそういった雰囲気が全くといっていいほど出てなかったのがちょっと残念かもしれない、でもアクション映画としては結構面白いと思う。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "K－20 怪人二十面相 伝",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "とりあえずアクション映画だ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/地底からの侵略　人類VSエイリアン_2008-12-14.md",
+      "title": "地底からの侵略　人類VSエイリアン",
+      "review_date": "2008-12-14 05:45:52",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "トミー・ブランズウィック"
+        ],
+        "cast": [
+          "ダニエル・ボールドウィン",
+          "ジェニファー・キンサー",
+          "ブラッド・ドゥーリフ"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ちていからのしんりゃくじんるいばーさすえいりあん",
+        "release_year": 2008,
+        "directors": [
+          "トミー・ブランズウィック"
+        ],
+        "cast": [
+          "ダニエル・ボールドウィン",
+          "ジェニファー・キンサー",
+          "ブラッド・ドゥーリフ"
+        ],
+        "genres": [
+          "SF",
+          "ホラー"
+        ],
+        "synopsis": "地底の怪物に妻を殺され子供を奪われた男が、信じてもらえないまま怪物の行方を追う。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "エイリアンっていうか地底人で、もっというとサイバイマンで、よくみなくても人にしか見えません。プレデターの頭の全身タイツという残念な容姿です。ライトに照らされるとますますシュール。BGMにオペラを流しているところをみると一般受けを狙っているのかもしれないが、安っぽすぎて突っ込みがたい。なぜ地底人から逃げるのに地下道を使うのか。疑問に思わなかったのだろうか。ストーリーもゆるいし敵はもろ人なので、全然おすすめしません。ケリーは頭いい。\n",
+        "title": "地底からの侵略 人類VSエイリアン",
+        "short_review": "これ人や！"
+      },
+      "article_sha256_before": "237405592f8b820ea745895aac5f1a185a4cb8bedaf580015b5704e6ae5dfa56",
+      "article_sha256_after": "f7c2898471d65019951d90ca90eaf71234ea863b0195c037c6733a506c3a87e0",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちていからのしんりゃくじんるいばーさすえいりあん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-6796e9dc995c277e-source-1",
+            "next30-6796e9dc995c277e-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "2008",
+              "region": "日本",
+              "kind": "本人判断",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-6796e9dc995c277e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "トミー・ブランズウィック",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-6796e9dc995c277e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダニエル・ボールドウィン\nジェニファー・キンサー\nブラッド・ドゥーリフ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-6796e9dc995c277e-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "SF\nホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-6796e9dc995c277e-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "地底の怪物に妻を殺され子供を奪われた男が、信じてもらえないまま怪物の行方を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エイリアンっていうか地底人で、もっというとサイバイマンで、よくみなくても人にしか見えません。プレデターの頭の全身タイツという残念な容姿です。ライトに照らされるとますますシュール。BGMにオペラを流しているところをみると一般受けを狙っているのかもしれないが、安っぽすぎて突っ込みがたい。なぜ地底人から逃げるのに地下道を使うのか。疑問に思わなかったのだろうか。ストーリーもゆるいし敵はもろ人なので、全然おすすめしません。ケリーは頭いい。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "地底からの侵略 人類VSエイリアン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "これ人や！",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ブラインドネス_2008-12-14.md",
+      "title": "ブラインドネス",
+      "review_date": "2008-12-14 00:32:26",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "フェルナンド・メイレレス"
+        ],
+        "cast": [
+          "ジュリアン・ムーア",
+          "マーク・ラファロ",
+          "アリシー・ブラガ",
+          "伊勢谷友介",
+          "木村佳乃",
+          "ドン・マッケラー",
+          "モーリー・チェイキン",
+          "ミッチェル・ナイ",
+          "ダニー・グローバー",
+          "ガエル・ガルシア・ベルナル"
+        ],
+        "genres": [
+          "ドラマ",
+          "サスペンス",
+          "SF"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぶらいんどねす",
+        "release_year": 2008,
+        "directors": [
+          "フェルナンド・メイレレス"
+        ],
+        "cast": [
+          "ジュリアン・ムーア",
+          "マーク・ラファロ",
+          "アリシー・ブラガ",
+          "伊勢谷友介",
+          "木村佳乃",
+          "ドン・マッケラー",
+          "モーリー・チェイキン",
+          "ミッチェル・ナイ",
+          "ダニー・グローバー",
+          "ガエル・ガルシア・ベルナル"
+        ],
+        "genres": [
+          "ドラマ",
+          "サスペンス",
+          "SF"
+        ],
+        "synopsis": "突然視力を失う奇病が広がり、隔離された人々の中で、一人だけ目の見える女性が生き抜く。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "これの予告編を見た印象ってのは多分、人々が盲目になり、その中で1人目が見える妻というパニック物のサスペンスかホラー、そんなところだろう。でもこの話はそんなに夢のあるもんじゃなくて、北斗の拳的などこか荒れた世界が現在発生したらどんな感じだろうっていうやけに殺伐淡々とした作品に仕上がっている。この映画の面白いところはそんな世紀末な世界観を現代からそのままシフトさせて、かといって超人が現れるわけでもなく、全員目の見えないという状況の中で手探りで人々はそれなりにコミュニティを作り上げる中で、その中で力の強いグループ、民主的なグループなんかが出来るんだけどそのうち・・・というほどドラスティックな展開も見せないまま実に普通の人を描いている感じが淡々と面白く、そして派手な映画期待していった人にはつまんないんだろうな、とヲモタ。よくも悪くも出てくる人が凄く普通なんですよね。悪い人もイイ人もいるんですが、物凄く悪い人とかいい人っていうのもいなくて、物凄く強い人もいないっていうなんだか絶妙なバランスの上になりたってるんだけど、何より主人公が肌がガサガサのジュリアン・ムーア、つまりおばさん。この世界観で唯一目が見えるのが彼女で、かといって彼女が1人の女性であることはかわらなくて、ある意味神がかり的なキャラクタにはなってるんだけど激しく抑圧しつつ無理やり普通の一般人に見せてる。ともあれ描かれているものがコミュニティを作れないほど壊滅状態じゃない極限状態で生きる人々で、多分これは結構微妙なバランス。もっと食料がなくなったりとかそういうところまでいくと普通の人々じゃなくてゾンビ物になるんだろうけど、まだ人間なのでそこが面白いけど面白くないところだ。なんていうかやっぱりメイレレス監督っぽい泥臭さが溢れている。集団の描き方が面白いのだけれども、あんまりに主人公が夢を見れない一般人なので多分ヒットはしない。\n",
+        "title": "ブラインドネス",
+        "short_review": "なんか北斗の拳。"
+      },
+      "article_sha256_before": "a8177b1124af63afc2a713ce5f06e82432d55ef01fa96b7a0d29fb2ef2df5b65",
+      "article_sha256_after": "bf8e8e4cc86f90468ff8dd7e7653c3426b45a553570497395b66807f4428d046",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぶらいんどねす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-e46136db72b76a40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-11-22",
+              "year": "2008",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-e46136db72b76a40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フェルナンド・メイレレス",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-e46136db72b76a40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジュリアン・ムーア\nマーク・ラファロ\nアリシー・ブラガ\n伊勢谷友介\n木村佳乃\nドン・マッケラー\nモーリー・チェイキン\nミッチェル・ナイ\nダニー・グローバー\nガエル・ガルシア・ベルナル",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-e46136db72b76a40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nサスペンス\nSF",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-e46136db72b76a40-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "突然視力を失う奇病が広がり、隔離された人々の中で、一人だけ目の見える女性が生き抜く。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "これの予告編を見た印象ってのは多分、人々が盲目になり、その中で1人目が見える妻というパニック物のサスペンスかホラー、そんなところだろう。でもこの話はそんなに夢のあるもんじゃなくて、北斗の拳的などこか荒れた世界が現在発生したらどんな感じだろうっていうやけに殺伐淡々とした作品に仕上がっている。この映画の面白いところはそんな世紀末な世界観を現代からそのままシフトさせて、かといって超人が現れるわけでもなく、全員目の見えないという状況の中で手探りで人々はそれなりにコミュニティを作り上げる中で、その中で力の強いグループ、民主的なグループなんかが出来るんだけどそのうち・・・というほどドラスティックな展開も見せないまま実に普通の人を描いている感じが淡々と面白く、そして派手な映画期待していった人にはつまんないんだろうな、とヲモタ。よくも悪くも出てくる人が凄く普通なんですよね。悪い人もイイ人もいるんですが、物凄く悪い人とかいい人っていうのもいなくて、物凄く強い人もいないっていうなんだか絶妙なバランスの上になりたってるんだけど、何より主人公が肌がガサガサのジュリアン・ムーア、つまりおばさん。この世界観で唯一目が見えるのが彼女で、かといって彼女が1人の女性であることはかわらなくて、ある意味神がかり的なキャラクタにはなってるんだけど激しく抑圧しつつ無理やり普通の一般人に見せてる。ともあれ描かれているものがコミュニティを作れないほど壊滅状態じゃない極限状態で生きる人々で、多分これは結構微妙なバランス。もっと食料がなくなったりとかそういうところまでいくと普通の人々じゃなくてゾンビ物になるんだろうけど、まだ人間なのでそこが面白いけど面白くないところだ。なんていうかやっぱりメイレレス監督っぽい泥臭さが溢れている。集団の描き方が面白いのだけれども、あんまりに主人公が夢を見れない一般人なので多分ヒットはしない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ブラインドネス",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんか北斗の拳。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/MARCO　母をたずねて三千里_2008-12-09.md",
+      "title": "MARCO　母をたずねて三千里",
+      "review_date": "2008-12-09 08:29:02",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1999,
+        "directors": [
+          "楠葉宏三"
+        ],
+        "cast": [
+          "樋口智恵子",
+          "榊原るみ",
+          "菅生隆之",
+          "松下恵",
+          "井上倫宏",
+          "田中伸幸",
+          "なべおさみ",
+          "岡本麻弥",
+          "川田妙子",
+          "高乃麗",
+          "山内雅人",
+          "鈴木ヒロミツ",
+          "キートン山田"
+        ],
+        "genres": [
+          "アニメ",
+          "ドラマ",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "まるこははをたずねてさんぜんり",
+        "release_year": 1999,
+        "directors": [
+          "楠葉宏三"
+        ],
+        "cast": [
+          "樋口智恵子",
+          "榊原るみ",
+          "菅生隆之",
+          "松下恵",
+          "井上倫宏",
+          "田中伸幸",
+          "なべおさみ",
+          "岡本麻弥",
+          "川田妙子",
+          "高乃麗",
+          "山内雅人",
+          "鈴木ヒロミツ",
+          "キートン山田"
+        ],
+        "genres": [
+          "アニメ",
+          "ドラマ",
+          "冒険"
+        ],
+        "synopsis": "出稼ぎ先の母から手紙が届かなくなり、少年マルコは母を捜すためイタリアから海を渡る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "母を訪ねて旅に出たマルコを待っていたのは苦難の連続、でもよく考えると到達したこと自体がキセキじゃね？と思わなくもないし、苦難がおこってもわりとすぐ救済されてしまう、でもそれは1時間半にまとめるのだから仕方がないのだ。総合してめぼしいエピソードを大変うまくまとめた感じはあるのですが、果たして1999年にこの絵柄で需要があったのだろうか、いやストーリー自体には普遍的な需要はあるとは思うのだが最近こういうシリーズやってないし純朴すぎて他の子供向け番組とえらい乖離してる気がしなくもないだけ。そういう意味で懐かしさを狙って子供より大きな子供をターゲットにしてる気がする。確かに背景とかは妙に綺麗ではあったのだけど。三千里のストーリーほとんど覚えてなかったんだけどなんとなく懐かしかった。\n",
+        "title": "MARCO 母をたずねて三千里",
+        "short_review": "結構理不尽かも。"
+      },
+      "article_sha256_before": "a4ac56685ff4034557e2117513ed0a41c75265309fdddbeebcaaad2631e4e18a",
+      "article_sha256_after": "da2dd13f958b900f928b57f866b538a65d468cd45cc24e310c5031099f36567a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "まるこははをたずねてさんぜんり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-196bc66dd6d2ec35-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1999-04-03",
+              "year": "1999",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-196bc66dd6d2ec35-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "楠葉宏三",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-196bc66dd6d2ec35-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "樋口智恵子\n榊原るみ\n菅生隆之\n松下恵\n井上倫宏\n田中伸幸\nなべおさみ\n岡本麻弥\n川田妙子\n高乃麗\n山内雅人\n鈴木ヒロミツ\nキートン山田",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [
+            "next30-196bc66dd6d2ec35-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nドラマ\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-196bc66dd6d2ec35-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "出稼ぎ先の母から手紙が届かなくなり、少年マルコは母を捜すためイタリアから海を渡る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "母を訪ねて旅に出たマルコを待っていたのは苦難の連続、でもよく考えると到達したこと自体がキセキじゃね？と思わなくもないし、苦難がおこってもわりとすぐ救済されてしまう、でもそれは1時間半にまとめるのだから仕方がないのだ。総合してめぼしいエピソードを大変うまくまとめた感じはあるのですが、果たして1999年にこの絵柄で需要があったのだろうか、いやストーリー自体には普遍的な需要はあるとは思うのだが最近こういうシリーズやってないし純朴すぎて他の子供向け番組とえらい乖離してる気がしなくもないだけ。そういう意味で懐かしさを狙って子供より大きな子供をターゲットにしてる気がする。確かに背景とかは妙に綺麗ではあったのだけど。三千里のストーリーほとんど覚えてなかったんだけどなんとなく懐かしかった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "MARCO 母をたずねて三千里",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "結構理不尽かも。",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "next30-61a0dd5f741e4d94-source-1",
+      "title": "パニッシャー：ウォーゾーン：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54293/",
+      "candidate_body": "資料記載の日本公開：2009-04-18。監督：レクシー・アレキサンダー。出演：レイ・スティーブンソン／ドミニク・ウェスト／ジュリー・ベンツ／ダグ・ハッチソン／ダッシュ・ミホク／コリン・サーモン／ウェイン・ナイト。導入の確認事項：法に代わり悪人を裁くフランクが凶悪犯を襲い、傷を負った相手から復讐を狙われる。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-61a0dd5f741e4d94-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-61a0dd5f741e4d94-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-61a0dd5f741e4d94-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-61a0dd5f741e4d94-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1ad402ddd7692dc5-source-1",
+      "title": "スラムドッグ＄ミリオネア：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54163/",
+      "candidate_body": "資料記載の日本公開：2009-04-18。監督：ダニー・ボイル。出演：デブ・パテル／フリーダ・ピント／マドゥル・ミッタル／アニル・カプール／イルファン・カーン。導入の確認事項：スラム育ちの青年がクイズ番組で巨額賞金に迫るが、不正を疑われ、過酷な半生を語る。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-1ad402ddd7692dc5-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1ad402ddd7692dc5-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1ad402ddd7692dc5-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-1ad402ddd7692dc5-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-782c670e09bab8da-source-1",
+      "title": "マックスペイン：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53217/",
+      "candidate_body": "資料記載の日本公開：2009-04-18。監督：ジョン・ムーア。出演：マーク・ウォールバーグ／オルガ・キュリレンコ／ミラ・クニス／ボー・ブリッジス／クリス・“リュダクリス”・ブリッジス／クリス・オドネル／アマウリー・ノラスコ。導入の確認事項：妻子を殺した犯人を追う刑事は、別の殺人事件に家族の事件との共通点を見つける。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-782c670e09bab8da-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-782c670e09bab8da-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-782c670e09bab8da-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-782c670e09bab8da-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8770ceb3051e3163-source-1",
+      "title": "グラン・トリノ：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54141/",
+      "candidate_body": "資料記載の日本公開：2009-04-25。監督：クリント・イーストウッド。出演：クリント・イーストウッド／ビー・バン／アーニー・ハー／クリストファー・カーレイ／ジョン・キャロル・リンチ。導入の確認事項：妻を亡くし愛車と暮らす頑固な元自動車工が、隣家に越してきたモン族の少年と出会う。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-8770ceb3051e3163-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8770ceb3051e3163-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8770ceb3051e3163-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8770ceb3051e3163-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-878462f1515059f4-source-1",
+      "title": "ヤッターマン：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53119/",
+      "candidate_body": "資料記載の日本公開：2009-03-07。監督：三池崇史。出演：櫻井翔／福田沙紀／深田恭子／生瀬勝久／ケンドーコバヤシ／岡本杏理／阿部サダヲ／滝口順平／山寺宏一／たかはし智秋。導入の確認事項：願いをかなえる四つの石をめぐり、ヤッターマンの二人がドロンボー一味と戦う。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-878462f1515059f4-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-878462f1515059f4-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-878462f1515059f4-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-878462f1515059f4-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c33c8d286660d0f8-source-1",
+      "title": "マーリー 世界一おバカな犬が教えてくれたこと：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54291/",
+      "candidate_body": "資料記載の日本公開：2009-03-27。監督：デビッド・フランケル。出演：オーウェン・ウィルソン／ジェニファー・アニストン／エリック・デイン／アラン・アーキン／キャスリーン・ターナー。導入の確認事項：子育ての予行演習に犬を飼い始めた新婚夫婦が、やんちゃなマーリーに振り回される。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-c33c8d286660d0f8-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c33c8d286660d0f8-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c33c8d286660d0f8-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c33c8d286660d0f8-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-48c44333eb25c66c-source-1",
+      "title": "13日の金曜日：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53936/",
+      "candidate_body": "資料記載の日本公開：2009-02-13。監督：マーカス・ニスペル。出演：ジャレッド・パダレッキ／ダニエル・パナベイカー／アマンダ・リゲッティ／アーロン・ヨー／ジョナサン・サドウスキー／トラビス・バン・ウィンクル。導入の確認事項：行方不明の妹を探して湖を訪れた青年が、警告をよそに殺人鬼ジェイソンの領域へ入る。 ジャンルは紹介内容からの候補。2009年版。本文のリメイク評とクリスタル・レイクでの捜索の作品情報を照合。"
+    },
+    {
+      "ref_id": "next30-48c44333eb25c66c-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-48c44333eb25c66c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-48c44333eb25c66c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-48c44333eb25c66c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4ecf88b9974b0e2-source-1",
+      "title": "ドラえもん 新・のび太の宇宙開拓史：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53875/",
+      "candidate_body": "資料記載の日本公開：2009-03-07。監督：楠葉宏三／腰繁男。出演：水田わさび／大原めぐみ／木村昴／関智一／かかずゆみ／千秋／櫻井智／佐久間レイ／アヤカ・ウィルソン／徳井義実／福田充徳／若田光一／香里奈。導入の確認事項：部屋の畳の下が遠い星とつながり、のび太たちは豊かな自然に暮らす人々と交流する。 ジャンルは紹介内容からの候補。2009年のリメイク版。1981年版と区別。"
+    },
+    {
+      "ref_id": "next30-b4ecf88b9974b0e2-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4ecf88b9974b0e2-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4ecf88b9974b0e2-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b4ecf88b9974b0e2-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f36db3ec645be80b-source-1",
+      "title": "チェンジリング：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53185/",
+      "candidate_body": "資料記載の日本公開：2009-02-20。監督：クリント・イーストウッド。出演：アンジェリーナ・ジョリー／ガトリン・グリフィス／ジョン・マルコビッチ／コルム・フィオール／デボン・コンティ／ジェフリー・ドノバン／マイケル・ケリー／ジェイソン・バトラー・ハーナー／エイミー・ライアン／ジェフリー・ピアソン／エディ・オルダーソン。導入の確認事項：行方不明の息子と再会した母親は、警察が連れてきた少年が別人だと訴え、真相を追う。 ジャンルは紹介内容からの候補。2008年製作のイーストウッド監督版。本文のアンジェリーナ・ジョリーと母親の捜索を照合。"
+    },
+    {
+      "ref_id": "next30-f36db3ec645be80b-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f36db3ec645be80b-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f36db3ec645be80b-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-f36db3ec645be80b-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-814bba979ed2f24c-source-1",
+      "title": "甲虫王者ムシキング　スーパーバトルムービー　闇の改造甲虫：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/33902/",
+      "candidate_body": "資料記載の日本公開：2007-03-21。監督：水崎淳平。出演：進藤尚美／堀井真吾／佐藤正治／塚地武雅／鈴木拓。導入の確認事項：妖精ポポと甲虫たちが暮らす森に、闇の妖精アダーに操られた甲虫たちが襲いかかる。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-814bba979ed2f24c-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-814bba979ed2f24c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-814bba979ed2f24c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-814bba979ed2f24c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bc25f5d64019bc9d-source-1",
+      "title": "釣りキチ三平：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53870/",
+      "candidate_body": "資料記載の日本公開：2009-03-20。監督：滝田洋二郎。出演：須賀健太／香椎由宇／塚本高史／渡瀬恒彦／土屋太鳳／萩原聖人／小宮泰孝／志村東吾／螢雪次朗。導入の確認事項：釣りの腕を持つ少年三平が、プロの釣り師から聞いた巨大魚の伝説を確かめに谷へ向かう。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-bc25f5d64019bc9d-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bc25f5d64019bc9d-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bc25f5d64019bc9d-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bc25f5d64019bc9d-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-2e8b2e90c4a61557-source-1",
+      "title": "DRAGONBALL EVOLUTION：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53221/",
+      "candidate_body": "資料記載の日本公開：2009-03-13。監督：ジェームズ・ウォン。出演：ジャスティン・チャットウィン／エミー・ロッサム／チョウ・ユンファ／ジェームズ・マースターズ／田村英里子／ジェイミー・チャン／ジューン・パーク／ランダル・ダク・キム／関めぐみ。導入の確認事項：七つ集めると願いがかなうドラゴンボールをめぐり、悟空たちとピッコロが争奪戦を繰り広げる。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-2e8b2e90c4a61557-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-2e8b2e90c4a61557-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-2e8b2e90c4a61557-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-2e8b2e90c4a61557-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8c3cf7de77dc3f33-source-1",
+      "title": "ザ・フライ２　二世誕生：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/44887/",
+      "candidate_body": "資料記載の日本公開：1989-05-03。監督：クリス・ウェイラス。出演：エリック・ストルツ／ダフネ・ズニーガ／リー・リチャードソン／ジョン・ゲッツ／フランク・C・ターナー／アン・マリー・リー／ゲイリー・チョーク／サフロン・ヘンダーソン／ハーレイ・クロス／マシュー・ムーア。導入の確認事項：人間とハエの遺伝子を受け継ぐ少年が研究所で急成長し、父の残した転送実験に関わっていく。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-8c3cf7de77dc3f33-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8c3cf7de77dc3f33-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8c3cf7de77dc3f33-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-8c3cf7de77dc3f33-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-68460504c4f785f6-source-1",
+      "title": "銀河鉄道999　エターナル・ファンタジー：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/36018/",
+      "candidate_body": "資料記載の日本公開：1998-03-07。監督：宇田鋼之介。出演：野沢雅子／池田昌子／肝付兼太／榊原良子／戸田恵子／日高のり子／たてかべ和也／梁田清之／皆口裕子／山寺宏一。導入の確認事項：新たな支配者に捕らわれた鉄郎がメーテルと再会し、銀河鉄道999で再び宇宙へ旅立つ。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-68460504c4f785f6-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-68460504c4f785f6-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-68460504c4f785f6-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-68460504c4f785f6-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aa17fb8951e8dae4-source-1",
+      "title": "カフーを待ちわびて：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53713/",
+      "candidate_body": "資料記載の日本公開：2009-02-28。監督：中井庸友。出演：玉山鉄二／マイコ／勝地涼／尚玄／瀬名波孝子／宮川大輔／ほんこん／伊藤ゆみ／白石美帆／高岡早紀／沢村一樹。導入の確認事項：沖縄の小島で雑貨屋を営む青年のもとに、見知らぬ女性から嫁にしてほしいとの手紙が届く。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-aa17fb8951e8dae4-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aa17fb8951e8dae4-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aa17fb8951e8dae4-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-aa17fb8951e8dae4-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d4a234ad0195f6d1-source-1",
+      "title": "グロテスク：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54329/",
+      "candidate_body": "資料記載の日本公開：2009-01-17。監督：白石晃士。出演：長澤つぐみ／川連廣明／大迫茂生。導入の確認事項：初めてのデートをしていた二人が何者かに拉致され、見知らぬ地下室で拘束される。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-d4a234ad0195f6d1-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d4a234ad0195f6d1-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d4a234ad0195f6d1-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d4a234ad0195f6d1-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54c5df9e8b633569-source-1",
+      "title": "ヘルライド：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53923/",
+      "candidate_body": "資料記載の日本公開：2009-01-17。監督：ラリー・ビショップ。出演：ラリー・ビショップ／マイケル・マドセン／エリック・バルフォー／レオノア・バレラ／デビッド・キャラダイン／ビニー・ジョーンズ／デニス・ホッパー。導入の確認事項：対抗するグループに仲間を殺されたバイカーたちが、復讐を果たすための旅へ出る。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-54c5df9e8b633569-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54c5df9e8b633569-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54c5df9e8b633569-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-54c5df9e8b633569-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-882a57654cc09d40-source-1",
+      "title": "オーストラリア：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53827/",
+      "candidate_body": "資料記載の日本公開：2009-02-28。監督：バズ・ラーマン。出演：ニコール・キッドマン／ヒュー・ジャックマン／デビッド・ウェンハム／ブライアン・ブラウン／ジャック・トンプソン／デビッド・ガルピリル／ブランドン・ウォルターズ／ベン・メンデルソーン。導入の確認事項：夫を失った英国貴族の女性が、牧場を守るためカウボーイと牛の群れを連れて大陸を渡る。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-882a57654cc09d40-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-882a57654cc09d40-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-882a57654cc09d40-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-882a57654cc09d40-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3594f627d35ad4c7-source-1",
+      "title": "カプリコン・１：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/8133/",
+      "candidate_body": "資料記載の日本公開：1977-12-17。監督：ピーター・ハイアムズ。出演：エリオット・グールド／ジェームズ・ブローリン／ブレンダ・バッカロ／サム・ウォーターストン／O・J・シンプソン／ハル・ホルブルック／デビッド・ハドルストン／デビッド・ドイル／カレン・ブラック／テリー・サバラス。導入の確認事項：火星への有人飛行を偽装する計画に宇宙飛行士たちが巻き込まれ、記者が疑惑を追う。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-3594f627d35ad4c7-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3594f627d35ad4c7-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3594f627d35ad4c7-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3594f627d35ad4c7-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4fe428a85f52f48e-source-1",
+      "title": "ザ・ クリーナー 消された殺人：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/54290/",
+      "candidate_body": "資料記載の日本公開：2009-02-07。監督：レニー・ハーリン。出演：サミュエル・L・ジャクソン／エド・ハリス／エバ・メンデス／キキ・パーマー。導入の確認事項：殺人現場の清掃を終えた元刑事が、架空の依頼主にだまされたと知り、事件の真相を探る。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-4fe428a85f52f48e-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4fe428a85f52f48e-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4fe428a85f52f48e-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4fe428a85f52f48e-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-250bf72c6a8f64d5-source-1",
+      "title": "ベンジャミン・バトン 数奇な人生：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53529/",
+      "candidate_body": "資料記載の日本公開：2009-02-07。監督：デビッド・フィンチャー。出演：ブラッド・ピット／ケイト・ブランシェット／タラジ・P・ヘンソン／ジュリア・オーモンド／ジェイソン・フレミング／イライアス・コティーズ／ティルダ・スウィントン／ジャレッド・ハリス／エル・ファニング／マハーシャラルハズバズ・アリ。導入の確認事項：老人の姿で生まれ、年を重ねるほど若返っていく男が、さまざまな出会いと別れを経験する。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-250bf72c6a8f64d5-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-250bf72c6a8f64d5-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-250bf72c6a8f64d5-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-250bf72c6a8f64d5-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d39738eb4f2cc64b-source-1",
+      "title": "ランブルフィッシュ：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/50606/",
+      "candidate_body": "資料記載の日本公開：1984-07-21。監督：フランシス・フォード・コッポラ。出演：マット・ディロン／ミッキー・ローク／ダイアン・レイン／デニス・ホッパー／ダイアナ・スカーウィッド／ビンセント・スパーノ／ニコラス・ケイジ／クリス・ペン／ウィリアム・スミス／グレン・ウィスロー／トム・ウェイツ。導入の確認事項：不良グループを率いた兄に憧れる少年が、兄の不在中に別のグループとの果たし合いを受ける。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-d39738eb4f2cc64b-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d39738eb4f2cc64b-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d39738eb4f2cc64b-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d39738eb4f2cc64b-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0868d9023928eb0b-source-1",
+      "title": "遊星からの物体Ｘ：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/30673/",
+      "candidate_body": "資料記載の日本公開：1982。監督：ジョン・カーペンター。出演：カート・ラッセル／ウィルフォード・ブリムリー／リチャード・ダイサート／ドナルド・モファット／T・K・カーター／キース・デビッド。導入の確認事項：南極の観測基地に現れた犬が未知の生命体だと分かり、隊員たちは互いの正体を疑い始める。 ジャンルは紹介内容からの候補。資料の日本初公開は1982年11月まで確認。日付は未確認のため空欄。2018年の再公開日と区別。"
+    },
+    {
+      "ref_id": "next30-0868d9023928eb0b-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0868d9023928eb0b-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0868d9023928eb0b-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0868d9023928eb0b-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-148da4be420c8ac1-source-1",
+      "title": "劇場版ＮＡＲＵＴＯ－ナルト－疾風伝：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/34101/",
+      "candidate_body": "資料記載の日本公開：2007-08-04。監督：亀垣一。出演：竹内順子／中村千絵／遠近孝一／増川洋一。導入の確認事項：復活した魔物を封印できる巫女の護衛に就いたナルトが、彼女から自身の死を予言される。 ジャンルは紹介内容からの候補。本文の「魍魎の操る兵団」が2007年版の魔物の設定と対応。"
+    },
+    {
+      "ref_id": "next30-148da4be420c8ac1-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-148da4be420c8ac1-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-148da4be420c8ac1-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-148da4be420c8ac1-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90ec16c0e18322ea-source-1",
+      "title": "さよなら銀河鉄道999　アンドロメダ終着駅：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/36017/",
+      "candidate_body": "資料記載の日本公開：1981-08-01。監督：りんたろう。出演：野沢雅子／池田昌子／麻上洋子／肝付兼太／井上真樹夫／田島令子／富山敬／来宮良子／江守徹。導入の確認事項：機械人間と戦う地球の鉄郎が、メーテルからの呼びかけで再び銀河鉄道999に乗り込む。 ジャンルは紹介内容からの候補。1981年の日本初公開日。2022年の再公開日と区別。"
+    },
+    {
+      "ref_id": "next30-90ec16c0e18322ea-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90ec16c0e18322ea-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90ec16c0e18322ea-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-90ec16c0e18322ea-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d5d81ea639831a1b-source-1",
+      "title": "ミラーズ：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53976/",
+      "candidate_body": "資料記載の日本公開：2008-12-26。監督：アレクサンドル・アジャ。出演：キーファー・サザーランド／ポーラ・パットン／エイミー・スマート。導入の確認事項：焼けたデパートの夜警となった元刑事が鏡に触れた後、不可解な死と家族の危機に直面する。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-d5d81ea639831a1b-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d5d81ea639831a1b-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d5d81ea639831a1b-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d5d81ea639831a1b-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-58f1febd0f887099-source-1",
+      "title": "K－20 怪人二十面相 伝：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53311/",
+      "candidate_body": "資料記載の日本公開：2008-12-20。監督：佐藤嗣麻子。出演：金城武／松たか子／仲村トオル／國村隼／高島礼子／本郷奏多／今井悠貴／益岡徹／鹿賀丈史。導入の確認事項：怪人二十面相に仕立てられたサーカスの曲芸師が、名探偵らを巻き込み本物の怪盗に挑む。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-58f1febd0f887099-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-58f1febd0f887099-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-58f1febd0f887099-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-58f1febd0f887099-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6796e9dc995c277e-source-1",
+      "title": "地底からの侵略 人類VSエイリアン（allcinema）",
+      "url": "https://www.allcinema.net/cinema/342143",
+      "candidate_body": "原題BORN OF EARTH、2008年製作、アメリカ、85分、SF／ホラー、劇場未公開。監督トミー・ブランズウィック。出演ダニエル・ボールドウィン／ジェニファー・キンサー／ブラッド・ドゥーリフ。"
+    },
+    {
+      "ref_id": "next30-6796e9dc995c277e-source-2",
+      "title": "地底からの侵略 人類VSエイリアン・DVD TMV-82（CDJapan商品情報）",
+      "url": "https://www.cdjapan.co.jp/product/TMV-82",
+      "candidate_body": "日本向けDVD発売日2012年3月30日、JAN4510840406680。日本未公開と記載。導入は妻を殺され二人の子をさらわれたダニーが地底のエイリアンを追う。2008年の製作年も掲載。"
+    },
+    {
+      "ref_id": "next30-6796e9dc995c277e-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6796e9dc995c277e-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6796e9dc995c277e-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-e46136db72b76a40-source-1",
+      "title": "ブラインドネス：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/53429/",
+      "candidate_body": "資料記載の日本公開：2008-11-22。監督：フェルナンド・メイレレス。出演：ジュリアン・ムーア／マーク・ラファロ／アリシー・ブラガ／伊勢谷友介／木村佳乃／ドン・マッケラー／モーリー・チェイキン／ミッチェル・ナイ／ダニー・グローバー／ガエル・ガルシア・ベルナル。導入の確認事項：突然視力を失う奇病が広がり、隔離された人々の中で、一人だけ目の見える女性が生き抜く。 ジャンルは紹介内容からの候補。"
+    },
+    {
+      "ref_id": "next30-e46136db72b76a40-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-e46136db72b76a40-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-e46136db72b76a40-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-e46136db72b76a40-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-196bc66dd6d2ec35-source-1",
+      "title": "MARCO　母をたずねて三千里：作品情報・キャスト・あらすじ（映画.com）",
+      "url": "https://eiga.com/movie/39538/",
+      "candidate_body": "資料記載の日本公開：1999-04-03。監督：楠葉宏三。出演：樋口智恵子／榊原るみ／菅生隆之／松下恵／井上倫宏／田中伸幸／なべおさみ／岡本麻弥／川田妙子／高乃麗／山内雅人／鈴木ヒロミツ／キートン山田。導入の確認事項：出稼ぎ先の母から手紙が届かなくなり、少年マルコは母を捜すためイタリアから海を渡る。 ジャンルは紹介内容からの候補。1999年の劇場版。本文の1999年への言及と照合。"
+    },
+    {
+      "ref_id": "next30-196bc66dd6d2ec35-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-196bc66dd6d2ec35-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-196bc66dd6d2ec35-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-196bc66dd6d2ec35-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    }
+  ],
+  "image_assets": []
+}
