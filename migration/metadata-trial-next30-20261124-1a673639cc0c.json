@@ -1,0 +1,5637 @@
+{
+  "batch_id": "metadata-trial-next30-20261124-1a673639cc0c",
+  "dataset_id": "movielog-next30-20261124-1a673639cc0c",
+  "base_commit": "1e130a2359a254181bb212627a9b387e8cd73334",
+  "source_base_commit": "1e130a2359a254181bb212627a9b387e8cd73334",
+  "applied_at": "2026-11-25T02:03:42.567389+09:00",
+  "target_count": 30,
+  "confirmed_count": 30,
+  "answer_sha256": "8b68dce4c08a6f9f6dfc2163aa9113b576ebbe7008b9a2118d8d12b472c1c0e7",
+  "candidate_sha256": "55ef3b6f3fea4d98f9853436baa35eb0a74d03462ffd84e68495e6d75496d264",
+  "target_sha256": "cc06170bbd80a709a5f6395764fd0f0eb589c667692c0b523186a834b95565a7",
+  "application_location": "assistant_working_repository",
+  "windows_and_github_application": "pending",
+  "outcomes": [
+    {
+      "file": "content/reviews/ナヴァラサ_2007-12-01.md",
+      "title": "ナヴァラサ",
+      "review_date": "2007-12-01 12:46:00",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "サントーシュ・シヴァン"
+        ],
+        "cast": [
+          "シュエータ",
+          "クシュブー",
+          "ボビー・ダーリン"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "なゔぁらさ",
+        "release_year": 2007,
+        "directors": [
+          "サントーシュ・シヴァン"
+        ],
+        "cast": [
+          "シュエータ",
+          "クシュブー",
+          "ボビー・ダーリン"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "叔父が女装する姿を見た少女シュエータは、叔父を追って南インドの村で開かれる祭りへ向かう。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "シュエータの家族の日常から始まって叔父の女装を知るわけですが、その時点から最後までの心情の移り変わりがとても鮮やか。とはいっても妙に冷静なカメラワークで、わりと淡々としてはいるのだが。中盤は基本的にインドの女装祭りを中心に描かれていて、これがストーリーと関係なく異文化的に結構面白い。いまいち流れのわからない部分はあるけれどとても率直に描かれているし、差別を受けている部分もとてもシンプルに描かれている。最後も凄くハッピーエンド、なわけじゃなくて実際差別根深そうだな、というのが垣間見えていていい（？）。そんなわけでインドの社会な映画だが、特に構えなくても13歳の少女視点なので違和感なく入り込めるのが魅力。でも都市部とか場所によって捉えられ方は全然違うんだろうなー。突然踊りが入るのはインド映画の仕様です。\n",
+        "title": "ナヴァラサ",
+        "short_review": "インドのニューハーフ。"
+      },
+      "article_sha256_before": "938b85ae7e935dc46e75389f53a144be50c072ef4aa53b9fdfdc72b71f949626",
+      "article_sha256_after": "de27e0ac9c4ae44d7e3b5a6dc147d84656a0102831c5a2c0e2bbefd759377510",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なゔぁらさ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-7638641a7ef7a6a0-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-03-17",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-7638641a7ef7a6a0-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サントーシュ・シヴァン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-7638641a7ef7a6a0-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "シュエータ\nクシュブー\nボビー・ダーリン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-7638641a7ef7a6a0-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "叔父が女装する姿を見た少女シュエータは、叔父を追って南インドの村で開かれる祭りへ向かう。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "シュエータの家族の日常から始まって叔父の女装を知るわけですが、その時点から最後までの心情の移り変わりがとても鮮やか。とはいっても妙に冷静なカメラワークで、わりと淡々としてはいるのだが。中盤は基本的にインドの女装祭りを中心に描かれていて、これがストーリーと関係なく異文化的に結構面白い。いまいち流れのわからない部分はあるけれどとても率直に描かれているし、差別を受けている部分もとてもシンプルに描かれている。最後も凄くハッピーエンド、なわけじゃなくて実際差別根深そうだな、というのが垣間見えていていい（？）。そんなわけでインドの社会な映画だが、特に構えなくても13歳の少女視点なので違和感なく入り込めるのが魅力。でも都市部とか場所によって捉えられ方は全然違うんだろうなー。突然踊りが入るのはインド映画の仕様です。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ナヴァラサ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "インドのニューハーフ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/蛇娘と白髪魔_2007-11-30.md",
+      "title": "蛇娘と白髪魔",
+      "review_date": "2007-11-30 14:06:12",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1968,
+        "directors": [
+          "湯浅憲明"
+        ],
+        "cast": [
+          "松井八知栄",
+          "高橋まゆみ",
+          "北原義郎"
+        ],
+        "genres": [
+          "ホラー",
+          "特撮"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "へびむすめとはくはつま",
+        "release_year": 1968,
+        "directors": [
+          "湯浅憲明"
+        ],
+        "cast": [
+          "松井八知栄",
+          "高橋まゆみ",
+          "北原義郎"
+        ],
+        "genres": [
+          "ホラー",
+          "特撮"
+        ],
+        "synopsis": "両親の家に迎えられた小百合は姉と名乗る少女と暮らし始めるが、家で怪しい出来事が相次ぐ。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "主人公の一人語りとかやけに楳図かずおテイストばっちりですが、それが湯浅監督の妙にホワホワした特殊効果とぴったりあっててなんだか変な感慨だ。なんとなく安っぽさがガメラ的ではある。夢の中ででてくる人物とか誰なのかよくわからなかったり、白髪鬼が唐突になんなのかよくわからなかったりするのは多分湯浅仕様。ただ雰囲気的によくわからなくても強引でもなんだか許せてしまうあたりは魅力値が高い。怖いかといわれると今から見るととりたてて怖くはないのだけれども、楳図かずお作品の映画化としてはわりと成功してるんではなかろうか、いやおどろおどろしさは勿論原作のほうが数段上だしストーリーも作りやすく改変してあるんだけど、映画化頑張ってるラインだと思う。でもたまみって赤ん坊少女じゃないと・・・・。とりあえず楳図作品は白黒のほうがあってるような気がした。今作ってもこのレトロな雰囲気はでないんだろうなあ。\n",
+        "title": "蛇娘と白髪魔",
+        "short_review": "予想外なほど楳図かずおテイスト。"
+      },
+      "article_sha256_before": "e72388f3965659a310d227d9769f7cf25dd8eb042fd8bdfa582d5b032c1bc09c",
+      "article_sha256_after": "9b420471a6240439f758ffd4178629694dcb3cac2a2e1436916c512d84809841",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "へびむすめとはくはつま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-83ae0d4483a83122-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1968-12-14",
+              "year": "1968",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-83ae0d4483a83122-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "湯浅憲明",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-83ae0d4483a83122-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "松井八知栄\n高橋まゆみ\n北原義郎",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\n特撮",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-83ae0d4483a83122-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "両親の家に迎えられた小百合は姉と名乗る少女と暮らし始めるが、家で怪しい出来事が相次ぐ。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "主人公の一人語りとかやけに楳図かずおテイストばっちりですが、それが湯浅監督の妙にホワホワした特殊効果とぴったりあっててなんだか変な感慨だ。なんとなく安っぽさがガメラ的ではある。夢の中ででてくる人物とか誰なのかよくわからなかったり、白髪鬼が唐突になんなのかよくわからなかったりするのは多分湯浅仕様。ただ雰囲気的によくわからなくても強引でもなんだか許せてしまうあたりは魅力値が高い。怖いかといわれると今から見るととりたてて怖くはないのだけれども、楳図かずお作品の映画化としてはわりと成功してるんではなかろうか、いやおどろおどろしさは勿論原作のほうが数段上だしストーリーも作りやすく改変してあるんだけど、映画化頑張ってるラインだと思う。でもたまみって赤ん坊少女じゃないと・・・・。とりあえず楳図作品は白黒のほうがあってるような気がした。今作ってもこのレトロな雰囲気はでないんだろうなあ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "蛇娘と白髪魔",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "予想外なほど楳図かずおテイスト。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/FUCK_2007-11-30.md",
+      "title": "FUCK",
+      "review_date": "2007-11-30 10:25:13",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "スティーヴ・アンダーソン"
+        ],
+        "cast": [
+          "パット・ブーン",
+          "アイス・T",
+          "ビル・マー"
+        ],
+        "genres": [
+          "ドキュメンタリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふぁっく",
+        "release_year": 2007,
+        "directors": [
+          "スティーヴ・アンダーソン"
+        ],
+        "cast": [
+          "パット・ブーン",
+          "アイス・T",
+          "ビル・マー"
+        ],
+        "genres": [
+          "ドキュメンタリー"
+        ],
+        "synopsis": "放送で規制される英語の俗語を手がかりに、米国の言葉と表現の自由を証言や映像資料から探る。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "FUCKは日本人にとっては馬鹿！とかそんな感じの単純な言葉な印象だが、アメリカでは卑猥な言葉として公営放送での放映は禁止されている。こんなに語幹がいい言葉を何故使ってはいけないのか、卑猥な言葉を子供に聞かせてはいけないんじゃない？でもFUCKなんて物心ついたらどっかで聞いちゃうほど有りふれてるよ、ってな具合でFUCKについてのロングトークです。言語的にとか社会学的に結構面白く、アメリカの表現の自由というのはこういう面で素晴らしい(日本だと禁止されたら全部駄目！になっちゃうから)とは思うのだが、如何せんこのFUCKという言葉に日本人がピンとこないのですね。というのも日本で類似した言葉が見当たらないのも大きいのと、言葉に対しての思い入れが違うと思うんだ。向こうは聖書とか聖なる言葉を毎週日曜日に教会で読み上げたりとかそういう国だし。そんなわけで言葉というものに対する日米の対応の違いを思い知る映画でしたが、そもそもそういうのに興味がないとつまらないのは間違いない。つまりFuckだから何か面白げな映画だろうと思って見に行った人は大いに凹む、だって凄く真面目な映画なんだもん。惜しむらくはせっかくFuckなのだから盛大に討論してFuck連呼してもらいたかったな、基本単独インタビューで構成されているから。\n",
+        "title": "FUCK",
+        "short_review": "表現の自由。"
+      },
+      "article_sha256_before": "9f7368c0c8e46e2d0aeb5b517a02459ce92f510191ca3e201f0011ec2d3a412c",
+      "article_sha256_after": "93cf45511e3fa1f30416a52788ab2408d289d310538d60d4fc213f3322bbde7e",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふぁっく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-6df21599a08b13af-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-11-10",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-6df21599a08b13af-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スティーヴ・アンダーソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-6df21599a08b13af-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パット・ブーン\nアイス・T\nビル・マー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドキュメンタリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-6df21599a08b13af-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "放送で規制される英語の俗語を手がかりに、米国の言葉と表現の自由を証言や映像資料から探る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "FUCKは日本人にとっては馬鹿！とかそんな感じの単純な言葉な印象だが、アメリカでは卑猥な言葉として公営放送での放映は禁止されている。こんなに語幹がいい言葉を何故使ってはいけないのか、卑猥な言葉を子供に聞かせてはいけないんじゃない？でもFUCKなんて物心ついたらどっかで聞いちゃうほど有りふれてるよ、ってな具合でFUCKについてのロングトークです。言語的にとか社会学的に結構面白く、アメリカの表現の自由というのはこういう面で素晴らしい(日本だと禁止されたら全部駄目！になっちゃうから)とは思うのだが、如何せんこのFUCKという言葉に日本人がピンとこないのですね。というのも日本で類似した言葉が見当たらないのも大きいのと、言葉に対しての思い入れが違うと思うんだ。向こうは聖書とか聖なる言葉を毎週日曜日に教会で読み上げたりとかそういう国だし。そんなわけで言葉というものに対する日米の対応の違いを思い知る映画でしたが、そもそもそういうのに興味がないとつまらないのは間違いない。つまりFuckだから何か面白げな映画だろうと思って見に行った人は大いに凹む、だって凄く真面目な映画なんだもん。惜しむらくはせっかくFuckなのだから盛大に討論してFuck連呼してもらいたかったな、基本単独インタビューで構成されているから。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "FUCK",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "表現の自由。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/転々_2007-11-29.md",
+      "title": "転々",
+      "review_date": "2007-11-29 02:24:22",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "三木聡"
+        ],
+        "cast": [
+          "オダギリジョー",
+          "三浦友和",
+          "小泉今日子",
+          "吉高由里子"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "てんてん",
+        "release_year": 2007,
+        "directors": [
+          "三木聡"
+        ],
+        "cast": [
+          "オダギリジョー",
+          "三浦友和",
+          "小泉今日子",
+          "吉高由里子"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ"
+        ],
+        "synopsis": "借金を抱えた大学生の文哉は、借金を帳消しにする条件で取り立て屋の福原と東京を歩き始める。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "なんか非常にユルいです。だらだら二人の男が東京を歩く、小さな小ネタは積み重なってるけれど、基本それだけで大きなドラマとかも特にない。ただ猫がいたりおばさんがいたりとそれだけで何か面白い。散歩というのを日常を鑑賞する非日常的行為として描いているのか、妙に二人他を観察するポジションでカメラが動いている気がする。岸部一徳の挿入の仕方とか顕著なんですが、２人がやけに世捨て人風なので日常の面白さが際立つんですよね。かといって全然感情がないわけではなくて色々思ってそれを表現してるのだけど全然押し付けがましくないあたりがユルユルするのです。すべての登場する人々や品々がソフトに別々な感じ、というか説明しづらいですが系統的にはめがねのテイストにも近いとは思う。ただまあ全体的にユルユルした映画なので派手な映画好きな人はつまらないかも、だって散歩するだけだし。\n",
+        "title": "転々",
+        "short_review": "ユルユル。"
+      },
+      "article_sha256_before": "00dad68c9f72de2ca6eeb72370696f684955408c18a34cdd01d76d1a0f720710",
+      "article_sha256_after": "8a6273e3520f489f0a90afc40527e15a078b33b937e2f64a6a7e98532c690935",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "てんてん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-0d33c70571b30eb6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-11-10",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-0d33c70571b30eb6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "三木聡",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-0d33c70571b30eb6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "オダギリジョー\n三浦友和\n小泉今日子\n吉高由里子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-0d33c70571b30eb6-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "借金を抱えた大学生の文哉は、借金を帳消しにする条件で取り立て屋の福原と東京を歩き始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんか非常にユルいです。だらだら二人の男が東京を歩く、小さな小ネタは積み重なってるけれど、基本それだけで大きなドラマとかも特にない。ただ猫がいたりおばさんがいたりとそれだけで何か面白い。散歩というのを日常を鑑賞する非日常的行為として描いているのか、妙に二人他を観察するポジションでカメラが動いている気がする。岸部一徳の挿入の仕方とか顕著なんですが、２人がやけに世捨て人風なので日常の面白さが際立つんですよね。かといって全然感情がないわけではなくて色々思ってそれを表現してるのだけど全然押し付けがましくないあたりがユルユルするのです。すべての登場する人々や品々がソフトに別々な感じ、というか説明しづらいですが系統的にはめがねのテイストにも近いとは思う。ただまあ全体的にユルユルした映画なので派手な映画好きな人はつまらないかも、だって散歩するだけだし。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "転々",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ユルユル。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/フェーンチャン　ぼくの恋人_2007-11-28.md",
+      "title": "フェーンチャン　ぼくの恋人",
+      "review_date": "2007-11-28 12:15:12",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2005,
+        "directors": [
+          "コムグリット・ドゥリーウィモン",
+          "ウィッタヤー・トーンユーヨン",
+          "ソンヨット・スックマークアナン",
+          "ニティワット・タラートーン",
+          "アディソーン・ドゥリーシリカセーム",
+          "ウイッチャヤー・ゴージウ"
+        ],
+        "cast": [
+          "チャーリー・タライラット",
+          "フォーカス・ジラクン"
+        ],
+        "genres": [
+          "ドラマ",
+          "青春"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふぇーんちゃんぼくのこいびと",
+        "release_year": 2005,
+        "directors": [
+          "コムグリット・ドゥリーウィモン",
+          "ウィッタヤー・トーンユーヨン",
+          "ソンヨット・スックマークアナン",
+          "ニティワット・タラートーン",
+          "アディソーン・ドゥリーシリカセーム",
+          "ウイッチャヤー・ゴージウ"
+        ],
+        "cast": [
+          "チャーリー・タライラット",
+          "フォーカス・ジラクン"
+        ],
+        "genres": [
+          "ドラマ",
+          "青春"
+        ],
+        "synopsis": "幼なじみの結婚を知った青年が、子どもの頃に彼女と遊んだ日々や仲間たちとの出来事を思い出す。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "子供の頃のことなんて普段はすっかり忘れてるのに、ふとした切欠でたまたま思い出す懐かしくも甘酸っぱい記憶、っていうのが凄く綺麗に表現されている。思い出の風景はとりたててドラマティックであったり刺激的であったりはしないのだけれど、とりとめのない毎日の暮らしが新鮮で貴重な体験であった子供時代、なんていうか実に普通に悪ガキでいい事も悪いことも等しく描かれているし子供ではどうしようもない事というのがどうしようもないまま描かれていて、タッチは柔らかなんだけど受け取り方が妙にシビアだ。よくこんな風に子供を描けるなあという感慨。特に美化してないあたりがよいのですが、はっきりいて大部分をしめる子供時代の描写はどちらかというと淡々とした描かれ方になっているので、あまり面白みはないかもしれない、けどその分大人の自分に立ち返ったときにいいパンチになってるのです。まあ20歳以下が見てもつまらないだろうなあ。全体的にのどかな田舎町の風景をベースに描かれた綺麗な作品でもある。\n",
+        "title": "フェーンチャン ぼくの恋人",
+        "short_review": "なんだかなつかしいかんじ。"
+      },
+      "article_sha256_before": "b2973863c9dc424719a384aea7dabb0881602e4d8aeaf1ce43bb5a2f4289bb60",
+      "article_sha256_after": "23f978d26e2b8811e16ad45c5501a79817990f6626da7447a751c6dcc024a905",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふぇーんちゃんぼくのこいびと",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d1f8c1cf165804a1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2005-03-19",
+              "year": "2005",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d1f8c1cf165804a1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "コムグリット・ドゥリーウィモン\nウィッタヤー・トーンユーヨン\nソンヨット・スックマークアナン\nニティワット・タラートーン\nアディソーン・ドゥリーシリカセーム\nウイッチャヤー・ゴージウ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d1f8c1cf165804a1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チャーリー・タライラット\nフォーカス・ジラクン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n青春",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d1f8c1cf165804a1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "幼なじみの結婚を知った青年が、子どもの頃に彼女と遊んだ日々や仲間たちとの出来事を思い出す。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "子供の頃のことなんて普段はすっかり忘れてるのに、ふとした切欠でたまたま思い出す懐かしくも甘酸っぱい記憶、っていうのが凄く綺麗に表現されている。思い出の風景はとりたててドラマティックであったり刺激的であったりはしないのだけれど、とりとめのない毎日の暮らしが新鮮で貴重な体験であった子供時代、なんていうか実に普通に悪ガキでいい事も悪いことも等しく描かれているし子供ではどうしようもない事というのがどうしようもないまま描かれていて、タッチは柔らかなんだけど受け取り方が妙にシビアだ。よくこんな風に子供を描けるなあという感慨。特に美化してないあたりがよいのですが、はっきりいて大部分をしめる子供時代の描写はどちらかというと淡々とした描かれ方になっているので、あまり面白みはないかもしれない、けどその分大人の自分に立ち返ったときにいいパンチになってるのです。まあ20歳以下が見てもつまらないだろうなあ。全体的にのどかな田舎町の風景をベースに描かれた綺麗な作品でもある。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フェーンチャン ぼくの恋人",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんだかなつかしいかんじ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ホワイト・バレンタイン_2007-11-27.md",
+      "title": "ホワイト・バレンタイン",
+      "review_date": "2007-11-27 12:00:47",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "ヤン・ユノ"
+        ],
+        "cast": [
+          "チョン・ジヒョン",
+          "パク・シニャン"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ほわいとばれんたいん",
+        "release_year": 2004,
+        "directors": [
+          "ヤン・ユノ"
+        ],
+        "cast": [
+          "チョン・ジヒョン",
+          "パク・シニャン"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ],
+        "synopsis": "祖父の本屋を手伝う少女ジョンミンは、亡くなった恋人への手紙を送り続ける青年と出会う。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "地味な田舎町で地味に展開されるラブストーリーで、過去のいきさつや現在のすれ違いなんかを地味に描いた作品でストーリーとしては悪くはないのだけど、ヒロインが電波だ。韓国映画ではヒロインが電波なのはわりとよくある事だが、電波なヒロインに感情移入をするのはちょっと難しい。そんなに終始電波なわけではないんだが、子供からリンゴを略奪したりとあまり周囲の迷惑を顧みず自己中に展開していく。その辺で振り回される周囲を描くのは韓国的には面白いのかもしれないが、日本人的には少しキツイよなーと。まあ電波と言い切れるほど電波というわけでもないけれど男2人もなんか地味すぎて目立たないのが更に輪をかけている、エピソードの1つくらい立てろよみたいな。鳩のやりとりとかそれなりに心ときそうな小道具は多いのに、うまく生かしきれてないような感じである。どことなく古臭い(これもまた韓国恋愛ではよくあることだが)のも相まってあまり印象に残らなさそうな作品。\n",
+        "title": "ホワイト・バレンタイン",
+        "short_review": "ヒロインが痛い系。"
+      },
+      "article_sha256_before": "9cbd610ff6d3332859e5a454aef93f0053d78b1fda77d3ffe3a5638bb6e57189",
+      "article_sha256_after": "781a96437da2218ade5d8be9407e3cd1d3d45754d7df5a06193d7260487eb8de",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ほわいとばれんたいん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-fdb5a4f4e0af4aff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-06-19",
+              "year": "2004",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-fdb5a4f4e0af4aff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヤン・ユノ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-fdb5a4f4e0af4aff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チョン・ジヒョン\nパク・シニャン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋愛\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-fdb5a4f4e0af4aff-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "祖父の本屋を手伝う少女ジョンミンは、亡くなった恋人への手紙を送り続ける青年と出会う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "地味な田舎町で地味に展開されるラブストーリーで、過去のいきさつや現在のすれ違いなんかを地味に描いた作品でストーリーとしては悪くはないのだけど、ヒロインが電波だ。韓国映画ではヒロインが電波なのはわりとよくある事だが、電波なヒロインに感情移入をするのはちょっと難しい。そんなに終始電波なわけではないんだが、子供からリンゴを略奪したりとあまり周囲の迷惑を顧みず自己中に展開していく。その辺で振り回される周囲を描くのは韓国的には面白いのかもしれないが、日本人的には少しキツイよなーと。まあ電波と言い切れるほど電波というわけでもないけれど男2人もなんか地味すぎて目立たないのが更に輪をかけている、エピソードの1つくらい立てろよみたいな。鳩のやりとりとかそれなりに心ときそうな小道具は多いのに、うまく生かしきれてないような感じである。どことなく古臭い(これもまた韓国恋愛ではよくあることだが)のも相まってあまり印象に残らなさそうな作品。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホワイト・バレンタイン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ヒロインが痛い系。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ウォーターホース_2007-11-27.md",
+      "title": "ウォーターホース",
+      "review_date": "2007-11-27 03:34:32",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2008,
+        "directors": [
+          "ジェイ・ラッセル"
+        ],
+        "cast": [
+          "アレックス・エテル",
+          "エミリー・ワトソン",
+          "ベン・チャップリン"
+        ],
+        "genres": [
+          "ファンタジー",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "うぉーたーほーす",
+        "release_year": 2008,
+        "directors": [
+          "ジェイ・ラッセル"
+        ],
+        "cast": [
+          "アレックス・エテル",
+          "エミリー・ワトソン",
+          "ベン・チャップリン"
+        ],
+        "genres": [
+          "ファンタジー",
+          "冒険"
+        ],
+        "synopsis": "湖のほとりで不思議な卵を見つけた少年アンガスは、そこから生まれた生き物をひそかに育て始める。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "どこかでみたような、というかのびたと恐竜、或いは一緒に行った人がいうにはQooのストーリーらしい。王道といえば王道だがうーん、ちょっと展開が遅い。展開が遅いのはまあいいんだけどこうくるだろうな、と思ってしばらく立ってからそうなる、というような感じでなんとなくもどかしいのです(こうなるかな？→あれ、ならないや。違う展開かな→やっぱそうなる。→・・・・。)。このもどかしさの原因の一つは、展開がある意味マッタリしてるというか盛り上がりにかける点にあるんですが、なんでこう盛り上がらないかというと登場人物がみんな感じが似てるんですよ、いい大人。最初悪役とか対立要素的に出てきても怖いシーンも全然なくていつのまにか仲間になってるし、仲間になるにしろ何らかの葛藤とかエピソードがないので面白みに少し欠けるのです。さてウォーターホースのCGですがこれはこれで悪くはない出来、なんだが動きも前にどこかで見たことがあるような感じなので・・・うーん、全体的にインパクトに欠ける作品である。\n",
+        "title": "ウォーターホース",
+        "short_review": "ちょｗハミルトンｗｗｗｗ"
+      },
+      "article_sha256_before": "d869063e4c01a32122b21e184ab1c302e82591661a48f306e330b17a6a7a0239",
+      "article_sha256_after": "0fbe83e3c9ada6701cfa9198b59748f3fc3f872b1a03cbfdf2467a26bd367563",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うぉーたーほーす",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-c03ae7726129ef9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2008-02-01",
+              "year": "2008",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-c03ae7726129ef9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェイ・ラッセル",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-c03ae7726129ef9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アレックス・エテル\nエミリー・ワトソン\nベン・チャップリン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ファンタジー\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-c03ae7726129ef9d-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "湖のほとりで不思議な卵を見つけた少年アンガスは、そこから生まれた生き物をひそかに育て始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "どこかでみたような、というかのびたと恐竜、或いは一緒に行った人がいうにはQooのストーリーらしい。王道といえば王道だがうーん、ちょっと展開が遅い。展開が遅いのはまあいいんだけどこうくるだろうな、と思ってしばらく立ってからそうなる、というような感じでなんとなくもどかしいのです(こうなるかな？→あれ、ならないや。違う展開かな→やっぱそうなる。→・・・・。)。このもどかしさの原因の一つは、展開がある意味マッタリしてるというか盛り上がりにかける点にあるんですが、なんでこう盛り上がらないかというと登場人物がみんな感じが似てるんですよ、いい大人。最初悪役とか対立要素的に出てきても怖いシーンも全然なくていつのまにか仲間になってるし、仲間になるにしろ何らかの葛藤とかエピソードがないので面白みに少し欠けるのです。さてウォーターホースのCGですがこれはこれで悪くはない出来、なんだが動きも前にどこかで見たことがあるような感じなので・・・うーん、全体的にインパクトに欠ける作品である。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ウォーターホース",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちょｗハミルトンｗｗｗｗ",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/椿三十郎_2007-11-26.md",
+      "title": "椿三十郎",
+      "review_date": "2007-11-26 13:31:37",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "森田芳光"
+        ],
+        "cast": [
+          "織田裕二",
+          "豊川悦司",
+          "松山ケンイチ",
+          "中村玉緒"
+        ],
+        "genres": [
+          "時代劇"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "つばきさんじゅうろう",
+        "release_year": 2007,
+        "directors": [
+          "森田芳光"
+        ],
+        "cast": [
+          "織田裕二",
+          "豊川悦司",
+          "松山ケンイチ",
+          "中村玉緒"
+        ],
+        "genres": [
+          "時代劇"
+        ],
+        "synopsis": "藩の不正を正そうと集まった若侍たちの前に一人の浪人が現れ、彼らの計画に手を貸す。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "ダメダメだろうと思ってたんだが、実際パッとしないし迫力もカラキシだったけど織田裕二は顔演技とか結構頑張ってた。トヨエツも役得もあるだろうけど悪くはなかったし中村玉緒もやりすぎだけどまああんなテイスト、三悪人は意外とあってる。でもこの原作をホームドラマにしようとするこたないだろうよ。一番アレなのが殺陣にしまりがないこと。最初のお堂を囲むシーンでも上部ガラアキ、三十郎の語りでも左右ガラアキ、なんですかこの物凄い勢いのスキマは。黒沢映画の素晴らしいところの一つに隙のないカメラにあると思うんですが物凄く、なんていうか、穴だらけです・・・。最も原作レイプなのは最後のシーンでスローモーションにして三十郎の長口上とかなんだかもう・・・。なにこの無駄な貯めは、三十郎で最後涙でしめようとしなくてもいいでしょうに。リメイクなんだからアクションとかコメディとか新機軸立ててもいいとは思うんですが脚本まるまる持ってきてこれをホームドラマにするのはマジ勘弁。ただ黒沢好きの評判は散々だろうけど原作の筋と脚本の面白さが異常なので黒沢Ver見てない人にはそれなりの映画には見えると思う、が是非原作を見てほしい。せめて違う監督であれば・・・。\n",
+        "title": "椿三十郎",
+        "short_review": "ん、、いいところが、、、"
+      },
+      "article_sha256_before": "f7e798bb3ec0d9fe602c16f5bc4bfcd0664675f81c6751c33ea995530b2a9169",
+      "article_sha256_after": "9a8263f3ede60eb0db2f37d61de2d511d147678eee6d0d44085827d187a38d5a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "つばきさんじゅうろう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-3ce6d269ad2fc87b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-12-01",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-3ce6d269ad2fc87b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "森田芳光",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-3ce6d269ad2fc87b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "織田裕二\n豊川悦司\n松山ケンイチ\n中村玉緒",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "時代劇",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-3ce6d269ad2fc87b-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "藩の不正を正そうと集まった若侍たちの前に一人の浪人が現れ、彼らの計画に手を貸す。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダメダメだろうと思ってたんだが、実際パッとしないし迫力もカラキシだったけど織田裕二は顔演技とか結構頑張ってた。トヨエツも役得もあるだろうけど悪くはなかったし中村玉緒もやりすぎだけどまああんなテイスト、三悪人は意外とあってる。でもこの原作をホームドラマにしようとするこたないだろうよ。一番アレなのが殺陣にしまりがないこと。最初のお堂を囲むシーンでも上部ガラアキ、三十郎の語りでも左右ガラアキ、なんですかこの物凄い勢いのスキマは。黒沢映画の素晴らしいところの一つに隙のないカメラにあると思うんですが物凄く、なんていうか、穴だらけです・・・。最も原作レイプなのは最後のシーンでスローモーションにして三十郎の長口上とかなんだかもう・・・。なにこの無駄な貯めは、三十郎で最後涙でしめようとしなくてもいいでしょうに。リメイクなんだからアクションとかコメディとか新機軸立ててもいいとは思うんですが脚本まるまる持ってきてこれをホームドラマにするのはマジ勘弁。ただ黒沢好きの評判は散々だろうけど原作の筋と脚本の面白さが異常なので黒沢Ver見てない人にはそれなりの映画には見えると思う、が是非原作を見てほしい。せめて違う監督であれば・・・。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "椿三十郎",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ん、、いいところが、、、",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ゾンビーノ_2007-11-24.md",
+      "title": "ゾンビーノ",
+      "review_date": "2007-11-24 07:25:39",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "アンドリュー・カリー"
+        ],
+        "cast": [
+          "ビリー・コノリー",
+          "キャリー＝アン・モス",
+          "ディラン・ベイカー"
+        ],
+        "genres": [
+          "ホラー",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞんびーの",
+        "release_year": 2007,
+        "directors": [
+          "アンドリュー・カリー"
+        ],
+        "cast": [
+          "ビリー・コノリー",
+          "キャリー＝アン・モス",
+          "ディラン・ベイカー"
+        ],
+        "genres": [
+          "ホラー",
+          "コメディ"
+        ],
+        "synopsis": "ゾンビを家庭で飼える世界で、友達のいない少年ティミーは家に来たゾンビをファイドと名づける。",
+        "rating": 3.8,
+        "rating_display": "3.8点",
+        "body": "ゾンビかわゆす。ゾンビの頭の悪い（？）ところは昔からトキメクと思っていたのを愛玩にしてしまったこの作品、お婆さんを食べちゃったりするのだけどずっとほのぼのテイストで、寧ろ人間のほうが恐ろしいのはご愛嬌。実際グロくはないですし恐怖も感じないです（寧ろそこで笑わせている。いや実際黙々と働いてたまにぶち切れて仲間を増やす(デモる)のを有無を言わさず撃ち殺すってなんか風刺ですよな、うん素敵。そんなわけで冒頭のプロモ映像からわらかしてもらったのですが、どちらかというとほのぼのメインで笑える部分はあんまり多くはない。最初のプロモのテンションで最後までいくと比類ない名作だった気はするので少し残念です。残念といえばあまりゾンビっぽくないところかな、もっとのろまでドジじゃないと少し寂しい。どちらにしろネタ勝ち感の強い映画なので続編が出ると間違いなくコケるだろうと予想してみる。ペットにほしいけど臭くはないのかなあ？\n",
+        "title": "ゾンビーノ",
+        "short_review": "いい一発ネタ。続編はヤメトケ。"
+      },
+      "article_sha256_before": "28e11f01cac71133058ddbfe7305a2fc342af0bbb214115988caadd9270cd631",
+      "article_sha256_after": "1c186a7a076e780a6ccdbe586f5bf46acece7c7c558bf16ccba11d4b254e9bcf",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞんびーの",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-d99c4f98e2f3682f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-10-27",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-d99c4f98e2f3682f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンドリュー・カリー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-d99c4f98e2f3682f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ビリー・コノリー\nキャリー＝アン・モス\nディラン・ベイカー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-d99c4f98e2f3682f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゾンビを家庭で飼える世界で、友達のいない少年ティミーは家に来たゾンビをファイドと名づける。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゾンビかわゆす。ゾンビの頭の悪い（？）ところは昔からトキメクと思っていたのを愛玩にしてしまったこの作品、お婆さんを食べちゃったりするのだけどずっとほのぼのテイストで、寧ろ人間のほうが恐ろしいのはご愛嬌。実際グロくはないですし恐怖も感じないです（寧ろそこで笑わせている。いや実際黙々と働いてたまにぶち切れて仲間を増やす(デモる)のを有無を言わさず撃ち殺すってなんか風刺ですよな、うん素敵。そんなわけで冒頭のプロモ映像からわらかしてもらったのですが、どちらかというとほのぼのメインで笑える部分はあんまり多くはない。最初のプロモのテンションで最後までいくと比類ない名作だった気はするので少し残念です。残念といえばあまりゾンビっぽくないところかな、もっとのろまでドジじゃないと少し寂しい。どちらにしろネタ勝ち感の強い映画なので続編が出ると間違いなくコケるだろうと予想してみる。ペットにほしいけど臭くはないのかなあ？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ゾンビーノ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "いい一発ネタ。続編はヤメトケ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/Little DJ 小さな恋の物語_2007-11-23.md",
+      "title": "Little DJ 小さな恋の物語",
+      "review_date": "2007-11-23 10:47:15",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "永田琴"
+        ],
+        "cast": [
+          "神木隆之介",
+          "福田麻由子",
+          "広末涼子"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "りとるでぃーじぇーちいさなこいのものがたり",
+        "release_year": 2007,
+        "directors": [
+          "永田琴"
+        ],
+        "cast": [
+          "神木隆之介",
+          "福田麻由子",
+          "広末涼子"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ],
+        "synopsis": "入院した少年が院内放送で好きな音楽をかけ始め、同じ病院にいる少女と親しくなっていく。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "70年代の時代設定でかなり王道の感動モノ。ただ王道は王道なりにツボは押さえていて、またキャストも好演してるし基本的にはそんなに悪くないんだ。ただ後半になればなるほど話の進みが遅くなる。延々横顔を写したりそういうシーンが続くんですが、その近辺で展開上新味が全くといっていいほどないので映画をたくさん見てる人は飽きると思われ。というかこういう話自体ここのところ多いですし。確かに叙情的かも知れないが、延々台詞のない思わせぶりなシーンが続いてもなんだか・・。というか恋愛ドラマでキスシーン5分見続けてる気分です。あんまり映画を見ない感動モノが大好きな人にはとても面白いんだろうと思う。でもまあ全体的な雰囲気は結構悪くはないのです、70年代の曲って今聞いても感じいい曲多いし（ただ現在時間を90年頃に設定する必要がよくわからないがそういう原作だし。役も結構嵌ってたので悪いところはない映画なんだけど、ちょっと何というか日本のホームドラマ的だなあみたいな。個人的には友達になる女の子が出てくるんですがその子の笑顔がちょっと不自然すぎて気持ち悪かった。\n",
+        "title": "Little DJ 小さな恋の物語",
+        "short_review": "限定感動系。"
+      },
+      "article_sha256_before": "ca6628d9cc9f48878d2e7d3d9e4ce4ae0957e57c24f96ad727bc2362bb3c7d48",
+      "article_sha256_after": "7825420143d0bbf3b7611ea25429cde9a89cd3b7d6ead88557a4a3adc1d33be4",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "りとるでぃーじぇーちいさなこいのものがたり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-0adba9155b2000a3-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-12-15",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-0adba9155b2000a3-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "永田琴",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-0adba9155b2000a3-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "神木隆之介\n福田麻由子\n広末涼子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-0adba9155b2000a3-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "入院した少年が院内放送で好きな音楽をかけ始め、同じ病院にいる少女と親しくなっていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "70年代の時代設定でかなり王道の感動モノ。ただ王道は王道なりにツボは押さえていて、またキャストも好演してるし基本的にはそんなに悪くないんだ。ただ後半になればなるほど話の進みが遅くなる。延々横顔を写したりそういうシーンが続くんですが、その近辺で展開上新味が全くといっていいほどないので映画をたくさん見てる人は飽きると思われ。というかこういう話自体ここのところ多いですし。確かに叙情的かも知れないが、延々台詞のない思わせぶりなシーンが続いてもなんだか・・。というか恋愛ドラマでキスシーン5分見続けてる気分です。あんまり映画を見ない感動モノが大好きな人にはとても面白いんだろうと思う。でもまあ全体的な雰囲気は結構悪くはないのです、70年代の曲って今聞いても感じいい曲多いし（ただ現在時間を90年頃に設定する必要がよくわからないがそういう原作だし。役も結構嵌ってたので悪いところはない映画なんだけど、ちょっと何というか日本のホームドラマ的だなあみたいな。個人的には友達になる女の子が出てくるんですがその子の笑顔がちょっと不自然すぎて気持ち悪かった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "Little DJ 小さな恋の物語",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "限定感動系。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/続・少林寺三十六房_2007-11-22.md",
+      "title": "続・少林寺三十六房",
+      "review_date": "2007-11-22 00:00:58",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "ラウ・カーリョン"
+        ],
+        "cast": [
+          "リュー・チャーフィー",
+          "チン・チュウ",
+          "ワン・ロンウェイ"
+        ],
+        "genres": [
+          "アクション"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ぞくしょうりんじさんじゅうろくぼう",
+        "release_year": 2004,
+        "directors": [
+          "ラウ・カーリョン"
+        ],
+        "cast": [
+          "リュー・チャーフィー",
+          "チン・チュウ",
+          "ワン・ロンウェイ"
+        ],
+        "genres": [
+          "アクション"
+        ],
+        "synopsis": "染物工房の仲間を助けたい青年が少林寺を訪れ、足場を組む作業を通して拳法を身につけていく。",
+        "rating": 4.0,
+        "rating_display": "4点",
+        "body": "冒頭からなんだかよくわからない修行シーンが健在ですが、前作とは全く関連がないです。少林寺で修行っていうくらいしか共通性がない。しかしそこにいくまでも結構長いし、ぶっちゃけたところ修行とはちょっと違うんですよね。そのへんコメディとして面白く見れれば結構楽しいのだけど、1に思い入れがあるなら微妙かもしれない。確かにスケールダウンはちょっと感じるし前みたいな崇高な理念もない。ただそれを差し引きしてもわりと下世話なカンフーコメディー（というか体をはった芸）としては結構面白いんだ、謎の修行シーンとか椅子をつかった拳法とか、ていうかそもそも最初の修行前の時の体裁きも並外れてたりする。まあ顔も面白いんだがこのへんは突っ込んじゃだめなところなんだろうか？\n",
+        "title": "続・少林寺三十六房",
+        "short_review": "冒頭から笑える。"
+      },
+      "article_sha256_before": "190ecdd94771787b6d1467a9103ffc74640493a5711f38a92e7a6422c299ce4b",
+      "article_sha256_after": "446c39552f7b8e35cf973c9f02f16cccf42cec86305f7d7d4e67bb5ebecc41ad",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ぞくしょうりんじさんじゅうろくぼう",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-bbcedf5d2a67d946-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-05-08",
+              "year": "2004",
+              "region": "日本",
+              "kind": "ビデオスルー",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-bbcedf5d2a67d946-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ラウ・カーリョン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-bbcedf5d2a67d946-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "リュー・チャーフィー\nチン・チュウ\nワン・ロンウェイ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-bbcedf5d2a67d946-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "染物工房の仲間を助けたい青年が少林寺を訪れ、足場を組む作業を通して拳法を身につけていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "4.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "冒頭からなんだかよくわからない修行シーンが健在ですが、前作とは全く関連がないです。少林寺で修行っていうくらいしか共通性がない。しかしそこにいくまでも結構長いし、ぶっちゃけたところ修行とはちょっと違うんですよね。そのへんコメディとして面白く見れれば結構楽しいのだけど、1に思い入れがあるなら微妙かもしれない。確かにスケールダウンはちょっと感じるし前みたいな崇高な理念もない。ただそれを差し引きしてもわりと下世話なカンフーコメディー（というか体をはった芸）としては結構面白いんだ、謎の修行シーンとか椅子をつかった拳法とか、ていうかそもそも最初の修行前の時の体裁きも並外れてたりする。まあ顔も面白いんだがこのへんは突っ込んじゃだめなところなんだろうか？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "続・少林寺三十六房",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "冒頭から笑える。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/チザム_2007-11-21.md",
+      "title": "チザム",
+      "review_date": "2007-11-21 00:00:03",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1970,
+        "directors": [
+          "アンドリュー・V・マクラグレン"
+        ],
+        "cast": [
+          "ジョン・ウェイン",
+          "ベン・ジョンソン",
+          "フォレスト・タッカー"
+        ],
+        "genres": [
+          "西部劇"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ちざむ",
+        "release_year": 1970,
+        "directors": [
+          "アンドリュー・V・マクラグレン"
+        ],
+        "cast": [
+          "ジョン・ウェイン",
+          "ベン・ジョンソン",
+          "フォレスト・タッカー"
+        ],
+        "genres": [
+          "西部劇"
+        ],
+        "synopsis": "ニューメキシコに大牧場を築いたチザムは、町の商売を独占しようとするマーフィーと対立する。",
+        "rating": 3.8,
+        "rating_display": "3.8点",
+        "body": "アメリカの映画にかなわないと思うもの、それは広大な大地です。乾いた赤土広がる荒野に抜けるような青空、ただそれだけで圧倒される。また暗闇も深くていいんですよね、本当に真っ暗なんです、そういう表現がなんとなく好きだ。ただ夜闘ってたのがいつのまにか次のシーンで朝になってたりと、ちょっとおかしな部分もあるのは愛嬌か。ともあれ人望の厚くて正義の男チザムと裏金上等金で解決ローレンスという一見至極わかりやすい構図なんですが、保安官やら検事やらを買収したりと見所は多い。まあボス2人ともおっさんで2人自体はあまり派手ではないのだが、それをビリーザキッドとか味のある悪役や味方ががうまく盛り上げてる。それぞれにやけに個性があると思ったら史実ベースなのか・・・スケールでかいなあ。\n",
+        "title": "チザム",
+        "short_review": "晴れ渡る青空。"
+      },
+      "article_sha256_before": "0320f80e94d911220c147104ffdf7453ce26fd79d94b88ef37d5af048cef33ef",
+      "article_sha256_after": "c808f221724b60d38ba5e6e2476967540d9becd10ae8c958a769d5ea08e8a171",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちざむ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-47d7d0ec8045e09a-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1970-10-31",
+              "year": "1970",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-47d7d0ec8045e09a-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アンドリュー・V・マクラグレン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-47d7d0ec8045e09a-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・ウェイン\nベン・ジョンソン\nフォレスト・タッカー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "西部劇",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-47d7d0ec8045e09a-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ニューメキシコに大牧場を築いたチザムは、町の商売を独占しようとするマーフィーと対立する。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アメリカの映画にかなわないと思うもの、それは広大な大地です。乾いた赤土広がる荒野に抜けるような青空、ただそれだけで圧倒される。また暗闇も深くていいんですよね、本当に真っ暗なんです、そういう表現がなんとなく好きだ。ただ夜闘ってたのがいつのまにか次のシーンで朝になってたりと、ちょっとおかしな部分もあるのは愛嬌か。ともあれ人望の厚くて正義の男チザムと裏金上等金で解決ローレンスという一見至極わかりやすい構図なんですが、保安官やら検事やらを買収したりと見所は多い。まあボス2人ともおっさんで2人自体はあまり派手ではないのだが、それをビリーザキッドとか味のある悪役や味方ががうまく盛り上げてる。それぞれにやけに個性があると思ったら史実ベースなのか・・・スケールでかいなあ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チザム",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "晴れ渡る青空。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/妖怪百物語_2007-11-20.md",
+      "title": "妖怪百物語",
+      "review_date": "2007-11-20 00:00:08",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1968,
+        "directors": [
+          "安田公義"
+        ],
+        "cast": [
+          "藤巻潤",
+          "高田美和",
+          "平泉征"
+        ],
+        "genres": [
+          "ホラー",
+          "特撮",
+          "時代劇"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ようかいひゃくものがたり",
+        "release_year": 1968,
+        "directors": [
+          "安田公義"
+        ],
+        "cast": [
+          "藤巻潤",
+          "高田美和",
+          "平泉征"
+        ],
+        "genres": [
+          "ホラー",
+          "特撮",
+          "時代劇"
+        ],
+        "synopsis": "長屋を取り壊そうとする商人が怪談の会を開き、語り終えた後に行うはずのまじないを省いてしまう。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "ちょっと昔の作品なんで妖怪がわりとチープなんですが、チープながらもなんだかかわいいのです。ただ惜しむらくは妖怪ってことで十把一絡げで妖怪の個性が大してなかったことか。そもそもホラーというよりはギャグっぽいテイストなのだが、それでもろくろっくびが振り返るところなんかキラリとしたホラー演出が光る。馬鹿息子の馬鹿さ加減の演出もほのぼのとひかってたりしますが。この作品の面白いのが悪徳代官Sが祟られる話と長屋の人たちが追い立てられる話があんまりリンクされてない部分。つまり長屋がどうだろうがお払いしなかったから妖怪は出るわけで、長屋の人の願いとか全然関係なく、世の中には不思議なこともあるものだ、で〆。この放置系っぽさがなんだか展開として面白かった。ただ置いてけ堀のあたりは確かに怖くはあったのだけれども、やっぱり今から見ると着ぐるみの百鬼夜行はあまりときめかなかったりはした、かわいいけどねー。\n",
+        "title": "妖怪百物語",
+        "short_review": "妖怪がかわいい。"
+      },
+      "article_sha256_before": "81e9900c1a66dda1582a8381181218ee65e5f1ec0ffa5eafd5bc2896debc29a0",
+      "article_sha256_after": "ac28c97792e416c7035c1ed825cf422bd75294f397508f28bf9c577101b1c325",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ようかいひゃくものがたり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-ec1ee3b229584523-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1968-03-20",
+              "year": "1968",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-ec1ee3b229584523-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "安田公義",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-ec1ee3b229584523-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "藤巻潤\n高田美和\n平泉征",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\n特撮\n時代劇",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-ec1ee3b229584523-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "長屋を取り壊そうとする商人が怪談の会を開き、語り終えた後に行うはずのまじないを省いてしまう。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ちょっと昔の作品なんで妖怪がわりとチープなんですが、チープながらもなんだかかわいいのです。ただ惜しむらくは妖怪ってことで十把一絡げで妖怪の個性が大してなかったことか。そもそもホラーというよりはギャグっぽいテイストなのだが、それでもろくろっくびが振り返るところなんかキラリとしたホラー演出が光る。馬鹿息子の馬鹿さ加減の演出もほのぼのとひかってたりしますが。この作品の面白いのが悪徳代官Sが祟られる話と長屋の人たちが追い立てられる話があんまりリンクされてない部分。つまり長屋がどうだろうがお払いしなかったから妖怪は出るわけで、長屋の人の願いとか全然関係なく、世の中には不思議なこともあるものだ、で〆。この放置系っぽさがなんだか展開として面白かった。ただ置いてけ堀のあたりは確かに怖くはあったのだけれども、やっぱり今から見ると着ぐるみの百鬼夜行はあまりときめかなかったりはした、かわいいけどねー。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妖怪百物語",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "妖怪がかわいい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/名探偵コナン 瞳の中の暗殺者_2007-11-19.md",
+      "title": "名探偵コナン 瞳の中の暗殺者",
+      "review_date": "2007-11-19 00:00:58",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2000,
+        "directors": [
+          "こだま兼嗣"
+        ],
+        "cast": [
+          "高山みなみ",
+          "山崎和佳奈",
+          "神谷明"
+        ],
+        "genres": [
+          "アニメ",
+          "ミステリー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "めいたんていこなんひとみのなかのあんさつしゃ",
+        "release_year": 2000,
+        "directors": [
+          "こだま兼嗣"
+        ],
+        "cast": [
+          "高山みなみ",
+          "山崎和佳奈",
+          "神谷明"
+        ],
+        "genres": [
+          "アニメ",
+          "ミステリー"
+        ],
+        "synopsis": "警察官を狙った事件の現場で蘭が記憶を失い、コナンは蘭に迫る危険を防ぎながら犯人を追う。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "推理部分はまったくないので名探偵と冠するのはどうかと思わなくはないほどこじ付けが甚だしい(トリックから犯人認定からすべてにおいて)のですが、まあコナンだしいいや。そんなわけで誰が犯人かはとりあえずおいておいて、アクション映画(ｱﾘｴﾈｰとか突っ込む以前のレベルで人間超越してます)とかサスペンス映画としては相変わらず悪くないテイスト。いやでも最後のほう不自然すぎてちょっと笑いがこみ上げるのだけど（他の映画版よりさらにこじつけ臭が激しいです（この辺はシリーズ屈指かもしれない。それにしても初っ端から刑事が街中で銃殺ですよ、コナン君見たら全力で逃げないとマジやべー。\n",
+        "title": "名探偵コナン 瞳の中の暗殺者",
+        "short_review": "話が無茶苦茶なところが笑える。"
+      },
+      "article_sha256_before": "782ab3970ee1c1dc915a58e4e0209e88372489cee82e98e4173e26136530f590",
+      "article_sha256_after": "2dc2d3caff33e9c479bc85a0d751cc504929e9886fd8aff8d278f39f7ce8c868",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "めいたんていこなんひとみのなかのあんさつしゃ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-6eca2da4fce222b1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2000-04-22",
+              "year": "2000",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-6eca2da4fce222b1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "こだま兼嗣",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-6eca2da4fce222b1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "高山みなみ\n山崎和佳奈\n神谷明",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アニメ\nミステリー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-6eca2da4fce222b1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "警察官を狙った事件の現場で蘭が記憶を失い、コナンは蘭に迫る危険を防ぎながら犯人を追う。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "推理部分はまったくないので名探偵と冠するのはどうかと思わなくはないほどこじ付けが甚だしい(トリックから犯人認定からすべてにおいて)のですが、まあコナンだしいいや。そんなわけで誰が犯人かはとりあえずおいておいて、アクション映画(ｱﾘｴﾈｰとか突っ込む以前のレベルで人間超越してます)とかサスペンス映画としては相変わらず悪くないテイスト。いやでも最後のほう不自然すぎてちょっと笑いがこみ上げるのだけど（他の映画版よりさらにこじつけ臭が激しいです（この辺はシリーズ屈指かもしれない。それにしても初っ端から刑事が街中で銃殺ですよ、コナン君見たら全力で逃げないとマジやべー。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "名探偵コナン 瞳の中の暗殺者",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "話が無茶苦茶なところが笑える。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/キャプテン_2007-11-18.md",
+      "title": "キャプテン",
+      "review_date": "2007-11-18 00:00:37",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "室賀厚"
+        ],
+        "cast": [
+          "布施紀行",
+          "筧利夫",
+          "宮崎美子"
+        ],
+        "genres": [
+          "スポーツ",
+          "青春"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "きゃぷてん",
+        "release_year": 2007,
+        "directors": [
+          "室賀厚"
+        ],
+        "cast": [
+          "布施紀行",
+          "筧利夫",
+          "宮崎美子"
+        ],
+        "genres": [
+          "スポーツ",
+          "青春"
+        ],
+        "synopsis": "墨谷二中に転校した谷口は、前の学校が野球の名門だったことから、新しい野球部で期待をかけられる。",
+        "rating": 3.4,
+        "rating_display": "3.4点",
+        "body": "スポコン野球ものですが、なんだかほのぼのしてます。決勝戦とか対決シーンでもなんかやけにほのぼのした音楽が流れ、全然緊張感がないではないか、というかBGM3パターンくらいしかない（ある意味凄い。顔がみんな同じだしみんなおおむね棒読み出しなんだけど、昔の映画によくある妙にくねくねしたリアクションな動きになんだか和む。特に丸井がそうなんですが、出る人出る人妙にいい人なんですよ。そのいい人さ加減とﾇﾙい熱血っぷりがなんだか妙に笑いを誘う、とか書いたらなんか感じ悪いよな。ただまあ冷静に見るとあんまりテンポがよくないので今のアニメと比べると微妙かもしれないがなんとなく古きよきな雰囲気でわりかし好きです。うん、昔のアニメと思えば間違ってない（しかもかなりテンプレ。\n",
+        "title": "キャプテン",
+        "short_review": "なんと牧歌的な。"
+      },
+      "article_sha256_before": "b4d9a2a960a6d713815ac41f658fae4dbcb085439da75e44648ec82039becc24",
+      "article_sha256_after": "bba7c856258fb8ada80f3374afc8efa650b92a492a00b0a4ed5a4ffc3ae376f9",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "きゃぷてん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-a9d06655fa82b1da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-08-18",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-a9d06655fa82b1da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "室賀厚",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-a9d06655fa82b1da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "布施紀行\n筧利夫\n宮崎美子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スポーツ\n青春",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-a9d06655fa82b1da-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "墨谷二中に転校した谷口は、前の学校が野球の名門だったことから、新しい野球部で期待をかけられる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.4",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スポコン野球ものですが、なんだかほのぼのしてます。決勝戦とか対決シーンでもなんかやけにほのぼのした音楽が流れ、全然緊張感がないではないか、というかBGM3パターンくらいしかない（ある意味凄い。顔がみんな同じだしみんなおおむね棒読み出しなんだけど、昔の映画によくある妙にくねくねしたリアクションな動きになんだか和む。特に丸井がそうなんですが、出る人出る人妙にいい人なんですよ。そのいい人さ加減とﾇﾙい熱血っぷりがなんだか妙に笑いを誘う、とか書いたらなんか感じ悪いよな。ただまあ冷静に見るとあんまりテンポがよくないので今のアニメと比べると微妙かもしれないがなんとなく古きよきな雰囲気でわりかし好きです。うん、昔のアニメと思えば間違ってない（しかもかなりテンプレ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "キャプテン",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんと牧歌的な。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/クローズzero_2007-11-17.md",
+      "title": "クローズzero",
+      "review_date": "2007-11-17 12:00:31",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "三池崇史"
+        ],
+        "cast": [
+          "小栗旬",
+          "山田孝之",
+          "やべきょうすけ"
+        ],
+        "genres": [
+          "アクション",
+          "青春"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "くろーずぜろ",
+        "release_year": 2007,
+        "directors": [
+          "三池崇史"
+        ],
+        "cast": [
+          "小栗旬",
+          "山田孝之",
+          "やべきょうすけ"
+        ],
+        "genres": [
+          "アクション",
+          "青春"
+        ],
+        "synopsis": "不良が集まる鈴蘭高校に転入した滝谷源治は、仲間を集めて校内で勢力を持つ芹沢に挑む。",
+        "rating": 3.8,
+        "rating_display": "3.8点",
+        "body": "原作を読んでいたわけでも小栗ファンでもなく三池なら笑えるだろうというよくわからない視聴でしたが、三池わろした。男塾も三池がやればいいのにというくらい、不良という今時から外れたものを素敵に描いている、さすが三池。さて鈴蘭高校の覇権をめぐって主に芹沢と滝谷(源治)が争うストーリーなのだがどちらか一方から、というわけではなく両方の視点で描いていて、しかも両方気持ちのいい奴らなので最後が凄い盛り上がります。これは決着つけたくなくなる、というか凄く楽しそうなんですよね。撮り方も人物を中心にすえてパンチ軌道にカメラを振るので臨場感たっぷり。また夕焼けやらやたら極まった照明やアングルでカットが凄いうまい。この最後の殴り合いは一見テンプレっぽいけど必見です。ただ色んな不良が出てきて一年生の3人組とかは時間の関係であんまり目立たなかったりと勿体無い部分はあるのだが、この辺は漫画の長大な話を2時間ちょいに纏めたと考えると致し方ない部分ではある。登場人物が多すぎて若干全体的に薄まってる感じはあるけれど、まあ逆によくこれだけ詰め込んだなと。原作ファンで各キャラに思い入れのある人はかなり薄いと感じるかもしれないね、特に芹沢とか貧乏と言われてるけどそういうエピソードないし。で、小栗旬は不良の格好してもカッコイイんですがこれは・・・スタイルがいいからだな、うん。スタイルがいい奴は何着てもカッコイイですよと。残念なところとしては芹沢と滝谷を繋ぐ時生役な桐谷健太がパッとしなかったところ。他のキャストが(おっさん臭いけど)非常にいい味を出しているのに勿体無いです。\n",
+        "title": "クローズzero",
+        "short_review": "馬鹿に楽しそう。"
+      },
+      "article_sha256_before": "052974099a4dbc4539278cc50aae5904e4bedf3e04cb8ed7de62687916d5a29c",
+      "article_sha256_after": "b1cd5da0342a4e56ad8be2da2f80b6d71a05e6cf72d2ac11d2242a284757ad12",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "くろーずぜろ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-7da470c11e6307d4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-10-27",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-7da470c11e6307d4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "三池崇史",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-7da470c11e6307d4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "小栗旬\n山田孝之\nやべきょうすけ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n青春",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-7da470c11e6307d4-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "不良が集まる鈴蘭高校に転入した滝谷源治は、仲間を集めて校内で勢力を持つ芹沢に挑む。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.8",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "原作を読んでいたわけでも小栗ファンでもなく三池なら笑えるだろうというよくわからない視聴でしたが、三池わろした。男塾も三池がやればいいのにというくらい、不良という今時から外れたものを素敵に描いている、さすが三池。さて鈴蘭高校の覇権をめぐって主に芹沢と滝谷(源治)が争うストーリーなのだがどちらか一方から、というわけではなく両方の視点で描いていて、しかも両方気持ちのいい奴らなので最後が凄い盛り上がります。これは決着つけたくなくなる、というか凄く楽しそうなんですよね。撮り方も人物を中心にすえてパンチ軌道にカメラを振るので臨場感たっぷり。また夕焼けやらやたら極まった照明やアングルでカットが凄いうまい。この最後の殴り合いは一見テンプレっぽいけど必見です。ただ色んな不良が出てきて一年生の3人組とかは時間の関係であんまり目立たなかったりと勿体無い部分はあるのだが、この辺は漫画の長大な話を2時間ちょいに纏めたと考えると致し方ない部分ではある。登場人物が多すぎて若干全体的に薄まってる感じはあるけれど、まあ逆によくこれだけ詰め込んだなと。原作ファンで各キャラに思い入れのある人はかなり薄いと感じるかもしれないね、特に芹沢とか貧乏と言われてるけどそういうエピソードないし。で、小栗旬は不良の格好してもカッコイイんですがこれは・・・スタイルがいいからだな、うん。スタイルがいい奴は何着てもカッコイイですよと。残念なところとしては芹沢と滝谷を繋ぐ時生役な桐谷健太がパッとしなかったところ。他のキャストが(おっさん臭いけど)非常にいい味を出しているのに勿体無いです。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クローズzero",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "馬鹿に楽しそう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/暖簾_2007-11-17.md",
+      "title": "暖簾",
+      "review_date": "2007-11-17 00:00:59",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1958,
+        "directors": [
+          "川島雄三"
+        ],
+        "cast": [
+          "森繁久彌",
+          "山田五十鈴",
+          "乙羽信子"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "のれん",
+        "release_year": 1958,
+        "directors": [
+          "川島雄三"
+        ],
+        "cast": [
+          "森繁久彌",
+          "山田五十鈴",
+          "乙羽信子"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "大阪の昆布屋に奉公に入った吾平が、やがて暖簾分けを許され、自分の店を任されるようになる。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "状況の説明がうまいです。ほんの冒頭10分で吾平の成り行きから暖簾わけまで説明しちゃって、それに全然違和感がない。こういう驚きは久しぶりです。親子二代の話なのですが、親子の考え方が違っていざこざがあっても（それが時流の差なんですが非常に方向性の違いが明白で）同じ暖簾を守っていこうというのがなんだか美しいですね。町内会関連の描写の違いも面白い。上手くいかないこともあるんだけれど、寄る年波でなんとなくいい感じになってしまうあたりが味わい深くもアリ。派手ではないけどなんとも真面目に骨太な一作です、最近ないなこのテイスト。難点をいえば特に最初の頃、方言なのかなんなのか巻き舌でいまいち何を言ってるのかよくわからないところか。字幕をつけてもらえれば・・・。森繁久彌うまかった。\n",
+        "title": "暖簾",
+        "short_review": "親子二代のお話。"
+      },
+      "article_sha256_before": "a80c7875d37e5dfe35e1add3dd20187fa353fc6569479050ab6ace2ae7626431",
+      "article_sha256_after": "bf526f2e172cdc9476fe61b15effd2a73f0672e05047b300c28254e4b251e2ab",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "のれん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-50963028b33dac45-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1958-06-15",
+              "year": "1958",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-50963028b33dac45-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "川島雄三",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-50963028b33dac45-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "森繁久彌\n山田五十鈴\n乙羽信子",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-50963028b33dac45-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "大阪の昆布屋に奉公に入った吾平が、やがて暖簾分けを許され、自分の店を任されるようになる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "状況の説明がうまいです。ほんの冒頭10分で吾平の成り行きから暖簾わけまで説明しちゃって、それに全然違和感がない。こういう驚きは久しぶりです。親子二代の話なのですが、親子の考え方が違っていざこざがあっても（それが時流の差なんですが非常に方向性の違いが明白で）同じ暖簾を守っていこうというのがなんだか美しいですね。町内会関連の描写の違いも面白い。上手くいかないこともあるんだけれど、寄る年波でなんとなくいい感じになってしまうあたりが味わい深くもアリ。派手ではないけどなんとも真面目に骨太な一作です、最近ないなこのテイスト。難点をいえば特に最初の頃、方言なのかなんなのか巻き舌でいまいち何を言ってるのかよくわからないところか。字幕をつけてもらえれば・・・。森繁久彌うまかった。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "暖簾",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "親子二代のお話。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/アワーミュージック_2007-11-16.md",
+      "title": "アワーミュージック",
+      "review_date": "2007-11-16 00:00:47",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2005,
+        "directors": [
+          "ジャン＝リュック・ゴダール"
+        ],
+        "cast": [
+          "ジャン＝リュック・ゴダール",
+          "ナード・デュー"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あわーみゅーじっく",
+        "release_year": 2005,
+        "directors": [
+          "ジャン＝リュック・ゴダール"
+        ],
+        "cast": [
+          "ジャン＝リュック・ゴダール",
+          "ナード・デュー"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "戦争の映像に続いてサラエヴォに集う人々の対話を映し、戦争と映画をめぐる問いを投げかける。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "冒頭に流れる戦争の映像がやけに鮮烈で綺麗だったりするのだが、とても詩的な映像なのに妙に迷彩が効いていて過激である。やっぱり映像がべらぼうに綺麗ですね。ゴダールは戦争について悲しげに語るのだけれど、内容は非常に頷けはするし面白くはある、だがピンとくるものではない。日本では民族同士が虐殺することも宗教が違って殺しあうこともあまりない為、シンプルな語り口調がよけいピンとこないのだろう。文化背景の違いというかなんとなく血みどろなキリスト教感が透けて見える・・・。哲学好きが好きそうな内容ではあるが、ぶっちゃけ何かを訴えかけるのではなくてただたら悲しげに語っている、っていうか方向的にはポエム。なので感想は自分の中で解釈する映画なのだろう。ドキュメンタリーにしてもあんまり娯楽的ではないので広く受けるタイプの映画ではない。ゴダール好きには垂涎。\n",
+        "title": "アワーミュージック",
+        "short_review": "ドキュメンタリーなのに映像が美しいなんて（ｒｙ"
+      },
+      "article_sha256_before": "f6b3c7c4ee82768c6d1989b56858745f29ab87a87655ce4560caf6fd7a5926d5",
+      "article_sha256_after": "82c994def4155db836a8b0e0c4314d04969ede6acef0a22ec477d8f928af3dbc",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あわーみゅーじっく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-76af8cc903317a9c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2005-10-15",
+              "year": "2005",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-76af8cc903317a9c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャン＝リュック・ゴダール",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-76af8cc903317a9c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャン＝リュック・ゴダール\nナード・デュー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-76af8cc903317a9c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "戦争の映像に続いてサラエヴォに集う人々の対話を映し、戦争と映画をめぐる問いを投げかける。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "冒頭に流れる戦争の映像がやけに鮮烈で綺麗だったりするのだが、とても詩的な映像なのに妙に迷彩が効いていて過激である。やっぱり映像がべらぼうに綺麗ですね。ゴダールは戦争について悲しげに語るのだけれど、内容は非常に頷けはするし面白くはある、だがピンとくるものではない。日本では民族同士が虐殺することも宗教が違って殺しあうこともあまりない為、シンプルな語り口調がよけいピンとこないのだろう。文化背景の違いというかなんとなく血みどろなキリスト教感が透けて見える・・・。哲学好きが好きそうな内容ではあるが、ぶっちゃけ何かを訴えかけるのではなくてただたら悲しげに語っている、っていうか方向的にはポエム。なので感想は自分の中で解釈する映画なのだろう。ドキュメンタリーにしてもあんまり娯楽的ではないので広く受けるタイプの映画ではない。ゴダール好きには垂涎。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アワーミュージック",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドキュメンタリーなのに映像が美しいなんて（ｒｙ",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ディスタービア_2007-11-15.md",
+      "title": "ディスタービア",
+      "review_date": "2007-11-15 12:00:50",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "D・J・カルーソー"
+        ],
+        "cast": [
+          "シャイア・ラブーフ",
+          "サラ・ローマー",
+          "デヴィッド・モース"
+        ],
+        "genres": [
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "でぃすたーびあ",
+        "release_year": 2007,
+        "directors": [
+          "D・J・カルーソー"
+        ],
+        "cast": [
+          "シャイア・ラブーフ",
+          "サラ・ローマー",
+          "デヴィッド・モース"
+        ],
+        "genres": [
+          "サスペンス"
+        ],
+        "synopsis": "外出を禁じられた少年ケールは近所を観察して過ごすうち、隣人が殺人に関わったのではと疑い始める。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "割とスラッシャー的要素は兼ね備えているのだが、ジャンルはやはりサスペンスというところか。ショッキングなシーンは少量あるものの登場人物の恐怖より好奇心や立ち向かう事や人間関係に重きが置かれている。さてホラー慣れしていると割りとありがちなストーリー設定だが、実際案外怖い。これは多分普通の日常とその違和感(実は勘違いじゃないのかと疑ったり)を普通に描いている部分が大きい。盗撮している双眼鏡の視点やビデオカメラの視点などがハイブリッドされた不安定さ(と少しの後ろめたさ)、それからハンディっぽい視点の揺れを表すカメラワークがなかなかうまい。それに所々いいタイミングでドキっとする（？）シーンが挿入されるのですね。そんな細かいポイントが積み重なってなかなかの臨場感を醸し出しています。ただ基本主人公の青春話をベースで描いてあるので予告編の煽りのようなスリリングさとか過剰な期待を持っていけばわりと凹むと思う（前半結構ﾀﾞﾗﾀﾞﾗしてるし。駄目もとで見に行けばわりと面白いレベルかな。まあよくある話ですし。\n",
+        "title": "ディスタービア",
+        "short_review": "ジャンルはホラーではない。"
+      },
+      "article_sha256_before": "c436a21056a2f3963e8330be6aca70c36967e8faf9e0da727c370fde20fe5e7f",
+      "article_sha256_after": "6e5b1a5965c297368f509b3292fe37e7122179412e315f9657f189ce2b76d47b",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "でぃすたーびあ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-fefaa0eb80607941-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-11-10",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-fefaa0eb80607941-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "D・J・カルーソー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-fefaa0eb80607941-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "シャイア・ラブーフ\nサラ・ローマー\nデヴィッド・モース",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "サスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-fefaa0eb80607941-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "外出を禁じられた少年ケールは近所を観察して過ごすうち、隣人が殺人に関わったのではと疑い始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "割とスラッシャー的要素は兼ね備えているのだが、ジャンルはやはりサスペンスというところか。ショッキングなシーンは少量あるものの登場人物の恐怖より好奇心や立ち向かう事や人間関係に重きが置かれている。さてホラー慣れしていると割りとありがちなストーリー設定だが、実際案外怖い。これは多分普通の日常とその違和感(実は勘違いじゃないのかと疑ったり)を普通に描いている部分が大きい。盗撮している双眼鏡の視点やビデオカメラの視点などがハイブリッドされた不安定さ(と少しの後ろめたさ)、それからハンディっぽい視点の揺れを表すカメラワークがなかなかうまい。それに所々いいタイミングでドキっとする（？）シーンが挿入されるのですね。そんな細かいポイントが積み重なってなかなかの臨場感を醸し出しています。ただ基本主人公の青春話をベースで描いてあるので予告編の煽りのようなスリリングさとか過剰な期待を持っていけばわりと凹むと思う（前半結構ﾀﾞﾗﾀﾞﾗしてるし。駄目もとで見に行けばわりと面白いレベルかな。まあよくある話ですし。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ディスタービア",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジャンルはホラーではない。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/カーサ・エスペランサ　赤ちゃんたちの家_2007-11-15.md",
+      "title": "カーサ・エスペランサ　赤ちゃんたちの家",
+      "review_date": "2007-11-15 00:00:51",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2004,
+        "directors": [
+          "ジョン・セイルズ"
+        ],
+        "cast": [
+          "ダリル・ハンナ",
+          "マギー・ギレンホール",
+          "リリ・テイラー"
+        ],
+        "genres": [
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "かーさえすぺらんさあかちゃんたちのいえ",
+        "release_year": 2004,
+        "directors": [
+          "ジョン・セイルズ"
+        ],
+        "cast": [
+          "ダリル・ハンナ",
+          "マギー・ギレンホール",
+          "リリ・テイラー"
+        ],
+        "genres": [
+          "ドラマ"
+        ],
+        "synopsis": "養子を迎えるために南米に来た六人の女性が、手続きを待ちながらそれぞれの事情を語り始める。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "最初30分くらい何の映画かわからなかった。映画を見てる側としては、最初この赤ちゃんの家はなんなのか、この女の人たちはなんなのかという視点で始まり、だんだん養子を募集しているのだなというのがわかるわけだけれども、あんまりストーリーだった展開はない。というより女の人たちの話をただただ傍観しているという感じの変な映画なので、面白みは自分で見つけるしかなさげな不親切設計ではある。だが言葉が通じないことを前提とした南米のどっちかっていうと貧困な人たちと、アメリカのお金持ちな女との考え方の違いが実にシンプルな形であらわれていて面白い。どちらがいい悪いではなくて淡々と描く系の映画、という以上に経過をたどった映画なので、何故養子にもらえたのかとかだからどうなのかといったのはあまり描かれていない、その辺は見てる人が考える余地なのだろう。で、それが面白いかどうかは人によるのだろうけれども万人向けではないなあ。\n",
+        "title": "カーサ・エスペランサ 赤ちゃんたちの家",
+        "short_review": "群像劇？"
+      },
+      "article_sha256_before": "2355422c83a675923585b6e70498d0dadecad40fdb273f16e6b877c9fd0dbf67",
+      "article_sha256_after": "be02835462d562f6750d661fa51061c9c9a254fd8386450be492fc49031e94b2",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "かーさえすぺらんさあかちゃんたちのいえ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-eee4964026c7ceb9-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2004-07-31",
+              "year": "2004",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-eee4964026c7ceb9-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・セイルズ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-eee4964026c7ceb9-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ダリル・ハンナ\nマギー・ギレンホール\nリリ・テイラー",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-eee4964026c7ceb9-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "養子を迎えるために南米に来た六人の女性が、手続きを待ちながらそれぞれの事情を語り始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "最初30分くらい何の映画かわからなかった。映画を見てる側としては、最初この赤ちゃんの家はなんなのか、この女の人たちはなんなのかという視点で始まり、だんだん養子を募集しているのだなというのがわかるわけだけれども、あんまりストーリーだった展開はない。というより女の人たちの話をただただ傍観しているという感じの変な映画なので、面白みは自分で見つけるしかなさげな不親切設計ではある。だが言葉が通じないことを前提とした南米のどっちかっていうと貧困な人たちと、アメリカのお金持ちな女との考え方の違いが実にシンプルな形であらわれていて面白い。どちらがいい悪いではなくて淡々と描く系の映画、という以上に経過をたどった映画なので、何故養子にもらえたのかとかだからどうなのかといったのはあまり描かれていない、その辺は見てる人が考える余地なのだろう。で、それが面白いかどうかは人によるのだろうけれども万人向けではないなあ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "カーサ・エスペランサ 赤ちゃんたちの家",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "群像劇？",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ある愛の風景_2007-11-14.md",
+      "title": "ある愛の風景",
+      "review_date": "2007-11-14 12:00:54",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "スサンネ・ビア"
+        ],
+        "cast": [
+          "コニー・ニールセン",
+          "ウルリク・トムセン",
+          "ニコライ・リー・コス"
+        ],
+        "genres": [
+          "ドラマ",
+          "戦争"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "あるあいのふうけい",
+        "release_year": 2007,
+        "directors": [
+          "スサンネ・ビア"
+        ],
+        "cast": [
+          "コニー・ニールセン",
+          "ウルリク・トムセン",
+          "ニコライ・リー・コス"
+        ],
+        "genres": [
+          "ドラマ",
+          "戦争"
+        ],
+        "synopsis": "アフガニスタンへ派遣された兄の消息が途絶え、弟は残された兄の妻と子どもたちを支え始める。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "愛の風景と銘打ってあるが、ラブストーリーというよりは人間ドラマ。この辺のジャンルのよくわからなさは多分色々な方向に食指を広げすぎたのが原因だろう。アフガン派兵の場面が長すぎるんですね、この執拗に淡々と描いた捕虜風景がミカエルの苦悩の深さを物語っているのだけど、その分家族との歪みとミカエル自身の苦悩の2本柱なバランスをちょっと崩しているのではなかろうか。つまるところ何が言いたいのか判然としなくなっているというか。そもそもテーマとしては結構多岐にわたって深いものがあり、人間関係とか心理というのはちょっとしたすれ違いとか言葉のあやで崩れ去ってしまう危うさを内包させている、という部分を描くのにはまま成功はしているのだが、どうも映像的にうまく表現できているかというとなんともいえない部分。エンドも大団円が好きな人には物凄くアッサリしすぎて肩透かしを感じさせるだろうという点で、一般受けはしないだろうなあ。色々細かいところでリアル過ぎてこう、安易に感情移入をできない厳しさを感じる、一本曲がった椅子の足とか破れたワンピースとか・・・。テーマとしては非常に面白いのだけど説明臭い詩というイメージです。ただキャストは凄くよかったと思うのだ。\n",
+        "title": "ある愛の風景",
+        "short_review": "一般受けはしないだろうなあ。"
+      },
+      "article_sha256_before": "dd85022d94ccc4a1fa24714d44b30e54327dd2ebf28b513ab67e0ac59478fc69",
+      "article_sha256_after": "6964351788c8106bfe2da33277cb68c4fe38963347c96c4a22b51b7a79f2dfd1",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "あるあいのふうけい",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-b940118997a89127-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-12-01",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-b940118997a89127-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "スサンネ・ビア",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-b940118997a89127-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "コニー・ニールセン\nウルリク・トムセン\nニコライ・リー・コス",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n戦争",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-b940118997a89127-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アフガニスタンへ派遣された兄の消息が途絶え、弟は残された兄の妻と子どもたちを支え始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "愛の風景と銘打ってあるが、ラブストーリーというよりは人間ドラマ。この辺のジャンルのよくわからなさは多分色々な方向に食指を広げすぎたのが原因だろう。アフガン派兵の場面が長すぎるんですね、この執拗に淡々と描いた捕虜風景がミカエルの苦悩の深さを物語っているのだけど、その分家族との歪みとミカエル自身の苦悩の2本柱なバランスをちょっと崩しているのではなかろうか。つまるところ何が言いたいのか判然としなくなっているというか。そもそもテーマとしては結構多岐にわたって深いものがあり、人間関係とか心理というのはちょっとしたすれ違いとか言葉のあやで崩れ去ってしまう危うさを内包させている、という部分を描くのにはまま成功はしているのだが、どうも映像的にうまく表現できているかというとなんともいえない部分。エンドも大団円が好きな人には物凄くアッサリしすぎて肩透かしを感じさせるだろうという点で、一般受けはしないだろうなあ。色々細かいところでリアル過ぎてこう、安易に感情移入をできない厳しさを感じる、一本曲がった椅子の足とか破れたワンピースとか・・・。テーマとしては非常に面白いのだけど説明臭い詩というイメージです。ただキャストは凄くよかったと思うのだ。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ある愛の風景",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "一般受けはしないだろうなあ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/肉体の悪魔_2007-11-14.md",
+      "title": "肉体の悪魔",
+      "review_date": "2007-11-14 00:00:45",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1952,
+        "directors": [
+          "クロード・オータン＝ララ"
+        ],
+        "cast": [
+          "ジェラール・フィリップ",
+          "ミシュリーヌ・プレール"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "にくたいのあくま",
+        "release_year": 1952,
+        "directors": [
+          "クロード・オータン＝ララ"
+        ],
+        "cast": [
+          "ジェラール・フィリップ",
+          "ミシュリーヌ・プレール"
+        ],
+        "genres": [
+          "恋愛",
+          "ドラマ"
+        ],
+        "synopsis": "第一次大戦下のフランスで、青年フランソワは夫が戦地にいるマルトと出会い、彼女にひかれていく。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "ありていにいれば不倫の話なのだけど、綺麗にいえば盲目の恋で、そうでもなくいえば他人の迷惑顧みずな恋、っていうのの表現がなんだか妙にリアルでしかも凄く我侭。フランソワとか超自分のことしか考えてないんですが、それでも恋は盲目なあたりが恐ろしげなほど自己中で、オートで脳内修正入ってるんじゃないかと思うくらいのあっけらかんぶりです。なんつうか旦那が凄くかわいそう、でもストーリー上でのその旦那の蚊帳の外感もすさまじいものがあり。ただ旦那基本絡まないし年の差(マルトと年の差がある設定)もあまり感じないのが勿体無いところでもある。そんなわけで恋愛部分については妙に第三者視点な冷めたものがあるのですが、映像も素晴らしい。橋の袂のシーンのカット割りなんか綺麗です、白黒の映画ってこういうの綺麗にとるよなー。\n",
+        "title": "肉体の悪魔",
+        "short_review": "凄く・・・自己中です・・・。"
+      },
+      "article_sha256_before": "e4420adc213e12da64bbce6ef73f3970570fce677ba028aa18000da076cdeb4b",
+      "article_sha256_after": "2c0e24d724ee2ad8f693c27ef77f78bfbae08dc45030ccc236ea3ab74a09f936",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "にくたいのあくま",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-b23c3bb2488691bb-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1952-11-08",
+              "year": "1952",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-b23c3bb2488691bb-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "クロード・オータン＝ララ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-b23c3bb2488691bb-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジェラール・フィリップ\nミシュリーヌ・プレール",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋愛\nドラマ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-b23c3bb2488691bb-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "第一次大戦下のフランスで、青年フランソワは夫が戦地にいるマルトと出会い、彼女にひかれていく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ありていにいれば不倫の話なのだけど、綺麗にいえば盲目の恋で、そうでもなくいえば他人の迷惑顧みずな恋、っていうのの表現がなんだか妙にリアルでしかも凄く我侭。フランソワとか超自分のことしか考えてないんですが、それでも恋は盲目なあたりが恐ろしげなほど自己中で、オートで脳内修正入ってるんじゃないかと思うくらいのあっけらかんぶりです。なんつうか旦那が凄くかわいそう、でもストーリー上でのその旦那の蚊帳の外感もすさまじいものがあり。ただ旦那基本絡まないし年の差(マルトと年の差がある設定)もあまり感じないのが勿体無いところでもある。そんなわけで恋愛部分については妙に第三者視点な冷めたものがあるのですが、映像も素晴らしい。橋の袂のシーンのカット割りなんか綺麗です、白黒の映画ってこういうの綺麗にとるよなー。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "肉体の悪魔",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "凄く・・・自己中です・・・。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/フロム・ザ・ダークサイド ３つの闇の物語_2007-11-13.md",
+      "title": "フロム・ザ・ダークサイド ３つの闇の物語",
+      "review_date": "2007-11-13 00:00:55",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1990,
+        "directors": [
+          "ジョン・ハリソン"
+        ],
+        "cast": [
+          "デボラ・ハリー",
+          "マシュー・ローレンス",
+          "クリスチャン・スレイター"
+        ],
+        "genres": [
+          "ホラー"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ふろむざだーくさいど3つのやみのものがたり",
+        "release_year": 1990,
+        "directors": [
+          "ジョン・ハリソン"
+        ],
+        "cast": [
+          "デボラ・ハリー",
+          "マシュー・ローレンス",
+          "クリスチャン・スレイター"
+        ],
+        "genres": [
+          "ホラー"
+        ],
+        "synopsis": "閉じ込められた少年が料理されるのを先延ばしにしようと、捕らえた女に三つの怪談を語る。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "3つのショートストーリーから構成されて、少年が牢に閉じ込められて云々の最後まで含めると大まかに4つのストーリー。このベースのストーリーも意地悪で好きだ。一番面白かったのは真ん中のロメロが監督した話で、簡単に言うと殺し屋が黒猫をやっつける話なんだけど、衝撃のラストだった。まさかそうくるとは思わなかった、この点で最も愉快。その次は3作目の話で偶然怪物に出会った主人公は会ったことを秘密にすることで死を免れるのだけど、日本人ならまあたいていの人はオチはわかるはず、だが妙にハートフルでいい。一番最初のミイラを発見する話はよく考えると一番ホラー的ではあるのだが、今となってはあまり面白みがないかも。そんなわけで2が飛びぬけて面白かったが、基本的にはどれもありがちな話には違いない、ただ撮り方が悪戯っぽくて面白い。イメージ的にトワイライトゾーンかな？\n",
+        "title": "フロム・ザ・ダークサイド ３つの闇の物語",
+        "short_review": "胡散臭くていい。"
+      },
+      "article_sha256_before": "b51952c14b9361119c985ecb4fcae0c850320a64b77630b8e92b39dda5333874",
+      "article_sha256_after": "a49f4777b109be4ea61e7d5f6455d2f5dfdf563b500c6f300e0951cb6759a953",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ふろむざだーくさいど3つのやみのものがたり",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-a392249f3f380756-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1990-06-01",
+              "year": "1990",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-a392249f3f380756-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ジョン・ハリソン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-a392249f3f380756-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "デボラ・ハリー\nマシュー・ローレンス\nクリスチャン・スレイター",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-a392249f3f380756-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "閉じ込められた少年が料理されるのを先延ばしにしようと、捕らえた女に三つの怪談を語る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3つのショートストーリーから構成されて、少年が牢に閉じ込められて云々の最後まで含めると大まかに4つのストーリー。このベースのストーリーも意地悪で好きだ。一番面白かったのは真ん中のロメロが監督した話で、簡単に言うと殺し屋が黒猫をやっつける話なんだけど、衝撃のラストだった。まさかそうくるとは思わなかった、この点で最も愉快。その次は3作目の話で偶然怪物に出会った主人公は会ったことを秘密にすることで死を免れるのだけど、日本人ならまあたいていの人はオチはわかるはず、だが妙にハートフルでいい。一番最初のミイラを発見する話はよく考えると一番ホラー的ではあるのだが、今となってはあまり面白みがないかも。そんなわけで2が飛びぬけて面白かったが、基本的にはどれもありがちな話には違いない、ただ撮り方が悪戯っぽくて面白い。イメージ的にトワイライトゾーンかな？\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "フロム・ザ・ダークサイド ３つの闇の物語",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "胡散臭くていい。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ロストロポーヴィチ　人生の祭典_2007-11-12.md",
+      "title": "ロストロポーヴィチ　人生の祭典",
+      "review_date": "2007-11-12 00:00:10",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "アレクサンドル・ソクーロフ"
+        ],
+        "cast": [
+          "ムスティスラフ・ロストロポーヴィチ",
+          "ガリーナ・ヴィシネフスカヤ"
+        ],
+        "genres": [
+          "ドキュメンタリー",
+          "音楽"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "ろすとろぽーゔぃちじんせいのさいてん",
+        "release_year": 2007,
+        "directors": [
+          "アレクサンドル・ソクーロフ"
+        ],
+        "cast": [
+          "ムスティスラフ・ロストロポーヴィチ",
+          "ガリーナ・ヴィシネフスカヤ"
+        ],
+        "genres": [
+          "ドキュメンタリー",
+          "音楽"
+        ],
+        "synopsis": "チェリストとソプラノ歌手の夫婦が、演奏の記録や写真とともに、激動の時代を生きた半生を振り返る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "天皇を題材としたtheSunを撮ったソクーロフ監督のほかの作品を見てみようと思ってみてみたのですが、トークの内容というかトークに出てくる人がどんな人だかわからない時点でなんだか致命的、門外漢ですいません。思えばtheSunも天皇について主観的に述べられている気配で、積極的な興味がないと面白くなかったかもしれないねとふと思った次第です。というか知識がないと何がなんだかさっぱりわかりませなんだ。でなんとなくロストロポーヴィチというタイトルですが、これはむしろヴィシネフスカヤの映画じゃないのか？そういえば演奏シーンよりヴィシネフスカヤのオペラシーンのほうが多かったような気も。うーむ。ともあれ時系列もよくわからない、今流れてるのがいつの話なのかがいまいち把握しづらいのです、そんなわけで文脈を追うのに精一杯だったことは否めない。\n",
+        "title": "ロストロポーヴィチ 人生の祭典",
+        "short_review": "すいません門外漢です。"
+      },
+      "article_sha256_before": "f6cf03067b2efbb6b7faadb448e861ebb0bce0e18c22ef46bfe24f18d2b723a7",
+      "article_sha256_after": "306df1926e84be3f7b0801a8066f62fe072df0ed7bde0e5abd92d6b9329ab711",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ろすとろぽーゔぃちじんせいのさいてん",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-43ee320580a2b14c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-04-21",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-43ee320580a2b14c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アレクサンドル・ソクーロフ",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-43ee320580a2b14c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ムスティスラフ・ロストロポーヴィチ\nガリーナ・ヴィシネフスカヤ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドキュメンタリー\n音楽",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-43ee320580a2b14c-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チェリストとソプラノ歌手の夫婦が、演奏の記録や写真とともに、激動の時代を生きた半生を振り返る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "天皇を題材としたtheSunを撮ったソクーロフ監督のほかの作品を見てみようと思ってみてみたのですが、トークの内容というかトークに出てくる人がどんな人だかわからない時点でなんだか致命的、門外漢ですいません。思えばtheSunも天皇について主観的に述べられている気配で、積極的な興味がないと面白くなかったかもしれないねとふと思った次第です。というか知識がないと何がなんだかさっぱりわかりませなんだ。でなんとなくロストロポーヴィチというタイトルですが、これはむしろヴィシネフスカヤの映画じゃないのか？そういえば演奏シーンよりヴィシネフスカヤのオペラシーンのほうが多かったような気も。うーむ。ともあれ時系列もよくわからない、今流れてるのがいつの話なのかがいまいち把握しづらいのです、そんなわけで文脈を追うのに精一杯だったことは否めない。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロストロポーヴィチ 人生の祭典",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "すいません門外漢です。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/００７／黄金銃を持つ男_2007-11-11.md",
+      "title": "００７／黄金銃を持つ男",
+      "review_date": "2007-11-11 12:00:35",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1974,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ロジャー・ムーア",
+          "クリストファー・リー",
+          "ブリット・エクランド"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "007おうごんじゅうをもつおとこ",
+        "release_year": 1974,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ロジャー・ムーア",
+          "クリストファー・リー",
+          "ブリット・エクランド"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ],
+        "synopsis": "名前を刻んだ黄金の弾丸が届き、ジェームズ・ボンドは持ち主とみられる殺し屋を追い始める。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "一番大きな難点は、ストーリーがよくわからないことなのです。殺し屋スカラマンガを追って活動していることは間違いないんですが、行き当たりばったり過ぎるというか。だっていきなり少林寺（多分）の寺に紛れ込んだりスモウレスラーと組み合ったりセーラー服の闘う女子高生が出てきたりするんですよ、すっかりカオスで何がなんだかわかりません。敵の特徴が乳首が３つあるとか凄い意味不明。『誰も顔を知らないのにどうやって見分けるんだ』→『大丈夫だ、スカラマンガは乳首が3つある』ちょｗｗｗ全員脱がせろとかなんてGUY。そんなわけでストーリーは破綻してるしアクションもあんまり面白くはないんだが、斜め上すぎてちょっと笑ったのでプラマイ0。ずばりこの映画に副題つけるなら『迷走』。というか007っぽくないかも。それにしてもコネリーとは違ってムーアは女が死んでも全然気にしないのがなんだか面白かった、でもやっぱりコネリーのほうがすきだな。\n",
+        "title": "００７／黄金銃を持つ男",
+        "short_review": "なんかカオスｗ"
+      },
+      "article_sha256_before": "37716874b9673566b732a80595e5bd69e082890fac584266e7a252b816f7ab4d",
+      "article_sha256_after": "f502700bf27eabeb8f83e72dd2c045bc339f48e300cf6ecdd6542e3a5a99e334",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "007おうごんじゅうをもつおとこ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-dc1477e248ef3769-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "",
+              "year": "1974",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-dc1477e248ef3769-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ガイ・ハミルトン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-dc1477e248ef3769-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロジャー・ムーア\nクリストファー・リー\nブリット・エクランド",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-dc1477e248ef3769-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "名前を刻んだ黄金の弾丸が届き、ジェームズ・ボンドは持ち主とみられる殺し屋を追い始める。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "一番大きな難点は、ストーリーがよくわからないことなのです。殺し屋スカラマンガを追って活動していることは間違いないんですが、行き当たりばったり過ぎるというか。だっていきなり少林寺（多分）の寺に紛れ込んだりスモウレスラーと組み合ったりセーラー服の闘う女子高生が出てきたりするんですよ、すっかりカオスで何がなんだかわかりません。敵の特徴が乳首が３つあるとか凄い意味不明。『誰も顔を知らないのにどうやって見分けるんだ』→『大丈夫だ、スカラマンガは乳首が3つある』ちょｗｗｗ全員脱がせろとかなんてGUY。そんなわけでストーリーは破綻してるしアクションもあんまり面白くはないんだが、斜め上すぎてちょっと笑ったのでプラマイ0。ずばりこの映画に副題つけるなら『迷走』。というか007っぽくないかも。それにしてもコネリーとは違ってムーアは女が死んでも全然気にしないのがなんだか面白かった、でもやっぱりコネリーのほうがすきだな。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "００７／黄金銃を持つ男",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "なんかカオスｗ",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/００７／死ぬのは奴らだ_2007-11-11.md",
+      "title": "００７／死ぬのは奴らだ",
+      "review_date": "2007-11-11 00:00:48",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1973,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ロジャー・ムーア",
+          "ヤフェット・コットー",
+          "ジェーン・シーモア"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "007しぬのはやつらだ",
+        "release_year": 1973,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ロジャー・ムーア",
+          "ヤフェット・コットー",
+          "ジェーン・シーモア"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ],
+        "synopsis": "英国の諜報員が相次いで殺され、ジェームズ・ボンドは事件を追って米国とカリブ海へ向かう。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "中米っぽい不思議な雰囲気とブードゥーの怪しさから始まる007なのだが、最後までこのテンションで続けてほしかった、ジャズ葬とか謎の儀式とかもそうだしミスタービックの凄い影響力とか面白そうな部分は多かったのに、なんだか途中からだんだん普通な雰囲気になって残念だ。途中でボートのチェイスシーンがあるんですが、なんだか凄いｇｄｇｄしてるんですよね、もう少し簡潔にまとめればいいのにまさかアクションシーンが微妙とは思わなかった。ただ敵キャラが妙に面白かったりワニの頭を踏んずけるとか面白いシーンはそれなりに散見したりはするんだけど。しかし占い云々のせいなのか一番最初からボンドが密偵なのが筒抜けなんですよ、秘密グッズもそれほど出てこないし007的にいうと微妙かも。まあ全体的にもだらだらしてるのも確か。\n",
+        "title": "００７／死ぬのは奴らだ",
+        "short_review": "中盤でなんとなく中ダレ。"
+      },
+      "article_sha256_before": "95c1fa60a520465aeb831025b8de17aafe89a0681f83d0e06708898ac82fce4e",
+      "article_sha256_after": "32da07385102a576f18946b486ac1752ef24c90255c4c100cee4f1eb077ac705",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "007しぬのはやつらだ",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-4a2991392da5046f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1973-07-14",
+              "year": "1973",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-4a2991392da5046f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ガイ・ハミルトン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-4a2991392da5046f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ロジャー・ムーア\nヤフェット・コットー\nジェーン・シーモア",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-4a2991392da5046f-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "英国の諜報員が相次いで殺され、ジェームズ・ボンドは事件を追って米国とカリブ海へ向かう。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中米っぽい不思議な雰囲気とブードゥーの怪しさから始まる007なのだが、最後までこのテンションで続けてほしかった、ジャズ葬とか謎の儀式とかもそうだしミスタービックの凄い影響力とか面白そうな部分は多かったのに、なんだか途中からだんだん普通な雰囲気になって残念だ。途中でボートのチェイスシーンがあるんですが、なんだか凄いｇｄｇｄしてるんですよね、もう少し簡潔にまとめればいいのにまさかアクションシーンが微妙とは思わなかった。ただ敵キャラが妙に面白かったりワニの頭を踏んずけるとか面白いシーンはそれなりに散見したりはするんだけど。しかし占い云々のせいなのか一番最初からボンドが密偵なのが筒抜けなんですよ、秘密グッズもそれほど出てこないし007的にいうと微妙かも。まあ全体的にもだらだらしてるのも確か。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "００７／死ぬのは奴らだ",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "中盤でなんとなく中ダレ。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/約束_2007-11-10.md",
+      "title": "約束",
+      "review_date": "2007-11-10 12:00:59",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "アン・パンソク"
+        ],
+        "cast": [
+          "チャ・スンウォン",
+          "チョ・イジン"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "やくそく",
+        "release_year": 2007,
+        "directors": [
+          "アン・パンソク"
+        ],
+        "cast": [
+          "チャ・スンウォン",
+          "チョ・イジン"
+        ],
+        "genres": [
+          "ドラマ",
+          "恋愛"
+        ],
+        "synopsis": "恋人を北朝鮮に残したソノは韓国で暮らし始めるが、ある日、彼女が韓国に渡ってきたと知る。",
+        "rating": 3.0,
+        "rating_display": "3点",
+        "body": "今時なんでこんなベタな韓国ネタ持ってくるのか多少理解に苦しみますが、ああ、韓国映画ならこうだよね、っていうベタさ加減です。なんでしょうか、煮え切らない石坂浩二みたいなのが主人公なんですが、こいつがはっきりせずに後半になればなるほどキモいんです。なんというか多分自分がこうだったらいいだろうなという韓国人男の理想像な気がする。妻が働いて婚約者が・・・・って凄く自分勝手で都合がいいよなあ。いやまあ音信不通なら事情はわかるんだけど、そこを誤魔化したりせずうまくやるにしろ謝るにしろどちらかはっきりするのが大人の態度ではなかろうか。ストーリー的にもかなりgdgdしてるし肌に合う人は少ないような気もする。そもそも約束というタイトルからして哀韓的にはわりとツボ。というわけで多分興行は散々なんだろうけどこういうベタなの今日本では作らないから、非常にニッチな部分で需要はなくもない気がするのでプラマイ０。\n",
+        "title": "約束",
+        "short_review": "べたやな・・・。"
+      },
+      "article_sha256_before": "2ac1615749d39bbbaddc7fabf907a65f27c770c94ce19507c332cbc7a47f2a74",
+      "article_sha256_after": "9cc0203b425024253e4eeda9d5d247357d196841fdd73a8bcf99ef6fe1522408",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "やくそく",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-13c42cfcf2ecfe83-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-11-23",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-13c42cfcf2ecfe83-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アン・パンソク",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-13c42cfcf2ecfe83-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "チャ・スンウォン\nチョ・イジン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\n恋愛",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-13c42cfcf2ecfe83-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "恋人を北朝鮮に残したソノは韓国で暮らし始めるが、ある日、彼女が韓国に渡ってきたと知る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.0",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "今時なんでこんなベタな韓国ネタ持ってくるのか多少理解に苦しみますが、ああ、韓国映画ならこうだよね、っていうベタさ加減です。なんでしょうか、煮え切らない石坂浩二みたいなのが主人公なんですが、こいつがはっきりせずに後半になればなるほどキモいんです。なんというか多分自分がこうだったらいいだろうなという韓国人男の理想像な気がする。妻が働いて婚約者が・・・・って凄く自分勝手で都合がいいよなあ。いやまあ音信不通なら事情はわかるんだけど、そこを誤魔化したりせずうまくやるにしろ謝るにしろどちらかはっきりするのが大人の態度ではなかろうか。ストーリー的にもかなりgdgdしてるし肌に合う人は少ないような気もする。そもそも約束というタイトルからして哀韓的にはわりとツボ。というわけで多分興行は散々なんだろうけどこういうベタなの今日本では作らないから、非常にニッチな部分で需要はなくもない気がするのでプラマイ０。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "約束",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "べたやな・・・。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/００７／ゴールドフィンガー_2007-11-10.md",
+      "title": "００７／ゴールドフィンガー",
+      "review_date": "2007-11-10 00:00:48",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 1965,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ショーン・コネリー",
+          "ゲルト・フレーベ",
+          "オナー・ブラックマン"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "007ごーるどふぃんがー",
+        "release_year": 1965,
+        "directors": [
+          "ガイ・ハミルトン"
+        ],
+        "cast": [
+          "ショーン・コネリー",
+          "ゲルト・フレーベ",
+          "オナー・ブラックマン"
+        ],
+        "genres": [
+          "アクション",
+          "冒険"
+        ],
+        "synopsis": "金の密輸を調べるジェームズ・ボンドは、金取引で財を成したゴールドフィンガーに近づく。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "突っ込みどころが大量にあるし、意味のわからないシーンも多い。ベラベラ秘密を喋るとか、ボンド生きてるの物凄い偶然じゃんとか。そもそも生かしておく理由がよくわからない。死に様といえば全身金色に塗られて皮膚呼吸ができなくて死んだ女とか、そういえば女がたくさん出てくるんだけど凄い勢いで使い捨てられていく。使い捨てられていくといえば色々出てくる秘密道具もどうでもよさそうなところでどんどん使われていったり。うーむなんかその辺逆に斬新で消費社会を感じるんですが、ともかくそんなかんじでコロコロ死んだりするのでなかなかのボリュームで色々詰め込まれていててお腹いっぱいなかんじです。その辺の潔さが面白いのだけど。一番面白かった部分はメモを失敗するとか、ボンドがいまいち役に立たなくてパッとしないところだったりする。今から見るとそんなにアクションは素晴らしいわけではないものの当時としてはかなりのレベルではないんでしょうか。\n",
+        "title": "００７／ゴールドフィンガー",
+        "short_review": "突っ込みどころ多し。"
+      },
+      "article_sha256_before": "9377b81aaf8e9b9e7717e011322e3737c0a72e4043d36e2b86caa1878099898d",
+      "article_sha256_after": "9722721bb86524f4ccf490609b274f6bab87ca6e95f592884b8004974eae8bf4",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "007ごーるどふぃんがー",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-10074410dbf96428-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "1965-04-01",
+              "year": "1965",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-10074410dbf96428-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ガイ・ハミルトン",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-10074410dbf96428-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ショーン・コネリー\nゲルト・フレーベ\nオナー・ブラックマン",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "アクション\n冒険",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-10074410dbf96428-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "金の密輸を調べるジェームズ・ボンドは、金取引で財を成したゴールドフィンガーに近づく。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "突っ込みどころが大量にあるし、意味のわからないシーンも多い。ベラベラ秘密を喋るとか、ボンド生きてるの物凄い偶然じゃんとか。そもそも生かしておく理由がよくわからない。死に様といえば全身金色に塗られて皮膚呼吸ができなくて死んだ女とか、そういえば女がたくさん出てくるんだけど凄い勢いで使い捨てられていく。使い捨てられていくといえば色々出てくる秘密道具もどうでもよさそうなところでどんどん使われていったり。うーむなんかその辺逆に斬新で消費社会を感じるんですが、ともかくそんなかんじでコロコロ死んだりするのでなかなかのボリュームで色々詰め込まれていててお腹いっぱいなかんじです。その辺の潔さが面白いのだけど。一番面白かった部分はメモを失敗するとか、ボンドがいまいち役に立たなくてパッとしないところだったりする。今から見るとそんなにアクションは素晴らしいわけではないものの当時としてはかなりのレベルではないんでしょうか。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "００７／ゴールドフィンガー",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "突っ込みどころ多し。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ウェイトレス～おいしい人生のつくりかた_2007-11-09.md",
+      "title": "ウェイトレス～おいしい人生のつくりかた",
+      "review_date": "2007-11-09 12:00:19",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2007,
+        "directors": [
+          "エイドリアン・シェリー"
+        ],
+        "cast": [
+          "ケリー・ラッセル",
+          "ネイサン・フィリオン",
+          "シェリル・ハインズ"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "うぇいとれすおいしいじんせいのつくりかた",
+        "release_year": 2007,
+        "directors": [
+          "エイドリアン・シェリー"
+        ],
+        "cast": [
+          "ケリー・ラッセル",
+          "ネイサン・フィリオン",
+          "シェリル・ハインズ"
+        ],
+        "genres": [
+          "ドラマ",
+          "コメディ"
+        ],
+        "synopsis": "パイ作りが得意なウェイトレスのジェンナは、夫から離れる計画を立てているさなかに妊娠を知る。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "物凄くパイが美味そうです、腹減ってるときはキツイ。さて駄目な夫に悩まされるジェンナも含めて愛を求める人々の映画なのだが、ラブコメというよりはファミリーな印象か。愛というには色々唐突すぎてロマンスというよりコメディを感じてしまう作り。そこで効いてくるのが登場人物の顔芸なんですよ。ジェンナ含めてみんな特に美人っていう感じではなく、とても普通にその辺にいそうなちょっと綺麗な感じの人が驚愕したり落ち込んだりとその顔芸が凄く面白いのですね。ジェンナと産婦人科医とのやりとりは注目です。微妙に残念なのが登場人物の書き込みが薄い所か。夫のアールは駄目人間、っていうふれこみなんですけどそこまで駄目な感じでもなく、ジョーもそんなに嫌な奴でもなく。人物設定は特徴的で面白いのに少し勿体ない、でもライトに扱ってるからこその軽さなのかもしれない。もう一つ残念なのはパイが前面に出てないところか。ちょっとした場面転換に出てくるだけでパイ大会への情熱もさほどでもないし。でも重くもなく、普通っぽさがやけに親近感を抱かせるタイプのハートフル（？）な映画になってます。\n",
+        "title": "ウェイトレス～おいしい人生のつくりかた",
+        "short_review": "パイ美味そう。"
+      },
+      "article_sha256_before": "8256c7906791e8aad802e7cafec39b5ee48723a0d015720a458905d23ec31025",
+      "article_sha256_after": "72d880c579563538956c06e294aa591c2f720e0cf7e0ac8844894bb90f0fc230",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "うぇいとれすおいしいじんせいのつくりかた",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-0845806637e90471-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2007-11-17",
+              "year": "2007",
+              "region": "日本",
+              "kind": "劇場公開",
+              "video_through": false
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-0845806637e90471-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "エイドリアン・シェリー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-0845806637e90471-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ケリー・ラッセル\nネイサン・フィリオン\nシェリル・ハインズ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ドラマ\nコメディ",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [
+            "next30-0845806637e90471-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パイ作りが得意なウェイトレスのジェンナは、夫から離れる計画を立てているさなかに妊娠を知る。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "物凄くパイが美味そうです、腹減ってるときはキツイ。さて駄目な夫に悩まされるジェンナも含めて愛を求める人々の映画なのだが、ラブコメというよりはファミリーな印象か。愛というには色々唐突すぎてロマンスというよりコメディを感じてしまう作り。そこで効いてくるのが登場人物の顔芸なんですよ。ジェンナ含めてみんな特に美人っていう感じではなく、とても普通にその辺にいそうなちょっと綺麗な感じの人が驚愕したり落ち込んだりとその顔芸が凄く面白いのですね。ジェンナと産婦人科医とのやりとりは注目です。微妙に残念なのが登場人物の書き込みが薄い所か。夫のアールは駄目人間、っていうふれこみなんですけどそこまで駄目な感じでもなく、ジョーもそんなに嫌な奴でもなく。人物設定は特徴的で面白いのに少し勿体ない、でもライトに扱ってるからこその軽さなのかもしれない。もう一つ残念なのはパイが前面に出てないところか。ちょっとした場面転換に出てくるだけでパイ大会への情熱もさほどでもないし。でも重くもなく、普通っぽさがやけに親近感を抱かせるタイプのハートフル（？）な映画になってます。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ウェイトレス～おいしい人生のつくりかた",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "パイ美味そう。",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "file": "content/reviews/ビハインド_2007-11-09.md",
+      "title": "ビハインド",
+      "review_date": "2007-11-09 00:00:31",
+      "identity_decision": "same",
+      "human_confirmed": true,
+      "metadata_before": {
+        "release_year": null,
+        "directors": [],
+        "cast": [],
+        "genres": []
+      },
+      "metadata_after": {
+        "release_year": 2005,
+        "directors": [
+          "バンデット・ソンディー"
+        ],
+        "cast": [
+          "インシラ・チャロエンプーラ"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ]
+      },
+      "confirmed_updates": {
+        "reading": "びはいんど",
+        "release_year": 2005,
+        "directors": [
+          "バンデット・ソンディー"
+        ],
+        "cast": [
+          "インシラ・チャロエンプーラ"
+        ],
+        "genres": [
+          "ホラー",
+          "サスペンス"
+        ],
+        "synopsis": "麻薬を盗んで組織の人間に沼で殺されかけたポーは病院で妊娠していることを告げられる。そしてポーのもとに妊婦の幽霊が訪れるようになる。",
+        "rating": 3.5,
+        "rating_display": "3.5点",
+        "body": "ホラーとしてはとりたてて怖くないんだけど、サスペンス部分が妙に面白い。アジアの幽霊ってのは妙に肉体がガッシリしていて生々しく、どちらかというとゾンビな感じで、それはそれで確かに怖いのだけれども幽霊的な怖さはあまりない。この映画の面白いところは妊婦のまま死んだら化けて出るとか胎児が幸運のetcといった、日本とちょっと違ったタイの風習で、現地の人はそういった状況は怖いのかもしれないが、日本人的にはどちらかというと興味深くてさらに怖さが半減です、まあ面白くはあるんだけど。これだからアジアのホラーはやめられない。そんなわけでまあぶっちゃけ全体的にホラー映画としてのコレといった真新しい部分はないのだけれども、幽霊の怖さもサスペンスも最後の終わり方もなかなか悪くない映画です。\n",
+        "title": "ビハインド",
+        "short_review": "文化背景の違いで怖くないのかも。"
+      },
+      "article_sha256_before": "03441e63ba00f235817bfa360280995bfc5f6db4092ca8674787eca9ce79b9b2",
+      "article_sha256_after": "1fd93c642b0a6af397bcebd4669a8bf5228102cc0176961bfa50d9bbb8beee6a",
+      "body_bytes_unchanged": false,
+      "all_unapproved_bytes_unchanged": true,
+      "evidence": {
+        "reading": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "びはいんど",
+            "note": ""
+          }
+        },
+        "release_year": {
+          "source_refs": [
+            "next30-ba10e78a207443d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": {
+              "date": "2005-07-02",
+              "year": "2005",
+              "region": "日本",
+              "kind": "ビデオスルー",
+              "video_through": true
+            },
+            "note": ""
+          }
+        },
+        "directors": {
+          "source_refs": [
+            "next30-ba10e78a207443d1-source-2"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "バンデット・ソンディー",
+            "note": ""
+          }
+        },
+        "cast": {
+          "source_refs": [
+            "next30-ba10e78a207443d1-source-1"
+          ],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "インシラ・チャロエンプーラ",
+            "note": ""
+          }
+        },
+        "genres": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラー\nサスペンス",
+            "note": ""
+          }
+        },
+        "synopsis": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "麻薬を盗んで組織の人間に沼で殺されかけたポーは病院で妊娠していることを告げられる。そしてポーのもとに妊婦の幽霊が訪れるようになる。",
+            "note": ""
+          }
+        },
+        "rating": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "rating_display": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "3.5",
+            "note": ""
+          }
+        },
+        "body": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ホラーとしてはとりたてて怖くないんだけど、サスペンス部分が妙に面白い。アジアの幽霊ってのは妙に肉体がガッシリしていて生々しく、どちらかというとゾンビな感じで、それはそれで確かに怖いのだけれども幽霊的な怖さはあまりない。この映画の面白いところは妊婦のまま死んだら化けて出るとか胎児が幸運のetcといった、日本とちょっと違ったタイの風習で、現地の人はそういった状況は怖いのかもしれないが、日本人的にはどちらかというと興味深くてさらに怖さが半減です、まあ面白くはあるんだけど。これだからアジアのホラーはやめられない。そんなわけでまあぶっちゃけ全体的にホラー映画としてのコレといった真新しい部分はないのだけれども、幽霊の怖さもサスペンスも最後の終わり方もなかなか悪くない映画です。\n",
+            "note": ""
+          }
+        },
+        "title": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "ビハインド",
+            "note": ""
+          }
+        },
+        "short_review": {
+          "source_refs": [],
+          "user_decision": {
+            "decision": "confirmed",
+            "value": "文化背景の違いで怖くないのかも。",
+            "note": ""
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ref_id": "next30-7638641a7ef7a6a0-source-1",
+      "title": "ナヴァラサ｜作品資料",
+      "url": "https://lp.p.pia.jp/event/movie/13947/index.html",
+      "candidate_body": "劇場公開：2007-03-17。監督：サントーシュ・シヴァン。出演：シュエータ／クシュブー／ボビー・ダーリン。導入：叔父が女装する姿を見た少女シュエータは、叔父を追って南インドの村で開かれる祭りへ向かう。"
+    },
+    {
+      "ref_id": "next30-7638641a7ef7a6a0-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7638641a7ef7a6a0-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7638641a7ef7a6a0-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7638641a7ef7a6a0-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-83ae0d4483a83122-source-1",
+      "title": "蛇娘と白髪魔｜作品資料",
+      "url": "https://cinemakadokawa.jp/product/entry-5619.html",
+      "candidate_body": "劇場公開：1968-12-14。監督：湯浅憲明。出演：松井八知栄／高橋まゆみ／北原義郎。導入：両親の家に迎えられた小百合は、姉と名乗る少女と暮らし始めるが、家で怪しい出来事が相次ぐ。"
+    },
+    {
+      "ref_id": "next30-83ae0d4483a83122-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-83ae0d4483a83122-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-83ae0d4483a83122-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-83ae0d4483a83122-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6df21599a08b13af-source-1",
+      "title": "FUCK｜作品資料",
+      "url": "https://www.allcinema.net/cinema/pdf/328468",
+      "candidate_body": "劇場公開：2007-11-10。監督：スティーヴ・アンダーソン。出演：パット・ブーン／アイス・T／ビル・マー。導入：放送で規制される英語の俗語を手がかりに、米国の言葉と表現の自由を証言や映像資料から探る。"
+    },
+    {
+      "ref_id": "next30-6df21599a08b13af-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6df21599a08b13af-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6df21599a08b13af-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6df21599a08b13af-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0d33c70571b30eb6-source-1",
+      "title": "転々｜作品資料",
+      "url": "https://jfdb.jp/title/688",
+      "candidate_body": "劇場公開：2007-11-10。監督：三木聡。出演：オダギリジョー／三浦友和／小泉今日子／吉高由里子。導入：借金を抱えた大学生の文哉は、借金を帳消しにする条件で取り立て屋の福原と東京を歩き始める。"
+    },
+    {
+      "ref_id": "next30-0d33c70571b30eb6-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0d33c70571b30eb6-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0d33c70571b30eb6-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0d33c70571b30eb6-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d1f8c1cf165804a1-source-1",
+      "title": "フェーンチャン　ぼくの恋人｜作品資料",
+      "url": "https://movie.jorudan.co.jp/film/37021/",
+      "candidate_body": "劇場公開：2005-03-19。監督：コムグリット・ドゥリーウィモン／ウィッタヤー・トーンユーヨン／ソンヨット・スックマークアナン／ニティワット・タラートーン／アディソーン・ドゥリーシリカセーム／ウイッチャヤー・ゴージウ。出演：チャーリー・タライラット／フォーカス・ジラクン。導入：幼なじみの結婚を知った青年が、子どもの頃に彼女と遊んだ日々や仲間たちとの出来事を思い出す。"
+    },
+    {
+      "ref_id": "next30-d1f8c1cf165804a1-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d1f8c1cf165804a1-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d1f8c1cf165804a1-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d1f8c1cf165804a1-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fdb5a4f4e0af4aff-source-1",
+      "title": "ホワイト・バレンタイン｜作品資料",
+      "url": "https://www.allcinema.net/cinema/pdf/320203",
+      "candidate_body": "劇場公開：2004-06-19。監督：ヤン・ユノ。出演：チョン・ジヒョン／パク・シニャン。導入：祖父の本屋を手伝う少女ジョンミンは、亡くなった恋人への手紙を送り続ける青年と出会う。"
+    },
+    {
+      "ref_id": "next30-fdb5a4f4e0af4aff-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fdb5a4f4e0af4aff-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fdb5a4f4e0af4aff-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fdb5a4f4e0af4aff-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c03ae7726129ef9d-source-1",
+      "title": "ウォーターホース｜作品資料",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=38753",
+      "candidate_body": "劇場公開：2008-02-01。監督：ジェイ・ラッセル。出演：アレックス・エテル／エミリー・ワトソン／ベン・チャップリン。導入：湖のほとりで不思議な卵を見つけた少年アンガスは、そこから生まれた生き物をひそかに育て始める。"
+    },
+    {
+      "ref_id": "next30-c03ae7726129ef9d-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c03ae7726129ef9d-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c03ae7726129ef9d-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-c03ae7726129ef9d-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3ce6d269ad2fc87b-source-1",
+      "title": "椿三十郎｜作品資料",
+      "url": "https://jfdb.jp/title/796",
+      "candidate_body": "劇場公開：2007-12-01。監督：森田芳光。出演：織田裕二／豊川悦司／松山ケンイチ／中村玉緒。導入：藩の不正を正そうと集まった若侍たちの前に一人の浪人が現れ、彼らの計画に手を貸す。"
+    },
+    {
+      "ref_id": "next30-3ce6d269ad2fc87b-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3ce6d269ad2fc87b-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3ce6d269ad2fc87b-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-3ce6d269ad2fc87b-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d99c4f98e2f3682f-source-1",
+      "title": "ゾンビーノ｜作品資料",
+      "url": "https://cinema.eiga.com/movie/34278/",
+      "candidate_body": "劇場公開：2007-10-27。監督：アンドリュー・カリー。出演：ビリー・コノリー／キャリー＝アン・モス／ディラン・ベイカー。導入：ゾンビを家庭で飼える世界で、友達のいない少年ティミーは家に来たゾンビをファイドと名づける。"
+    },
+    {
+      "ref_id": "next30-d99c4f98e2f3682f-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d99c4f98e2f3682f-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d99c4f98e2f3682f-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-d99c4f98e2f3682f-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0adba9155b2000a3-source-1",
+      "title": "Little DJ 小さな恋の物語｜作品資料",
+      "url": "https://www.amuse.co.jp/about/audiovisualcontent/?k=Little+DJ&y1=2007&y2=2007",
+      "candidate_body": "劇場公開：2007-12-15。監督：永田琴。出演：神木隆之介／福田麻由子／広末涼子。導入：入院した少年が院内放送で好きな音楽をかけ始め、同じ病院にいる少女と親しくなっていく。"
+    },
+    {
+      "ref_id": "next30-0adba9155b2000a3-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0adba9155b2000a3-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0adba9155b2000a3-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0adba9155b2000a3-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bbcedf5d2a67d946-source-1",
+      "title": "続・少林寺三十六房｜作品資料",
+      "url": "https://paramount.jp/search/detail.php?id=8692",
+      "candidate_body": "監督：ラウ・カーリョン。出演：リュー・チャーフィー／チン・チュウ／ワン・ロンウェイ。導入：染物工房の仲間を助けたい青年が少林寺を訪れ、足場を組む作業を通して拳法を身につけていく。"
+    },
+    {
+      "ref_id": "next30-bbcedf5d2a67d946-source-2",
+      "title": "続・少林寺三十六房｜国内DVD",
+      "url": "https://store-tsutaya.tsite.jp/search/item/sell_dvd/10033969/4988003959548",
+      "candidate_body": "国内DVD発売日：2004年5月8日。"
+    },
+    {
+      "ref_id": "next30-bbcedf5d2a67d946-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bbcedf5d2a67d946-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-bbcedf5d2a67d946-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-47d7d0ec8045e09a-source-1",
+      "title": "チザム｜作品資料",
+      "url": "https://eiga.com/movie/46703/",
+      "candidate_body": "劇場公開：1970-10-31。監督：アンドリュー・V・マクラグレン。出演：ジョン・ウェイン／ベン・ジョンソン／フォレスト・タッカー。導入：ニューメキシコに大牧場を築いたチザムは、町の商売を独占しようとするマーフィーと対立する。"
+    },
+    {
+      "ref_id": "next30-47d7d0ec8045e09a-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-47d7d0ec8045e09a-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-47d7d0ec8045e09a-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-47d7d0ec8045e09a-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ec1ee3b229584523-source-1",
+      "title": "妖怪百物語｜作品資料",
+      "url": "https://cinemakadokawa.jp/product/entry-5357.html",
+      "candidate_body": "劇場公開：1968-03-20。監督：安田公義。出演：藤巻潤／高田美和／平泉征。導入：長屋を取り壊そうとする商人が怪談の会を開き、語り終えた後に行うはずのまじないを省いてしまう。"
+    },
+    {
+      "ref_id": "next30-ec1ee3b229584523-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ec1ee3b229584523-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ec1ee3b229584523-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ec1ee3b229584523-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6eca2da4fce222b1-source-1",
+      "title": "名探偵コナン 瞳の中の暗殺者｜作品資料",
+      "url": "https://www.tms-e.co.jp/alltitles/conan/087304.html",
+      "candidate_body": "劇場公開：2000-04-22。監督：こだま兼嗣。出演：高山みなみ／山崎和佳奈／神谷明。導入：警察官を狙った事件の現場で蘭が記憶を失い、コナンは蘭に迫る危険を防ぎながら犯人を追う。"
+    },
+    {
+      "ref_id": "next30-6eca2da4fce222b1-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6eca2da4fce222b1-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6eca2da4fce222b1-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-6eca2da4fce222b1-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a9d06655fa82b1da-source-1",
+      "title": "キャプテン｜作品資料",
+      "url": "https://jfdb.jp/title/853",
+      "candidate_body": "劇場公開：2007-08-18。監督：室賀厚。出演：布施紀行／筧利夫／宮崎美子。導入：墨谷二中に転校した谷口は、前の学校が野球の名門だったことから、新しい野球部で期待をかけられる。"
+    },
+    {
+      "ref_id": "next30-a9d06655fa82b1da-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a9d06655fa82b1da-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a9d06655fa82b1da-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a9d06655fa82b1da-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7da470c11e6307d4-source-1",
+      "title": "クローズzero｜作品資料",
+      "url": "https://jfdb.jp/title/747",
+      "candidate_body": "劇場公開：2007-10-27。監督：三池崇史。出演：小栗旬／山田孝之／やべきょうすけ。導入：不良が集まる鈴蘭高校に転入した滝谷源治は、仲間を集めて校内で勢力を持つ芹沢に挑む。"
+    },
+    {
+      "ref_id": "next30-7da470c11e6307d4-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7da470c11e6307d4-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7da470c11e6307d4-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-7da470c11e6307d4-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-50963028b33dac45-source-1",
+      "title": "暖簾｜作品資料",
+      "url": "https://eiga.com/movie/38634/",
+      "candidate_body": "劇場公開：1958-06-15。監督：川島雄三。出演：森繁久彌／山田五十鈴／乙羽信子。導入：大阪の昆布屋に奉公に入った吾平が、やがて暖簾分けを許され、自分の店を任されるようになる。"
+    },
+    {
+      "ref_id": "next30-50963028b33dac45-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-50963028b33dac45-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-50963028b33dac45-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-50963028b33dac45-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-76af8cc903317a9c-source-1",
+      "title": "アワーミュージック｜作品資料",
+      "url": "https://eiga.com/movie/1584/",
+      "candidate_body": "劇場公開：2005-10-15。監督：ジャン＝リュック・ゴダール。出演：ジャン＝リュック・ゴダール／ナード・デュー。導入：戦争の映像に続いてサラエヴォに集う人々の対話を映し、戦争と映画をめぐる問いを投げかける。"
+    },
+    {
+      "ref_id": "next30-76af8cc903317a9c-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-76af8cc903317a9c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-76af8cc903317a9c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-76af8cc903317a9c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fefaa0eb80607941-source-1",
+      "title": "ディスタービア｜作品資料",
+      "url": "https://eiga.com/movie/1770/",
+      "candidate_body": "劇場公開：2007-11-10。監督：D・J・カルーソー。出演：シャイア・ラブーフ／サラ・ローマー／デヴィッド・モース。導入：外出を禁じられた少年ケールは近所を観察して過ごすうち、隣人が殺人に関わったのではと疑い始める。"
+    },
+    {
+      "ref_id": "next30-fefaa0eb80607941-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fefaa0eb80607941-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fefaa0eb80607941-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-fefaa0eb80607941-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-eee4964026c7ceb9-source-1",
+      "title": "カーサ・エスペランサ　赤ちゃんたちの家｜作品資料",
+      "url": "https://cinema.eiga.com/movie/52245/",
+      "candidate_body": "劇場公開：2004-07-31。監督：ジョン・セイルズ。出演：ダリル・ハンナ／マギー・ギレンホール／リリ・テイラー。導入：養子を迎えるために南米に来た六人の女性が、手続きを待ちながらそれぞれの事情を語り始める。"
+    },
+    {
+      "ref_id": "next30-eee4964026c7ceb9-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-eee4964026c7ceb9-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-eee4964026c7ceb9-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-eee4964026c7ceb9-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b940118997a89127-source-1",
+      "title": "ある愛の風景｜作品資料",
+      "url": "https://eiga.com/movie/34267/",
+      "candidate_body": "劇場公開：2007-12-01。監督：スサンネ・ビア。出演：コニー・ニールセン／ウルリク・トムセン／ニコライ・リー・コス。導入：アフガニスタンへ派遣された兄の消息が途絶え、弟は残された兄の妻と子どもたちを支え始める。"
+    },
+    {
+      "ref_id": "next30-b940118997a89127-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b940118997a89127-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b940118997a89127-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b940118997a89127-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b23c3bb2488691bb-source-1",
+      "title": "肉体の悪魔｜作品資料",
+      "url": "https://www.kinenote.com/sp/public/cinema/detail.aspx?cinema_id=14205",
+      "candidate_body": "劇場公開：1952-11-08。監督：クロード・オータン＝ララ。出演：ジェラール・フィリップ／ミシュリーヌ・プレール。導入：第一次大戦下のフランスで、青年フランソワは夫が戦地にいるマルトと出会い、彼女にひかれていく。"
+    },
+    {
+      "ref_id": "next30-b23c3bb2488691bb-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b23c3bb2488691bb-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b23c3bb2488691bb-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-b23c3bb2488691bb-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a392249f3f380756-source-1",
+      "title": "フロム・ザ・ダークサイド ３つの闇の物語｜作品資料",
+      "url": "https://www.allcinema.net/cinema/20766",
+      "candidate_body": "劇場公開：1990-06-01。監督：ジョン・ハリソン。出演：デボラ・ハリー／マシュー・ローレンス／クリスチャン・スレイター。導入：閉じ込められた少年が料理されるのを先延ばしにしようと、捕らえた女に三つの怪談を語る。"
+    },
+    {
+      "ref_id": "next30-a392249f3f380756-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a392249f3f380756-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a392249f3f380756-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-a392249f3f380756-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-43ee320580a2b14c-source-1",
+      "title": "ロストロポーヴィチ　人生の祭典｜作品資料",
+      "url": "https://cinema.eiga.com/movie/33941/",
+      "candidate_body": "劇場公開：2007-04-21。監督：アレクサンドル・ソクーロフ。出演：ムスティスラフ・ロストロポーヴィチ／ガリーナ・ヴィシネフスカヤ。導入：チェリストとソプラノ歌手の夫婦が、演奏の記録や写真とともに、激動の時代を生きた半生を振り返る。"
+    },
+    {
+      "ref_id": "next30-43ee320580a2b14c-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-43ee320580a2b14c-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-43ee320580a2b14c-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-43ee320580a2b14c-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-dc1477e248ef3769-source-1",
+      "title": "００７／黄金銃を持つ男｜作品資料",
+      "url": "https://www.kinenote.com/main/public/cinema/detail.aspx?cinema_id=12522",
+      "candidate_body": "劇場公開：1974。監督：ガイ・ハミルトン。出演：ロジャー・ムーア／クリストファー・リー／ブリット・エクランド。導入：名前を刻んだ黄金の弾丸が届き、ジェームズ・ボンドは持ち主とみられる殺し屋を追い始める。"
+    },
+    {
+      "ref_id": "next30-dc1477e248ef3769-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-dc1477e248ef3769-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-dc1477e248ef3769-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-dc1477e248ef3769-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4a2991392da5046f-source-1",
+      "title": "００７／死ぬのは奴らだ｜作品資料",
+      "url": "https://eiga.com/movie/46184/",
+      "candidate_body": "劇場公開：1973-07-14。監督：ガイ・ハミルトン。出演：ロジャー・ムーア／ヤフェット・コットー／ジェーン・シーモア。導入：英国の諜報員が相次いで殺され、ジェームズ・ボンドは事件を追って米国とカリブ海へ向かう。"
+    },
+    {
+      "ref_id": "next30-4a2991392da5046f-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4a2991392da5046f-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4a2991392da5046f-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-4a2991392da5046f-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-13c42cfcf2ecfe83-source-1",
+      "title": "約束｜作品資料",
+      "url": "https://eiga.com/movie/53081/",
+      "candidate_body": "劇場公開：2007-11-23。監督：アン・パンソク。出演：チャ・スンウォン／チョ・イジン。導入：恋人を北朝鮮に残したソノは韓国で暮らし始めるが、ある日、彼女が韓国に渡ってきたと知る。"
+    },
+    {
+      "ref_id": "next30-13c42cfcf2ecfe83-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-13c42cfcf2ecfe83-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-13c42cfcf2ecfe83-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-13c42cfcf2ecfe83-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-10074410dbf96428-source-1",
+      "title": "００７／ゴールドフィンガー｜作品資料",
+      "url": "https://eiga.com/movie/46179/",
+      "candidate_body": "劇場公開：1965-04-01。監督：ガイ・ハミルトン。出演：ショーン・コネリー／ゲルト・フレーベ／オナー・ブラックマン。導入：金の密輸を調べるジェームズ・ボンドは、金取引で財を成したゴールドフィンガーに近づく。"
+    },
+    {
+      "ref_id": "next30-10074410dbf96428-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-10074410dbf96428-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-10074410dbf96428-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-10074410dbf96428-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0845806637e90471-source-1",
+      "title": "ウェイトレス～おいしい人生のつくりかた｜作品資料",
+      "url": "https://www.20thcenturystudios.jp/movies/waitress",
+      "candidate_body": "劇場公開：2007-11-17。監督：エイドリアン・シェリー。出演：ケリー・ラッセル／ネイサン・フィリオン／シェリル・ハインズ。導入：パイ作りが得意なウェイトレスのジェンナは、夫から離れる計画を立てているさなかに妊娠を知る。"
+    },
+    {
+      "ref_id": "next30-0845806637e90471-source-2",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0845806637e90471-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0845806637e90471-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-0845806637e90471-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ba10e78a207443d1-source-1",
+      "title": "ビハインド｜作品資料",
+      "url": "https://www.oricon.co.jp/prof/367373/products/599438/1/",
+      "candidate_body": "ビデオスルー：2005-07-02。出演：インシラ・チャロエンプーラ。"
+    },
+    {
+      "ref_id": "next30-ba10e78a207443d1-source-2",
+      "title": "ビハインド｜作品情報",
+      "url": "https://eiga.com/movie/25656/",
+      "candidate_body": "タイの2003年作品 The Unborn。監督：バンデット・ソンディー。出演：インシラ・チャロエンプーラ。"
+    },
+    {
+      "ref_id": "next30-ba10e78a207443d1-source-3",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ba10e78a207443d1-source-4",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    },
+    {
+      "ref_id": "next30-ba10e78a207443d1-source-5",
+      "title": "",
+      "url": "",
+      "candidate_body": ""
+    }
+  ],
+  "image_assets": []
+}
